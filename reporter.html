@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editorial Signal · Mes sujets du jour</title>
+    <meta name="description" content="Vue rédacteur — mes sujets assignés du jour" />
+    <meta name="theme-color" content="#0F1117" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,30..100,0..1;1,9..144,300..600,30..100,0..1&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="styles/tokens.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="styles/reporter.css" />
+  </head>
+  <body>
+    <header class="shell-header">
+      <a class="brand" href="index.html">
+        <span class="brand__mark">◐</span>
+        <span class="brand__name">Editorial<em>Signal</em></span>
+      </a>
+      <nav class="shell-nav" aria-label="Navigation principale">
+        <a class="shell-nav__link" href="index.html">Briefing du jour</a>
+        <a class="shell-nav__link is-active" href="reporter.html">Mes sujets</a>
+        <a class="shell-nav__link" href="#">Historique</a>
+        <a class="shell-nav__link" href="#">Paramètres</a>
+      </nav>
+      <div class="shell-user">
+        <span class="shell-user__role">Rédactrice · People</span>
+        <span class="shell-user__avatar">SM</span>
+      </div>
+    </header>
+
+    <main class="reporter-page content">
+      <section class="reporter-hero">
+        <div>
+          <span class="reporter-hero__eyebrow">Lundi 18 mai 2026 · 08:23</span>
+          <h1 class="reporter-hero__greeting">
+            Bonjour <em id="greeting-name">Sophie</em>
+          </h1>
+          <p class="reporter-hero__deck">
+            Tu as <strong><span id="stat-todo">—</span> sujets à traiter</strong>
+            aujourd'hui, dont <strong><span id="stat-high">—</span> à fort signal</strong>.
+            Tout est priorisé par Signal Score.
+          </p>
+        </div>
+        <div class="reporter-hero__stats">
+          <div class="stat-card-row">
+            <div class="stat-card">
+              <div class="stat-card__value stat-card__value--success" id="stat-done-display">3</div>
+              <div class="stat-card__label">Sujets assignés</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card__value">92</div>
+              <div class="stat-card__label">Score thématique</div>
+              <span class="stat-card__delta">+4</span>
+            </div>
+          </div>
+          <div class="stat-card-row">
+            <div class="stat-card" style="min-width: 100%">
+              <div class="stat-card__value">14</div>
+              <div class="stat-card__label">Articles Discover · 30 j</div>
+              <span class="stat-card__delta">+2 vs 30 j préc.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mytopics-section">
+        <div class="mytopics-section__head">
+          <h2 class="mytopics-section__title">Mes sujets aujourd'hui</h2>
+          <span class="sujet-list__hint">Triés par Signal Score</span>
+        </div>
+        <ul class="mytopics-list" id="mytopics-list"></ul>
+
+        <div class="mytopics-done" id="done-block" style="display: none">
+          <p class="mytopics-done__title">Tout est traité.</p>
+          <p class="mytopics-done__hint">
+            Beau matin Sophie · le briefing de demain arrive vers 7 h 45.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="scripts/reporter.js"></script>
+  </body>
+</html>

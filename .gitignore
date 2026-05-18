@@ -1,0 +1,56 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# Python (for future FastAPI backend, phase 1)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node (for future Next.js, phase 1)
+node_modules/
+.next/
+out/
+.turbo/
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Local data / logs
+*.log
+logs/
+data/
+exports/
+*.sqlite
+*.db
+
+# Test / coverage
+coverage/
+.nyc_output/
+htmlcov/
+
+# OS / misc
+Thumbs.db
+*.bak
