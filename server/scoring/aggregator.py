@@ -304,13 +304,16 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
             f"MSN · {article.get('source', 'MSN')} — {article['title']}"
         )
 
+    rounded = int(round(breakdown.total))
     return {
         "id": f"s{rank:02d}",
         "rank": rank,
         "title": article["title"],
         "theme": article.get("category") or "actualité",
-        "score": int(round(breakdown.total)),
-        "tier": scoring.tier_from_score(breakdown.total),
+        "score": rounded,
+        # Classement basé sur le score visible : un sujet affiché à 50
+        # doit être en "high" même si son exact est 49.5
+        "tier": scoring.tier_from_score(rounded),
         "rationale": rationale,
         "signals": signals,
         "sources": sources_detail,

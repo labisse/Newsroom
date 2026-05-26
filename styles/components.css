@@ -548,6 +548,48 @@
 }
 
 /* ===================================================================
+   States — loading / error pour la liste sujets
+   =================================================================== */
+
+.briefing-state {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  background: var(--surface-1);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+  color: var(--text-3);
+}
+
+.briefing-state strong {
+  color: var(--text-1);
+  font-weight: 500;
+}
+
+.briefing-state--error {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+  border-color: var(--danger);
+  background: var(--danger-tint);
+}
+
+.briefing-state__spinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--border-strong);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin var(--duration-slow) linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ===================================================================
    Responsive
    =================================================================== */
 

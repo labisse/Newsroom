@@ -1,8 +1,14 @@
 /* ===================================================================
    Daily Briefing — rendering + interactions
-   =================================================================== */
+   ===================================================================
 
-import { sujets, tierFromScore, tierLabel } from "./data.js";
+   Les sujets viennent désormais du backend (data/sujets/latest.json).
+   Le pool de rédacteurs reste mock le temps que le byline mapper
+   Phase 1 produise data/byline/me.json.
+*/
+
+import { tierFromScore, tierLabel } from "./data.js";
+import { loadSujets, formatFreshness, formatLongDate } from "./api.js";
 import {
   h,
   renderScore,
@@ -80,7 +86,7 @@ const renderDetail = (sujet) => {
     ),
   );
 
-  const refs = sujet.refs.length
+  const refs = sujet.refs?.length
     ? h(
         "div",
         { class: "detail-sources", style: "margin-top: 20px" },
@@ -89,7 +95,18 @@ const renderDetail = (sujet) => {
           h(
             "div",
             { class: "detail-source-row", style: "grid-template-columns: 1fr" },
-            h("span", { class: "detail-source-row__name" }, r),
+            sujet.msn_url
+              ? h(
+                  "a",
+                  {
+                    class: "detail-source-row__name",
+                    href: sujet.msn_url,
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                  },
+                  r,
+                )
+              : h("span", { class: "detail-source-row__name" }, r),
           ),
         ),
       )
@@ -182,12 +199,72 @@ const toast = (message) => {
   }, 2400);
 };
 
+/* ----- States: loading / error ----- */
+
+const renderLoading = () =>
+  h(
+    "li",
+    { class: "briefing-state" },
+    h("span", { class: "briefing-state__spinner" }),
+    "Chargement des signaux…",
+  );
+
+const renderError = (message) =>
+  h(
+    "li",
+    { class: "briefing-state briefing-state--error" },
+    h("strong", {}, "Données indisponibles."),
+    h("span", {}, message),
+  );
+
+/* ----- Counts UI helpers ----- */
+
+const setCounts = (sujets) => {
+  const counts = sujets.reduce(
+    (acc, s) => {
+      acc[tierFromScore(s.score)] += 1;
+      return acc;
+    },
+    { high: 0, medium: 0, low: 0 },
+  );
+  document.querySelector("#count-total").textContent = String(sujets.length);
+  document.querySelector("#count-high").textContent = String(counts.high);
+  document.querySelector("#count-medium").textContent = String(counts.medium);
+  document.querySelector("#count-low").textContent = String(counts.low);
+};
+
+const setFreshness = (generatedAt) => {
+  const el = document.querySelector("#briefing-freshness");
+  if (el && generatedAt) {
+    el.textContent = `Pipeline actif · ${formatFreshness(generatedAt)}`;
+  }
+  const dateEl = document.querySelector("#briefing-date");
+  if (dateEl && generatedAt) {
+    const long = formatLongDate(generatedAt);
+    dateEl.textContent = long ? long.charAt(0).toUpperCase() + long.slice(1) : "";
+  }
+};
+
 /* ----- Mount ----- */
 
-const mount = () => {
-  const sorted = [...sujets].sort((a, b) => b.score - a.score);
-
+const mount = async () => {
   const list = document.querySelector("#sujet-list");
+  list.innerHTML = "";
+  list.appendChild(renderLoading());
+
+  let data;
+  try {
+    data = await loadSujets();
+  } catch (err) {
+    list.innerHTML = "";
+    list.appendChild(renderError(err.message || "Erreur inconnue."));
+    return;
+  }
+
+  const { sujets, generatedAt } = data;
+  list.innerHTML = "";
+
+  const sorted = [...sujets].sort((a, b) => b.score - a.score);
   const buckets = { high: [], medium: [], low: [] };
   for (const s of sorted) buckets[tierFromScore(s.score)].push(s);
 
@@ -197,20 +274,9 @@ const mount = () => {
     for (const s of buckets[tier]) list.appendChild(renderSujet(s));
   }
 
-  // Update counts
-  const counts = sorted.reduce(
-    (acc, s) => {
-      acc[tierFromScore(s.score)] += 1;
-      return acc;
-    },
-    { high: 0, medium: 0, low: 0 },
-  );
-  document.querySelector("#count-total").textContent = String(sorted.length);
-  document.querySelector("#count-high").textContent = String(counts.high);
-  document.querySelector("#count-medium").textContent = String(counts.medium);
-  document.querySelector("#count-low").textContent = String(counts.low);
+  setCounts(sorted);
+  setFreshness(generatedAt);
 
-  // Export wired to a toast
   document.querySelector("#export-btn")?.addEventListener("click", () => {
     toast("Briefing exporté (PDF + lien partage)");
   });

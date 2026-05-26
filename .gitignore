@@ -11,6 +11,7 @@
 *.swo
 *~
 .cursor/
+.claude/
 
 # Python (for future FastAPI backend, phase 1)
 __pycache__/

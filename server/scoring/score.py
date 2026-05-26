@@ -152,6 +152,27 @@ class ScoreBreakdown:
         }
 
 
+def _convergence_bonus(*subscores: float, threshold: float = 20.0) -> float:
+    """Bonus de convergence multi-signaux externes.
+
+    L'intuition : un sujet confirmé par plusieurs sources externes
+    (Trends, Wiki, X) est plus actionnable qu'un sujet à un seul
+    signal fort. On ne compte que les signaux externes — pas MSN qui
+    est notre base.
+
+    Barème :
+      - 1 signal externe   → 0
+      - 2 signaux externes → +5
+      - 3 signaux externes → +12
+    """
+    confirmed = sum(1 for s in subscores if s >= threshold)
+    if confirmed >= 3:
+        return 12.0
+    if confirmed == 2:
+        return 5.0
+    return 0.0
+
+
 def composite_score(
     *,
     trends: float = 0.0,
@@ -159,20 +180,28 @@ def composite_score(
     msn: float = 0.0,
     x: float = 0.0,
 ) -> ScoreBreakdown:
-    """Combine les 4 sous-scores selon les pondérations."""
-    total = (
+    """Combine les 4 sous-scores selon les pondérations + bonus convergence."""
+    weighted = (
         WEIGHTS["trends"] * trends
         + WEIGHTS["wiki"] * wiki
         + WEIGHTS["msn"] * msn
         + WEIGHTS["x"] * x
     )
+    # Le bonus s'applique aux signaux externes uniquement (pas MSN)
+    bonus = _convergence_bonus(trends, wiki, x)
+    total = min(100.0, weighted + bonus)
     return ScoreBreakdown(trends=trends, wiki=wiki, msn=msn, x=x, total=total)
 
 
 def tier_from_score(score: float) -> str:
-    """Mêmes seuils que côté front (cf scripts/data.js)."""
-    if score >= 70:
+    """Mêmes seuils que côté front (cf scripts/data.js).
+
+    Calibrés pour le POC avec les 4 sources actuelles. Le CdC vise des
+    seuils 70/40 mais c'est calibré pour 5 sources (avec GSC + Google
+    News dédiés). En attendant la Phase 1, on relâche.
+    """
+    if score >= 50:
         return "high"
-    if score >= 40:
+    if score >= 30:
         return "medium"
     return "low"

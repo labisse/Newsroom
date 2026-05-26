@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T22:14:40Z",
+  "generated_at": "2026-05-26T22:25:55Z",
   "sources_used": {
     "msn": {
       "fetched_at": "2026-05-26T22:03:06Z",
@@ -28,9 +28,9 @@
     "candidates_scored": 100,
     "kept": 30,
     "by_tier": {
-      "high": 0,
-      "medium": 3,
-      "low": 27
+      "high": 2,
+      "medium": 4,
+      "low": 24
     }
   },
   "sujets": [
@@ -40,7 +40,7 @@
       "title": "Mort de Pierre Deny : sa compagne, elle aussi célèbre, lui rend un bel hommage",
       "theme": "divertissement",
       "score": 50,
-      "tier": "medium",
+      "tier": "high",
       "rationale": "Forte audience Wikipedia (103 484 vues/jour) · engagement MSN élevé.",
       "signals": [
         {
@@ -95,8 +95,8 @@
       "rank": 2,
       "title": "« Je ne soutiendrai jamais un parti qui prône la haine » : Gilles Lellouche réagit après la polémique « Moulin » à Cannes",
       "theme": "actualite",
-      "score": 45,
-      "tier": "medium",
+      "score": 50,
+      "tier": "high",
       "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · engagement MSN élevé.",
       "signals": [
         {
@@ -142,7 +142,7 @@
         "wiki": 23.7,
         "msn": 100.0,
         "x": 0.0,
-        "total": 44.5
+        "total": 49.5
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/je-ne-soutiendrai-jamais-un-parti-qui-prône-la-haine-gilles-lellouche-réagit-après-la-polémique-moulin-à-cannes/ar-AA2450kr?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.22b9a560f1a24981a248beb047266c2f&pid=Wdp",
@@ -213,7 +213,7 @@
       "title": "Guerre au Moyen-Orient : Les Etats-Unis annoncent avoir frappé des sites de lancement de missiles en Iran",
       "theme": "actualite",
       "score": 37,
-      "tier": "low",
+      "tier": "medium",
       "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · engagement MSN élevé.",
       "signals": [
         {
@@ -274,7 +274,7 @@
       "title": "Viens chez moi, j’habite chez une copine : après Michel Blanc, décès à 80 ans de la comédienne Thérèse Liotard",
       "theme": "divertissement",
       "score": 36,
-      "tier": "low",
+      "tier": "medium",
       "rationale": "Présent dans le top Wikipedia · engagement MSN élevé.",
       "signals": [
         {
@@ -330,7 +330,7 @@
       "title": "« Ce n’est pas un luxe, c’est vital » : voici le budget que les retraités doivent toucher pour vivre dignement en France en mai 2026",
       "theme": "lifestyle",
       "score": 32,
-      "tier": "low",
+      "tier": "medium",
       "rationale": "Présent sur Google Trends · engagement MSN élevé.",
       "signals": [
         {
