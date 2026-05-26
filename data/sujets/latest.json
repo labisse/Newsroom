@@ -1,0 +1,1618 @@
+{
+  "generated_at": "2026-05-26T22:14:40Z",
+  "sources_used": {
+    "msn": {
+      "fetched_at": "2026-05-26T22:03:06Z",
+      "count": 100
+    },
+    "wikimedia": {
+      "fetched_at": "2026-05-26T22:03:13Z",
+      "count": 988
+    },
+    "google_trends": {
+      "fetched_at": "2026-05-26T22:08:10Z",
+      "count": 261
+    },
+    "x_trends": {
+      "fetched_at": "2026-05-26T22:03:14Z",
+      "count": 215
+    }
+  },
+  "weights": {
+    "trends": 0.35,
+    "wiki": 0.25,
+    "msn": 0.25,
+    "x": 0.15
+  },
+  "totals": {
+    "candidates_scored": 100,
+    "kept": 30,
+    "by_tier": {
+      "high": 0,
+      "medium": 3,
+      "low": 27
+    }
+  },
+  "sujets": [
+    {
+      "id": "s01",
+      "rank": 1,
+      "title": "Mort de Pierre Deny : sa compagne, elle aussi célèbre, lui rend un bel hommage",
+      "theme": "divertissement",
+      "score": 50,
+      "tier": "medium",
+      "rationale": "Forte audience Wikipedia (103 484 vues/jour) · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "103k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "128+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "103k vues/h",
+          "fill": 100
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 100.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 50.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/mort-de-pierre-deny-sa-compagne-elle-aussi-célèbre-lui-rend-un-bel-hommage/ar-AA244D78?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.9a97f6b903b9551099d118d87fe45e0c&pid=Wdp",
+      "msn_source_name": "Public : Actu People en continu",
+      "refs": [
+        "MSN · Public : Actu People en continu — Mort de Pierre Deny : sa compagne, elle aussi célèbre, lui rend un bel hommage"
+      ]
+    },
+    {
+      "id": "s02",
+      "rank": 2,
+      "title": "« Je ne soutiendrai jamais un parti qui prône la haine » : Gilles Lellouche réagit après la polémique « Moulin » à Cannes",
+      "theme": "actualite",
+      "score": 45,
+      "tier": "medium",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "20k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "5k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "179+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "20k",
+          "fill": 38
+        },
+        {
+          "name": "Wikimedia",
+          "value": "5k vues/h",
+          "fill": 23
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 38.8,
+        "wiki": 23.7,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 44.5
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/je-ne-soutiendrai-jamais-un-parti-qui-prône-la-haine-gilles-lellouche-réagit-après-la-polémique-moulin-à-cannes/ar-AA2450kr?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.22b9a560f1a24981a248beb047266c2f&pid=Wdp",
+      "msn_source_name": "BFM",
+      "refs": [
+        "MSN · BFM — « Je ne soutiendrai jamais un parti qui prône la haine » : Gilles Lellouche réagit après la polémique « Moulin » à Cannes"
+      ]
+    },
+    {
+      "id": "s03",
+      "rank": 3,
+      "title": "Patrick Bruel sort du silence après la plainte de Flavie Flament : ce qu’il affirme aujourd’hui sur les réseaux sociaux",
+      "theme": "divertissement",
+      "score": 40,
+      "tier": "medium",
+      "rationale": "Forte audience Wikipedia (20 499 vues/jour) · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "20k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "123+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "20k vues/h",
+          "fill": 81
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "79/100",
+          "fill": 78
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 81.4,
+        "msn": 78.8,
+        "x": 0.0,
+        "total": 40.1
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/patrick-bruel-sort-du-silence-après-la-plainte-de-flavie-flament-ce-qu-il-affirme-aujourd-hui-sur-les-réseaux-sociaux/ar-AA23Uigu?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.c26d5e14c3b00942753ae0cec2fc13a8&pid=Wdp",
+      "msn_source_name": "So Busy Girls",
+      "refs": [
+        "MSN · So Busy Girls — Patrick Bruel sort du silence après la plainte de Flavie Flament : ce qu’il affirme aujourd’hui sur les réseaux sociaux"
+      ]
+    },
+    {
+      "id": "s04",
+      "rank": 4,
+      "title": "Guerre au Moyen-Orient : Les Etats-Unis annoncent avoir frappé des sites de lancement de missiles en Iran",
+      "theme": "actualite",
+      "score": 37,
+      "tier": "low",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "10k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "92+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "10k",
+          "fill": 21
+        },
+        {
+          "name": "Wikimedia",
+          "value": "3k vues/h",
+          "fill": 16
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 21.0,
+        "wiki": 16.6,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 36.5
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/guerre-au-moyen-orient-les-etats-unis-annoncent-avoir-frappé-des-sites-de-lancement-de-missiles-en-iran/ar-AA242G84?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.c34cf4df328692f251c8ed3a6292b32c&pid=Wdp",
+      "msn_source_name": "20 Minutes",
+      "refs": [
+        "MSN · 20 Minutes — Guerre au Moyen-Orient : Les Etats-Unis annoncent avoir frappé des sites de lancement de missiles en Iran"
+      ]
+    },
+    {
+      "id": "s05",
+      "rank": 5,
+      "title": "Viens chez moi, j’habite chez une copine : après Michel Blanc, décès à 80 ans de la comédienne Thérèse Liotard",
+      "theme": "divertissement",
+      "score": 36,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "9k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "175+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "9k vues/h",
+          "fill": 44
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 44.1,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 36.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/viens-chez-moi-j-habite-chez-une-copine-après-michel-blanc-décès-à-80-ans-de-la-comédienne-thérèse-liotard/ar-AA23SuLL?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA23SnbG.img",
+      "msn_source_name": "Public : Actu People en continu",
+      "refs": [
+        "MSN · Public : Actu People en continu — Viens chez moi, j’habite chez une copine : après Michel Blanc, décès à 80 ans de la comédienne Thérèse Liotard"
+      ]
+    },
+    {
+      "id": "s06",
+      "rank": 6,
+      "title": "« Ce n’est pas un luxe, c’est vital » : voici le budget que les retraités doivent toucher pour vivre dignement en France en mai 2026",
+      "theme": "lifestyle",
+      "score": 32,
+      "tier": "low",
+      "rationale": "Présent sur Google Trends · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "10k"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "1680+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "10k",
+          "fill": 21
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 21.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 32.4
+      },
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/ce-n-est-pas-un-luxe-c-est-vital-voici-le-budget-que-les-retraités-doivent-toucher-pour-vivre-dignement-en-france-en-mai-2026/ar-AA1S4370?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.f0fc20a140ef6e5a8ffc2d197f624072&pid=Wdp",
+      "msn_source_name": "Marie France",
+      "refs": [
+        "MSN · Marie France — « Ce n’est pas un luxe, c’est vital » : voici le budget que les retraités doivent toucher pour vivre dignement en France en mai 2026"
+      ]
+    },
+    {
+      "id": "s07",
+      "rank": 7,
+      "title": "Tribune anti-Bolloré : Le cinéaste et acteur Jean-Pascal Zadi fait marche arrière après avoir « mal lu le texte »",
+      "theme": "actualite",
+      "score": 28,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "2k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "118+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "2k vues/h",
+          "fill": 12
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 12.9,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 28.2
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/tribune-anti-bolloré-le-cinéaste-et-acteur-jean-pascal-zadi-fait-marche-arrière-après-avoir-mal-lu-le-texte/ar-AA244JFE?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA244QpP.img",
+      "msn_source_name": "20 Minutes",
+      "refs": [
+        "MSN · 20 Minutes — Tribune anti-Bolloré : Le cinéaste et acteur Jean-Pascal Zadi fait marche arrière après avoir « mal lu le texte »"
+      ]
+    },
+    {
+      "id": "s08",
+      "rank": 8,
+      "title": "« Tu n'es pas assez fortement opposé à l'extrême droite »: quand la tante de Charles Consigny tente de le recadrer en direct",
+      "theme": "divertissement",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Présent sur Google Trends · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "500"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "85+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "500",
+          "fill": 1
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 1.1,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.4
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/tu-n-es-pas-assez-fortement-opposé-à-l-extrême-droite-quand-la-tante-de-charles-consigny-tente-de-le-recadrer-en-direct/ar-AA245h0r?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA245oGs.img",
+      "msn_source_name": "RMC",
+      "refs": [
+        "MSN · RMC — « Tu n'es pas assez fortement opposé à l'extrême droite »: quand la tante de Charles Consigny tente de le recadrer en direct"
+      ]
+    },
+    {
+      "id": "s09",
+      "rank": 9,
+      "title": "« Comme si nous interdisions les baguettes françaises » : la Suède furieuse après la décision de Paris d’interdire les sachets de nicotine",
+      "theme": "finance",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "164+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/finance/economie/comme-si-nous-interdisions-les-baguettes-françaises-la-suède-furieuse-après-la-décision-de-paris-d-interdire-les-sachets-de-nicotine/ar-AA241GJz?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.f24249b6a677b95c5a809eae5053ab08&pid=Wdp",
+      "msn_source_name": "Le Figaro",
+      "refs": [
+        "MSN · Le Figaro — « Comme si nous interdisions les baguettes françaises » : la Suède furieuse après la décision de Paris d’interdire les sachets de nicotine"
+      ]
+    },
+    {
+      "id": "s10",
+      "rank": 10,
+      "title": "Pourquoi de plus en plus d’automobilistes roulent à cette vitesse précise sur autoroute : 15 % de carburant économisé, les mécaniciens confirment",
+      "theme": "auto",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "204+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/auto/actualite/pourquoi-de-plus-en-plus-d-automobilistes-roulent-à-cette-vitesse-précise-sur-autoroute-15-de-carburant-économisé-les-mécaniciens-confirment/ar-AA23rV94?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.9563255a0a14a84496dc0db953ac2844&pid=Wdp",
+      "msn_source_name": "L'Automobiliste",
+      "refs": [
+        "MSN · L'Automobiliste — Pourquoi de plus en plus d’automobilistes roulent à cette vitesse précise sur autoroute : 15 % de carburant économisé, les mécaniciens confirment"
+      ]
+    },
+    {
+      "id": "s11",
+      "rank": 11,
+      "title": "Pourquoi certaines plaques d’immatriculation sont-elles roses ?",
+      "theme": "actualite",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "533+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/pourquoi-certaines-plaques-d-immatriculation-sont-elles-roses/ar-AA230CkN?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.a731ed3d2c7f5c01b88dcc4c9b3dea5d&pid=Wdp",
+      "msn_source_name": "Le Figaro",
+      "refs": [
+        "MSN · Le Figaro — Pourquoi certaines plaques d’immatriculation sont-elles roses ?"
+      ]
+    },
+    {
+      "id": "s12",
+      "rank": 12,
+      "title": "Une momie égyptienne scannée après 3000 ans et les résultats sont troublants",
+      "theme": "actualite",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "384+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/une-momie-égyptienne-scannée-après-3000-ans-et-les-résultats-sont-troublants/vi-AA22v1Lv?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.a7daf18eb2e4d17c0d253236f99110e3&pid=Wdp",
+      "msn_source_name": "Planète RAW",
+      "refs": [
+        "MSN · Planète RAW — Une momie égyptienne scannée après 3000 ans et les résultats sont troublants"
+      ]
+    },
+    {
+      "id": "s13",
+      "rank": 13,
+      "title": "Un nouveau serpent géant vient d’être découvert en Amazonie",
+      "theme": "video",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "534+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/video/viral/un-nouveau-serpent-géant-vient-d-être-découvert-en-amazonie/vi-AA21p5jU?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.cdbe23aa396cc4534604c3a9d412fde0&pid=Wdp",
+      "msn_source_name": "Dailymotion",
+      "refs": [
+        "MSN · Dailymotion — Un nouveau serpent géant vient d’être découvert en Amazonie"
+      ]
+    },
+    {
+      "id": "s14",
+      "rank": 14,
+      "title": "Cannes 2026 : \"Qu’est-ce qu’il se passe ?\", la cérémonie de clôture tourne au fiasco !",
+      "theme": "actualite",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "334+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/culture/cannes-2026-qu-est-ce-qu-il-se-passe-la-cérémonie-de-clôture-tourne-au-fiasco/ar-AA23WIlJ?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.b6a75a7555b6a604939bde9d8ec8827e&pid=Wdp",
+      "msn_source_name": "Télé star",
+      "refs": [
+        "MSN · Télé star — Cannes 2026 : \"Qu’est-ce qu’il se passe ?\", la cérémonie de clôture tourne au fiasco !"
+      ]
+    },
+    {
+      "id": "s15",
+      "rank": 15,
+      "title": "Voici le salaire qu'il faut toucher tous les mois pour faire partie de la classe moyenne en 2026 en France",
+      "theme": "lifestyle",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "1525+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/voici-le-salaire-qu-il-faut-toucher-tous-les-mois-pour-faire-partie-de-la-classe-moyenne-en-2026-en-france/ar-AA1PuinD?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.3b678557c2fff4952dbada0b35ba30de&pid=Wdp",
+      "msn_source_name": "Marie France",
+      "refs": [
+        "MSN · Marie France — Voici le salaire qu'il faut toucher tous les mois pour faire partie de la classe moyenne en 2026 en France"
+      ]
+    },
+    {
+      "id": "s16",
+      "rank": 16,
+      "title": "Alsace : Le surveillant d’un collège violemment frappé par un parent d’élève",
+      "theme": "actualite",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "111+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/alsace-le-surveillant-d-un-collège-violemment-frappé-par-un-parent-d-élève/ar-AA245pSf?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA244NNo.img",
+      "msn_source_name": "20 Minutes",
+      "refs": [
+        "MSN · 20 Minutes — Alsace : Le surveillant d’un collège violemment frappé par un parent d’élève"
+      ]
+    },
+    {
+      "id": "s17",
+      "rank": 17,
+      "title": "Vipères : cet arbre très commun dans nos jardins est l’un de leurs refuges favoris selon l’ONF",
+      "theme": "actualite",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "326+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/insolite/vipères-cet-arbre-très-commun-dans-nos-jardins-est-l-un-de-leurs-refuges-favoris-selon-l-onf/ar-AA1IHFa9?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1IHLPK.img",
+      "msn_source_name": "Modes&Travaux",
+      "refs": [
+        "MSN · Modes&Travaux — Vipères : cet arbre très commun dans nos jardins est l’un de leurs refuges favoris selon l’ONF"
+      ]
+    },
+    {
+      "id": "s18",
+      "rank": 18,
+      "title": "Il volait à 2 286 mètres d’altitude - puis il s’est écrasé",
+      "theme": "finance",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "1063+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/finance/autres/il-volait-à-2-286-mètres-d-altitude-puis-il-s-est-écrasé/vi-AA20QMwR?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.384cef09e4d724c2bb5048c174bf712f&pid=Wdp",
+      "msn_source_name": "Comment Survivre",
+      "refs": [
+        "MSN · Comment Survivre — Il volait à 2 286 mètres d’altitude - puis il s’est écrasé"
+      ]
+    },
+    {
+      "id": "s19",
+      "rank": 19,
+      "title": "Retraite : j’ai touché le RSA toute ma vie, voici combien je gagne de pension chaque mois en 2026",
+      "theme": "lifestyle",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "1586+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/retraite-j-ai-touché-le-rsa-toute-ma-vie-voici-combien-je-gagne-de-pension-chaque-mois-en-2026/ar-AA1Mhs6n?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.4e08d12996f0830668955654125d4b9d&pid=Wdp",
+      "msn_source_name": "Marie France",
+      "refs": [
+        "MSN · Marie France — Retraite : j’ai touché le RSA toute ma vie, voici combien je gagne de pension chaque mois en 2026"
+      ]
+    },
+    {
+      "id": "s20",
+      "rank": 20,
+      "title": "« J’avais acheté tout mon matériel de jardinage avec des batteries, mais aujourd’hui c’est la douche froide ! »",
+      "theme": "actualite",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "181+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/other/j-avais-acheté-tout-mon-matériel-de-jardinage-avec-des-batteries-mais-aujourd-hui-c-est-la-douche-froide/ar-AA23TcAX?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.7d6ae5908752afa2890b42072d19c2df&pid=Wdp",
+      "msn_source_name": "Ouest-France",
+      "refs": [
+        "MSN · Ouest-France — « J’avais acheté tout mon matériel de jardinage avec des batteries, mais aujourd’hui c’est la douche froide ! »"
+      ]
+    },
+    {
+      "id": "s21",
+      "rank": 21,
+      "title": "« J'ai demandé à ce qu'on m'abrège la vie... » : Mireille Dumas brise le tabou sur sa fin de vie",
+      "theme": "divertissement",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "158+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/j-ai-demandé-à-ce-qu-on-m-abrège-la-vie-mireille-dumas-brise-le-tabou-sur-sa-fin-de-vie/ar-AA240cg8?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.161c0e77d818ead3b0bfc4cc844f453c&pid=Wdp",
+      "msn_source_name": "Voici",
+      "refs": [
+        "MSN · Voici — « J'ai demandé à ce qu'on m'abrège la vie... » : Mireille Dumas brise le tabou sur sa fin de vie"
+      ]
+    },
+    {
+      "id": "s22",
+      "rank": 22,
+      "title": "Grâce à une technique unique, il relance un puits de pétrole abandonné en Alsace et gagne plus de 2 millions d’euros",
+      "theme": "finance",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "96+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/finance/autres/grâce-à-une-technique-unique-il-relance-un-puits-de-pétrole-abandonné-en-alsace-et-gagne-plus-de-2-millions-d-euros/ar-AA245xrW?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.8a1bedd041d88432462cc5838bcf02ec&pid=Wdp",
+      "msn_source_name": "20 Minutes",
+      "refs": [
+        "MSN · 20 Minutes — Grâce à une technique unique, il relance un puits de pétrole abandonné en Alsace et gagne plus de 2 millions d’euros"
+      ]
+    },
+    {
+      "id": "s23",
+      "rank": 23,
+      "title": "Les psys sont formels : les personnes qui ne publient rien sur les réseaux sociaux possèdent souvent cette qualité rare",
+      "theme": "lifestyle",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "657+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/les-psys-sont-formels-les-personnes-qui-ne-publient-rien-sur-les-réseaux-sociaux-possèdent-souvent-cette-qualité-rare/ar-AA23d3Vh?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.53bfc001120e00406bed3520d1832e56&pid=Wdp",
+      "msn_source_name": "grazia",
+      "refs": [
+        "MSN · grazia — Les psys sont formels : les personnes qui ne publient rien sur les réseaux sociaux possèdent souvent cette qualité rare"
+      ]
+    },
+    {
+      "id": "s24",
+      "rank": 24,
+      "title": "Un changement obligatoire sur les voitures arrive dès juillet 2026 et beaucoup d’automobilistes vont le remarquer",
+      "theme": "auto",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "225+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/auto/actualite/un-changement-obligatoire-sur-les-voitures-arrive-dès-juillet-2026-et-beaucoup-d-automobilistes-vont-le-remarquer/ar-AA23SjLJ?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.11cdf429f912f2213c72f7425f8b3a86&pid=Wdp",
+      "msn_source_name": "L'auto-journal",
+      "refs": [
+        "MSN · L'auto-journal — Un changement obligatoire sur les voitures arrive dès juillet 2026 et beaucoup d’automobilistes vont le remarquer"
+      ]
+    },
+    {
+      "id": "s25",
+      "rank": 25,
+      "title": "Thierry Lhermitte : Voici à quoi ressemble Hélène avec qui il est en couple depuis 50 ans et que vous avez déjà vu dans des films du Splendid",
+      "theme": "divertissement",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "174+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/thierry-lhermitte-voici-à-quoi-ressemble-hélène-avec-qui-il-est-en-couple-depuis-50-ans-et-que-vous-avez-déjà-vu-dans-des-films-du-splendid/ar-AA23Tbqi?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.c4cbe6353e9aadcc8946f0e4cbc596e2&pid=Wdp",
+      "msn_source_name": "Purepeople",
+      "refs": [
+        "MSN · Purepeople — Thierry Lhermitte : Voici à quoi ressemble Hélène avec qui il est en couple depuis 50 ans et que vous avez déjà vu dans des films du Splendid"
+      ]
+    },
+    {
+      "id": "s26",
+      "rank": 26,
+      "title": "Retraite : si vous touchez plus que cette pension chaque mois, vous êtes plus riche que la moyenne des seniors en France en 2026",
+      "theme": "lifestyle",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "427+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/retraite-si-vous-touchez-plus-que-cette-pension-chaque-mois-vous-êtes-plus-riche-que-la-moyenne-des-seniors-en-france-en-2026/ar-AA23tz3X?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.b7f750a9fc6b1e79f4f839e59f43cf76&pid=Wdp",
+      "msn_source_name": "Marie France",
+      "refs": [
+        "MSN · Marie France — Retraite : si vous touchez plus que cette pension chaque mois, vous êtes plus riche que la moyenne des seniors en France en 2026"
+      ]
+    },
+    {
+      "id": "s27",
+      "rank": 27,
+      "title": "Des scientifiques découvrent un monde gelé immergé dans la mer du Nord",
+      "theme": "actualite",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "182+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/des-scientifiques-découvrent-un-monde-gelé-immergé-dans-la-mer-du-nord/vi-AA21FDG6?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.2b9466f9f038ced8f0674f8171b792e7&pid=Wdp",
+      "msn_source_name": "SYMPA",
+      "refs": [
+        "MSN · SYMPA — Des scientifiques découvrent un monde gelé immergé dans la mer du Nord"
+      ]
+    },
+    {
+      "id": "s28",
+      "rank": 28,
+      "title": "Impôts 2026 : après les piscines, le fisc et la DGFiP s’attaquent à ces 2 parties de la maison non déclarées ce printemps",
+      "theme": "lifestyle",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "566+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/impôts-2026-après-les-piscines-le-fisc-et-la-dgfip-s-attaquent-à-ces-2-parties-de-la-maison-non-déclarées-ce-printemps/ar-AA1GNgQE?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1GNalQ.img",
+      "msn_source_name": "Marie France",
+      "refs": [
+        "MSN · Marie France — Impôts 2026 : après les piscines, le fisc et la DGFiP s’attaquent à ces 2 parties de la maison non déclarées ce printemps"
+      ]
+    },
+    {
+      "id": "s29",
+      "rank": 29,
+      "title": "« Personne n'avait remarqué » : à 7 ans, Valentin débusque une erreur sur un panneau de signalisation et bluffe les autorités",
+      "theme": "actualite",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "252+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/insolite/personne-n-avait-remarqué-à-7-ans-valentin-débusque-une-erreur-sur-un-panneau-de-signalisation-et-bluffe-les-autorités/ar-AA23SFxk?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.fec5b5e16dc80c916a7969e39dc637f4&pid=Wdp",
+      "msn_source_name": "Aufeminin",
+      "refs": [
+        "MSN · Aufeminin — « Personne n'avait remarqué » : à 7 ans, Valentin débusque une erreur sur un panneau de signalisation et bluffe les autorités"
+      ]
+    },
+    {
+      "id": "s30",
+      "rank": 30,
+      "title": "« C'est une partie très intime de moi… » : Jodie Foster explique pourquoi elle parle si bien le français",
+      "theme": "divertissement",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "115+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "trends": 0.0,
+        "wiki": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/c-est-une-partie-très-intime-de-moi-jodie-foster-explique-pourquoi-elle-parle-si-bien-le-français/ar-AA240TWU?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA240HN7.img",
+      "msn_source_name": "Voici",
+      "refs": [
+        "MSN · Voici — « C'est une partie très intime de moi… » : Jodie Foster explique pourquoi elle parle si bien le français"
+      ]
+    }
+  ]
+}

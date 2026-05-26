@@ -1,13 +1,14 @@
-"""CLI orchestrateur des sources.
+"""CLI orchestrateur — fetch des sources + scoring.
 
 Usage :
-    python -m server.cli fetch-all
-    python -m server.cli fetch msn
-    python -m server.cli fetch wikimedia
-    python -m server.cli fetch google_trends
-    python -m server.cli fetch x_trends
+    python -m server.cli fetch-all         # toutes les sources
+    python -m server.cli fetch <source>    # une source unique
+    python -m server.cli score             # agrège + score à partir des snapshots
+    python -m server.cli all               # fetch-all puis score
 
-Sortie : data/{source}/{YYYY-MM-DD}.json + data/{source}/latest.json
+Sources : msn, wikimedia, google_trends, x_trends
+Sortie  : data/{source}/{YYYY-MM-DD}.json + data/{source}/latest.json
+          data/sujets/latest.json (sortie scoring)
 """
 
 from __future__ import annotations
@@ -18,6 +19,7 @@ import time
 import traceback
 from typing import Any, Callable
 
+from server.scoring import aggregator
 from server.sources import google_trends, msn, wikimedia, x_trends
 
 SOURCES: dict[str, Callable[[], dict[str, Any]]] = {
@@ -94,10 +96,54 @@ def cmd_fetch(name: str) -> int:
     return 0
 
 
+def cmd_score(top_n: int) -> int:
+    """Lance l'agrégation + scoring à partir des snapshots."""
+    print("Editorial Signal — scoring\n")
+    started = time.perf_counter()
+    try:
+        payload = aggregator.run(top_n=top_n)
+    except FileNotFoundError as exc:
+        print(f"✗ {exc}", file=sys.stderr)
+        return 2
+    except Exception as exc:  # noqa: BLE001
+        print(f"✗ {type(exc).__name__}: {exc}", file=sys.stderr)
+        traceback.print_exc()
+        return 1
+
+    elapsed = time.perf_counter() - started
+    totals = payload["totals"]
+    print("-" * 60)
+    print(f"Sujets retenus : {totals['kept']} / {totals['candidates_scored']} candidats")
+    print(
+        "Par tier       : "
+        f"high={totals['by_tier']['high']}  "
+        f"medium={totals['by_tier']['medium']}  "
+        f"low={totals['by_tier']['low']}"
+    )
+    print(f"Temps          : {elapsed:.2f}s")
+    print("-" * 60)
+
+    print("\nTop 5 :")
+    for sujet in payload["sujets"][:5]:
+        title = sujet["title"][:78] + ("…" if len(sujet["title"]) > 78 else "")
+        print(f"  [{sujet['score']:>3}] {title}")
+
+    return 0
+
+
+def cmd_all(top_n: int) -> int:
+    """Fetch toutes les sources puis lance le scoring."""
+    code = cmd_fetch_all()
+    if code != 0:
+        return code
+    print()
+    return cmd_score(top_n=top_n)
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="editorial-signal",
-        description="Collecte les signaux externes (MSN, Wikimedia, Google Trends, X)",
+        description="Collecte les signaux externes + scoring composite",
     )
     sub = parser.add_subparsers(dest="cmd", required=True)
 
@@ -110,12 +156,27 @@ def main(argv: list[str] | None = None) -> int:
         help="Nom de la source",
     )
 
+    p_score = sub.add_parser("score", help="Agrège + score à partir des snapshots")
+    p_score.add_argument(
+        "--top",
+        type=int,
+        default=aggregator.TOP_N,
+        help=f"Nombre de sujets à garder (défaut {aggregator.TOP_N})",
+    )
+
+    p_all = sub.add_parser("all", help="fetch-all puis score")
+    p_all.add_argument("--top", type=int, default=aggregator.TOP_N)
+
     args = parser.parse_args(argv)
 
     if args.cmd == "fetch-all":
         return cmd_fetch_all()
     if args.cmd == "fetch":
         return cmd_fetch(args.source)
+    if args.cmd == "score":
+        return cmd_score(args.top)
+    if args.cmd == "all":
+        return cmd_all(args.top)
 
     parser.print_help()
     return 2
