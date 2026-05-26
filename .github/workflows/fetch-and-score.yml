@@ -76,7 +76,11 @@ jobs:
           MSN_API_KEY: ${{ secrets.MSN_API_KEY }}
           MSN_MARKET: fr-fr
           X_TRENDS_URL: https://trends24.in/france/
-        run: python -m server.cli fetch msn x_trends
+          DISCOVERSNOOP_EMAIL: ${{ secrets.DISCOVERSNOOP_EMAIL }}
+          DISCOVERSNOOP_PASSWORD: ${{ secrets.DISCOVERSNOOP_PASSWORD }}
+          DISCOVERSNOOP_COUNTRY: FR
+          DISCOVERSNOOP_HOURS: 12
+        run: python -m server.cli fetch msn x_trends discoversnoop
 
       - name: Fetch sources (full)
         if: steps.mode.outputs.mode == 'full'
@@ -88,6 +92,10 @@ jobs:
           WIKIMEDIA_USER_AGENT: ${{ secrets.WIKIMEDIA_USER_AGENT }}
           WIKIMEDIA_PROJECT: fr.wikipedia
           X_TRENDS_URL: https://trends24.in/france/
+          DISCOVERSNOOP_EMAIL: ${{ secrets.DISCOVERSNOOP_EMAIL }}
+          DISCOVERSNOOP_PASSWORD: ${{ secrets.DISCOVERSNOOP_PASSWORD }}
+          DISCOVERSNOOP_COUNTRY: FR
+          DISCOVERSNOOP_HOURS: 12
         run: python -m server.cli fetch-all
 
       - name: Score

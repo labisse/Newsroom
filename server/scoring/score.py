@@ -1,15 +1,20 @@
 """Barèmes par signal + pondération finale.
 
-Conformément au CdC (section 4.2) mais adapté au POC :
-  - GSC historique : non branché (CSV manuel reporté en Phase 1)
-  - Google News : non branché — MSN sert de proxy d'attention médiatique
+Le CdC liste 5 signaux (Trends, Wiki, X, Google News, GSC). Pour le
+POC, on a maintenant 5 sources qui couvrent l'esprit du CdC :
+  - Google Trends     ← signal de recherche
+  - Wikimedia         ← signal d'audience encyclopédique
+  - X Trends          ← signal conversationnel (présence seulement)
+  - MSN engagement    ← proxy d'attention médiatique (votes/comments)
+  - Discoversnoop     ← signal direct de visibilité Google Discover
+                         (= objectif final du produit !)
 
 Pondération POC :
-  - Google Trends    : 35%  (CdC original 30%)
-  - Wikimedia        : 25%  (CdC original 20%)
-  - MSN engagement   : 25%  (proxy Google News + GSC)
-  - X Trends presence: 15%  (CdC original 20%, downgrade car
-                              trends24.in n'expose plus le tweet_count)
+  - Discoversnoop    : 30%  (signal le plus pertinent, direct)
+  - Google Trends    : 25%
+  - Wikimedia        : 20%
+  - MSN engagement   : 15%
+  - X Trends         : 10%
   ────────────────────
   Total              : 100%
 
@@ -27,10 +32,11 @@ from dataclasses import dataclass
 # ---------------------------------------------------------------
 
 WEIGHTS = {
-    "trends": 0.35,
-    "wiki": 0.25,
-    "msn": 0.25,
-    "x": 0.15,
+    "discover": 0.30,
+    "trends": 0.25,
+    "wiki": 0.20,
+    "msn": 0.15,
+    "x": 0.10,
 }
 
 # ---------------------------------------------------------------
@@ -105,6 +111,20 @@ def x_score(rank: int | None) -> float:
     return 20.0
 
 
+def discover_score(raw_score: float | None) -> float:
+    """Score Discoversnoop.
+
+    Le `score` CSV varie ~0–65 (médian très bas, distribution long
+    tail). On sature pour que les rares scores >50 ressortent fort
+    sans écraser les sujets intermédiaires.
+
+    Anchor 25 → article à score 25 reçoit ~80 pts.
+    """
+    if not raw_score or raw_score <= 0:
+        return 0.0
+    return _log_saturate(float(raw_score), anchor=25)
+
+
 def msn_score(article: dict) -> float:
     """Score d'engagement MSN — proxy d'attention médiatique.
 
@@ -136,6 +156,7 @@ def msn_score(article: dict) -> float:
 class ScoreBreakdown:
     """Détail du Signal Score pour audit côté UX."""
 
+    discover: float
     trends: float
     wiki: float
     msn: float
@@ -144,6 +165,7 @@ class ScoreBreakdown:
 
     def as_dict(self) -> dict:
         return {
+            "discover": round(self.discover, 1),
             "trends": round(self.trends, 1),
             "wiki": round(self.wiki, 1),
             "msn": round(self.msn, 1),
@@ -156,18 +178,21 @@ def _convergence_bonus(*subscores: float, threshold: float = 20.0) -> float:
     """Bonus de convergence multi-signaux externes.
 
     L'intuition : un sujet confirmé par plusieurs sources externes
-    (Trends, Wiki, X) est plus actionnable qu'un sujet à un seul
-    signal fort. On ne compte que les signaux externes — pas MSN qui
-    est notre base.
+    (Discover, Trends, Wiki, X) est plus actionnable qu'un sujet à
+    un seul signal fort. On ne compte que les signaux externes — pas
+    MSN qui est notre base.
 
     Barème :
       - 1 signal externe   → 0
       - 2 signaux externes → +5
-      - 3 signaux externes → +12
+      - 3 signaux externes → +10
+      - 4 signaux externes → +15
     """
     confirmed = sum(1 for s in subscores if s >= threshold)
+    if confirmed >= 4:
+        return 15.0
     if confirmed >= 3:
-        return 12.0
+        return 10.0
     if confirmed == 2:
         return 5.0
     return 0.0
@@ -175,22 +200,26 @@ def _convergence_bonus(*subscores: float, threshold: float = 20.0) -> float:
 
 def composite_score(
     *,
+    discover: float = 0.0,
     trends: float = 0.0,
     wiki: float = 0.0,
     msn: float = 0.0,
     x: float = 0.0,
 ) -> ScoreBreakdown:
-    """Combine les 4 sous-scores selon les pondérations + bonus convergence."""
+    """Combine les 5 sous-scores selon les pondérations + bonus convergence."""
     weighted = (
-        WEIGHTS["trends"] * trends
+        WEIGHTS["discover"] * discover
+        + WEIGHTS["trends"] * trends
         + WEIGHTS["wiki"] * wiki
         + WEIGHTS["msn"] * msn
         + WEIGHTS["x"] * x
     )
     # Le bonus s'applique aux signaux externes uniquement (pas MSN)
-    bonus = _convergence_bonus(trends, wiki, x)
+    bonus = _convergence_bonus(discover, trends, wiki, x)
     total = min(100.0, weighted + bonus)
-    return ScoreBreakdown(trends=trends, wiki=wiki, msn=msn, x=x, total=total)
+    return ScoreBreakdown(
+        discover=discover, trends=trends, wiki=wiki, msn=msn, x=x, total=total
+    )
 
 
 def tier_from_score(score: float) -> str:

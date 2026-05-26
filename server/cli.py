@@ -21,13 +21,14 @@ import traceback
 from typing import Any, Callable
 
 from server.scoring import aggregator
-from server.sources import google_trends, msn, wikimedia, x_trends
+from server.sources import discoversnoop, google_trends, msn, wikimedia, x_trends
 
 SOURCES: dict[str, Callable[[], dict[str, Any]]] = {
     "msn": msn.run,
     "wikimedia": wikimedia.run,
     "google_trends": google_trends.run,
     "x_trends": x_trends.run,
+    "discoversnoop": discoversnoop.run,
 }
 
 

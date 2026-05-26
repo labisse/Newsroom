@@ -65,6 +65,15 @@ def _prepare_wiki(wiki_payload: dict) -> list[dict]:
     return wiki_payload.get("articles", [])
 
 
+def _prepare_discover(payload: dict) -> list[dict]:
+    """Discoversnoop : articles avec score, on les retourne tels quels.
+
+    Le matching utilise déjà le champ `title` côté Jaccard, pas besoin
+    de transformation.
+    """
+    return payload.get("articles", [])
+
+
 # ---------------------------------------------------------------
 # Génération de la phrase rationale
 # ---------------------------------------------------------------
@@ -72,6 +81,7 @@ def _prepare_wiki(wiki_payload: dict) -> list[dict]:
 
 def _rationale(
     msn_article: dict,
+    discover_match: Match | None,
     trends_match: Match | None,
     wiki_match: Match | None,
     x_match: Match | None,
@@ -80,11 +90,17 @@ def _rationale(
     """Phrase explicative générée pour le rédac chef."""
     parts: list[str] = []
 
+    if discover_match and breakdown.discover >= 70:
+        score = discover_match.target.get("score") or 0
+        parts.append(f"Forte visibilité Discover (score {score:.0f})")
+    elif discover_match and breakdown.discover >= 30:
+        parts.append("présent sur Google Discover")
+
     if trends_match and breakdown.trends >= 60:
         vol = trends_match.target.get("search_volume", 0)
-        parts.append(f"Pic Google Trends ({vol:,} recherches)".replace(",", " "))
+        parts.append(f"pic Google Trends ({vol:,} recherches)".replace(",", " "))
     elif trends_match:
-        parts.append("Présent sur Google Trends")
+        parts.append("présent sur Google Trends")
 
     if wiki_match and breakdown.wiki >= 60:
         views = wiki_match.target.get("views", 0)
@@ -116,6 +132,7 @@ def _rationale(
 
 
 def _build_signals(
+    discover_match: Match | None,
     trends_match: Match | None,
     wiki_match: Match | None,
     x_match: Match | None,
@@ -123,6 +140,16 @@ def _build_signals(
 ) -> list[dict[str, Any]]:
     """Construit la liste de signal pills affichée dans le front."""
     signals: list[dict[str, Any]] = []
+
+    if discover_match:
+        score = discover_match.target.get("score") or 0
+        signals.append(
+            {
+                "source": "gsc",  # On réutilise la pastille verte "gsc" du front
+                "label": "discover",
+                "value": f"{score:.0f}/65",
+            }
+        )
 
     if trends_match:
         vol = trends_match.target.get("search_volume", 0)
@@ -182,6 +209,7 @@ def _format_volume(v: int, suffix: str = "") -> str:
 
 
 def _build_sources_detail(
+    discover_match: Match | None,
     trends_match: Match | None,
     wiki_match: Match | None,
     x_match: Match | None,
@@ -189,6 +217,15 @@ def _build_sources_detail(
 ) -> list[dict[str, Any]]:
     """Détail par source pour l'expand row du front (bars de progression)."""
     return [
+        {
+            "name": "Google Discover",
+            "value": (
+                f"score {discover_match.target.get('score'):.1f}"
+                if discover_match and discover_match.target.get("score") is not None
+                else "—"
+            ),
+            "fill": int(breakdown.discover),
+        },
         {
             "name": "Google Trends",
             "value": (
@@ -227,6 +264,7 @@ def _build_sources_detail(
 def _score_article(
     msn_article: dict,
     *,
+    discover_candidates: list[dict],
     gt_candidates: list[dict],
     wiki_candidates: list[dict],
     x_candidates: list[dict],
@@ -240,11 +278,19 @@ def _score_article(
     if not src_tokens:
         return None
 
+    discover_match = best_match(
+        src_tokens, discover_candidates, title_key="title"
+    )
     trends_match = best_match(src_tokens, gt_candidates, title_key="query")
     wiki_match = best_match(src_tokens, wiki_candidates, title_key="title_display")
     x_match = best_match(src_tokens, x_candidates, title_key="query")
 
     breakdown = scoring.composite_score(
+        discover=(
+            scoring.discover_score(discover_match.target.get("score"))
+            if discover_match
+            else 0.0
+        ),
         trends=(
             scoring.trends_score(
                 trends_match.target.get("search_volume"),
@@ -264,6 +310,7 @@ def _score_article(
 
     return {
         "msn_article": msn_article,
+        "discover_match": discover_match,
         "trends_match": trends_match,
         "wiki_match": wiki_match,
         "x_match": x_match,
@@ -278,6 +325,7 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
 
     rationale = _rationale(
         article,
+        scored["discover_match"],
         scored["trends_match"],
         scored["wiki_match"],
         scored["x_match"],
@@ -285,6 +333,7 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
     )
 
     signals = _build_signals(
+        scored["discover_match"],
         scored["trends_match"],
         scored["wiki_match"],
         scored["x_match"],
@@ -292,6 +341,7 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
     )
 
     sources_detail = _build_sources_detail(
+        scored["discover_match"],
         scored["trends_match"],
         scored["wiki_match"],
         scored["x_match"],
@@ -303,6 +353,14 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
         refs.append(
             f"MSN · {article.get('source', 'MSN')} — {article['title']}"
         )
+    # Référence croisée Discover si match
+    discover_match = scored["discover_match"]
+    if discover_match:
+        d_target = discover_match.target
+        d_publisher = d_target.get("publisher") or "Discover"
+        d_title = d_target.get("title") or ""
+        if d_title:
+            refs.append(f"Discover · {d_publisher} — {d_title}")
 
     rounded = int(round(breakdown.total))
     return {
@@ -336,14 +394,17 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
     wikimedia = _load("wikimedia")
     gt = _load("google_trends")
     x = _load("x_trends")
+    discover = _load("discoversnoop")
 
     gt_candidates, x_candidates = _prepare_trends(gt, x)
     wiki_candidates = _prepare_wiki(wikimedia)
+    discover_candidates = _prepare_discover(discover)
 
     scored: list[dict[str, Any]] = []
     for article in msn.get("articles", []):
         result = _score_article(
             article,
+            discover_candidates=discover_candidates,
             gt_candidates=gt_candidates,
             wiki_candidates=wiki_candidates,
             x_candidates=x_candidates,
@@ -375,6 +436,10 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
                 "count": gt.get("windows", {}).get("current", {}).get("count"),
             },
             "x_trends": {"fetched_at": x.get("fetched_at"), "count": x.get("count")},
+            "discoversnoop": {
+                "fetched_at": discover.get("fetched_at"),
+                "count": discover.get("count"),
+            },
         },
         "weights": scoring.WEIGHTS,
         "totals": {

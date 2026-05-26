@@ -47,5 +47,11 @@ class Settings:
     # X Trends (scraping)
     x_trends_url: str = _get("X_TRENDS_URL", "https://trends24.in/france/")
 
+    # Discoversnoop (Google Discover visibility export)
+    discoversnoop_email: str = _get("DISCOVERSNOOP_EMAIL")
+    discoversnoop_password: str = _get("DISCOVERSNOOP_PASSWORD")
+    discoversnoop_country: str = _get("DISCOVERSNOOP_COUNTRY", "FR")
+    discoversnoop_hours: int = _get_int("DISCOVERSNOOP_HOURS", 12)
+
 
 settings = Settings()
