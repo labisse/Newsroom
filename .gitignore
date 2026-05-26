@@ -38,13 +38,15 @@ build/
 !.env.example
 *.local
 
-# Local data / logs
+# Local logs / exports / db (data/ N'EST PAS ignoré : les snapshots
+# JSON sont servis par Vercel)
 *.log
 logs/
-data/
 exports/
 *.sqlite
 *.db
+data/cache/
+data/tmp/
 
 # Test / coverage
 coverage/
