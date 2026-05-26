@@ -1,6 +1,6 @@
 {
   "source": "x_trends",
-  "fetched_at": "2026-05-26T22:03:14Z",
+  "fetched_at": "2026-05-26T22:29:50Z",
   "region": "france",
   "url": "https://trends24.in/france/",
   "count": 215,
@@ -18,11 +18,11 @@
       "tweet_count": 0
     },
     {
-      "query": "Cynthia",
+      "query": "Antonin",
       "tweet_count": 0
     },
     {
-      "query": "Antonin",
+      "query": "Cynthia",
       "tweet_count": 0
     },
     {
@@ -34,19 +34,15 @@
       "tweet_count": 0
     },
     {
+      "query": "Clarisse",
+      "tweet_count": 0
+    },
+    {
       "query": "Hugo",
       "tweet_count": 0
     },
     {
       "query": "Boufal",
-      "tweet_count": 0
-    },
-    {
-      "query": "Clarisse",
-      "tweet_count": 0
-    },
-    {
-      "query": "Ait Boudlal",
       "tweet_count": 0
     },
     {
@@ -58,7 +54,19 @@
       "tweet_count": 0
     },
     {
+      "query": "Ait Boudlal",
+      "tweet_count": 0
+    },
+    {
       "query": "Puel",
+      "tweet_count": 0
+    },
+    {
+      "query": "Altmaier",
+      "tweet_count": 0
+    },
+    {
+      "query": "SaintÃ©",
       "tweet_count": 0
     },
     {
@@ -66,19 +74,11 @@
       "tweet_count": 0
     },
     {
-      "query": "Ouahbi",
-      "tweet_count": 0
-    },
-    {
-      "query": "Gouveia",
-      "tweet_count": 0
-    },
-    {
       "query": "Boudaoui",
       "tweet_count": 0
     },
     {
-      "query": "Diop",
+      "query": "Ouahbi",
       "tweet_count": 0
     },
     {
@@ -86,11 +86,15 @@
       "tweet_count": 0
     },
     {
-      "query": "Halhal",
+      "query": "Talbi",
       "tweet_count": 0
     },
     {
-      "query": "#LogitechGPlayDays",
+      "query": "Diop",
+      "tweet_count": 0
+    },
+    {
+      "query": "Gouveia",
       "tweet_count": 0
     },
     {
@@ -98,7 +102,19 @@
       "tweet_count": 0
     },
     {
-      "query": "Talbi",
+      "query": "Halhal",
+      "tweet_count": 0
+    },
+    {
+      "query": "Jannik Sinner",
+      "tweet_count": 0
+    },
+    {
+      "query": "#LogitechGPlayDays",
+      "tweet_count": 0
+    },
+    {
+      "query": "Sanson",
       "tweet_count": 0
     },
     {
@@ -106,19 +122,7 @@
       "tweet_count": 0
     },
     {
-      "query": "Amaimouni",
-      "tweet_count": 0
-    },
-    {
-      "query": "Saint Ãtienne",
-      "tweet_count": 0
-    },
-    {
-      "query": "Barthez",
-      "tweet_count": 0
-    },
-    {
-      "query": "Riolo",
+      "query": "Rends",
       "tweet_count": 0
     },
     {
@@ -126,23 +130,23 @@
       "tweet_count": 0
     },
     {
-      "query": "Allez les Verts",
-      "tweet_count": 0
-    },
-    {
-      "query": "Gessime",
-      "tweet_count": 0
-    },
-    {
       "query": "Salah Hamouri",
       "tweet_count": 0
     },
     {
-      "query": "#MicromaniaFirstLight",
+      "query": "Barthez",
       "tweet_count": 0
     },
     {
-      "query": "Diane Parry",
+      "query": "Allez les Verts",
+      "tweet_count": 0
+    },
+    {
+      "query": "RaphaÃ«l Glucksmann",
+      "tweet_count": 0
+    },
+    {
+      "query": "#MicromaniaFirstLight",
       "tweet_count": 0
     },
     {
@@ -154,23 +158,7 @@
       "tweet_count": 0
     },
     {
-      "query": "RaphaÃ«l Glucksmann",
-      "tweet_count": 0
-    },
-    {
-      "query": "Sinner",
-      "tweet_count": 0
-    },
-    {
-      "query": "ThÃ©o",
-      "tweet_count": 0
-    },
-    {
-      "query": "Delogu",
-      "tweet_count": 0
-    },
-    {
-      "query": "#007FirstLight",
+      "query": "Riolo",
       "tweet_count": 0
     },
     {
@@ -178,7 +166,15 @@
       "tweet_count": 0
     },
     {
-      "query": "Bennacer",
+      "query": "ThÃ©o",
+      "tweet_count": 0
+    },
+    {
+      "query": "Luce",
+      "tweet_count": 0
+    },
+    {
+      "query": "#007FirstLight",
       "tweet_count": 0
     },
     {
@@ -190,11 +186,43 @@
       "tweet_count": 0
     },
     {
-      "query": "Luce",
+      "query": "Delogu",
+      "tweet_count": 0
+    },
+    {
+      "query": "Bennacer",
       "tweet_count": 0
     },
     {
       "query": "Denis",
+      "tweet_count": 0
+    },
+    {
+      "query": "RER B",
+      "tweet_count": 0
+    },
+    {
+      "query": "Spurs",
+      "tweet_count": 0
+    },
+    {
+      "query": "Amaimouni",
+      "tweet_count": 0
+    },
+    {
+      "query": "Saint Ãtienne",
+      "tweet_count": 0
+    },
+    {
+      "query": "Gessime",
+      "tweet_count": 0
+    },
+    {
+      "query": "Diane Parry",
+      "tweet_count": 0
+    },
+    {
+      "query": "Sinner",
       "tweet_count": 0
     },
     {
@@ -234,10 +262,6 @@
       "tweet_count": 0
     },
     {
-      "query": "RER B",
-      "tweet_count": 0
-    },
-    {
       "query": "Ferrari",
       "tweet_count": 0
     },
@@ -263,10 +287,6 @@
     },
     {
       "query": "Tapie",
-      "tweet_count": 0
-    },
-    {
-      "query": "Spurs",
       "tweet_count": 0
     },
     {
@@ -843,26 +863,6 @@
     },
     {
       "query": "MÃ©lanie",
-      "tweet_count": 0
-    },
-    {
-      "query": "Harden",
-      "tweet_count": 0
-    },
-    {
-      "query": "Mobley",
-      "tweet_count": 0
-    },
-    {
-      "query": "BTS IS BACK",
-      "tweet_count": 0
-    },
-    {
-      "query": "Donovan Mitchell",
-      "tweet_count": 0
-    },
-    {
-      "query": "lÃ©on xiv",
       "tweet_count": 0
     }
   ]

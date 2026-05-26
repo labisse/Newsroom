@@ -1,0 +1,116 @@
+name: Fetch sources & score
+
+# Deux jobs avec des fréquences différentes pour maîtriser le coût SerpAPI.
+#
+# - light : MSN + X Trends + score
+#           horaire, 0 € (pas de SerpAPI)
+#
+# - full  : MSN + X Trends + Google Trends + Wikimedia + score
+#           toutes les 6h, ~12 calls SerpAPI/jour
+#
+# Workflow_dispatch permet aussi de déclencher à la main depuis l'UI
+# GitHub (Actions > Fetch sources & score > Run workflow).
+
+on:
+  schedule:
+    # Toutes les heures à HH:05 — light
+    - cron: "5 * * * *"
+    # Toutes les 6 heures à HH:30 (00:30, 06:30, 12:30, 18:30 UTC) — full
+    - cron: "30 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Mode de fetch"
+        required: true
+        default: "light"
+        type: choice
+        options: [light, full]
+
+# Le job a besoin d'écrire des commits sur le repo.
+permissions:
+  contents: write
+
+# Empêche deux runs simultanés de se marcher dessus.
+concurrency:
+  group: fetch-and-score
+  cancel-in-progress: false
+
+jobs:
+  run:
+    name: ${{ github.event.schedule == '30 */6 * * *' && 'full' || (github.event.inputs.mode || 'light') }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Suffisant pour git diff/commit
+          fetch-depth: 1
+          # Token implicite avec permissions:contents:write
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Decide mode
+        id: mode
+        run: |
+          if [[ "${{ github.event.schedule }}" == "30 */6 * * *" ]]; then
+            echo "mode=full" >> "$GITHUB_OUTPUT"
+          elif [[ -n "${{ github.event.inputs.mode }}" ]]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=light" >> "$GITHUB_OUTPUT"
+          fi
+          echo "Mode résolu : $(grep mode= "$GITHUB_OUTPUT" | cut -d= -f2)"
+
+      - name: Fetch sources (light)
+        if: steps.mode.outputs.mode == 'light'
+        env:
+          MSN_API_KEY: ${{ secrets.MSN_API_KEY }}
+          MSN_MARKET: fr-fr
+          X_TRENDS_URL: https://trends24.in/france/
+        run: python -m server.cli fetch msn x_trends
+
+      - name: Fetch sources (full)
+        if: steps.mode.outputs.mode == 'full'
+        env:
+          MSN_API_KEY: ${{ secrets.MSN_API_KEY }}
+          MSN_MARKET: fr-fr
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          SERPAPI_GEO: FR
+          WIKIMEDIA_USER_AGENT: ${{ secrets.WIKIMEDIA_USER_AGENT }}
+          WIKIMEDIA_PROJECT: fr.wikipedia
+          X_TRENDS_URL: https://trends24.in/france/
+        run: python -m server.cli fetch-all
+
+      - name: Score
+        env:
+          # Le scoring ne fait pas d'appel HTTP, mais on charge .env quand
+          # même au cas où on en aurait besoin pour des futures features.
+          MSN_API_KEY: ${{ secrets.MSN_API_KEY }}
+        run: python -m server.cli score
+
+      - name: Commit & push snapshots if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # On ne stage que les données — jamais le code
+          git add data/
+
+          if git diff --staged --quiet; then
+            echo "Pas de changement, rien à commit."
+            exit 0
+          fi
+
+          MODE="${{ steps.mode.outputs.mode }}"
+          TS="$(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit -m "chore(data): snapshot ${MODE} — ${TS} [skip ci]"
+          git push

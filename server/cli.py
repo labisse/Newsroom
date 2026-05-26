@@ -1,10 +1,11 @@
 """CLI orchestrateur — fetch des sources + scoring.
 
 Usage :
-    python -m server.cli fetch-all         # toutes les sources
-    python -m server.cli fetch <source>    # une source unique
-    python -m server.cli score             # agrège + score à partir des snapshots
-    python -m server.cli all               # fetch-all puis score
+    python -m server.cli fetch-all                 # toutes les sources
+    python -m server.cli fetch msn                 # une source
+    python -m server.cli fetch msn x_trends        # plusieurs sources
+    python -m server.cli score                     # agrège à partir des snapshots
+    python -m server.cli all                       # fetch-all puis score
 
 Sources : msn, wikimedia, google_trends, x_trends
 Sortie  : data/{source}/{YYYY-MM-DD}.json + data/{source}/latest.json
@@ -76,24 +77,35 @@ def cmd_fetch_all() -> int:
     return 0 if failures == 0 else 1
 
 
-def cmd_fetch(name: str) -> int:
-    """Lance une source unique."""
-    if name not in SOURCES:
+def cmd_fetch(names: list[str]) -> int:
+    """Lance une ou plusieurs sources nommées.
+
+    Échoue à 1 dès qu'une source échoue, mais continue les suivantes
+    pour donner un tableau de bord complet.
+    """
+    unknown = [n for n in names if n not in SOURCES]
+    if unknown:
         print(
-            f"source inconnue : {name}\nsources disponibles : "
-            + ", ".join(SOURCES),
+            f"source(s) inconnue(s) : {', '.join(unknown)}\n"
+            f"sources disponibles : {', '.join(SOURCES)}",
             file=sys.stderr,
         )
         return 2
 
-    ok, summary = _run_one(name)
-    print(summary)
+    print(f"Editorial Signal — fetch {' '.join(names)}\n")
+    print("-" * 60)
 
-    if not ok:
-        # Log la stack complète quand on cible une source unique
-        traceback.print_exc()
-        return 1
-    return 0
+    failures = 0
+    for name in names:
+        ok, summary = _run_one(name)
+        print(summary)
+        if not ok:
+            failures += 1
+
+    print("-" * 60)
+    total = len(names)
+    print(f"Terminé : {total - failures}/{total} sources OK")
+    return 0 if failures == 0 else 1
 
 
 def cmd_score(top_n: int) -> int:
@@ -149,11 +161,13 @@ def main(argv: list[str] | None = None) -> int:
 
     sub.add_parser("fetch-all", help="Lancer toutes les sources")
 
-    p_one = sub.add_parser("fetch", help="Lancer une source unique")
+    p_one = sub.add_parser("fetch", help="Lancer une ou plusieurs sources nommées")
     p_one.add_argument(
-        "source",
+        "sources",
+        nargs="+",
         choices=sorted(SOURCES.keys()),
-        help="Nom de la source",
+        metavar="source",
+        help="Nom(s) de source(s) (ex: msn x_trends)",
     )
 
     p_score = sub.add_parser("score", help="Agrège + score à partir des snapshots")
@@ -172,7 +186,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.cmd == "fetch-all":
         return cmd_fetch_all()
     if args.cmd == "fetch":
-        return cmd_fetch(args.source)
+        return cmd_fetch(args.sources)
     if args.cmd == "score":
         return cmd_score(args.top)
     if args.cmd == "all":
