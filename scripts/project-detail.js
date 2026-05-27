@@ -374,13 +374,286 @@ const mount = async () => {
   if (insights) {
     document.querySelector("#project-insights").style.display = "block";
     document.querySelector("#project-pending").style.display = "none";
+
+    // ★ Section principale : briefing personnalisé du projet
+    renderBriefing(
+      insights.scored_sujets || [],
+      insights.project_tier_counts || { high: 0, medium: 0, low: 0 },
+      insights.sujets_source,
+      project.name,
+    );
+
+    // Sections secondaires (dans les tabs)
     renderStats(insights.stats, insights.generated_at);
     renderTopUrls(insights.stats.top_urls || []);
     renderRagGroups(insights.insights || {});
+
+    // Wire les tabs
+    wireSecondaryTabs();
   } else {
     document.querySelector("#project-insights").style.display = "none";
     document.querySelector("#project-pending").style.display = "block";
   }
+};
+
+/* ----- Briefing personnalisé : liste re-triée + affinity badge ----- */
+
+const renderBriefing = (scoredSujets, tierCounts, sujetsSource, projectName) => {
+  // Meta header
+  const meta = document.querySelector("#project-briefing-meta");
+  if (meta) {
+    const srcDate = sujetsSource?.generated_at
+      ? formatRelative(sujetsSource.generated_at)
+      : "n/a";
+    meta.innerHTML =
+      `<strong>${scoredSujets.length} sujets</strong> du flux global ` +
+      `re-scorés avec ton historique Discover. ` +
+      `Tri par <strong>Score ${projectName}</strong> ` +
+      `(combinaison signal global × affinité historique). ` +
+      `<em>Flux global : ${srcDate}</em>.`;
+  }
+
+  // Counts
+  const countsEl = document.querySelector("#project-briefing-counts");
+  if (countsEl) {
+    countsEl.innerHTML = "";
+    const labels = [
+      { value: tierCounts.high, label: "fort", cls: "is-success" },
+      { value: tierCounts.medium, label: "moyen", cls: "is-warning" },
+      { value: tierCounts.low, label: "faible", cls: "is-danger" },
+    ];
+    for (const c of labels) {
+      countsEl.appendChild(
+        h(
+          "span",
+          { class: `project-briefing__count ${c.cls}` },
+          h("strong", {}, String(c.value)),
+          ` ${c.label}`,
+        ),
+      );
+    }
+  }
+
+  // Liste
+  const list = document.querySelector("#project-briefing-list");
+  if (!list) return;
+  list.innerHTML = "";
+
+  if (!scoredSujets.length) {
+    list.appendChild(
+      h(
+        "li",
+        { class: "project-empty" },
+        h("strong", {}, "Aucun sujet à scorer."),
+        h(
+          "p",
+          {},
+          "Lance `python -m server.cli score` pour générer le flux global, puis re-génère les insights.",
+        ),
+      ),
+    );
+    return;
+  }
+
+  for (const sujet of scoredSujets) {
+    list.appendChild(renderBriefingSujet(sujet));
+  }
+};
+
+const briefingTier = (score) =>
+  score >= 50 ? "high" : score >= 30 ? "medium" : "low";
+
+const renderBriefingSujet = (sujet) => {
+  const aff = sujet.affinity || {};
+  const tier = briefingTier(sujet.project_score);
+
+  const row = h(
+    "li",
+    { class: "briefing-sujet", "data-tier": tier },
+    h(
+      "div",
+      { class: "briefing-sujet__rank" },
+      String(sujet.project_rank).padStart(2, "0"),
+    ),
+    // Score PM (gros) + global score (petit en dessous)
+    h(
+      "div",
+      { class: "briefing-sujet__scores" },
+      h(
+        "div",
+        { class: "briefing-sujet__score-pm" },
+        h("span", { class: "briefing-sujet__score-value" }, String(sujet.project_score)),
+        h("span", { class: "briefing-sujet__score-label" }, "PM"),
+      ),
+      h(
+        "div",
+        { class: "briefing-sujet__score-global" },
+        `global ${sujet.global_score}`,
+      ),
+    ),
+    // Title + signaux + affinity badge
+    h(
+      "div",
+      { class: "briefing-sujet__body" },
+      h("h3", { class: "briefing-sujet__title" }, sujet.title),
+      h(
+        "div",
+        { class: "briefing-sujet__meta" },
+        h(
+          "span",
+          { class: "briefing-sujet__theme" },
+          sujet.theme || "—",
+        ),
+        renderAffinityBadge(aff),
+      ),
+    ),
+    // Chevron expand
+    h(
+      "button",
+      { class: "briefing-sujet__chevron", "aria-label": "Voir le détail" },
+      "▾",
+    ),
+    // Détail expand
+    renderBriefingDetail(sujet, aff),
+  );
+
+  row.addEventListener("click", (e) => {
+    if (e.target.closest("a")) return;
+    row.classList.toggle("is-expanded");
+  });
+
+  return row;
+};
+
+const renderAffinityBadge = (aff) => {
+  if (!aff || !aff.match_count) {
+    return h(
+      "span",
+      { class: "briefing-sujet__affinity is-none" },
+      "0 article historique",
+    );
+  }
+  const tier =
+    aff.score >= 70
+      ? "is-success"
+      : aff.score >= 40
+        ? "is-warning"
+        : "is-neutral";
+  return h(
+    "span",
+    { class: `briefing-sujet__affinity ${tier}` },
+    h("strong", {}, String(aff.match_count)),
+    ` articles · `,
+    h("strong", {}, formatNumber(aff.total_clicks)),
+    ` clicks cumulés`,
+  );
+};
+
+const renderBriefingDetail = (sujet, aff) => {
+  const detail = h("div", { class: "briefing-sujet__detail" });
+
+  // Rationale du sujet (signal global)
+  if (sujet.rationale) {
+    detail.appendChild(
+      h(
+        "p",
+        { class: "briefing-sujet__rationale" },
+        sujet.rationale,
+      ),
+    );
+  }
+
+  // Signaux globaux (DISCOVER · TRENDS · WIKI · MSN · X)
+  if (sujet.global_signals?.length) {
+    const sigs = h("div", { class: "briefing-sujet__signals" });
+    for (const s of sujet.global_signals) {
+      sigs.appendChild(
+        h(
+          "span",
+          { class: `briefing-sujet__signal`, "data-source": s.source },
+          h("span", { class: "briefing-sujet__signal-label" }, s.label),
+          " ",
+          h("span", { class: "briefing-sujet__signal-value" }, s.value),
+        ),
+      );
+    }
+    detail.appendChild(sigs);
+  }
+
+  // Top 3 contenus historiques similaires (la valeur ajoutée)
+  if (aff.top_matches?.length) {
+    const block = h(
+      "div",
+      { class: "briefing-sujet__history" },
+      h(
+        "div",
+        { class: "briefing-sujet__history-head" },
+        h("strong", {}, `Tu as déjà cartonné sur des sujets similaires :`),
+      ),
+      h(
+        "ul",
+        { class: "briefing-sujet__history-list" },
+        ...aff.top_matches.map((m) =>
+          h(
+            "li",
+            { class: "briefing-sujet__history-item" },
+            h(
+              "span",
+              { class: "briefing-sujet__history-sim" },
+              `${(m.similarity * 100).toFixed(0)}%`,
+            ),
+            h(
+              "div",
+              { class: "briefing-sujet__history-body" },
+              h(
+                "a",
+                {
+                  class: "briefing-sujet__history-title",
+                  href: m.url,
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                },
+                truncate(m.title || urlToReadable(m.url), 110),
+              ),
+              h(
+                "span",
+                { class: "briefing-sujet__history-clicks" },
+                `${formatNumber(m.clicks)} clicks Discover`,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+    detail.appendChild(block);
+  } else if (!aff.match_count) {
+    detail.appendChild(
+      h(
+        "p",
+        { class: "briefing-sujet__no-history" },
+        "Aucun contenu historique vraiment similaire — c'est un sujet nouveau pour ce site.",
+      ),
+    );
+  }
+
+  return detail;
+};
+
+/* ----- Wire des onglets secondaires ----- */
+
+const wireSecondaryTabs = () => {
+  const tabs = document.querySelectorAll(".project-secondary__tab");
+  const panels = document.querySelectorAll(".project-secondary__panel");
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      const key = tab.dataset.tab;
+      tabs.forEach((t) => t.classList.toggle("is-active", t === tab));
+      panels.forEach((p) =>
+        p.classList.toggle("is-active", p.dataset.panel === key),
+      );
+    });
+  });
 };
 
 if (document.readyState === "loading") {

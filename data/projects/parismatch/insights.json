@@ -1,6 +1,6 @@
 {
   "project": "parismatch",
-  "generated_at": "2026-05-27T14:26:51Z",
+  "generated_at": "2026-05-27T14:47:31Z",
   "stats": {
     "total_urls": 12894,
     "with_title": 50,
@@ -132,9 +132,1901 @@
   "sujets_source": {
     "available": true,
     "generated_at": "2026-05-27T09:28:58Z",
+    "sujets_count": 30,
     "categories_count": 8,
     "entity_clusters_count": 8,
     "entities_count": 14
+  },
+  "scored_sujets": [
+    {
+      "id": "s01",
+      "title": "Mort de Pierre Deny : sa compagne, elle aussi célèbre, lui rend un bel hommage",
+      "theme": "divertissement",
+      "global_score": 70,
+      "global_tier": "high",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "62/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "103k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "129+ react."
+        }
+      ],
+      "rationale": "Forte visibilité Discover (score 62) · forte audience Wikipedia (103 484 vues/jour) · repris sur Google Actualités · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/mort-de-pierre-deny-sa-compagne-elle-aussi-célèbre-lui-rend-un-bel-hommage/ar-AA244D78?ocid=00000000",
+      "msn_source_name": "Public : Actu People en continu",
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Pierre Deny"
+      ],
+      "affinity": {
+        "score": 66,
+        "match_count": 10,
+        "max_similarity": 0.785,
+        "avg_similarity": 0.74,
+        "total_clicks": 77542,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/Culture/lacteur-francais-pierre-deny-est-mort-269667",
+            "title": null,
+            "clicks": 183,
+            "similarity": 0.785
+          },
+          {
+            "url": "https://www.parismatch.com/People/pierre-perret-rebecca-son-epouse-depuis-plus-de-60-ans-est-morte-262432",
+            "title": null,
+            "clicks": 11,
+            "similarity": 0.752
+          },
+          {
+            "url": "https://www.parismatch.com/People/cest-bien-la-premiere-fois-que-tu-ne-nous-fais-pas-rire-les-proches-disabelle-mergault-lui-rendent-hommage-266281",
+            "title": null,
+            "clicks": 2,
+            "similarity": 0.741
+          }
+        ]
+      },
+      "project_score": 72,
+      "project_rank": 1
+    },
+    {
+      "id": "s06",
+      "title": "En pleine polémique, Gilles Lellouche remet les pendules à l’heure : « On m’a traité de lâche… »",
+      "theme": "divertissement",
+      "global_score": 39,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "20k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "5k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "51+ react."
+        }
+      ],
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/en-pleine-polémique-gilles-lellouche-remet-les-pendules-à-l-heure-on-m-a-traité-de-lâche/ar-AA245gFF?ocid=00000000",
+      "msn_source_name": "Gala (French)",
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Gilles Lellouche"
+      ],
+      "affinity": {
+        "score": 71,
+        "match_count": 10,
+        "max_similarity": 0.705,
+        "avg_similarity": 0.679,
+        "total_clicks": 918360,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/vivre/bijoux-et-montres/gilles-lellouche-monte-les-marches-avec-une-montre-audemars-piguet-un-tapis-rouge-a-300-000-euros-269046",
+            "title": null,
+            "clicks": 6971,
+            "similarity": 0.705
+          },
+          {
+            "url": "https://www.parismatch.com/culture/cinema/gilles-lellouche-le-succes-est-un-doux-anesthesiant-dont-il-faut-se-mefier-258413",
+            "title": null,
+            "clicks": 4043,
+            "similarity": 0.697
+          },
+          {
+            "url": "https://www.parismatch.com/People/sting-attaque-en-justice-par-ses-anciens-compagnons-de-the-police-256053",
+            "title": null,
+            "clicks": 17758,
+            "similarity": 0.687
+          }
+        ]
+      },
+      "project_score": 61,
+      "project_rank": 2
+    },
+    {
+      "id": "s10",
+      "title": "Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
+      "theme": "actualite",
+      "global_score": 30,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "20k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "6+ react."
+        }
+      ],
+      "rationale": "Forte audience Wikipedia (20 499 vues/jour) · couvert par 3 médias.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-après-andréa-bescond-alexandra-lamy-sort-du-silence-et-prend-position/ar-AA247kkO?ocid=00000000",
+      "msn_source_name": "So Busy Girls",
+      "discover_category": "/Arts & Entertainment/Music & Audio/Pop Music",
+      "discover_entities": [],
+      "affinity": {
+        "score": 72,
+        "match_count": 10,
+        "max_similarity": 0.741,
+        "avg_similarity": 0.7,
+        "total_clicks": 777779,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/patrick-bruel-accuse-dagression-sexuelle-la-justice-belge-ouvre-une-enquete-267549",
+            "title": null,
+            "clicks": 8,
+            "similarity": 0.741
+          },
+          {
+            "url": "https://www.parismatch.com/People/tu-avais-bave-sur-moi-dans-tout-paris-soutenue-par-alexandra-lamy-andrea-bescond-reagit-aux-accusations-visant-patrick-bruel-266170",
+            "title": null,
+            "clicks": 114,
+            "similarity": 0.723
+          },
+          {
+            "url": "https://www.parismatch.com/People/lavocate-de-flavie-flament-annonce-de-nouvelles-plaintes-pour-viols-contre-patrick-bruel-269296",
+            "title": null,
+            "clicks": 135,
+            "similarity": 0.715
+          }
+        ]
+      },
+      "project_score": 57,
+      "project_rank": 3
+    },
+    {
+      "id": "s02",
+      "title": "« On pense fort à Véronique Sanson » : Jeanne Cherhal, qui a remplacé la chanteuse au pied levé, prend la parole",
+      "theme": "divertissement",
+      "global_score": 50,
+      "global_tier": "high",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "30/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "10k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "2k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "28+ react."
+        }
+      ],
+      "rationale": "Forte visibilité Discover (score 30) · présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités.",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/on-pense-fort-à-véronique-sanson-jeanne-cherhal-qui-a-remplacé-la-chanteuse-au-pied-levé-prend-la-parole/ar-AA246nbW?ocid=00000000",
+      "msn_source_name": "Purepeople",
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "France à l'Eurovision",
+        "Musique",
+        "Véronique Sanson"
+      ],
+      "affinity": {
+        "score": 63,
+        "match_count": 10,
+        "max_similarity": 0.699,
+        "avg_similarity": 0.686,
+        "total_clicks": 107839,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/veronique-sanson-hospitalisee-durgence-son-premier-concert-estival-annule-269575",
+            "title": null,
+            "clicks": 35917,
+            "similarity": 0.699
+          },
+          {
+            "url": "https://www.parismatch.com/People/cest-toujours-une-emotion-de-revoir-ca-michel-denisot-au-bord-des-larmes-en-evoquant-la-mort-de-coluche-269133",
+            "title": null,
+            "clicks": 41246,
+            "similarity": 0.699
+          },
+          {
+            "url": "https://www.parismatch.com/People/cest-bien-la-premiere-fois-que-tu-ne-nous-fais-pas-rire-les-proches-disabelle-mergault-lui-rendent-hommage-266281",
+            "title": null,
+            "clicks": 2,
+            "similarity": 0.695
+          }
+        ]
+      },
+      "project_score": 56,
+      "project_rank": 4
+    },
+    {
+      "id": "s03",
+      "title": "Roland-Garros : à 17 ans, Moïse Kouamé réalise un premier exploit et élimine Marin Cilic au 1er tour",
+      "theme": "actualite",
+      "global_score": 47,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "4/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "5 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "20k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "5k vues"
+        },
+        {
+          "source": "x",
+          "label": "x",
+          "value": "#129"
+        }
+      ],
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (5 médias) · mentionné sur X.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/insolite/roland-garros-à-17-ans-moïse-kouamé-réalise-un-premier-exploit-et-élimine-marin-cilic-au-1er-tour/ar-AA246qd4?ocid=00000000",
+      "msn_source_name": "Le Parisien",
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
+      "discover_entities": [
+        "Marin Čilić",
+        "Roland-Garros",
+        "Sport",
+        "Tennis"
+      ],
+      "affinity": {
+        "score": 66,
+        "match_count": 10,
+        "max_similarity": 0.732,
+        "avg_similarity": 0.717,
+        "total_clicks": 153547,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/sport/ousmane-dembele-emmene-le-trophee-de-la-ligue-des-champions-a-roland-garros-252234",
+            "title": null,
+            "clicks": 1,
+            "similarity": 0.732
+          },
+          {
+            "url": "https://www.parismatch.com/actu/sport/le-paris-saint-germain-a-jamais-les-premiers-avec-un-heros-inattendu-261775",
+            "title": null,
+            "clicks": 1,
+            "similarity": 0.72
+          },
+          {
+            "url": "https://www.parismatch.com/actu/sport/roland-garros-lincroyable-remontada-de-carlos-alcaraz-252490",
+            "title": null,
+            "clicks": 19,
+            "similarity": 0.719
+          }
+        ]
+      },
+      "project_score": 56,
+      "project_rank": 5
+    },
+    {
+      "id": "s09",
+      "title": "Patrick Bruel, ses concerts voués à l’échec ? « Les propos de ses chansons sont tellement éloignés de ce pour quoi il est accusé… »",
+      "theme": "divertissement",
+      "global_score": 30,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "20k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "10+ react."
+        }
+      ],
+      "rationale": "Forte audience Wikipedia (20 499 vues/jour) · couvert par 3 médias.",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/patrick-bruel-ses-concerts-voués-à-l-échec-les-propos-de-ses-chansons-sont-tellement-éloignés-de-ce-pour-quoi-il-est-accusé/ar-AA240Wrl?ocid=00000000",
+      "msn_source_name": "Gala (French)",
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [],
+      "affinity": {
+        "score": 70,
+        "match_count": 10,
+        "max_similarity": 0.846,
+        "avg_similarity": 0.767,
+        "total_clicks": 145821,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/la-tournee-de-la-honte-la-petition-reclamant-lannulation-des-concerts-de-patrick-bruel-depasse-les-20-000-signataires-269331",
+            "title": null,
+            "clicks": 53549,
+            "similarity": 0.846
+          },
+          {
+            "url": "https://www.parismatch.com/People/affaire-patrick-bruel-au-quebec-plusieurs-concerts-du-chanteur-ont-ete-annules-269361",
+            "title": null,
+            "clicks": 410,
+            "similarity": 0.805
+          },
+          {
+            "url": "https://www.parismatch.com/People/on-na-pas-le-droit-dempecher-les-artistes-de-jouer-chantal-ladesou-a-contre-courant-sur-laffaire-patrick-bruel-269646",
+            "title": null,
+            "clicks": 27502,
+            "similarity": 0.779
+          }
+        ]
+      },
+      "project_score": 56,
+      "project_rank": 6
+    },
+    {
+      "id": "s13",
+      "title": "Voici le salaire qu'il faut toucher tous les mois pour faire partie de la classe moyenne en 2026 en France",
+      "theme": "lifestyle",
+      "global_score": 28,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "1/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "4 médias"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "1526+ react."
+        }
+      ],
+      "rationale": "Couvert par 4 médias · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/voici-le-salaire-qu-il-faut-toucher-tous-les-mois-pour-faire-partie-de-la-classe-moyenne-en-2026-en-france/ar-AA1PuinD?ocid=00000000",
+      "msn_source_name": "Marie France",
+      "discover_category": "/Home & Garden/Pest Control",
+      "discover_entities": [
+        "Acariens",
+        "Arachnides",
+        "Araignées",
+        "Arthropodes"
+      ],
+      "affinity": {
+        "score": 70,
+        "match_count": 10,
+        "max_similarity": 0.759,
+        "avg_similarity": 0.731,
+        "total_clicks": 355450,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/politique/budget-2026-ce-que-mijote-vraiment-francois-bayrou-254149",
+            "title": null,
+            "clicks": 212,
+            "similarity": 0.759
+          },
+          {
+            "url": "https://www.parismatch.com/actu/sport/qui-sont-les-joueurs-de-football-les-mieux-payes-en-france-les-salaires-reveles-266907",
+            "title": null,
+            "clicks": 1,
+            "similarity": 0.751
+          },
+          {
+            "url": "https://www.parismatch.com/actu/economie/qui-sont-les-10-hommes-les-plus-riches-du-monde-en-2026-elon-musk-bat-tous-les-records-262532",
+            "title": null,
+            "clicks": 2852,
+            "similarity": 0.736
+          }
+        ]
+      },
+      "project_score": 55,
+      "project_rank": 7
+    },
+    {
+      "id": "s16",
+      "title": "Un nouveau serpent géant vient d’être découvert en Amazonie",
+      "theme": "video",
+      "global_score": 26,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "1/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "534+ react."
+        }
+      ],
+      "rationale": "Couvert par 3 médias · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/video/viral/un-nouveau-serpent-géant-vient-d-être-découvert-en-amazonie/vi-AA21p5jU?ocid=00000000",
+      "msn_source_name": "Dailymotion",
+      "discover_category": "/Autos & Vehicles",
+      "discover_entities": [
+        "Citroën",
+        "Citroën DS",
+        "DS Automobiles",
+        "Stellantis"
+      ],
+      "affinity": {
+        "score": 70,
+        "match_count": 10,
+        "max_similarity": 0.851,
+        "avg_similarity": 0.736,
+        "total_clicks": 107947,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/Actu/Environnement/on-a-retrouve-le-plus-petit-serpent-du-monde-254843",
+            "title": null,
+            "clicks": 251,
+            "similarity": 0.851
+          },
+          {
+            "url": "https://www.parismatch.com/Actu/Environnement/en-amazonie-will-smith-assiste-a-la-decouverte-dun-nouvel-anaconda-geant-262977",
+            "title": null,
+            "clicks": 28383,
+            "similarity": 0.81
+          },
+          {
+            "url": "https://www.parismatch.com/actu/sciences/au-mexique-lincroyable-cimetiere-des-mammouths-revele-ses-recrets-256499",
+            "title": null,
+            "clicks": 4680,
+            "similarity": 0.73
+          }
+        ]
+      },
+      "project_score": 54,
+      "project_rank": 8
+    },
+    {
+      "id": "s24",
+      "title": "« J'ai demandé à ce qu'on m'abrège la vie... » : Mireille Dumas brise le tabou sur sa fin de vie",
+      "theme": "divertissement",
+      "global_score": 20,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "159+ react."
+        }
+      ],
+      "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/j-ai-demandé-à-ce-qu-on-m-abrège-la-vie-mireille-dumas-brise-le-tabou-sur-sa-fin-de-vie/ar-AA240cg8?ocid=00000000",
+      "msn_source_name": "Voici",
+      "discover_category": null,
+      "discover_entities": [],
+      "affinity": {
+        "score": 73,
+        "match_count": 10,
+        "max_similarity": 0.744,
+        "avg_similarity": 0.734,
+        "total_clicks": 972913,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/cetait-regle-pourquoi-brigitte-bardot-ne-sera-pas-enterree-a-la-madrague-comme-elle-le-souhaitait-son-mari-explique-262522",
+            "title": null,
+            "clicks": 3,
+            "similarity": 0.744
+          },
+          {
+            "url": "https://www.parismatch.com/People/les-causes-de-la-mort-de-diane-keaton-revelees-258690",
+            "title": null,
+            "clicks": 18,
+            "similarity": 0.744
+          },
+          {
+            "url": "https://www.parismatch.com/actu/faits-divers/recherchee-par-ses-proches-depuis-2001-une-mere-de-famille-avait-refait-sa-vie-je-suis-a-la-fois-aux-anges-et-furieuse-264918",
+            "title": null,
+            "clicks": 127117,
+            "similarity": 0.739
+          }
+        ]
+      },
+      "project_score": 52,
+      "project_rank": 9
+    },
+    {
+      "id": "s04",
+      "title": "Guerre au Moyen-Orient : Les Etats-Unis annoncent avoir frappé des sites de lancement de missiles en Iran",
+      "theme": "actualite",
+      "global_score": 42,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "18 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "10k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "92+ react."
+        }
+      ],
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (18 médias) · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/guerre-au-moyen-orient-les-etats-unis-annoncent-avoir-frappé-des-sites-de-lancement-de-missiles-en-iran/ar-AA242G84?ocid=00000000",
+      "msn_source_name": "20 Minutes",
+      "discover_category": "/Sensitive Subjects",
+      "discover_entities": [
+        "Iran",
+        "Moyen-Orient"
+      ],
+      "affinity": {
+        "score": 61,
+        "match_count": 10,
+        "max_similarity": 0.853,
+        "avg_similarity": 0.832,
+        "total_clicks": 9321,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/international/guerre-au-moyen-orient-des-infrastructures-energetiques-iraniennes-visees-par-des-frappes-israelo-americaines-266422",
+            "title": null,
+            "clicks": 2,
+            "similarity": 0.853
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/nouveaux-tirs-de-missiles-iraniens-sur-israel-en-riposte-a-une-attaque-massive-252764",
+            "title": null,
+            "clicks": 0,
+            "similarity": 0.84
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/le-site-nucleaire-iranien-de-natanz-a-t-il-ete-frappe-par-des-missiles-israeliens-et-americains-266303",
+            "title": null,
+            "clicks": 6,
+            "similarity": 0.839
+          }
+        ]
+      },
+      "project_score": 51,
+      "project_rank": 10
+    },
+    {
+      "id": "s21",
+      "title": "« Tu n'es pas assez fortement opposé à l'extrême droite »: quand la tante de Charles Consigny tente de le recadrer en direct",
+      "theme": "divertissement",
+      "global_score": 21,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "500"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "86+ react."
+        }
+      ],
+      "rationale": "Présent sur Google Trends · repris sur Google Actualités · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/tu-n-es-pas-assez-fortement-opposé-à-l-extrême-droite-quand-la-tante-de-charles-consigny-tente-de-le-recadrer-en-direct/ar-AA245h0r?ocid=00000000",
+      "msn_source_name": "RMC",
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Israël",
+        "Itamar Ben-Gvir"
+      ],
+      "affinity": {
+        "score": 70,
+        "match_count": 10,
+        "max_similarity": 0.768,
+        "avg_similarity": 0.734,
+        "total_clicks": 326008,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/apres-la-declaration-de-politique-generale-de-lecornu-lescapade-nocturne-demmanuel-et-brigitte-macron-258668",
+            "title": null,
+            "clicks": 125700,
+            "similarity": 0.768
+          },
+          {
+            "url": "https://www.parismatch.com/People/taratata-ce-drole-dincident-qui-a-oblige-florent-pagny-a-retourner-en-coulisses-260828",
+            "title": null,
+            "clicks": 4602,
+            "similarity": 0.743
+          },
+          {
+            "url": "https://www.parismatch.com/actu/politique/motions-de-censure-au-coeur-de-la-journee-de-tous-les-dangers-de-sebastien-lecornu-258721",
+            "title": null,
+            "clicks": 18,
+            "similarity": 0.742
+          }
+        ]
+      },
+      "project_score": 51,
+      "project_rank": 11
+    },
+    {
+      "id": "s05",
+      "title": "Patrick Bruel sort du silence après la plainte de Flavie Flament : ce qu’il affirme aujourd’hui sur les réseaux sociaux",
+      "theme": "divertissement",
+      "global_score": 41,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "4 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "20k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "123+ react."
+        }
+      ],
+      "rationale": "Forte audience Wikipedia (20 499 vues/jour) · couvert par 4 médias · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/patrick-bruel-sort-du-silence-après-la-plainte-de-flavie-flament-ce-qu-il-affirme-aujourd-hui-sur-les-réseaux-sociaux/ar-AA23Uigu?ocid=00000000",
+      "msn_source_name": "So Busy Girls",
+      "discover_category": "/Business & Industrial",
+      "discover_entities": [
+        "Airbus",
+        "Airbus A350",
+        "Avion"
+      ],
+      "affinity": {
+        "score": 59,
+        "match_count": 10,
+        "max_similarity": 0.805,
+        "avg_similarity": 0.737,
+        "total_clicks": 9072,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/societe/je-parle-pour-la-jeune-fille-que-jetais-flavie-flament-depose-plainte-pour-viol-contre-patrick-bruel-269131",
+            "title": null,
+            "clicks": 369,
+            "similarity": 0.805
+          },
+          {
+            "url": "https://www.parismatch.com/People/lavocate-de-flavie-flament-annonce-de-nouvelles-plaintes-pour-viols-contre-patrick-bruel-269296",
+            "title": null,
+            "clicks": 135,
+            "similarity": 0.795
+          },
+          {
+            "url": "https://www.parismatch.com/People/mon-esprit-etait-en-panique-mon-corps-ne-repondait-pas-le-temoignage-de-flavie-flament-qui-accuse-patrick-bruel-de-viol-269519",
+            "title": null,
+            "clicks": 137,
+            "similarity": 0.767
+          }
+        ]
+      },
+      "project_score": 49,
+      "project_rank": 12
+    },
+    {
+      "id": "s07",
+      "title": "« Ce n’est pas un luxe, c’est vital » : voici le budget que les retraités doivent toucher pour vivre dignement en France en mai 2026",
+      "theme": "lifestyle",
+      "global_score": 35,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "10k"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "1680+ react."
+        }
+      ],
+      "rationale": "Présent sur Google Trends · couvert par 3 médias · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/ce-n-est-pas-un-luxe-c-est-vital-voici-le-budget-que-les-retraités-doivent-toucher-pour-vivre-dignement-en-france-en-mai-2026/ar-AA1S4370?ocid=00000000",
+      "msn_source_name": "Marie France",
+      "discover_category": "/News/Weather",
+      "discover_entities": [
+        "Température"
+      ],
+      "affinity": {
+        "score": 64,
+        "match_count": 10,
+        "max_similarity": 0.814,
+        "avg_similarity": 0.779,
+        "total_clicks": 31714,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/economie/le-vieillissement-ineluctable-de-la-population-va-bientot-nous-couter-tres-cher-que-faut-il-attendre-de-2026-262771",
+            "title": null,
+            "clicks": 5,
+            "similarity": 0.814
+          },
+          {
+            "url": "https://www.parismatch.com/actu/economie/suspension-de-la-reforme-des-retraites-le-gouvernement-fait-payer-la-pause-aux-retraites-et-aux-mutuelles-259031",
+            "title": null,
+            "clicks": 35,
+            "similarity": 0.803
+          },
+          {
+            "url": "https://www.parismatch.com/actu/politique/francois-bayrou-dresse-le-bilan-des-negociations-sur-les-retraites-253347",
+            "title": null,
+            "clicks": 1,
+            "similarity": 0.792
+          }
+        ]
+      },
+      "project_score": 48,
+      "project_rank": 13
+    },
+    {
+      "id": "s11",
+      "title": "« Je l’ai vu de mes yeux » : ce que décrit Anny Duperey sur les fans de Patrick Bruel relance le débat",
+      "theme": "actualite",
+      "global_score": 30,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "20k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "5+ react."
+        }
+      ],
+      "rationale": "Forte audience Wikipedia (20 499 vues/jour) · couvert par 3 médias.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/je-l-ai-vu-de-mes-yeux-ce-que-décrit-anny-duperey-sur-les-fans-de-patrick-bruel-relance-le-débat/ar-AA2475cv?ocid=00000000",
+      "msn_source_name": "So Busy Girls",
+      "discover_category": "/Arts & Entertainment/Music & Audio/Pop Music",
+      "discover_entities": [],
+      "affinity": {
+        "score": 69,
+        "match_count": 10,
+        "max_similarity": 0.688,
+        "avg_similarity": 0.67,
+        "total_clicks": 545029,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/malgre-les-deux-enquetes-pour-agression-sexuelle-visant-patrick-bruel-son-jeune-fils-poursuit-les-dedicaces-de-son-livre-267575",
+            "title": null,
+            "clicks": 105,
+            "similarity": 0.688
+          },
+          {
+            "url": "https://www.parismatch.com/People/le-message-enigmatique-danthony-delon-sur-les-reseaux-sociaux-une-reponse-aux-accusations-de-son-frere-alain-fabien-267369",
+            "title": null,
+            "clicks": 37,
+            "similarity": 0.676
+          },
+          {
+            "url": "https://www.parismatch.com/People/mon-esprit-etait-en-panique-mon-corps-ne-repondait-pas-le-temoignage-de-flavie-flament-qui-accuse-patrick-bruel-de-viol-269519",
+            "title": null,
+            "clicks": 137,
+            "similarity": 0.674
+          }
+        ]
+      },
+      "project_score": 48,
+      "project_rank": 14
+    },
+    {
+      "id": "s12",
+      "title": "« Tout le monde savait » : autour de Patrick Bruel, cette question sur le silence du milieu devient centrale",
+      "theme": "actualite",
+      "global_score": 30,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "20k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "3+ react."
+        }
+      ],
+      "rationale": "Forte audience Wikipedia (20 499 vues/jour) · couvert par 3 médias.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/tout-le-monde-savait-autour-de-patrick-bruel-cette-question-sur-le-silence-du-milieu-devient-centrale/ar-AA247zy7?ocid=00000000",
+      "msn_source_name": "So Busy Girls",
+      "discover_category": "/Arts & Entertainment/Music & Audio/Pop Music",
+      "discover_entities": [],
+      "affinity": {
+        "score": 68,
+        "match_count": 10,
+        "max_similarity": 0.717,
+        "avg_similarity": 0.686,
+        "total_clicks": 319738,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/on-avait-bon-espoir-de-le-revoir-bruno-salomone-son-dernier-role-dans-la-peau-dun-flic-solitaire-265942",
+            "title": null,
+            "clicks": 129944,
+            "similarity": 0.717
+          },
+          {
+            "url": "https://www.parismatch.com/People/malgre-les-deux-enquetes-pour-agression-sexuelle-visant-patrick-bruel-son-jeune-fils-poursuit-les-dedicaces-de-son-livre-267575",
+            "title": null,
+            "clicks": 105,
+            "similarity": 0.705
+          },
+          {
+            "url": "https://www.parismatch.com/culture/cinema/regarde-demmanuel-poulain-arnaud-la-critique-dun-film-qui-peut-en-cacher-un-autre-257154",
+            "title": null,
+            "clicks": 136,
+            "similarity": 0.685
+          }
+        ]
+      },
+      "project_score": 47,
+      "project_rank": 15
+    },
+    {
+      "id": "s08",
+      "title": "« Il contre-attaque » : la décision radicale de Patrick Bruel après les accusations qui secouent sa carrière",
+      "theme": "actualite",
+      "global_score": 32,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "4 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "20k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "20+ react."
+        }
+      ],
+      "rationale": "Forte audience Wikipedia (20 499 vues/jour) · couvert par 4 médias.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/il-contre-attaque-la-décision-radicale-de-patrick-bruel-après-les-accusations-qui-secouent-sa-carrière/ar-AA243SoG?ocid=00000000",
+      "msn_source_name": "So Busy Girls",
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Musique",
+        "Patrick Bruel"
+      ],
+      "affinity": {
+        "score": 62,
+        "match_count": 10,
+        "max_similarity": 0.751,
+        "avg_similarity": 0.713,
+        "total_clicks": 37309,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/patrick-bruel-accuse-dagression-sexuelle-la-justice-belge-ouvre-une-enquete-267549",
+            "title": null,
+            "clicks": 8,
+            "similarity": 0.751
+          },
+          {
+            "url": "https://www.parismatch.com/People/malgre-les-deux-enquetes-pour-agression-sexuelle-visant-patrick-bruel-son-jeune-fils-poursuit-les-dedicaces-de-son-livre-267575",
+            "title": null,
+            "clicks": 105,
+            "similarity": 0.731
+          },
+          {
+            "url": "https://www.parismatch.com/People/sting-attaque-en-justice-par-ses-anciens-compagnons-de-the-police-256053",
+            "title": null,
+            "clicks": 17758,
+            "similarity": 0.716
+          }
+        ]
+      },
+      "project_score": 46,
+      "project_rank": 16
+    },
+    {
+      "id": "s15",
+      "title": "Bruno Guillon cède sa place à la présentation de Chacun son tour",
+      "theme": "divertissement",
+      "global_score": 27,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "41/65"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "5+ react."
+        }
+      ],
+      "rationale": "Forte visibilité Discover (score 41).",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/tv/bruno-guillon-cède-sa-place-à-la-présentation-de-chacun-son-tour/ar-AA244J6D?ocid=00000000",
+      "msn_source_name": "Toute La Télé",
+      "discover_category": "/Arts & Entertainment/TV & Video/TV Shows & Programs",
+      "discover_entities": [
+        "Bruno Guillon",
+        "Olivier Minne",
+        "Tout le monde a son mot à dire"
+      ],
+      "affinity": {
+        "score": 62,
+        "match_count": 10,
+        "max_similarity": 0.716,
+        "avg_similarity": 0.691,
+        "total_clicks": 61708,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/culture/medias/le-rocher-celebre-les-enfants-de-la-tele-252086",
+            "title": null,
+            "clicks": 346,
+            "similarity": 0.716
+          },
+          {
+            "url": "https://www.parismatch.com/People/je-naurais-pu-rever-mieux-les-debuts-de-camille-cerf-a-la-presentation-dun-jeu-televise-261958",
+            "title": null,
+            "clicks": 25217,
+            "similarity": 0.702
+          },
+          {
+            "url": "https://www.parismatch.com/culture/medias/le-retour-gagnant-du-maillon-faible-avec-olivier-minne-sur-m6-260893",
+            "title": null,
+            "clicks": 10417,
+            "similarity": 0.701
+          }
+        ]
+      },
+      "project_score": 43,
+      "project_rank": 17
+    },
+    {
+      "id": "s25",
+      "title": "« J'ai envoyé un peu loin le bouchon » : Jean Gabin pensait faire une blague sur ce film, mais il n’avait pas du tout mesuré les conséquences",
+      "theme": "divertissement",
+      "global_score": 20,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "93+ react."
+        }
+      ],
+      "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/j-ai-envoyé-un-peu-loin-le-bouchon-jean-gabin-pensait-faire-une-blague-sur-ce-film-mais-il-n-avait-pas-du-tout-mesuré-les-conséquences/ar-AA23WY1b?ocid=00000000",
+      "msn_source_name": "AlloCiné",
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Jean-Luc Mélenchon",
+        "Édouard Philippe"
+      ],
+      "affinity": {
+        "score": 66,
+        "match_count": 10,
+        "max_similarity": 0.697,
+        "avg_similarity": 0.679,
+        "total_clicks": 214878,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/je-ressemble-plus-a-robert-qua-redford-quand-les-inconnus-samusaient-de-sa-beaute-257129",
+            "title": null,
+            "clicks": 690,
+            "similarity": 0.697
+          },
+          {
+            "url": "https://www.parismatch.com/vivre/gastronomie/nous-avons-dabord-cru-a-une-arnaque-comment-un-chablis-sest-retrouve-dans-emily-in-paris-263487",
+            "title": null,
+            "clicks": 4139,
+            "similarity": 0.695
+          },
+          {
+            "url": "https://www.parismatch.com/actu/politique/elle-pensait-se-marier-avec-un-haut-fonctionnaire-elle-est-tombee-sur-un-vagabond-cotta-nay-duhamel-politiquement-votre-265892",
+            "title": null,
+            "clicks": 14092,
+            "similarity": 0.681
+          }
+        ]
+      },
+      "project_score": 41,
+      "project_rank": 18
+    },
+    {
+      "id": "s26",
+      "title": "Enfants abandonnés au Portugal par un couple de Français : quel est le profil des parents ?",
+      "theme": "actualite",
+      "global_score": 20,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "84+ react."
+        }
+      ],
+      "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/enfants-abandonnés-au-portugal-par-un-couple-de-français-quel-est-le-profil-des-parents/ar-AA23WgTX?ocid=00000000",
+      "msn_source_name": "Le Nouvel Obs",
+      "discover_category": "/Sensitive Subjects",
+      "discover_entities": [],
+      "affinity": {
+        "score": 67,
+        "match_count": 10,
+        "max_similarity": 0.887,
+        "avg_similarity": 0.782,
+        "total_clicks": 31384,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/faits-divers/enfants-abandonnes-au-portugal-qui-sont-marine-r-et-marc-b-la-mere-et-son-compagnon-mis-en-examen-269595",
+            "title": null,
+            "clicks": 727,
+            "similarity": 0.887
+          },
+          {
+            "url": "https://www.parismatch.com/actu/faits-divers/deux-enfants-francais-de-3-et-5-ans-retrouves-seuls-au-portugal-leur-mere-activement-recherchee-269479",
+            "title": null,
+            "clicks": 59,
+            "similarity": 0.836
+          },
+          {
+            "url": "https://www.parismatch.com/actu/faits-divers/profil-de-la-mere-information-judiciaire-ce-que-lon-sait-sur-les-deux-petits-francais-retrouves-seuls-au-portugal-269530",
+            "title": null,
+            "clicks": 1780,
+            "similarity": 0.83
+          }
+        ]
+      },
+      "project_score": 41,
+      "project_rank": 19
+    },
+    {
+      "id": "s14",
+      "title": "Cinéma : Elon Musk s’oppose au rôle de l’actrice Lupita Nyong’o dans un film à 250 millions de dollars",
+      "theme": "actualite",
+      "global_score": 27,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "2k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "312+ react."
+        }
+      ],
+      "rationale": "Présent dans le top Wikipedia · couvert par 3 médias · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/afrique/cinéma-elon-musk-s-oppose-au-rôle-de-l-actrice-lupita-nyong-o-dans-un-film-à-250-millions-de-dollars/ar-AA23TxNv?ocid=00000000",
+      "msn_source_name": "AfrikMag",
+      "discover_category": null,
+      "discover_entities": [],
+      "affinity": {
+        "score": 56,
+        "match_count": 10,
+        "max_similarity": 0.758,
+        "avg_similarity": 0.699,
+        "total_clicks": 6258,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/international/elon-musk-en-guerre-contre-netlflix-258059",
+            "title": null,
+            "clicks": 4,
+            "similarity": 0.758
+          },
+          {
+            "url": "https://www.parismatch.com/actu/sciences/jeff-bezos-relance-la-course-a-mars-face-a-elon-musk-260103",
+            "title": null,
+            "clicks": 0,
+            "similarity": 0.715
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/trump-vs-musk-cette-fois-la-guerre-est-declaree-252391",
+            "title": null,
+            "clicks": 117,
+            "similarity": 0.713
+          }
+        ]
+      },
+      "project_score": 40,
+      "project_rank": 20
+    },
+    {
+      "id": "s19",
+      "title": "Viens chez moi, j’habite chez une copine : après Michel Blanc, décès à 80 ans de la comédienne Thérèse Liotard",
+      "theme": "divertissement",
+      "global_score": 22,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "9k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "175+ react."
+        }
+      ],
+      "rationale": "Présent dans le top Wikipedia · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/viens-chez-moi-j-habite-chez-une-copine-après-michel-blanc-décès-à-80-ans-de-la-comédienne-thérèse-liotard/ar-AA23SuLL?ocid=00000000",
+      "msn_source_name": "Public : Actu People en continu",
+      "discover_category": "/Sports/Individual Sports/Cycling",
+      "discover_entities": [
+        "Cyclisme"
+      ],
+      "affinity": {
+        "score": 62,
+        "match_count": 10,
+        "max_similarity": 0.703,
+        "avg_similarity": 0.697,
+        "total_clicks": 68571,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/obseques-publiques-lundi-pour-lacteur-et-humoriste-bruno-salomone-266157",
+            "title": null,
+            "clicks": 4,
+            "similarity": 0.703
+          },
+          {
+            "url": "https://www.parismatch.com/People/mort-de-brigitte-bardot-a-saint-tropez-la-madrague-pleure-son-ambassadrice-la-plus-eclatante-262188",
+            "title": null,
+            "clicks": 11,
+            "similarity": 0.702
+          },
+          {
+            "url": "https://www.parismatch.com/People/je-savais-que-jetais-en-train-de-crever-a-42-ans-le-comedien-arnaud-denis-veut-recourir-a-leuthanasie-263078",
+            "title": null,
+            "clicks": 7709,
+            "similarity": 0.699
+          }
+        ]
+      },
+      "project_score": 40,
+      "project_rank": 21
+    },
+    {
+      "id": "s20",
+      "title": "Disparition de Gabriel Ganley : l'influenceur et bodybuilder a été retrouvé mort à son domicile à l'âge de 22 ans",
+      "theme": "divertissement",
+      "global_score": 21,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "50+ react."
+        }
+      ],
+      "rationale": "Couvert par 3 médias · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/disparition-de-gabriel-ganley-l-influenceur-et-bodybuilder-a-été-retrouvé-mort-à-son-domicile-à-l-âge-de-22-ans/ar-AA246i1A?ocid=00000000",
+      "msn_source_name": "Voici",
+      "discover_category": "/Jobs & Education/Jobs/Job Listings",
+      "discover_entities": [
+        "Recrutement"
+      ],
+      "affinity": {
+        "score": 64,
+        "match_count": 10,
+        "max_similarity": 0.74,
+        "avg_similarity": 0.716,
+        "total_clicks": 73243,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/eric-dane-la-cause-officielle-de-sa-mort-revelee-265321",
+            "title": null,
+            "clicks": 2,
+            "similarity": 0.74
+          },
+          {
+            "url": "https://www.parismatch.com/actu/faits-divers/footballeur-et-star-de-la-tele-realite-jake-hall-est-mort-dans-des-circonstances-terribles-268724",
+            "title": null,
+            "clicks": 5068,
+            "similarity": 0.736
+          },
+          {
+            "url": "https://www.parismatch.com/actu/faits-divers/en-etat-de-decomposition-extreme-lautopsie-de-la-jeune-celeste-rivas-revele-des-details-dune-horreur-absolue-268033",
+            "title": null,
+            "clicks": 28,
+            "similarity": 0.725
+          }
+        ]
+      },
+      "project_score": 40,
+      "project_rank": 22
+    },
+    {
+      "id": "s22",
+      "title": "Retraite : si vous touchez plus que cette pension chaque mois, vous êtes plus riche que la moyenne des seniors en France en 2026",
+      "theme": "lifestyle",
+      "global_score": 20,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "427+ react."
+        }
+      ],
+      "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/retraite-si-vous-touchez-plus-que-cette-pension-chaque-mois-vous-êtes-plus-riche-que-la-moyenne-des-seniors-en-france-en-2026/ar-AA23tz3X?ocid=00000000",
+      "msn_source_name": "Marie France",
+      "discover_category": "/News/Weather",
+      "discover_entities": [
+        "Température"
+      ],
+      "affinity": {
+        "score": 65,
+        "match_count": 10,
+        "max_similarity": 0.82,
+        "avg_similarity": 0.77,
+        "total_clicks": 36702,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/economie/le-vieillissement-ineluctable-de-la-population-va-bientot-nous-couter-tres-cher-que-faut-il-attendre-de-2026-262771",
+            "title": null,
+            "clicks": 5,
+            "similarity": 0.82
+          },
+          {
+            "url": "https://www.parismatch.com/actu/economie/il-ny-a-jamais-eu-de-meilleur-moment-en-amerique-pour-etre-vieux-comment-les-seniors-possedent-leconomie-264915",
+            "title": null,
+            "clicks": 28234,
+            "similarity": 0.794
+          },
+          {
+            "url": "https://www.parismatch.com/actu/politique/conclave-sur-les-retraites-que-preconise-lintelligence-artificielle-253164",
+            "title": null,
+            "clicks": 1446,
+            "similarity": 0.783
+          }
+        ]
+      },
+      "project_score": 40,
+      "project_rank": 23
+    },
+    {
+      "id": "s29",
+      "title": "Donald Trump hospitalisé en urgence ? Ce que révèle vraiment la Maison-Blanche sur son état de santé",
+      "theme": "actualite",
+      "global_score": 19,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "6 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "80+ react."
+        }
+      ],
+      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (6 médias).",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/donald-trump-hospitalisé-en-urgence-ce-que-révèle-vraiment-la-maison-blanche-sur-son-état-de-santé/ar-AA2454Bo?ocid=00000000",
+      "msn_source_name": "So Busy Girls",
+      "discover_category": "/Sensitive Subjects",
+      "discover_entities": [
+        "Val-d'Oise"
+      ],
+      "affinity": {
+        "score": 65,
+        "match_count": 10,
+        "max_similarity": 0.867,
+        "avg_similarity": 0.783,
+        "total_clicks": 24007,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/international/excellente-sante-ou-grand-bluff-la-sante-du-president-trump-interroge-toujours-262155",
+            "title": null,
+            "clicks": 225,
+            "similarity": 0.867
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/trump-ordonne-une-enquete-sur-la-sante-en-declin-de-biden-qui-lui-repond-252347",
+            "title": null,
+            "clicks": 307,
+            "similarity": 0.808
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/apres-sa-rencontre-avec-poutine-trump-accueille-zelensky-a-la-maison-blanche-255737",
+            "title": null,
+            "clicks": 175,
+            "similarity": 0.78
+          }
+        ]
+      },
+      "project_score": 40,
+      "project_rank": 24
+    },
+    {
+      "id": "s17",
+      "title": "Une lourde amende pour les automobilistes qui portent ces lunettes de soleil en voiture pendant la canicule de mai 2026",
+      "theme": "lifestyle",
+      "global_score": 25,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "90+ react."
+        }
+      ],
+      "rationale": "Couvert par 3 médias · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/une-lourde-amende-pour-les-automobilistes-qui-portent-ces-lunettes-de-soleil-en-voiture-pendant-la-canicule-de-mai-2026/ar-AA244Oii?ocid=00000000",
+      "msn_source_name": "Marie France",
+      "discover_category": "/News/Weather",
+      "discover_entities": [
+        "Température"
+      ],
+      "affinity": {
+        "score": 56,
+        "match_count": 10,
+        "max_similarity": 0.77,
+        "avg_similarity": 0.749,
+        "total_clicks": 4846,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/Guide-shopping/les-7-meilleures-paires-de-lunettes-de-soleil-ray-ban-a-avoir-dans-sa-garde-robe-267794",
+            "title": null,
+            "clicks": 169,
+            "similarity": 0.77
+          },
+          {
+            "url": "https://www.parismatch.com/Guide-shopping/et-si-on-optait-pour-ces-lunettes-de-soleil-pour-les-beaux-jours-une-belle-promotion-vous-attend-267516",
+            "title": null,
+            "clicks": 0,
+            "similarity": 0.764
+          },
+          {
+            "url": "https://www.parismatch.com/Actu/Environnement/canicule-en-france-84-departements-en-vigilance-orange-des-temperatures-au-dela-des-40-degres-253500",
+            "title": null,
+            "clicks": 2,
+            "similarity": 0.757
+          }
+        ]
+      },
+      "project_score": 39,
+      "project_rank": 25
+    },
+    {
+      "id": "s28",
+      "title": "Mort de Tessa Raimbault près de Nantes : la peine de cinq ans de prison pour l’automobiliste confirmée en appel",
+      "theme": "actualite",
+      "global_score": 19,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "1/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "55+ react."
+        }
+      ],
+      "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/mort-de-tessa-raimbault-près-de-nantes-la-peine-de-cinq-ans-de-prison-pour-l-automobiliste-confirmée-en-appel/ar-AA246ky3?ocid=00000000",
+      "msn_source_name": "20 Minutes",
+      "discover_category": "/News",
+      "discover_entities": [
+        "Carquefou"
+      ],
+      "affinity": {
+        "score": 64,
+        "match_count": 10,
+        "max_similarity": 0.737,
+        "avg_similarity": 0.723,
+        "total_clicks": 75689,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/faits-divers/un-adolescent-de-15-ans-tue-par-balles-a-nantes-une-victime-innocente-du-trafic-de-drogues-269102",
+            "title": null,
+            "clicks": 194,
+            "similarity": 0.737
+          },
+          {
+            "url": "https://www.parismatch.com/actu/faits-divers/evreux-une-voiture-fonce-sur-la-foule-devant-un-bar-un-mort-et-cinq-blesses-256309",
+            "title": null,
+            "clicks": 71,
+            "similarity": 0.731
+          },
+          {
+            "url": "https://www.parismatch.com/actu/faits-divers/baptiste-12-ans-meurt-a-cause-du-cours-deps-la-justice-tranche-cinq-ans-apres-263585",
+            "title": null,
+            "clicks": 54,
+            "similarity": 0.728
+          }
+        ]
+      },
+      "project_score": 39,
+      "project_rank": 26
+    },
+    {
+      "id": "s18",
+      "title": "Impôts 2026 : après les piscines, le fisc et la DGFiP s’attaquent à ces 2 parties de la maison non déclarées ce printemps",
+      "theme": "lifestyle",
+      "global_score": 24,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "2 médias"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "566+ react."
+        }
+      ],
+      "rationale": "Couvert par 2 médias · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/impôts-2026-après-les-piscines-le-fisc-et-la-dgfip-s-attaquent-à-ces-2-parties-de-la-maison-non-déclarées-ce-printemps/ar-AA1GNgQE?ocid=00000000",
+      "msn_source_name": "Marie France",
+      "discover_category": null,
+      "discover_entities": [],
+      "affinity": {
+        "score": 52,
+        "match_count": 10,
+        "max_similarity": 0.689,
+        "avg_similarity": 0.675,
+        "total_clicks": 3138,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/vivre/argent/argent-comment-agrandir-sa-maison-a-moindres-frais-266396",
+            "title": null,
+            "clicks": 1,
+            "similarity": 0.689
+          },
+          {
+            "url": "https://www.parismatch.com/vivre/argent/proprietaires-bailleurs-faire-face-aux-impayes-de-loyer-263612",
+            "title": null,
+            "clicks": 2,
+            "similarity": 0.686
+          },
+          {
+            "url": "https://www.parismatch.com/vivre/argent/incertitudes-fiscales-gare-aux-decisions-precipitees-260967",
+            "title": null,
+            "clicks": 10,
+            "similarity": 0.683
+          }
+        ]
+      },
+      "project_score": 37,
+      "project_rank": 27
+    },
+    {
+      "id": "s27",
+      "title": "Canicule : 13 départements en alerte orange mercredi, jusqu’à 39 °C ces prochains jours... Le point sur une vague de chaleur inédite",
+      "theme": "actualite",
+      "global_score": 19,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "2/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "6 médias"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "14+ react."
+        }
+      ],
+      "rationale": "Forte couverture médiatique (6 médias).",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/canicule-13-départements-en-alerte-orange-mercredi-jusqu-à-39-c-ces-prochains-jours-le-point-sur-une-vague-de-chaleur-inédite/ar-AA243Vvn?ocid=00000000",
+      "msn_source_name": "Le Nouvel Obs",
+      "discover_category": "/News/Weather",
+      "discover_entities": [
+        "Chaleur",
+        "Météo-France",
+        "Température"
+      ],
+      "affinity": {
+        "score": 60,
+        "match_count": 10,
+        "max_similarity": 0.838,
+        "avg_similarity": 0.789,
+        "total_clicks": 6180,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/Actu/Environnement/canicule-en-france-84-departements-en-vigilance-orange-des-temperatures-au-dela-des-40-degres-253500",
+            "title": null,
+            "clicks": 2,
+            "similarity": 0.838
+          },
+          {
+            "url": "https://www.parismatch.com/Actu/Environnement/un-episode-de-chaleur-precoce-et-remarquable-la-canicule-deja-de-retour-dans-18-departements-paris-suffoque-269648",
+            "title": null,
+            "clicks": 10,
+            "similarity": 0.838
+          },
+          {
+            "url": "https://www.parismatch.com/Actu/Environnement/meteo-une-premiere-canicule-des-cette-semaine-252509",
+            "title": null,
+            "clicks": 336,
+            "similarity": 0.811
+          }
+        ]
+      },
+      "project_score": 37,
+      "project_rank": 28
+    },
+    {
+      "id": "s23",
+      "title": "« J’avais acheté tout mon matériel de jardinage avec des batteries, mais aujourd’hui c’est la douche froide ! »",
+      "theme": "actualite",
+      "global_score": 20,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "181+ react."
+        }
+      ],
+      "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/other/j-avais-acheté-tout-mon-matériel-de-jardinage-avec-des-batteries-mais-aujourd-hui-c-est-la-douche-froide/ar-AA23TcAX?ocid=00000000",
+      "msn_source_name": "Ouest-France",
+      "discover_category": "/Business & Industrial",
+      "discover_entities": [
+        "Airbus",
+        "Airbus A350",
+        "Avion"
+      ],
+      "affinity": {
+        "score": 54,
+        "match_count": 10,
+        "max_similarity": 0.648,
+        "avg_similarity": 0.629,
+        "total_clicks": 13862,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/Guide-shopping/ce-secateur-a-main-a-moins-de-17-euros-est-le-meilleur-ami-des-jardiniers-268416",
+            "title": null,
+            "clicks": 139,
+            "similarity": 0.648
+          },
+          {
+            "url": "https://www.parismatch.com/Guide-shopping/les-jardiniers-nen-reviennent-pas-ce-robot-tondeuse-a-prix-inedit-cartographie-votre-jardin-pour-vous-269114",
+            "title": null,
+            "clicks": 4187,
+            "similarity": 0.635
+          },
+          {
+            "url": "https://www.parismatch.com/Guide-shopping/faites-du-rangement-dans-vos-affaires-dete-grace-a-ce-coffre-de-jardin-a-prix-lidl-255609",
+            "title": null,
+            "clicks": 11,
+            "similarity": 0.635
+          }
+        ]
+      },
+      "project_score": 35,
+      "project_rank": 29
+    },
+    {
+      "id": "s30",
+      "title": "PSG-Arsenal : Le verdict est tombé pour Dembélé et Hakimi",
+      "theme": "sport",
+      "global_score": 19,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "2 médias"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "42+ react."
+        }
+      ],
+      "rationale": "Couvert par 2 médias · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-le-verdict-est-tombé-pour-dembélé-et-hakimi/ar-AA2458J1?ocid=00000000",
+      "msn_source_name": "Sports.fr",
+      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_entities": [
+        "Achraf Hakimi",
+        "Arsenal",
+        "Ousmane Dembélé"
+      ],
+      "affinity": {
+        "score": 49,
+        "match_count": 10,
+        "max_similarity": 0.731,
+        "avg_similarity": 0.714,
+        "total_clicks": 195,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/sport/paris-martyrise-mais-paris-qualifie-le-psg-soffre-une-nouvelle-finale-de-ligue-des-champions-268696",
+            "title": null,
+            "clicks": 33,
+            "similarity": 0.731
+          },
+          {
+            "url": "https://www.parismatch.com/actu/sport/touche-au-mollet-droit-ousmane-dembele-peut-il-manquer-la-finale-de-ligue-des-champions-et-la-coupe-du-monde-269274",
+            "title": null,
+            "clicks": 2,
+            "similarity": 0.726
+          },
+          {
+            "url": "https://www.parismatch.com/actu/sport/coupe-du-monde-des-clubs-a-9-contre-11-le-psg-elimine-le-grand-bayern-253829",
+            "title": null,
+            "clicks": 100,
+            "similarity": 0.718
+          }
+        ]
+      },
+      "project_score": 32,
+      "project_rank": 30
+    }
+  ],
+  "project_tier_counts": {
+    "high": 11,
+    "medium": 19,
+    "low": 0
   },
   "insights": {
     "by_category": [
@@ -369,36 +2261,36 @@
             "url": "https://www.parismatch.com/actu/societe/bourses-scolaires-arret-maladie-retraite-et-prix-du-gaz-ce-qui-change-au-1er-septembre-2025-256330",
             "title": null,
             "clicks": 1721,
-            "similarity": 0.6167215704917908,
-            "score": 0.9449602472117549
+            "similarity": 0.6135313510894775,
+            "score": 0.9400720923955292
           },
           {
             "url": "https://www.parismatch.com/culture/musique/kraftwerk-modele-allemand-254599",
             "title": null,
             "clicks": 1264,
-            "similarity": 0.6244258880615234,
-            "score": 0.9430091982929898
+            "similarity": 0.6218934655189514,
+            "score": 0.9391847288126747
           },
           {
             "url": "https://www.parismatch.com/actu/economie/budget-2026-lavertissement-tres-sale-de-la-cour-des-comptes-253679",
             "title": null,
             "clicks": 849,
-            "similarity": 0.6342672109603882,
-            "score": 0.9398588000072507
+            "similarity": 0.6311653852462769,
+            "score": 0.9352625066105259
           },
           {
             "url": "https://www.parismatch.com/vivre/argent/heritage-du-bon-usage-de-linventaire-252503",
             "title": null,
             "clicks": 2660,
-            "similarity": 0.5953726172447205,
-            "score": 0.9307569534026235
+            "similarity": 0.5909693837165833,
+            "score": 0.9238732975120727
           },
           {
             "url": "https://www.parismatch.com/vivre/argent/pea-les-actions-a-mener-lors-dune-succession-264871",
             "title": null,
             "clicks": 1169,
-            "similarity": 0.5903383493423462,
-            "score": 0.8882382195543498
+            "similarity": 0.5862754583358765,
+            "score": 0.8821250895538164
           }
         ]
       },
@@ -968,36 +2860,36 @@
             "url": "https://www.parismatch.com/Vivre/Art-de-vivre/patrick-bruel-son-reve-de-provence-254522",
             "title": null,
             "clicks": 51765,
-            "similarity": 0.613406777381897,
-            "score": 1.0889937074355778
+            "similarity": 0.6162655353546143,
+            "score": 1.0940689194452298
           },
           {
             "url": "https://www.parismatch.com/vivre/mode/arles-lautre-capitale-de-lelegance-254827",
             "title": null,
             "clicks": 8209,
-            "similarity": 0.593040406703949,
-            "score": 0.9748359319929172
+            "similarity": 0.595029890537262,
+            "score": 0.9781062324731351
           },
           {
             "url": "https://www.parismatch.com/Vivre/Art-de-vivre/le-graal-capillaire-259408",
             "title": null,
             "clicks": 5291,
-            "similarity": 0.5978915095329285,
-            "score": 0.9640552823961296
+            "similarity": 0.5995534658432007,
+            "score": 0.9667350624807827
           },
           {
             "url": "https://www.parismatch.com/actu/economie/bernard-arnault-immortel-263114",
             "title": null,
             "clicks": 795,
-            "similarity": 0.6102678775787354,
-            "score": 0.9014353645945854
+            "similarity": 0.6126548647880554,
+            "score": 0.9049612173624765
           },
           {
             "url": "https://www.parismatch.com/vivre/voyage/laissez-vous-tenter-la-provence-en-train-254611",
             "title": null,
             "clicks": 986,
-            "similarity": 0.6019489169120789,
-            "score": 0.8983945713908749
+            "similarity": 0.6041330099105835,
+            "score": 0.9016542787151028
           }
         ]
       },

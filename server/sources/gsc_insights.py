@@ -2,12 +2,15 @@
 
 Génère un JSON enrichi qui combine :
   - Stats globales du projet (total URLs, total clicks, top 20 par clicks)
+  - Pour chaque sujet du flux global du jour : score d'affinité avec
+    l'historique Discover du site → re-tri par "Project Score"
+    (= combinaison du signal global et de l'affinité historique)
   - Pour chaque cluster/catégorie/entité du flux global du jour :
     top-N contenus historiques sémantiquement proches (via RAG)
 
-Le front (project.html) charge ce JSON et affiche tout sans avoir
-besoin de calcul vectoriel côté browser. Permet de garder Vercel
-100% statique tout en exposant le RAG à l'utilisateur.
+Le front (project.html) charge ce JSON et affiche le briefing
+personnalisé pour le projet, sans avoir besoin de calcul vectoriel
+côté browser.
 
 Sortie : data/projects/{slug}/insights.json
 """
@@ -15,6 +18,7 @@ Sortie : data/projects/{slug}/insights.json
 from __future__ import annotations
 
 import json
+import math
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -24,7 +28,11 @@ from server.sources import gsc_rag
 from server.sources.gsc_storage import load_history, stats
 
 TOP_K_PER_CLUSTER = 5
+TOP_K_PER_SUJET = 10
 TOP_URLS_DISPLAYED = 20
+# Seuil similarity à partir duquel un article est considéré "pertinent"
+# pour le calcul d'affinité (sinon bruit sémantique)
+AFFINITY_MIN_SIMILARITY = 0.50
 
 
 def _now_iso() -> str:
@@ -85,6 +93,175 @@ def _enrich_search_results(
         return []
 
 
+# ============================================================
+# Scoring d'affinité (qualifie un sujet pour un projet donné)
+# ============================================================
+
+
+def compute_affinity(matches: list[dict[str, Any]]) -> dict[str, Any]:
+    """Score d'affinité historique pour un sujet donné dans un projet.
+
+    Combine 3 signaux issus du RAG :
+      1. Similarité sémantique max (pertinence du meilleur match) : 0-40 pts
+      2. Volume de matches pertinents (≥ AFFINITY_MIN_SIMILARITY)   : 0-20 pts
+      3. Performance cumulée (total clicks Discover des matches)    : 0-40 pts
+
+    Sémantique :
+      - Sujet sans match pertinent → 0 (le site n'a jamais cartonné dessus)
+      - Sujet avec 1 match très précis et fort en clicks → ~70
+      - Sujet avec 5 matches précis et perf cumulée élevée → ~95-100
+
+    Args:
+        matches : sortie de gsc_rag.search_similar (top-K)
+
+    Returns:
+        {"score", "match_count", "max_similarity", "avg_similarity",
+         "total_clicks", "top_matches"}
+    """
+    if not matches:
+        return {
+            "score": 0,
+            "match_count": 0,
+            "max_similarity": 0.0,
+            "avg_similarity": 0.0,
+            "total_clicks": 0,
+            "top_matches": [],
+        }
+
+    # Filtre : on ne garde que les matches au-dessus du seuil de pertinence
+    relevant = [m for m in matches if m.get("similarity", 0) >= AFFINITY_MIN_SIMILARITY]
+
+    if not relevant:
+        # Aucun match vraiment pertinent → faible signal, mais pas zéro
+        # (au moins le RAG a trouvé QQc, ça vaut mieux qu'un sujet
+        # complètement nouveau pour le site)
+        return {
+            "score": 10,
+            "match_count": 0,
+            "max_similarity": float(matches[0].get("similarity", 0)),
+            "avg_similarity": 0.0,
+            "total_clicks": 0,
+            "top_matches": [],
+        }
+
+    max_sim = max(m["similarity"] for m in relevant)
+    avg_sim = sum(m["similarity"] for m in relevant) / len(relevant)
+    total_clicks = sum(int(m.get("clicks", 0) or 0) for m in relevant)
+    count = len(relevant)
+
+    # Composante 1 : similarity max → 0-40 pts (la qualité du meilleur match)
+    score_sim = max_sim * 40
+
+    # Composante 2 : nb matches pertinents → 0-20 pts (saturation log)
+    # 1 match → 5, 3 matches → 15, 5+ → 20
+    score_count = min(20.0, 8.0 * math.log(1 + count))
+
+    # Composante 3 : clicks cumulés → 0-40 pts (saturation log, anchor 100k)
+    # 10k → ~5, 100k → ~25, 1M → ~40
+    score_clicks = min(40.0, 8.0 * math.log10(1 + total_clicks / 1000.0))
+
+    total_score = round(score_sim + score_count + score_clicks)
+
+    # Top 3 matches pour expand UI
+    top_matches = [
+        {
+            "url": m.get("url"),
+            "title": m.get("title"),
+            "clicks": int(m.get("clicks", 0) or 0),
+            "similarity": round(float(m.get("similarity", 0)), 3),
+        }
+        for m in relevant[:3]
+    ]
+
+    return {
+        "score": int(min(100, max(0, total_score))),
+        "match_count": count,
+        "max_similarity": round(float(max_sim), 3),
+        "avg_similarity": round(float(avg_sim), 3),
+        "total_clicks": total_clicks,
+        "top_matches": top_matches,
+    }
+
+
+def compute_project_score(
+    global_score: int,
+    affinity_score: int,
+) -> int:
+    """Score composite Sujet × Projet.
+
+    Le sujet doit avoir un signal global (intérêt général) ET être un
+    territoire éditorial où le site sait performer. Inversement, un
+    sujet à signal global moyen mais où le site cartonne reste pertinent.
+
+    Formule :
+      base = 0.55 × global_score + 0.45 × affinity_score
+      + bonus +8 si affinity ≥ 70 (sujets historiquement très performants)
+      + bonus +4 si global ≥ 70 (sujets ultra-tendance)
+    """
+    base = 0.55 * global_score + 0.45 * affinity_score
+    if affinity_score >= 70:
+        base += 8
+    if global_score >= 70:
+        base += 4
+    return int(min(100, max(0, round(base))))
+
+
+def score_sujets_for_project(
+    project_slug: str,
+    sujets: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Re-score chaque sujet du flux global pour un projet précis.
+
+    Pour chaque sujet :
+      1. Recherche sémantique dans l'historique Discover du projet
+      2. Calcul d'affinité (cf compute_affinity)
+      3. Project score = combinaison signal global × affinité
+      4. Retour de la liste triée par project_score décroissant
+
+    Le sujet original n'est PAS modifié — on construit un nouvel objet
+    qui inclut les champs originaux + affinity + project_score.
+    """
+    scored: list[dict[str, Any]] = []
+
+    for sujet in sujets:
+        global_score = int(sujet.get("score", 0))
+        # Query = title du sujet (= titre de l'article MSN matché)
+        query = sujet.get("title", "")
+        if not query:
+            continue
+
+        matches = _enrich_search_results(
+            project_slug, query, top_k=TOP_K_PER_SUJET, rerank_by_clicks=False
+        )
+        affinity = compute_affinity(matches)
+        project_score = compute_project_score(global_score, affinity["score"])
+
+        # On garde les champs utiles du sujet + on ajoute l'enrichissement
+        enriched = {
+            "id": sujet.get("id"),
+            "title": sujet.get("title"),
+            "theme": sujet.get("theme"),
+            "global_score": global_score,
+            "global_tier": sujet.get("tier"),
+            "global_signals": sujet.get("signals", []),
+            "rationale": sujet.get("rationale"),
+            "msn_url": sujet.get("msn_url"),
+            "msn_source_name": sujet.get("msn_source_name"),
+            "discover_category": sujet.get("discover_category"),
+            "discover_entities": sujet.get("discover_entities"),
+            "affinity": affinity,
+            "project_score": project_score,
+        }
+        scored.append(enriched)
+
+    # Tri par project_score décroissant
+    scored.sort(key=lambda s: s["project_score"], reverse=True)
+    # Rank final basé sur le tri du projet (pas le rank global)
+    for i, s in enumerate(scored, start=1):
+        s["project_rank"] = i
+    return scored
+
+
 def build_insights(project_slug: str) -> dict[str, Any]:
     """Pipeline complet : stats + RAG cross-search → JSON unique."""
     # 1. Stats globales du projet
@@ -97,11 +274,27 @@ def build_insights(project_slug: str) -> dict[str, Any]:
     project_stats = stats(project_slug)
     top_urls = _top_urls_for_stats(items)
 
-    # 2. Charger le flux global (catégories + clusters + entités du jour)
+    # 2. Charger le flux global (sujets + catégories + clusters + entités)
     sujets_payload = _load_global_sujets()
+    sujets = (sujets_payload or {}).get("sujets") or []
     cats_trending = (sujets_payload or {}).get("categories_trending") or []
     entity_clusters = (sujets_payload or {}).get("entity_clusters") or []
     entities_trending = (sujets_payload or {}).get("entities_trending") or []
+
+    # 2bis. RE-SCORER les sujets du flux global pour ce projet
+    # (= le vrai briefing personnalisé)
+    scored_sujets = score_sujets_for_project(project_slug, sujets) if sujets else []
+
+    # Distribution par tier du Project Score (utile pour les compteurs hero)
+    project_tier_counts = {"high": 0, "medium": 0, "low": 0}
+    for s in scored_sujets:
+        ps = s["project_score"]
+        if ps >= 50:
+            project_tier_counts["high"] += 1
+        elif ps >= 30:
+            project_tier_counts["medium"] += 1
+        else:
+            project_tier_counts["low"] += 1
 
     # 3. Pour chaque cat/cluster/entité, faire une recherche RAG
     by_category: list[dict[str, Any]] = []
@@ -166,10 +359,15 @@ def build_insights(project_slug: str) -> dict[str, Any]:
         "sujets_source": {
             "available": sujets_payload is not None,
             "generated_at": (sujets_payload or {}).get("generated_at"),
+            "sujets_count": len(sujets),
             "categories_count": len(cats_trending),
             "entity_clusters_count": len(entity_clusters),
             "entities_count": len(entities_trending),
         },
+        # ★ Le briefing personnalisé du projet (objet principal pour le front)
+        "scored_sujets": scored_sujets,
+        "project_tier_counts": project_tier_counts,
+        # Insights par dimension (sections secondaires)
         "insights": {
             "by_category": by_category,
             "by_entity_cluster": by_entity_cluster,

@@ -92,22 +92,44 @@
 
       <!-- Bloc visible si insights.json présent (projet GSC connecté) -->
       <div id="project-insights" style="display: none">
-        <section class="project-stats" id="project-stats"></section>
-        <section class="project-top-urls">
-          <div class="project-section__head">
-            <h2 class="project-section__title">Top Discover · 12 mois</h2>
-            <span class="project-section__hint" id="project-top-meta">—</span>
+        <!-- ★ Section principale : briefing du jour pour ce projet -->
+        <section class="project-briefing">
+          <div class="project-briefing__head">
+            <div>
+              <span class="project-briefing__eyebrow">Briefing du jour</span>
+              <h2 class="project-briefing__title">
+                Sujets <em>pour ce projet</em>
+              </h2>
+              <p class="project-briefing__deck" id="project-briefing-meta">—</p>
+            </div>
+            <div class="project-briefing__counts" id="project-briefing-counts"></div>
           </div>
-          <ul class="project-top-list" id="project-top-list"></ul>
+          <ul class="project-briefing__list" id="project-briefing-list"></ul>
         </section>
-        <section class="project-rag">
-          <div class="project-section__head">
-            <h2 class="project-section__title">Croisé avec le flux du jour</h2>
-            <span class="project-section__hint">
-              Pour chaque univers tendance, contenus historiques qui ont déjà cartonné
-            </span>
+
+        <!-- Sections secondaires (onglets) -->
+        <section class="project-secondary">
+          <div class="project-secondary__tabs">
+            <button class="project-secondary__tab is-active" type="button" data-tab="rag">
+              Univers tendance
+            </button>
+            <button class="project-secondary__tab" type="button" data-tab="top">
+              Top historique
+            </button>
+            <button class="project-secondary__tab" type="button" data-tab="stats">
+              Performance GSC
+            </button>
           </div>
-          <div class="project-rag__groups" id="project-rag-groups"></div>
+          <div class="project-secondary__panel is-active" data-panel="rag">
+            <div class="project-rag__groups" id="project-rag-groups"></div>
+          </div>
+          <div class="project-secondary__panel" data-panel="top">
+            <ul class="project-top-list" id="project-top-list"></ul>
+            <p class="project-section__hint" id="project-top-meta" style="margin-top: 16px"></p>
+          </div>
+          <div class="project-secondary__panel" data-panel="stats">
+            <div class="project-stats" id="project-stats"></div>
+          </div>
         </section>
       </div>
 
