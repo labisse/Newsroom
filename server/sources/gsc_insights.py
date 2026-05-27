@@ -44,19 +44,26 @@ def _now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def _resolve_project_name(project_slug: str) -> str:
-    """Retourne le nom affichable d'un projet depuis data/projects/index.json.
-    Fallback sur le slug capitalisé si introuvable."""
+def _load_project_config(project_slug: str) -> dict[str, Any]:
+    """Charge la config d'un projet depuis data/projects/index.json.
+    Retourne {} si introuvable."""
     path = DATA_DIR / "projects" / "index.json"
-    if path.exists():
-        try:
-            payload = json.loads(path.read_text(encoding="utf-8"))
-            for p in payload.get("projects", []):
-                if p.get("slug") == project_slug:
-                    return p.get("name") or project_slug.title()
-        except json.JSONDecodeError:
-            pass
-    return project_slug.replace("-", " ").title()
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    for p in payload.get("projects", []):
+        if p.get("slug") == project_slug:
+            return p
+    return {}
+
+
+def _resolve_project_name(project_slug: str) -> str:
+    """Retourne le nom affichable d'un projet depuis data/projects/index.json."""
+    cfg = _load_project_config(project_slug)
+    return cfg.get("name") or project_slug.replace("-", " ").title()
 
 
 def _load_global_sujets() -> dict[str, Any] | None:
@@ -118,25 +125,24 @@ def _enrich_search_results(
 # ============================================================
 
 
-def compute_affinity(matches: list[dict[str, Any]]) -> dict[str, Any]:
+def compute_affinity(
+    matches: list[dict[str, Any]],
+    *,
+    min_similarity: float = AFFINITY_MIN_SIMILARITY,
+) -> dict[str, Any]:
     """Score d'affinité historique pour un sujet donné dans un projet.
 
     Combine 3 signaux issus du RAG :
       1. Similarité sémantique max (pertinence du meilleur match) : 0-40 pts
-      2. Volume de matches pertinents (≥ AFFINITY_MIN_SIMILARITY)   : 0-20 pts
+      2. Volume de matches pertinents (≥ min_similarity)            : 0-20 pts
       3. Performance cumulée (total clicks Discover des matches)    : 0-40 pts
 
-    Sémantique :
-      - Sujet sans match pertinent → 0 (le site n'a jamais cartonné dessus)
-      - Sujet avec 1 match très précis et fort en clicks → ~70
-      - Sujet avec 5 matches précis et perf cumulée élevée → ~95-100
-
     Args:
-        matches : sortie de gsc_rag.search_similar (top-K)
-
-    Returns:
-        {"score", "match_count", "max_similarity", "avg_similarity",
-         "total_clicks", "top_matches"}
+        matches        : sortie de gsc_rag.search_similar (top-K)
+        min_similarity : seuil minimal pour qu'un match soit considéré pertinent.
+                         À calibrer par projet (cf affinity_min_similarity dans
+                         data/projects/index.json) : généralistes type PM ~0.50,
+                         spécialisés type Futura ~0.65.
     """
     if not matches:
         return {
@@ -149,7 +155,7 @@ def compute_affinity(matches: list[dict[str, Any]]) -> dict[str, Any]:
         }
 
     # Filtre : on ne garde que les matches au-dessus du seuil de pertinence
-    relevant = [m for m in matches if m.get("similarity", 0) >= AFFINITY_MIN_SIMILARITY]
+    relevant = [m for m in matches if m.get("similarity", 0) >= min_similarity]
 
     if not relevant:
         # Aucun match vraiment pertinent → faible signal, mais pas zéro
@@ -246,6 +252,7 @@ def score_sujets_for_project(
     sujets: list[dict[str, Any]],
     *,
     generate_titles: bool = True,
+    affinity_min_similarity: float = AFFINITY_MIN_SIMILARITY,
 ) -> list[dict[str, Any]]:
     """Re-score chaque sujet du flux global pour un projet précis.
 
@@ -273,7 +280,7 @@ def score_sujets_for_project(
         matches = _enrich_search_results(
             project_slug, query, top_k=TOP_K_PER_SUJET, rerank_by_clicks=False
         )
-        affinity = compute_affinity(matches)
+        affinity = compute_affinity(matches, min_similarity=affinity_min_similarity)
         project_score = compute_project_score(global_score, affinity["score"])
 
         # 4. Titre proposé dans le style du média (best-effort)
@@ -348,9 +355,23 @@ def build_insights(project_slug: str) -> dict[str, Any]:
 
     # 2bis. RE-SCORER les sujets du flux global pour ce projet
     # (= le vrai briefing personnalisé)
-    project_name = _resolve_project_name(project_slug)
+    project_cfg = _load_project_config(project_slug)
+    project_name = (
+        project_cfg.get("name") or project_slug.replace("-", " ").title()
+    )
+    # Seuil d'affinité calibré par projet (généralistes ~0.50,
+    # spécialisés ~0.65) : évite les faux positifs sémantiques sur les
+    # sites à territoire éditorial restreint (cf Futura Sciences).
+    affinity_threshold = float(
+        project_cfg.get("affinity_min_similarity", AFFINITY_MIN_SIMILARITY)
+    )
     scored_sujets = (
-        score_sujets_for_project(project_slug, project_name, sujets)
+        score_sujets_for_project(
+            project_slug,
+            project_name,
+            sujets,
+            affinity_min_similarity=affinity_threshold,
+        )
         if sujets
         else []
     )

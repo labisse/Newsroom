@@ -1,6 +1,6 @@
 {
   "project": "parismatch",
-  "generated_at": "2026-05-27T16:40:49Z",
+  "generated_at": "2026-05-27T17:28:39Z",
   "stats": {
     "total_urls": 12894,
     "with_title": 50,
@@ -131,7 +131,7 @@
   },
   "sujets_source": {
     "available": true,
-    "generated_at": "2026-05-27T16:39:45Z",
+    "generated_at": "2026-05-27T16:42:29Z",
     "sujets_count": 30,
     "categories_count": 8,
     "entity_clusters_count": 8,
@@ -139,193 +139,10 @@
   },
   "scored_sujets": [
     {
-      "id": "s01",
-      "title": "Voici le salaire qu'il faut toucher tous les mois pour faire partie de la classe moyenne en 2026 en France",
-      "theme": "lifestyle",
-      "global_score": 50,
-      "global_tier": "high",
-      "global_signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "21/65"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "5 médias"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "1574+ react."
-        }
-      ],
-      "rationale": "Présent sur Google Discover · forte couverture médiatique (5 médias) · engagement MSN élevé.",
-      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/voici-le-salaire-qu-il-faut-toucher-tous-les-mois-pour-faire-partie-de-la-classe-moyenne-en-2026-en-france/ar-AA1PuinD?ocid=00000000",
-      "msn_source_name": "Marie France",
-      "discover_category": "/People & Society/Social Issues & Advocacy/Work & Labor Issues",
-      "discover_entities": [
-        "Conglomérat",
-        "Corée du Sud",
-        "Intelligence artificielle"
-      ],
-      "affinity": {
-        "score": 70,
-        "match_count": 10,
-        "max_similarity": 0.759,
-        "avg_similarity": 0.731,
-        "total_clicks": 355450,
-        "top_matches": [
-          {
-            "url": "https://www.parismatch.com/actu/politique/fessee-pour-la-classe-politique-francaise-le-sondage-qui-fait-mal-254247",
-            "title": "Fessée pour la classe politique française, le sondage qui fait mal",
-            "clicks": 350724,
-            "similarity": 0.726
-          },
-          {
-            "url": "https://www.parismatch.com/actu/politique/budget-2026-ce-que-mijote-vraiment-francois-bayrou-254149",
-            "title": null,
-            "clicks": 212,
-            "similarity": 0.759
-          },
-          {
-            "url": "https://www.parismatch.com/actu/sport/qui-sont-les-joueurs-de-football-les-mieux-payes-en-france-les-salaires-reveles-266907",
-            "title": null,
-            "clicks": 1,
-            "similarity": 0.751
-          }
-        ]
-      },
-      "project_score": 67,
-      "proposed_title": "3 500 euros par mois : le salaire qui fait entrer en classe moyenne en 2026",
-      "external_sources": [
-        {
-          "source": "gnews",
-          "title": "En Corée du Sud, des employés de Samsung vont toucher une prime record de 290 000 euros en moyenne",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNZUswcXJ0WHRlRmgtZ05rUWRuUXpYX1Qzb0NQc2VKaFhxT1JTd3Z4RWhLSUo5X0IyZ01uU2FqbHdrVk5GYXBTajFpRWU5SDFVTFd0Vmx4ZV8xdG9VMUM1QlEzZlFTT3g0bndJUjZlVGdnbXRtMFBPSUwxLXh0TjE4dTkxN0wxckN4c3VuLUlBOXZGNFFxaWM2ZzcxWDZFbUUwNnZvS01welM4TkhtdXV1Mk9SemNzX19EYzBmenhqRWM2emRTNGJRLU9sU3JwdTJzbThUMmhNTmlfWXhhWkpoXzBoZXRnclJxZE5IVzlrZEFhQ2s1NmtPTDFXOFU0bTV5dUU0VjVmR0RtUQ?oc=5",
-          "publisher": "Le Monde.fr",
-          "published_at": "Wed, 27 May 2026 02:44:47 GMT",
-          "similarity": 0.125
-        },
-        {
-          "source": "gnews",
-          "title": "Canicule : entre fortes chaleurs et orages, à quoi faut-il s’attendre dans les prochains jours ? - Ouest-France",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNSmlac05TbF94RENoWGtnWEdqUFNROWdfY2hKRUg2VGtpcDNsMzlST2hYY2YyVDA1VHJXMnpwbXBxcWVGb3R6LXFEejhGNWs3ZWlIOVFKOHQ5cmllbXBjTWRSb3JwR293cF9oei1KeVBQOGg2QjBtbEVYOGhLYnRNYklfSzI1S2ttSXoxamVwc1BwZUV5TnNNVElxdTVfM0F2SjNpTG96dTVzd2NIRUJPbWpTbnpkaTcyMEgyYXA0WEFjOFlHT0ZKVjJUeTFtLVBQRGtTdEptTkFxcFR1YzVhTmZ4a2RGaXMtcklfNEQ0ZkxZWnFfQUYwUEZ4a2NwOXc?oc=5",
-          "publisher": "Ouest-France",
-          "published_at": "Wed, 27 May 2026 14:11:12 GMT",
-          "similarity": 0.118
-        },
-        {
-          "source": "gnews",
-          "title": "Aide carburant : ce qu’il faut savoir de l’indemnité destinée aux « grands rouleurs » et disponible à partir d’aujourd’hui",
-          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPVXRqQldJQzI4RVdJM0stZDR5STNkN0dCU2JuZEhfU3FweVRqSHdUVG5pZE5SS3pneldoVUNaQmhwUl9HLURyb0NhN3E5bjZnTmx0Ri1IbU1XNFdzeTctNEs2OXo4LV9Edy1GUmlmemhBbzc5N3JiZWFTcTBYTVNCXzU0QUFzbDdIRTZDQjk4Z1dNSjBvc1NiMm8xN2ViTEt4Z1Zxa2paV0w5Q2VCSHZTZXZyVkJXbmZDV1diSjlzeHFLTHpNX2ZzOXV4UFV1MnhqYnpLZFpXdm4wYk1tVU9iaGdsc3V1ZEM1cjd0R3RtOExtZnA3VjNIc3VIcno1bUVzWTBtaWJnQnhTN3BEeDNDSlBzemlxR0U?oc=5",
-          "publisher": "Le Monde.fr",
-          "published_at": "Wed, 27 May 2026 06:46:36 GMT",
-          "similarity": 0.1
-        }
-      ],
-      "project_rank": 1
-    },
-    {
-      "id": "s03",
-      "title": "Novak Djokovic sur Gaël Monfils : « Désolé, il fallait que je le dise »",
+      "id": "s06",
+      "title": "Tennis – Roland-Garros (F) : altercation entre deux joueuses au deuxième tour",
       "theme": "sport",
-      "global_score": 40,
-      "global_tier": "medium",
-      "global_signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "50k vues"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "68+ react."
-        }
-      ],
-      "rationale": "Forte audience Wikipedia (49 627 vues/jour) · couvert par 2 médias · engagement MSN élevé.",
-      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/novak-djokovic-sur-gaël-monfils-désolé-il-fallait-que-je-le-dise/ar-AA24aHo5?ocid=00000000",
-      "msn_source_name": "We Love Tennis",
-      "discover_category": "/Sports/Individual Sports/Racquet Sports",
-      "discover_entities": [
-        "Novak Djokovic",
-        "Roland-Garros",
-        "Sport"
-      ],
-      "affinity": {
-        "score": 70,
-        "match_count": 10,
-        "max_similarity": 0.809,
-        "avg_similarity": 0.773,
-        "total_clicks": 199470,
-        "top_matches": [
-          {
-            "url": "https://www.parismatch.com/People/rafael-nadal-papa-pour-la-2eme-fois-un-prenom-plein-de-sens-et-demotion-255400",
-            "title": null,
-            "clicks": 178071,
-            "similarity": 0.754
-          },
-          {
-            "url": "https://www.parismatch.com/actu/sport/jai-connu-de-meilleurs-moments-en-larmes-le-roi-du-tennis-roger-federer-seclipse-262363",
-            "title": null,
-            "clicks": 18430,
-            "similarity": 0.75
-          },
-          {
-            "url": "https://www.parismatch.com/actu/sport/sous-les-yeux-de-son-epouse-svitolina-monfils-fait-ses-adieux-a-roland-garros-269671",
-            "title": null,
-            "clicks": 165,
-            "similarity": 0.809
-          }
-        ]
-      },
-      "project_score": 62,
-      "proposed_title": "Novak Djokovic se confie sur Gaël Monfils : « Désolé, il fallait que je le dise »",
-      "external_sources": [
-        {
-          "source": "discover",
-          "title": "DIRECT. Roland-Garros 2026 : le Français Valentin Royer passe au révélateur Novak Djokovic... Suivez et commentez le match du 2e tour avec nous",
-          "url": "https://www.franceinfo.fr/roland-garros/directs/direct-roland-garros-2026-le-francais-valentin-royer-passe-au-revelateur-novak-djokovic-suivez-et-commentez-le-match-du-2e-tour-avec-nous_8030924.html",
-          "publisher": "franceinfo",
-          "published_at": "2026-05-27 16:23:20",
-          "similarity": 0.105
-        },
-        {
-          "source": "gnews",
-          "title": "EN DIRECT, Roland-Garros 2026 : Iga Swiatek et Elina Svitolina qualifiées, duel 100 % français entre Humbert et Halys, Novak Djokovic domine Valentin Royer",
-          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQR2dpZmhYbGZyV2trbmlGSG4zdVZIdmxaVWc2V0ZuSXNSVWZUN1laWS1TaDUtcklIanZBRlVqRnJjRkJCd1RBNGxweVNhWnlUTldkYTQ4UkpGX25qMko5aGRiOEJZZl92X2Q1WnJmUlFmS3dPMDZmVkV6Vno3VmhDbVNEUFJlLU5iQkpsU2g3Vmo3N05hRFU5a0VpbjRMcFVyX0tUdVBhcm95ZXF5THhVUXEzeGRuM3M3RnVib2VBN2ZLZ1pieVZYN0NXamdZRl9wQmVGU3hQdk16ZWJCS29rVk4zV2VUTzlZcV84aW9HeW1KaC1ZTWdKZXQ5X0Q1dzZnd25Lb0JDdURFcm1QejhZN0FnMjE1azlaTmwyOWc5azFTOHBJU2NMeTE3QWI?oc=5",
-          "publisher": "Le Monde.fr",
-          "published_at": "Wed, 27 May 2026 15:01:10 GMT",
-          "similarity": 0.095
-        },
-        {
-          "source": "gnews",
-          "title": "« Gaël Monfils avait tout tech­ni­que­ment pour être extra­or­di­naire mais, malheu­reu­se­ment, il était pauvre tacti­que­ment. Federer lui a rappelé 15 milliards de fois », estime Benoît Maylin",
-          "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPb01XRmYtcGk0Zzl0QTZ4N0hCbUJOR2E3emZIUFlQWUdBMUU1RjVWT2RzMHVUNFNhcW05b1JYLTNUTHVCbXVZbUdyU0k1UlFlVk1SVEVTeVlCWlVrSUM0d2VUUjVrczFSb1k4WmJLaXVyQVlpakRnV2NKR25nV1lCOEN0ckd2aTZObjBvMlBQQmRMV2RTUm5rWlhhaE5rbVBiZFBEVVhZc0x2YklRT0YxUThSVmhydmZzYllmSHM3d0FFMXhSS0RydTZZUGFPVGRwcFk1ajNfSnlFYklGN3pEQUdCdzZGT1lTdVg5UmZCNjRFT3BVYWJpLUwtNWNKYzZKbjVvZjhoLVFYM2ZPQzVXU0xPbkZ4Z3g2SXZ6QkZnMFh1WkpJWnhLak5rYTNNYXNwQURZaTV2N19aVEplVGYw?oc=5",
-          "publisher": "We Love Tennis",
-          "published_at": "Tue, 26 May 2026 17:53:23 GMT",
-          "similarity": 0.077
-        }
-      ],
-      "project_rank": 2
-    },
-    {
-      "id": "s04",
-      "title": "Roland-Garros, scandale dénoncé après un forfait",
-      "theme": "sport",
-      "global_score": 39,
+      "global_score": 33,
       "global_tier": "medium",
       "global_signals": [
         {
@@ -346,12 +163,17 @@
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "5k vues"
+          "value": "3k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "4+ react."
         }
       ],
       "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (8 médias).",
-      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-scandale-dénoncé-après-un-forfait/ar-AA24aGfJ?ocid=00000000",
-      "msn_source_name": "Sports.fr",
+      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/tennis-roland-garros-f-altercation-entre-deux-joueuses-au-deuxième-tour/ar-AA24bTPQ?ocid=00000000",
+      "msn_source_name": "Sport 365",
       "discover_category": "/Sports/Individual Sports/Racquet Sports",
       "discover_entities": [
         "Joueur de tennis",
@@ -361,67 +183,67 @@
         "Tennis"
       ],
       "affinity": {
-        "score": 70,
+        "score": 71,
         "match_count": 10,
-        "max_similarity": 0.794,
-        "avg_similarity": 0.749,
-        "total_clicks": 231628,
+        "max_similarity": 0.817,
+        "avg_similarity": 0.766,
+        "total_clicks": 241296,
         "top_matches": [
           {
-            "url": "https://www.parismatch.com/People/les-stars-roucoulent-dans-les-tribunes-de-roland-garros-252099",
+            "url": "https://www.parismatch.com/People/les-stars-en-couple-pour-suivre-les-demi-finales-a-roland-garros-252455",
             "title": null,
-            "clicks": 153456,
-            "similarity": 0.737
-          },
-          {
-            "url": "https://www.parismatch.com/People/roland-garros-en-amoureux-pour-elie-semoun-et-sa-compagne-aude-enceinte-252196",
-            "title": null,
-            "clicks": 9112,
-            "similarity": 0.729
+            "clicks": 62203,
+            "similarity": 0.774
           },
           {
             "url": "https://www.parismatch.com/People/apres-cannes-iris-mittenaere-et-antoine-dupont-roucoulent-a-roland-garros-252486",
             "title": null,
             "clicks": 65273,
-            "similarity": 0.725
+            "similarity": 0.765
+          },
+          {
+            "url": "https://www.parismatch.com/People/angelique-angarni-filopon-une-miss-france-tres-concentree-en-tribune-de-roland-garros-252223",
+            "title": null,
+            "clicks": 16740,
+            "similarity": 0.763
           }
         ]
       },
-      "project_score": 61,
-      "proposed_title": "Roland-Garros : le forfait qui fait scandale, les coulisses d'une polémique explosive",
+      "project_score": 58,
+      "proposed_title": "Roland-Garros : l'altercation qui fait trembler le tennis féminin",
       "external_sources": [
         {
-          "source": "discover",
-          "title": "Roland-Garros 2026 : Loïs Boisson, de retour après une longue blessure, n’a pas fait de miracle",
-          "url": "https://www.lemonde.fr/sport/article/2026/05/26/roland-garros-2026-lois-boisson-de-retour-apres-une-longue-blessure-n-a-pas-fait-de-miracle_6693956_3242.html",
+          "source": "gnews",
+          "title": "EN DIRECT, Roland-Garros 2026 : Rybakina éliminée dès le deuxième tour, Swiatek et Svitolina qualifiées, Royer mené face à Djokovic",
+          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQR2dpZmhYbGZyV2trbmlGSG4zdVZIdmxaVWc2V0ZuSXNSVWZUN1laWS1TaDUtcklIanZBRlVqRnJjRkJCd1RBNGxweVNhWnlUTldkYTQ4UkpGX25qMko5aGRiOEJZZl92X2Q1WnJmUlFmS3dPMDZmVkV6Vno3VmhDbVNEUFJlLU5iQkpsU2g3Vmo3N05hRFU5a0VpbjRMcFVyX0tUdVBhcm95ZXF5THhVUXEzeGRuM3M3RnVib2VBN2ZLZ1pieVZYN0NXamdZRl9wQmVGU3hQdk16ZWJCS29rVk4zV2VUTzlZcV84aW9HeW1KaC1ZTWdKZXQ5X0Q1dzZnd25Lb0JDdURFcm1QejhZN0FnMjE1azlaTmwyOWc5azFTOHBJU2NMeTE3QWI?oc=5",
           "publisher": "Le Monde.fr",
-          "published_at": "2026-05-27 13:34:23",
-          "similarity": 0.25
+          "published_at": "Wed, 27 May 2026 14:37:15 GMT",
+          "similarity": 0.235
         },
         {
           "source": "gnews",
-          "title": "Blessé au pied gauche, Valentin Vacherot contraint au forfait avant son deuxième tour à Roland-Garros",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVzVLWXFPY2d0TzMtMTl1OGNBSFF6VFliY0pMV3hUZ0VTTXNzanNqcm9DdTdPR25qNHRrRUJZcFFHRkhwQXM5MzBYRDFRYUxEMTB1cWI4T3hKaXVEdlo0Q0g2anVXLWZhajNnaWlsYWg3cTlQS0FUSjhuTkZwcWlKZHdldVFydnBjanpuX21MeGZLR3JHVXZaRWxxbFNQQ3BzQ0JzbDBVTEhsSnJNQ0tuVm5MMUhCZUNDcjFLVlVrUkRpTmljRElSTEVzODdDc3JaRkd6UjJvSnVwekVZRkhxS0ZKOA?oc=5",
+          "title": "Roland-Garros en direct : Swiatek, Djokovic, Humbert... Suivez le début du 2e tour en direct !",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcE10bF9SMktaU0NLVzJOTDN6aDFfeURqOThnS2ZJZWJNRURQOE5ITmI1MmFFTWdCQ09JYi0wSVB6cDhtVXZXNnRfcUVabktfM3ZGcDhEeldQeVM5eTBwNWExdTBhbkhJOURDcTI4bnpOSXNHLXNIT3hobXozYnVvZnFHaTlsdw?oc=5",
           "publisher": "L'Équipe",
-          "published_at": "Wed, 27 May 2026 14:23:02 GMT",
-          "similarity": 0.2
+          "published_at": "Wed, 27 May 2026 16:14:38 GMT",
+          "similarity": 0.214
         },
         {
-          "source": "gnews",
-          "title": "«La magie n’a pas opéré», «le rêve n’a même pas commencé» : la presse déçue après l’élimination prématurée de Loïs Boisson à Roland-Garros",
-          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQX1RvNzY2OGpXMWFmNEJROTE1ZDhDNHZtNUd4MkdrT1dNbE4xcjloVkxEa1NuYzBnQW9KT0hzdG1WZlRtOFc3T2V4aG9rQm9hQldiTnk2b2F2S0pjSDZ5bWY1LW5SZEo5OGlXZ1labXFJRF80c0htOHRYNHRZQm5rR29xUlpyNnBwcXBvVFk1Y1VPZE5EYVZHT0JLNTJWQjVlcUpZUUVZVllVeWlnT21LVzl2QWw1anVUNHVuejllcGF5LTRqQUVKcWpuT3JGTEJDdU5rWHVUeVpERXlQSElUT2pJRFREVTQ5VjFBY1hDTlBnbzhpVWdKSjJDS2NKazF1VkcwRF9nSHRkZVM0QlB0LWxlTTA4aDAyQjN2Uw?oc=5",
-          "publisher": "Le Figaro",
-          "published_at": "Wed, 27 May 2026 08:45:04 GMT",
-          "similarity": 0.176
+          "source": "discover",
+          "title": "DIRECT. Roland-Garros 2026 : le Français Valentin Royer passe au révélateur Novak Djokovic... Suivez et commentez le match du 2e tour avec nous",
+          "url": "https://www.franceinfo.fr/roland-garros/directs/direct-roland-garros-2026-le-francais-valentin-royer-passe-au-revelateur-novak-djokovic-suivez-et-commentez-le-match-du-2e-tour-avec-nous_8030924.html",
+          "publisher": "franceinfo",
+          "published_at": "2026-05-27 16:23:20",
+          "similarity": 0.158
         }
       ],
-      "project_rank": 3
+      "project_rank": 1
     },
     {
-      "id": "s12",
+      "id": "s11",
       "title": "Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
       "theme": "actualite",
-      "global_score": 28,
+      "global_score": 29,
       "global_tier": "low",
       "global_signals": [
         {
@@ -432,20 +254,20 @@
         {
           "source": "news",
           "label": "gnews",
-          "value": "2 médias"
+          "value": "3 médias"
         },
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "20k vues"
+          "value": "15k vues"
         },
         {
           "source": "news",
           "label": "msn",
-          "value": "70+ react."
+          "value": "78+ react."
         }
       ],
-      "rationale": "Forte audience Wikipedia (20 499 vues/jour) · couvert par 2 médias.",
+      "rationale": "Forte audience Wikipedia (14 816 vues/jour) · couvert par 3 médias.",
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-après-andréa-bescond-alexandra-lamy-sort-du-silence-et-prend-position/ar-AA247kkO?ocid=00000000",
       "msn_source_name": "So Busy Girls",
       "discover_category": "/News/Sports News",
@@ -482,15 +304,15 @@
         ]
       },
       "project_score": 56,
-      "proposed_title": "« Je ne pouvais pas rester silencieuse » : Alexandra Lamy brise le silence sur Patrick Bruel",
+      "proposed_title": "« Je ne peux pas rester silencieuse » : Alexandra Lamy se range aux côtés d'Andréa Bescond face à Patrick Bruel",
       "external_sources": [
         {
-          "source": "discover",
-          "title": "\"J'aurais dû signer au Stade Toulousain en 2017\" : après 244 matchs en pro, il prend sa retraite",
-          "url": "https://actu.fr/occitanie/montauban_82121/j-aurais-du-signer-au-stade-toulousain-en-2017-apres-244-matchs-en-pro-il-prend-sa-retraite_64317728.html",
-          "publisher": "Actu.fr",
-          "published_at": "2026-05-27 13:45:44",
-          "similarity": 0.105
+          "source": "gnews",
+          "title": "Real Madrid : Karim Benzema prend position pour les élections",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNVcxSFRkUXg5cmliVDJKVGhSZTdWcDVFVWZ0WFI0bUd5emctRS1FX2tyWDNxT3p5bjlwNmhUV093bVh6SV9EX2Y3TkZmVVp1akdYNExrZkdEcXhRQ1BJU0ZnLUkxeVQ3UkxVSHZ3S2VVLXBrdXZiNk9YQ2FiV0FDdUJlLWIyQ0tvUWVhN2Z5dC1uTC03ZkgtRm13emNuamRYSDBneElvVjVhanhH?oc=5",
+          "publisher": "Foot Mercato",
+          "published_at": "Wed, 27 May 2026 09:49:30 GMT",
+          "similarity": 0.118
         },
         {
           "source": "gnews",
@@ -505,11 +327,84 @@
           "title": "Pourquoi la réaction du Paléo Festival à l’affaire Patrick Bruel détonne en France, où les stars accusées de violences sexuelles bénéficient «d’une sorte d’immunité",
           "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOTWFkY2ZEQl91NEhhdW1YQWtiRExxSVhNWXVLb2FXMHBLbDNEejBrbE1oamhxX2lnQVVQTEg2X1ZaMDFJREZ4LTBOMExleUNiVVdwUEk3NUd5eFF0WVEwVXBXb0NtSWtWcjd6YWxaZ3Eza3lFQ3V4TTJxc0hlbUp6a2Y4LUhuTGY1eWNhLUlyS1lNdW9DNDRfMFJWbm0xVExmYUdhOG5NS0JmcC1uZlJ6eXY5Z3RZXzU4V0M2WDFtLWowcU5QSnhjaWdSSFJUWWI5bzlDa3duUFBhYy13a0NDaXNGUHE2b204N1J5U0Y1SHhHZjNlX2Y2eGVXR1dfeDZNcnJRWVVLYW1vRDU2MzlBUi1pd3Ewdnkx?oc=5",
           "publisher": "Le Temps",
-          "published_at": "Wed, 27 May 2026 14:43:00 GMT",
+          "published_at": "Wed, 27 May 2026 15:53:36 GMT",
           "similarity": 0.077
         }
       ],
-      "project_rank": 4
+      "project_rank": 2
+    },
+    {
+      "id": "s13",
+      "title": "Novak Djokovic sur Gaël Monfils : « Désolé, il fallait que je le dise »",
+      "theme": "sport",
+      "global_score": 28,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "39k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "80+ react."
+        }
+      ],
+      "rationale": "Forte audience Wikipedia (38 689 vues/jour) · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/novak-djokovic-sur-gaël-monfils-désolé-il-fallait-que-je-le-dise/ar-AA24aHo5?ocid=00000000",
+      "msn_source_name": "We Love Tennis",
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
+      "discover_entities": [
+        "Novak Djokovic",
+        "Roland-Garros",
+        "Sport"
+      ],
+      "affinity": {
+        "score": 70,
+        "match_count": 10,
+        "max_similarity": 0.809,
+        "avg_similarity": 0.773,
+        "total_clicks": 199470,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/rafael-nadal-papa-pour-la-2eme-fois-un-prenom-plein-de-sens-et-demotion-255400",
+            "title": null,
+            "clicks": 178071,
+            "similarity": 0.754
+          },
+          {
+            "url": "https://www.parismatch.com/actu/sport/jai-connu-de-meilleurs-moments-en-larmes-le-roi-du-tennis-roger-federer-seclipse-262363",
+            "title": null,
+            "clicks": 18430,
+            "similarity": 0.75
+          },
+          {
+            "url": "https://www.parismatch.com/actu/sport/sous-les-yeux-de-son-epouse-svitolina-monfils-fait-ses-adieux-a-roland-garros-269671",
+            "title": null,
+            "clicks": 165,
+            "similarity": 0.809
+          }
+        ]
+      },
+      "project_score": 55,
+      "proposed_title": "Novak Djokovic se confie sur Gaël Monfils : « Il fallait que je le dise »",
+      "external_sources": [
+        {
+          "source": "discover",
+          "title": "DIRECT. Roland-Garros 2026 : le Français Valentin Royer passe au révélateur Novak Djokovic... Suivez et commentez le match du 2e tour avec nous",
+          "url": "https://www.franceinfo.fr/roland-garros/directs/direct-roland-garros-2026-le-francais-valentin-royer-passe-au-revelateur-novak-djokovic-suivez-et-commentez-le-match-du-2e-tour-avec-nous_8030924.html",
+          "publisher": "franceinfo",
+          "published_at": "2026-05-27 16:23:20",
+          "similarity": 0.105
+        }
+      ],
+      "project_rank": 3
     },
     {
       "id": "s14",
@@ -531,17 +426,14 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "103+ react."
+          "value": "104+ react."
         }
       ],
       "rationale": "Couvert par 4 médias · engagement MSN élevé.",
       "msn_url": "https://www.msn.com/fr-fr/actualite/monde/guerre-en-ukraine-la-russie-réitère-sa-menace-et-se-donne-les-moyens-de-séduire-de-nouveaux-soldats/ar-AA2471WT?ocid=00000000",
       "msn_source_name": "20 Minutes",
-      "discover_category": "/Sensitive Subjects",
-      "discover_entities": [
-        "Diplomatie",
-        "Kiev"
-      ],
+      "discover_category": "/News",
+      "discover_entities": [],
       "affinity": {
         "score": 70,
         "match_count": 10,
@@ -570,24 +462,8 @@
         ]
       },
       "project_score": 54,
-      "proposed_title": "Ukraine : Poutine durcit le ton et ouvre son portefeuille aux recrues",
+      "proposed_title": "Ukraine : Poutine intensifie le recrutement et brandit ses menaces !",
       "external_sources": [
-        {
-          "source": "gnews",
-          "title": "EN DIRECT, guerre en Ukraine : les dernières informations",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSDEyUnRmaVVLQzNjR19MR0FVMWhmVDZtQjVycnVJX055V0FkOGpwVWxPZHc5aGRDcmVCX1pxSlFQZUdyZEM5dVB4VS1LMnJIQ2V3NFZ4WVFVNi1SRU9mT1dmZlJUNkVrdUxHd3pjYUV6aDQ1dWxxNU1tQ0VYcWo0RUxYVzh6SzRVWlFWaDAtSVJlTHBVV3hGc2xVcVkzWDEteEl6cEpxcnktVF9vYldUb05LU2VhT1U3cjNVZjJKWlY4RkE?oc=5",
-          "publisher": "Le Monde.fr",
-          "published_at": "Wed, 27 May 2026 12:32:56 GMT",
-          "similarity": 0.167
-        },
-        {
-          "source": "discover",
-          "title": "EN DIRECT, guerre en Ukraine : une cinquantaine d’Etats dénoncent devant l’ONU les « menaces » de la Russie contre les diplomates à Kiev",
-          "url": "https://www.lemonde.fr/international/live/2026/05/27/en-direct-guerre-en-ukraine-une-cinquantaine-d-etats-denoncent-devant-l-onu-les-menaces-de-la-russie-contre-les-diplomates-a-kiev_6693162_3210.html",
-          "publisher": "Le Monde.fr",
-          "published_at": "2026-05-27 05:23:04",
-          "similarity": 0.158
-        },
         {
           "source": "gnews",
           "title": "Guerre en Ukraine : \"Irresponsable !\", la Russie accusée d’avoir rendu l’avion du ministre de la Défense britannique aveugle pendant trois heures",
@@ -595,88 +471,31 @@
           "publisher": "ladepeche.fr",
           "published_at": "Tue, 26 May 2026 15:47:00 GMT",
           "similarity": 0.143
-        }
-      ],
-      "project_rank": 5
-    },
-    {
-      "id": "s18",
-      "title": "Présidentielle 2027 : selon un sondage, Retailleau à 7 %, Zemmour à 5 %, Dupont-Aignan à 2 %, la droite serait distancée par Bardella",
-      "theme": "actualite",
-      "global_score": 24,
-      "global_tier": "low",
-      "global_signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "14/65"
         },
         {
-          "source": "trends",
-          "label": "trends",
-          "value": "10k"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "14+ react."
-        }
-      ],
-      "rationale": "Présent sur Google Discover · présent sur Google Trends.",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/other/présidentielle-2027-selon-un-sondage-retailleau-à-7-zemmour-à-5-dupont-aignan-à-2-la-droite-serait-distancée-par-bardella/ar-AA24aSse?ocid=00000000",
-      "msn_source_name": "So Busy Girls",
-      "discover_category": "/News/Politics",
-      "discover_entities": [
-        "Jean-Luc Mélenchon",
-        "Jordan Bardella",
-        "Sondage d'opinion"
-      ],
-      "affinity": {
-        "score": 70,
-        "match_count": 10,
-        "max_similarity": 0.826,
-        "avg_similarity": 0.776,
-        "total_clicks": 159800,
-        "top_matches": [
-          {
-            "url": "https://www.parismatch.com/actu/politique/presidentielle-2027-lhypothese-michel-edouard-leclerc-nouvelle-personnalite-preferee-des-francais-264274",
-            "title": null,
-            "clicks": 45844,
-            "similarity": 0.787
-          },
-          {
-            "url": "https://www.parismatch.com/actu/politique/sondage-macron-devisse-nouveau-record-pour-bardella-252915",
-            "title": null,
-            "clicks": 97003,
-            "similarity": 0.772
-          },
-          {
-            "url": "https://www.parismatch.com/actu/politique/la-defaite-de-rachida-dati-une-lecon-pour-2027-266349",
-            "title": null,
-            "clicks": 12708,
-            "similarity": 0.743
-          }
-        ]
-      },
-      "project_score": 53,
-      "proposed_title": "Présidentielle 2027 : la droite sous pression, Bardella en tête des sondages",
-      "external_sources": [
-        {
-          "source": "discover",
-          "title": "\"Un nouveau sondage laisse envisager un second tour Bardella-Mélenchon en 2027\" (Gauthier Le Bret)",
-          "url": "https://www.youtube.com/watch?v=S1SO1A5iusI",
-          "publisher": "YouTube",
-          "published_at": "2026-05-27 07:46:02",
+          "source": "gnews",
+          "title": "EN DIRECT - Guerre en Ukraine: la France convoque l'ambassadeur russe après les menaces de Moscou contre Kiev",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRktKNlFhZ001OEl1SXFjZEh4QndoWG9YcGVBaGdWTURpYmZRbUpReWZnS3RUcjVtN1lwcnhRaE95TURIY3ZMcVNDU1FpU3lVb2l1Rk1Lbnk2dTR1S2dJTm1BM0hUcGR3UXYzMXFlZjNlWHpQSWp5OGJteTAtN2JiSUtFUnhOODNuVHhBUHpiR182SVRQMm5va1BSWm5iektTYkhvemhjVVNJWUJvMWxNV2RmSnZSUmc5a3Y0SVVNYm03RVdWdHhWSEtNWmlkOERidkFWMGUybDdHUG5ONDQzVC1PSk5NSC1GRWc?oc=5",
+          "publisher": "RFI",
+          "published_at": "Wed, 27 May 2026 07:20:42 GMT",
           "similarity": 0.105
+        },
+        {
+          "source": "gnews",
+          "title": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky affirme devant des députés que le conflit devrait se poursuivre au moins jusqu’en novembre",
+          "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQUGwyd1AzS013Ri1YSk9rbGlTR1MweTA5ZkRseFpQbGZHVFNpMHJCc3FUUHJhYXY0SlNmbXNRRGJyOFZ4ZTNzZ2xVc1g3ak1hU1RkOExPU1RNRnR3M1hvZXBhUENoZk1uNk53bWNPdzlJaTFTWHpiM0NET0xKZi16RjhUdEdLNFRhUWNJX0hfUVc4eExNM3lsUGhGaEJTNXFGaWd1bE1BNmRGb3IwcXZnb2IycEo4cVRzYXVzUi02S2tIZUNxUUY4c0hTbWRibXM2V3FXcXpGS3d2RGxxcHRHc0tSWGVSZk5vQl9ObkptQURkMFZHQTRfS2d4WFlSZU51cmozazNKeDZCZ1pScVJheFVRYW1HRlpvN0w3YW5LeTh2VEpjNDhrRm9tdVhjUkVa?oc=5",
+          "publisher": "Le Monde.fr",
+          "published_at": "Wed, 27 May 2026 14:29:23 GMT",
+          "similarity": 0.1
         }
       ],
-      "project_rank": 6
+      "project_rank": 4
     },
     {
-      "id": "s19",
+      "id": "s16",
       "title": "Un nouveau serpent géant vient d’être découvert en Amazonie",
       "theme": "video",
-      "global_score": 24,
+      "global_score": 26,
       "global_tier": "low",
       "global_signals": [
         {
@@ -687,15 +506,15 @@
         {
           "source": "news",
           "label": "gnews",
-          "value": "2 médias"
+          "value": "3 médias"
         },
         {
           "source": "news",
           "label": "msn",
-          "value": "570+ react."
+          "value": "574+ react."
         }
       ],
-      "rationale": "Couvert par 2 médias · engagement MSN élevé.",
+      "rationale": "Couvert par 3 médias · engagement MSN élevé.",
       "msn_url": "https://www.msn.com/fr-fr/video/viral/un-nouveau-serpent-géant-vient-d-être-découvert-en-amazonie/vi-AA21p5jU?ocid=00000000",
       "msn_source_name": "Dailymotion",
       "discover_category": "/News",
@@ -729,9 +548,17 @@
           }
         ]
       },
-      "project_score": 53,
+      "project_score": 54,
       "proposed_title": "En Amazonie, la découverte spectaculaire d'un serpent géant qui fascine les savants",
       "external_sources": [
+        {
+          "source": "gnews",
+          "title": "«Comme il est beau» : un nouveau poulpe bleu découvert dans les eaux des îles Galapagos",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaXJGWnhqVEpmaTZha0cxVEZXb0hzTmVJYnU3LVRPakt0bFRFc2hvXzdmVy13T2pONTBneGFCb0lyclFLWDdNT1ZmdkdsUWVHV1Z4a2o4dzZhZUtONnQ1Q0FNWTh2TkMxUnVDYUNvNXZnT2E0aGxaRGhaYVYwWW5kY3djNWhCdWNtOFZkYnYzMU91MmkzOTZSUUVVcnNQTHdpU0c5R1pObTVLZERGOVgyQlRwRdIBuAFBVV95cUxPbFkyNWJUUUNUZEZnYnVMTW9saVRzbFRSU2JNVDFZZzh2Wm5hTVgxemd6b1UxVnMwc1pGaDM0TExBUVNIQlpKY0ZIblRFbmFCM19GYWZLLUprQXBxaU41NndjaVhLS2xEOUd6OV9ycFl1VkZuemVFdnl1eGFDdEYzbDBxelhXSnY1UGtBWHlKTXJaZXp3NDZNWXBKeDJhUXFZcXFDXzdTek9QNjJvTmZGN0RSSW5WUVU0?oc=5",
+          "publisher": "CNews",
+          "published_at": "Mon, 25 May 2026 19:48:22 GMT",
+          "similarity": 0.154
+        },
         {
           "source": "gnews",
           "title": "Encore plus redoutable que le T. rex : ce mosasaure géant, de la taille d'un bus, est le plus féroce jamais découvert",
@@ -747,20 +574,105 @@
           "publisher": "L'Automobile Magazine",
           "published_at": "Tue, 26 May 2026 04:47:22 GMT",
           "similarity": 0.125
+        }
+      ],
+      "project_rank": 5
+    },
+    {
+      "id": "s21",
+      "title": "Jean-Luc Mélenchon devient la figure politique la plus rejetée par les Français",
+      "theme": "actualite",
+      "global_score": 20,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "48+ react."
+        }
+      ],
+      "rationale": "Présent dans le top Wikipedia · repris sur Google Actualités · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/elections/jean-luc-mélenchon-devient-la-figure-politique-la-plus-rejetée-par-les-français/ar-AA24a5Su?ocid=00000000",
+      "msn_source_name": "So Busy Girls",
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Jean-Luc Mélenchon",
+        "Sport"
+      ],
+      "affinity": {
+        "score": 75,
+        "match_count": 10,
+        "max_similarity": 0.835,
+        "avg_similarity": 0.744,
+        "total_clicks": 614310,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/politique/fessee-pour-la-classe-politique-francaise-le-sondage-qui-fait-mal-254247",
+            "title": "Fessée pour la classe politique française, le sondage qui fait mal",
+            "clicks": 350724,
+            "similarity": 0.781
+          },
+          {
+            "url": "https://www.parismatch.com/actu/politique/sondage-macron-devisse-nouveau-record-pour-bardella-252915",
+            "title": null,
+            "clicks": 97003,
+            "similarity": 0.73
+          },
+          {
+            "url": "https://www.parismatch.com/actu/politique/presidentielle-2027-lhypothese-michel-edouard-leclerc-nouvelle-personnalite-preferee-des-francais-264274",
+            "title": null,
+            "clicks": 45844,
+            "similarity": 0.722
+          }
+        ]
+      },
+      "project_score": 53,
+      "proposed_title": "Jean-Luc Mélenchon, le politicien le plus rejeté des Français !",
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "Jean-Luc Mélenchon sur le vrai-faux tremplin du bruit et de la fureur",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdlRoUjVKaF9KRDl4Sjd3RGFxZ3FrcG5CR0Q0R1hNSlNwZ3dUNWJ3YUZQeXUtVFl5N0gzcTZxMGYzU18wV0xmUWx0TEVhU21qZlFMckhEcWpLcHdkdUZBWHB3WWpxbDFXbUs1TU9aNUROX0xKZHhLb0VxLTlGbllLNXlDelNORzd4MFFhaVc0Tkl6TzB4NXB5cEhKVFZpbVp1U194Z09oWlpUYjdjSXFXd1JhV0V1ejlXOFE1emNfZw?oc=5",
+          "publisher": "Atlantico",
+          "published_at": "Wed, 27 May 2026 07:03:57 GMT",
+          "similarity": 0.231
         },
         {
           "source": "discover",
-          "title": "Toulon : le Mega Serena, nouveau géant jaune de Corsica Ferries, fait sa première entrée dans la rade",
-          "url": "https://actu.fr/provence-alpes-cote-d-azur/toulon_83137/toulon-le-mega-serena-nouveau-geant-jaune-de-corsica-ferries-fait-sa-premiere-entree-dans-la-rade_64318972.html",
-          "publisher": "Actu.fr",
-          "published_at": "2026-05-27 15:46:44",
-          "similarity": 0.125
+          "title": "Assistants parlementaires de Jean-Luc Mélenchon : la justice clôture l’instruction, sans mise en examen",
+          "url": "https://www.ouest-france.fr/politique/jean-luc-melenchon/assistants-parlementaires-de-jean-luc-melenchon-la-justice-cloture-linstruction-sans-mise-en-examen-7eb97420-592d-11f1-8ba2-e862963f4a46",
+          "publisher": "Ouest-France",
+          "published_at": "2026-05-27 09:13:50",
+          "similarity": 0.2
+        },
+        {
+          "source": "discover",
+          "title": "Jean-Luc Mélenchon veut porter plainte contre Marine Le Pen, qu’il accuse d’avoir «manipulé» ses propos sur la «nouvelle France»",
+          "url": "https://www.liberation.fr/politique/melenchon-veut-porter-plainte-contre-marine-le-pen-qui-a-selon-lui-manipule-ses-propos-sur-la-nouvelle-france-20260526_FWMY2QASV5DCXPGDLNDGEEL5DE/",
+          "publisher": "Libération",
+          "published_at": "2026-05-27 12:51:02",
+          "similarity": 0.15
         }
       ],
-      "project_rank": 7
+      "project_rank": 6
     },
     {
-      "id": "s25",
+      "id": "s23",
       "title": "« J'ai demandé à ce qu'on m'abrège la vie... » : Mireille Dumas brise le tabou sur sa fin de vie",
       "theme": "divertissement",
       "global_score": 20,
@@ -779,7 +691,7 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "170+ react."
+          "value": "173+ react."
         }
       ],
       "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
@@ -817,7 +729,7 @@
         ]
       },
       "project_score": 52,
-      "proposed_title": "« J'ai demandé qu'on m'abrège la vie » : Mireille Dumas se confie sur son combat face à la fin de vie",
+      "proposed_title": "« J'ai demandé à ce qu'on m'abrège la vie » : Mireille Dumas brise l'ultime tabou",
       "external_sources": [
         {
           "source": "gnews",
@@ -836,97 +748,104 @@
           "similarity": 0.091
         }
       ],
-      "project_rank": 8
+      "project_rank": 7
     },
     {
-      "id": "s30",
-      "title": "Les États-Unis annoncent une réduction drastique de leurs capacités militaires pour l’OTAN",
+      "id": "s01",
+      "title": "« Assez coupable et assez irresponsable » : Marine Tondelier se dit « effarée » par le « degré d'impréparation du gouvernement » sur les fortes chaleurs",
       "theme": "actualite",
-      "global_score": 20,
-      "global_tier": "low",
+      "global_score": 44,
+      "global_tier": "medium",
       "global_signals": [
         {
           "source": "gsc",
           "label": "discover",
-          "value": "présent"
+          "value": "1.9/65"
         },
         {
           "source": "news",
           "label": "gnews",
-          "value": "8 médias"
+          "value": "2 médias"
         },
         {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "3k vues"
+          "source": "trends",
+          "label": "trends",
+          "value": "10k"
+        },
+        {
+          "source": "x",
+          "label": "x",
+          "value": "#90"
         },
         {
           "source": "news",
           "label": "msn",
-          "value": "1+ react."
+          "value": "87+ react."
         }
       ],
-      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (8 médias).",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/les-états-unis-annoncent-une-réduction-drastique-de-leurs-capacités-militaires-pour-l-otan/ar-AA24byIx?ocid=00000000",
-      "msn_source_name": "Enderi",
-      "discover_category": "/Sports/International Sports Competitions",
-      "discover_entities": [],
+      "rationale": "Présent sur Google Trends · couvert par 2 médias · mentionné sur X · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/assez-coupable-et-assez-irresponsable-marine-tondelier-se-dit-effarée-par-le-degré-d-impréparation-du-gouvernement-sur-les-fortes-chaleurs/ar-AA24amzN?ocid=00000000",
+      "msn_source_name": "BFM",
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Marine Tondelier"
+      ],
       "affinity": {
-        "score": 73,
+        "score": 57,
         "match_count": 10,
-        "max_similarity": 0.804,
-        "avg_similarity": 0.725,
-        "total_clicks": 527875,
+        "max_similarity": 0.764,
+        "avg_similarity": 0.737,
+        "total_clicks": 6186,
         "top_matches": [
           {
-            "url": "https://www.parismatch.com/actu/international/un-mauvais-signal-envoye-a-poutine-trump-annonce-une-reduction-de-bien-plus-de-5-000-soldats-americains-en-allemagne-268508",
+            "url": "https://www.parismatch.com/Actu/Environnement/meteo-pourquoi-il-va-faire-tres-chaud-en-france-en-juillet-253476",
             "title": null,
-            "clicks": 99329,
-            "similarity": 0.804
+            "clicks": 5206,
+            "similarity": 0.726
           },
           {
-            "url": "https://www.parismatch.com/actu/international/f-35-le-canada-envisage-de-reduire-sa-commande-263739",
+            "url": "https://www.parismatch.com/Actu/Environnement/canicule-en-france-84-departements-en-vigilance-orange-des-temperatures-au-dela-des-40-degres-253500",
             "title": null,
-            "clicks": 14228,
-            "similarity": 0.723
+            "clicks": 2,
+            "similarity": 0.764
           },
           {
-            "url": "https://www.parismatch.com/actu/international/les-etats-unis-auraient-deploye-des-armes-nucleaires-au-royaume-uni-pour-la-premiere-fois-depuis-2008-254911",
+            "url": "https://www.parismatch.com/Actu/Environnement/un-episode-de-chaleur-precoce-et-remarquable-la-canicule-deja-de-retour-dans-18-departements-paris-suffoque-269648",
             "title": null,
-            "clicks": 14210,
-            "similarity": 0.722
+            "clicks": 10,
+            "similarity": 0.763
           }
         ]
       },
-      "project_score": 52,
-      "proposed_title": "« L'Amérique se retire » : Washington réduit drastiquement ses troupes à l'OTAN",
+      "project_score": 50,
+      "proposed_title": "« Assez coupable et assez irresponsable » : Marine Tondelier accuse le gouvernement d'impréparation face aux chaleurs",
       "external_sources": [
         {
-          "source": "gnews",
-          "title": "Aux Etats-Unis, le débat sur les origines du Covid-19 secoue la recherche en virologie",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNWW03Znh6VXMxMHd3WmlGUHVCMjh6WlFVSzJ5M0s1bThhcTlTdzZKcXpCazJfUEE2bXp5MkEwZEtSdkF6ZWtVd1cweHdSSU5RcGhNTTlhdEFOWlJMMzE1NUFScFprcHF6QndWSURDQlkzNkdXZ1FPZGNIYjVURU4xWUwzWFZKc1A4SWtaVmM0b1Z3SGFBLXJvdzYxX19rZGhzSFJ0OTBsTVpSOThESFl2bjFTOUJGdHdkOHo2T0FtTE4yVGVZZDBIWlhhOU1zcVVQcTRNbG1TRmIwZ1BiMDhlSVR6UEV6b2czZnptVlZmTnBqQWJ0?oc=5",
-          "publisher": "Le Monde.fr",
-          "published_at": "Tue, 26 May 2026 15:28:44 GMT",
-          "similarity": 0.143
+          "source": "discover",
+          "title": "\"Assez coupable et assez irresponsable\": Marine Tondelier se dit \"effarée\" par le \"degré d'impréparation du gouvernement\" sur les fortes chaleurs",
+          "url": "https://www.bfmtv.com/politique/europe-ecologie-les-verts/assez-coupable-et-assez-irresponsable-marine-tondelier-se-dit-effaree-par-le-degre-d-impreparation-du-gouvernement-sur-les-fortes-chaleurs_AD-202605270314.html",
+          "publisher": "BFM",
+          "published_at": "2026-05-27 11:57:14",
+          "similarity": 1.0
         },
         {
           "source": "gnews",
-          "title": "\"Il y aura des conséquences\" : l'Europe se libère de Starlink, les États-Unis sont furieux",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPNjduanRnX0MzRVpXM0RTay1yTGNJbm0zSjdlWmpmRUJFUkdHYkg3Wlh3SHpIRVpSWEg4WHJrYWVsRjN6R0hjMmlsWWRFbGcyWGJ5Zk05MnUzSDZNenBncFd3b2t0ZWxQRXFWNnVpdTJrSWxTYkdlWF9YaDZzRHRKQmVFU05PQjBJYlJKek1hS1FYYXdIRUY0MENSNnR2U1VqeGVIdEVOSXN1bEtWWWUyaUNxM004OVVWZWFQUGw0cTVnNnYtdHk2S3Ewei1PMEpvaXRKaEVSaVVSSTZLamhwUkpSSVduZ0RXSXRjSGw0eW5yR3ZXUW9sQ2ZWckpBb3o4T0psaEx4azhRRms?oc=5",
-          "publisher": "Les Numériques",
-          "published_at": "Wed, 27 May 2026 05:31:00 GMT",
-          "similarity": 0.143
+          "title": "Tondelier \"effarée par le degré d'impréparation du gouvernement\" contre la chaleur",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMFFVZ0Z2MUxQSEx6dnI0V2J0bnNTbzBPVjhYN21vMURuZDV4TVppR09xa2N2QUNab0hTTThYbDVBUkpiVlZnNV94OTJWSmJ6SmNmZzZnTG5QWDBITDU3YjZYbS1wcjlGZk0xN3NpX1ZvaE12a2tWTHVGRnU3bkV4ZHkzSjB2TEJTeEc2QXhIaWdaWFltSWlQWWt2M2tucGdZYUJZZ0hmNzJZTUUzRlN6eFR5a05KNmlxNGlFaC1UcmpSVjU0Um9BYldVTkwzRjBUaG1BeDNHWFRXaXc?oc=5",
+          "publisher": "Orange Actualités",
+          "published_at": "Wed, 27 May 2026 06:55:00 GMT",
+          "similarity": 0.357
         },
         {
-          "source": "gnews",
-          "title": "L'Europe sort 5 milliards pour convaincre ses pépites tech de ne pas filer aux États-Unis",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxORXVveVN4VTFDRjl4Y28xcnRZRTI3am1DcGtPWUd5UV81b2pzMnpFRE5waEVQMlRFQzhMYWl6QWtqZzdXTGczUmVFTWluN2NQYmZKZXZVN1VHencwNVZFX1VoMU1Genp4cGdJQnpvZFFHdlJpWTJ2X3ZXd1VnbTZVM1B5T21EbHhsMEhfOFFKVHZnOFc4eVJxc3p3bEg1T3QxS2o3QkJEVk9lRmJwWV9lY3BraDY3MHlkSlMyZGFoY3k0cGxKSUtsVGk1RGxtY09QUTVvOVJMaXpZcy1SRjBLR21oalU?oc=5",
-          "publisher": "Les Numériques",
-          "published_at": "Wed, 27 May 2026 11:06:00 GMT",
-          "similarity": 0.133
+          "source": "discover",
+          "title": "\"Ils m’ont dit des choses horribles\" : elle écope de 200 euros d’amende pour avoir ouvert une issue de secours dans un TGV bloqué sans climatisation par fortes chaleurs",
+          "url": "https://www.rtl.fr/actu/justice-faits-divers/ils-m-ont-dit-des-choses-horribles-elle-ecope-de-200-euros-d-amende-pour-avoir-ouvert-une-issue-de-secours-dans-un-tgv-bloque-sans-climatisation-par-fortes-chaleurs-7900639359",
+          "publisher": "RTL.fr",
+          "published_at": "2026-05-27 11:16:48",
+          "similarity": 0.13
         }
       ],
-      "project_rank": 9
+      "project_rank": 8
     },
     {
       "id": "s02",
@@ -948,15 +867,15 @@
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "20k vues"
+          "value": "15k vues"
         },
         {
           "source": "news",
           "label": "msn",
-          "value": "67+ react."
+          "value": "81+ react."
         }
       ],
-      "rationale": "Forte audience Wikipedia (20 499 vues/jour) · forte couverture médiatique (6 médias) · engagement MSN élevé.",
+      "rationale": "Forte audience Wikipedia (14 816 vues/jour) · forte couverture médiatique (6 médias) · engagement MSN élevé.",
       "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/patrick-bruel-sort-du-silence-après-la-plainte-de-flavie-flament-ce-qu-il-affirme-aujourd-hui-sur-les-réseaux-sociaux/ar-AA247ml6?ocid=00000000",
       "msn_source_name": "So Busy Girls",
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
@@ -991,7 +910,7 @@
         ]
       },
       "project_score": 50,
-      "proposed_title": "Patrick Bruel sort du silence : « Je n'accepterai jamais ces accusations »",
+      "proposed_title": "Patrick Bruel sort du silence : « Je n'ai rien fait », clame l'artiste face aux accusations",
       "external_sources": [
         {
           "source": "gnews",
@@ -1018,10 +937,295 @@
           "similarity": 0.103
         }
       ],
+      "project_rank": 9
+    },
+    {
+      "id": "s20",
+      "title": "Guerre en Ukraine : la Russie va saisir les biens des expatriés qui critiquent la guerre et le régime de Vladimir Poutine",
+      "theme": "actualite",
+      "global_score": 20,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "7 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "1k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "21+ react."
+        }
+      ],
+      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (7 médias).",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/guerre-en-ukraine-la-russie-va-saisir-les-biens-des-expatriés-qui-critiquent-la-guerre-et-le-régime-de-vladimir-poutine/ar-AA24ccVD?ocid=00000000",
+      "msn_source_name": "Le Parisien",
+      "discover_category": "/Law & Government/Legal",
+      "discover_entities": [
+        "Contrat de bail",
+        "Contrôle des loyers",
+        "Paris"
+      ],
+      "affinity": {
+        "score": 70,
+        "match_count": 10,
+        "max_similarity": 0.793,
+        "avg_similarity": 0.767,
+        "total_clicks": 219739,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/international/la-russie-se-dit-prete-a-une-rencontre-zelensky-poutine-a-condition-que-le-president-ukrainien-se-rende-a-moscou-263693",
+            "title": null,
+            "clicks": 168092,
+            "similarity": 0.78
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/guerre-en-ukraine-la-russie-endommage-la-cathedrale-sainte-sophie-de-kiev-classee-a-lunesco-252564",
+            "title": null,
+            "clicks": 48536,
+            "similarity": 0.749
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/guerre-en-ukraine-zelensky-accuse-la-russie-davoir-frappe-une-entreprise-americaine-255869",
+            "title": null,
+            "clicks": 10,
+            "similarity": 0.793
+          }
+        ]
+      },
+      "project_score": 50,
+      "proposed_title": "Poutine resserre l'étau : la Russie confisquera les biens de ses détracteurs",
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "Guerre en Ukraine : \"Irresponsable !\", la Russie accusée d’avoir rendu l’avion du ministre de la Défense britannique aveugle pendant trois heures",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPNDdWRUllR1JsR2g1S3AxZGdMbFFIWXN4Y1hFSUVxWXdTU3dRdVZEZzlCY0JhSS01T3UtRXAzUFhsbHBHQk8xZUIyTTZmZy1KWEFXTDB1dGpnRktvT01oTm8zTWoxSWdzNFkzQV94YnZ4VVNZLTR2cGN0SkRvX3lOWkRYMUJXSUFqck1qS0s2UWxGbjd0MUZMQmNaU0JBSk54a2gwQUdfMkNLOFFXcGU5WVgzaWlRdnNKVm5NYVNJWWYtVmtJNXd4TjlISk5hMGhzQzF2ZnM5bHRZMGdaX0wzZ3dZUkZsaE9nRzB6eWRhRGlNbmRwbnBRMERNSDJQbENHTGtKeWNlZHk2TTJaN2tyTlhUaw?oc=5",
+          "publisher": "ladepeche.fr",
+          "published_at": "Tue, 26 May 2026 15:47:00 GMT",
+          "similarity": 0.143
+        },
+        {
+          "source": "gnews",
+          "title": "Vladimir Poutine efface les dettes financières des nouvelles recrues de l'armée russe",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc2xGM2E2b3l1VDZ6OVl4eTJYMUdQVVhoNEU5YnE3WGY3cF93d3Iwc0NkbndXWU1nRWg5TUp3ai1veXZSSEZOc1IxMXdNdGluZWZmcU1vd0o5V0pNWll4c1FFeE8tTmZXWF8tNmNBZURpalJuR2dVTW9jMWNrSzZhT0pfLVlUV0tlVXA1VXp4YnVrN3lrZUpFNXotQUVSalZpVExR?oc=5",
+          "publisher": "Euronews.com",
+          "published_at": "Tue, 26 May 2026 16:59:19 GMT",
+          "similarity": 0.118
+        },
+        {
+          "source": "gnews",
+          "title": "EN DIRECT - Guerre en Ukraine: la France convoque l'ambassadeur russe après les menaces de Moscou contre Kiev",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRktKNlFhZ001OEl1SXFjZEh4QndoWG9YcGVBaGdWTURpYmZRbUpReWZnS3RUcjVtN1lwcnhRaE95TURIY3ZMcVNDU1FpU3lVb2l1Rk1Lbnk2dTR1S2dJTm1BM0hUcGR3UXYzMXFlZjNlWHpQSWp5OGJteTAtN2JiSUtFUnhOODNuVHhBUHpiR182SVRQMm5va1BSWm5iektTYkhvemhjVVNJWUJvMWxNV2RmSnZSUmc5a3Y0SVVNYm03RVdWdHhWSEtNWmlkOERidkFWMGUybDdHUG5ONDQzVC1PSk5NSC1GRWc?oc=5",
+          "publisher": "RFI",
+          "published_at": "Wed, 27 May 2026 07:20:42 GMT",
+          "similarity": 0.105
+        }
+      ],
       "project_rank": 10
     },
     {
+      "id": "s03",
+      "title": "Christophe Willem : le chanteur prend position sur l’affaire Patrick Bruel",
+      "theme": "divertissement",
+      "global_score": 35,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "50k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "2k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "3+ react."
+        }
+      ],
+      "rationale": "Pic Google Trends (50 000 recherches) · présent dans le top Wikipedia · couvert par 3 médias.",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/actualite/christophe-willem-le-chanteur-prend-position-sur-l-affaire-patrick-bruel/ar-AA24bJTA?ocid=00000000",
+      "msn_source_name": "Ohmymag FR",
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Patrick Bruel"
+      ],
+      "affinity": {
+        "score": 67,
+        "match_count": 10,
+        "max_similarity": 0.775,
+        "avg_similarity": 0.739,
+        "total_clicks": 134719,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/sting-attaque-en-justice-par-ses-anciens-compagnons-de-the-police-256053",
+            "title": null,
+            "clicks": 17758,
+            "similarity": 0.736
+          },
+          {
+            "url": "https://www.parismatch.com/People/on-na-pas-le-droit-dempecher-les-artistes-de-jouer-chantal-ladesou-a-contre-courant-sur-laffaire-patrick-bruel-269646",
+            "title": null,
+            "clicks": 27502,
+            "similarity": 0.729
+          },
+          {
+            "url": "https://www.parismatch.com/People/la-tournee-de-la-honte-la-petition-reclamant-lannulation-des-concerts-de-patrick-bruel-depasse-les-20-000-signataires-269331",
+            "title": null,
+            "clicks": 53549,
+            "similarity": 0.728
+          }
+        ]
+      },
+      "project_score": 49,
+      "proposed_title": "Christophe Willem prend la parole : « C'est inacceptable ! » face au scandale Bruel",
+      "external_sources": [
+        {
+          "source": "discover",
+          "title": "Affaire Patrick Bruel : Christophe Willem trouve ça \"dommage\" qu'il n'y ait pas \"un retrait naturel\" du chanteur de ses concerts",
+          "url": "https://www.rtl.fr/culture/musique/affaire-patrick-bruel-christophe-willem-trouve-ca-dommage-qu-il-n-y-ait-pas-un-retrait-naturel-du-chanteur-de-ses-concerts-7900639394",
+          "publisher": "RTL.fr",
+          "published_at": "2026-05-27 15:29:00",
+          "similarity": 0.375
+        },
+        {
+          "source": "gnews",
+          "title": "Affaire Patrick Bruel : “Se couper du monde”, ce lieu éloigné de Paris où il se serait réfugié",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNelNQdC0yRWYwZTh2LVpfYjFaVXdXa3NUeEkxUFJoaVcxM0Nkc2JTazlsc0hmZFVyUGdTUDEzQVUxS21GejFud2dCaFFEcTlrZGtuU0R6LU1yZkJhZUVOZVM5eFI2WWV2bXRvVzR0S2J2dHhyQzNUcGVVaS1Fdy1VeFQ1T2tENjZScnZyQVFpZjhkUmJPdnhwR2Qtd1Vvb3Z5YnowaUZxRXlsRUU3cTktU29lblI1NlpDN29mWmhNYTRUQ3ZIN2RYcQ?oc=5",
+          "publisher": "Closer",
+          "published_at": "Tue, 26 May 2026 20:59:57 GMT",
+          "similarity": 0.2
+        },
+        {
+          "source": "gnews",
+          "title": "Pourquoi la réaction du Paléo Festival à l’affaire Patrick Bruel détonne en France, où les stars accusées de violences sexuelles bénéficient «d’une sorte d’immunité",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOTWFkY2ZEQl91NEhhdW1YQWtiRExxSVhNWXVLb2FXMHBLbDNEejBrbE1oamhxX2lnQVVQTEg2X1ZaMDFJREZ4LTBOMExleUNiVVdwUEk3NUd5eFF0WVEwVXBXb0NtSWtWcjd6YWxaZ3Eza3lFQ3V4TTJxc0hlbUp6a2Y4LUhuTGY1eWNhLUlyS1lNdW9DNDRfMFJWbm0xVExmYUdhOG5NS0JmcC1uZlJ6eXY5Z3RZXzU4V0M2WDFtLWowcU5QSnhjaWdSSFJUWWI5bzlDa3duUFBhYy13a0NDaXNGUHE2b204N1J5U0Y1SHhHZjNlX2Y2eGVXR1dfeDZNcnJRWVVLYW1vRDU2MzlBUi1pd3Ewdnkx?oc=5",
+          "publisher": "Le Temps",
+          "published_at": "Wed, 27 May 2026 15:53:36 GMT",
+          "similarity": 0.143
+        }
+      ],
+      "project_rank": 11
+    },
+    {
       "id": "s07",
+      "title": "Donald Trump hué à Washington : ce qui s’est vraiment passé lors de cette soirée très attendue avec Melania",
+      "theme": "actualite",
+      "global_score": 33,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "9.7/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "6 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "7+ react."
+        }
+      ],
+      "rationale": "Présent sur Google Discover · présent dans le top Wikipedia · forte couverture médiatique (6 médias).",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/other/donald-trump-hué-à-washington-ce-qui-s-est-vraiment-passé-lors-de-cette-soirée-très-attendue-avec-melania/ar-AA24aMl9?ocid=00000000",
+      "msn_source_name": "So Busy Girls",
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Donald Trump",
+        "Ken Paxton",
+        "Parti républicain"
+      ],
+      "affinity": {
+        "score": 68,
+        "match_count": 10,
+        "max_similarity": 0.809,
+        "avg_similarity": 0.78,
+        "total_clicks": 130955,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/international/melania-trump-rayonne-au-cote-de-son-mari-donald-trump-au-theatre-de-washington-266820",
+            "title": null,
+            "clicks": 19434,
+            "similarity": 0.802
+          },
+          {
+            "url": "https://www.parismatch.com/People/le-look-patriotique-de-melania-trump-pour-lanniversaire-de-donald-252800",
+            "title": null,
+            "clicks": 51834,
+            "similarity": 0.788
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/trump-avait-lair-lasse-melania-a-la-fois-en-colere-et-soulagee-le-photographe-yuri-gripas-raconte-la-fusillade-de-washington-268207",
+            "title": null,
+            "clicks": 37108,
+            "similarity": 0.784
+          }
+        ]
+      },
+      "project_score": 49,
+      "proposed_title": "À Washington, le moment gênant de Donald Trump hué devant Melania",
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "Au Texas, Ken Paxton, le candidat soutenu par Donald Trump, défait le sénateur sortant John Cornyn lors des primaires républicaines",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNeS1HbTR4dkdlbUxRMDBPUEZ1QlNuWEFDQXo4Z2phMW5UTmRnUmNBTWtuREdTVkdXYjFuQk43akd6LU11dFZ0UzBhOWlzcFFoYnJSNXNQSEx4SEV2TEJFUUNwN21TT00wa3VIQXhEbEJkYnFyYTFWdGE3b2I3dUZEZHFIdHpUZWF6UEZmSU5DbjFTNGJMbkRBazliM0J2dEVDOUhseFpPLTlxc05lMEtXbWVtV1dyNDZFTzlQNTRpdFdqNW9kRjhOZTh1UkkwSlRiZ2dQMG1YcTV3M2h1cTEzRmpLRmJBbVhrNUdhMWFpUjJ0Q2lwYkJVcGN6Ml9iOHRXMk1rMlBfYWFxakdCZVhFWmJLcTBtM2U2YzlqTWVpWkh1dnRiOTBR?oc=5",
+          "publisher": "Le Monde.fr",
+          "published_at": "Wed, 27 May 2026 02:27:32 GMT",
+          "similarity": 0.13
+        },
+        {
+          "source": "gnews",
+          "title": "Le redécoupage électoral voulu par Donald Trump freiné en Caroline du Sud et en Alabama",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOR0Z4UVdqdHhjaWdweXJnWDNPX3NrUlh1b0Q0OHA2OWx2eFQtbjJGZ0c2aFhOODhEX01IanJxekhhVzNacWNJWmV6U25OR1BOakZjYjNpZTNvSmtDZV8ycG9qVXpmVTlnX0YydXFGVlpyMURlclJXLV9IUDA4UmpIamFxMzNNcE8tMFp6eE5VaTBseFR4bkI3ZHVPTWo0dnFwaGQtZlZlNTRuSnI1ZUVPam9pMnZ5RFBFdC12cVdYcDB0eGFwOEpFVnd5d2RMMmRjVzFpYkpxaXlTTEdZSEdYMnZnSllUWHVjREdEVTRJNVo?oc=5",
+          "publisher": "Le Monde.fr",
+          "published_at": "Tue, 26 May 2026 23:30:59 GMT",
+          "similarity": 0.111
+        },
+        {
+          "source": "gnews",
+          "title": "Un mariage aux Bahamas sans son père : l’énième humiliation de Donald Trump à son fils Don Jr.",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOalN4SldnV0p3N0F2OGd4R2VRd05vMzZvbkpOMHRJRWVsYlBtWTlqWG1tZ0FzNjdSNmQzWWRwV1NlTVNSMVFqdTNRZExlMVVQUmYzZkVkVUF5bThZa3NGQ1Ntck5KRktDb0t2QjJROG5rbGdUZmNXSElSVzFBUU52S2xadmZ5WFR1dFVSX1Q2RF9VOTRUYkxNV1ZQdU5oTEhWRkMtTzBvckxoRENpWlY3a0t1VnpXN3RkcEZOaWkxOC0wV3lrY05FY25CN2h6VmJtTDRDX1hnMA?oc=5",
+          "publisher": "Madame Figaro",
+          "published_at": "Wed, 27 May 2026 13:17:20 GMT",
+          "similarity": 0.105
+        }
+      ],
+      "project_rank": 12
+    },
+    {
+      "id": "s10",
       "title": "« Je l’ai vu de mes yeux » : ce que décrit Anny Duperey sur les fans de Patrick Bruel relance le débat",
       "theme": "actualite",
       "global_score": 31,
@@ -1040,15 +1244,15 @@
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "20k vues"
+          "value": "15k vues"
         },
         {
           "source": "news",
           "label": "msn",
-          "value": "87+ react."
+          "value": "101+ react."
         }
       ],
-      "rationale": "Forte audience Wikipedia (20 499 vues/jour) · couvert par 2 médias.",
+      "rationale": "Forte audience Wikipedia (14 816 vues/jour) · couvert par 2 médias.",
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/je-l-ai-vu-de-mes-yeux-ce-que-décrit-anny-duperey-sur-les-fans-de-patrick-bruel-relance-le-débat/ar-AA2475cv?ocid=00000000",
       "msn_source_name": "So Busy Girls",
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
@@ -1083,7 +1287,7 @@
         ]
       },
       "project_score": 48,
-      "proposed_title": "« Je l'ai vu de mes yeux » : Anny Duperey balance sur les fans de Patrick Bruel !",
+      "proposed_title": "« Je l'ai vu de mes yeux » : le témoignage glaçant d'Anny Duperey sur les fans de Patrick Bruel !",
       "external_sources": [
         {
           "source": "gnews",
@@ -1106,16 +1310,16 @@
           "title": "Pourquoi la réaction du Paléo Festival à l’affaire Patrick Bruel détonne en France, où les stars accusées de violences sexuelles bénéficient «d’une sorte d’immunité",
           "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOTWFkY2ZEQl91NEhhdW1YQWtiRExxSVhNWXVLb2FXMHBLbDNEejBrbE1oamhxX2lnQVVQTEg2X1ZaMDFJREZ4LTBOMExleUNiVVdwUEk3NUd5eFF0WVEwVXBXb0NtSWtWcjd6YWxaZ3Eza3lFQ3V4TTJxc0hlbUp6a2Y4LUhuTGY1eWNhLUlyS1lNdW9DNDRfMFJWbm0xVExmYUdhOG5NS0JmcC1uZlJ6eXY5Z3RZXzU4V0M2WDFtLWowcU5QSnhjaWdSSFJUWWI5bzlDa3duUFBhYy13a0NDaXNGUHE2b204N1J5U0Y1SHhHZjNlX2Y2eGVXR1dfeDZNcnJRWVVLYW1vRDU2MzlBUi1pd3Ewdnkx?oc=5",
           "publisher": "Le Temps",
-          "published_at": "Wed, 27 May 2026 14:43:00 GMT",
+          "published_at": "Wed, 27 May 2026 15:53:36 GMT",
           "similarity": 0.083
         }
       ],
-      "project_rank": 11
+      "project_rank": 13
     },
     {
       "id": "s05",
-      "title": "Mort de Pierre Deny : sa compagne, la comédienne Juliette Degenne, brise le silence",
-      "theme": "divertissement",
+      "title": "Evasion d’Amra : Le zemmouriste Jean Messiha accusé d’avoir encaissé une cagnotte destinée aux veuves des victimes",
+      "theme": "actualite",
       "global_score": 35,
       "global_tier": "medium",
       "global_signals": [
@@ -1137,15 +1341,209 @@
         {
           "source": "wiki",
           "label": "wiki",
+          "value": "1k vues"
+        },
+        {
+          "source": "x",
+          "label": "x",
+          "value": "#14"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "164+ react."
+        }
+      ],
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités · trending sur X · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/evasion-d-amra-le-zemmouriste-jean-messiha-accusé-d-avoir-encaissé-une-cagnotte-destinée-aux-veuves-des-victimes/ar-AA249Y3Y?ocid=00000000",
+      "msn_source_name": "20 Minutes",
+      "discover_category": "/Sensitive Subjects",
+      "discover_entities": [
+        "Jean Messiha"
+      ],
+      "affinity": {
+        "score": 61,
+        "match_count": 10,
+        "max_similarity": 0.742,
+        "avg_similarity": 0.718,
+        "total_clicks": 33886,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/faits-divers/je-cherche-mon-fils-lappel-a-laide-du-pere-de-clement-disparu-dans-lindifference-au-maroc-253087",
+            "title": null,
+            "clicks": 24364,
+            "similarity": 0.706
+          },
+          {
+            "url": "https://www.parismatch.com/People/une-ex-compagne-de-jean-imbert-porte-plainte-contre-lui-apres-lavoir-defendu-258119",
+            "title": null,
+            "clicks": 5535,
+            "similarity": 0.706
+          },
+          {
+            "url": "https://www.parismatch.com/actu/societe/affaire-dite-du-financement-libyen-les-5-temps-forts-de-laccusation-268915",
+            "title": null,
+            "clicks": 470,
+            "similarity": 0.742
+          }
+        ]
+      },
+      "project_score": 47,
+      "proposed_title": "Jean Messiha accusé d'avoir détourné les dons destinés aux veuves des victimes d'Amra",
+      "external_sources": [
+        {
+          "source": "discover",
+          "title": "Jean Messiha, membre de Reconquête !, accusé d’avoir encaissé une cagnotte destinée aux veuves des victimes de l’évasion de Mohamed Amra",
+          "url": "https://www.lemonde.fr/politique/article/2026/05/27/jean-messiha-membre-de-reconquete-accuse-d-avoir-encaisse-une-cagnotte-destinee-aux-veuves-des-victimes-de-l-evasion-de-mohamed-amra_6694185_823448.html",
+          "publisher": "Le Monde.fr",
+          "published_at": "2026-05-27 12:47:19",
+          "similarity": 0.714
+        },
+        {
+          "source": "discover",
+          "title": "Messiha a-t-il encaissé la cagnotte pour les familles des agents tués lors de l'évasion d'Amra ?",
+          "url": "https://www.20minutes.fr/societe/4225610-20260527-evasion-amra-zemmouriste-jean-messiha-accuse-avoir-encaisse-cagnotte-destinee-veuves-victimes",
+          "publisher": "20 Minutes",
+          "published_at": "2026-05-27 11:43:29",
+          "similarity": 0.333
+        },
+        {
+          "source": "gnews",
+          "title": "42 000 euros versés par erreur : la veuve d’un agent pénitentiaire tué lors de l’évasion de Mohamed Amra porte plainte contre Jean Messiha",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNclNfZXppOHlJc3JqY1c4SVE3cWNKMkVadVptaFZveGdfZ0lMRXJzSmI5Z3VaSzJKdUxDcjdnY1Z6N0t2QW0xQVNOZXhrSzM3cmMweDhFUnJOR1U0UTZKb3FZYnBjS0taSjlScmdueFVPcS1DSmJlWGkza0Z6c0twamRKcEo0clpzRFA2X2tKXzhIOVZIaWVxWUh4NFRsNkhZdEx2SjJDVThYV0lwR0s4NUVpNVlpNmZsVzJLRUpKM3pHUEFPOENlZVFEU05KX251VnVLUXVwVExCNkRuQ2RYbU9FY0VSTk9INDFBQ3RoMl95Uld3UlR1b0Vaemh6Qm0yVzRERmIxUlRkYXlkN2RjbDZpOTA?oc=5",
+          "publisher": "Charente Libre",
+          "published_at": "Wed, 27 May 2026 10:21:25 GMT",
+          "similarity": 0.174
+        }
+      ],
+      "project_rank": 14
+    },
+    {
+      "id": "s08",
+      "title": "« J’ai fauté » : Stéphane de Groodt évoque la fin de sa romance avec Odile d'Oultremont, la mère de ses deux filles",
+      "theme": "divertissement",
+      "global_score": 33,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "2 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "500"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "39k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "30+ react."
+        }
+      ],
+      "rationale": "Présent sur Google Trends · forte audience Wikipedia (38 785 vues/jour) · couvert par 2 médias.",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/j-ai-fauté-stéphane-de-groodt-évoque-la-fin-de-sa-romance-avec-odile-d-oultremont-la-mère-de-ses-deux-filles/ar-AA245oKB?ocid=00000000",
+      "msn_source_name": "Purepeople",
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Humoriste"
+      ],
+      "affinity": {
+        "score": 65,
+        "match_count": 10,
+        "max_similarity": 0.704,
+        "avg_similarity": 0.681,
+        "total_clicks": 158240,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/People/ca-je-ne-lai-pas-vu-venir-gilbert-montagne-sur-la-relation-entre-son-fils-et-la-fille-de-son-epouse-268203",
+            "title": null,
+            "clicks": 7667,
+            "similarity": 0.704
+          },
+          {
+            "url": "https://www.parismatch.com/People/essore-par-bfmtv-marc-olivier-fogiel-regrette-detre-passe-a-cote-de-ses-filles-265837",
+            "title": null,
+            "clicks": 32978,
+            "similarity": 0.688
+          },
+          {
+            "url": "https://www.parismatch.com/People/renaud-reconcilie-avec-son-fils-malone-je-me-desole-de-ne-pas-lavoir-vu-grandir-257502",
+            "title": null,
+            "clicks": 8501,
+            "similarity": 0.683
+          }
+        ]
+      },
+      "project_score": 47,
+      "proposed_title": "« J'ai fauté » : Stéphane de Groodt se confie sur la fin de son histoire avec Odile d'Oultremont",
+      "external_sources": [
+        {
+          "source": "discover",
+          "title": "Stéphane de Groodt à propos de sa séparation avec Odile d'Oultremont : \"j'ai merdé\"",
+          "url": "https://www.cosmopolitan.fr/stephane-de-groodt-qui-est-son-ancienne-compagne-odile-d-oultremont,2160817.asp",
+          "publisher": "Cosmopolitan.fr",
+          "published_at": "2026-05-27 08:31:29",
+          "similarity": 0.286
+        },
+        {
+          "source": "gnews",
+          "title": "« Une situation horrifiante » : une mère tue ses deux enfants après avoir vu son mari avec une autre femme",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZWdId3NHbG5VbC00TGNybWZfWmlRUkdMQkhmUDctZmhOMXRFOEV6d1FaWXdKZWwzMHllVE1aaHFIUThkNXh6VTFfeUxVRTlaT0pNb0JNQ0NxSGtmMGpVX2tITk81MXY1eFlNaEZ1b0RTMVIzUVRnRV9hd1dfNlBzNFduWVYyOExka2FlZzZKNVo2MnJNS0h2VUU2cEZkbnNOc0VObTZ1TzJYVVRMMENpMWI2bElXX3FtSEJ0NjF3cDR0cngxakx3UTFWelM0SzhJSmRxTzhkZ3pYRDdhcF9ZU1J4SGFQSE5q?oc=5",
+          "publisher": "parismatch.com",
+          "published_at": "Tue, 26 May 2026 13:22:55 GMT",
+          "similarity": 0.1
+        },
+        {
+          "source": "gnews",
+          "title": "Fin mai 2026 : ces deux signes du zodiaque sortent grands gagnants d'une semaine que personne n'avait vue venir",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdmtLVm5hUXNPR3lHQThRZVc0cFlJR21zRmZaS1VaejA3OGJEZ0gwWDdYakJLLVlldUFBZV9LaWpUUWE1b2Vwd29OLW14dU55dkhsclpsb2F1UnY0UlJWa2JFWTZSYmFKNGpvTXlPQWttSmR5ZWxVZm01dHR0M3hrbExJdUtVTWVEVG9XUjJoV2ZoN2c?oc=5",
+          "publisher": "Le Tribunal du Net",
+          "published_at": "Tue, 26 May 2026 18:01:00 GMT",
+          "similarity": 0.091
+        }
+      ],
+      "project_rank": 15
+    },
+    {
+      "id": "s04",
+      "title": "Mort de Pierre Deny : sa compagne, la comédienne Juliette Degenne, brise le silence",
+      "theme": "divertissement",
+      "global_score": 35,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
           "value": "103k vues"
         },
         {
           "source": "news",
           "label": "msn",
-          "value": "62+ react."
+          "value": "78+ react."
         }
       ],
-      "rationale": "Présent sur Google Trends · forte audience Wikipedia (103 484 vues/jour) · repris sur Google Actualités.",
+      "rationale": "Forte audience Wikipedia (103 063 vues/jour) · repris sur Google Actualités · engagement MSN élevé.",
       "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/mort-de-pierre-deny-sa-compagne-la-comédienne-juliette-degenne-brise-le-silence/ar-AA248LmP?ocid=00000000",
       "msn_source_name": "Voici",
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
@@ -1180,7 +1578,7 @@
         ]
       },
       "project_score": 46,
-      "proposed_title": "Juliette Degenne brise le silence après la mort de Pierre Deny : « Je dois continuer »",
+      "proposed_title": "Juliette Degenne brise le silence : « Pierre Deny restera à jamais dans mon cœur »",
       "external_sources": [
         {
           "source": "gnews",
@@ -1199,335 +1597,13 @@
           "similarity": 0.067
         }
       ],
-      "project_rank": 12
-    },
-    {
-      "id": "s06",
-      "title": "Evasion d’Amra : Le zemmouriste Jean Messiha accusé d’avoir encaissé une cagnotte destinée aux veuves des victimes",
-      "theme": "actualite",
-      "global_score": 33,
-      "global_tier": "medium",
-      "global_signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "200"
-        },
-        {
-          "source": "x",
-          "label": "x",
-          "value": "#10"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "156+ react."
-        }
-      ],
-      "rationale": "Présent sur Google Trends · repris sur Google Actualités · trending sur X · engagement MSN élevé.",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/evasion-d-amra-le-zemmouriste-jean-messiha-accusé-d-avoir-encaissé-une-cagnotte-destinée-aux-veuves-des-victimes/ar-AA249Y3Y?ocid=00000000",
-      "msn_source_name": "20 Minutes",
-      "discover_category": "/Sensitive Subjects",
-      "discover_entities": [
-        "Jean Messiha"
-      ],
-      "affinity": {
-        "score": 61,
-        "match_count": 10,
-        "max_similarity": 0.743,
-        "avg_similarity": 0.719,
-        "total_clicks": 33886,
-        "top_matches": [
-          {
-            "url": "https://www.parismatch.com/actu/faits-divers/je-cherche-mon-fils-lappel-a-laide-du-pere-de-clement-disparu-dans-lindifference-au-maroc-253087",
-            "title": null,
-            "clicks": 24364,
-            "similarity": 0.707
-          },
-          {
-            "url": "https://www.parismatch.com/People/une-ex-compagne-de-jean-imbert-porte-plainte-contre-lui-apres-lavoir-defendu-258119",
-            "title": null,
-            "clicks": 5535,
-            "similarity": 0.706
-          },
-          {
-            "url": "https://www.parismatch.com/actu/societe/affaire-dite-du-financement-libyen-les-5-temps-forts-de-laccusation-268915",
-            "title": null,
-            "clicks": 470,
-            "similarity": 0.743
-          }
-        ]
-      },
-      "project_score": 46,
-      "proposed_title": "Jean Messiha accusé d'avoir détourné l'argent des veuves : le scandale qui secoue l'entourage de Zemmour",
-      "external_sources": [
-        {
-          "source": "discover",
-          "title": "Jean Messiha, membre de Reconquête !, accusé d’avoir encaissé une cagnotte destinée aux veuves des victimes de l’évasion de Mohamed Amra",
-          "url": "https://www.lemonde.fr/politique/article/2026/05/27/jean-messiha-membre-de-reconquete-accuse-d-avoir-encaisse-une-cagnotte-destinee-aux-veuves-des-victimes-de-l-evasion-de-mohamed-amra_6694185_823448.html",
-          "publisher": "Le Monde.fr",
-          "published_at": "2026-05-27 12:47:19",
-          "similarity": 0.714
-        },
-        {
-          "source": "discover",
-          "title": "Messiha a-t-il encaissé la cagnotte pour les familles des agents tués lors de l'évasion d'Amra ?",
-          "url": "https://www.20minutes.fr/societe/4225610-20260527-evasion-amra-zemmouriste-jean-messiha-accuse-avoir-encaisse-cagnotte-destinee-veuves-victimes",
-          "publisher": "20 Minutes",
-          "published_at": "2026-05-27 11:43:29",
-          "similarity": 0.333
-        },
-        {
-          "source": "gnews",
-          "title": "42 000 euros versés par erreur : la veuve d’un agent pénitentiaire tué lors de l’évasion de Mohamed Amra porte plainte contre Jean Messiha",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNclNfZXppOHlJc3JqY1c4SVE3cWNKMkVadVptaFZveGdfZ0lMRXJzSmI5Z3VaSzJKdUxDcjdnY1Z6N0t2QW0xQVNOZXhrSzM3cmMweDhFUnJOR1U0UTZKb3FZYnBjS0taSjlScmdueFVPcS1DSmJlWGkza0Z6c0twamRKcEo0clpzRFA2X2tKXzhIOVZIaWVxWUh4NFRsNkhZdEx2SjJDVThYV0lwR0s4NUVpNVlpNmZsVzJLRUpKM3pHUEFPOENlZVFEU05KX251VnVLUXVwVExCNkRuQ2RYbU9FY0VSTk9INDFBQ3RoMl95Uld3UlR1b0Vaemh6Qm0yVzRERmIxUlRkYXlkN2RjbDZpOTA?oc=5",
-          "publisher": "Charente Libre",
-          "published_at": "Wed, 27 May 2026 10:21:25 GMT",
-          "similarity": 0.174
-        }
-      ],
-      "project_rank": 13
-    },
-    {
-      "id": "s08",
-      "title": "« J'ai envoyé un peu loin le bouchon » : Jean Gabin pensait faire une blague sur ce film, mais il n’avait pas du tout mesuré les conséquences",
-      "theme": "divertissement",
-      "global_score": 30,
-      "global_tier": "medium",
-      "global_signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "17/65"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "106+ react."
-        }
-      ],
-      "rationale": "Présent sur Google Discover · engagement MSN élevé.",
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/j-ai-envoyé-un-peu-loin-le-bouchon-jean-gabin-pensait-faire-une-blague-sur-ce-film-mais-il-n-avait-pas-du-tout-mesuré-les-conséquences/ar-AA23WY1b?ocid=00000000",
-      "msn_source_name": "AlloCiné",
-      "discover_category": "/Reference/Geographic Reference/Maps",
-      "discover_entities": [
-        "Empire romain",
-        "Rome antique",
-        "Voie romaine"
-      ],
-      "affinity": {
-        "score": 66,
-        "match_count": 10,
-        "max_similarity": 0.697,
-        "avg_similarity": 0.679,
-        "total_clicks": 214878,
-        "top_matches": [
-          {
-            "url": "https://www.parismatch.com/actu/politique/elle-pensait-se-marier-avec-un-haut-fonctionnaire-elle-est-tombee-sur-un-vagabond-cotta-nay-duhamel-politiquement-votre-265892",
-            "title": null,
-            "clicks": 14092,
-            "similarity": 0.681
-          },
-          {
-            "url": "https://www.parismatch.com/culture/cinema/steven-spielberg-jetais-en-admiration-devant-nathalie-baye-dans-la-nuit-americaine-267747",
-            "title": null,
-            "clicks": 58782,
-            "similarity": 0.679
-          },
-          {
-            "url": "https://www.parismatch.com/culture/musique/mariage-avec-mireille-darc-ses-enfants-sa-carriere-pourquoi-il-faut-absolument-voir-le-film-sur-michel-sardou-259739",
-            "title": null,
-            "clicks": 109649,
-            "similarity": 0.673
-          }
-        ]
-      },
-      "project_score": 46,
-      "proposed_title": "« J'ai envoyé un peu loin le bouchon » : la blague de Jean Gabin qui a tout changé",
-      "external_sources": [
-        {
-          "source": "discover",
-          "title": "300 000 km de voies antiques : une nouvelle carte montre que l'Empire romain avait un réseau routier deux fois plus grand qu'on ne le pensait",
-          "url": "https://www.science-et-vie.com/science-et-culture/300-000-km-de-voies-antiques-une-nouvelle-carte-montre-que-lempire-romain-avait-un-reseau-routier-deux-fois-plus-grand-quon-ne-le-pensait-241332.html",
-          "publisher": "Science et vie",
-          "published_at": "2026-05-27 07:29:32",
-          "similarity": 0.077
-        }
-      ],
-      "project_rank": 14
-    },
-    {
-      "id": "s13",
-      "title": "Guerre Ukraine : une Ukrainienne qui cachait un soldat russe et lui donnait des informations cruciales arrêtée pour trahison",
-      "theme": "actualite",
-      "global_score": 27,
-      "global_tier": "low",
-      "global_signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "4 médias"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "213+ react."
-        }
-      ],
-      "rationale": "Couvert par 4 médias · engagement MSN élevé.",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/guerre-ukraine-une-ukrainienne-qui-cachait-un-soldat-russe-et-lui-donnait-des-informations-cruciales-arrêtée-pour-trahison/ar-AA24793W?ocid=00000000",
-      "msn_source_name": "Le Parisien",
-      "discover_category": "/Sensitive Subjects",
-      "discover_entities": [
-        "Diplomatie",
-        "Kiev"
-      ],
-      "affinity": {
-        "score": 69,
-        "match_count": 10,
-        "max_similarity": 0.822,
-        "avg_similarity": 0.801,
-        "total_clicks": 139503,
-        "top_matches": [
-          {
-            "url": "https://www.parismatch.com/actu/international/guerre-en-ukraine-comment-les-services-secrets-russes-recrutent-des-agents-ukrainiens-252362",
-            "title": null,
-            "clicks": 13284,
-            "similarity": 0.82
-          },
-          {
-            "url": "https://www.parismatch.com/actu/international/guerre-en-ukraine-face-a-la-penurie-de-soldats-une-brigade-veut-recruter-massivement-des-femmes-253379",
-            "title": null,
-            "clicks": 9189,
-            "similarity": 0.813
-          },
-          {
-            "url": "https://www.parismatch.com/actu/international/les-effets-de-la-torture-deux-soldats-ukrainiens-meurent-en-quelques-jours-apres-leur-liberation-253120",
-            "title": null,
-            "clicks": 110515,
-            "similarity": 0.808
-          }
-        ]
-      },
-      "project_score": 46,
-      "proposed_title": "Guerre en Ukraine : arrêtée pour trahison, elle cachait un soldat russe",
-      "external_sources": [
-        {
-          "source": "gnews",
-          "title": "EN DIRECT, guerre en Ukraine : les dernières informations",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSDEyUnRmaVVLQzNjR19MR0FVMWhmVDZtQjVycnVJX055V0FkOGpwVWxPZHc5aGRDcmVCX1pxSlFQZUdyZEM5dVB4VS1LMnJIQ2V3NFZ4WVFVNi1SRU9mT1dmZlJUNkVrdUxHd3pjYUV6aDQ1dWxxNU1tQ0VYcWo0RUxYVzh6SzRVWlFWaDAtSVJlTHBVV3hGc2xVcVkzWDEteEl6cEpxcnktVF9vYldUb05LU2VhT1U3cjNVZjJKWlY4RkE?oc=5",
-          "publisher": "Le Monde.fr",
-          "published_at": "Wed, 27 May 2026 12:32:56 GMT",
-          "similarity": 0.25
-        },
-        {
-          "source": "gnews",
-          "title": "EN DIRECT - Guerre en Ukraine: la France convoque l'ambassadeur russe après les menaces de Moscou contre Kiev",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRktKNlFhZ001OEl1SXFjZEh4QndoWG9YcGVBaGdWTURpYmZRbUpReWZnS3RUcjVtN1lwcnhRaE95TURIY3ZMcVNDU1FpU3lVb2l1Rk1Lbnk2dTR1S2dJTm1BM0hUcGR3UXYzMXFlZjNlWHpQSWp5OGJteTAtN2JiSUtFUnhOODNuVHhBUHpiR182SVRQMm5va1BSWm5iektTYkhvemhjVVNJWUJvMWxNV2RmSnZSUmc5a3Y0SVVNYm03RVdWdHhWSEtNWmlkOERidkFWMGUybDdHUG5ONDQzVC1PSk5NSC1GRWc?oc=5",
-          "publisher": "RFI",
-          "published_at": "Wed, 27 May 2026 07:20:42 GMT",
-          "similarity": 0.158
-        },
-        {
-          "source": "gnews",
-          "title": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky affirme devant des députés que le conflit devrait se poursuivre au moins jusqu’en novembre",
-          "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQUGwyd1AzS013Ri1YSk9rbGlTR1MweTA5ZkRseFpQbGZHVFNpMHJCc3FUUHJhYXY0SlNmbXNRRGJyOFZ4ZTNzZ2xVc1g3ak1hU1RkOExPU1RNRnR3M1hvZXBhUENoZk1uNk53bWNPdzlJaTFTWHpiM0NET0xKZi16RjhUdEdLNFRhUWNJX0hfUVc4eExNM3lsUGhGaEJTNXFGaWd1bE1BNmRGb3IwcXZnb2IycEo4cVRzYXVzUi02S2tIZUNxUUY4c0hTbWRibXM2V3FXcXpGS3d2RGxxcHRHc0tSWGVSZk5vQl9ObkptQURkMFZHQTRfS2d4WFlSZU51cmozazNKeDZCZ1pScVJheFVRYW1HRlpvN0w3YW5LeTh2VEpjNDhrRm9tdVhjUkVa?oc=5",
-          "publisher": "Le Monde.fr",
-          "published_at": "Wed, 27 May 2026 14:29:23 GMT",
-          "similarity": 0.095
-        }
-      ],
-      "project_rank": 15
-    },
-    {
-      "id": "s10",
-      "title": "« Ce n’est pas un luxe, c’est vital » : voici le budget que les retraités doivent toucher pour vivre dignement en France en mai 2026",
-      "theme": "lifestyle",
-      "global_score": 29,
-      "global_tier": "low",
-      "global_signals": [
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "10k"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "1693+ react."
-        }
-      ],
-      "rationale": "Présent sur Google Trends · repris sur Google Actualités · engagement MSN élevé.",
-      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/ce-n-est-pas-un-luxe-c-est-vital-voici-le-budget-que-les-retraités-doivent-toucher-pour-vivre-dignement-en-france-en-mai-2026/ar-AA1S4370?ocid=00000000",
-      "msn_source_name": "Marie France",
-      "discover_category": null,
-      "discover_entities": [],
-      "affinity": {
-        "score": 64,
-        "match_count": 10,
-        "max_similarity": 0.814,
-        "avg_similarity": 0.779,
-        "total_clicks": 31714,
-        "top_matches": [
-          {
-            "url": "https://www.parismatch.com/actu/economie/il-ny-a-jamais-eu-de-meilleur-moment-en-amerique-pour-etre-vieux-comment-les-seniors-possedent-leconomie-264915",
-            "title": null,
-            "clicks": 28234,
-            "similarity": 0.757
-          },
-          {
-            "url": "https://www.parismatch.com/actu/economie/le-vieillissement-ineluctable-de-la-population-va-bientot-nous-couter-tres-cher-que-faut-il-attendre-de-2026-262771",
-            "title": null,
-            "clicks": 5,
-            "similarity": 0.814
-          },
-          {
-            "url": "https://www.parismatch.com/actu/economie/suspension-de-la-reforme-des-retraites-le-gouvernement-fait-payer-la-pause-aux-retraites-et-aux-mutuelles-259031",
-            "title": null,
-            "clicks": 35,
-            "similarity": 0.803
-          }
-        ]
-      },
-      "project_score": 45,
-      "proposed_title": "« Ce n'est pas un luxe, c'est vital » : le budget secret des retraités pour vivre dignement",
-      "external_sources": [
-        {
-          "source": "gnews",
-          "title": "Pas d’erreur, cet iPhone 17 tombe au meilleur prix chez E.Leclerc ce mercredi 27 mai - Ouest-France",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNNFlQamdMMk00SnlXQWY3anp0eHIycXJNejhCRkZ4UkdjZE9YTWczbVNQRDdDdWxEeDJMNXdzb0N3Y1FZR1hYNjRrc3RKNzk4SlpBOGFnWFg4UFctdVFBa3AtVjlLTXlmMWREdGd2Z2YzQW1KbDNBVlRGQWUwZE96UDVnZkl6cWx0LXN5VEtyZ0pCOXJKTlYzSGVqV1F6OU91ZnNBbUk0cXVYZDJLUFlyaDlnR1hkaUdEOFlnQ3FVd0JGczFOcEw5Q0lTMzFkbkwwT184NE90TldQSkJxUW1KQnRLTlZQRjRrbmVSMU1ZVkZOWlVJekFKZjBNZ2pac2Y5b1AtYg?oc=5",
-          "publisher": "Ouest-France",
-          "published_at": "Tue, 26 May 2026 20:04:00 GMT",
-          "similarity": 0.118
-        }
-      ],
       "project_rank": 16
     },
     {
       "id": "s09",
-      "title": "Flavie Flament frappée par une autre annonce au moment où son nom revient au premier plan avec la polémique Bruel",
-      "theme": "divertissement",
-      "global_score": 30,
+      "title": "Il devait recevoir des milliards de dollars : le Conseil de paix de Donald Trump tourne au fiasco",
+      "theme": "actualite",
+      "global_score": 31,
       "global_tier": "medium",
       "global_signals": [
         {
@@ -1538,99 +1614,7 @@
         {
           "source": "news",
           "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "7k vues"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "80+ react."
-        }
-      ],
-      "rationale": "Présent dans le top Wikipedia · couvert par 2 médias · engagement MSN élevé.",
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/tv/flavie-flament-frappée-par-une-autre-annonce-au-moment-où-son-nom-revient-au-premier-plan-avec-la-polémique-bruel/ar-AA2483p5?ocid=00000000",
-      "msn_source_name": "So Busy Girls",
-      "discover_category": "/News/Business News/Company News",
-      "discover_entities": [
-        "La Redoute"
-      ],
-      "affinity": {
-        "score": 62,
-        "match_count": 10,
-        "max_similarity": 0.763,
-        "avg_similarity": 0.699,
-        "total_clicks": 37837,
-        "top_matches": [
-          {
-            "url": "https://www.parismatch.com/People/flavie-flament-explique-son-depart-de-telematin-cetait-peut-etre-un-peu-trop-254056",
-            "title": null,
-            "clicks": 18453,
-            "similarity": 0.748
-          },
-          {
-            "url": "https://www.parismatch.com/People/je-lai-vu-valerie-begue-temoigne-en-faveur-de-flavie-flament-et-accuse-patrick-bruel-269277",
-            "title": null,
-            "clicks": 7544,
-            "similarity": 0.686
-          },
-          {
-            "url": "https://www.parismatch.com/People/miss-france-pour-hinaupoko-deveze-la-destitution-de-son-amie-miss-provence-a-servi-de-lecon-263938",
-            "title": null,
-            "clicks": 10575,
-            "similarity": 0.662
-          }
-        ]
-      },
-      "project_score": 44,
-      "proposed_title": "Flavie Flament : « Le cauchemar continue » — Nouveau coup dur pour l'actrice en pleine tourmente",
-      "external_sources": [
-        {
-          "source": "discover",
-          "title": "La Redoute annonce un plan de transformation : 171 postes menacés, dont 138 en France",
-          "url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/roubaix/la-redoute-annonce-un-plan-de-transformation-171-postes-menaces-dont-138-en-france-3357601.html",
-          "publisher": "France 3 Régions",
-          "published_at": "2026-05-27 14:30:56",
-          "similarity": 0.118
-        },
-        {
-          "source": "gnews",
-          "title": "\"Ce n'était pas son mari…\" : les révélations de Cyril Hanouna sur Flavie Flament qui ont fait bondir Benjamin Castaldi",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORE9RWmJEUEFEVDJIT044dDVqNkpDQnZ5UTdXRV94bEJfQkItTkFLUEFoZnI1RjBqNlZsMktYd0VXLVFhbzBMb2hzTThLNnVtRjlaMDYxMDBDeXlsYWxKQW12aUZpUmlYTDktSGozNWdnc2VXWDRKR0xuX3Iwc3RGNHJUY2JNT200c0FqSmhGTmI1Mi12X0E2T2RuSlF2ZnY3SnhXVUFaa3FqRGN4bUg1cnRkNXM5Xy1BVlVYN2J5b0dnelFjRk5sOGIzVzlXSWFxUmFNMWZIdE5RNFhBaVAxczJtOA?oc=5",
-          "publisher": "NextPlz",
-          "published_at": "Tue, 26 May 2026 15:30:00 GMT",
-          "similarity": 0.1
-        },
-        {
-          "source": "gnews",
-          "title": "«Je vais prendre le nom de famille d’Antonin» : Laury et Antonin («Mariés au premier regard») se confient sur leur couple",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOaWEwREV4NVliTWRUeElrbjJmLWg2dURKMF9hSW5hZEZRck9WNWVLcVBTeFZvWEJ4N28xNTBzVUtCVXVpR0lUZTZwVVlDRWQzQnZJSzFiRTRsWUJxZjFDSVRRc3NZODVJNFV6OV9iVjE4dDg0a1VsTC0zR0VFYXhYOXdRLVpWbGRrdDV0ZXF1VG5jRjBmZzVnY2h2MlkwdDZZZ09OekJfUFdBZjlBU3NsRWpkeURoV19SVWp2NUtDVnFjdU9mbEtiZ2tEZDZtbTZITWtRNkVRQk8tbk5MSml3ZFdjYW1TS00xeGYwdjF4ai1pVWlteGJ5cGhTNXZudEVkM0RHTw?oc=5",
-          "publisher": "TV Magazine",
-          "published_at": "Tue, 26 May 2026 12:15:00 GMT",
-          "similarity": 0.095
-        }
-      ],
-      "project_rank": 17
-    },
-    {
-      "id": "s15",
-      "title": "Il devait recevoir des milliards de dollars : le Conseil de paix de Donald Trump tourne au fiasco",
-      "theme": "actualite",
-      "global_score": 27,
-      "global_tier": "low",
-      "global_signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "4 médias"
+          "value": "6 médias"
         },
         {
           "source": "wiki",
@@ -1640,10 +1624,10 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "63+ react."
+          "value": "80+ react."
         }
       ],
-      "rationale": "Présent dans le top Wikipedia · couvert par 4 médias · engagement MSN élevé.",
+      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (6 médias) · engagement MSN élevé.",
       "msn_url": "https://www.msn.com/fr-fr/actualite/monde/il-devait-recevoir-des-milliards-de-dollars-le-conseil-de-paix-de-donald-trump-tourne-au-fiasco/ar-AA24azgg?ocid=00000000",
       "msn_source_name": "Actu",
       "discover_category": "/Sensitive Subjects",
@@ -1679,15 +1663,15 @@
           }
         ]
       },
-      "project_score": 44,
-      "proposed_title": "Le grand rêve de paix de Trump s'effondre : des milliards évaporés",
+      "project_score": 46,
+      "proposed_title": "« Les milliards qui n'ont jamais existé » : le grand débâcle du Conseil de paix de Trump",
       "external_sources": [
         {
-          "source": "discover",
+          "source": "gnews",
           "title": "Guerre à Gaza : le « Conseil de la paix », imaginé par Donald Trump, n’a pas reçu le moindre financement depuis sa création",
-          "url": "https://www.parismatch.com/actu/international/guerre-a-gaza-le-conseil-de-la-paix-imagine-par-donald-trump-na-pas-recu-le-moindre-financement-depuis-sa-creation-269748",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQb21XcXBrVVpqUjFLOWk1YnZ1eEV0NXBEUTRmVXp1TEh3WEN1R2JjY1RiWTdhcXM0MjRxTEk0X2dBTjRqS29NUXBNQ1JSbzljRWItYkVKWm9PSWw2MHhaa1RmZHN5UkpyaWZES1lHcHZUaUk5c3VKdTdhZkhHMWU5WDY1eGEtMnFhTWFuejViZXZBTTRhMmU5TjFYTnJzd2Nfd3A4TEhOQ1VGZFpoSktDSkdVcXhLZFJrVWI5QkJvM3kwTllOdUE4Ry1ZLW1UT0VfQUlJb29XREVCd3E4OWhwdmZ3b2xoYTBFUUxBWllXZkR1WW8xWWhGYnZ2aw?oc=5",
           "publisher": "parismatch.com",
-          "published_at": "2026-05-27 16:35:30",
+          "published_at": "Wed, 27 May 2026 11:28:12 GMT",
           "similarity": 0.222
         },
         {
@@ -1700,20 +1684,20 @@
         },
         {
           "source": "gnews",
-          "title": "« L’insuccès de Donald Trump en Iran transforme Cuba en trophée de substitution, un prix de consolation dont on ignore le coût »",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNcC1ocS1yRTBid1AwYUlzd0M5Ti1hbnBTOHJ5eDlqRGkwWTNDb2d0SmdZWHJOc3JlaVJiOHdtdXZYcDVoMGZRQmlVaU5DZzFBVGNOU0pfc2JLcm5VTFNnNV9kYlhFcnAxNXoxVWNCbVdCQlF6a05tUWlUQm1odUptMThhTC1aV3dtcDVzbC0xeUM3dGJnc09NTGk3MFV2SFhZSEdzclBERHgzNklSVmNUR0djVDZ3Mkd5ckJOaUc0dF9ONTVmLVloS3AzOGxYUnRPcnpubHdHYTNib2NXVENfMDhfdUVWZ05xQXVZTTl2ZFZadkktbi1udlg2OG8wUThxbGJOUm5MbVVkRWZ0TzJVekcta3pUdEZi?oc=5",
-          "publisher": "Le Monde.fr",
-          "published_at": "Wed, 27 May 2026 03:00:17 GMT",
-          "similarity": 0.1
+          "title": "Un mariage aux Bahamas sans son père : l’énième humiliation de Donald Trump à son fils Don Jr.",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOalN4SldnV0p3N0F2OGd4R2VRd05vMzZvbkpOMHRJRWVsYlBtWTlqWG1tZ0FzNjdSNmQzWWRwV1NlTVNSMVFqdTNRZExlMVVQUmYzZkVkVUF5bThZa3NGQ1Ntck5KRktDb0t2QjJROG5rbGdUZmNXSElSVzFBUU52S2xadmZ5WFR1dFVSX1Q2RF9VOTRUYkxNV1ZQdU5oTEhWRkMtTzBvckxoRENpWlY3a0t1VnpXN3RkcEZOaWkxOC0wV3lrY05FY25CN2h6VmJtTDRDX1hnMA?oc=5",
+          "publisher": "Madame Figaro",
+          "published_at": "Wed, 27 May 2026 13:17:20 GMT",
+          "similarity": 0.111
         }
       ],
-      "project_rank": 18
+      "project_rank": 17
     },
     {
-      "id": "s20",
+      "id": "s15",
       "title": "Emmanuel Macron aurait déjà son favori pour 2027 et ce nom en dit long sur l’après-Élysée",
       "theme": "actualite",
-      "global_score": 23,
+      "global_score": 26,
       "global_tier": "low",
       "global_signals": [
         {
@@ -1724,7 +1708,7 @@
         {
           "source": "news",
           "label": "gnews",
-          "value": "1 média"
+          "value": "2 médias"
         },
         {
           "source": "wiki",
@@ -1734,10 +1718,10 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "153+ react."
+          "value": "159+ react."
         }
       ],
-      "rationale": "Présent dans le top Wikipedia · repris sur Google Actualités · engagement MSN élevé.",
+      "rationale": "Présent dans le top Wikipedia · couvert par 2 médias · engagement MSN élevé.",
       "msn_url": "https://www.msn.com/fr-fr/actualite/elections/emmanuel-macron-aurait-déjà-son-favori-pour-2027-et-ce-nom-en-dit-long-sur-l-après-élysée/ar-AA247cUr?ocid=00000000",
       "msn_source_name": "So Busy Girls",
       "discover_category": "/News",
@@ -1747,21 +1731,21 @@
       "affinity": {
         "score": 69,
         "match_count": 10,
-        "max_similarity": 0.784,
-        "avg_similarity": 0.736,
+        "max_similarity": 0.782,
+        "avg_similarity": 0.735,
         "total_clicks": 209724,
         "top_matches": [
           {
             "url": "https://www.parismatch.com/actu/politique/presidentielle-2027-lhypothese-michel-edouard-leclerc-nouvelle-personnalite-preferee-des-francais-264274",
             "title": null,
             "clicks": 45844,
-            "similarity": 0.784
+            "similarity": 0.782
           },
           {
             "url": "https://www.parismatch.com/actu/politique/il-y-a-des-retours-surprenants-parfois-francois-hollande-et-julie-gayet-un-couple-en-embuscade-pour-2027-252951",
             "title": null,
             "clicks": 150911,
-            "similarity": 0.727
+            "similarity": 0.725
           },
           {
             "url": "https://www.parismatch.com/actu/politique/ce-qui-est-le-plus-dur-apres-neuf-ans-emmanuel-macron-revele-ses-projets-pour-lapres-elysee-268097",
@@ -1771,8 +1755,8 @@
           }
         ]
       },
-      "project_score": 44,
-      "proposed_title": "Macron a déjà choisi son héritier : le nom qui agite l'Élysée !",
+      "project_score": 45,
+      "proposed_title": "Macron a déjà choisi son successeur : le nom qui fait trembler l'Élysée!",
       "external_sources": [
         {
           "source": "discover",
@@ -1783,11 +1767,11 @@
           "similarity": 0.125
         },
         {
-          "source": "discover",
-          "title": "Paul Larrouturou écarté de la matinale de Franceinfo : la réaction du journaliste en dit long",
-          "url": "https://www.gala.fr/l_actu/news_de_stars/paul-larrouturou-ecarte-de-la-matinale-de-franceinfo-la-reaction-du-journaliste-en-dit-long-20260526",
-          "publisher": "Gala",
-          "published_at": "2026-05-27 13:44:49",
+          "source": "gnews",
+          "title": "Annonces d’Emmanuel Macron sur la voiture électrique : vraies mesures ou poudre aux yeux",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd3Y5WkpRSHNLNm1IUnR1NEtOaXNBa1VoTy16dGxEbEk2Qk9vdlgzZG1valJOa3d0azhjQkpNUno0MjVOd0pwalQyUndieEpfZmNPa2pUZENHSG91Vl93MHZSakFJYlViVXJmaE5pTlBxMWZjNWZFZV9kM2t4bm54MFBqNUVROWtJNnFzeVUtamV0dlhmbUhvLVEwckpVN0xXd010MnU5U3VtQmhpSzdPZUFtN1ZSVFBPaXQ0MVBTRXB0T0o2QnJDUg?oc=5",
+          "publisher": "Numerama",
+          "published_at": "Wed, 27 May 2026 10:02:42 GMT",
           "similarity": 0.118
         },
         {
@@ -1799,12 +1783,12 @@
           "similarity": 0.095
         }
       ],
-      "project_rank": 19
+      "project_rank": 18
     },
     {
-      "id": "s11",
-      "title": "Une canicule en cache une autre : une deuxième vague de chaleur menace la France pour début juin",
-      "theme": "actualite",
+      "id": "s12",
+      "title": "Flavie Flament frappée par une autre annonce au moment où son nom revient au premier plan avec la polémique Bruel",
+      "theme": "divertissement",
       "global_score": 29,
       "global_tier": "low",
       "global_signals": [
@@ -1816,83 +1800,88 @@
         {
           "source": "news",
           "label": "gnews",
-          "value": "8 médias"
+          "value": "2 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "5k vues"
         },
         {
           "source": "news",
           "label": "msn",
-          "value": "91+ react."
+          "value": "84+ react."
         }
       ],
-      "rationale": "Forte couverture médiatique (8 médias) · engagement MSN élevé.",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/une-canicule-en-cache-une-autre-une-deuxième-vague-de-chaleur-menace-la-france-pour-début-juin/ar-AA247dpU?ocid=00000000",
-      "msn_source_name": "Actu",
-      "discover_category": "/News/Weather",
+      "rationale": "Présent dans le top Wikipedia · couvert par 2 médias · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/tv/flavie-flament-frappée-par-une-autre-annonce-au-moment-où-son-nom-revient-au-premier-plan-avec-la-polémique-bruel/ar-AA2483p5?ocid=00000000",
+      "msn_source_name": "So Busy Girls",
+      "discover_category": "/News/Politics",
       "discover_entities": [
-        "Météo"
+        "Nicolas Sarkozy"
       ],
       "affinity": {
-        "score": 61,
+        "score": 62,
         "match_count": 10,
-        "max_similarity": 0.886,
-        "avg_similarity": 0.849,
-        "total_clicks": 6078,
+        "max_similarity": 0.763,
+        "avg_similarity": 0.699,
+        "total_clicks": 37837,
         "top_matches": [
           {
-            "url": "https://www.parismatch.com/Actu/Environnement/meteo-pourquoi-il-va-faire-tres-chaud-en-france-en-juillet-253476",
+            "url": "https://www.parismatch.com/People/flavie-flament-explique-son-depart-de-telematin-cetait-peut-etre-un-peu-trop-254056",
             "title": null,
-            "clicks": 5206,
-            "similarity": 0.857
+            "clicks": 18453,
+            "similarity": 0.748
           },
           {
-            "url": "https://www.parismatch.com/Actu/Environnement/meteo-une-premiere-canicule-des-cette-semaine-252509",
+            "url": "https://www.parismatch.com/People/je-lai-vu-valerie-begue-temoigne-en-faveur-de-flavie-flament-et-accuse-patrick-bruel-269277",
             "title": null,
-            "clicks": 336,
-            "similarity": 0.886
+            "clicks": 7544,
+            "similarity": 0.686
           },
           {
-            "url": "https://www.parismatch.com/Actu/Environnement/un-episode-de-chaleur-precoce-et-remarquable-la-canicule-deja-de-retour-dans-18-departements-paris-suffoque-269648",
+            "url": "https://www.parismatch.com/People/miss-france-pour-hinaupoko-deveze-la-destitution-de-son-amie-miss-provence-a-servi-de-lecon-263938",
             "title": null,
-            "clicks": 10,
-            "similarity": 0.873
+            "clicks": 10575,
+            "similarity": 0.662
           }
         ]
       },
-      "project_score": 43,
-      "proposed_title": "France : la canicule revient, plus forte et plus tôt que prévu !",
+      "project_score": 44,
+      "proposed_title": "Flavie Flament : nouveau coup dur alors que la polémique Bruel la rattrape",
       "external_sources": [
         {
           "source": "discover",
-          "title": "Vague de chaleur en France et dans les Pyrénées-Atlantiques : à quand un retour à la normale",
-          "url": "https://www.larepubliquedespyrenees.fr/environnement/meteo/vague-de-chaleur-en-france-et-dans-les-pyrenees-atlantiques-a-quand-un-retour-a-la-normale-29234091.php",
-          "publisher": "La République des Pyrénées",
-          "published_at": "2026-05-27 15:41:53",
-          "similarity": 0.214
-        },
-        {
-          "source": "discover",
-          "title": "Canicule dans les Hauts-de-France : la chaleur s’installe durablement toute la semaine",
-          "url": "https://www.radio6.fr/article-77044-canicule-dans-les-hauts-de-france-la-chaleur-s-installe-durablement-toute-la-semaine.html",
-          "publisher": "radio6.fr",
-          "published_at": "2026-05-27 11:30:25",
-          "similarity": 0.214
+          "title": "Ce moment qui a rendu le procès de Sarkozy en appel incomparable avec le premier",
+          "url": "https://www.huffingtonpost.fr/france/article/pourquoi-le-proces-en-appel-de-nicolas-sarkozy-a-ete-incomparable-avec-celui-en-premiere-instance_264126.html",
+          "publisher": "Le HuffPost",
+          "published_at": "2026-05-27 17:27:41",
+          "similarity": 0.118
         },
         {
           "source": "gnews",
-          "title": "Au cœur de la vague de chaleur, la France frappée par un épisode de pollution à l’ozone inédit par sa précocité",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPa25pRmsyd0YtUnY2X2d2enZKaU9sRnR5QUNrUFhTdDRwbjJfN25qV2Q3Y0gzZDh5RFZZV0lYZmE2NnZfWU1lTnprQThxUTlzSW5mMkJiRTJRZkJLWnEta1ZueWs2SlRoRDNON2xvY2UtakVmUkxFRjVwa0t5Q3dJc0liVkg5ZERyYlZuajJjOXBnYXh6M3I0cDI5SU42X3djbEt5WTNEaWxIRHE2dzQtdVo0VU5rSVc3ZHNZRGdfSXVwTTczUHZKU3RFT0xKUDhEMTdHbWoyTlZmOC1OMk9LRnBWMHdyOVFJdUk1Z2RVU0RBX1poTWtFdWo4ZTlaWVdFcGQxQ0JIaw?oc=5",
-          "publisher": "Le Monde.fr",
-          "published_at": "Wed, 27 May 2026 09:03:29 GMT",
-          "similarity": 0.176
+          "title": "\"Ce n'était pas son mari…\" : les révélations de Cyril Hanouna sur Flavie Flament qui ont fait bondir Benjamin Castaldi",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORE9RWmJEUEFEVDJIT044dDVqNkpDQnZ5UTdXRV94bEJfQkItTkFLUEFoZnI1RjBqNlZsMktYd0VXLVFhbzBMb2hzTThLNnVtRjlaMDYxMDBDeXlsYWxKQW12aUZpUmlYTDktSGozNWdnc2VXWDRKR0xuX3Iwc3RGNHJUY2JNT200c0FqSmhGTmI1Mi12X0E2T2RuSlF2ZnY3SnhXVUFaa3FqRGN4bUg1cnRkNXM5Xy1BVlVYN2J5b0dnelFjRk5sOGIzVzlXSWFxUmFNMWZIdE5RNFhBaVAxczJtOA?oc=5",
+          "publisher": "NextPlz",
+          "published_at": "Tue, 26 May 2026 15:30:00 GMT",
+          "similarity": 0.1
+        },
+        {
+          "source": "gnews",
+          "title": "«Je vais prendre le nom de famille d’Antonin» : Laury et Antonin («Mariés au premier regard») se confient sur leur couple",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOaWEwREV4NVliTWRUeElrbjJmLWg2dURKMF9hSW5hZEZRck9WNWVLcVBTeFZvWEJ4N28xNTBzVUtCVXVpR0lUZTZwVVlDRWQzQnZJSzFiRTRsWUJxZjFDSVRRc3NZODVJNFV6OV9iVjE4dDg0a1VsTC0zR0VFYXhYOXdRLVpWbGRrdDV0ZXF1VG5jRjBmZzVnY2h2MlkwdDZZZ09OekJfUFdBZjlBU3NsRWpkeURoV19SVWp2NUtDVnFjdU9mbEtiZ2tEZDZtbTZITWtRNkVRQk8tbk5MSml3ZFdjYW1TS00xeGYwdjF4ai1pVWlteGJ5cGhTNXZudEVkM0RHTw?oc=5",
+          "publisher": "TV Magazine",
+          "published_at": "Tue, 26 May 2026 12:15:00 GMT",
+          "similarity": 0.095
         }
       ],
-      "project_rank": 20
+      "project_rank": 19
     },
     {
-      "id": "s16",
+      "id": "s17",
       "title": "PSG-Arsenal : attention, la finale de la Ligue des champions ne sera pas diffusée à l'heure que vous imaginez",
       "theme": "sport",
-      "global_score": 26,
+      "global_score": 25,
       "global_tier": "low",
       "global_signals": [
         {
@@ -1913,7 +1902,7 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "141+ react."
+          "value": "150+ react."
         }
       ],
       "rationale": "Présent dans le top Wikipedia · couvert par 2 médias · engagement MSN élevé.",
@@ -1953,7 +1942,7 @@
         ]
       },
       "project_score": 42,
-      "proposed_title": "PSG-Arsenal : le coup de théâtre qui chamboule la finale de la Ligue des champions !",
+      "proposed_title": "PSG-Arsenal : le coup de théâtre qui chamboulera votre soirée!",
       "external_sources": [
         {
           "source": "discover",
@@ -1965,11 +1954,11 @@
         },
         {
           "source": "gnews",
-          "title": "PSG ou Arsenal. Qui gagnera la Ligue des champions selon Opta ?",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLWRoeld1eDd5Q1Y1MWJJQ1Y0UFFkN1gyRVRCVW9YM3g5QmhIdHRDNGtJdENuSUZTQmszWUNrRmx6TGxnbVdVSEI4LTRyZ0s4ZGZOelFpejhxaEZxS3JzVE1TcExPQ3NTUElJemtoMF9LM0NWOU0tY1dfbEdSUG45S21zbnhJTFd3Y0xYMkJCRjVjT0hpWGduWUl6cHZVVXhLQ2hN?oc=5",
-          "publisher": "Sportune",
-          "published_at": "Wed, 27 May 2026 10:10:00 GMT",
-          "similarity": 0.308
+          "title": "Le PSG choisit Presnel Kimpembe comme ambassadeur pour apporter le trophée de la Ligue des champions avant la finale contre Arsenal",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOSEpWOVB0NXBRU2EwQzl6ZzJfWFkza2kyNFFFcUVNQ1JNUEE4V0Q2cDFWdzFGazBnWG1VeFVCbGx6Z2ZCOWZ1QnRZbW5oa2h0MXlMNkxaeFBkRHcxUmVYSnRFakdXLUNCdDJaQXpCN0pSNGF5WklXbU9QYk1VQkpEVE1DbGNhUFE4WjhRTHl1QmlYNFg4NGx2bjhHX1VmS1dtRDFfS09oMkdJaGhDM1NNUVZHQWw4TmhPS0o5cDRMQTdfM0dBWlRRR2pHUkRCRVhfWTRFeUktVXhobWRYOVJfLUV6OU5OMHhNZnJzblpQTXVsdXE2VFY0UWt4Sks2Yl8zbmZ4QjgwN0MxeG80bnFV?oc=5",
+          "publisher": "L'Équipe",
+          "published_at": "Wed, 27 May 2026 14:16:21 GMT",
+          "similarity": 0.278
         },
         {
           "source": "discover",
@@ -1980,81 +1969,13 @@
           "similarity": 0.231
         }
       ],
-      "project_rank": 21
+      "project_rank": 20
     },
     {
-      "id": "s17",
-      "title": "À 217 km/h en 4ème vitesse : le conducteur n'avait même pas enclenché la 5ème quand les gendarmes l'ont arrêté",
-      "theme": "auto",
-      "global_score": 25,
-      "global_tier": "low",
-      "global_signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "17/65"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "41+ react."
-        }
-      ],
-      "rationale": "Présent sur Google Discover · engagement MSN élevé.",
-      "msn_url": "https://www.msn.com/fr-fr/auto/actualite/à-217-km-h-en-4ème-vitesse-le-conducteur-n-avait-même-pas-enclenché-la-5ème-quand-les-gendarmes-l-ont-arrêté/ar-AA249TrH?ocid=00000000",
-      "msn_source_name": "Autonews",
-      "discover_category": "/Reference/Geographic Reference/Maps",
-      "discover_entities": [
-        "Empire romain",
-        "Rome antique",
-        "Voie romaine"
-      ],
-      "affinity": {
-        "score": 61,
-        "match_count": 10,
-        "max_similarity": 0.777,
-        "avg_similarity": 0.678,
-        "total_clicks": 19117,
-        "top_matches": [
-          {
-            "url": "https://www.parismatch.com/People/sting-attaque-en-justice-par-ses-anciens-compagnons-de-the-police-256053",
-            "title": null,
-            "clicks": 17758,
-            "similarity": 0.672
-          },
-          {
-            "url": "https://www.parismatch.com/actu/faits-divers/fianso-condamne-pour-avoir-roule-a-188-km-h-sur-autoroute-257835",
-            "title": null,
-            "clicks": 344,
-            "similarity": 0.777
-          },
-          {
-            "url": "https://www.parismatch.com/People/emma-watson-privee-de-permis-de-conduire-pour-six-mois-apres-un-exces-de-vitesse-254360",
-            "title": null,
-            "clicks": 113,
-            "similarity": 0.674
-          }
-        ]
-      },
-      "project_score": 41,
-      "proposed_title": "217 km/h en 4ème vitesse : arrêté avant d'enclencher la 5ème !",
-      "external_sources": [
-        {
-          "source": "discover",
-          "title": "300 000 km de voies antiques : une nouvelle carte montre que l'Empire romain avait un réseau routier deux fois plus grand qu'on ne le pensait",
-          "url": "https://www.science-et-vie.com/science-et-culture/300-000-km-de-voies-antiques-une-nouvelle-carte-montre-que-lempire-romain-avait-un-reseau-routier-deux-fois-plus-grand-quon-ne-le-pensait-241332.html",
-          "publisher": "Science et vie",
-          "published_at": "2026-05-27 07:29:32",
-          "similarity": 0.083
-        }
-      ],
-      "project_rank": 22
-    },
-    {
-      "id": "s22",
-      "title": "Le nouveau missile « Tueur du Kremlin » de l’Ukraine va renvoyer la Russie à l’âge de pierre",
+      "id": "s30",
+      "title": "Ukraine : un drone kamikaze dopé à l’intelligence artificielle attaque les convois russes",
       "theme": "actualite",
-      "global_score": 21,
+      "global_score": 20,
       "global_tier": "low",
       "global_signals": [
         {
@@ -2068,78 +1989,161 @@
           "value": "1 média"
         },
         {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "2k vues"
+        },
+        {
           "source": "news",
           "label": "msn",
-          "value": "109+ react."
+          "value": "60+ react."
         }
       ],
-      "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/le-nouveau-missile-tueur-du-kremlin-de-l-ukraine-va-renvoyer-la-russie-à-l-âge-de-pierre/vi-AA24andn?ocid=00000000",
-      "msn_source_name": "Le Spectacle Militaire",
+      "rationale": "Présent dans le top Wikipedia · repris sur Google Actualités · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/ukraine-un-drone-kamikaze-dopé-à-l-intelligence-artificielle-attaque-les-convois-russes/ar-AA24bJ09?ocid=00000000",
+      "msn_source_name": "France 24",
       "discover_category": "/Sensitive Subjects",
       "discover_entities": [
-        "Diplomatie",
-        "Kiev"
+        "Ukraine"
       ],
+      "affinity": {
+        "score": 68,
+        "match_count": 10,
+        "max_similarity": 0.859,
+        "avg_similarity": 0.798,
+        "total_clicks": 63416,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/international/plus-puissants-quune-tesla-sur-le-front-ukrainien-les-drones-futurs-remplacants-de-soldats-261930",
+            "title": null,
+            "clicks": 12211,
+            "similarity": 0.859
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/on-a-de-lavance-sur-eux-on-espere-que-ca-sera-un-tournant-de-la-guerre-dans-les-usines-a-drones-ukrainiennes-261913",
+            "title": null,
+            "clicks": 15769,
+            "similarity": 0.796
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/la-technologie-des-drones-de-combat-change-tous-les-trois-mois-larmee-francaise-doit-suivre-le-rythme-de-linnovation-266466",
+            "title": null,
+            "clicks": 27576,
+            "similarity": 0.782
+          }
+        ]
+      },
+      "project_score": 42,
+      "proposed_title": "Ukraine : les drones « tueuses intelligentes » qui terrifient les convois russes",
+      "external_sources": [
+        {
+          "source": "discover",
+          "title": "Frappes russes massives sur l'Ukraine : que cherche vraiment Moscou, qui n'avance plus sur le front",
+          "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/frappes-russes-massives-sur-l-ukraine-que-cherche-vraiment-moscou-qui-n-avance-plus-sur-le-front_8029343.html",
+          "publisher": "franceinfo",
+          "published_at": "2026-05-27 14:42:52",
+          "similarity": 0.125
+        },
+        {
+          "source": "gnews",
+          "title": "\"Un des textes les plus clairs que j'aie lus\" : comment le secteur de l'intelligence artificielle perçoit l'encyclique de Léon XIV",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPUGwzbkV1S2NFbmwydm5YWjdHQTQ2b3hERDZQeXBabjQyd2RFcFYzallsb29BcVNPc1RwcWZMTFByZFQ2U2VyN0RPZGFwYUlWTFQ3VDBYLVAzaFB2V2VZekRKTnNxMFoxZER5T3plbjgwOTFRX0pRN05kS2owczVBd29MV0piT1ZXUHczSGpNOWppbnh1QWlyRzRSeFhYd0tsYVpJalBLZ1A1dkU0WE9MblRUeFdPWXdVNklweEh2WXNaZGNkSVQyaG1BMVVvMmpWWTRZcVdYbkFlV19kTzJVdnlyS044ZzFBLTR4RlExQy1qZEhRS1JlMk5nMDNCODd1S2JXTEFEWm04UEM2cHA1aDVDZjhXWldQR1hFZlRQUmpsbU95TFd3?oc=5",
+          "publisher": "franceinfo.fr",
+          "published_at": "Wed, 27 May 2026 03:58:11 GMT",
+          "similarity": 0.105
+        }
+      ],
+      "project_rank": 21
+    },
+    {
+      "id": "s18",
+      "title": "Gaël Da Silva tué dans un accident de la route",
+      "theme": "sport",
+      "global_score": 22,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "5k"
+        },
+        {
+          "source": "x",
+          "label": "x",
+          "value": "#61"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "34+ react."
+        }
+      ],
+      "rationale": "Présent sur Google Trends · repris sur Google Actualités · mentionné sur X.",
+      "msn_url": "https://www.msn.com/fr-fr/sport/other/gaël-da-silva-tué-dans-un-accident-de-la-route/ar-AA24aLmd?ocid=00000000",
+      "msn_source_name": "L'Equipe",
+      "discover_category": "/Sensitive Subjects",
+      "discover_entities": [],
       "affinity": {
         "score": 65,
         "match_count": 10,
-        "max_similarity": 0.803,
-        "avg_similarity": 0.784,
-        "total_clicks": 56738,
+        "max_similarity": 0.792,
+        "avg_similarity": 0.77,
+        "total_clicks": 56481,
         "top_matches": [
           {
-            "url": "https://www.parismatch.com/actu/international/si-un-missile-ou-un-drone-touche-tchernobyl-son-sarcophage-pourrait-etre-detruit-lavertissement-du-directeur-de-la-centrale-262029",
+            "url": "https://www.parismatch.com/People/inquietude-pour-jean-claude-van-damme-hospitalise-pres-de-montpellier-255418",
             "title": null,
-            "clicks": 7361,
+            "clicks": 8790,
             "similarity": 0.792
           },
           {
-            "url": "https://www.parismatch.com/actu/international/les-services-francais-viennent-ici-se-former-lukraine-a-la-pointe-de-la-guerre-du-futur-261932",
+            "url": "https://www.parismatch.com/culture/medias/fabien-lecoeuvre-hospitalise-apres-avoir-ete-frappe-par-stephane-tapie-266342",
             "title": null,
-            "clicks": 15888,
-            "similarity": 0.779
+            "clicks": 17818,
+            "similarity": 0.77
           },
           {
-            "url": "https://www.parismatch.com/actu/international/une-forme-de-catastrophe-est-en-train-de-se-preparer-bientot-la-fin-pour-vladimir-poutine-269650",
+            "url": "https://www.parismatch.com/actu/sport/un-espoir-du-rallye-mondial-meurt-a-21-ans-lors-dun-violent-accident-en-pologne-252639",
             "title": null,
-            "clicks": 5066,
-            "similarity": 0.762
+            "clicks": 28482,
+            "similarity": 0.766
           }
         ]
       },
       "project_score": 41,
-      "proposed_title": "Ukraine : le nouveau missile qui pourrait paralyser la Russie",
+      "proposed_title": "Gaël Da Silva : mort tragique d'une figure de la route",
       "external_sources": [
         {
-          "source": "discover",
-          "title": "EN DIRECT, guerre en Ukraine : une cinquantaine d’Etats dénoncent devant l’ONU les « menaces » de la Russie contre les diplomates à Kiev",
-          "url": "https://www.lemonde.fr/international/live/2026/05/27/en-direct-guerre-en-ukraine-une-cinquantaine-d-etats-denoncent-devant-l-onu-les-menaces-de-la-russie-contre-les-diplomates-a-kiev_6693162_3210.html",
-          "publisher": "Le Monde.fr",
-          "published_at": "2026-05-27 05:23:04",
-          "similarity": 0.105
-        },
-        {
-          "source": "discover",
-          "title": "« Rendre toute force adverse incapable de survivre » : la Corée du Nord teste un nouveau système de lancement de missile polyvalent",
-          "url": "https://www.leparisien.fr/international/rendre-toute-force-adverse-incapable-de-survivre-la-coree-du-nord-teste-un-nouveau-systeme-de-lancement-de-missile-polyvalent-27-05-2026-62IXK76L3JGLBBPJMR3DXTZZVE.php",
-          "publisher": "Le Parisien",
-          "published_at": "2026-05-27 07:50:57",
-          "similarity": 0.1
-        },
-        {
           "source": "gnews",
-          "title": "Guerre en Ukraine : \"Irresponsable !\", la Russie accusée d’avoir rendu l’avion du ministre de la Défense britannique aveugle pendant trois heures",
-          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPNDdWRUllR1JsR2g1S3AxZGdMbFFIWXN4Y1hFSUVxWXdTU3dRdVZEZzlCY0JhSS01T3UtRXAzUFhsbHBHQk8xZUIyTTZmZy1KWEFXTDB1dGpnRktvT01oTm8zTWoxSWdzNFkzQV94YnZ4VVNZLTR2cGN0SkRvX3lOWkRYMUJXSUFqck1qS0s2UWxGbjd0MUZMQmNaU0JBSk54a2gwQUdfMkNLOFFXcGU5WVgzaWlRdnNKVm5NYVNJWWYtVmtJNXd4TjlISk5hMGhzQzF2ZnM5bHRZMGdaX0wzZ3dZUkZsaE9nRzB6eWRhRGlNbmRwbnBRMERNSDJQbENHTGtKeWNlZHk2TTJaN2tyTlhUaw?oc=5",
-          "publisher": "ladepeche.fr",
-          "published_at": "Tue, 26 May 2026 15:47:00 GMT",
-          "similarity": 0.095
+          "title": "Disparition. L’ancien gymnaste lyonnais Gaël Da Silva est décédé accidentellement à 41 ans",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd1AzSWlyenhTSXFnMkdZbEZiQ051TmhfSmtxZXA1ejZCSjhyUGJ5d1k5Z0VldWdiN01WTW1uSkJNRnp6djdVVF94eU1BSkxFZlJaYl8wMnkwcG9jWlRwV0poQjExOG9wWVBVdThYdERSNnN0blhyRmowcmExd0hCZk9YeW91Y25NUy1zQzBuUUtBWjZ5a0RIbGx2R3JPWnVPa0ZSTzZfRzVzRlBaSVNnR3IwbVRFTG9P?oc=5",
+          "publisher": "Le Progrès",
+          "published_at": "Wed, 27 May 2026 14:04:55 GMT",
+          "similarity": 0.25
+        },
+        {
+          "source": "discover",
+          "title": "Un conducteur tue deux motards à Fréjus, l’accident classé en homicide routier",
+          "url": "https://www.20minutes.fr/faits_divers/4225674-20260527-var-conducteur-alcoolise-tue-deux-scooteristes-frejus-accident-classe-homicide-routier",
+          "publisher": "20 Minutes",
+          "published_at": "2026-05-27 15:52:21",
+          "similarity": 0.154
         }
       ],
-      "project_rank": 23
+      "project_rank": 22
     },
     {
-      "id": "s23",
+      "id": "s24",
       "title": "Donald Trump hospitalisé en urgence ? Ce que révèle vraiment la Maison-Blanche sur son état de santé",
       "theme": "actualite",
       "global_score": 20,
@@ -2153,7 +2157,7 @@
         {
           "source": "news",
           "label": "gnews",
-          "value": "8 médias"
+          "value": "10 médias"
         },
         {
           "source": "wiki",
@@ -2163,10 +2167,10 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "25+ react."
+          "value": "32+ react."
         }
       ],
-      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (8 médias).",
+      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (10 médias).",
       "msn_url": "https://www.msn.com/fr-fr/actualite/monde/donald-trump-hospitalisé-en-urgence-ce-que-révèle-vraiment-la-maison-blanche-sur-son-état-de-santé/ar-AA24aF5u?ocid=00000000",
       "msn_source_name": "So Busy Girls",
       "discover_category": "/News",
@@ -2203,7 +2207,7 @@
         ]
       },
       "project_score": 40,
-      "proposed_title": "Trump hospitalisé d'urgence : la Maison-Blanche révèle enfin la vérité sur son état",
+      "proposed_title": "Trump hospitalisé en urgence : ce que cache vraiment la Maison-Blanche",
       "external_sources": [
         {
           "source": "gnews",
@@ -2230,97 +2234,10 @@
           "similarity": 0.118
         }
       ],
-      "project_rank": 24
+      "project_rank": 23
     },
     {
-      "id": "s21",
-      "title": "Leroy Merlin c’est fini : ce magasin de 6 000 m² ferme ses portes, gros déstockage en vue pour tous les clients",
-      "theme": "lifestyle",
-      "global_score": 21,
-      "global_tier": "low",
-      "global_signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "243+ react."
-        }
-      ],
-      "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
-      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/leroy-merlin-c-est-fini-ce-magasin-de-6-000-m-ferme-ses-portes-gros-déstockage-en-vue-pour-tous-les-clients/ar-AA20K6oz?ocid=00000000",
-      "msn_source_name": "Marie France",
-      "discover_category": "/News",
-      "discover_entities": [
-        "Aux Ouvriers Réunis"
-      ],
-      "affinity": {
-        "score": 60,
-        "match_count": 10,
-        "max_similarity": 0.72,
-        "avg_similarity": 0.694,
-        "total_clicks": 35312,
-        "top_matches": [
-          {
-            "url": "https://www.parismatch.com/Guide-shopping/liquidation-des-stocks-legami-de-nombreux-produits-sont-a-prix-fracasses-pour-une-duree-limitee-264286",
-            "title": null,
-            "clicks": 11584,
-            "similarity": 0.711
-          },
-          {
-            "url": "https://www.parismatch.com/Guide-shopping/lego-liquide-ses-stocks-de-nombreux-jouets-sont-a-des-prix-rarement-vus-262959",
-            "title": null,
-            "clicks": 23276,
-            "similarity": 0.698
-          },
-          {
-            "url": "https://www.parismatch.com/Guide-shopping/mieux-que-les-soldes-amazon-lance-un-destockage-massif-de-ses-rayons-263219",
-            "title": null,
-            "clicks": 6,
-            "similarity": 0.72
-          }
-        ]
-      },
-      "project_score": 39,
-      "proposed_title": "Leroy Merlin ferme ses portes : « C'est la fin d'une époque » pour ce géant de 6 000 m²",
-      "external_sources": [
-        {
-          "source": "discover",
-          "title": "Ce bar-restaurant ferme déjà ses portes un an après son ouverture à Dieppe",
-          "url": "https://actu.fr/normandie/dieppe_76217/ce-bar-restaurant-ferme-deja-ses-portes-un-an-apres-son-ouverture-a-dieppe_64317817.html",
-          "publisher": "Actu.fr",
-          "published_at": "2026-05-27 12:15:55",
-          "similarity": 0.118
-        },
-        {
-          "source": "discover",
-          "title": "\"Ce n’est pas un adieu\" : malgré un élan de solidarité, le restaurant inclusif \"K plus 1\" ferme ses portes à Vernon",
-          "url": "https://france3-regions.franceinfo.fr/normandie/eure/ce-n-est-pas-un-adieu-malgre-un-elan-de-solidarite-le-restaurant-inclusif-k-plus-1-ferme-ses-portes-a-vernon-3357805.html",
-          "publisher": "France 3 Régions",
-          "published_at": "2026-05-27 14:24:59",
-          "similarity": 0.111
-        },
-        {
-          "source": "gnews",
-          "title": "Le fast-food du Youtubeur Michou à Paris a fermé ses portes, d’anciens salariés dénoncent les conditions d’hygiène - Ouest-France",
-          "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNNkdPTHRVa3N0a1ZPSlJxb19yQ3FTRWJYLU1fLTl6cDJ6RnNrd19SUEtleUdaMnM1YlAtdGRySGRERFNzcnVVSVMwMmpfdE1uM0d3b2VSYnN0WVBIMGtYYkZpOFhQcGpVaWh6OGU4dDZFVlBFb1o0NmFsYzBJRm9oeHVLcjFxUFhwemZDWlFKNVJWSVN6UG9rWnhxRERrSTduYVI2amp3eDQ5cE5HTjdwMGZlcm9FS2NZSHVtNVQtd0tNdVhUOUpKYVRmU240U09MY2d6clR6cXp6RGVQRW1FUWZxejN1NmtrS3NHc05BdzY2TTNpQnlFeEoweXhPVUxsYWF0b0Z0NG9ralVmNnZ5MVA0ajVwazNKZ2hSVWVRaXFSY25PcFBRQ2pvMnJYOU9jRnc?oc=5",
-          "publisher": "Ouest-France",
-          "published_at": "Tue, 26 May 2026 14:21:59 GMT",
-          "similarity": 0.087
-        }
-      ],
-      "project_rank": 25
-    },
-    {
-      "id": "s28",
+      "id": "s27",
       "title": "Il vole en série dans les supermarchés du Finistère : le tribunal lui inflige une peine qu'il n'avait pas du tout prévue",
       "theme": "actualite",
       "global_score": 20,
@@ -2339,14 +2256,16 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "97+ react."
+          "value": "106+ react."
         }
       ],
       "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/il-vole-en-série-dans-les-supermarchés-du-finistère-le-tribunal-lui-inflige-une-peine-qu-il-n-avait-pas-du-tout-prévue/ar-AA247jpt?ocid=00000000",
       "msn_source_name": "Marmiton",
       "discover_category": "/News",
-      "discover_entities": [],
+      "discover_entities": [
+        "Quimper"
+      ],
       "affinity": {
         "score": 63,
         "match_count": 10,
@@ -2375,7 +2294,7 @@
         ]
       },
       "project_score": 39,
-      "proposed_title": "Finistère : condamné pour vols en série, il découvre une peine bien plus lourde qu'attendu",
+      "proposed_title": "Finistère : le voleur de supermarchés condamné à une peine surprise !",
       "external_sources": [
         {
           "source": "discover",
@@ -2402,10 +2321,197 @@
           "similarity": 0.083
         }
       ],
+      "project_rank": 24
+    },
+    {
+      "id": "s28",
+      "title": "Nicolas Sarkozy voulait éviter une seconde peine à exécuter : la justice a finalement choisi une autre voie",
+      "theme": "actualite",
+      "global_score": 20,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "1k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "69+ react."
+        }
+      ],
+      "rationale": "Présent dans le top Wikipedia · repris sur Google Actualités · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/nicolas-sarkozy-voulait-éviter-une-seconde-peine-à-exécuter-la-justice-a-finalement-choisi-une-autre-voie/ar-AA247dbs?ocid=00000000",
+      "msn_source_name": "So Busy Girls",
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Libye",
+        "Nicolas Sarkozy"
+      ],
+      "affinity": {
+        "score": 62,
+        "match_count": 10,
+        "max_similarity": 0.853,
+        "avg_similarity": 0.812,
+        "total_clicks": 10134,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/politique/apres-la-condamnation-de-nicolas-sarkozy-les-reactions-politiques-senchainent-257603",
+            "title": null,
+            "clicks": 48,
+            "similarity": 0.853
+          },
+          {
+            "url": "https://www.parismatch.com/actu/societe/que-va-t-il-se-passer-pour-nicolas-sarkozy-apres-sa-condamnation-a-cinq-ans-de-prison-257607",
+            "title": null,
+            "clicks": 81,
+            "similarity": 0.841
+          },
+          {
+            "url": "https://www.parismatch.com/actu/politique/michele-cotta-les-consequences-de-la-condamnation-de-nicolas-sarkozy-257755",
+            "title": null,
+            "clicks": 104,
+            "similarity": 0.818
+          }
+        ]
+      },
+      "project_score": 39,
+      "proposed_title": "Nicolas Sarkozy : la justice refuse la seconde peine, un dénouement inattendu",
+      "external_sources": [
+        {
+          "source": "discover",
+          "title": "Procès de l’affaire libyenne : la défense de Claude Guéant s’en prend à la « cruauté de la stratégie » de Nicolas Sarkozy",
+          "url": "https://www.lemonde.fr/societe/article/2026/05/26/proces-de-l-affaire-libyenne-la-defense-de-claude-gueant-s-en-prend-a-la-cruaute-de-la-strategie-de-nicolas-sarkozy_6693964_3224.html",
+          "publisher": "Le Monde.fr",
+          "published_at": "2026-05-27 11:15:15",
+          "similarity": 0.095
+        },
+        {
+          "source": "discover",
+          "title": "“Il a bonne mine” : Nicolas Sarkozy revigoré par un séjour au Cap Nègre, son refuge paradisiaque avec Carla Bruni",
+          "url": "https://www.gala.fr/l_actu/news_de_stars/il-a-bonne-mine-nicolas-sarkozy-revigore-par-un-sejour-au-cap-negre-son-refuge-paradisiaque-avec-carla-bruni-20260526",
+          "publisher": "Gala",
+          "published_at": "2026-05-27 13:49:31",
+          "similarity": 0.091
+        },
+        {
+          "source": "gnews",
+          "title": "Procès en appel du financement libyen : Nicolas Sarkozy clame son innocence et assure qu'il n'a \"pas trahi la confiance des Français\"",
+          "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOSkVkWlhGdDU0ajhDbURod0UwN09PaXRMUVp1N3VvR2U5endCZkNSODlPajU5Z1lNc1cya1c2RDFnOUtkN3dWNzBSNDQ3dGhCd2N6aHhzTmw3UGJHUnk3bDNUUGlaLTBhVTFueDEwSEJpdm04WGtpV29KcXd2WHpieE5ReUxOVk11YnlYTUpTa1VlSUJWOTBvNktCM2lvYzU3dTZzTDRmazhvTzlMRUR3SVY5dEVDeDgzeURCUEdpVXo5al9DMGwwWGlmZ3JQSFphdGlpTFFkNjZqaVVDYl9iaGM1eDRSenBNbUdwWkVfbFNJbzRRdUVXNnpWeDFuTllqMmFGNmxNS0tmQlI5NUVwZGtTTDBaS24yckFhWmcxNGRrVnVPMnJFM0VWRGpFTHhTTllaYWo4aDRWbjRDSGpHWg?oc=5",
+          "publisher": "RTL.fr",
+          "published_at": "Wed, 27 May 2026 15:48:44 GMT",
+          "similarity": 0.087
+        }
+      ],
+      "project_rank": 25
+    },
+    {
+      "id": "s29",
+      "title": "Donald Trump : \"Je vais avoir un bébé d’une minute à l’autre\", cette annonce surprise à la Maison-Blanche qui intervient dans un contexte très tendu",
+      "theme": "actualite",
+      "global_score": 20,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "8 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "17+ react."
+        }
+      ],
+      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (8 médias).",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/donald-trump-je-vais-avoir-un-bébé-d-une-minute-à-l-autre-cette-annonce-surprise-à-la-maison-blanche-qui-intervient-dans-un-contexte-très-tendu/ar-AA249ZXA?ocid=00000000",
+      "msn_source_name": "So Busy Girls",
+      "discover_category": "/News",
+      "discover_entities": [
+        "Ambulance",
+        "Carrefour giratoire",
+        "Le Mans"
+      ],
+      "affinity": {
+        "score": 62,
+        "match_count": 10,
+        "max_similarity": 0.784,
+        "avg_similarity": 0.774,
+        "total_clicks": 27995,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/international/apres-les-chamailleries-entre-brigitte-et-emmanuel-macron-trump-leur-offre-ses-conseils-conjugaux-252141",
+            "title": null,
+            "clicks": 7686,
+            "similarity": 0.774
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/donald-trump-moque-par-la-presse-apres-setre-assoupi-au-milieu-dune-reunion-de-son-cabinet-261044",
+            "title": null,
+            "clicks": 9004,
+            "similarity": 0.769
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/il-se-degonfle-toujours-donald-trump-le-temps-des-reculades-264165",
+            "title": null,
+            "clicks": 224,
+            "similarity": 0.784
+          }
+        ]
+      },
+      "project_score": 39,
+      "proposed_title": "Donald Trump : « Je vais avoir un bébé d'une minute à l'autre » — L'annonce surprise à la Maison-Blanche",
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "La Maison générale annonce les noms des futurs évêques",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR1lSWGRwTkNfMGtTQ2U3U3BWWGhvUXcyME1aN01SdUx5LU9GMEE2cmlkb3I2SUN4eDgxeGtSYkUtVGdxWUpBamJTbERheUlFdTFzS215TXZkeXJwSWp3NVdUajBoM0w5cnF4TjVwaGcwX00yTzdTUGhRQWhhSVUxNVFrcV9wekRrVEcwd213WC0?oc=5",
+          "publisher": "FSSPX Actualités",
+          "published_at": "Tue, 26 May 2026 12:00:00 GMT",
+          "similarity": 0.111
+        },
+        {
+          "source": "gnews",
+          "title": "Flipper annonce le grand frère de son outil de hacking très controversé",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMWliVXJZa3ZjSnZ6VE5Wa1BGazY5X0ZFdDMzSXNVR1AzVVIwcno5U2R1N1RlTndMQnRtT0JkWWxLa1dXaVY2U3dLVFptelNGeFRfRHlRWjNFQXpCUTlJbVZ1WWVEVGdfZjZpallkd3hQV0UySlA4dVpBOG9Tcmd0aG5ZSnA1LXZWblBiTnBLaVZrN1M3RkFnSmZpQzVCNzJFZWlmRFBzVmkzcndBS1BwRFBMYWVMTVdUYUxPYTdLdmZ6Tm9GWmRtZUc1TnM?oc=5",
+          "publisher": "Futura, le média qui explore le monde",
+          "published_at": "Tue, 26 May 2026 11:01:00 GMT",
+          "similarity": 0.1
+        },
+        {
+          "source": "gnews",
+          "title": "Le redécoupage électoral voulu par Donald Trump freiné en Caroline du Sud et en Alabama",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOR0Z4UVdqdHhjaWdweXJnWDNPX3NrUlh1b0Q0OHA2OWx2eFQtbjJGZ0c2aFhOODhEX01IanJxekhhVzNacWNJWmV6U25OR1BOakZjYjNpZTNvSmtDZV8ycG9qVXpmVTlnX0YydXFGVlpyMURlclJXLV9IUDA4UmpIamFxMzNNcE8tMFp6eE5VaTBseFR4bkI3ZHVPTWo0dnFwaGQtZlZlNTRuSnI1ZUVPam9pMnZ5RFBFdC12cVdYcDB0eGFwOEpFVnd5d2RMMmRjVzFpYkpxaXlTTEdZSEdYMnZnSllUWHVjREdEVTRJNVo?oc=5",
+          "publisher": "Le Monde.fr",
+          "published_at": "Tue, 26 May 2026 23:30:59 GMT",
+          "similarity": 0.095
+        }
+      ],
       "project_rank": 26
     },
     {
-      "id": "s26",
+      "id": "s22",
       "title": "Cannes 2026 : \"Qu’est-ce qu’il se passe ?\", la cérémonie de clôture tourne au fiasco !",
       "theme": "actualite",
       "global_score": 20,
@@ -2424,7 +2530,7 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "354+ react."
+          "value": "355+ react."
         }
       ],
       "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
@@ -2464,7 +2570,7 @@
         ]
       },
       "project_score": 38,
-      "proposed_title": "Cannes 2026 : le chaos de la cérémonie de clôture qui embarrasse le Festival !",
+      "proposed_title": "Cannes 2026 : le chaos de la clôture secoue le Festival de Cristal !",
       "external_sources": [
         {
           "source": "discover",
@@ -2486,73 +2592,9 @@
       "project_rank": 27
     },
     {
-      "id": "s27",
-      "title": "Les véritables images de Mars, la planète rouge comme vous ne l’avez jamais vue",
+      "id": "s25",
+      "title": "« C'est scandaleux »: son TGV est bloqué plusieurs heures sans climatisation, une passagère verbalisée pour avoir ouvert une issue de secours",
       "theme": "actualite",
-      "global_score": 20,
-      "global_tier": "low",
-      "global_signals": [
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "203+ react."
-        }
-      ],
-      "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/les-véritables-images-de-mars-la-planète-rouge-comme-vous-ne-l-avez-jamais-vue/vi-AA1TAVLc?ocid=00000000",
-      "msn_source_name": "Balade Mentale",
-      "discover_category": null,
-      "discover_entities": [],
-      "affinity": {
-        "score": 61,
-        "match_count": 10,
-        "max_similarity": 0.818,
-        "avg_similarity": 0.766,
-        "total_clicks": 12920,
-        "top_matches": [
-          {
-            "url": "https://www.parismatch.com/actu/sciences/le-signe-le-plus-convaincant-a-ce-jour-la-nasa-pense-avoir-detecte-des-traces-de-vie-sur-mars-256864",
-            "title": null,
-            "clicks": 8476,
-            "similarity": 0.734
-          },
-          {
-            "url": "https://www.parismatch.com/actu/sciences/les-nouvelles-images-extraordinaires-de-la-mission-artemis-ii-la-lune-comme-personne-ne-la-jamais-vue-267076",
-            "title": null,
-            "clicks": 92,
-            "similarity": 0.818
-          },
-          {
-            "url": "https://www.parismatch.com/actu/sciences/du-corail-sur-mars-une-etrange-formation-rocheuse-photographiee-par-curiosity-255396",
-            "title": null,
-            "clicks": 104,
-            "similarity": 0.787
-          }
-        ]
-      },
-      "project_score": 38,
-      "proposed_title": "Mars enfin dévoilée : les photos spectaculaires qui bouleversent notre vision de la planète rouge",
-      "external_sources": [
-        {
-          "source": "gnews",
-          "title": "En images : la sonde Psyche fait un joli détour par Mars avant de poursuivre sa quête d’un astéroïde",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQV0FVQlgzdkxFdHN5UzQzMEw3bXdYZmRYUkpLdmlFR2I5VXRLWVFIRF94OWQwLUlGaTZ6YjNVcHhCZWkzdVAtWmlOdnVDeG1COE1iTWZESzhWZHpHZklQWjFDZjFFMU5JX1lJcGZsdU5uUHNOUlB1OGlVMUFocFBpeXZHRXdDSWxyUEU0SnV6dlJuNnVfS09hU3dHYUR5ZWE4TlktMFZPNFZ3OVM0R1MtV3dFMHZiWm9oZ0hVSVNpbjRMSUJYdFBMT3FuT0pyWHVkWDI2dmt6OUN0VUZjWVdUYTlQZTY3dFF0bHVIR1Q3Sl9PMlBxVmc0d2dYRDUtTms?oc=5",
-          "publisher": "Le Monde.fr",
-          "published_at": "Tue, 26 May 2026 04:30:08 GMT",
-          "similarity": 0.133
-        }
-      ],
-      "project_rank": 28
-    },
-    {
-      "id": "s24",
-      "title": "Grâce à une technique unique, il relance un puits de pétrole abandonné en Alsace et gagne plus de 2 millions d’euros",
-      "theme": "finance",
       "global_score": 20,
       "global_tier": "low",
       "global_signals": [
@@ -2569,76 +2611,77 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "151+ react."
+          "value": "55+ react."
         }
       ],
       "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
-      "msn_url": "https://www.msn.com/fr-fr/finance/autres/grâce-à-une-technique-unique-il-relance-un-puits-de-pétrole-abandonné-en-alsace-et-gagne-plus-de-2-millions-d-euros/ar-AA245xrW?ocid=00000000",
-      "msn_source_name": "20 Minutes",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/c-est-scandaleux-son-tgv-est-bloqué-plusieurs-heures-sans-climatisation-une-passagère-verbalisée-pour-avoir-ouvert-une-issue-de-secours/ar-AA249yOM?ocid=00000000",
+      "msn_source_name": "BFM",
       "discover_category": "/News",
       "discover_entities": [
-        "Collège",
-        "Parent d'élève"
+        "Ouigo",
+        "TGV",
+        "Train"
       ],
       "affinity": {
-        "score": 58,
+        "score": 60,
         "match_count": 10,
-        "max_similarity": 0.709,
-        "avg_similarity": 0.691,
-        "total_clicks": 16694,
+        "max_similarity": 0.711,
+        "avg_similarity": 0.658,
+        "total_clicks": 38322,
         "top_matches": [
           {
-            "url": "https://www.parismatch.com/actu/faits-divers/le-miracle-dun-alpiniste-heurte-a-la-tete-par-un-bloc-rocheux-il-ma-sauve-la-vie-257757",
+            "url": "https://www.parismatch.com/actu/international/des-gens-vomissaient-et-sevanouissaient-comment-une-centaine-de-passagers-ont-ete-bloques-dans-le-chaos-a-laeroport-de-milan-267448",
             "title": null,
-            "clicks": 6703,
-            "similarity": 0.682
+            "clicks": 26934,
+            "similarity": 0.657
           },
           {
-            "url": "https://www.parismatch.com/actu/insolite/un-homme-de-67-ans-activement-recherche-pour-toucher-un-heritage-consequent-259086",
+            "url": "https://www.parismatch.com/actu/faits-divers/collision-entre-un-tgv-et-un-convoi-militaire-dans-le-pas-de-calais-le-conducteur-du-train-est-mort-267115",
             "title": null,
-            "clicks": 459,
-            "similarity": 0.709
+            "clicks": 25,
+            "similarity": 0.711
           },
           {
-            "url": "https://www.parismatch.com/actu/sciences/un-gisement-unique-au-monde-en-moselle-espoirs-et-recherches-autour-de-reserves-dhydrogene-naturel-263689",
+            "url": "https://www.parismatch.com/actu/politique/elle-envoie-un-cahier-de-coloriage-a-jean-castex-une-deputee-ne-lache-pas-laffaire-des-wagons-sans-enfants-264027",
             "title": null,
-            "clicks": 485,
-            "similarity": 0.707
+            "clicks": 3309,
+            "similarity": 0.673
           }
         ]
       },
-      "project_score": 37,
-      "proposed_title": "En Alsace, sa technique révolutionnaire transforme un vieux puits en or noir : 2 millions d'euros !",
+      "project_score": 38,
+      "proposed_title": "« C'est scandaleux ! » : bloquée sans clim dans un TGV, elle ouvre l'issue de secours et écope d'une amende",
       "external_sources": [
         {
+          "source": "discover",
+          "title": "\"C'est scandaleux\": son TGV est bloqué plusieurs heures sans climatisation, une passagère verbalisée pour avoir ouvert une issue de secours",
+          "url": "https://www.bfmtv.com/lyon/c-est-scandaleux-son-tgv-est-bloque-plusieurs-heures-sans-climatisation-une-passagere-verbalisee-pour-avoir-ouvert-une-issue-de-secours_AV-202605270346.html",
+          "publisher": "BFM",
+          "published_at": "2026-05-27 14:52:11",
+          "similarity": 1.0
+        },
+        {
           "source": "gnews",
-          "title": "Il relance un puits de pétrole abandonné en Alsace et décroche 2 millions",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbGczZnB3ZHlYN2ZTd0h1SXB6djRPOXRvOGRlVjBWQzJpa3o1dWtpd1J5OVg3a0JsYmpCclRGVE9tWV96TFM1QzJwSTJaSG9GMFdZbHM2ckxLSmVETEZDdjE5NU8yS1puUEc5QndOTE1TdkpQT2Utei1pQ0JJT25sWFpPbmtyYlRWMnV6ajNlVEZxR2dVenplTnlzRmtlSTloQ2M2S3A2X182RkJZZ1VqVU83cndYMkNRWkhxWFZoanEtMVVsQUhCU2dwUkFPeW5haVpsRWZR?oc=5",
-          "publisher": "20 Minutes",
-          "published_at": "Tue, 26 May 2026 10:02:00 GMT",
+          "title": "TGV bloqué sans climatisation : « scandaleux », une passagère verbalisée par la SNCF car elle a ouvert une porte pour faire de l’air",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOQnRWODZGTFhzeGVvTHo3MDI5Sk5RT1B5M21oYlA1RVduSnhWN0pOdDcwVktrYjFtYzlPREJkX2RpZEJFSXoydUR4VHFSNFJ2cTRKVWdHLTh3UE1QSThOMmpReFBObUFYWnQzRk5EUU9meU5BVVlNQTZYYlFzclVSRVFzNTZrQTFLOUhLbWRxNXFMUDN5OUxUekstaGFJek5QTGtDem9UdFZRV09pcUZ6aHhzUFBGZ2R2aVNqdVhIWUUzS0ZjRmN4dkxuTTNjNmsyQzdObFVJX091WHNzUS14YmtkbmhEdEppWkdqajdEZTdWRUJyVDZSZGU4VmRGRU13NU80dmNqeVR5cjBvdGF1SFQ4cVhMQQ?oc=5",
+          "publisher": "Sud Ouest",
+          "published_at": "Wed, 27 May 2026 13:23:19 GMT",
           "similarity": 0.5
         },
         {
           "source": "discover",
-          "title": "\"C'est pour les enfants qu'on est déçus\" : le projet d'un collège à 23 millions d'euros abandonné agace les parents d'élèves",
-          "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/c-est-pour-les-enfants-qu-on-est-decus-le-projet-d-un-college-a-23-millions-d-euros-abandonne-agace-les-parents-d-eleves-3357205.html",
-          "publisher": "France 3 Régions",
-          "published_at": "2026-05-27 11:12:19",
-          "similarity": 0.158
-        },
-        {
-          "source": "discover",
-          "title": "CPAM d'Indre-et-Loire : 3,7 millions d'euros de fraude détectés en 2025, +15% en un an",
-          "url": "https://www.radiofrance.fr/francebleu/podcasts/l-invite-d-ici-matin-touraine/cpam-d-indre-et-loire-3-7-millions-d-euros-de-fraude-detectes-en-2025-15-en-un-an-4891238",
-          "publisher": "Radio France",
-          "published_at": "2026-05-27 06:10:04",
-          "similarity": 0.125
+          "title": "\"Ils m’ont dit des choses horribles\" : elle écope de 200 euros d’amende pour avoir ouvert une issue de secours dans un TGV bloqué sans climatisation par fortes chaleurs",
+          "url": "https://www.rtl.fr/actu/justice-faits-divers/ils-m-ont-dit-des-choses-horribles-elle-ecope-de-200-euros-d-amende-pour-avoir-ouvert-une-issue-de-secours-dans-un-tgv-bloque-sans-climatisation-par-fortes-chaleurs-7900639359",
+          "publisher": "RTL.fr",
+          "published_at": "2026-05-27 11:16:48",
+          "similarity": 0.316
         }
       ],
-      "project_rank": 29
+      "project_rank": 28
     },
     {
-      "id": "s29",
+      "id": "s26",
       "title": "Les psys sont formels : les personnes qui ne publient rien sur les réseaux sociaux possèdent souvent cette qualité rare",
       "theme": "lifestyle",
       "global_score": 20,
@@ -2652,7 +2695,7 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "689+ react."
+          "value": "692+ react."
         }
       ],
       "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
@@ -2663,32 +2706,32 @@
       "affinity": {
         "score": 57,
         "match_count": 10,
-        "max_similarity": 0.67,
-        "avg_similarity": 0.648,
+        "max_similarity": 0.672,
+        "avg_similarity": 0.649,
         "total_clicks": 23366,
         "top_matches": [
           {
             "url": "https://www.parismatch.com/actu/societe/les-parents-ont-ils-vraiment-un-enfant-prefere-ce-que-disent-les-etudes-sur-ce-tabou-familial-262230",
             "title": null,
             "clicks": 14414,
-            "similarity": 0.64
+            "similarity": 0.641
           },
           {
             "url": "https://www.parismatch.com/actu/politique/les-reseaux-sociaux-seront-ils-vraiment-interdits-aux-moins-de-15-ans-en-septembre-268917",
             "title": null,
             "clicks": 2,
-            "similarity": 0.67
+            "similarity": 0.672
           },
           {
             "url": "https://www.parismatch.com/Culture/yves-lecoq-a-80-ans-ne-pas-tricher-avec-soi-meme-cest-la-meilleure-solution-268526",
             "title": null,
             "clicks": 261,
-            "similarity": 0.664
+            "similarity": 0.663
           }
         ]
       },
       "project_score": 37,
-      "proposed_title": "Les silencieux du web ont un secret : cette qualité rare que les psys révèlent",
+      "proposed_title": "Les psys ont trouvé : cette qualité rare que possèdent ceux qui fuient les réseaux sociaux !",
       "external_sources": [
         {
           "source": "gnews",
@@ -2697,6 +2740,80 @@
           "publisher": "Presse-citron",
           "published_at": "Tue, 26 May 2026 15:02:15 GMT",
           "similarity": 0.105
+        }
+      ],
+      "project_rank": 29
+    },
+    {
+      "id": "s19",
+      "title": "“Tu mets un t-shirt, t’arrêtes de chouiner et basta !” : pour Daniel Riolo, les Français en font trop avec la chaleur",
+      "theme": "actualite",
+      "global_score": 21,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "200"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "976 vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "329+ react."
+        }
+      ],
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/tu-mets-un-t-shirt-t-arrêtes-de-chouiner-et-basta-pour-daniel-riolo-les-français-en-font-trop-avec-la-chaleur/ar-AA247dTP?ocid=00000000",
+      "msn_source_name": "RMC",
+      "discover_category": null,
+      "discover_entities": [],
+      "affinity": {
+        "score": 55,
+        "match_count": 10,
+        "max_similarity": 0.658,
+        "avg_similarity": 0.629,
+        "total_clicks": 15234,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/Vivre/Art-de-vivre/alcool-et-canicule-les-erreurs-a-ne-pas-commettre-pour-eviter-le-coup-de-chaud-255380",
+            "title": null,
+            "clicks": 2142,
+            "similarity": 0.658
+          },
+          {
+            "url": "https://www.parismatch.com/Actu/Environnement/et-si-la-canicule-durait-encore-tres-longtemps-255471",
+            "title": null,
+            "clicks": 1,
+            "similarity": 0.644
+          },
+          {
+            "url": "https://www.parismatch.com/culture/medias/ils-mont-fait-suer-christophe-hondelatte-sans-filtre-sur-son-passage-rate-au-13-heures-de-france-2-266718",
+            "title": null,
+            "clicks": 206,
+            "similarity": 0.628
+          }
+        ]
+      },
+      "project_score": 36,
+      "proposed_title": "« Tu mets un t-shirt et tu arrêtes de chouiner ! » : Daniel Riolo tacle les Français sur la chaleur",
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "« Pardon papa » : quatre ans après la mort de Daniel Lévi, ses enfants font une grosse mise au point",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOWJhVWRDMFlIZUZZRGhtR0lJTUh2aEF2aVJpRXY2azVpQUFIQzMyV3ZCemd0Rm5vc1I3V3FXU3ZaekpEZWI1b0g0cVk4c1NmTkc5S1hlUGNna1NqVmZ1bFR4LTc4NndBV2lRaUFaSmJhbExmRDYwRHR4cUtfQU9uZm8zb1ExWjAxUmVNcTlxRndtMldrWENuS1lsYVgzTFZYdms1SUJLRWYwZWprTl9aaVZQVUxIV2w4cUE3UlJqdjlzaHlaTy1qNkxoczM5VUE?oc=5",
+          "publisher": "La Voix du Nord",
+          "published_at": "Wed, 27 May 2026 10:33:26 GMT",
+          "similarity": 0.1
         }
       ],
       "project_rank": 30
@@ -2712,44 +2829,44 @@
       {
         "key": "/News/Politics",
         "label": "Politique",
-        "global_articles_count": 18,
-        "global_total_score": 28.1,
+        "global_articles_count": 20,
+        "global_total_score": 33.8,
         "query": "Politique",
         "matches": [
           {
             "url": "https://www.parismatch.com/actu/politique/fessee-pour-la-classe-politique-francaise-le-sondage-qui-fait-mal-254247",
             "title": "Fessée pour la classe politique française, le sondage qui fait mal",
             "clicks": 350724,
-            "similarity": 0.6023696660995483,
-            "score": 1.1517203771272295
+            "similarity": 0.6040350794792175,
+            "score": 1.1549046186879397
           },
           {
             "url": "https://www.parismatch.com/bio/tcheky-karyo",
             "title": null,
             "clicks": 4238,
-            "similarity": 0.619976818561554,
-            "score": 0.9898409359150034
+            "similarity": 0.621960461139679,
+            "score": 0.9930079746933367
           },
           {
             "url": "https://www.parismatch.com/actu/international/malaise-diplomatique-avec-le-president-islamiste-syrien-263167",
             "title": null,
             "clicks": 7904,
-            "similarity": 0.5925543308258057,
-            "score": 0.9724345952507241
+            "similarity": 0.5938676595687866,
+            "score": 0.9745898850497743
           },
           {
             "url": "https://www.parismatch.com/Culture/ce-que-napoleon-peut-apprendre-aux-politiques-francais-264493",
             "title": null,
             "clicks": 655,
-            "similarity": 0.6036229729652405,
-            "score": 0.8832798057190263
+            "similarity": 0.6051791906356812,
+            "score": 0.8855570146775437
           },
           {
             "url": "https://www.parismatch.com/vivre/argent/pea-les-actions-a-mener-lors-dune-succession-264871",
             "title": null,
             "clicks": 1169,
-            "similarity": 0.5829643607139587,
-            "score": 0.8771431271593028
+            "similarity": 0.5839830040931702,
+            "score": 0.878675804110613
           }
         ]
       },
@@ -2757,7 +2874,7 @@
         "key": "/Sensitive Subjects",
         "label": "Sujets sensibles",
         "global_articles_count": 36,
-        "global_total_score": 21.6,
+        "global_total_score": 23.0,
         "query": "Sujets sensibles",
         "matches": [
           {
@@ -2798,54 +2915,10 @@
         ]
       },
       {
-        "key": "/People & Society/Social Issues & Advocacy/Work & Labor Issues",
-        "label": "Work & Labor Issues",
-        "global_articles_count": 3,
-        "global_total_score": 20.8,
-        "query": "Work & Labor Issues",
-        "matches": [
-          {
-            "url": "https://www.parismatch.com/actu/economie/les-generations-semblent-ne-plus-du-tout-se-comprendre-au-travail-267375",
-            "title": null,
-            "clicks": 13313,
-            "similarity": 0.6697980165481567,
-            "score": 1.1241397795822403
-          },
-          {
-            "url": "https://www.parismatch.com/actu/economie/les-neets-ces-jeunes-qui-abandonnent-le-travail-avant-meme-davoir-commence-259145",
-            "title": null,
-            "clicks": 87903,
-            "similarity": 0.6186305284500122,
-            "score": 1.121665549891681
-          },
-          {
-            "url": "https://www.parismatch.com/bio/tcheky-karyo",
-            "title": null,
-            "clicks": 4238,
-            "similarity": 0.6283998489379883,
-            "score": 1.0032889552948159
-          },
-          {
-            "url": "https://www.parismatch.com/actu/international/guerre-iran-israel-ces-societes-specialisees-qui-exfiltrent-les-salaries-des-entreprises-265798",
-            "title": null,
-            "clicks": 701,
-            "similarity": 0.6033231019973755,
-            "score": 0.8857616328260234
-          },
-          {
-            "url": "https://www.parismatch.com/actu/economie/quels-metiers-sont-encore-a-labri-de-lintelligence-artificielle-253730",
-            "title": null,
-            "clicks": 783,
-            "similarity": 0.5980038046836853,
-            "score": 0.8826710868363865
-          }
-        ]
-      },
-      {
         "key": "/News/Weather",
         "label": "Météo",
-        "global_articles_count": 36,
-        "global_total_score": 19.1,
+        "global_articles_count": 37,
+        "global_total_score": 21.0,
         "query": "Météo",
         "matches": [
           {
@@ -2886,10 +2959,54 @@
         ]
       },
       {
+        "key": "/News/Business News/Company News",
+        "label": "Company News",
+        "global_articles_count": 5,
+        "global_total_score": 20.9,
+        "query": "Company News",
+        "matches": [
+          {
+            "url": "https://www.parismatch.com/culture/cinema/le-phenomene-sacre-coeur-miracle-de-la-distribution-258647",
+            "title": null,
+            "clicks": 40177,
+            "similarity": 0.5905105471611023,
+            "score": 1.037656726928032
+          },
+          {
+            "url": "https://www.parismatch.com/Guide-shopping/quels-sont-les-maillots-de-bain-les-plus-convoites-en-2025-252269",
+            "title": null,
+            "clicks": 18397,
+            "similarity": 0.5992028713226318,
+            "score": 1.019500767308986
+          },
+          {
+            "url": "https://www.parismatch.com/People/brigitte-bardot-est-sortie-de-lhopital-258780",
+            "title": null,
+            "clicks": 10087,
+            "similarity": 0.5905349254608154,
+            "score": 0.9794064711844304
+          },
+          {
+            "url": "https://www.parismatch.com/bio/tcheky-karyo",
+            "title": null,
+            "clicks": 4238,
+            "similarity": 0.6041978597640991,
+            "score": 0.9646486079501051
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/dans-la-ligne-de-mire-257079",
+            "title": null,
+            "clicks": 227,
+            "similarity": 0.6137811541557312,
+            "score": 0.8518118703307334
+          }
+        ]
+      },
+      {
         "key": "/Autos & Vehicles",
         "label": "Automobile",
-        "global_articles_count": 7,
-        "global_total_score": 13.7,
+        "global_articles_count": 8,
+        "global_total_score": 17.2,
         "query": "Automobile",
         "matches": [
           {
@@ -2930,54 +3047,10 @@
         ]
       },
       {
-        "key": "/News/Business News/Company News",
-        "label": "Company News",
-        "global_articles_count": 3,
-        "global_total_score": 12.7,
-        "query": "Company News",
-        "matches": [
-          {
-            "url": "https://www.parismatch.com/culture/cinema/le-phenomene-sacre-coeur-miracle-de-la-distribution-258647",
-            "title": null,
-            "clicks": 40177,
-            "similarity": 0.5908471345901489,
-            "score": 1.0382481849665526
-          },
-          {
-            "url": "https://www.parismatch.com/Guide-shopping/quels-sont-les-maillots-de-bain-les-plus-convoites-en-2025-252269",
-            "title": null,
-            "clicks": 18397,
-            "similarity": 0.5993161201477051,
-            "score": 1.0196934520733365
-          },
-          {
-            "url": "https://www.parismatch.com/People/brigitte-bardot-est-sortie-de-lhopital-258780",
-            "title": null,
-            "clicks": 10087,
-            "similarity": 0.5912401676177979,
-            "score": 0.980576120433815
-          },
-          {
-            "url": "https://www.parismatch.com/bio/tcheky-karyo",
-            "title": null,
-            "clicks": 4238,
-            "similarity": 0.6033851504325867,
-            "score": 0.9633510546525518
-          },
-          {
-            "url": "https://www.parismatch.com/actu/international/dans-la-ligne-de-mire-257079",
-            "title": null,
-            "clicks": 227,
-            "similarity": 0.6138030290603638,
-            "score": 0.8518422285509267
-          }
-        ]
-      },
-      {
         "key": "/Food & Drink/Food",
         "label": "Food",
-        "global_articles_count": 10,
-        "global_total_score": 10.2,
+        "global_articles_count": 11,
+        "global_total_score": 13.5,
         "query": "Food",
         "matches": [
           {
@@ -3021,7 +3094,7 @@
         "key": "/Arts & Entertainment/Music & Audio",
         "label": "Musique",
         "global_articles_count": 3,
-        "global_total_score": 8.4,
+        "global_total_score": 10.8,
         "query": "Musique",
         "matches": [
           {
@@ -3060,6 +3133,50 @@
             "score": 0.8814711958281518
           }
         ]
+      },
+      {
+        "key": "/Sports/Team Sports/Soccer",
+        "label": "Football",
+        "global_articles_count": 35,
+        "global_total_score": 8.6,
+        "query": "Football",
+        "matches": [
+          {
+            "url": "https://www.parismatch.com/People/les-destinations-de-vacances-des-sportifs-254808",
+            "title": null,
+            "clicks": 3354,
+            "similarity": 0.6392385363578796,
+            "score": 1.0099150215087636
+          },
+          {
+            "url": "https://www.parismatch.com/bio/tcheky-karyo",
+            "title": null,
+            "clicks": 4238,
+            "similarity": 0.628207802772522,
+            "score": 1.0029823387400145
+          },
+          {
+            "url": "https://www.parismatch.com/culture/art/arles-cite-traits-inspires-268693",
+            "title": null,
+            "clicks": 371,
+            "similarity": 0.5909243822097778,
+            "score": 0.8407542889384643
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/dans-la-ligne-de-mire-257079",
+            "title": null,
+            "clicks": 227,
+            "similarity": 0.5888735055923462,
+            "score": 0.8172447765634092
+          },
+          {
+            "url": "https://www.parismatch.com/Guide-shopping/jeux-de-societe-ces-references-voient-leurs-ventes-augmenter-a-lapproche-de-lete-254287",
+            "title": null,
+            "clicks": 104,
+            "similarity": 0.6048403978347778,
+            "score": 0.8059049142416749
+          }
+        ]
       }
     ],
     "by_entity_cluster": [
@@ -3069,8 +3186,8 @@
           "Chaleur",
           "Météo-France"
         ],
-        "global_articles_count": 21,
-        "global_total_score": 7.5,
+        "global_articles_count": 20,
+        "global_total_score": 8.1,
         "query": "Chaleur Météo-France",
         "matches": [
           {
@@ -3117,7 +3234,7 @@
           "Loto"
         ],
         "global_articles_count": 4,
-        "global_total_score": 6.4,
+        "global_total_score": 8.1,
         "query": "EuroMillions Loto",
         "matches": [
           {
@@ -3163,8 +3280,8 @@
           "TGV",
           "Ouigo"
         ],
-        "global_articles_count": 7,
-        "global_total_score": 5.9,
+        "global_articles_count": 9,
+        "global_total_score": 7.9,
         "query": "TGV Ouigo",
         "matches": [
           {
@@ -3211,7 +3328,7 @@
           "Sécurité sociale"
         ],
         "global_articles_count": 6,
-        "global_total_score": 4.2,
+        "global_total_score": 4.7,
         "query": "Cour des Comptes Sécurité sociale",
         "matches": [
           {
@@ -3252,60 +3369,13 @@
         ]
       },
       {
-        "label": "Célébration",
-        "members": [
-          "Célébration",
-          "Islam"
-        ],
-        "global_articles_count": 4,
-        "global_total_score": 3.6,
-        "query": "Célébration Islam",
-        "matches": [
-          {
-            "url": "https://www.parismatch.com/People/lea-salame-sans-filtre-quest-ce-quil-y-a-de-plus-important-que-dieu-et-le-sexe-254683",
-            "title": null,
-            "clicks": 72115,
-            "similarity": 0.7196855545043945,
-            "score": 1.294715917074979
-          },
-          {
-            "url": "https://www.parismatch.com/culture/cinema/le-phenomene-sacre-coeur-miracle-de-la-distribution-258647",
-            "title": null,
-            "clicks": 40177,
-            "similarity": 0.7070651650428772,
-            "score": 1.2424687897793907
-          },
-          {
-            "url": "https://www.parismatch.com/actu/societe/a-la-rencontre-des-forains-et-leur-sens-de-la-fete-260917",
-            "title": null,
-            "clicks": 1167,
-            "similarity": 0.7185018062591553,
-            "score": 1.0809884393369988
-          },
-          {
-            "url": "https://www.parismatch.com/actu/international/guerre-en-iran-ou-se-trouve-le-guide-supreme-iranien-mojtaba-khamenei-269489",
-            "title": null,
-            "clicks": 809,
-            "similarity": 0.7151158452033997,
-            "score": 1.057198367087409
-          },
-          {
-            "url": "https://www.parismatch.com/vivre/bijoux-et-montres/le-miracle-chopard-269326",
-            "title": null,
-            "clicks": 601,
-            "similarity": 0.7091041803359985,
-            "score": 1.0332791310285043
-          }
-        ]
-      },
-      {
         "label": "Train",
         "members": [
           "Train",
           "Gare de Paris Est"
         ],
         "global_articles_count": 6,
-        "global_total_score": 3.1,
+        "global_total_score": 4.5,
         "query": "Train Gare de Paris Est",
         "matches": [
           {
@@ -3346,50 +3416,97 @@
         ]
       },
       {
+        "label": "Météorologie",
+        "members": [
+          "Météorologie",
+          "Grêle"
+        ],
+        "global_articles_count": 5,
+        "global_total_score": 3.2,
+        "query": "Météorologie Grêle",
+        "matches": [
+          {
+            "url": "https://www.parismatch.com/actu/politique/les-terres-froides-ce-coin-de-france-ou-les-maires-tombent-comme-des-mouches-265863",
+            "title": null,
+            "clicks": 231993,
+            "similarity": 0.6887761950492859,
+            "score": 1.2965949540685857
+          },
+          {
+            "url": "https://www.parismatch.com/actu/societe/meteo-quel-temps-fera-t-il-cet-automne-en-france-257606",
+            "title": null,
+            "clicks": 1972,
+            "similarity": 0.7283397316932678,
+            "score": 1.1230639958525552
+          },
+          {
+            "url": "https://www.parismatch.com/Actu/Environnement/meteo-pourquoi-il-va-faire-tres-chaud-en-france-en-juillet-253476",
+            "title": null,
+            "clicks": 5206,
+            "similarity": 0.6926307678222656,
+            "score": 1.116014145900354
+          },
+          {
+            "url": "https://www.parismatch.com/actu/societe/meteo-quel-temps-fera-t-il-en-france-pour-les-vacances-de-la-toussaint-258077",
+            "title": null,
+            "clicks": 2932,
+            "similarity": 0.6962478756904602,
+            "score": 1.093297204922836
+          },
+          {
+            "url": "https://www.parismatch.com/actu/sport/record-en-apnee-que-peut-on-faire-en-29-minutes-259873",
+            "title": null,
+            "clicks": 2682,
+            "similarity": 0.6909143924713135,
+            "score": 1.0805255019477888
+          }
+        ]
+      },
+      {
         "label": "Limoges",
         "members": [
           "Limoges",
-          "Haute-Vienne",
-          "Ikea"
+          "Ikea",
+          "Haute-Vienne"
         ],
-        "global_articles_count": 8,
-        "global_total_score": 2.7,
-        "query": "Limoges Haute-Vienne Ikea",
+        "global_articles_count": 10,
+        "global_total_score": 3.1,
+        "query": "Limoges Ikea Haute-Vienne",
         "matches": [
-          {
-            "url": "https://www.parismatch.com/Guide-shopping/liquidation-des-stocks-legami-de-nombreux-produits-sont-a-prix-fracasses-pour-une-duree-limitee-264286",
-            "title": null,
-            "clicks": 11584,
-            "similarity": 0.5744411945343018,
-            "score": 0.9583922086634599
-          },
           {
             "url": "https://www.parismatch.com/Vivre/Art-de-vivre/artisanat-du-luxe-la-french-touch-vit-a-limoges-258291",
             "title": null,
             "clicks": 2132,
-            "similarity": 0.619046151638031,
-            "score": 0.9579865092222808
+            "similarity": 0.6487287878990173,
+            "score": 1.0039209924929302
+          },
+          {
+            "url": "https://www.parismatch.com/vivre/mode/arles-lautre-capitale-de-lelegance-254827",
+            "title": null,
+            "clicks": 8209,
+            "similarity": 0.6042982935905457,
+            "score": 0.9933415726394995
+          },
+          {
+            "url": "https://www.parismatch.com/actu/politique/dans-le-loiret-lunion-des-deux-rn-267592",
+            "title": null,
+            "clicks": 5498,
+            "similarity": 0.6041365265846252,
+            "score": 0.9757806707914676
           },
           {
             "url": "https://www.parismatch.com/Guide-shopping/carrefour-assomme-la-concurrence-avec-cette-pergola-en-promotion-avant-lete-267834",
             "title": null,
             "clicks": 2809,
-            "similarity": 0.5758904218673706,
-            "score": 0.9025412182781084
+            "similarity": 0.5991585850715637,
+            "score": 0.9390073159383379
           },
           {
-            "url": "https://www.parismatch.com/actu/economie/economie-sherpa-la-superette-des-alpages-264604",
+            "url": "https://www.parismatch.com/actu/economie/vestiaire-collective-le-luxe-pour-toutes-257042",
             "title": null,
-            "clicks": 367,
-            "similarity": 0.6227189302444458,
-            "score": 0.8855100078910186
-          },
-          {
-            "url": "https://www.parismatch.com/Guide-shopping/ou-shopper-les-birkenstock-culte-a-prix-doux-266062",
-            "title": null,
-            "clicks": 925,
-            "similarity": 0.5832327008247375,
-            "score": 0.8678033600295092
+            "clicks": 974,
+            "similarity": 0.6179474592208862,
+            "score": 0.9217320841101535
           }
         ]
       },
@@ -3399,8 +3516,8 @@
           "Roland-Garros",
           "Tennis"
         ],
-        "global_articles_count": 10,
-        "global_total_score": 2.5,
+        "global_articles_count": 11,
+        "global_total_score": 2.7,
         "query": "Roland-Garros Tennis",
         "matches": [
           {
@@ -3443,95 +3560,52 @@
     ],
     "by_entity": [
       {
-        "name": "Corée du Sud",
-        "global_articles_count": 5,
-        "global_total_score": 35.5,
-        "query": "Corée du Sud",
-        "matches": [
-          {
-            "url": "https://www.parismatch.com/actu/international/coree-du-nord-les-executions-de-citoyens-condamnes-pour-avoir-regarde-des-films-etrangers-explosent-256974",
-            "title": null,
-            "clicks": 103571,
-            "similarity": 0.579591691493988,
-            "score": 1.0576729614533391
-          },
-          {
-            "url": "https://www.parismatch.com/vivre/voyage/hong-kong-vu-par-valentin-kretz-263112",
-            "title": null,
-            "clicks": 8494,
-            "similarity": 0.6131535172462463,
-            "score": 1.0093922855468564
-          },
-          {
-            "url": "https://www.parismatch.com/actu/politique/brigitte-macron-trinque-a-la-coree-du-sud-entre-stray-kids-et-la-premiere-dame-kim-hye-kyung-266951",
-            "title": null,
-            "clicks": 10039,
-            "similarity": 0.6000898480415344,
-            "score": 0.9950489427320355
-          },
-          {
-            "url": "https://www.parismatch.com/bio/tcheky-karyo",
-            "title": null,
-            "clicks": 4238,
-            "similarity": 0.5984293818473816,
-            "score": 0.9554387868585092
-          },
-          {
-            "url": "https://www.parismatch.com/actu/international/hideo-suzuki-lambassadeur-du-japon-qui-nous-fait-aimer-la-france-265164",
-            "title": null,
-            "clicks": 2373,
-            "similarity": 0.5844249129295349,
-            "score": 0.9088780703636761
-          }
-        ]
-      },
-      {
-        "name": "Intelligence artificielle",
+        "name": "Jean-Luc Mélenchon",
         "global_articles_count": 4,
-        "global_total_score": 21.4,
-        "query": "Intelligence artificielle",
+        "global_total_score": 19.5,
+        "query": "Jean-Luc Mélenchon",
         "matches": [
           {
-            "url": "https://www.parismatch.com/People/jean-michel-jarre-et-gong-li-main-dans-la-main-pour-le-festival-mondial-du-film-dintelligence-artificielle-267980",
+            "url": "https://www.parismatch.com/actu/politique/presidentielle-2027-lhypothese-michel-edouard-leclerc-nouvelle-personnalite-preferee-des-francais-264274",
             "title": null,
-            "clicks": 22990,
-            "similarity": 0.7078420519828796,
-            "score": 1.2156104302096868
+            "clicks": 45844,
+            "similarity": 0.6906196475028992,
+            "score": 1.220079323935451
           },
           {
-            "url": "https://www.parismatch.com/actu/societe/intelligence-artificielle-pourquoi-chaque-famille-devrait-avoir-un-nom-de-code-face-aux-arnaques-vocales-259517",
+            "url": "https://www.parismatch.com/actu/politique/edouard-philippe-nest-plus-candidat-a-la-presidentielle-pendant-deux-mois-263661",
             "title": null,
-            "clicks": 16268,
-            "similarity": 0.711348831653595,
-            "score": 1.2040603691771525
+            "clicks": 84882,
+            "similarity": 0.670353353023529,
+            "score": 1.2137719045897433
           },
           {
-            "url": "https://www.parismatch.com/actu/economie/quels-metiers-sont-encore-a-labri-de-lintelligence-artificielle-253730",
+            "url": "https://www.parismatch.com/actu/politique/jean-christophe-cambadelis-melenchon-est-un-produit-date-perime-259825",
             "title": null,
-            "clicks": 783,
-            "similarity": 0.8056278228759766,
-            "score": 1.1891302035773994
+            "clicks": 602,
+            "similarity": 0.7268412709236145,
+            "score": 1.0592111017533954
           },
           {
-            "url": "https://www.parismatch.com/actu/politique/conclave-sur-les-retraites-que-preconise-lintelligence-artificielle-253164",
+            "url": "https://www.parismatch.com/actu/politique/presidentielle-gerald-darmanin-la-percee-a-droite-265356",
             "title": null,
-            "clicks": 1446,
-            "similarity": 0.7766719460487366,
-            "score": 1.1803886713145666
+            "clicks": 925,
+            "similarity": 0.689859926700592,
+            "score": 1.0264560980444475
           },
           {
-            "url": "https://www.parismatch.com/actu/economie/intelligence-artificielle-comment-le-francais-mistral-a-multiplie-par-20-ses-revenus-en-un-an-264349",
+            "url": "https://www.parismatch.com/actu/economie/bernard-arnault-immortel-263114",
             "title": null,
-            "clicks": 1808,
-            "similarity": 0.7147413492202759,
-            "score": 1.097665532381554
+            "clicks": 795,
+            "similarity": 0.6867943406105042,
+            "score": 1.0144736919236794
           }
         ]
       },
       {
         "name": "Pompier",
         "global_articles_count": 5,
-        "global_total_score": 17.2,
+        "global_total_score": 18.7,
         "query": "Pompier",
         "matches": [
           {
@@ -3574,7 +3648,7 @@
       {
         "name": "Automobile",
         "global_articles_count": 8,
-        "global_total_score": 15.1,
+        "global_total_score": 18.6,
         "query": "Automobile",
         "matches": [
           {
@@ -3615,52 +3689,52 @@
         ]
       },
       {
-        "name": "Jean-Luc Mélenchon",
-        "global_articles_count": 4,
-        "global_total_score": 14.8,
-        "query": "Jean-Luc Mélenchon",
+        "name": "Corée du Sud",
+        "global_articles_count": 5,
+        "global_total_score": 18.0,
+        "query": "Corée du Sud",
         "matches": [
           {
-            "url": "https://www.parismatch.com/actu/politique/presidentielle-2027-lhypothese-michel-edouard-leclerc-nouvelle-personnalite-preferee-des-francais-264274",
+            "url": "https://www.parismatch.com/actu/international/coree-du-nord-les-executions-de-citoyens-condamnes-pour-avoir-regarde-des-films-etrangers-explosent-256974",
             "title": null,
-            "clicks": 45844,
-            "similarity": 0.6925589442253113,
-            "score": 1.223505371605172
+            "clicks": 103571,
+            "similarity": 0.579591691493988,
+            "score": 1.0576729614533391
           },
           {
-            "url": "https://www.parismatch.com/actu/politique/edouard-philippe-nest-plus-candidat-a-la-presidentielle-pendant-deux-mois-263661",
+            "url": "https://www.parismatch.com/vivre/voyage/hong-kong-vu-par-valentin-kretz-263112",
             "title": null,
-            "clicks": 84882,
-            "similarity": 0.6727141737937927,
-            "score": 1.2180465127643627
+            "clicks": 8494,
+            "similarity": 0.6131535172462463,
+            "score": 1.0093922855468564
           },
           {
-            "url": "https://www.parismatch.com/actu/politique/jean-christophe-cambadelis-melenchon-est-un-produit-date-perime-259825",
+            "url": "https://www.parismatch.com/actu/politique/brigitte-macron-trinque-a-la-coree-du-sud-entre-stray-kids-et-la-premiere-dame-kim-hye-kyung-266951",
             "title": null,
-            "clicks": 602,
-            "similarity": 0.7288775444030762,
-            "score": 1.0621785219618145
+            "clicks": 10039,
+            "similarity": 0.6000898480415344,
+            "score": 0.9950489427320355
           },
           {
-            "url": "https://www.parismatch.com/actu/politique/presidentielle-gerald-darmanin-la-percee-a-droite-265356",
+            "url": "https://www.parismatch.com/bio/tcheky-karyo",
             "title": null,
-            "clicks": 925,
-            "similarity": 0.691513180732727,
-            "score": 1.0289160071031136
+            "clicks": 4238,
+            "similarity": 0.5984293818473816,
+            "score": 0.9554387868585092
           },
           {
-            "url": "https://www.parismatch.com/actu/economie/bernard-arnault-immortel-263114",
+            "url": "https://www.parismatch.com/actu/international/hideo-suzuki-lambassadeur-du-japon-qui-nous-fait-aimer-la-france-265164",
             "title": null,
-            "clicks": 795,
-            "similarity": 0.6892384886741638,
-            "score": 1.018083977802775
+            "clicks": 2373,
+            "similarity": 0.5844249129295349,
+            "score": 0.9088780703636761
           }
         ]
       },
       {
         "name": "Hélicoptère",
         "global_articles_count": 3,
-        "global_total_score": 10.9,
+        "global_total_score": 16.4,
         "query": "Hélicoptère",
         "matches": [
           {
@@ -3702,51 +3776,94 @@
       },
       {
         "name": "Canicule",
-        "global_articles_count": 11,
-        "global_total_score": 10.3,
+        "global_articles_count": 13,
+        "global_total_score": 12.9,
         "query": "Canicule",
         "matches": [
           {
             "url": "https://www.parismatch.com/Guide-shopping/ces-ventilateurs-vont-vous-aider-a-supporter-la-canicule-253136",
             "title": null,
             "clicks": 4655,
-            "similarity": 0.6481603384017944,
-            "score": 1.0391821364852647
+            "similarity": 0.6501806974411011,
+            "score": 1.0424213365697854
           },
           {
             "url": "https://www.parismatch.com/Actu/Environnement/vers-un-super-el-nino-capable-de-faire-exploser-les-records-de-chaleur-269553",
             "title": null,
             "clicks": 514,
-            "similarity": 0.686103343963623,
-            "score": 0.9921136147359346
+            "similarity": 0.6865781545639038,
+            "score": 0.9928001965243838
           },
           {
             "url": "https://www.parismatch.com/Actu/Environnement/meteo-une-premiere-canicule-des-cette-semaine-252509",
             "title": null,
             "clicks": 336,
-            "similarity": 0.6750164031982422,
-            "score": 0.9556343636240948
+            "similarity": 0.6769826412200928,
+            "score": 0.9584180065279441
           },
           {
             "url": "https://www.parismatch.com/Actu/Environnement/typhon-ragasa-lenfer-vu-ciel-257438",
             "title": null,
             "clicks": 196,
-            "similarity": 0.6889654397964478,
-            "score": 0.9489614955467479
+            "similarity": 0.6903253197669983,
+            "score": 0.9508345557266591
           },
           {
             "url": "https://www.parismatch.com/vivre/bijoux-et-montres/chaumet-luniforme-du-changement-259213",
             "title": null,
             "clicks": 379,
-            "similarity": 0.662899374961853,
-            "score": 0.9441662185757632
+            "similarity": 0.6641280055046082,
+            "score": 0.9459161545349675
+          }
+        ]
+      },
+      {
+        "name": "Iran",
+        "global_articles_count": 3,
+        "global_total_score": 9.3,
+        "query": "Iran",
+        "matches": [
+          {
+            "url": "https://www.parismatch.com/actu/economie/guerre-en-iran-pourquoi-vos-vacances-pourraient-etre-perturbees-267734",
+            "title": null,
+            "clicks": 3701,
+            "similarity": 0.5963937640190125,
+            "score": 0.946418477916564
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/une-mission-confiee-par-le-mossad-un-iranien-accuse-davoir-collabore-avec-israel-execute-268153",
+            "title": null,
+            "clicks": 2493,
+            "similarity": 0.6032451391220093,
+            "score": 0.9402714388256769
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/guerre-en-iran-ou-se-trouve-le-guide-supreme-iranien-mojtaba-khamenei-269489",
+            "title": null,
+            "clicks": 809,
+            "similarity": 0.6355496644973755,
+            "score": 0.9395709408710804
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/nucleaire-les-etats-unis-et-liran-desormais-meilleurs-amis-du-monde-252058",
+            "title": null,
+            "clicks": 1321,
+            "similarity": 0.6077511310577393,
+            "score": 0.91974021848311
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/comment-liran-a-appris-de-la-guerre-en-ukraine-pour-preparer-le-conflit-avec-les-etats-unis-267781",
+            "title": null,
+            "clicks": 389,
+            "similarity": 0.6079928278923035,
+            "score": 0.8670910012880363
           }
         ]
       },
       {
         "name": "Vincent Bolloré",
         "global_articles_count": 3,
-        "global_total_score": 7.9,
+        "global_total_score": 8.8,
         "query": "Vincent Bolloré",
         "matches": [
           {
@@ -3788,8 +3905,8 @@
       },
       {
         "name": "Température",
-        "global_articles_count": 12,
-        "global_total_score": 6.8,
+        "global_articles_count": 13,
+        "global_total_score": 7.6,
         "query": "Température",
         "matches": [
           {
@@ -3831,44 +3948,44 @@
       },
       {
         "name": "Collège",
-        "global_articles_count": 3,
-        "global_total_score": 5.9,
+        "global_articles_count": 4,
+        "global_total_score": 6.0,
         "query": "Collège",
         "matches": [
           {
             "url": "https://www.parismatch.com/bio/tcheky-karyo",
             "title": null,
             "clicks": 4238,
-            "similarity": 0.6271060705184937,
-            "score": 1.001223337995462
+            "similarity": 0.6256528496742249,
+            "score": 0.9989031585346885
           },
           {
             "url": "https://www.parismatch.com/Vivre/Art-de-vivre/le-graal-capillaire-259408",
             "title": null,
             "clicks": 5291,
-            "similarity": 0.6085434556007385,
-            "score": 0.9812307476949982
+            "similarity": 0.607053816318512,
+            "score": 0.9788288159130648
           },
           {
             "url": "https://www.parismatch.com/actu/international/fusillade-de-minneapolis-comment-des-collegiens-ont-protege-les-plus-jeunes-eleves-256276",
             "title": null,
             "clicks": 3415,
-            "similarity": 0.6078961491584778,
-            "score": 0.9611804479808815
+            "similarity": 0.6068859100341797,
+            "score": 0.9595830993294632
           },
           {
             "url": "https://www.parismatch.com/vivre/mode/arles-lautre-capitale-de-lelegance-254827",
             "title": null,
             "clicks": 8209,
-            "similarity": 0.5821893215179443,
-            "score": 0.9569989893143823
+            "similarity": 0.5814487934112549,
+            "score": 0.9557817140682253
           },
           {
             "url": "https://www.parismatch.com/culture/cinema/michel-audiard-mots-pour-mots-255244",
             "title": null,
             "clicks": 4882,
-            "similarity": 0.5726592540740967,
-            "score": 0.9200799684350005
+            "similarity": 0.5720098614692688,
+            "score": 0.9190366025536301
           }
         ]
       }
