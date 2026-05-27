@@ -546,6 +546,7 @@ const renderBriefingSujet = (sujet) => {
           { class: "briefing-sujet__theme" },
           sujet.theme || "—",
         ),
+        renderOriginBadge(sujet.source_origin),
         renderAffinityBadge(aff),
       ),
     ),
@@ -565,6 +566,24 @@ const renderBriefingSujet = (sujet) => {
   });
 
   return row;
+};
+
+const ORIGIN_LABELS = {
+  msn: { label: "MSN", title: "Repéré dans le flux MSN (signal d'engagement)" },
+  discover: { label: "Discover", title: "Repéré dans Google Discover, catégorie alignée avec le projet" },
+  gnews: { label: "Actu", title: "Repéré dans Google Actualités, mot-clé thématique du projet" },
+};
+
+const renderOriginBadge = (origin) => {
+  const meta = ORIGIN_LABELS[origin] || ORIGIN_LABELS.msn;
+  return h(
+    "span",
+    {
+      class: `briefing-sujet__origin is-${origin || "msn"}`,
+      title: meta.title,
+    },
+    meta.label,
+  );
 };
 
 const renderAffinityBadge = (aff) => {

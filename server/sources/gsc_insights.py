@@ -120,6 +120,204 @@ def _resolve_project_name(project_slug: str) -> str:
     return cfg.get("name") or project_slug.replace("-", " ").title()
 
 
+def _normalize_title_for_dedup(title: str) -> str:
+    """Hash léger pour dédupliquer les sujets : minuscules + suppression
+    ponctuation + 60 premiers caractères. Suffit pour repérer les doublons
+    quasi-identiques entre MSN/Discover/GNews."""
+    import re
+
+    cleaned = re.sub(r"[^\w\s]", " ", title.lower())
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    return cleaned[:60]
+
+
+def _theme_keywords_for_project(project_cfg: dict[str, Any]) -> set[str]:
+    """Retourne l'ensemble des mots-clés thématiques attendus pour ce projet
+    (themes + expansions). Utilisé pour le matching GNews."""
+    themes = [t.lower().strip() for t in (project_cfg.get("themes") or [])]
+    keywords: set[str] = set()
+    for theme in themes:
+        for kw in THEME_KEYWORD_EXPANSIONS.get(theme, [theme]):
+            keywords.add(kw)
+    return keywords
+
+
+def _title_matches_themes(title: str, keywords: set[str]) -> str | None:
+    """Retourne le premier mot-clé thématique trouvé dans le titre, ou None.
+    Match mot-entier pour éviter les faux positifs (tech ≠ discothèque)."""
+    haystack = f" {title.lower()} "
+    for kw in keywords:
+        if f" {kw} " in haystack:
+            return kw
+    return None
+
+
+def _category_matches(article_category: str, project_categories: list[str]) -> str | None:
+    """Vérifie si la catégorie d'un article Discover chevauche celles du projet.
+    Retourne la catégorie projet qui matche, ou None."""
+    if not article_category:
+        return None
+    art_lc = article_category.lower().strip()
+    for pcat in project_categories or []:
+        pcat_lc = pcat.lower().strip()
+        if not pcat_lc:
+            continue
+        if art_lc.startswith(pcat_lc) or pcat_lc.startswith(art_lc):
+            return pcat
+    return None
+
+
+def _discover_to_candidate(article: dict[str, Any], matched_cat: str) -> dict[str, Any]:
+    """Convertit un article Discover en sujet candidat compatible avec le
+    pipeline de scoring projet. Le 'score' Discover (0-65) est mappé vers un
+    global_score 0-60 pour rester comparable aux sujets MSN-sourcés."""
+    raw_score = float(article.get("score") or 0)
+    # Discover : 0.5 → 30, 5 → 60, 30+ → 95. Saturation log.
+    if raw_score <= 0:
+        global_score = 15
+    else:
+        global_score = int(min(95, 30 + 20 * math.log10(1 + raw_score)))
+
+    if raw_score >= 10:
+        value = f"{raw_score:.0f}/65"
+    elif raw_score >= 1:
+        value = f"{raw_score:.1f}/65"
+    else:
+        value = "présent"
+
+    signals = [
+        {"source": "gsc", "label": "discover", "value": value},
+    ]
+    publisher = article.get("publisher") or "Discover"
+    entities = list(article.get("entities_list") or [])
+
+    return {
+        "id": f"d_{abs(hash(article.get('url', ''))) % 10**8}",
+        "title": article.get("title", ""),
+        "theme": (matched_cat.split("/")[-1] if matched_cat else "actualité"),
+        "score": global_score,
+        "tier": "high" if global_score >= 60 else "medium",
+        "rationale": (
+            f"Repéré dans Google Discover ({publisher}) "
+            f"sur le territoire éditorial du projet ({matched_cat})."
+        ),
+        "signals": signals,
+        "msn_url": article.get("url"),
+        "msn_source_name": publisher,
+        "discover_category": article.get("category"),
+        "discover_entities": entities,
+        "source_origin": "discover",
+    }
+
+
+def _gnews_to_candidate(article: dict[str, Any], matched_kw: str) -> dict[str, Any]:
+    """Convertit un article GNews en sujet candidat. Le global_score est
+    modeste car GNews seul = juste de la couverture média, pas de signal
+    d'engagement."""
+    publisher = article.get("source") or "Google News"
+    return {
+        "id": f"g_{abs(hash(article.get('url', ''))) % 10**8}",
+        "title": article.get("title", ""),
+        "theme": "actualité",
+        "score": 25,  # Base modeste, à booster par l'affinité GSC
+        "tier": "medium",
+        "rationale": (
+            f"Repéré dans Google Actualités ({publisher}) "
+            f"sur un mot-clé du territoire éditorial ({matched_kw})."
+        ),
+        "signals": [
+            {"source": "news", "label": "gnews", "value": publisher},
+        ],
+        "msn_url": article.get("url"),
+        "msn_source_name": publisher,
+        "discover_category": None,
+        "discover_entities": [],
+        "source_origin": "gnews",
+    }
+
+
+MAX_DISCOVER_CANDIDATES = 40
+MAX_GNEWS_CANDIDATES = 30
+
+
+def _gather_project_candidates(
+    project_cfg: dict[str, Any],
+    existing_titles: set[str],
+) -> list[dict[str, Any]]:
+    """Élargit le pool de candidats avec les articles Discover + GNews qui
+    touchent directement le territoire éditorial du projet.
+
+    Pour les projets spécialisés (cf strict_topical_filter), MSN seul ne
+    suffit pas : ses 100 articles couvrent surtout people/politique. On va
+    chercher les 1000+ articles Discover et 400+ GNews qui matchent les
+    catégories/thèmes du projet.
+
+    Dédup par titre normalisé contre `existing_titles` (sujets MSN déjà
+    scorés) ET entre candidats Discover/GNews eux-mêmes.
+    """
+    candidates: list[dict[str, Any]] = []
+    seen = set(existing_titles)
+
+    # --- Discover : filtre par catégorie ---
+    discover_path = DATA_DIR / "discoversnoop" / "latest.json"
+    if discover_path.exists():
+        try:
+            payload = json.loads(discover_path.read_text(encoding="utf-8"))
+            articles = payload.get("articles") or []
+        except json.JSONDecodeError:
+            articles = []
+        # Tri par score Discover décroissant pour prioriser les top potentiels
+        articles_sorted = sorted(
+            articles, key=lambda a: float(a.get("score") or 0), reverse=True
+        )
+        discover_added = 0
+        for art in articles_sorted:
+            if discover_added >= MAX_DISCOVER_CANDIDATES:
+                break
+            title = art.get("title") or ""
+            if not title:
+                continue
+            matched_cat = _category_matches(
+                art.get("category") or "", project_cfg.get("categories") or []
+            )
+            if not matched_cat:
+                continue
+            key = _normalize_title_for_dedup(title)
+            if key in seen:
+                continue
+            seen.add(key)
+            candidates.append(_discover_to_candidate(art, matched_cat))
+            discover_added += 1
+
+    # --- GNews : filtre par mot-clé thématique ---
+    gnews_path = DATA_DIR / "google_news" / "latest.json"
+    if gnews_path.exists():
+        try:
+            payload = json.loads(gnews_path.read_text(encoding="utf-8"))
+            articles = payload.get("articles") or []
+        except json.JSONDecodeError:
+            articles = []
+        keywords = _theme_keywords_for_project(project_cfg)
+        gnews_added = 0
+        for art in articles:
+            if gnews_added >= MAX_GNEWS_CANDIDATES:
+                break
+            title = art.get("title") or ""
+            if not title:
+                continue
+            matched_kw = _title_matches_themes(title, keywords)
+            if not matched_kw:
+                continue
+            key = _normalize_title_for_dedup(title)
+            if key in seen:
+                continue
+            seen.add(key)
+            candidates.append(_gnews_to_candidate(art, matched_kw))
+            gnews_added += 1
+
+    return candidates
+
+
 def _load_global_sujets() -> dict[str, Any] | None:
     """Charge data/sujets/latest.json (sortie du scoring global).
 
@@ -457,6 +655,9 @@ def score_sujets_for_project(
             "external_sources": ext_sources,
             "topical_match": topical_match if strict else None,
             "topical_reason": topical_reason if strict else None,
+            # Origine du candidat (msn par défaut, discover/gnews pour les
+            # candidats injectés par _gather_project_candidates)
+            "source_origin": sujet.get("source_origin", "msn"),
         }
         scored.append(enriched)
 
@@ -505,11 +706,31 @@ def build_insights(project_slug: str) -> dict[str, Any]:
     affinity_threshold = float(
         project_cfg.get("affinity_min_similarity", AFFINITY_MIN_SIMILARITY)
     )
-    if sujets:
+
+    # Pour les projets spécialisés : élargir le pool de candidats avec les
+    # articles Discover (par catégorie) et GNews (par mot-clé thématique)
+    # touchant directement le territoire éditorial. MSN seul ne suffit pas
+    # (100 articles généralistes), on a 1000+ Discover et 400+ GNews dont
+    # une partie est dans le territoire du projet.
+    candidates = list(sujets)
+    extra_candidates_meta = {"discover": 0, "gnews": 0}
+    if project_cfg.get("strict_topical_filter"):
+        existing_titles = {
+            _normalize_title_for_dedup(s.get("title", "")) for s in sujets
+        }
+        extra = _gather_project_candidates(project_cfg, existing_titles)
+        for c in extra:
+            if c.get("source_origin") == "discover":
+                extra_candidates_meta["discover"] += 1
+            elif c.get("source_origin") == "gnews":
+                extra_candidates_meta["gnews"] += 1
+        candidates.extend(extra)
+
+    if candidates:
         scored_sujets, filter_meta = score_sujets_for_project(
             project_slug,
             project_name,
-            sujets,
+            candidates,
             project_cfg=project_cfg,
             affinity_min_similarity=affinity_threshold,
         )
@@ -521,6 +742,7 @@ def build_insights(project_slug: str) -> dict[str, Any]:
             "excluded_off_topic": 0,
             "strict_topical": bool(project_cfg.get("strict_topical_filter", False)),
         }
+    filter_meta["extra_candidates"] = extra_candidates_meta
 
     # Distribution par tier du Project Score (utile pour les compteurs hero)
     project_tier_counts = {"high": 0, "medium": 0, "low": 0}

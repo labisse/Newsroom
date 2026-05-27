@@ -854,6 +854,32 @@
   color: var(--primary-color);
 }
 
+/* Badge d'origine d'un sujet : MSN / Discover / Actu */
+.briefing-sujet__origin {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 2px 7px;
+  border: 1px solid var(--border-color);
+  background: var(--card-bg);
+  color: var(--text-secondary);
+  margin-right: 6px;
+  cursor: help;
+}
+
+.briefing-sujet__origin.is-discover {
+  border-color: rgba(245, 0, 0, 0.4);
+  color: var(--primary-color);
+}
+
+.briefing-sujet__origin.is-gnews {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: var(--text-primary);
+}
+
 .project-briefing__counts {
   display: flex;
   gap: var(--space-sm);
