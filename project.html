@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">Projet · Editorial Signal</title>
+    <meta name="description" content="Détail du projet par site" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="styles/tokens.css?v=tbr3" />
+    <link rel="stylesheet" href="styles/base.css?v=tbr3" />
+    <link rel="stylesheet" href="styles/components.css?v=tbr3" />
+    <link rel="stylesheet" href="styles/projects.css?v=tbr3" />
+    <script>
+      (function () {
+        try {
+          var raw = localStorage.getItem("tbr-auth-session");
+          var session = raw ? JSON.parse(raw) : null;
+          if (!session || typeof session.expires !== "number" || Date.now() >= session.expires) {
+            document.documentElement.classList.add("is-locked");
+          }
+        } catch (e) {
+          document.documentElement.classList.add("is-locked");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="auth-gate" id="auth-gate" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+      <div class="auth-gate__card">
+        <div class="auth-gate__brand">
+          <img class="auth-gate__brand-logo" src="assets/logo-tbr.svg" alt="" />
+          <div class="auth-gate__brand-text">
+            <span class="auth-gate__brand-product">Editorial Signal</span>
+            <span class="auth-gate__brand-tag">The <em>Black</em> Room</span>
+          </div>
+        </div>
+        <h2 class="auth-gate__title" id="auth-title">Accès restreint</h2>
+        <p class="auth-gate__deck">
+          POC en cours · accès réservé à l'équipe et aux testeurs validés.
+        </p>
+        <form class="auth-gate__form" id="auth-form" novalidate autocomplete="off">
+          <div class="auth-gate__field">
+            <label class="auth-gate__label" for="auth-email">Email</label>
+            <input class="auth-gate__input" type="email" id="auth-email" name="email" placeholder="contact@…" autocomplete="email" required />
+          </div>
+          <div class="auth-gate__field">
+            <label class="auth-gate__label" for="auth-password">Mot de passe</label>
+            <input class="auth-gate__input" type="password" id="auth-password" name="password" placeholder="••••••••" autocomplete="current-password" required />
+          </div>
+          <div class="auth-gate__error" id="auth-error" role="alert"></div>
+          <button class="btn btn--primary auth-gate__submit" type="submit">Accéder</button>
+        </form>
+        <p class="auth-gate__footer">Session conservée 7 jours sur ce navigateur.</p>
+      </div>
+    </div>
+
+    <header class="shell-header">
+      <a class="brand" href="index.html" aria-label="The Black Room — Editorial Signal">
+        <img class="brand__logo" src="assets/logo-tbr.svg" alt="" />
+        <span class="brand__text">
+          <span class="brand__product">Editorial Signal</span>
+          <span class="brand__byline">The <em>Black</em> Room</span>
+        </span>
+      </a>
+      <nav class="shell-nav" aria-label="Navigation principale">
+        <a class="shell-nav__link" href="index.html">Flux global</a>
+        <a class="shell-nav__link is-active" href="projects.html">Projets</a>
+        <a class="shell-nav__link" href="#">Historique</a>
+        <a class="shell-nav__link" href="#">Paramètres</a>
+      </nav>
+      <div class="shell-user">
+        <span class="shell-user__role">Rédac chef</span>
+        <button class="shell-user__avatar" type="button" data-auth-logout title="Cliquer pour se déconnecter">CP</button>
+      </div>
+    </header>
+
+    <main class="projects-page content" id="project-main">
+      <section class="project-detail-hero">
+        <a class="project-detail-hero__back" href="projects.html">← Tous les projets</a>
+        <h1 class="project-detail-hero__name" id="project-name">—</h1>
+        <span class="project-detail-hero__domain" id="project-domain">—</span>
+        <p class="project-detail-hero__tagline" id="project-tagline"></p>
+        <div class="project-detail-hero__themes" id="project-themes"></div>
+      </section>
+
+      <section class="project-pending">
+        <div class="project-pending__icon">
+          <span></span>
+          Connexion GSC en attente
+        </div>
+        <h2 class="project-pending__title">Flux Discover personnalisé bientôt disponible</h2>
+        <p class="project-pending__deck">
+          Une fois la <strong>Google Search Console</strong> du site connectée,
+          ce projet affichera un flux de sujets <strong>personnalisé</strong> :
+          signaux externes (Trends, Wiki, X, Discover global) croisés avec
+          <strong>vingt ans d'historique d'audience</strong>, pour anticiper les
+          sujets que tes lecteurs vont chercher avant même qu'ils ne le fassent.
+        </p>
+        <div class="project-pending__steps">
+          <div class="project-pending__step">
+            <span class="project-pending__step-num">01</span>
+            <span>
+              <strong>OAuth GSC</strong><br />
+              Connexion en lecture seule de la Google Search Console du domaine.
+            </span>
+          </div>
+          <div class="project-pending__step">
+            <span class="project-pending__step-num">02</span>
+            <span>
+              <strong>Import des archives</strong><br />
+              Téléchargement de l'historique Discover (jusqu'à 16 mois côté GSC,
+              plus si CSV manuel) pour cartographier les sujets performants.
+            </span>
+          </div>
+          <div class="project-pending__step">
+            <span class="project-pending__step-num">03</span>
+            <span>
+              <strong>Scoring contextuel</strong><br />
+              Les signaux externes sont pondérés par l'affinité historique du
+              site avec chaque thématique. Un sujet "People" sort prioritaire
+              pour Paris Match, un sujet "Espace" pour Futura Sciences.
+            </span>
+          </div>
+          <div class="project-pending__step">
+            <span class="project-pending__step-num">04</span>
+            <span>
+              <strong>Anticipation IA</strong><br />
+              Sur les sujets récurrents (virus, élections, décès, événements
+              sportifs), génération automatique de pages "questions
+              prévisibles" ancrées sur les pages existantes les mieux placées.
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <div id="project-error" style="display: none"></div>
+    </main>
+
+    <script type="module" src="scripts/auth.js"></script>
+    <script type="module" src="scripts/project-detail.js"></script>
+  </body>
+</html>

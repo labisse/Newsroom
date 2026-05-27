@@ -1,22 +1,21 @@
 /* ===================================================================
-   Daily Briefing — rendering + interactions
+   Daily Briefing — flux Discover global, vue neutre sans assignation.
    ===================================================================
 
-   Les sujets viennent désormais du backend (data/sujets/latest.json).
-   Le pool de rédacteurs reste mock le temps que le byline mapper
-   Phase 1 produise data/byline/me.json.
+   Les sujets viennent du backend (data/sujets/latest.json).
+   Pas de rédacteur attaché : la HP est un flux généraliste,
+   les vues filtrées par site arrivent côté "Projets".
 */
 
-import { tierFromScore, tierLabel } from "./data.js";
-import { loadSujets, formatFreshness, formatLongDate } from "./api.js";
+import { tierFromScore, tierLabel } from "./data.js?v=tbr4";
+import { loadSujets, formatFreshness, formatLongDate } from "./api.js?v=tbr4";
 import {
   h,
   renderScore,
   renderSignal,
-  renderReporter,
   renderTierDivider,
   chevronSvg,
-} from "./utils.js";
+} from "./utils.js?v=tbr4";
 
 /* ----- Sujet row (liste) ----- */
 
@@ -41,7 +40,6 @@ const renderSujet = (sujet) => {
         ),
       ),
     ),
-    h("div", { class: "sujet__reporter" }, renderReporter(sujet.reporter, { showStats: true })),
     h("button", { class: "sujet__chevron", "aria-label": "Voir détail" }, chevronSvg()),
     renderDetail(sujet),
   );
@@ -70,26 +68,10 @@ const renderDetail = (sujet) => {
     ),
   );
 
-  const reporterStack = [sujet.reporter, ...sujet.altReporters].map((rep, idx) =>
-    h(
-      "div",
-      {
-        class: `detail-reporter-item${idx === 0 ? " is-recommended" : ""}`,
-      },
-      renderReporter(rep),
-      h("span", { class: "detail-reporter-item__score" }, String(rep.themeScore)),
-      h(
-        "span",
-        { class: "detail-reporter-item__choose" },
-        idx === 0 ? "Recommandé" : "Assigner",
-      ),
-    ),
-  );
-
   const refs = sujet.refs?.length
     ? h(
         "div",
-        { class: "detail-sources", style: "margin-top: 20px" },
+        { class: "detail-sources", style: "margin-top: 24px" },
         h("span", { class: "detail-col__label" }, "Articles de référence"),
         ...sujet.refs.map((r) =>
           h(
@@ -129,12 +111,6 @@ const renderDetail = (sujet) => {
     ),
     h(
       "div",
-      { class: "detail-col" },
-      h("span", { class: "detail-col__label" }, "Rédacteurs possibles"),
-      h("div", { class: "detail-reporter-stack" }, ...reporterStack),
-    ),
-    h(
-      "div",
       { class: "detail-actions" },
       h(
         "button",
@@ -153,10 +129,10 @@ const renderDetail = (sujet) => {
           class: "btn btn--ghost btn--sm",
           onClick: (e) => {
             e.stopPropagation();
-            action("reassign", sujet);
+            action("save", sujet);
           },
         },
-        "Réassigner",
+        "Sauvegarder",
       ),
       h(
         "button",
@@ -176,7 +152,7 @@ const renderDetail = (sujet) => {
 const action = (kind, sujet) => {
   const labels = {
     validate: "Validé",
-    reassign: "Réassigner — sélecteur à venir",
+    save: "Sauvegardé pour projet",
     reject: "Rejeté",
   };
   toast(`${labels[kind]} · ${sujet.title.slice(0, 60)}${sujet.title.length > 60 ? "…" : ""}`);

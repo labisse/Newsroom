@@ -2,17 +2,15 @@
    Loader des sujets scorés depuis le backend.
 
    Fetch /data/sujets/latest.json (produit par
-   `python -m server.cli score`) et enrichit chaque sujet avec un
-   rédacteur recommandé + alternatives en attendant le byline mapper
-   Phase 1.
-   =================================================================== */
+   `python -m server.cli score`) et le retourne tel quel.
 
-import { assignReporterByTheme } from "./data.js";
+   Plus d'enrichment avec un rédacteur — le briefing global est neutre.
+   =================================================================== */
 
 const SUJETS_URL = "/data/sujets/latest.json";
 
 /**
- * Récupère et enrichit les sujets.
+ * Récupère les sujets scorés.
  * @returns {Promise<{ generatedAt: string, sources: object, sujets: object[] }>}
  */
 export const loadSujets = async () => {
@@ -34,21 +32,12 @@ export const loadSujets = async () => {
     throw new ApiError("Format de réponse inattendu (champ `sujets` manquant).");
   }
 
-  const enriched = payload.sujets.map((sujet) => {
-    const { primary, alts } = assignReporterByTheme(sujet.theme);
-    return {
-      ...sujet,
-      reporter: primary,
-      altReporters: alts,
-    };
-  });
-
   return {
     generatedAt: payload.generated_at,
     sources: payload.sources_used,
     weights: payload.weights,
     totals: payload.totals,
-    sujets: enriched,
+    sujets: payload.sujets,
   };
 };
 

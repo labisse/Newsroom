@@ -61,6 +61,32 @@
   font-style: normal;
 }
 
+.briefing-hero__scope {
+  margin-top: var(--space-md);
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
+  color: var(--text-secondary);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.briefing-hero__scope a {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: var(--fs-xs);
+  font-family: var(--font-display);
+  margin-left: var(--space-sm);
+  white-space: nowrap;
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--duration-fast) ease;
+}
+
+.briefing-hero__scope a:hover {
+  border-bottom-color: var(--primary-color);
+}
+
 .briefing-hero__meta {
   display: flex;
   flex-direction: column;

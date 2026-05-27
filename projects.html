@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Editorial Signal · Mes sujets · The Black Room</title>
-    <meta name="description" content="Vue rédacteur — mes sujets assignés du jour" />
+    <title>Projets · Editorial Signal · The Black Room</title>
+    <meta name="description" content="Sites configurés et flux Discover personnalisés" />
     <meta name="theme-color" content="#000000" />
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="styles/tokens.css?v=tbr3" />
     <link rel="stylesheet" href="styles/base.css?v=tbr3" />
     <link rel="stylesheet" href="styles/components.css?v=tbr3" />
-    <link rel="stylesheet" href="styles/reporter.css?v=tbr3" />
+    <link rel="stylesheet" href="styles/projects.css?v=tbr3" />
     <!-- Anti-FOUC : si pas de session valide, lock l'HTML avant le rendu -->
     <script>
       (function () {
@@ -33,7 +33,7 @@
     </script>
   </head>
   <body>
-    <!-- Auth gate — modal de connexion (cf scripts/auth.js) -->
+    <!-- Auth gate -->
     <div class="auth-gate" id="auth-gate" role="dialog" aria-modal="true" aria-labelledby="auth-title">
       <div class="auth-gate__card">
         <div class="auth-gate__brand">
@@ -50,34 +50,16 @@
         <form class="auth-gate__form" id="auth-form" novalidate autocomplete="off">
           <div class="auth-gate__field">
             <label class="auth-gate__label" for="auth-email">Email</label>
-            <input
-              class="auth-gate__input"
-              type="email"
-              id="auth-email"
-              name="email"
-              placeholder="contact@…"
-              autocomplete="email"
-              required
-            />
+            <input class="auth-gate__input" type="email" id="auth-email" name="email" placeholder="contact@…" autocomplete="email" required />
           </div>
           <div class="auth-gate__field">
             <label class="auth-gate__label" for="auth-password">Mot de passe</label>
-            <input
-              class="auth-gate__input"
-              type="password"
-              id="auth-password"
-              name="password"
-              placeholder="••••••••"
-              autocomplete="current-password"
-              required
-            />
+            <input class="auth-gate__input" type="password" id="auth-password" name="password" placeholder="••••••••" autocomplete="current-password" required />
           </div>
           <div class="auth-gate__error" id="auth-error" role="alert"></div>
           <button class="btn btn--primary auth-gate__submit" type="submit">Accéder</button>
         </form>
-        <p class="auth-gate__footer">
-          Session conservée 7 jours sur ce navigateur.
-        </p>
+        <p class="auth-gate__footer">Session conservée 7 jours sur ce navigateur.</p>
       </div>
     </div>
 
@@ -90,73 +72,43 @@
         </span>
       </a>
       <nav class="shell-nav" aria-label="Navigation principale">
-        <a class="shell-nav__link" href="index.html">Briefing</a>
-        <a class="shell-nav__link is-active" href="reporter.html">Mes sujets</a>
+        <a class="shell-nav__link" href="index.html">Flux global</a>
+        <a class="shell-nav__link is-active" href="projects.html">Projets</a>
         <a class="shell-nav__link" href="#">Historique</a>
         <a class="shell-nav__link" href="#">Paramètres</a>
       </nav>
       <div class="shell-user">
-        <span class="shell-user__role">Rédactrice · People</span>
-        <button
-          class="shell-user__avatar"
-          type="button"
-          data-auth-logout
-          title="Cliquer pour se déconnecter"
-        >SM</button></div>
+        <span class="shell-user__role">Rédac chef</span>
+        <button class="shell-user__avatar" type="button" data-auth-logout title="Cliquer pour se déconnecter">CP</button>
+      </div>
     </header>
 
-    <main class="reporter-page content">
-      <section class="reporter-hero">
+    <main class="projects-page content">
+      <section class="projects-hero">
         <div>
-          <span class="reporter-hero__eyebrow">Mercredi 27 mai 2026 · 08:23</span>
-          <h1 class="reporter-hero__greeting">
-            Bonjour <em id="greeting-name">Sophie</em>
-          </h1>
-          <p class="reporter-hero__deck">
-            Tu as <strong><span id="stat-todo">—</span> sujets à traiter</strong>
-            aujourd'hui, dont <strong><span id="stat-high">—</span> à fort signal</strong>.
-            Tout est priorisé par Signal Score.
+          <span class="projects-hero__eyebrow">Sites configurés</span>
+          <h1 class="projects-hero__title">Projets <em>par site</em></h1>
+          <p class="projects-hero__deck">
+            Chaque projet aura son flux Discover personnalisé une fois la
+            connexion Google Search Console établie. Combine signaux externes
+            + historique d'audience pour anticiper les sujets à fort potentiel.
           </p>
         </div>
-        <div class="reporter-hero__stats">
-          <div class="stat-card-row">
-            <div class="stat-card">
-              <div class="stat-card__value stat-card__value--success" id="stat-done-display">3</div>
-              <div class="stat-card__label">Sujets assignés</div>
-            </div>
-            <div class="stat-card">
-              <div class="stat-card__value">92</div>
-              <div class="stat-card__label">Score thématique</div>
-              <span class="stat-card__delta">+4</span>
-            </div>
-          </div>
-          <div class="stat-card-row">
-            <div class="stat-card" style="min-width: 100%">
-              <div class="stat-card__value">14</div>
-              <div class="stat-card__label">Articles Discover · 30 j</div>
-              <span class="stat-card__delta">+2 vs 30 j préc.</span>
-            </div>
-          </div>
+        <div class="projects-hero__action">
+          <button class="btn btn--primary" id="new-project-btn">Nouveau projet</button>
         </div>
       </section>
 
-      <section class="mytopics-section">
-        <div class="mytopics-section__head">
-          <h2 class="mytopics-section__title">Mes sujets aujourd'hui</h2>
-          <span class="sujet-list__hint">Triés par Signal Score</span>
+      <section class="projects-section">
+        <div class="projects-section__head">
+          <h2 class="projects-section__title">Vos sites</h2>
+          <span class="projects-section__hint" id="projects-meta">—</span>
         </div>
-        <ul class="mytopics-list" id="mytopics-list"></ul>
-
-        <div class="mytopics-done" id="done-block" style="display: none">
-          <p class="mytopics-done__title">Tout est traité.</p>
-          <p class="mytopics-done__hint">
-            Beau matin Sophie · le briefing de demain arrive vers 7 h 45.
-          </p>
-        </div>
+        <ul class="projects-grid" id="projects-grid"></ul>
       </section>
     </main>
 
     <script type="module" src="scripts/auth.js"></script>
-    <script type="module" src="scripts/reporter.js"></script>
+    <script type="module" src="scripts/projects.js"></script>
   </body>
 </html>

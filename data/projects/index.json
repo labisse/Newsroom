@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-05-27T00:00:00Z",
+  "projects": [
+    {
+      "slug": "parismatch",
+      "name": "Paris Match",
+      "domain": "parismatch.com",
+      "tagline": "Magazine d'actualité, people et reportages",
+      "categories": [
+        "/Arts & Entertainment/Celebrities & Entertainment News",
+        "/People & Society",
+        "/Arts & Entertainment"
+      ],
+      "themes": ["People", "Royauté", "Politique", "Société"],
+      "gsc_connected": false,
+      "stats": {
+        "articles_30d": 0,
+        "avg_discover_score": null,
+        "topics_today": null
+      }
+    },
+    {
+      "slug": "futura-sciences",
+      "name": "Futura Sciences",
+      "domain": "futura-sciences.com",
+      "tagline": "Sciences, tech, espace, environnement",
+      "categories": [
+        "/Science",
+        "/Computers & Electronics",
+        "/Health"
+      ],
+      "themes": ["Sciences", "Tech", "Espace", "Santé", "Environnement"],
+      "gsc_connected": false,
+      "stats": {
+        "articles_30d": 0,
+        "avg_discover_score": null,
+        "topics_today": null
+      }
+    }
+  ]
+}
