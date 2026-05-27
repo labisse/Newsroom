@@ -718,7 +718,8 @@ const renderBriefingDetail = (sujet, aff) => {
     );
   }
 
-  // 3 sources externes qui traitent du sujet (aide à la rédaction)
+  // Sources externes : la 1re est l'article d'origine (d'où vient le titre
+  // du sujet), les suivantes sont les sources qui traitent le même sujet.
   if (sujet.external_sources?.length) {
     detail.appendChild(
       h(
@@ -732,17 +733,36 @@ const renderBriefingDetail = (sujet, aff) => {
         h(
           "ul",
           { class: "briefing-sujet__sources-list" },
-          ...sujet.external_sources.map((s) =>
-            h(
+          ...sujet.external_sources.map((s) => {
+            const isOrigin = s.is_source_origin === true;
+            const publisherLabel =
+              s.publisher ||
+              (s.source === "gnews"
+                ? "Google News"
+                : s.source === "msn"
+                  ? "MSN"
+                  : "Discover");
+            return h(
               "li",
-              { class: "briefing-sujet__source-item" },
+              {
+                class:
+                  "briefing-sujet__source-item" +
+                  (isOrigin ? " is-source-origin" : ""),
+              },
+              isOrigin
+                ? h(
+                    "span",
+                    { class: "briefing-sujet__source-origin-tag" },
+                    "Origine",
+                  )
+                : null,
               h(
                 "span",
                 {
                   class: "briefing-sujet__source-publisher",
                   "data-kind": s.source,
                 },
-                s.publisher || (s.source === "gnews" ? "Google News" : "Discover"),
+                publisherLabel,
               ),
               h(
                 "a",
@@ -754,8 +774,8 @@ const renderBriefingDetail = (sujet, aff) => {
                 },
                 truncate(s.title, 130),
               ),
-            ),
-          ),
+            );
+          }),
         ),
       ),
     );

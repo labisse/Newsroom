@@ -1326,6 +1326,35 @@
   align-items: start;
 }
 
+/* La 1re source = article d'origine du sujet : tag "Origine" et fond
+   teinté rouge TBR pour signaler que c'est la source du titre affiché. */
+.briefing-sujet__source-item.is-source-origin {
+  grid-template-columns: 70px 130px minmax(0, 1fr);
+  padding: 8px 10px;
+  background: rgba(245, 0, 0, 0.06);
+  border-left: 2px solid var(--primary-color);
+  margin-left: -10px;
+}
+
+.briefing-sujet__source-origin-tag {
+  font-family: var(--font-display);
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--primary-color);
+  padding: 3px 6px;
+  border: 1px solid var(--primary-color);
+  background: rgba(245, 0, 0, 0.1);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.briefing-sujet__source-publisher[data-kind="msn"] {
+  color: var(--warning-color);
+  border-color: var(--warning-color);
+}
+
 .briefing-sujet__source-publisher {
   font-family: var(--font-display);
   font-size: 0.65rem;

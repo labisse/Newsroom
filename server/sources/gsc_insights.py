@@ -637,6 +637,31 @@ def score_sujets_for_project(
             query, top_n=3, include_discover=True
         )
 
+        # 5bis. Prepend l'article d'origine : le titre du sujet vient
+        # d'un article réel (MSN, Discover ou GNews) et il doit
+        # impérativement apparaître comme référence. Sans ça, le rédacteur
+        # voit un titre sans savoir d'où il vient. Le flag `is_source_origin`
+        # permet à l'UI de mettre cette source en évidence.
+        origin = sujet.get("source_origin", "msn")
+        origin_url = sujet.get("msn_url") or ""
+        origin_publisher = sujet.get("msn_source_name") or ""
+        if origin_url:
+            # Dédup : si l'origine est déjà dans ext_sources, on la retire
+            # pour la repromouvoir en tête avec le bon flag.
+            ext_sources = [
+                s for s in ext_sources if s.get("url") != origin_url
+            ]
+            origin_entry = {
+                "source": origin,  # "msn" | "discover" | "gnews"
+                "title": sujet.get("title", ""),
+                "url": origin_url,
+                "publisher": origin_publisher,
+                "published_at": "",
+                "similarity": 1.0,
+                "is_source_origin": True,
+            }
+            ext_sources = [origin_entry] + ext_sources
+
         enriched = {
             "id": sujet.get("id"),
             "title": sujet.get("title"),
