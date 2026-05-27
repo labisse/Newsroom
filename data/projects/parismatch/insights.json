@@ -1,6 +1,6 @@
 {
   "project": "parismatch",
-  "generated_at": "2026-05-27T14:47:31Z",
+  "generated_at": "2026-05-27T15:34:53Z",
   "stats": {
     "total_urls": 12894,
     "with_title": 50,
@@ -201,6 +201,25 @@
         ]
       },
       "project_score": 72,
+      "proposed_title": null,
+      "external_sources": [
+        {
+          "source": "discover",
+          "title": "Mort à 69 ans de Pierre Deny, star de Demain nous appartient et figure familière de la télévision française",
+          "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000205719.html",
+          "publisher": "AlloCiné",
+          "published_at": "2026-05-26 15:00:10",
+          "similarity": 0.2
+        },
+        {
+          "source": "discover",
+          "title": "\"Un coup de massue\" : Ingrid Chauvin, Corinne Touzet, Michèle Bernier... Les célébrités rendent hommage à Pierre Deny",
+          "url": "https://www.tf1info.fr/culture/c-est-un-coup-de-massue-ingrid-chauvin-corinne-touzet-michele-bernier-les-celebrites-rendent-hommage-a-pierre-deny-2443598.html",
+          "publisher": "TF1 Info",
+          "published_at": "2026-05-26 18:00:23",
+          "similarity": 0.167
+        }
+      ],
       "project_rank": 1
     },
     {
@@ -271,6 +290,25 @@
         ]
       },
       "project_score": 61,
+      "proposed_title": null,
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "\"On m'a traité de lâche\" : Gilles Lellouche répond fermement à la polémique autour de la promotion du film \"Moulin\" à Cannes",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOQXI4dDE3VVZLTmw1bWduRmxfcGRHeDhhM0IwSVF6M284clhuTFpyQTFtbmVnU19kU2lHeHptRGQ0RXRKTHVoMGpUUGE5Zm0xTXhyU3A4YnhVZGxvdF82UmtRbXJZbTIxRmx3X25xTEViMm05QUFIRFpyNWJneWNFVjFQSVpUNHNCd1ZKY1NtMGlmSllhV1UybFhtaWR0emxXMTRZWG1FUnhCQnU0VVpWNXRSU0FSeG54eUpmVjVvQTFnbjhQTUM1Slk0S3Z2aUl3cFh5bWVXbnZ1QldtUFpNVTBwdUhvTnp1WG1wRUxUZmF3OXZqTE9WSzZHWGk?oc=5",
+          "publisher": "RTL.fr",
+          "published_at": "Tue, 26 May 2026 10:21:57 GMT",
+          "similarity": 0.312
+        },
+        {
+          "source": "discover",
+          "title": "Gilles Lellouche répond à la polémique autour du Rassemblement national",
+          "url": "https://www.20minutes.fr/arts-stars/people/4225480-20260526-gilles-lellouche-repond-polemique-apres-silence-lfi-rassemblement-national",
+          "publisher": "20 Minutes",
+          "published_at": "2026-05-26 17:01:47",
+          "similarity": 0.231
+        }
+      ],
       "project_rank": 2
     },
     {
@@ -334,6 +372,8 @@
         ]
       },
       "project_score": 57,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 3
     },
     {
@@ -406,6 +446,25 @@
         ]
       },
       "project_score": 56,
+      "proposed_title": null,
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "« Je pense à eux toutes les secondes » : le père des enfants abandonnés au Portugal prend la parole",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQnl1Ql8zOENvVGJQN2VjRGNKNGZ2NS1qRi1SOXlidTZ3SXZOU2NxSlFqVE5aaXVmaHlWVEVwdGUzdmFfUTBEUHhBSDJyZm41akdwX2JwUHJUYk5lMUd1cWVDWjI1WEQzZ3BrMFFDZUNNakc4TzN2TlpmU1E0OEs2UWtOOFJwNUpGYm52NVM3Wm1KajFtbWxYQUduU1ZwZ0o0RGxtckZpTnpfV0gwS1pfamF4N3VjbFQ5SVFTYktQS3F1LXpWUUFaRnFEeFZkNEpDNU9KNzhRTVJjcFBVaTRUZXJSYjlVV3E2LVlmMUhCQml3QQ?oc=5",
+          "publisher": "Sud Ouest",
+          "published_at": "Tue, 26 May 2026 10:25:28 GMT",
+          "similarity": 0.167
+        },
+        {
+          "source": "discover",
+          "title": "\"On pense fort à Véronique Sanson\" : Jeanne Cherhal, qui a remplacé la chanteuse au pied levé, prend la parole",
+          "url": "https://www.purepeople.com/article/on-pense-fort-a-veronique-sanson-jeanne-cherhal-qui-a-remplace-la-chanteuse-au-pied-leve-prend-la-parole_a550557/1",
+          "publisher": "Purepeople",
+          "published_at": "2026-05-26 15:47:12",
+          "similarity": 1.0
+        }
+      ],
       "project_rank": 4
     },
     {
@@ -479,6 +538,33 @@
         ]
       },
       "project_score": 56,
+      "proposed_title": null,
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "Roland-Garros 2026 : la performance du Français Moïse Kouame qui entre dans l’histoire après sa victoire contre Marin Cilic",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPME5JRnQ0bXNqM1RYU2QtSUVKTHZrTmlYMkRqSHo4cnRDT0d0S0d5bG1IVXZBQjVnZWdIZy1KTlhtN0RncG1zOHpoTFM5NjhtZlI5Q1BCMGVraWFTNTdxY0RNbXN6bEZ1LWktZzVBVzhDQ1UxeVBleElaOG5yRmJ0UXdmbEV3MmJQckRXZ3M3cFV5cVRGdGM1TG1XSTN6aFBSMVhFRWFNQk40MGRYRGpSYdIBtgFBVV95cUxPYUNnR1lIWkdjRzdZbGF5ckFwN1hOdlFPS1BabGdkMkdBMWdTLWZYOFIxeDJoblJRS3hCM1d2cHdJRUNSV2l0dXE1MkhIckE2clFycEJZY2pScG9qektfSHFOZURoNEV3UDk3ajZXOVVzeG5zVjhZOTRqWkJpM09XLUFjbG1RVDluWjdxQlpHcGtMTWtXUG9fODVXdUZ6RUNkamZzOGxtczJBQnU4aGNvcGthTUZBUQ?oc=5",
+          "publisher": "CNews",
+          "published_at": "Tue, 26 May 2026 13:10:02 GMT",
+          "similarity": 0.333
+        },
+        {
+          "source": "gnews",
+          "title": "Roland-Garros 2026 : l'exploit de Moïse Kouame, Loïs Boisson déjà éliminée... Les trois infos à retenir de mardi",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMnNvWl83aFBUb3BHSjFSRmFQTVFoLXNPLVRVandmRWhTN3J1M2pzUzB1TWljOF9CWEZWbkswMUFnTXdXZ1Z5cldwUEdKdGs2ejVwdFFjWVpKcHRzUUl2TTJoZ21RUnJ1YTNpRjNqVHg4ZndHbTV6SzQ3TFllbnQweTNpLTFEMEc5MmZLSGJ6U1djdk1JRE9oOGhNb1Y1U0NKVlRhcDBoLWd2bnNuSUV0S1dvbHExbjFCM2F5NE5IQXJoNjhhazRwUnM5YWM0S1hJUGlMd3NqWHY5eGVIMFU3MW1jQ3FLelNoZUJzVE9aTmM?oc=5",
+          "publisher": "franceinfo",
+          "published_at": "Tue, 26 May 2026 17:13:45 GMT",
+          "similarity": 0.25
+        },
+        {
+          "source": "gnews",
+          "title": "\"Le regret, c'est de ne pas arriver à être en bonne santé\", confie Loïs Boisson après son élimination au premier tour à Roland-Garros",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPOEtrdUlSdjVDN1Z3elFWMERaT2RRSmhvU0dTcTcyYUJfXzVVMUhVajlMbTVMMGJ2V2ZIdnV6VWw0RDEteExxZEhlY2dCXy1wdkFPbVZzYmJ2a3NEblBzVmtVWEVDZDlmcENuQ1Nfdk9IY0xJc1RkZjdvRnNYcGhwVkIzVTJHSlA1XzVDSVJsaHM3cXFjUlpQOWRBZ3pLOXY1eTFIckpFVkR3UTRTWG1EdE1vZ1FYeVk1NU9VLW5ZdGJjZ2NVb0FzQ1hmN2x4N1VSSHl0b19GY0M4TmZhY1VqUFJ1LTY1RGNSSHJ2bUNRbjVqUFRNQ0lhd3BmQTI4d0RCWGpXbmd1ZFZ1VzlJX0tj?oc=5",
+          "publisher": "franceinfo",
+          "published_at": "Tue, 26 May 2026 18:49:45 GMT",
+          "similarity": 0.182
+        }
+      ],
       "project_rank": 5
     },
     {
@@ -542,6 +628,17 @@
         ]
       },
       "project_score": 56,
+      "proposed_title": null,
+      "external_sources": [
+        {
+          "source": "discover",
+          "title": "🔴 Affaire Patrick Bruel : sur RTL, Mathilde Panot appelle les programmateurs à \"prendre la responsabilité\" d'annuler les concerts du chanteur rtl.fr/FEwzz Voir sur X",
+          "url": "https://x.com/RTLFrance/status/2058510503538807076",
+          "publisher": "X",
+          "published_at": "2026-05-26 15:51:09",
+          "similarity": 0.13
+        }
+      ],
       "project_rank": 6
     },
     {
@@ -605,6 +702,17 @@
         ]
       },
       "project_score": 55,
+      "proposed_title": null,
+      "external_sources": [
+        {
+          "source": "discover",
+          "title": "Audiences : 9 mois après son arrivée dans \"Tout le monde a son mot à dire\" sur France 2, Bruno Guillon fait-il mieux qu'Olivier Minne ?",
+          "url": "https://www.ozap.com/actu/audiences-9-mois-apres-son-arrivee-dans-tout-le-monde-a-son-mot-a-dire-sur-france-2-bruno-guillon-fait-il-mieux-quolivier-minne/655258",
+          "publisher": "puremedias",
+          "published_at": "2026-05-26 17:55:26",
+          "similarity": 0.15
+        }
+      ],
       "project_rank": 7
     },
     {
@@ -668,6 +776,8 @@
         ]
       },
       "project_score": 54,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 8
     },
     {
@@ -721,6 +831,8 @@
         ]
       },
       "project_score": 52,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 9
     },
     {
@@ -792,6 +904,33 @@
         ]
       },
       "project_score": 51,
+      "proposed_title": null,
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "Guerre en Iran : terré et inaccessible, le guide suprême Mojtaba Khamenei retarde un accord avec les États-Unis",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSzc3dk9fRnpGQ2RzLUR4QWpmTUlTNXpzdEFLWG5UTUZURXdSY1BPT3J3RzJxeWF0X1FWS1lfQTQ4T2l6cF9Zb3hHSkJWcHZyN2ItV20zY3lEOTN6aVRxRUF0S2pqV21KVHBLMVRVWnNvT0J5UG1ld3Z6ZTF6Nkdwd1N2OGkwTnRNNkkzY0pJWGJ6MFZIUjFrYzd1MS02cWYwR3lsZVV2WkwyaHdIX0xfSU9HcnFGdWJHZHVfbVlhOVpTenpiak1JVVpwMGlPczV2MXNfa2h2NjVTQ2EzTlpnakVseTNIdkVLV19sTA?oc=5",
+          "publisher": "La Croix",
+          "published_at": "Mon, 25 May 2026 15:26:17 GMT",
+          "similarity": 0.211
+        },
+        {
+          "source": "gnews",
+          "title": "EN DIRECT - Guerre au Moyen-Orient : Israël affirme avoir tué le nouveau chef de la branche armée du Hamas dans une frappe à Gaza",
+          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPMC1IbUFxWFpHX2FpTW0zMXktUHdaRUszZTV1SWVhQXpUU3I2c09uWFlDZW0xRTIzdm90dDRxZG1LZUUwX2lUOXplLUx2a0dNSzFMX2dfMk9Db2lYVUxzaEJCdm1kSk5MNGpob2k3VVdvaVBoVHBqak82NXBpMUJtX2RYSnFXZmp2UWN2R0FFanduNUViLWdfTEpfaERTV1B6X1JuY0NxTlBqNEVyTXRpZ0R1WC1mNHJCTHhWdno2c1BQSm9MZ3ZPRldNNFEyNFBpVG9oRFlfWkVXSDlOSEZmLWVMOTJwcm5iSUNSZHBCV1lTWFVqYVFJc0FWRFF4UWZPUDZvNk5KWlpaSVJKR2psMlVDMW1IcjVmdHVuOHBOU1E5NDZm?oc=5",
+          "publisher": "Le Figaro",
+          "published_at": "Wed, 27 May 2026 04:47:41 GMT",
+          "similarity": 0.2
+        },
+        {
+          "source": "gnews",
+          "title": "Guerre au Moyen-Orient : un pétrolier touché par une explosion au large d’Oman",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZzVFLUlnVnVsdVplX1RLQzBpQWtkUU9NYWF5RkVvaW9QOTJQOTRzUnB3SFRZZVMtVjFkd3h5cE1mTFhPOUhIbmhjVUNoblBaX0taMzFldGJOSGpXVGI5Zjg2MUIwdHFJaE9GbkxQWkdJYl9HdW04RmtKUFoyY2FpSE1aM1p5ei1TLVdUY0c2VzlZZmxSUzZMaWRVVXBFWDYzc2I3Zy1VTEZPWnZMQi1UQXFMTWJxV3RYakdVMW9HZWs?oc=5",
+          "publisher": "Le Figaro",
+          "published_at": "Tue, 26 May 2026 21:04:43 GMT",
+          "similarity": 0.188
+        }
+      ],
       "project_rank": 10
     },
     {
@@ -833,31 +972,33 @@
       "affinity": {
         "score": 70,
         "match_count": 10,
-        "max_similarity": 0.768,
-        "avg_similarity": 0.734,
+        "max_similarity": 0.767,
+        "avg_similarity": 0.733,
         "total_clicks": 326008,
         "top_matches": [
           {
             "url": "https://www.parismatch.com/People/apres-la-declaration-de-politique-generale-de-lecornu-lescapade-nocturne-demmanuel-et-brigitte-macron-258668",
             "title": null,
             "clicks": 125700,
-            "similarity": 0.768
+            "similarity": 0.767
           },
           {
             "url": "https://www.parismatch.com/People/taratata-ce-drole-dincident-qui-a-oblige-florent-pagny-a-retourner-en-coulisses-260828",
             "title": null,
             "clicks": 4602,
-            "similarity": 0.743
+            "similarity": 0.742
           },
           {
             "url": "https://www.parismatch.com/actu/politique/motions-de-censure-au-coeur-de-la-journee-de-tous-les-dangers-de-sebastien-lecornu-258721",
             "title": null,
             "clicks": 18,
-            "similarity": 0.742
+            "similarity": 0.741
           }
         ]
       },
       "project_score": 51,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 11
     },
     {
@@ -925,6 +1066,17 @@
         ]
       },
       "project_score": 49,
+      "proposed_title": null,
+      "external_sources": [
+        {
+          "source": "discover",
+          "title": "🗣️👀 Pierre Sage : \"L'idée est de rester à Lens mais on ne peut jamais être sûr à 100%. Je vous avoue qu'il y a des choses qui bougent aujourd'hui et des questions se posent. Il y a déjà une réflexion de ma part en ce moment même si ma volonté est de rester à Lens.\" Voir sur X",
+          "url": "https://x.com/AfterRMC/status/2059006295009632542",
+          "publisher": "X",
+          "published_at": "2026-05-26 13:54:28",
+          "similarity": 0.091
+        }
+      ],
       "project_rank": 12
     },
     {
@@ -979,7 +1131,7 @@
             "url": "https://www.parismatch.com/actu/economie/suspension-de-la-reforme-des-retraites-le-gouvernement-fait-payer-la-pause-aux-retraites-et-aux-mutuelles-259031",
             "title": null,
             "clicks": 35,
-            "similarity": 0.803
+            "similarity": 0.804
           },
           {
             "url": "https://www.parismatch.com/actu/politique/francois-bayrou-dresse-le-bilan-des-negociations-sur-les-retraites-253347",
@@ -990,6 +1142,8 @@
         ]
       },
       "project_score": 48,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 13
     },
     {
@@ -1053,6 +1207,8 @@
         ]
       },
       "project_score": 48,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 14
     },
     {
@@ -1116,6 +1272,8 @@
         ]
       },
       "project_score": 47,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 15
     },
     {
@@ -1182,6 +1340,25 @@
         ]
       },
       "project_score": 46,
+      "proposed_title": null,
+      "external_sources": [
+        {
+          "source": "discover",
+          "title": "Patrick Bruel : voici le montant colossal de sa fortune et comment il l'a construite, au-delà de sa carrière de chanteur",
+          "url": "https://www.parismatch.be/actualites/people/2026/05/26/voici-le-montant-colossal-de-la-fortune-de-patrick-bruel-le-jour-ou-les-salles-seront-vides-il-ne-sera-pas-dans-le-besoin-O2WKHAIE3RHSPJYQ7CIELFCLTI/",
+          "publisher": "parismatch.be",
+          "published_at": "2026-05-26 20:19:58",
+          "similarity": 0.176
+        },
+        {
+          "source": "discover",
+          "title": "« Cela fait des années que des plaintes sont déposées contre Patrick Bruel », souligne l’avocate Carine Durrieu Diebolt",
+          "url": "https://www.humanite.fr/societe/justice/cela-fait-des-annees-que-des-plaintes-sont-deposees-contre-patrick-bruel-souligne-lavocate-carine-durrieu-diebolt",
+          "publisher": "L'Humanité",
+          "published_at": "2026-05-26 14:14:45",
+          "similarity": 0.167
+        }
+      ],
       "project_rank": 16
     },
     {
@@ -1239,6 +1416,8 @@
         ]
       },
       "project_score": 43,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 17
     },
     {
@@ -1300,6 +1479,8 @@
         ]
       },
       "project_score": 41,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 18
     },
     {
@@ -1358,7 +1539,101 @@
         ]
       },
       "project_score": 41,
+      "proposed_title": null,
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "« Je pense à eux toutes les secondes » : le père des enfants abandonnés au Portugal prend la parole",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQnl1Ql8zOENvVGJQN2VjRGNKNGZ2NS1qRi1SOXlidTZ3SXZOU2NxSlFqVE5aaXVmaHlWVEVwdGUzdmFfUTBEUHhBSDJyZm41akdwX2JwUHJUYk5lMUd1cWVDWjI1WEQzZ3BrMFFDZUNNakc4TzN2TlpmU1E0OEs2UWtOOFJwNUpGYm52NVM3Wm1KajFtbWxYQUduU1ZwZ0o0RGxtckZpTnpfV0gwS1pfamF4N3VjbFQ5SVFTYktQS3F1LXpWUUFaRnFEeFZkNEpDNU9KNzhRTVJjcFBVaTRUZXJSYjlVV3E2LVlmMUhCQml3QQ?oc=5",
+          "publisher": "Sud Ouest",
+          "published_at": "Tue, 26 May 2026 10:25:28 GMT",
+          "similarity": 0.214
+        },
+        {
+          "source": "discover",
+          "title": "Les enfants français abandonnés au Portugal seront confiés aux services sociaux de Colmar",
+          "url": "https://www.lemonde.fr/societe/article/2026/05/26/les-enfants-francais-abandonnes-au-portugal-seront-confies-aux-services-sociaux-de-colmar_6693884_3224.html",
+          "publisher": "Le Monde.fr",
+          "published_at": "2026-05-26 14:23:14",
+          "similarity": 0.308
+        },
+        {
+          "source": "discover",
+          "title": "Les enfants abandonnés par leur mère au Portugal seront confiés aux services sociaux français",
+          "url": "https://www.leparisien.fr/faits-divers/les-enfants-abandonnes-par-leur-mere-au-portugal-seront-confies-aux-services-sociaux-francais-26-05-2026-JUL62STRPBE45IFX6RQTV6E24A.php",
+          "publisher": "Le Parisien",
+          "published_at": "2026-05-26 18:12:02",
+          "similarity": 0.308
+        }
+      ],
       "project_rank": 19
+    },
+    {
+      "id": "s29",
+      "title": "Donald Trump hospitalisé en urgence ? Ce que révèle vraiment la Maison-Blanche sur son état de santé",
+      "theme": "actualite",
+      "global_score": 19,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "0/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "6 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "80+ react."
+        }
+      ],
+      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (6 médias).",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/donald-trump-hospitalisé-en-urgence-ce-que-révèle-vraiment-la-maison-blanche-sur-son-état-de-santé/ar-AA2454Bo?ocid=00000000",
+      "msn_source_name": "So Busy Girls",
+      "discover_category": "/Sensitive Subjects",
+      "discover_entities": [
+        "Val-d'Oise"
+      ],
+      "affinity": {
+        "score": 67,
+        "match_count": 10,
+        "max_similarity": 0.867,
+        "avg_similarity": 0.783,
+        "total_clicks": 42579,
+        "top_matches": [
+          {
+            "url": "https://www.parismatch.com/actu/international/excellente-sante-ou-grand-bluff-la-sante-du-president-trump-interroge-toujours-262155",
+            "title": null,
+            "clicks": 225,
+            "similarity": 0.867
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/trump-ordonne-une-enquete-sur-la-sante-en-declin-de-biden-qui-lui-repond-252347",
+            "title": null,
+            "clicks": 307,
+            "similarity": 0.808
+          },
+          {
+            "url": "https://www.parismatch.com/actu/international/apres-sa-rencontre-avec-poutine-trump-accueille-zelensky-a-la-maison-blanche-255737",
+            "title": null,
+            "clicks": 175,
+            "similarity": 0.78
+          }
+        ]
+      },
+      "project_score": 41,
+      "proposed_title": null,
+      "external_sources": [],
+      "project_rank": 20
     },
     {
       "id": "s14",
@@ -1416,7 +1691,9 @@
         ]
       },
       "project_score": 40,
-      "project_rank": 20
+      "proposed_title": null,
+      "external_sources": [],
+      "project_rank": 21
     },
     {
       "id": "s19",
@@ -1476,7 +1753,9 @@
         ]
       },
       "project_score": 40,
-      "project_rank": 21
+      "proposed_title": null,
+      "external_sources": [],
+      "project_rank": 22
     },
     {
       "id": "s20",
@@ -1536,7 +1815,9 @@
         ]
       },
       "project_score": 40,
-      "project_rank": 22
+      "proposed_title": null,
+      "external_sources": [],
+      "project_rank": 23
     },
     {
       "id": "s22",
@@ -1596,71 +1877,8 @@
         ]
       },
       "project_score": 40,
-      "project_rank": 23
-    },
-    {
-      "id": "s29",
-      "title": "Donald Trump hospitalisé en urgence ? Ce que révèle vraiment la Maison-Blanche sur son état de santé",
-      "theme": "actualite",
-      "global_score": 19,
-      "global_tier": "low",
-      "global_signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "0/65"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "6 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "3k vues"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "80+ react."
-        }
-      ],
-      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (6 médias).",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/donald-trump-hospitalisé-en-urgence-ce-que-révèle-vraiment-la-maison-blanche-sur-son-état-de-santé/ar-AA2454Bo?ocid=00000000",
-      "msn_source_name": "So Busy Girls",
-      "discover_category": "/Sensitive Subjects",
-      "discover_entities": [
-        "Val-d'Oise"
-      ],
-      "affinity": {
-        "score": 65,
-        "match_count": 10,
-        "max_similarity": 0.867,
-        "avg_similarity": 0.783,
-        "total_clicks": 24007,
-        "top_matches": [
-          {
-            "url": "https://www.parismatch.com/actu/international/excellente-sante-ou-grand-bluff-la-sante-du-president-trump-interroge-toujours-262155",
-            "title": null,
-            "clicks": 225,
-            "similarity": 0.867
-          },
-          {
-            "url": "https://www.parismatch.com/actu/international/trump-ordonne-une-enquete-sur-la-sante-en-declin-de-biden-qui-lui-repond-252347",
-            "title": null,
-            "clicks": 307,
-            "similarity": 0.808
-          },
-          {
-            "url": "https://www.parismatch.com/actu/international/apres-sa-rencontre-avec-poutine-trump-accueille-zelensky-a-la-maison-blanche-255737",
-            "title": null,
-            "clicks": 175,
-            "similarity": 0.78
-          }
-        ]
-      },
-      "project_score": 40,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 24
     },
     {
@@ -1721,6 +1939,8 @@
         ]
       },
       "project_score": 39,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 25
     },
     {
@@ -1781,6 +2001,8 @@
         ]
       },
       "project_score": 39,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 26
     },
     {
@@ -1834,6 +2056,8 @@
         ]
       },
       "project_score": 37,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 27
     },
     {
@@ -1896,6 +2120,33 @@
         ]
       },
       "project_score": 37,
+      "proposed_title": null,
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "Vague de chaleur : le département des Pyrénées-Atlantiques en vigilance jaune à partir de mercredi midi",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPRUFuaFMydGk1US03S05TRkpZYXp1b3JKb243T0dfLVRPOVhmRTBtTFZ6enVjRDd5UmNWdXNYX1hSMTIzLWhYRlNzX1N5VzRNdkZZZWUydXJyR2hZZWhkVEVwWm5yVEFJRThMdEtuM1dzVi1yRHowNTNJS29JSHJ4ckRVcl9lTGV3QzFtdkpfaGlQa2xmNnBpMXB0d3hVUURNMzF0dmRtMHFPZnUtV3pqWllLQWxYOUJPUTBCSmNuQXZFVzlYZDZjVENQczF2SVlhZkI3dlBXSFJhanNLUzYzeUxpUFNRSHRsR1h2SV9iUUc4dXE0bm9RMENLU0hJNkNFQWVB?oc=5",
+          "publisher": "La République des Pyrénées",
+          "published_at": "Tue, 26 May 2026 12:41:01 GMT",
+          "similarity": 0.158
+        },
+        {
+          "source": "gnews",
+          "title": "EN DIRECT, canicule : 13 départements en vigilance orange ; l’épisode de fortes chaleurs se poursuit et s’étend progressivement vers le sud du pays",
+          "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNNEhVTTNpMG90bGJkS21GVWhQOVpoamRsSTI2TFZWZVQ3ZFRhOGhORl9jTjlwOEs5dWlLRFNIczVXNWRvNUIwU09VYzAySFhmdTJkWExtaDF5WTNOX1FERW5QYmU2QVBDSWkxLThiV0J2NG1VUXlnYWd5azVNdWlnMjlGU3NHWVBIUGhfSFZQVld1aEIwNkNMVk5uYjlqY1pRcTcyR2Njc1RkNjVFYnNqa3l6cExpUE16LTUtQkN3Snhvb3RPN3Qwb3dBbEZpeDVhOWh1YXdzcFdrcnBpZVc1Q0E3Zl80MVhtMUlnbkI0VktsVnJEZUJYdS1WZjBBNjB5MFpqMFlWWVhkRm0wZ0lhNFhaZVQ4bVYzeV9yMGxlRmpSbnpIZWpuSFl2TzUxT1Jy?oc=5",
+          "publisher": "Le Monde.fr",
+          "published_at": "Wed, 27 May 2026 07:02:03 GMT",
+          "similarity": 0.143
+        },
+        {
+          "source": "discover",
+          "title": "EN DIRECT, canicule : 13 départements de l’Ouest placés en vigilance orange par Météo-France pour mercredi, une situation « historique » et « inédite »",
+          "url": "https://www.lemonde.fr/planete/live/2026/05/26/en-direct-canicule-treize-departements-de-l-ouest-places-en-vigilance-orange-canicule-mercredi-par-meteo-france_6693854_3244.html",
+          "publisher": "Le Monde.fr",
+          "published_at": "2026-05-26 16:37:34",
+          "similarity": 0.263
+        }
+      ],
       "project_rank": 28
     },
     {
@@ -1958,6 +2209,8 @@
         ]
       },
       "project_score": 35,
+      "proposed_title": null,
+      "external_sources": [],
       "project_rank": 29
     },
     {
@@ -2020,6 +2273,25 @@
         ]
       },
       "project_score": 32,
+      "proposed_title": null,
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "PSG : du nouveau pour Dembélé et Hakimi",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMzlFaUxFOFJCU010Qm5GV1NMV1RXMGw1QXlrOWZFdTNLbEhlSmZNYWlqOHBldlk3eEpiZWIyYUhjQkxBNGhBdGdmWmJRU0RRUUhSMnIzR3JLZm9Xbjd4aW9UTThNQmlXc2FGS0pLUFk5WnY5eUhOd0FaSUlyUkwtZlRxcG1WejA?oc=5",
+          "publisher": "Sport.fr",
+          "published_at": "Tue, 26 May 2026 14:45:00 GMT",
+          "similarity": 0.429
+        },
+        {
+          "source": "discover",
+          "title": "🚨 Deux bonnes nouvelles avant PSG-Arsenal ! 🔴🔵 Dembélé et Hakimi attendus à l'entraînement collectif ce mardi. Voir sur X",
+          "url": "https://x.com/RMCsport/status/2059219074404552928",
+          "publisher": "X",
+          "published_at": "2026-05-26 14:49:12",
+          "similarity": 0.267
+        }
+      ],
       "project_rank": 30
     }
   ],
@@ -2261,36 +2533,36 @@
             "url": "https://www.parismatch.com/actu/societe/bourses-scolaires-arret-maladie-retraite-et-prix-du-gaz-ce-qui-change-au-1er-septembre-2025-256330",
             "title": null,
             "clicks": 1721,
-            "similarity": 0.6135313510894775,
-            "score": 0.9400720923955292
+            "similarity": 0.6167215704917908,
+            "score": 0.9449602472117549
           },
           {
             "url": "https://www.parismatch.com/culture/musique/kraftwerk-modele-allemand-254599",
             "title": null,
             "clicks": 1264,
-            "similarity": 0.6218934655189514,
-            "score": 0.9391847288126747
+            "similarity": 0.6244258880615234,
+            "score": 0.9430091982929898
           },
           {
             "url": "https://www.parismatch.com/actu/economie/budget-2026-lavertissement-tres-sale-de-la-cour-des-comptes-253679",
             "title": null,
             "clicks": 849,
-            "similarity": 0.6311653852462769,
-            "score": 0.9352625066105259
+            "similarity": 0.6342672109603882,
+            "score": 0.9398588000072507
           },
           {
             "url": "https://www.parismatch.com/vivre/argent/heritage-du-bon-usage-de-linventaire-252503",
             "title": null,
             "clicks": 2660,
-            "similarity": 0.5909693837165833,
-            "score": 0.9238732975120727
+            "similarity": 0.5953726172447205,
+            "score": 0.9307569534026235
           },
           {
             "url": "https://www.parismatch.com/vivre/argent/pea-les-actions-a-mener-lors-dune-succession-264871",
             "title": null,
             "clicks": 1169,
-            "similarity": 0.5862754583358765,
-            "score": 0.8821250895538164
+            "similarity": 0.5903383493423462,
+            "score": 0.8882382195543498
           }
         ]
       },
@@ -2305,36 +2577,36 @@
             "url": "https://www.parismatch.com/vivre/auto-moto/brigitte-bardot-passion-voitures-263106",
             "title": null,
             "clicks": 11887,
-            "similarity": 0.6668588519096375,
-            "score": 1.1138107452549586
+            "similarity": 0.6675881743431091,
+            "score": 1.1150288848370156
           },
           {
             "url": "https://www.parismatch.com/vivre/auto-moto/velo-a-bicyclette-electrique-258246",
             "title": null,
             "clicks": 1585,
-            "similarity": 0.7095849514007568,
-            "score": 1.0830785588804002
+            "similarity": 0.7113561034202576,
+            "score": 1.0857819656720074
           },
           {
             "url": "https://www.parismatch.com/actu/economie/ca-roule-pour-la-manufacture-francaise-du-cycle-253765",
             "title": null,
             "clicks": 3362,
-            "similarity": 0.6677665114402771,
-            "score": 1.0550991682174267
+            "similarity": 0.6694251894950867,
+            "score": 1.057719949292829
           },
           {
             "url": "https://www.parismatch.com/actu/economie/luca-de-meo-mes-annees-renault-252927",
             "title": null,
             "clicks": 730,
-            "similarity": 0.7089987993240356,
-            "score": 1.0429581725532393
+            "similarity": 0.709328293800354,
+            "score": 1.043442868658811
           },
           {
             "url": "https://www.parismatch.com/actu/economie/economie-la-grande-panne-de-lautomobile-258821",
             "title": null,
             "clicks": 888,
-            "similarity": 0.6981802582740784,
-            "score": 1.0368025326738786
+            "similarity": 0.6976754665374756,
+            "score": 1.0360529134390462
           }
         ]
       },
@@ -2493,36 +2765,36 @@
             "url": "https://www.parismatch.com/People/face-a-russell-crowe-et-sa-belle-britney-les-premieres-stars-sont-arrivees-a-roland-garros-269635",
             "title": null,
             "clicks": 39599,
-            "similarity": 0.7039799690246582,
-            "score": 1.2363187801709263
+            "similarity": 0.7056101560592651,
+            "score": 1.2391816895359016
           },
           {
             "url": "https://www.parismatch.com/People/a-wimbledon-coup-de-chaud-pour-leonardo-dicaprio-254173",
             "title": null,
             "clicks": 13517,
-            "similarity": 0.6961051821708679,
-            "score": 1.1690478640651771
+            "similarity": 0.6969786286354065,
+            "score": 1.1705147411261405
           },
           {
             "url": "https://www.parismatch.com/Royal-Blog/reunion-royale-a-wimbledon-pour-sophie-dedimbourg-et-frederik-de-danemark-253910",
             "title": null,
             "clicks": 4567,
-            "similarity": 0.6934446096420288,
-            "score": 1.1108403497048525
+            "similarity": 0.6945825219154358,
+            "score": 1.1126631901309643
           },
           {
             "url": "https://www.parismatch.com/actu/sport/roland-garros-au-nom-du-fils-251931",
             "title": null,
             "clicks": 125,
-            "similarity": 0.8182185888290405,
-            "score": 1.100871142906559
+            "similarity": 0.8196072578430176,
+            "score": 1.1027395258367534
           },
           {
             "url": "https://www.parismatch.com/actu/sport/roland-garros-atmane-incarnation-des-limites-du-tennis-francais-269666",
             "title": null,
             "clicks": 482,
-            "similarity": 0.7481898665428162,
-            "score": 1.078463140494866
+            "similarity": 0.7499400973320007,
+            "score": 1.0809859752429718
           }
         ]
       },
@@ -2774,36 +3046,36 @@
             "url": "https://www.parismatch.com/bio/tcheky-karyo",
             "title": null,
             "clicks": 4238,
-            "similarity": 0.6420250535011292,
-            "score": 1.025042648066917
+            "similarity": 0.6439631581306458,
+            "score": 1.0281369819886803
           },
           {
             "url": "https://www.parismatch.com/vivre/voyage/laissez-vous-tenter-barcelone-en-train-255868",
             "title": null,
             "clicks": 1174,
-            "similarity": 0.6476371884346008,
-            "score": 0.974648792503706
+            "similarity": 0.6494296193122864,
+            "score": 0.9773462759431687
           },
           {
             "url": "https://www.parismatch.com/vivre/bijoux-et-montres/une-armee-de-montres-259957",
             "title": null,
             "clicks": 2250,
-            "similarity": 0.6215723752975464,
-            "score": 0.9642865089005871
+            "similarity": 0.6239872574806213,
+            "score": 0.9680328760209226
           },
           {
             "url": "https://www.parismatch.com/vivre/voyage/laissez-vous-tenter-la-provence-en-train-254611",
             "title": null,
             "clicks": 986,
-            "similarity": 0.643143355846405,
-            "score": 0.9598763006046133
+            "similarity": 0.6447116732597351,
+            "score": 0.9622169773809439
           },
           {
             "url": "https://www.parismatch.com/Royal-Blog/lincroyable-histoire-du-train-royal-adore-par-elizabeth-ii-et-desormais-abandonne-par-charles-iii-253593",
             "title": null,
             "clicks": 1610,
-            "similarity": 0.616323709487915,
-            "score": 0.9414173140938155
+            "similarity": 0.6183754205703735,
+            "score": 0.944551245673617
           }
         ]
       },

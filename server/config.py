@@ -65,5 +65,9 @@ class Settings:
     voyage_api_key: str = _get("VOYAGE_API_KEY")
     voyage_model: str = _get("VOYAGE_MODEL", "voyage-3")
 
+    # Claude — génération de titres dans le style d'un média
+    anthropic_api_key: str = _get("ANTHROPIC_API_KEY")
+    anthropic_model: str = _get("ANTHROPIC_MODEL", "claude-haiku-4-5-20250514")
+
 
 settings = Settings()

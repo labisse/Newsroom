@@ -8,7 +8,7 @@
         - Si 404 → affiche le placeholder "GSC en attente"
    =================================================================== */
 
-import { h } from "./utils.js?v=tbr6";
+import { h } from "./utils.js?v=tbr7";
 
 const PROJECTS_URL = "/data/projects/index.json";
 const insightsUrl = (slug) => `/data/projects/${slug}/insights.json`;
@@ -580,7 +580,28 @@ const renderBriefingDetail = (sujet, aff) => {
     detail.appendChild(sigs);
   }
 
-  // Top 3 contenus historiques similaires (la valeur ajoutée)
+  // Titre proposé Paris Match (généré par Claude dans le style du média)
+  if (sujet.proposed_title) {
+    detail.appendChild(
+      h(
+        "div",
+        { class: "briefing-sujet__proposed" },
+        h(
+          "div",
+          { class: "briefing-sujet__proposed-head" },
+          h("strong", {}, "Titre proposé"),
+          h(
+            "span",
+            { class: "briefing-sujet__proposed-tag" },
+            "✦ généré dans le style du média",
+          ),
+        ),
+        h("p", { class: "briefing-sujet__proposed-title" }, sujet.proposed_title),
+      ),
+    );
+  }
+
+  // Top 3 contenus historiques similaires
   if (aff.top_matches?.length) {
     const block = h(
       "div",
@@ -632,6 +653,49 @@ const renderBriefingDetail = (sujet, aff) => {
         "p",
         { class: "briefing-sujet__no-history" },
         "Aucun contenu historique vraiment similaire — c'est un sujet nouveau pour ce site.",
+      ),
+    );
+  }
+
+  // 3 sources externes qui traitent du sujet (aide à la rédaction)
+  if (sujet.external_sources?.length) {
+    detail.appendChild(
+      h(
+        "div",
+        { class: "briefing-sujet__sources" },
+        h(
+          "div",
+          { class: "briefing-sujet__sources-head" },
+          h("strong", {}, "Sources externes pour aider à rédiger"),
+        ),
+        h(
+          "ul",
+          { class: "briefing-sujet__sources-list" },
+          ...sujet.external_sources.map((s) =>
+            h(
+              "li",
+              { class: "briefing-sujet__source-item" },
+              h(
+                "span",
+                {
+                  class: "briefing-sujet__source-publisher",
+                  "data-kind": s.source,
+                },
+                s.publisher || (s.source === "gnews" ? "Google News" : "Discover"),
+              ),
+              h(
+                "a",
+                {
+                  class: "briefing-sujet__source-title",
+                  href: s.url,
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                },
+                truncate(s.title, 130),
+              ),
+            ),
+          ),
+        ),
       ),
     );
   }

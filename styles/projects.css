@@ -1209,6 +1209,119 @@
   font-style: italic;
 }
 
+/* --- Titre proposé (Claude dans le style du média) --- */
+
+.briefing-sujet__proposed {
+  padding: var(--space-md) var(--space-lg);
+  background: rgba(245, 0, 0, 0.05);
+  border-left: 2px solid var(--primary-color);
+}
+
+.briefing-sujet__proposed-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: 8px;
+}
+
+.briefing-sujet__proposed-head strong {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--primary-color);
+}
+
+.briefing-sujet__proposed-tag {
+  font-family: var(--font-display);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-tertiary);
+}
+
+.briefing-sujet__proposed-title {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* --- Sources externes pour la rédaction --- */
+
+.briefing-sujet__sources {
+  padding: var(--space-md);
+  background: var(--header-bg);
+  border-left: 2px solid var(--info-color);
+}
+
+.briefing-sujet__sources-head {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--info-color);
+  margin-bottom: var(--space-sm);
+}
+
+.briefing-sujet__sources-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.briefing-sujet__source-item {
+  display: grid;
+  grid-template-columns: 130px minmax(0, 1fr);
+  gap: var(--space-sm);
+  align-items: start;
+}
+
+.briefing-sujet__source-publisher {
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  padding: 3px 8px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.briefing-sujet__source-publisher[data-kind="gnews"] {
+  color: var(--info-color);
+  border-color: var(--info-color);
+}
+
+.briefing-sujet__source-publisher[data-kind="discover"] {
+  color: var(--success-color);
+  border-color: var(--success-color);
+}
+
+.briefing-sujet__source-title {
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
+  color: var(--text-primary);
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.briefing-sujet__source-title:hover {
+  color: var(--primary-color);
+}
+
 /* ===================================================================
    Onglets secondaires (Univers tendance / Top historique / Stats)
    =================================================================== */

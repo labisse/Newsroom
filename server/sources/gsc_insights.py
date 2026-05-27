@@ -24,6 +24,7 @@ from pathlib import Path
 from typing import Any
 
 from server.config import DATA_DIR
+from server.scoring import external_sources, title_generator
 from server.sources import gsc_rag
 from server.sources.gsc_storage import load_history, stats
 
@@ -37,6 +38,21 @@ AFFINITY_MIN_SIMILARITY = 0.50
 
 def _now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def _resolve_project_name(project_slug: str) -> str:
+    """Retourne le nom affichable d'un projet depuis data/projects/index.json.
+    Fallback sur le slug capitalisé si introuvable."""
+    path = DATA_DIR / "projects" / "index.json"
+    if path.exists():
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            for p in payload.get("projects", []):
+                if p.get("slug") == project_slug:
+                    return p.get("name") or project_slug.title()
+        except json.JSONDecodeError:
+            pass
+    return project_slug.replace("-", " ").title()
 
 
 def _load_global_sujets() -> dict[str, Any] | None:
@@ -208,7 +224,10 @@ def compute_project_score(
 
 def score_sujets_for_project(
     project_slug: str,
+    project_name: str,
     sujets: list[dict[str, Any]],
+    *,
+    generate_titles: bool = True,
 ) -> list[dict[str, Any]]:
     """Re-score chaque sujet du flux global pour un projet précis.
 
@@ -216,27 +235,54 @@ def score_sujets_for_project(
       1. Recherche sémantique dans l'historique Discover du projet
       2. Calcul d'affinité (cf compute_affinity)
       3. Project score = combinaison signal global × affinité
-      4. Retour de la liste triée par project_score décroissant
-
-    Le sujet original n'est PAS modifié — on construit un nouvel objet
-    qui inclut les champs originaux + affinity + project_score.
+      4. Génération d'un titre proposé dans le style du média (Claude)
+      5. Récupération de 3 sources externes (GNews + Discover)
+      6. Retour de la liste triée par project_score décroissant
     """
+    # Reset le cache des sources externes pour utiliser les snapshots
+    # les plus récents (gsc-insights peut être appelé après un fetch)
+    external_sources.reset_cache()
+
     scored: list[dict[str, Any]] = []
 
     for sujet in sujets:
         global_score = int(sujet.get("score", 0))
-        # Query = title du sujet (= titre de l'article MSN matché)
         query = sujet.get("title", "")
         if not query:
             continue
 
+        # 1-3. RAG search + affinity + project_score
         matches = _enrich_search_results(
             project_slug, query, top_k=TOP_K_PER_SUJET, rerank_by_clicks=False
         )
         affinity = compute_affinity(matches)
         project_score = compute_project_score(global_score, affinity["score"])
 
-        # On garde les champs utiles du sujet + on ajoute l'enrichissement
+        # 4. Titre proposé dans le style du média (best-effort)
+        proposed_title: str | None = None
+        if generate_titles:
+            # On filtre les matches avec un vrai titre (pas un slug brut)
+            historical_with_title = [
+                m for m in matches if (m.get("title") or "").strip()
+            ]
+            try:
+                proposed_title = title_generator.generate_title(
+                    sujet_title=query,
+                    project_name=project_name,
+                    historical_titles=historical_with_title[:5],
+                    sujet_rationale=sujet.get("rationale"),
+                )
+            except Exception as exc:  # noqa: BLE001
+                # Ne plante pas tout le pipeline si Claude échoue
+                proposed_title = None
+                # Log silencieux — l'absence de titre n'est pas critique
+                print(f"  ⚠ title_generator failed for sujet: {exc}")
+
+        # 5. Sources externes (GNews + Discover)
+        ext_sources = external_sources.find_external_sources(
+            query, top_n=3, include_discover=True
+        )
+
         enriched = {
             "id": sujet.get("id"),
             "title": sujet.get("title"),
@@ -251,12 +297,13 @@ def score_sujets_for_project(
             "discover_entities": sujet.get("discover_entities"),
             "affinity": affinity,
             "project_score": project_score,
+            "proposed_title": proposed_title,
+            "external_sources": ext_sources,
         }
         scored.append(enriched)
 
-    # Tri par project_score décroissant
+    # Tri par project_score décroissant + rank final
     scored.sort(key=lambda s: s["project_score"], reverse=True)
-    # Rank final basé sur le tri du projet (pas le rank global)
     for i, s in enumerate(scored, start=1):
         s["project_rank"] = i
     return scored
@@ -283,7 +330,12 @@ def build_insights(project_slug: str) -> dict[str, Any]:
 
     # 2bis. RE-SCORER les sujets du flux global pour ce projet
     # (= le vrai briefing personnalisé)
-    scored_sujets = score_sujets_for_project(project_slug, sujets) if sujets else []
+    project_name = _resolve_project_name(project_slug)
+    scored_sujets = (
+        score_sujets_for_project(project_slug, project_name, sujets)
+        if sujets
+        else []
+    )
 
     # Distribution par tier du Project Score (utile pour les compteurs hero)
     project_tier_counts = {"high": 0, "medium": 0, "low": 0}
