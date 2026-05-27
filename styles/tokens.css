@@ -1,89 +1,151 @@
+/* ===================================================================
+   Editorial Signal × The Black Room
+   Tokens de design — palette, typographie, espacements, animations.
+
+   Source de vérité : https://theblackroom.io/ressources/DESIGN_SYSTEM.md
+   =================================================================== */
+
 :root {
-  --bg-0: #08090E;
-  --bg-1: #0F1117;
-  --surface-1: #15171F;
-  --surface-2: #1A1D27;
-  --surface-3: #21242F;
-  --surface-4: #2A2D3A;
-  --border: #232634;
-  --border-strong: #34384A;
-  --border-glow: #4F8EF733;
+  /* ── Couleurs principales ── */
+  --primary-color: #F50000;
+  --primary-hover: #CC0000;
 
-  --accent: #4F8EF7;
-  --accent-soft: #1E3A6B;
-  --accent-tint: #4F8EF714;
+  /* ── Statuts / accents néon ── */
+  --success-color:  #00FF00;
+  --warning-color:  #FFAA00;
+  --info-color:     #00FFFF;
+  --danger-color:   #F50000;
+  --accent-magenta: #FF00FF;
 
-  --success: #2ECC71;
-  --success-soft: #1E5A3A;
-  --success-tint: #2ECC7114;
+  /* ── Backgrounds (sombre → moins sombre) ── */
+  --bg-color:    #000000;
+  --card-bg:     #0A0A0A;
+  --summary-bg:  #0D0D0D;
+  --header-bg:   #111111;
 
-  --warning: #F39C12;
-  --warning-soft: #6B4515;
-  --warning-tint: #F39C1214;
+  /* ── Textes ── */
+  --text-primary:   #FFFFFF;
+  --text-secondary: #999999;
+  --text-tertiary:  #666666;
 
-  --danger: #E74C3C;
-  --danger-soft: #6B2520;
-  --danger-tint: #E74C3C14;
+  /* ── Bordures ── */
+  --border-color:  #222222;
+  --border-hover:  #333333;
+  --border-strong: #444444;
 
-  --text-1: #F0F0F0;
-  --text-2: #C3C6D4;
-  --text-3: #8B8FA8;
-  --text-4: #5C5F73;
-  --text-5: #3F4256;
+  /* ── Ombres ── */
+  --shadow:    0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.6);
+  --glow-primary:        0 0 20px rgba(245, 0, 0, 0.3);
+  --glow-primary-strong: 0 0 30px rgba(245, 0, 0, 0.5);
 
-  --font-serif: "Fraunces", "Instrument Serif", "Iowan Old Style", Georgia, serif;
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  /* ── Grille de fond ── */
+  --grid-color: rgba(255, 255, 255, 0.05);
 
-  --text-xs: clamp(0.7rem, 0.66rem + 0.18vw, 0.75rem);
-  --text-sm: clamp(0.78rem, 0.74rem + 0.2vw, 0.85rem);
-  --text-base: clamp(0.93rem, 0.88rem + 0.22vw, 1rem);
-  --text-md: clamp(1.05rem, 0.98rem + 0.3vw, 1.18rem);
-  --text-lg: clamp(1.25rem, 1.12rem + 0.55vw, 1.5rem);
-  --text-xl: clamp(1.6rem, 1.35rem + 1vw, 2.2rem);
-  --text-2xl: clamp(2.2rem, 1.75rem + 2vw, 3.2rem);
-  --text-3xl: clamp(2.8rem, 2rem + 3.8vw, 4.8rem);
-  --text-display: clamp(3.6rem, 2.4rem + 5.5vw, 6.5rem);
+  /* ── Aliases legacy pour ne pas casser les classes JS ── */
+  --bg-1:        var(--bg-color);
+  --surface-1:   var(--card-bg);
+  --surface-2:   var(--summary-bg);
+  --surface-3:   var(--header-bg);
+  --surface-4:   #1A1A1A;
+  --border:      var(--border-color);
+  --accent:      var(--primary-color);
+  --accent-soft: rgba(245, 0, 0, 0.15);
+  --accent-tint: rgba(245, 0, 0, 0.08);
+  --success:     var(--success-color);
+  --success-tint: rgba(0, 255, 0, 0.10);
+  --warning:     var(--warning-color);
+  --warning-tint: rgba(255, 170, 0, 0.10);
+  --danger:      var(--danger-color);
+  --danger-tint: rgba(245, 0, 0, 0.10);
+  --text-1: var(--text-primary);
+  --text-2: #BFBFBF;
+  --text-3: var(--text-secondary);
+  --text-4: var(--text-tertiary);
+  --text-5: #444;
+  --border-glow: rgba(245, 0, 0, 0.4);
 
-  --leading-tight: 1.05;
-  --leading-snug: 1.2;
-  --leading-normal: 1.45;
-  --leading-loose: 1.65;
+  /* ── Typographie ── */
+  --font-display: "Funnel Display", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body:    "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono:    "DM Sans", ui-monospace, "SF Mono", Menlo, monospace;
+  /* Aliases legacy */
+  --font-serif: var(--font-display);
+  --font-sans:  var(--font-body);
 
-  --tracking-tight: -0.025em;
-  --tracking-snug: -0.012em;
-  --tracking-wide: 0.04em;
-  --tracking-mega: 0.18em;
+  /* Hiérarchie typographique TBR */
+  --fs-h1: 3.5rem;
+  --fs-h2: 2rem;
+  --fs-h3: 1.5rem;
+  --fs-tab: 1.1rem;
+  --fs-base: 1rem;
+  --fs-sm: 0.875rem;
+  --fs-xs: 0.75rem;
 
-  --space-1: 4px;
-  --space-2: 8px;
-  --space-3: 12px;
-  --space-4: 16px;
-  --space-5: 20px;
-  --space-6: 28px;
+  /* Aliases legacy (fluid scale, conservés pour transition) */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.5rem;
+  --text-xl: 2rem;
+  --text-2xl: 2.5rem;
+  --text-3xl: 3rem;
+  --text-display: 3.5rem;
+
+  --leading-tight: 1.1;
+  --leading-snug: 1.25;
+  --leading-normal: 1.5;
+  --leading-loose: 1.6;
+
+  --tracking-tight: 0;
+  --tracking-snug: 0;
+  --tracking-wide: 1px;
+  --tracking-mega: 1px;
+
+  /* ── Espacement (multiples de 5px) ── */
+  --space-xs:  5px;
+  --space-sm:  10px;
+  --space-md:  15px;
+  --space-lg:  20px;
+  --space-xl:  25px;
+  --space-2xl: 30px;
+  --space-3xl: 40px;
+  --space-4xl: 60px;
+  /* Aliases legacy */
+  --space-1: 5px;
+  --space-2: 10px;
+  --space-3: 15px;
+  --space-4: 20px;
+  --space-5: 25px;
+  --space-6: 30px;
   --space-7: 40px;
-  --space-8: 56px;
+  --space-8: 60px;
   --space-9: 80px;
-  --space-10: 112px;
+  --space-10: 100px;
 
-  --radius-xs: 4px;
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 18px;
-  --radius-xl: 28px;
-  --radius-pill: 999px;
+  /* ── Radius (sharp edges partout) ── */
+  --radius-xs:   0;
+  --radius-sm:   0;
+  --radius-md:   0;
+  --radius-lg:   0;
+  --radius-xl:   0;
+  --radius-pill: 0;
 
-  --shadow-1: 0 1px 0 0 rgba(255, 255, 255, 0.04) inset, 0 1px 2px rgba(0, 0, 0, 0.4);
-  --shadow-2: 0 1px 0 0 rgba(255, 255, 255, 0.04) inset, 0 10px 30px -12px rgba(0, 0, 0, 0.6);
-  --shadow-glow: 0 0 0 1px var(--border-glow), 0 18px 40px -20px rgba(79, 142, 247, 0.45);
-
-  --duration-fast: 120ms;
-  --duration-normal: 220ms;
-  --duration-slow: 420ms;
+  /* ── Durées + easings ── */
+  --duration-fast:   150ms;
+  --duration-normal: 300ms;
+  --duration-slow:   500ms;
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
-  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-in-out:   ease;
 
-  --shell-header-h: 64px;
-  --content-max: 1320px;
-  --content-pad-x: clamp(20px, 4vw, 56px);
+  /* ── Layout ── */
+  --shell-header-h: 80px;
+  --content-max: 1200px;
+  --content-pad-x: 20px;
+
+  /* Aliases shadow legacy */
+  --shadow-1: var(--shadow);
+  --shadow-2: var(--shadow-lg);
+  --shadow-glow: var(--glow-primary);
 }

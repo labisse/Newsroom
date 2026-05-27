@@ -3,28 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Editorial Signal · Mes sujets du jour</title>
+    <title>Editorial Signal · Mes sujets · The Black Room</title>
     <meta name="description" content="Vue rédacteur — mes sujets assignés du jour" />
-    <meta name="theme-color" content="#0F1117" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,30..100,0..1;1,9..144,300..600,30..100,0..1&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap"
     />
-    <link rel="stylesheet" href="styles/tokens.css" />
-    <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/components.css" />
-    <link rel="stylesheet" href="styles/reporter.css" />
+    <link rel="stylesheet" href="styles/tokens.css?v=tbr3" />
+    <link rel="stylesheet" href="styles/base.css?v=tbr3" />
+    <link rel="stylesheet" href="styles/components.css?v=tbr3" />
+    <link rel="stylesheet" href="styles/reporter.css?v=tbr3" />
   </head>
   <body>
     <header class="shell-header">
-      <a class="brand" href="index.html">
-        <span class="brand__mark">◐</span>
-        <span class="brand__name">Editorial<em>Signal</em></span>
+      <a class="brand" href="index.html" aria-label="The Black Room — Editorial Signal">
+        <img class="brand__logo" src="assets/logo-tbr.svg" alt="" />
+        <span class="brand__text">
+          <span class="brand__product">Editorial Signal</span>
+          <span class="brand__byline">The <em>Black</em> Room</span>
+        </span>
       </a>
       <nav class="shell-nav" aria-label="Navigation principale">
-        <a class="shell-nav__link" href="index.html">Briefing du jour</a>
+        <a class="shell-nav__link" href="index.html">Briefing</a>
         <a class="shell-nav__link is-active" href="reporter.html">Mes sujets</a>
         <a class="shell-nav__link" href="#">Historique</a>
         <a class="shell-nav__link" href="#">Paramètres</a>
@@ -38,7 +42,7 @@
     <main class="reporter-page content">
       <section class="reporter-hero">
         <div>
-          <span class="reporter-hero__eyebrow">Lundi 18 mai 2026 · 08:23</span>
+          <span class="reporter-hero__eyebrow">Mercredi 27 mai 2026 · 08:23</span>
           <h1 class="reporter-hero__greeting">
             Bonjour <em id="greeting-name">Sophie</em>
           </h1>

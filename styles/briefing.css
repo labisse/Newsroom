@@ -1,175 +1,194 @@
 /* ===================================================================
-   Briefing page layout
+   Briefing layout — hero summary-box + liste sujets.
+   Style The Black Room.
    =================================================================== */
 
 .briefing {
-  padding: var(--space-7) 0 var(--space-9);
+  padding: var(--space-3xl) 0 var(--space-4xl);
 }
 
-/* ----- Hero band : date + meta + actions ----- */
+/* ===================================================================
+   Hero — eyebrow date + titre H1 + summary-box stats
+   =================================================================== */
 
 .briefing-hero {
-  position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
   align-items: end;
-  gap: var(--space-7);
-  margin-bottom: var(--space-8);
-  padding-bottom: var(--space-7);
-  border-bottom: 1px solid var(--border);
+  gap: var(--space-3xl);
+  margin-bottom: var(--space-3xl);
+  padding-bottom: var(--space-3xl);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .briefing-hero__date {
   display: flex;
   flex-direction: column;
-  gap: var(--space-3);
+  gap: var(--space-md);
 }
 
 .briefing-hero__eyebrow {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-size: 11px;
-  letter-spacing: var(--tracking-mega);
+  gap: var(--space-sm);
+  font-family: var(--font-display);
+  font-size: var(--fs-xs);
+  font-weight: 600;
   text-transform: uppercase;
-  color: var(--text-3);
+  letter-spacing: 2px;
+  color: var(--text-secondary);
 }
 
 .briefing-hero__eyebrow::before {
   content: "";
-  width: 24px;
+  width: 32px;
   height: 1px;
-  background: var(--border-strong);
+  background: var(--primary-color);
 }
 
 .briefing-hero__title {
-  font-family: var(--font-serif);
-  font-size: clamp(2rem, 1.4rem + 1.8vw, 3rem);
-  font-variation-settings: "opsz" 144, "SOFT" 50, "WONK" 1;
+  font-family: var(--font-display);
+  font-size: var(--fs-h1);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   line-height: 1;
-  letter-spacing: -0.03em;
-  color: var(--text-1);
+  color: var(--text-primary);
 }
 
 .briefing-hero__title em {
-  font-style: italic;
-  color: var(--accent);
-  font-weight: 300;
+  color: var(--primary-color);
+  font-style: normal;
 }
 
 .briefing-hero__meta {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: var(--space-4);
-  font-family: var(--font-mono);
-  font-size: 12.5px;
-  color: var(--text-3);
+  gap: var(--space-md);
 }
 
 .briefing-hero__time {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  letter-spacing: 0.01em;
+  gap: var(--space-sm);
+  font-family: var(--font-display);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
 }
 
 .briefing-hero__counts {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 8px;
+  gap: var(--space-sm);
 }
 
 .briefing-hero__actions {
   grid-column: 1 / -1;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-top: var(--space-3);
+  align-items: flex-start;
+  gap: var(--space-xl);
+  margin-top: var(--space-md);
 }
 
 .briefing-hero__hint {
-  font-size: var(--text-sm);
-  color: var(--text-3);
-  max-width: 520px;
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
+  color: var(--text-secondary);
+  max-width: 60ch;
   line-height: 1.55;
 }
 
 .briefing-hero__hint strong {
-  color: var(--text-2);
-  font-weight: 500;
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .briefing-hero__action-group {
   display: flex;
-  gap: var(--space-3);
+  gap: var(--space-sm);
+  flex-shrink: 0;
 }
 
-/* ----- Sujet list ----- */
+/* ===================================================================
+   Sujet list head + items
+   =================================================================== */
 
 .sujet-list__head {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  margin-bottom: var(--space-5);
-  gap: var(--space-4);
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
 }
 
 .sujet-list__title {
-  font-family: var(--font-serif);
-  font-size: var(--text-lg);
-  font-weight: 400;
-  letter-spacing: -0.015em;
-  color: var(--text-1);
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-primary);
 }
 
 .sujet-list__hint {
-  font-size: var(--text-xs);
-  letter-spacing: var(--tracking-mega);
+  font-family: var(--font-display);
+  font-size: var(--fs-xs);
+  font-weight: 600;
   text-transform: uppercase;
-  color: var(--text-3);
+  letter-spacing: 1px;
+  color: var(--text-secondary);
 }
 
 .sujet-list__items {
   display: flex;
   flex-direction: column;
-  gap: var(--space-3);
+  gap: var(--space-sm);
 }
 
-/* ----- Tier divider ----- */
+/* ===================================================================
+   Tier divider — séparateur entre tiers
+   =================================================================== */
 
 .tier-divider {
   display: flex;
   align-items: center;
-  gap: var(--space-3);
-  margin: var(--space-5) 0 var(--space-3);
-  font-size: 10.5px;
+  gap: var(--space-md);
+  margin: var(--space-lg) 0 var(--space-sm);
+  font-family: var(--font-display);
+  font-size: var(--fs-xs);
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: var(--tracking-mega);
-  color: var(--text-4);
+  letter-spacing: 1px;
+  color: var(--text-secondary);
 }
 
 .tier-divider__line {
   flex: 1;
   height: 1px;
-  background: var(--border);
+  background: var(--border-color);
 }
 
 @media (max-width: 880px) {
   .briefing-hero {
     grid-template-columns: 1fr;
-    gap: var(--space-5);
+    gap: var(--space-lg);
   }
-  .briefing-hero__meta {
-    align-items: flex-start;
-  }
-  .briefing-hero__counts {
-    justify-content: flex-start;
-  }
+  .briefing-hero__meta { align-items: flex-start; }
+  .briefing-hero__counts { justify-content: flex-start; }
   .briefing-hero__actions {
     flex-direction: column;
-    align-items: flex-start;
-    gap: var(--space-4);
+    align-items: stretch;
+  }
+  .briefing-hero__action-group {
+    flex-wrap: wrap;
   }
 }
