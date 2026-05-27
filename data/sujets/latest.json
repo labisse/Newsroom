@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T18:08:13Z",
+  "generated_at": "2026-05-27T20:13:20Z",
   "sources_used": {
     "msn": {
       "fetched_at": "2026-05-27T18:07:58Z",
@@ -119,10 +119,22 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.7dfc9d946ed5f82dc0a731e60a08a8bc&pid=Wdp",
       "msn_source_name": "We Love Tennis",
       "refs": [
-        "MSN · We Love Tennis — Novak Djokovic sur Gaël Monfils : « Désolé, il fallait que je le dise »",
-        "Discover · franceinfo — DIRECT. Le Français Valentin Royer tente d'amener Novak Djokovic dans un 4e set... Suivez et commentez ce match du 2e tour de Roland-Garros avec nous",
-        "GNews · Le Monde.fr — EN DIRECT, Roland-Garros 2026 : Iga Swiatek et Elina Svitolina qualifiées, duel 100 % français entre Humbert et Halys, Novak Djokovic domine Valentin Royer",
-        "GNews · We Love Tennis — « Gaël Monfils avait tout tech­ni­que­ment pour être extra­or­di­naire mais, malheu­reu­se­ment, il était pauvre tacti­que­ment. Federer lui a rappelé 15 milliards de fois », estime Benoît Maylin"
+        {
+          "label": "MSN · We Love Tennis — Novak Djokovic sur Gaël Monfils : « Désolé, il fallait que je le dise »",
+          "url": "https://www.msn.com/fr-fr/sport/tennis/novak-djokovic-sur-gaël-monfils-désolé-il-fallait-que-je-le-dise/ar-AA24aHo5?ocid=00000000"
+        },
+        {
+          "label": "Discover · franceinfo — DIRECT. Le Français Valentin Royer tente d'amener Novak Djokovic dans un 4e set... Suivez et commentez ce match du 2e tour de Roland-Garros avec nous",
+          "url": "https://www.franceinfo.fr/roland-garros/directs/direct-roland-garros-2026-le-francais-valentin-royer-passe-au-revelateur-novak-djokovic-suivez-et-commentez-le-match-du-2e-tour-avec-nous_8030924.html"
+        },
+        {
+          "label": "GNews · Le Monde.fr — EN DIRECT, Roland-Garros 2026 : Iga Swiatek et Elina Svitolina qualifiées, duel 100 % français entre Humbert et Halys, Novak Djokovic domine Valentin Royer",
+          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQR2dpZmhYbGZyV2trbmlGSG4zdVZIdmxaVWc2V0ZuSXNSVWZUN1laWS1TaDUtcklIanZBRlVqRnJjRkJCd1RBNGxweVNhWnlUTldkYTQ4UkpGX25qMko5aGRiOEJZZl92X2Q1WnJmUlFmS3dPMDZmVkV6Vno3VmhDbVNEUFJlLU5iQkpsU2g3Vmo3N05hRFU5a0VpbjRMcFVyX0tUdVBhcm95ZXF5THhVUXEzeGRuM3M3RnVib2VBN2ZLZ1pieVZYN0NXamdZRl9wQmVGU3hQdk16ZWJCS29rVk4zV2VUTzlZcV84aW9HeW1KaC1ZTWdKZXQ5X0Q1dzZnd25Lb0JDdURFcm1QejhZN0FnMjE1azlaTmwyOWc5azFTOHBJU2NMeTE3QWI?oc=5"
+        },
+        {
+          "label": "GNews · We Love Tennis — « Gaël Monfils avait tout tech­ni­que­ment pour être extra­or­di­naire mais, malheu­reu­se­ment, il était pauvre tacti­que­ment. Federer lui a rappelé 15 milliards de fois », estime Benoît Maylin",
+          "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPb01XRmYtcGk0Zzl0QTZ4N0hCbUJOR2E3emZIUFlQWUdBMUU1RjVWT2RzMHVUNFNhcW05b1JYLTNUTHVCbXVZbUdyU0k1UlFlVk1SVEVTeVlCWlVrSUM0d2VUUjVrczFSb1k4WmJLaXVyQVlpakRnV2NKR25nV1lCOEN0ckd2aTZObjBvMlBQQmRMV2RTUm5rWlhhaE5rbVBiZFBEVVhZc0x2YklRT0YxUThSVmhydmZzYllmSHM3d0FFMXhSS0RydTZZUGFPVGRwcFk1ajNfSnlFYklGN3pEQUdCdzZGT1lTdVg5UmZCNjRFT3BVYWJpLUwtNWNKYzZKbjVvZjhoLVFYM2ZPQzVXU0xPbkZ4Z3g2SXZ6QkZnMFh1WkpJWnhLak5rYTNNYXNwQURZaTV2N19aVEplVGYw?oc=5"
+        }
       ],
       "discover_category": "/Sports/Individual Sports/Racquet Sports",
       "discover_entities": [
@@ -207,11 +219,26 @@
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ZwuG7.img",
       "msn_source_name": "So Busy Girls",
       "refs": [
-        "MSN · So Busy Girls — Patrick Bruel sort du silence après la plainte de Flavie Flament : ce qu’il affirme aujourd’hui sur les réseaux sociaux",
-        "Discover · RTL.fr — Affaire Patrick Bruel : Christophe Willem trouve ça \"dommage\" qu'il n'y ait pas \"un retrait naturel\" du chanteur de ses concerts",
-        "GNews · Le Monde.fr — Aide carburant : ce qu’il faut savoir de l’indemnité destinée aux « grands rouleurs » et disponible à partir d’aujourd’hui",
-        "GNews · AlloCiné — \"Aujourd’hui, le moment est enfin venu\" : 29 ans après, ce thriller culte des années 80 aura bien droit à son remake grâce à Nicolas Winding Refn, le réalisateur de Drive",
-        "GNews · Presse-citron — « Aussi dangereux que la cigarette » : les réseaux sociaux accusés de nuire gravement aux enfants - Presse-citron"
+        {
+          "label": "MSN · So Busy Girls — Patrick Bruel sort du silence après la plainte de Flavie Flament : ce qu’il affirme aujourd’hui sur les réseaux sociaux",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/patrick-bruel-sort-du-silence-après-la-plainte-de-flavie-flament-ce-qu-il-affirme-aujourd-hui-sur-les-réseaux-sociaux/ar-AA247ml6?ocid=00000000"
+        },
+        {
+          "label": "Discover · RTL.fr — Affaire Patrick Bruel : Christophe Willem trouve ça \"dommage\" qu'il n'y ait pas \"un retrait naturel\" du chanteur de ses concerts",
+          "url": "https://www.rtl.fr/culture/musique/affaire-patrick-bruel-christophe-willem-trouve-ca-dommage-qu-il-n-y-ait-pas-un-retrait-naturel-du-chanteur-de-ses-concerts-7900639394"
+        },
+        {
+          "label": "GNews · Le Monde.fr — Aide carburant : ce qu’il faut savoir de l’indemnité destinée aux « grands rouleurs » et disponible à partir d’aujourd’hui",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPVXRqQldJQzI4RVdJM0stZDR5STNkN0dCU2JuZEhfU3FweVRqSHdUVG5pZE5SS3pneldoVUNaQmhwUl9HLURyb0NhN3E5bjZnTmx0Ri1IbU1XNFdzeTctNEs2OXo4LV9Edy1GUmlmemhBbzc5N3JiZWFTcTBYTVNCXzU0QUFzbDdIRTZDQjk4Z1dNSjBvc1NiMm8xN2ViTEt4Z1Zxa2paV0w5Q2VCSHZTZXZyVkJXbmZDV1diSjlzeHFLTHpNX2ZzOXV4UFV1MnhqYnpLZFpXdm4wYk1tVU9iaGdsc3V1ZEM1cjd0R3RtOExtZnA3VjNIc3VIcno1bUVzWTBtaWJnQnhTN3BEeDNDSlBzemlxR0U?oc=5"
+        },
+        {
+          "label": "GNews · AlloCiné — \"Aujourd’hui, le moment est enfin venu\" : 29 ans après, ce thriller culte des années 80 aura bien droit à son remake grâce à Nicolas Winding Refn, le réalisateur de Drive",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LZDlMWWVyNk9KWEQ1SWZobHVMQmdXTmtLVUt6WUk0ZUVFQ3dnaDB1dzlUNE9wUnRsZkZDNUp3SHA3UE1PZWpENHhrd0xuWnNrRXpRcUFkZ2FFSWdUbFlwUWRzOURJaGNXdlFYRFp4NzNWYmxtZ0MxbXI4cU51Zw?oc=5"
+        },
+        {
+          "label": "GNews · Presse-citron — « Aussi dangereux que la cigarette » : les réseaux sociaux accusés de nuire gravement aux enfants - Presse-citron",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZF93NkUyM2dZOFdTRUxFNWZmVHBWa1hrTE9vN21sOGFxVXBBQmowQTNNY2o1dXlNeEhrclhYaERHbm44V1Rub2YwRmVaV1FaanJCUjZTMlYxa3JQNm9tZlBhb21KMHkzdXdLT3BkODNsbnBoSXhHeVZYMnltRVhhejJiMWlkTHRRSGxFNURpR1JnQjg5djZJVVhPLWNaNVA1aU03TEZ5UQ?oc=5"
+        }
       ],
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
@@ -288,9 +315,18 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.1f93825e852eedbeace8daa69d8875a1&pid=Wdp",
       "msn_source_name": "Le Parisien",
       "refs": [
-        "MSN · Le Parisien — De « la bêtise artificielle » : Mélenchon accuse Le Pen d’avoir « manipulé » ses propos sur la « Nouvelle France » et évoque une plainte",
-        "Discover · Libération — Jean-Luc Mélenchon veut porter plainte contre Marine Le Pen, qu’il accuse d’avoir «manipulé» ses propos sur la «nouvelle France»",
-        "GNews · Ouest-France — Olivier Giroud devient l’égérie de la nouvelle marque de sport de Lidl - Ouest-France"
+        {
+          "label": "MSN · Le Parisien — De « la bêtise artificielle » : Mélenchon accuse Le Pen d’avoir « manipulé » ses propos sur la « Nouvelle France » et évoque une plainte",
+          "url": "https://www.msn.com/fr-fr/actualite/france/de-la-bêtise-artificielle-mélenchon-accuse-le-pen-d-avoir-manipulé-ses-propos-sur-la-nouvelle-france-et-évoque-une-plainte/ar-AA248lEG?ocid=00000000"
+        },
+        {
+          "label": "Discover · Libération — Jean-Luc Mélenchon veut porter plainte contre Marine Le Pen, qu’il accuse d’avoir «manipulé» ses propos sur la «nouvelle France»",
+          "url": "https://www.liberation.fr/politique/melenchon-veut-porter-plainte-contre-marine-le-pen-qui-a-selon-lui-manipule-ses-propos-sur-la-nouvelle-france-20260526_FWMY2QASV5DCXPGDLNDGEEL5DE/"
+        },
+        {
+          "label": "GNews · Ouest-France — Olivier Giroud devient l’égérie de la nouvelle marque de sport de Lidl - Ouest-France",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOb1hPUFd3LTR0NDJXSlExT1phVEwtTWFHVmM0T3J6ekc5SldGb0xId01FZ081c0VjNXpjbEpFQlJ0ZzdXREk2bU43N1NCN1R2Z2hEdjRCS19MVVpfUHFIUXFITW5RTXVBNkZfZGlwUXZ3b094dWpUdkRNQ01MLUlBSDlGOXpGYV8yZkpieFM3T2padjV1YVpMaXNKQ1IxdVhxMWFKcTlIWk1wcnZvYmV2QTcyTENZTGJzMnpLMTVkVXVWVzBGVy0zM2l5RXM0c3B6bng5N1VEWEdPcC04ZENmaGdNVHRKeWNVTHVtag?oc=5"
+        }
       ],
       "discover_category": "/News/Politics",
       "discover_entities": [
@@ -375,9 +411,18 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.c24813a3240749fe0af5d57a02c36847&pid=Wdp",
       "msn_source_name": "Voici",
       "refs": [
-        "MSN · Voici — Mort de Pierre Deny : sa compagne, la comédienne Juliette Degenne, brise le silence",
-        "Discover · Threads — Sylvie Vartan, Pierre Deny et Isabelle Mergault composaient ensemble le joyeux trio de la pièce « Ne me regardez pas comme ça », à l'affiche du Théâtre des Variétés en 2016. Au lendemain de la disparition de Pierre Deny, Sylvie Vartan a pris la parole avec émotion. Voir sur Threads",
-        "GNews · CNews — Mort de Pierre Deny : Sylvie Vartan, Corinne Touzet, Ingrid Chauvin, Ariane Séguillon… De nombreuses personnalités saluent la mémoire de l’acteur décédé ce lundi à 69 ans"
+        {
+          "label": "MSN · Voici — Mort de Pierre Deny : sa compagne, la comédienne Juliette Degenne, brise le silence",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/mort-de-pierre-deny-sa-compagne-la-comédienne-juliette-degenne-brise-le-silence/ar-AA248LmP?ocid=00000000"
+        },
+        {
+          "label": "Discover · Threads — Sylvie Vartan, Pierre Deny et Isabelle Mergault composaient ensemble le joyeux trio de la pièce « Ne me regardez pas comme ça », à l'affiche du Théâtre des Variétés en 2016. Au lendemain de la disparition de Pierre Deny, Sylvie Vartan a pris la parole avec émotion. Voir sur Threads",
+          "url": "https://www.threads.com/@parismatch/post/DYzfxExCGnm/sylvie-vartan-pierre-deny-et-isabelle-mergault-composaient-ensemble-le-joyeux/"
+        },
+        {
+          "label": "GNews · CNews — Mort de Pierre Deny : Sylvie Vartan, Corinne Touzet, Ingrid Chauvin, Ariane Séguillon… De nombreuses personnalités saluent la mémoire de l’acteur décédé ce lundi à 69 ans",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNczFuYzRQYU84T2JXaS0tYTg0Y1hKSjRvNnEyT2dzVjJXS3hhMmdhRG92ZFJZVW9RQ0MxdkREWkRtNFZRTTZDa0F2NW0zZzVROWZWY2NjWFhXQ0swVUV2eGJKeGdfQjNLZE1hOGV4cDhRb2FWQXFkWnBsbjk2b1VQRXRzSUNxVW9vM0dHVTZrZ0VINVNoa3RMVWNpUUp0V0NYMThsT2N2eVVrSnM0bVMwTGZlS3FNa1hIcVo4?oc=5"
+        }
       ],
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
@@ -459,10 +504,22 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.79b383165ef6e69e8b8b86416b31c7a1&pid=Wdp",
       "msn_source_name": "So Busy Girls",
       "refs": [
-        "MSN · So Busy Girls — « Je l’ai vu de mes yeux » : ce que décrit Anny Duperey sur les fans de Patrick Bruel relance le débat",
-        "Discover · RTL.fr — Affaire Patrick Bruel : Christophe Willem trouve ça \"dommage\" qu'il n'y ait pas \"un retrait naturel\" du chanteur de ses concerts",
-        "GNews · Closer — Affaire Patrick Bruel : “Se couper du monde”, ce lieu éloigné de Paris où il se serait réfugié",
-        "GNews · letemps.ch — Pourquoi la réaction du Paléo Festival à l’affaire Patrick Bruel détonne en France, où les stars accusées de violences sexuelles bénéficient «d’une sorte d’immunité"
+        {
+          "label": "MSN · So Busy Girls — « Je l’ai vu de mes yeux » : ce que décrit Anny Duperey sur les fans de Patrick Bruel relance le débat",
+          "url": "https://www.msn.com/fr-fr/actualite/france/je-l-ai-vu-de-mes-yeux-ce-que-décrit-anny-duperey-sur-les-fans-de-patrick-bruel-relance-le-débat/ar-AA2475cv?ocid=00000000"
+        },
+        {
+          "label": "Discover · RTL.fr — Affaire Patrick Bruel : Christophe Willem trouve ça \"dommage\" qu'il n'y ait pas \"un retrait naturel\" du chanteur de ses concerts",
+          "url": "https://www.rtl.fr/culture/musique/affaire-patrick-bruel-christophe-willem-trouve-ca-dommage-qu-il-n-y-ait-pas-un-retrait-naturel-du-chanteur-de-ses-concerts-7900639394"
+        },
+        {
+          "label": "GNews · Closer — Affaire Patrick Bruel : “Se couper du monde”, ce lieu éloigné de Paris où il se serait réfugié",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNelNQdC0yRWYwZTh2LVpfYjFaVXdXa3NUeEkxUFJoaVcxM0Nkc2JTazlsc0hmZFVyUGdTUDEzQVUxS21GejFud2dCaFFEcTlrZGtuU0R6LU1yZkJhZUVOZVM5eFI2WWV2bXRvVzR0S2J2dHhyQzNUcGVVaS1Fdy1VeFQ1T2tENjZScnZyQVFpZjhkUmJPdnhwR2Qtd1Vvb3Z5YnowaUZxRXlsRUU3cTktU29lblI1NlpDN29mWmhNYTRUQ3ZIN2RYcQ?oc=5"
+        },
+        {
+          "label": "GNews · letemps.ch — Pourquoi la réaction du Paléo Festival à l’affaire Patrick Bruel détonne en France, où les stars accusées de violences sexuelles bénéficient «d’une sorte d’immunité",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOTWFkY2ZEQl91NEhhdW1YQWtiRExxSVhNWXVLb2FXMHBLbDNEejBrbE1oamhxX2lnQVVQTEg2X1ZaMDFJREZ4LTBOMExleUNiVVdwUEk3NUd5eFF0WVEwVXBXb0NtSWtWcjd6YWxaZ3Eza3lFQ3V4TTJxc0hlbUp6a2Y4LUhuTGY1eWNhLUlyS1lNdW9DNDRfMFJWbm0xVExmYUdhOG5NS0JmcC1uZlJ6eXY5Z3RZXzU4V0M2WDFtLWowcU5QSnhjaWdSSFJUWWI5bzlDa3duUFBhYy13a0NDaXNGUHE2b204N1J5U0Y1SHhHZjNlX2Y2eGVXR1dfeDZNcnJRWVVLYW1vRDU2MzlBUi1pd3Ewdnkx?oc=5"
+        }
       ],
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
@@ -544,11 +601,26 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.53706f069875907b435b2ac83fa0c655&pid=Wdp",
       "msn_source_name": "Actu",
       "refs": [
-        "MSN · Actu — Il devait recevoir des milliards de dollars : le Conseil de paix de Donald Trump tourne au fiasco",
-        "Discover · parismatch.com — Guerre à Gaza : le « Conseil de la paix », imaginé par Donald Trump, n’a pas reçu le moindre financement depuis sa création",
-        "GNews · parismatch.com — Guerre à Gaza : le « Conseil de la paix », imaginé par Donald Trump, n’a pas reçu le moindre financement depuis sa création",
-        "GNews · Le Monde.fr — Le redécoupage électoral voulu par Donald Trump freiné en Caroline du Sud et en Alabama",
-        "GNews · Madame Figaro — Un mariage aux Bahamas sans son père : l’énième humiliation de Donald Trump à son fils Don Jr."
+        {
+          "label": "MSN · Actu — Il devait recevoir des milliards de dollars : le Conseil de paix de Donald Trump tourne au fiasco",
+          "url": "https://www.msn.com/fr-fr/actualite/monde/il-devait-recevoir-des-milliards-de-dollars-le-conseil-de-paix-de-donald-trump-tourne-au-fiasco/ar-AA24azgg?ocid=00000000"
+        },
+        {
+          "label": "Discover · parismatch.com — Guerre à Gaza : le « Conseil de la paix », imaginé par Donald Trump, n’a pas reçu le moindre financement depuis sa création",
+          "url": "https://www.parismatch.com/actu/international/guerre-a-gaza-le-conseil-de-la-paix-imagine-par-donald-trump-na-pas-recu-le-moindre-financement-depuis-sa-creation-269748"
+        },
+        {
+          "label": "GNews · parismatch.com — Guerre à Gaza : le « Conseil de la paix », imaginé par Donald Trump, n’a pas reçu le moindre financement depuis sa création",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQb21XcXBrVVpqUjFLOWk1YnZ1eEV0NXBEUTRmVXp1TEh3WEN1R2JjY1RiWTdhcXM0MjRxTEk0X2dBTjRqS29NUXBNQ1JSbzljRWItYkVKWm9PSWw2MHhaa1RmZHN5UkpyaWZES1lHcHZUaUk5c3VKdTdhZkhHMWU5WDY1eGEtMnFhTWFuejViZXZBTTRhMmU5TjFYTnJzd2Nfd3A4TEhOQ1VGZFpoSktDSkdVcXhLZFJrVWI5QkJvM3kwTllOdUE4Ry1ZLW1UT0VfQUlJb29XREVCd3E4OWhwdmZ3b2xoYTBFUUxBWllXZkR1WW8xWWhGYnZ2aw?oc=5"
+        },
+        {
+          "label": "GNews · Le Monde.fr — Le redécoupage électoral voulu par Donald Trump freiné en Caroline du Sud et en Alabama",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOR0Z4UVdqdHhjaWdweXJnWDNPX3NrUlh1b0Q0OHA2OWx2eFQtbjJGZ0c2aFhOODhEX01IanJxekhhVzNacWNJWmV6U25OR1BOakZjYjNpZTNvSmtDZV8ycG9qVXpmVTlnX0YydXFGVlpyMURlclJXLV9IUDA4UmpIamFxMzNNcE8tMFp6eE5VaTBseFR4bkI3ZHVPTWo0dnFwaGQtZlZlNTRuSnI1ZUVPam9pMnZ5RFBFdC12cVdYcDB0eGFwOEpFVnd5d2RMMmRjVzFpYkpxaXlTTEdZSEdYMnZnSllUWHVjREdEVTRJNVo?oc=5"
+        },
+        {
+          "label": "GNews · Madame Figaro — Un mariage aux Bahamas sans son père : l’énième humiliation de Donald Trump à son fils Don Jr.",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOalN4SldnV0p3N0F2OGd4R2VRd05vMzZvbkpOMHRJRWVsYlBtWTlqWG1tZ0FzNjdSNmQzWWRwV1NlTVNSMVFqdTNRZExlMVVQUmYzZkVkVUF5bThZa3NGQ1Ntck5KRktDb0t2QjJROG5rbGdUZmNXSElSVzFBUU52S2xadmZ5WFR1dFVSX1Q2RF9VOTRUYkxNV1ZQdU5oTEhWRkMtTzBvckxoRENpWlY3a0t1VnpXN3RkcEZOaWkxOC0wV3lrY05FY25CN2h6VmJtTDRDX1hnMA?oc=5"
+        }
       ],
       "discover_category": "/Sensitive Subjects",
       "discover_entities": [
@@ -632,11 +704,26 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.70b3906ff05ae219a15b0afcf81562dd&pid=Wdp",
       "msn_source_name": "Les Numériques",
       "refs": [
-        "MSN · Les Numériques — PSG-Arsenal : attention, la finale de la Ligue des champions ne sera pas diffusée à l'heure que vous imaginez",
-        "Discover · Le Populaire du Centre — Une rue de Bellac va se transformer en fan-zone pour la finale de la Ligue des Champions entre le PSG et Arsenal",
-        "GNews · La République des Pyrénées — Football : à quelle heure et sur quelle chaîne voir la finale de Ligue des champions entre le PSG et Arsenal",
-        "GNews · L'Équipe — 74% des Français confiants pour le PSG avant la finale de la Ligue des champions contre Arsenal",
-        "GNews · Sports.fr — PSG-Arsenal, très lourdes accusations contre l’arbitre"
+        {
+          "label": "MSN · Les Numériques — PSG-Arsenal : attention, la finale de la Ligue des champions ne sera pas diffusée à l'heure que vous imaginez",
+          "url": "https://www.msn.com/fr-fr/sport/other/psg-arsenal-attention-la-finale-de-la-ligue-des-champions-ne-sera-pas-diffusée-à-l-heure-que-vous-imaginez/ar-AA2467ss?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le Populaire du Centre — Une rue de Bellac va se transformer en fan-zone pour la finale de la Ligue des Champions entre le PSG et Arsenal",
+          "url": "https://www.lepopulaire.fr/bellac-87300/sports/une-rue-de-bellac-va-se-transformer-en-fan-zone-pour-la-finale-de-la-ligue-des-champions-entre-le-psg-et-arsenal_14992287/"
+        },
+        {
+          "label": "GNews · La République des Pyrénées — Football : à quelle heure et sur quelle chaîne voir la finale de Ligue des champions entre le PSG et Arsenal",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOSThtYlhCRXdweGs1czVnaWlYb1JpSENNZmtfVlRzMFR1MGhDbzZYXzlMSFRULW0wZzVsLVB4T05kYmZKcVgzbzRyeU1xbjJLS09wU3VNeUk5V0dSZ0hGY05CbW4tdlEzTWMyeHpxMV9XMC12TkZ0UUIzSzAyLUtjd1lNbndTbmNFNmVyTTRKTTVVUjJxREI4SVl1TzJhV1hlODQ5RHVRY1J6OWQ5bHlMajk3dVdSQmFoSXJlVjNQSEI1cTBFLW1mam11U0I5Z0JHOS1XZXJkNTBrTXFwcDJ1UU1jQjFPR2pTZnlRSS16eWtma2pDQTI3andxd3JscmJhMHhMbzZCRTk2aWJXZHBwMnhhS2lnaVk?oc=5"
+        },
+        {
+          "label": "GNews · L'Équipe — 74% des Français confiants pour le PSG avant la finale de la Ligue des champions contre Arsenal",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNlJ1dU91cDJkWnRKVDJ4LVVqNElaeGZHN1dYVm9DTlN6eUw1emhzUTFqTDZHMzRUZ0g5VVZfT0Z2ZXkyVWlWR3V1RTlpWHVzdmVISHpObVg1MVIwbVlKUHJqSEUtZkxoQjJnNFktSEVJLUQxTG1mQXZiWFA4QXh3NjQxQmxxTjY1SzlWSzNYNGV2dHVYcjh1ekVqMHhUSkRsWkNncDhOS2VsVnhNVVRrTjdaYjQ4WDliWW1DT1BxRXN6VU1KM1BoLU5kR3ZLZFR0SGstcTdIczN1MmR3Ync?oc=5"
+        },
+        {
+          "label": "GNews · Sports.fr — PSG-Arsenal, très lourdes accusations contre l’arbitre",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONVlrTDhyODlBZzJIT2NwcFdJNXJNVTRIbEFLQ1VVTzRHc1RxTlZYN2N1NHVrNmhBelU4cVV0T3lFOC1xLTY4cW1kblJWVVR5aFpSbEZ3X2RubWpnZ3NCUnEyci1fVy1wSWVDaXRGZGJsZDd6NUVzMi1BUTd4Tm1ZcHZGWWVRMTY2YURtMG13aHl6djd2ZENEM0pVdUpUd2dKZm9jcWRuSHhPTnVrMFFCdllJNDVpSHo0dWVNb3VRWDJZOUk?oc=5"
+        }
       ],
       "discover_category": "/Sports/Team Sports/Soccer",
       "discover_entities": [
@@ -720,11 +807,26 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.d4e4a222e38e383f884f0dd9ff242a67&pid=Wdp",
       "msn_source_name": "So Busy Girls",
       "refs": [
-        "MSN · So Busy Girls — Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
-        "Discover · Actu.fr — \"J'aurais dû signer au Stade Toulousain en 2017\" : après 244 matchs en pro, il prend sa retraite",
-        "GNews · Foot Mercato — Real Madrid : Karim Benzema prend position pour les élections",
-        "GNews · Closer — Affaire Patrick Bruel : “Se couper du monde”, ce lieu éloigné de Paris où il se serait réfugié",
-        "GNews · letemps.ch — Pourquoi la réaction du Paléo Festival à l’affaire Patrick Bruel détonne en France, où les stars accusées de violences sexuelles bénéficient «d’une sorte d’immunité"
+        {
+          "label": "MSN · So Busy Girls — Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
+          "url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-après-andréa-bescond-alexandra-lamy-sort-du-silence-et-prend-position/ar-AA247kkO?ocid=00000000"
+        },
+        {
+          "label": "Discover · Actu.fr — \"J'aurais dû signer au Stade Toulousain en 2017\" : après 244 matchs en pro, il prend sa retraite",
+          "url": "https://actu.fr/occitanie/montauban_82121/j-aurais-du-signer-au-stade-toulousain-en-2017-apres-244-matchs-en-pro-il-prend-sa-retraite_64317728.html"
+        },
+        {
+          "label": "GNews · Foot Mercato — Real Madrid : Karim Benzema prend position pour les élections",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNVcxSFRkUXg5cmliVDJKVGhSZTdWcDVFVWZ0WFI0bUd5emctRS1FX2tyWDNxT3p5bjlwNmhUV093bVh6SV9EX2Y3TkZmVVp1akdYNExrZkdEcXhRQ1BJU0ZnLUkxeVQ3UkxVSHZ3S2VVLXBrdXZiNk9YQ2FiV0FDdUJlLWIyQ0tvUWVhN2Z5dC1uTC03ZkgtRm13emNuamRYSDBneElvVjVhanhH?oc=5"
+        },
+        {
+          "label": "GNews · Closer — Affaire Patrick Bruel : “Se couper du monde”, ce lieu éloigné de Paris où il se serait réfugié",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNelNQdC0yRWYwZTh2LVpfYjFaVXdXa3NUeEkxUFJoaVcxM0Nkc2JTazlsc0hmZFVyUGdTUDEzQVUxS21GejFud2dCaFFEcTlrZGtuU0R6LU1yZkJhZUVOZVM5eFI2WWV2bXRvVzR0S2J2dHhyQzNUcGVVaS1Fdy1VeFQ1T2tENjZScnZyQVFpZjhkUmJPdnhwR2Qtd1Vvb3Z5YnowaUZxRXlsRUU3cTktU29lblI1NlpDN29mWmhNYTRUQ3ZIN2RYcQ?oc=5"
+        },
+        {
+          "label": "GNews · letemps.ch — Pourquoi la réaction du Paléo Festival à l’affaire Patrick Bruel détonne en France, où les stars accusées de violences sexuelles bénéficient «d’une sorte d’immunité",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOTWFkY2ZEQl91NEhhdW1YQWtiRExxSVhNWXVLb2FXMHBLbDNEejBrbE1oamhxX2lnQVVQTEg2X1ZaMDFJREZ4LTBOMExleUNiVVdwUEk3NUd5eFF0WVEwVXBXb0NtSWtWcjd6YWxaZ3Eza3lFQ3V4TTJxc0hlbUp6a2Y4LUhuTGY1eWNhLUlyS1lNdW9DNDRfMFJWbm0xVExmYUdhOG5NS0JmcC1uZlJ6eXY5Z3RZXzU4V0M2WDFtLWowcU5QSnhjaWdSSFJUWWI5bzlDa3duUFBhYy13a0NDaXNGUHE2b204N1J5U0Y1SHhHZjNlX2Y2eGVXR1dfeDZNcnJRWVVLYW1vRDU2MzlBUi1pd3Ewdnkx?oc=5"
+        }
       ],
       "discover_category": "/News/Sports News",
       "discover_entities": [
@@ -810,10 +912,22 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.21a451391afd023e44ea45a9316b476e&pid=Wdp",
       "msn_source_name": "So Busy Girls",
       "refs": [
-        "MSN · So Busy Girls — Flavie Flament frappée par une autre annonce au moment où son nom revient au premier plan avec la polémique Bruel",
-        "Discover · France 3 Régions — La Redoute annonce un plan de transformation : 171 postes menacés, dont 138 en France",
-        "GNews · NextPlz — \"Ce n'était pas son mari…\" : les révélations de Cyril Hanouna sur Flavie Flament qui ont fait bondir Benjamin Castaldi",
-        "GNews · TV Magazine — «Je vais prendre le nom de famille d’Antonin» : Laury et Antonin («Mariés au premier regard») se confient sur leur couple"
+        {
+          "label": "MSN · So Busy Girls — Flavie Flament frappée par une autre annonce au moment où son nom revient au premier plan avec la polémique Bruel",
+          "url": "https://www.msn.com/fr-fr/divertissement/tv/flavie-flament-frappée-par-une-autre-annonce-au-moment-où-son-nom-revient-au-premier-plan-avec-la-polémique-bruel/ar-AA2483p5?ocid=00000000"
+        },
+        {
+          "label": "Discover · France 3 Régions — La Redoute annonce un plan de transformation : 171 postes menacés, dont 138 en France",
+          "url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/roubaix/la-redoute-annonce-un-plan-de-transformation-171-postes-menaces-dont-138-en-france-3357601.html"
+        },
+        {
+          "label": "GNews · NextPlz — \"Ce n'était pas son mari…\" : les révélations de Cyril Hanouna sur Flavie Flament qui ont fait bondir Benjamin Castaldi",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORE9RWmJEUEFEVDJIT044dDVqNkpDQnZ5UTdXRV94bEJfQkItTkFLUEFoZnI1RjBqNlZsMktYd0VXLVFhbzBMb2hzTThLNnVtRjlaMDYxMDBDeXlsYWxKQW12aUZpUmlYTDktSGozNWdnc2VXWDRKR0xuX3Iwc3RGNHJUY2JNT200c0FqSmhGTmI1Mi12X0E2T2RuSlF2ZnY3SnhXVUFaa3FqRGN4bUg1cnRkNXM5Xy1BVlVYN2J5b0dnelFjRk5sOGIzVzlXSWFxUmFNMWZIdE5RNFhBaVAxczJtOA?oc=5"
+        },
+        {
+          "label": "GNews · TV Magazine — «Je vais prendre le nom de famille d’Antonin» : Laury et Antonin («Mariés au premier regard») se confient sur leur couple",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOaWEwREV4NVliTWRUeElrbjJmLWg2dURKMF9hSW5hZEZRck9WNWVLcVBTeFZvWEJ4N28xNTBzVUtCVXVpR0lUZTZwVVlDRWQzQnZJSzFiRTRsWUJxZjFDSVRRc3NZODVJNFV6OV9iVjE4dDg0a1VsTC0zR0VFYXhYOXdRLVpWbGRrdDV0ZXF1VG5jRjBmZzVnY2h2MlkwdDZZZ09OekJfUFdBZjlBU3NsRWpkeURoV19SVWp2NUtDVnFjdU9mbEtiZ2tEZDZtbTZITWtRNkVRQk8tbk5MSml3ZFdjYW1TS00xeGYwdjF4ai1pVWlteGJ5cGhTNXZudEVkM0RHTw?oc=5"
+        }
       ],
       "discover_category": "/News/Business News/Company News",
       "discover_entities": [
@@ -890,11 +1004,26 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.e6034f044807f15fe65806c39126cad8&pid=Wdp",
       "msn_source_name": "Le Parisien",
       "refs": [
-        "MSN · Le Parisien — Guerre en Ukraine : Kiev détruit un rare radar russe 5N63S, le « cerveau » du système de défense aérienne S-300",
-        "Discover · Les Echos — Guerre en Ukraine : le nombre de pays contribuant à l'initiative tchèque pour fournir des munitions à Kiev aurait fondu de moitié",
-        "GNews · RFI — EN DIRECT - Guerre en Ukraine: la France convoque l'ambassadeur russe après les menaces de Moscou contre Kiev",
-        "GNews · Le Figaro — Guerre en Ukraine : Zelensky demande à Trump de fournir à Kiev plus de missiles antiaériens",
-        "GNews · Le Monde.fr — EN DIRECT, guerre en Ukraine : les dernières informations"
+        {
+          "label": "MSN · Le Parisien — Guerre en Ukraine : Kiev détruit un rare radar russe 5N63S, le « cerveau » du système de défense aérienne S-300",
+          "url": "https://www.msn.com/fr-fr/actualite/monde/guerre-en-ukraine-kiev-détruit-un-rare-radar-russe-5n63s-le-cerveau-du-système-de-défense-aérienne-s-300/ar-AA249rVv?ocid=00000000"
+        },
+        {
+          "label": "Discover · Les Echos — Guerre en Ukraine : le nombre de pays contribuant à l'initiative tchèque pour fournir des munitions à Kiev aurait fondu de moitié",
+          "url": "https://www.lesechos.fr/monde/europe/guerre-en-ukraine-le-nombre-de-pays-contribuant-a-linitiative-tcheque-pour-fournir-des-munitions-a-kiev-aurait-fondu-de-moitie-2233508"
+        },
+        {
+          "label": "GNews · RFI — EN DIRECT - Guerre en Ukraine: la France convoque l'ambassadeur russe après les menaces de Moscou contre Kiev",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRktKNlFhZ001OEl1SXFjZEh4QndoWG9YcGVBaGdWTURpYmZRbUpReWZnS3RUcjVtN1lwcnhRaE95TURIY3ZMcVNDU1FpU3lVb2l1Rk1Lbnk2dTR1S2dJTm1BM0hUcGR3UXYzMXFlZjNlWHpQSWp5OGJteTAtN2JiSUtFUnhOODNuVHhBUHpiR182SVRQMm5va1BSWm5iektTYkhvemhjVVNJWUJvMWxNV2RmSnZSUmc5a3Y0SVVNYm03RVdWdHhWSEtNWmlkOERidkFWMGUybDdHUG5ONDQzVC1PSk5NSC1GRWc?oc=5"
+        },
+        {
+          "label": "GNews · Le Figaro — Guerre en Ukraine : Zelensky demande à Trump de fournir à Kiev plus de missiles antiaériens",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYXNqaHlBY2pzLTl3OTZaa1RDdTNCSFdLZDJmQjJ4bzR1RE5Pd2pvTlJkaFZaRzBtaVFTX2VoRmZjcE5CeERLQUlGV1dBZTg5NE9xS1ZycHBsREVZTGRCQ0ZucW5rMy1vcjJjc2FGTkZwd09TNWc4akdMNmYxRThVeTFGUjN4a1ZSV1ZNOVpUaUxIdU9sT0FOZ3J5VzVDTFd0Y0w3RTRHYUxVM29reENsalo1WEFOTDNHcDdKYlR6bG01S0hocEtFaGE4N3d2VUZuX1E?oc=5"
+        },
+        {
+          "label": "GNews · Le Monde.fr — EN DIRECT, guerre en Ukraine : les dernières informations",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSDEyUnRmaVVLQzNjR19MR0FVMWhmVDZtQjVycnVJX055V0FkOGpwVWxPZHc5aGRDcmVCX1pxSlFQZUdyZEM5dVB4VS1LMnJIQ2V3NFZ4WVFVNi1SRU9mT1dmZlJUNkVrdUxHd3pjYUV6aDQ1dWxxNU1tQ0VYcWo0RUxYVzh6SzRVWlFWaDAtSVJlTHBVV3hGc2xVcVkzWDEteEl6cEpxcnktVF9vYldUb05LU2VhT1U3cjNVZjJKWlY4RkE?oc=5"
+        }
       ],
       "discover_category": "/News",
       "discover_entities": [
@@ -973,11 +1102,26 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.3b678557c2fff4952dbada0b35ba30de&pid=Wdp",
       "msn_source_name": "Marie France",
       "refs": [
-        "MSN · Marie France — Voici le salaire qu'il faut toucher tous les mois pour faire partie de la classe moyenne en 2026 en France",
-        "Discover · mesinfos — Gorges de la Nesque réservées aux vélos : ce qu'il faut savoir",
-        "GNews · Le Monde.fr — En Corée du Sud, des employés de Samsung vont toucher une prime record de 290 000 euros en moyenne",
-        "GNews · Ouest-France — Canicule : entre fortes chaleurs et orages, à quoi faut-il s’attendre dans les prochains jours ? - Ouest-France",
-        "GNews · Le Monde.fr — Aide carburant : ce qu’il faut savoir de l’indemnité destinée aux « grands rouleurs » et disponible à partir d’aujourd’hui"
+        {
+          "label": "MSN · Marie France — Voici le salaire qu'il faut toucher tous les mois pour faire partie de la classe moyenne en 2026 en France",
+          "url": "https://www.msn.com/fr-fr/lifestyle/shopping/voici-le-salaire-qu-il-faut-toucher-tous-les-mois-pour-faire-partie-de-la-classe-moyenne-en-2026-en-france/ar-AA1PuinD?ocid=00000000"
+        },
+        {
+          "label": "Discover · mesinfos — Gorges de la Nesque réservées aux vélos : ce qu'il faut savoir",
+          "url": "https://mesinfos.fr/84570-blauvac/gorges-de-la-nesque-reservees-aux-velos-ce-qu-il-faut-savoir-248458.html"
+        },
+        {
+          "label": "GNews · Le Monde.fr — En Corée du Sud, des employés de Samsung vont toucher une prime record de 290 000 euros en moyenne",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNZUswcXJ0WHRlRmgtZ05rUWRuUXpYX1Qzb0NQc2VKaFhxT1JTd3Z4RWhLSUo5X0IyZ01uU2FqbHdrVk5GYXBTajFpRWU5SDFVTFd0Vmx4ZV8xdG9VMUM1QlEzZlFTT3g0bndJUjZlVGdnbXRtMFBPSUwxLXh0TjE4dTkxN0wxckN4c3VuLUlBOXZGNFFxaWM2ZzcxWDZFbUUwNnZvS01welM4TkhtdXV1Mk9SemNzX19EYzBmenhqRWM2emRTNGJRLU9sU3JwdTJzbThUMmhNTmlfWXhhWkpoXzBoZXRnclJxZE5IVzlrZEFhQ2s1NmtPTDFXOFU0bTV5dUU0VjVmR0RtUQ?oc=5"
+        },
+        {
+          "label": "GNews · Ouest-France — Canicule : entre fortes chaleurs et orages, à quoi faut-il s’attendre dans les prochains jours ? - Ouest-France",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNSmlac05TbF94RENoWGtnWEdqUFNROWdfY2hKRUg2VGtpcDNsMzlST2hYY2YyVDA1VHJXMnpwbXBxcWVGb3R6LXFEejhGNWs3ZWlIOVFKOHQ5cmllbXBjTWRSb3JwR293cF9oei1KeVBQOGg2QjBtbEVYOGhLYnRNYklfSzI1S2ttSXoxamVwc1BwZUV5TnNNVElxdTVfM0F2SjNpTG96dTVzd2NIRUJPbWpTbnpkaTcyMEgyYXA0WEFjOFlHT0ZKVjJUeTFtLVBQRGtTdEptTkFxcFR1YzVhTmZ4a2RGaXMtcklfNEQ0ZkxZWnFfQUYwUEZ4a2NwOXc?oc=5"
+        },
+        {
+          "label": "GNews · Le Monde.fr — Aide carburant : ce qu’il faut savoir de l’indemnité destinée aux « grands rouleurs » et disponible à partir d’aujourd’hui",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPVXRqQldJQzI4RVdJM0stZDR5STNkN0dCU2JuZEhfU3FweVRqSHdUVG5pZE5SS3pneldoVUNaQmhwUl9HLURyb0NhN3E5bjZnTmx0Ri1IbU1XNFdzeTctNEs2OXo4LV9Edy1GUmlmemhBbzc5N3JiZWFTcTBYTVNCXzU0QUFzbDdIRTZDQjk4Z1dNSjBvc1NiMm8xN2ViTEt4Z1Zxa2paV0w5Q2VCSHZTZXZyVkJXbmZDV1diSjlzeHFLTHpNX2ZzOXV4UFV1MnhqYnpLZFpXdm4wYk1tVU9iaGdsc3V1ZEM1cjd0R3RtOExtZnA3VjNIc3VIcno1bUVzWTBtaWJnQnhTN3BEeDNDSlBzemlxR0U?oc=5"
+        }
       ],
       "discover_category": "/Sports/Individual Sports/Cycling",
       "discover_entities": [
@@ -1056,11 +1200,26 @@
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA247Uf8.img",
       "msn_source_name": "Le Parisien",
       "refs": [
-        "MSN · Le Parisien — Narcotrafic : dix jours après la mort d’un adolescent, un jeune homme d’une vingtaine d’années tué par balles à Nantes",
-        "Discover · Le Monde.fr — A Nantes, un jeune homme tué dans « un nouvel épisode de tirs » sur fond de narcotrafic",
-        "GNews · Ouest-France — REPORTAGE. « On se pensait protégés des tirs ici » : le narcotrafic fait un troisième mort à Nantes, un quartier sidéré - Ouest-France",
-        "GNews · 20 Minutes — Déclaré mort et enterré, il réapparaît vivant après ses funérailles",
-        "GNews · parismatch.com — « Une situation horrifiante » : une mère tue ses deux enfants après avoir vu son mari avec une autre femme"
+        {
+          "label": "MSN · Le Parisien — Narcotrafic : dix jours après la mort d’un adolescent, un jeune homme d’une vingtaine d’années tué par balles à Nantes",
+          "url": "https://www.msn.com/fr-fr/actualite/france/narcotrafic-dix-jours-après-la-mort-d-un-adolescent-un-jeune-homme-d-une-vingtaine-d-années-tué-par-balles-à-nantes/ar-AA247suE?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le Monde.fr — A Nantes, un jeune homme tué dans « un nouvel épisode de tirs » sur fond de narcotrafic",
+          "url": "https://www.lemonde.fr/societe/article/2026/05/27/a-nantes-un-jeune-homme-tue-dans-un-nouvel-episode-de-tirs-sur-fond-de-narcotrafic_6694163_3224.html"
+        },
+        {
+          "label": "GNews · Ouest-France — REPORTAGE. « On se pensait protégés des tirs ici » : le narcotrafic fait un troisième mort à Nantes, un quartier sidéré - Ouest-France",
+          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPcXBLZ1RpS3VhOG13dU1aZzJEZS0xemxJTlhwc1R4enVWRG91VERoTkRHa0ljdnpZMkNyc1otMjBnaG5pRFZ2VE5uTXVyQV9LTjItX0dEbjlMTG1XZ2xBSDYxYXYtOWlsX3VEU1QwMnczdnFKMC1LZzFNTzlmSE5qeEo0T2NxM1lXaWRKM0VCQlpxYW5EQmtVdUEyMXBTejhJNTVqZ0pWbUhiek9RVUp0cTB6cGNlRmhJOVREbWIzU2s0Q0RfZlVBVHU5dHRsbHVuRUF4R1FZSGdZeVctaEZzR210NGx0MmpYUloxaWl1NVY0eHR3cE1PS0JsbDFGcmdORFNuWFRUOVlIcjJnTjBfckJoeVZzUlVXWWUtcWdudHcwV1dJ?oc=5"
+        },
+        {
+          "label": "GNews · 20 Minutes — Déclaré mort et enterré, il réapparaît vivant après ses funérailles",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUENpcWRPMmJGT2g2c2N2ZnlMb2xPYU03TmJqdnN1RU9SQUN2VDRPYXpxQ0k0Ym9wV2E5UF9YS3laZHFrYkdhSW1WMjdKbjAxOElEYVYyRlFSSUZxTXhzbm53dmZxbm9IRF8tazZsTl8tOVBaSU1Ka2J0SHRzVGJRcE93QXdQRzVaVTM0UEYxTDE3R1FZelRWU0N5VGtTTWZWbUZqa0lNMUgxZkpSS2hMaEhQT2hKU2lsWjI4cDB3?oc=5"
+        },
+        {
+          "label": "GNews · parismatch.com — « Une situation horrifiante » : une mère tue ses deux enfants après avoir vu son mari avec une autre femme",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZWdId3NHbG5VbC00TGNybWZfWmlRUkdMQkhmUDctZmhOMXRFOEV6d1FaWXdKZWwzMHllVE1aaHFIUThkNXh6VTFfeUxVRTlaT0pNb0JNQ0NxSGtmMGpVX2tITk81MXY1eFlNaEZ1b0RTMVIzUVRnRV9hd1dfNlBzNFduWVYyOExka2FlZzZKNVo2MnJNS0h2VUU2cEZkbnNOc0VObTZ1TzJYVVRMMENpMWI2bElXX3FtSEJ0NjF3cDR0cngxakx3UTFWelM0SzhJSmRxTzhkZ3pYRDdhcF9ZU1J4SGFQSE5q?oc=5"
+        }
       ],
       "discover_category": "/Sensitive Subjects",
       "discover_entities": [
@@ -1142,10 +1301,22 @@
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA21DabP.img",
       "msn_source_name": "So Busy Girls",
       "refs": [
-        "MSN · So Busy Girls — Emmanuel Macron aurait déjà son favori pour 2027 et ce nom en dit long sur l’après-Élysée",
-        "Discover · Actu.fr — Ce bar-restaurant ferme déjà ses portes un an après son ouverture à Dieppe",
-        "GNews · Numerama — Annonces d’Emmanuel Macron sur la voiture électrique : vraies mesures ou poudre aux yeux",
-        "GNews · Challenges — « OpenAI me l’a dit » : aux Etats-Unis, les plaintes générées par IA inondent un système judiciaire déjà à bout de souffle"
+        {
+          "label": "MSN · So Busy Girls — Emmanuel Macron aurait déjà son favori pour 2027 et ce nom en dit long sur l’après-Élysée",
+          "url": "https://www.msn.com/fr-fr/actualite/elections/emmanuel-macron-aurait-déjà-son-favori-pour-2027-et-ce-nom-en-dit-long-sur-l-après-élysée/ar-AA247cUr?ocid=00000000"
+        },
+        {
+          "label": "Discover · Actu.fr — Ce bar-restaurant ferme déjà ses portes un an après son ouverture à Dieppe",
+          "url": "https://actu.fr/normandie/dieppe_76217/ce-bar-restaurant-ferme-deja-ses-portes-un-an-apres-son-ouverture-a-dieppe_64317817.html"
+        },
+        {
+          "label": "GNews · Numerama — Annonces d’Emmanuel Macron sur la voiture électrique : vraies mesures ou poudre aux yeux",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd3Y5WkpRSHNLNm1IUnR1NEtOaXNBa1VoTy16dGxEbEk2Qk9vdlgzZG1valJOa3d0azhjQkpNUno0MjVOd0pwalQyUndieEpfZmNPa2pUZENHSG91Vl93MHZSakFJYlViVXJmaE5pTlBxMWZjNWZFZV9kM2t4bm54MFBqNUVROWtJNnFzeVUtamV0dlhmbUhvLVEwckpVN0xXd010MnU5U3VtQmhpSzdPZUFtN1ZSVFBPaXQ0MVBTRXB0T0o2QnJDUg?oc=5"
+        },
+        {
+          "label": "GNews · Challenges — « OpenAI me l’a dit » : aux Etats-Unis, les plaintes générées par IA inondent un système judiciaire déjà à bout de souffle",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOWDRlUjJMRnJKamtOSXp3TkVKYm1ZTnFRUjEzWEZkZkxoZk1TcW1MTE9OSTF3T05INnRkc2Ezemt3eGJad1FVZ2s0TmR6bkNUSmZhVXNIUmgyaVpOZEE3eTFHT3lTWjdqVkdBc0czWTc1dlBCcVNDYUswT3BLMkllMk12dE4zMWExdkVlNlFBa3dnNVk4Z2o5cFZCdUVnZ2FDZ1BEVm1DMi1RczU3ZWljLWhTZkM5eno5Q09DNkhwVEhRZTdTQWV6cVI2X3pFUzZScnhEaEtET3I2bU9GYXlMTmJRb3pMYjJfUUs5QzRYbkdJQ1hZQlV0TVpXS1htN2xYTzg0?oc=5"
+        }
       ],
       "discover_category": "/News",
       "discover_entities": [
@@ -1227,11 +1398,26 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.90dd74bfd8ca21d2f6907c3473c6555c&pid=Wdp",
       "msn_source_name": "Football 365",
       "refs": [
-        "MSN · Football 365 — PSG-Arsenal : déjà 2 absents pour la finale de la Ligue des champions !",
-        "Discover · Le Populaire du Centre — Une rue de Bellac va se transformer en fan-zone pour la finale de la Ligue des Champions entre le PSG et Arsenal",
-        "GNews · L'Équipe — 74% des Français confiants pour le PSG avant la finale de la Ligue des champions contre Arsenal",
-        "GNews · La République des Pyrénées — Football : à quelle heure et sur quelle chaîne voir la finale de Ligue des champions entre le PSG et Arsenal",
-        "GNews · Sports.fr — PSG-Arsenal, très lourdes accusations contre l’arbitre"
+        {
+          "label": "MSN · Football 365 — PSG-Arsenal : déjà 2 absents pour la finale de la Ligue des champions !",
+          "url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-déjà-2-absents-pour-la-finale-de-la-ligue-des-champions/ar-AA248LgF?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le Populaire du Centre — Une rue de Bellac va se transformer en fan-zone pour la finale de la Ligue des Champions entre le PSG et Arsenal",
+          "url": "https://www.lepopulaire.fr/bellac-87300/sports/une-rue-de-bellac-va-se-transformer-en-fan-zone-pour-la-finale-de-la-ligue-des-champions-entre-le-psg-et-arsenal_14992287/"
+        },
+        {
+          "label": "GNews · L'Équipe — 74% des Français confiants pour le PSG avant la finale de la Ligue des champions contre Arsenal",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNlJ1dU91cDJkWnRKVDJ4LVVqNElaeGZHN1dYVm9DTlN6eUw1emhzUTFqTDZHMzRUZ0g5VVZfT0Z2ZXkyVWlWR3V1RTlpWHVzdmVISHpObVg1MVIwbVlKUHJqSEUtZkxoQjJnNFktSEVJLUQxTG1mQXZiWFA4QXh3NjQxQmxxTjY1SzlWSzNYNGV2dHVYcjh1ekVqMHhUSkRsWkNncDhOS2VsVnhNVVRrTjdaYjQ4WDliWW1DT1BxRXN6VU1KM1BoLU5kR3ZLZFR0SGstcTdIczN1MmR3Ync?oc=5"
+        },
+        {
+          "label": "GNews · La République des Pyrénées — Football : à quelle heure et sur quelle chaîne voir la finale de Ligue des champions entre le PSG et Arsenal",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOSThtYlhCRXdweGs1czVnaWlYb1JpSENNZmtfVlRzMFR1MGhDbzZYXzlMSFRULW0wZzVsLVB4T05kYmZKcVgzbzRyeU1xbjJLS09wU3VNeUk5V0dSZ0hGY05CbW4tdlEzTWMyeHpxMV9XMC12TkZ0UUIzSzAyLUtjd1lNbndTbmNFNmVyTTRKTTVVUjJxREI4SVl1TzJhV1hlODQ5RHVRY1J6OWQ5bHlMajk3dVdSQmFoSXJlVjNQSEI1cTBFLW1mam11U0I5Z0JHOS1XZXJkNTBrTXFwcDJ1UU1jQjFPR2pTZnlRSS16eWtma2pDQTI3andxd3JscmJhMHhMbzZCRTk2aWJXZHBwMnhhS2lnaVk?oc=5"
+        },
+        {
+          "label": "GNews · Sports.fr — PSG-Arsenal, très lourdes accusations contre l’arbitre",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONVlrTDhyODlBZzJIT2NwcFdJNXJNVTRIbEFLQ1VVTzRHc1RxTlZYN2N1NHVrNmhBelU4cVV0T3lFOC1xLTY4cW1kblJWVVR5aFpSbEZ3X2RubWpnZ3NCUnEyci1fVy1wSWVDaXRGZGJsZDd6NUVzMi1BUTd4Tm1ZcHZGWWVRMTY2YURtMG13aHl6djd2ZENEM0pVdUpUd2dKZm9jcWRuSHhPTnVrMFFCdllJNDVpSHo0dWVNb3VRWDJZOUk?oc=5"
+        }
       ],
       "discover_category": "/Sports/Team Sports/Soccer",
       "discover_entities": [
@@ -1310,11 +1496,26 @@
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA249yXK.img",
       "msn_source_name": "Auto Moto",
       "refs": [
-        "MSN · Auto Moto — Avec seulement 160 km d’autonomie au lieu des 341 annoncés, il obtient le remboursement de sa Peugeot électrique",
-        "Discover · Ouest-France — Lidl écrase la concurrence ce mercredi : -31 % sur son vélo électrique à 100km d’autonomie",
-        "GNews · 01net.com — Moins de 30 000 €, 643 km d’autonomie : Xiaomi frappe un grand coup avec le nouveau YU7",
-        "GNews · Numerama — Annonces d’Emmanuel Macron sur la voiture électrique : vraies mesures ou poudre aux yeux",
-        "GNews · Les Numériques — La BYD Dolphin G DM-i est officielle avec 1 000 km d'autonomie et une sortie confirmée pour l'Europe"
+        {
+          "label": "MSN · Auto Moto — Avec seulement 160 km d’autonomie au lieu des 341 annoncés, il obtient le remboursement de sa Peugeot électrique",
+          "url": "https://www.msn.com/fr-fr/auto/actualite/avec-seulement-160-km-d-autonomie-au-lieu-des-341-annoncés-il-obtient-le-remboursement-de-sa-peugeot-électrique/ar-AA248Vvq?ocid=00000000"
+        },
+        {
+          "label": "Discover · Ouest-France — Lidl écrase la concurrence ce mercredi : -31 % sur son vélo électrique à 100km d’autonomie",
+          "url": "https://www.ouest-france.fr/shopping/marques/lidl/lidl-ecrase-la-concurrence-ce-mercredi-31-pourcent-sur-son-velo-electrique-a-100km-dautonomie-7b33e530-5921-11f1-8481-6f001a76e738"
+        },
+        {
+          "label": "GNews · 01net.com — Moins de 30 000 €, 643 km d’autonomie : Xiaomi frappe un grand coup avec le nouveau YU7",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN2x6eFRnWlJ3ODJPUWphOU94Y2hKVHNHT19oNXpWYVlZX3JRTXhmaG5vTnp5TUFndDVBMkhyLVAxVXFtVF9GMDBDT0pkeERwRkpobkVhcmhONmVuSm8yd3l0Wk84RWdDeE5nZlpya2dweWFfcTdoSW0weHdCZ1k0amo4MkI4XzJrUDRrcVZxQjgwTHBPd3B1Z25rX0FwN0E5UW1PMi1PSTVHZWROd3JCSkdB?oc=5"
+        },
+        {
+          "label": "GNews · Numerama — Annonces d’Emmanuel Macron sur la voiture électrique : vraies mesures ou poudre aux yeux",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd3Y5WkpRSHNLNm1IUnR1NEtOaXNBa1VoTy16dGxEbEk2Qk9vdlgzZG1valJOa3d0azhjQkpNUno0MjVOd0pwalQyUndieEpfZmNPa2pUZENHSG91Vl93MHZSakFJYlViVXJmaE5pTlBxMWZjNWZFZV9kM2t4bm54MFBqNUVROWtJNnFzeVUtamV0dlhmbUhvLVEwckpVN0xXd010MnU5U3VtQmhpSzdPZUFtN1ZSVFBPaXQ0MVBTRXB0T0o2QnJDUg?oc=5"
+        },
+        {
+          "label": "GNews · Les Numériques — La BYD Dolphin G DM-i est officielle avec 1 000 km d'autonomie et une sortie confirmée pour l'Europe",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQc2xZQTRYMUJweTU0Z2Y0akRNaDBIVGZ2aHZjNkZJLVNHTzkxWGVZdG9UaDdqLWhHMzU4S3hqNWdFcW9QMHpHVmk0Z2FWUktMU255N2JHeFduMGtWRVFRYVF0UmNjc0Z6QzRra3UyRVNhSndHamszeFdOZTFvOFNtWEdfOWJmQzZBLXFsMGdJWG5TajkySjVhc0hRZ21pMjBkLWNicHpVcFZsNTBhaFpqQmRzZXExLUZISmxCTy11VloyWlVTWUc5aGl3Vm9VOE1DRDFybTVmVHJJTWFYb2ZoVHhXMHZlbFJtNEd6eDhrUS00SkZkODF0OFV1eDZyekJoOUE?oc=5"
+        }
       ],
       "discover_category": "/Autos & Vehicles/Bicycles & Accessories",
       "discover_entities": [
@@ -1391,10 +1592,22 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.cdbe23aa396cc4534604c3a9d412fde0&pid=Wdp",
       "msn_source_name": "Dailymotion",
       "refs": [
-        "MSN · Dailymotion — Un nouveau serpent géant vient d’être découvert en Amazonie",
-        "Discover · Actu.fr — Toulon : le Mega Serena, nouveau géant jaune de Corsica Ferries, fait sa première entrée dans la rade",
-        "GNews · Futura, le média qui explore le monde — Encore plus redoutable que le T. rex : ce mosasaure géant, de la taille d'un bus, est le plus féroce jamais découvert",
-        "GNews · L'Automobile Magazine — DS avait quitté Citroën pour voler seule : Stellantis vient peut-être de boucler la boucle"
+        {
+          "label": "MSN · Dailymotion — Un nouveau serpent géant vient d’être découvert en Amazonie",
+          "url": "https://www.msn.com/fr-fr/video/viral/un-nouveau-serpent-géant-vient-d-être-découvert-en-amazonie/vi-AA21p5jU?ocid=00000000"
+        },
+        {
+          "label": "Discover · Actu.fr — Toulon : le Mega Serena, nouveau géant jaune de Corsica Ferries, fait sa première entrée dans la rade",
+          "url": "https://actu.fr/provence-alpes-cote-d-azur/toulon_83137/toulon-le-mega-serena-nouveau-geant-jaune-de-corsica-ferries-fait-sa-premiere-entree-dans-la-rade_64318972.html"
+        },
+        {
+          "label": "GNews · Futura, le média qui explore le monde — Encore plus redoutable que le T. rex : ce mosasaure géant, de la taille d'un bus, est le plus féroce jamais découvert",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUTQxZE10eTVMeDZmbGc2RUw2bkNYZmduMEIzbmJuLXJZSHp6MDMxSUR6WGxubHNxT3cxX1Blb01Cdl9IMldHYTZsZk9xOUZyYnZnQnB1aGQ0RFNTbHRLc1ZmLVI4Qm9RM092NkIzUkJpdWphTTh4UDdySW9VVFlBTndWNzZybU1ka0pxZjktVEVrSnYxak45M1U1ZU1lTzYyTElST0Q4RlQwZl9STHNfelR6bnRhLWlkaXo2WUZneGRYYVZ1Z2stUUhndnh0OTdKcExDZmNJYzJGN2s0d1NqVDJ1Tk5iZEV0Q1BHaQ?oc=5"
+        },
+        {
+          "label": "GNews · L'Automobile Magazine — DS avait quitté Citroën pour voler seule : Stellantis vient peut-être de boucler la boucle",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcVFvT01EWEpMN1J4UXBBQWgzR19fbXVnQVc0QjRSRlcyMjBWTDhYVXpFSUItT2NNYS1aRElfTkcyOTVBWWJOVjRsTGtob2FQbkM4enJFMjZubjVvb3l3ZmtvUDJQck9QTHd0RWlCR3pTbjJxVXdmREZxWTlGbmxmSzRoQ2VXMkd1RDBZRVJqa3E0Vi1EejRvSzFyQzI0Vjlsc0JYWGJaNUR3eVRlUi1HR21QM3lfUGRYZ3ZxUF90VzAzYjN2MHI1WXFzWUpfbjR6LWtPQ1BWVXhzUmpVVE5Lenl2SDE1MmFEdF9n?oc=5"
+        }
       ],
       "discover_category": "/News",
       "discover_entities": [
@@ -1476,8 +1689,14 @@
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA249OHM.img",
       "msn_source_name": "RMC Sport",
       "refs": [
-        "MSN · RMC Sport — \"Je n'ai pas reconnu les joueurs\", Saint-Etienne-Nice, match le plus pauvre de la saison en France",
-        "Discover · Sports - Orange — Barrage L1-L2 : Bernauer, Clauss, Diop, ... Les tops/flops de Saint-Etienne - Nice"
+        {
+          "label": "MSN · RMC Sport — \"Je n'ai pas reconnu les joueurs\", Saint-Etienne-Nice, match le plus pauvre de la saison en France",
+          "url": "https://www.msn.com/fr-fr/sport/football/je-n-ai-pas-reconnu-les-joueurs-saint-etienne-nice-match-le-plus-pauvre-de-la-saison-en-france/ar-AA249wVE?ocid=00000000"
+        },
+        {
+          "label": "Discover · Sports - Orange — Barrage L1-L2 : Bernauer, Clauss, Diop, ... Les tops/flops de Saint-Etienne - Nice",
+          "url": "https://sports.orange.fr/football/ligue-1/article/barrage-l1-l2-bernauer-clauss-diop-les-tops-flops-de-saint-etienne-nice-exclu-CNT000002pBAB9.html"
+        }
       ],
       "discover_category": "/Sports/Team Sports/Soccer",
       "discover_entities": [
@@ -1560,9 +1779,18 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.caad1c5ae657dd8a80b4f2bd93029ded&pid=Wdp",
       "msn_source_name": "So Busy Girls",
       "refs": [
-        "MSN · So Busy Girls — Jean-Luc Mélenchon devient la figure politique la plus rejetée par les Français",
-        "Discover · Ouest-France — Assistants parlementaires de Jean-Luc Mélenchon : la justice clôture l’instruction, sans mise en examen",
-        "GNews · Atlantico — Jean-Luc Mélenchon sur le vrai-faux tremplin du bruit et de la fureur"
+        {
+          "label": "MSN · So Busy Girls — Jean-Luc Mélenchon devient la figure politique la plus rejetée par les Français",
+          "url": "https://www.msn.com/fr-fr/actualite/elections/jean-luc-mélenchon-devient-la-figure-politique-la-plus-rejetée-par-les-français/ar-AA24a5Su?ocid=00000000"
+        },
+        {
+          "label": "Discover · Ouest-France — Assistants parlementaires de Jean-Luc Mélenchon : la justice clôture l’instruction, sans mise en examen",
+          "url": "https://www.ouest-france.fr/politique/jean-luc-melenchon/assistants-parlementaires-de-jean-luc-melenchon-la-justice-cloture-linstruction-sans-mise-en-examen-7eb97420-592d-11f1-8ba2-e862963f4a46"
+        },
+        {
+          "label": "GNews · Atlantico — Jean-Luc Mélenchon sur le vrai-faux tremplin du bruit et de la fureur",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdlRoUjVKaF9KRDl4Sjd3RGFxZ3FrcG5CR0Q0R1hNSlNwZ3dUNWJ3YUZQeXUtVFl5N0gzcTZxMGYzU18wV0xmUWx0TEVhU21qZlFMckhEcWpLcHdkdUZBWHB3WWpxbDFXbUs1TU9aNUROX0xKZHhLb0VxLTlGbllLNXlDelNORzd4MFFhaVc0Tkl6TzB4NXB5cEhKVFZpbVp1U194Z09oWlpUYjdjSXFXd1JhV0V1ejlXOFE1emNfZw?oc=5"
+        }
       ],
       "discover_category": "/News/Politics",
       "discover_entities": [
@@ -1635,9 +1863,18 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.f8316a5141c776b4372f6b0d41ca750b&pid=Wdp",
       "msn_source_name": "Les Numériques",
       "refs": [
-        "MSN · Les Numériques — SFR vendu pour 20 milliards : ce qui change immédiatement pour les 25 millions d'abonnés",
-        "GNews · Les Numériques — SFR vendu pour 20 milliards : ce qui change immédiatement pour les 25 millions d'abonnés",
-        "GNews · News Console — Cette faille de sécurité qui touche des millions de Français en ce moment : ce que ça change concrètement pour vos comptes de jeux et abonnements en ligne"
+        {
+          "label": "MSN · Les Numériques — SFR vendu pour 20 milliards : ce qui change immédiatement pour les 25 millions d'abonnés",
+          "url": "https://www.msn.com/fr-fr/finance/autres/sfr-vendu-pour-20-milliards-ce-qui-change-immédiatement-pour-les-25-millions-d-abonnés/ar-AA1WlLsz?ocid=00000000"
+        },
+        {
+          "label": "GNews · Les Numériques — SFR vendu pour 20 milliards : ce qui change immédiatement pour les 25 millions d'abonnés",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZzdZeFNhSG8xSGt2aWxtSDBRM0p0eEVMY255ZUQ4N1gzM1p4dndOMVh3UkF5ZnJmbEVNa05iNEtlNXdhTzNBS0F0NFV3YXRkdmttOFJKZHJfMUtjRzk5azU4c0prNDRKcm9RMURlM3kxV3FyZVZ3ckUwTXBxSWNLMWhidzNqMVJUU0ItVl9yUF9SXzVwekFHNFpiQWc2QVI0OHpZa1FxTW9QZExNOWFHcWN1VEVWYWxBdTROSXN1MWdKajBITGk3NkRXMTEySTZNM01FVjJ5elZXQQ?oc=5"
+        },
+        {
+          "label": "GNews · News Console — Cette faille de sécurité qui touche des millions de Français en ce moment : ce que ça change concrètement pour vos comptes de jeux et abonnements en ligne",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPTHdtMWd6YU56c1BzcmlIOXdpRFFKNXdRcEFQQW9sTEVQQVlTNkRwd3BZLXFtdGRaRzlud0I1Mm1pZU9SYkh3OEhQczlTcFVIMVNTZVJPek9HTGFOZEtZVmVjWTBBNXN0R3NYSmhPZnpTVUhqMzVuTDl2dXItT1R5SzlWb2ZOU3lqRmJpV1BWRE81aEdhb2J4VHdnOEdlNHRJYW82UDRSeC1XaDYwYVdsS0xnUFJjZjg3c21vcG5TRU1rRjdscFlwakRPaTN5Tkk1REpLYkFUZ3czbmEzc3FUVm9xS01aNnM3R3lTazFCajhlRHdJZDRHOE5YZ3BfekwwOElaa3IzMk9KNFJoTHc?oc=5"
+        }
       ],
       "discover_category": null,
       "discover_entities": []
@@ -1717,9 +1954,18 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.91bb43a892ff8677985f16fb9afe673d&pid=Wdp",
       "msn_source_name": "France 24",
       "refs": [
-        "MSN · France 24 — Ukraine : un drone kamikaze dopé à l’intelligence artificielle attaque les convois russes",
-        "Discover · franceinfo — Frappes russes massives sur l'Ukraine : que cherche vraiment Moscou, qui n'avance plus sur le front",
-        "GNews · franceinfo — \"Un des textes les plus clairs que j'aie lus\" : comment le secteur de l'intelligence artificielle perçoit l'encyclique de Léon XIV"
+        {
+          "label": "MSN · France 24 — Ukraine : un drone kamikaze dopé à l’intelligence artificielle attaque les convois russes",
+          "url": "https://www.msn.com/fr-fr/actualite/monde/ukraine-un-drone-kamikaze-dopé-à-l-intelligence-artificielle-attaque-les-convois-russes/ar-AA24bJ09?ocid=00000000"
+        },
+        {
+          "label": "Discover · franceinfo — Frappes russes massives sur l'Ukraine : que cherche vraiment Moscou, qui n'avance plus sur le front",
+          "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/frappes-russes-massives-sur-l-ukraine-que-cherche-vraiment-moscou-qui-n-avance-plus-sur-le-front_8029343.html"
+        },
+        {
+          "label": "GNews · franceinfo — \"Un des textes les plus clairs que j'aie lus\" : comment le secteur de l'intelligence artificielle perçoit l'encyclique de Léon XIV",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPUGwzbkV1S2NFbmwydm5YWjdHQTQ2b3hERDZQeXBabjQyd2RFcFYzallsb29BcVNPc1RwcWZMTFByZFQ2U2VyN0RPZGFwYUlWTFQ3VDBYLVAzaFB2V2VZekRKTnNxMFoxZER5T3plbjgwOTFRX0pRN05kS2owczVBd29MV0piT1ZXUHczSGpNOWppbnh1QWlyRzRSeFhYd0tsYVpJalBLZ1A1dkU0WE9MblRUeFdPWXdVNklweEh2WXNaZGNkSVQyaG1BMVVvMmpWWTRZcVdYbkFlV19kTzJVdnlyS044ZzFBLTR4RlExQy1qZEhRS1JlMk5nMDNCODd1S2JXTEFEWm04UEM2cHA1aDVDZjhXWldQR1hFZlRQUmpsbU95TFd3?oc=5"
+        }
       ],
       "discover_category": "/Sensitive Subjects",
       "discover_entities": [
@@ -1801,9 +2047,18 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.e864e5d596a4f240e55a5c68871958c5&pid=Wdp",
       "msn_source_name": "So Busy Girls",
       "refs": [
-        "MSN · So Busy Girls — Nicolas Sarkozy voulait éviter une seconde peine à exécuter : la justice a finalement choisi une autre voie",
-        "Discover · Le Monde.fr — Procès de l’affaire libyenne : la défense de Claude Guéant s’en prend à la « cruauté de la stratégie » de Nicolas Sarkozy",
-        "GNews · RTL.fr — Procès en appel du financement libyen : Nicolas Sarkozy clame son innocence et assure qu'il n'a \"pas trahi la confiance des Français\""
+        {
+          "label": "MSN · So Busy Girls — Nicolas Sarkozy voulait éviter une seconde peine à exécuter : la justice a finalement choisi une autre voie",
+          "url": "https://www.msn.com/fr-fr/actualite/france/nicolas-sarkozy-voulait-éviter-une-seconde-peine-à-exécuter-la-justice-a-finalement-choisi-une-autre-voie/ar-AA247dbs?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le Monde.fr — Procès de l’affaire libyenne : la défense de Claude Guéant s’en prend à la « cruauté de la stratégie » de Nicolas Sarkozy",
+          "url": "https://www.lemonde.fr/societe/article/2026/05/26/proces-de-l-affaire-libyenne-la-defense-de-claude-gueant-s-en-prend-a-la-cruaute-de-la-strategie-de-nicolas-sarkozy_6693964_3224.html"
+        },
+        {
+          "label": "GNews · RTL.fr — Procès en appel du financement libyen : Nicolas Sarkozy clame son innocence et assure qu'il n'a \"pas trahi la confiance des Français\"",
+          "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOSkVkWlhGdDU0ajhDbURod0UwN09PaXRMUVp1N3VvR2U5endCZkNSODlPajU5Z1lNc1cya1c2RDFnOUtkN3dWNzBSNDQ3dGhCd2N6aHhzTmw3UGJHUnk3bDNUUGlaLTBhVTFueDEwSEJpdm04WGtpV29KcXd2WHpieE5ReUxOVk11YnlYTUpTa1VlSUJWOTBvNktCM2lvYzU3dTZzTDRmazhvTzlMRUR3SVY5dEVDeDgzeURCUEdpVXo5al9DMGwwWGlmZ3JQSFphdGlpTFFkNjZqaVVDYl9iaGM1eDRSenBNbUdwWkVfbFNJbzRRdUVXNnpWeDFuTllqMmFGNmxNS0tmQlI5NUVwZGtTTDBaS24yckFhWmcxNGRrVnVPMnJFM0VWRGpFTHhTTllaYWo4aDRWbjRDSGpHWg?oc=5"
+        }
       ],
       "discover_category": "/News/Politics",
       "discover_entities": [
@@ -1881,9 +2136,18 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.061f4c709b4683796b146a516a8b528d&pid=Wdp",
       "msn_source_name": "AlloCiné",
       "refs": [
-        "MSN · AlloCiné — Ce soir entre amis : si vous aimez Charles Bronson et Rambo, voici un western méconnu à voir absolument !",
-        "Discover · X — \"L'équipe que l'on doit le plus blâmer ce soir, c'est Nice. Quand tu es l'équipe de Ligue 1, tu dois montrer que tu es au-dessus, que tu es plus fort. Ils doivent faire plus.\" L'avis de @FlorentGautreau sur Saint-Etienne - Nice. Voir sur X",
-        "GNews · puremedias — \"Un moment de bascule exceptionnel\" : Pourquoi il ne faut absolument pas rater l'épisode de \"Koh-Lanta\" ce soir"
+        {
+          "label": "MSN · AlloCiné — Ce soir entre amis : si vous aimez Charles Bronson et Rambo, voici un western méconnu à voir absolument !",
+          "url": "https://www.msn.com/fr-fr/actualite/culture/ce-soir-entre-amis-si-vous-aimez-charles-bronson-et-rambo-voici-un-western-méconnu-à-voir-absolument/ar-AA246YWp?ocid=00000000"
+        },
+        {
+          "label": "Discover · X — \"L'équipe que l'on doit le plus blâmer ce soir, c'est Nice. Quand tu es l'équipe de Ligue 1, tu dois montrer que tu es au-dessus, que tu es plus fort. Ils doivent faire plus.\" L'avis de @FlorentGautreau sur Saint-Etienne - Nice. Voir sur X",
+          "url": "https://x.com/AfterRMC/status/2059381972170928333"
+        },
+        {
+          "label": "GNews · puremedias — \"Un moment de bascule exceptionnel\" : Pourquoi il ne faut absolument pas rater l'épisode de \"Koh-Lanta\" ce soir",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSl91c19neXRvYmtTa1R5c1hMZEl6Mlg1d0pOeEdUR2Z1TkFqeUpIemhjMXRRRVhtT1VqT3FKbVNQaDBTSFVfc01JRjJ3N196bkJjUTR5RkhnZFBjZDdTZFgySktJOXJ6T3hvd0s2N2tiYWNLcG1ZUEtvVVB4UlFqTDFxOTJLLWJTWVI3eG4wZGRic3k3TGx0LXFTLWJyczZVbzJtRmtIeFl3WWJXV0VCazRjS3I3SEJma3FpVmxrSk04UmRYUS1Oc1hVV0kxREtiaGpF?oc=5"
+        }
       ],
       "discover_category": "/Sports/Team Sports/Soccer",
       "discover_entities": []
@@ -1958,9 +2222,18 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.8a1bedd041d88432462cc5838bcf02ec&pid=Wdp",
       "msn_source_name": "20 Minutes",
       "refs": [
-        "MSN · 20 Minutes — Grâce à une technique unique, il relance un puits de pétrole abandonné en Alsace et gagne plus de 2 millions d’euros",
-        "Discover · France 3 Régions — \"C'est pour les enfants qu'on est déçus\" : le projet d'un collège à 23 millions d'euros abandonné agace les parents d'élèves",
-        "GNews · Le Figaro — Guerre au Moyen-Orient : le gouvernement va aider le secteur de la chimie à hauteur de 150 millions d'euros"
+        {
+          "label": "MSN · 20 Minutes — Grâce à une technique unique, il relance un puits de pétrole abandonné en Alsace et gagne plus de 2 millions d’euros",
+          "url": "https://www.msn.com/fr-fr/finance/autres/grâce-à-une-technique-unique-il-relance-un-puits-de-pétrole-abandonné-en-alsace-et-gagne-plus-de-2-millions-d-euros/ar-AA245xrW?ocid=00000000"
+        },
+        {
+          "label": "Discover · France 3 Régions — \"C'est pour les enfants qu'on est déçus\" : le projet d'un collège à 23 millions d'euros abandonné agace les parents d'élèves",
+          "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/c-est-pour-les-enfants-qu-on-est-decus-le-projet-d-un-college-a-23-millions-d-euros-abandonne-agace-les-parents-d-eleves-3357205.html"
+        },
+        {
+          "label": "GNews · Le Figaro — Guerre au Moyen-Orient : le gouvernement va aider le secteur de la chimie à hauteur de 150 millions d'euros",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPLURRRWZnOHM2OHV2MHdpTVNTdDRUZW5OV09aZjBSY0JqVm8wc2RXTEVuYk9EZWtxM0VOc0hsMlp5bENJSlhGYW1UblVDeGFjd0szN0hkRFVORjFiSWJkdUZnZHVQLVg3dUg1QWZyMy1JMkxGUjJvXzRlS0FTaFQtZDQ1TnJLOFJVcERYeFJ5Y3FsMXVibEhGUm4yb2VvQ0Z2SDJESnpMYmxEQ09VTDY4YnJueVp2a2NvbmlYUEFyTzVRY1VvVjlVTjZKWUhzeEV5WWVFWmxfdFdBTzBJQmJ4LQ?oc=5"
+        }
       ],
       "discover_category": "/News",
       "discover_entities": [
@@ -2038,9 +2311,18 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.161c0e77d818ead3b0bfc4cc844f453c&pid=Wdp",
       "msn_source_name": "Voici",
       "refs": [
-        "MSN · Voici — « J'ai demandé à ce qu'on m'abrège la vie... » : Mireille Dumas brise le tabou sur sa fin de vie",
-        "Discover · Le Monde.fr — Anne-Solène Rolland, directrice de l’Institut national d’histoire de l’art : « La restitution de biens culturels n’est plus le tabou qu’elle était il y a encore dix ans »",
-        "GNews · Le Figaro — Fin de vie : une commission mixte paritaire vouée à l’échec et un calendrier encore incertain"
+        {
+          "label": "MSN · Voici — « J'ai demandé à ce qu'on m'abrège la vie... » : Mireille Dumas brise le tabou sur sa fin de vie",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/j-ai-demandé-à-ce-qu-on-m-abrège-la-vie-mireille-dumas-brise-le-tabou-sur-sa-fin-de-vie/ar-AA240cg8?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le Monde.fr — Anne-Solène Rolland, directrice de l’Institut national d’histoire de l’art : « La restitution de biens culturels n’est plus le tabou qu’elle était il y a encore dix ans »",
+          "url": "https://www.lemonde.fr/idees/article/2026/05/27/anne-solene-rolland-directrice-de-l-institut-national-d-histoire-de-l-art-la-restitution-de-biens-culturels-n-est-plus-le-tabou-qu-elle-etait-il-y-a-encore-dix-ans_6694169_3232.html"
+        },
+        {
+          "label": "GNews · Le Figaro — Fin de vie : une commission mixte paritaire vouée à l’échec et un calendrier encore incertain",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeHdrUGExY3l0OV93R2JpRDZzMmFSaklBV19CZFNackQyMVpqcE1rSjJXR3VrN3JxWlBQaW1zLU1WeldrYVE0OHdPbl9LaXhBX3FUMmotT1ExRTVsOHBmUFNYTWU3a2R6WF9Md092TFMxd0Z5SmtZNFZTVVBJSGFsbW41MnJBazk0ZE0xd3FxRjRWZjJvcEpOTDVHTUJvcDMwTmItN3Y5OFYyTE1Hc1otTVdCRXowUWl3eng1cFJvdHI1MDVhZFB5TFJvNTlkbnc?oc=5"
+        }
       ],
       "discover_category": "/Law & Government/Legal",
       "discover_entities": [
@@ -2117,9 +2399,18 @@
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA244zm3.img",
       "msn_source_name": "RSE Magazine",
       "refs": [
-        "MSN · RSE Magazine — 500 tortues lâchées en plein Sahara : cinq ans plus tard, l’herbe pousse là où personne n’avait réussi à planter un seul arbre",
-        "Discover · Orange Actualités — La SNCF suspend l’amende infligée à une passagère qui avait ouvert une issue de secours dans un train immobilisé en plein soleil",
-        "GNews · Le Tribunal du Net — Fin mai 2026 : ces deux signes du zodiaque sortent grands gagnants d'une semaine que personne n'avait vue venir"
+        {
+          "label": "MSN · RSE Magazine — 500 tortues lâchées en plein Sahara : cinq ans plus tard, l’herbe pousse là où personne n’avait réussi à planter un seul arbre",
+          "url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/500-tortues-lâchées-en-plein-sahara-cinq-ans-plus-tard-l-herbe-pousse-là-où-personne-n-avait-réussi-à-planter-un-seul-arbre/ar-AA2447R4?ocid=00000000"
+        },
+        {
+          "label": "Discover · Orange Actualités — La SNCF suspend l’amende infligée à une passagère qui avait ouvert une issue de secours dans un train immobilisé en plein soleil",
+          "url": "https://actu.orange.fr/societe/fait-divers/la-sncf-suspend-l-amende-infligee-a-une-passagere-qui-avait-ouvert-une-issue-de-secours-dans-un-train-immobilise-en-plein-soleil-magic-CNT000002pBqck.html"
+        },
+        {
+          "label": "GNews · Le Tribunal du Net — Fin mai 2026 : ces deux signes du zodiaque sortent grands gagnants d'une semaine que personne n'avait vue venir",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdmtLVm5hUXNPR3lHQThRZVc0cFlJR21zRmZaS1VaejA3OGJEZ0gwWDdYakJLLVlldUFBZV9LaWpUUWE1b2Vwd29OLW14dU55dkhsclpsb2F1UnY0UlJWa2JFWTZSYmFKNGpvTXlPQWttSmR5ZWxVZm01dHR0M3hrbExJdUtVTWVEVG9XUjJoV2ZoN2c?oc=5"
+        }
       ],
       "discover_category": "/News",
       "discover_entities": [
@@ -2191,8 +2482,14 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.53bfc001120e00406bed3520d1832e56&pid=Wdp",
       "msn_source_name": "grazia",
       "refs": [
-        "MSN · grazia — Les psys sont formels : les personnes qui ne publient rien sur les réseaux sociaux possèdent souvent cette qualité rare",
-        "GNews · Presse-citron — « Aussi dangereux que la cigarette » : les réseaux sociaux accusés de nuire gravement aux enfants - Presse-citron"
+        {
+          "label": "MSN · grazia — Les psys sont formels : les personnes qui ne publient rien sur les réseaux sociaux possèdent souvent cette qualité rare",
+          "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/les-psys-sont-formels-les-personnes-qui-ne-publient-rien-sur-les-réseaux-sociaux-possèdent-souvent-cette-qualité-rare/ar-AA23d3Vh?ocid=00000000"
+        },
+        {
+          "label": "GNews · Presse-citron — « Aussi dangereux que la cigarette » : les réseaux sociaux accusés de nuire gravement aux enfants - Presse-citron",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZF93NkUyM2dZOFdTRUxFNWZmVHBWa1hrTE9vN21sOGFxVXBBQmowQTNNY2o1dXlNeEhrclhYaERHbm44V1Rub2YwRmVaV1FaanJCUjZTMlYxa3JQNm9tZlBhb21KMHkzdXdLT3BkODNsbnBoSXhHeVZYMnltRVhhejJiMWlkTHRRSGxFNURpR1JnQjg5djZJVVhPLWNaNVA1aU03TEZ5UQ?oc=5"
+        }
       ],
       "discover_category": null,
       "discover_entities": []
@@ -2262,8 +2559,14 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.f0fc20a140ef6e5a8ffc2d197f624072&pid=Wdp",
       "msn_source_name": "Marie France",
       "refs": [
-        "MSN · Marie France — « Ce n’est pas un luxe, c’est vital » : voici le budget que les retraités doivent toucher pour vivre dignement en France en mai 2026",
-        "GNews · Ouest-France — Pas d’erreur, cet iPhone 17 tombe au meilleur prix chez E.Leclerc ce mercredi 27 mai - Ouest-France"
+        {
+          "label": "MSN · Marie France — « Ce n’est pas un luxe, c’est vital » : voici le budget que les retraités doivent toucher pour vivre dignement en France en mai 2026",
+          "url": "https://www.msn.com/fr-fr/lifestyle/shopping/ce-n-est-pas-un-luxe-c-est-vital-voici-le-budget-que-les-retraités-doivent-toucher-pour-vivre-dignement-en-france-en-mai-2026/ar-AA1S4370?ocid=00000000"
+        },
+        {
+          "label": "GNews · Ouest-France — Pas d’erreur, cet iPhone 17 tombe au meilleur prix chez E.Leclerc ce mercredi 27 mai - Ouest-France",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNNFlQamdMMk00SnlXQWY3anp0eHIycXJNejhCRkZ4UkdjZE9YTWczbVNQRDdDdWxEeDJMNXdzb0N3Y1FZR1hYNjRrc3RKNzk4SlpBOGFnWFg4UFctdVFBa3AtVjlLTXlmMWREdGd2Z2YzQW1KbDNBVlRGQWUwZE96UDVnZkl6cWx0LXN5VEtyZ0pCOXJKTlYzSGVqV1F6OU91ZnNBbUk0cXVYZDJLUFlyaDlnR1hkaUdEOFlnQ3FVd0JGczFOcEw5Q0lTMzFkbkwwT184NE90TldQSkJxUW1KQnRLTlZQRjRrbmVSMU1ZVkZOWlVJekFKZjBNZ2pac2Y5b1AtYg?oc=5"
+        }
       ],
       "discover_category": null,
       "discover_entities": []
@@ -2343,11 +2646,26 @@
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA21OLt6.img",
       "msn_source_name": "So Busy Girls",
       "refs": [
-        "MSN · So Busy Girls — Donald Trump : \"Je vais avoir un bébé d’une minute à l’autre\", cette annonce surprise à la Maison-Blanche qui intervient dans un contexte très tendu",
-        "Discover · BFM — DIRECT. Guerre au Moyen-Orient: Donald Trump assure \"ne pas être satisfait\" de ce que propose l'Iran",
-        "GNews · FSSPX Actualités — La Maison générale annonce les noms des futurs évêques",
-        "GNews · Futura, le média qui explore le monde — Flipper annonce le grand frère de son outil de hacking très controversé",
-        "GNews · Le Monde.fr — Le redécoupage électoral voulu par Donald Trump freiné en Caroline du Sud et en Alabama"
+        {
+          "label": "MSN · So Busy Girls — Donald Trump : \"Je vais avoir un bébé d’une minute à l’autre\", cette annonce surprise à la Maison-Blanche qui intervient dans un contexte très tendu",
+          "url": "https://www.msn.com/fr-fr/actualite/monde/donald-trump-je-vais-avoir-un-bébé-d-une-minute-à-l-autre-cette-annonce-surprise-à-la-maison-blanche-qui-intervient-dans-un-contexte-très-tendu/ar-AA249ZXA?ocid=00000000"
+        },
+        {
+          "label": "Discover · BFM — DIRECT. Guerre au Moyen-Orient: Donald Trump assure \"ne pas être satisfait\" de ce que propose l'Iran",
+          "url": "https://www.bfmtv.com/international/moyen-orient/iran/direct-guerre-au-moyen-orient-le-trafic-aerien-a-repris-sans-interruption-dans-dix-aeroports-en-iran_LN-202605270141.html"
+        },
+        {
+          "label": "GNews · FSSPX Actualités — La Maison générale annonce les noms des futurs évêques",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR1lSWGRwTkNfMGtTQ2U3U3BWWGhvUXcyME1aN01SdUx5LU9GMEE2cmlkb3I2SUN4eDgxeGtSYkUtVGdxWUpBamJTbERheUlFdTFzS215TXZkeXJwSWp3NVdUajBoM0w5cnF4TjVwaGcwX00yTzdTUGhRQWhhSVUxNVFrcV9wekRrVEcwd213WC0?oc=5"
+        },
+        {
+          "label": "GNews · Futura, le média qui explore le monde — Flipper annonce le grand frère de son outil de hacking très controversé",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMWliVXJZa3ZjSnZ6VE5Wa1BGazY5X0ZFdDMzSXNVR1AzVVIwcno5U2R1N1RlTndMQnRtT0JkWWxLa1dXaVY2U3dLVFptelNGeFRfRHlRWjNFQXpCUTlJbVZ1WWVEVGdfZjZpallkd3hQV0UySlA4dVpBOG9Tcmd0aG5ZSnA1LXZWblBiTnBLaVZrN1M3RkFnSmZpQzVCNzJFZWlmRFBzVmkzcndBS1BwRFBMYWVMTVdUYUxPYTdLdmZ6Tm9GWmRtZUc1TnM?oc=5"
+        },
+        {
+          "label": "GNews · Le Monde.fr — Le redécoupage électoral voulu par Donald Trump freiné en Caroline du Sud et en Alabama",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOR0Z4UVdqdHhjaWdweXJnWDNPX3NrUlh1b0Q0OHA2OWx2eFQtbjJGZ0c2aFhOODhEX01IanJxekhhVzNacWNJWmV6U25OR1BOakZjYjNpZTNvSmtDZV8ycG9qVXpmVTlnX0YydXFGVlpyMURlclJXLV9IUDA4UmpIamFxMzNNcE8tMFp6eE5VaTBseFR4bkI3ZHVPTWo0dnFwaGQtZlZlNTRuSnI1ZUVPam9pMnZ5RFBFdC12cVdYcDB0eGFwOEpFVnd5d2RMMmRjVzFpYkpxaXlTTEdZSEdYMnZnSllUWHVjREdEVTRJNVo?oc=5"
+        }
       ],
       "discover_category": "/Sensitive Subjects",
       "discover_entities": [
@@ -2426,9 +2744,18 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.2fa72bc036e8bd838f133ff79356eac1&pid=Wdp",
       "msn_source_name": "20 Minutes",
       "refs": [
-        "MSN · 20 Minutes — Le fast-food parisien du youtubeur Michou ferme déjà ses portes, d’anciens salariés livrent des témoignages accablants",
-        "Discover · 20 Minutes — Le fast-food parisien du youtubeur Michou ferme déjà ses portes, d’anciens salariés livrent des témoignages accablants",
-        "GNews · Le Parisien — Des nuggets au caviar à 75 euros : plébiscité par les influenceurs de Dubaï, le fast-food « Beau » débarque à Paris"
+        {
+          "label": "MSN · 20 Minutes — Le fast-food parisien du youtubeur Michou ferme déjà ses portes, d’anciens salariés livrent des témoignages accablants",
+          "url": "https://www.msn.com/fr-fr/actualite/france/le-fast-food-parisien-du-youtubeur-michou-ferme-déjà-ses-portes-d-anciens-salariés-livrent-des-témoignages-accablants/ar-AA24bIUE?ocid=00000000"
+        },
+        {
+          "label": "Discover · 20 Minutes — Le fast-food parisien du youtubeur Michou ferme déjà ses portes, d’anciens salariés livrent des témoignages accablants",
+          "url": "https://www.20minutes.fr/arts-stars/people/4225687-20260527-fast-food-parisien-youtubeur-michou-ferme-deja-portes-anciens-salaries-livrent-temoignages-accablants"
+        },
+        {
+          "label": "GNews · Le Parisien — Des nuggets au caviar à 75 euros : plébiscité par les influenceurs de Dubaï, le fast-food « Beau » débarque à Paris",
+          "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPLUItMWRRWllYWFNxME56b0drczFjblJWZ2JrSk4tVkplYXFTZ1gzMnJnc21GZVQzbG43TXE2QU9ZRmEzenhCM1VPai1iOHhwOWN5Zk81d3lsVkF0MjBPWHQ5cGplRUhvQlBJM3MtTE1ZSVBxZjc0X2M2N3o1aTJmVzR0bnkxaEVwY0Z3S0J2YTV5N2JPWF9LVEpyWGhJbFNiaUpidEpDLVYxbkMtenZxSlNFWmFGY3ZZX0tnSkxZbHpabHlwN3lJb0RuNHYyTFBSV3BGdlJEaGZhVnZOQjUyc3lYOFhLbEJjN0h5WkJJTVRwOWdWVUsxQ1FJaGlZLTJ6dTBLdmh0cnhoN2M4RGJjQ3ZuMUU0Z29GenpmVUtEaUxLMFE?oc=5"
+        }
       ],
       "discover_category": "/Food & Drink/Restaurants/Fast Food",
       "discover_entities": [
@@ -2512,11 +2839,26 @@
       "msn_image": "https://th.bing.com/th?id=ORMS.8893570f8afdd513386bb526037962ad&pid=Wdp",
       "msn_source_name": "So Busy Girls",
       "refs": [
-        "MSN · So Busy Girls — Donald Trump hospitalisé en urgence ? Ce que révèle vraiment la Maison-Blanche sur son état de santé",
-        "Discover · TF1 Info — EN DIRECT - Moyen-Orient : la Maison Blanche qualifie de \"totale invention\" un projet d'accord exposé par la télévision d'État iranienne",
-        "GNews · parismatch.be — \"Je suis inquiet pour sa santé\" : le prince hériter de Norvège révèle l'état \"dégradé\" de son épouse Mette-Marit",
-        "GNews · ma-sante.news — Les personnes avec ce groupe sanguin ont-elles vraiment un cerveau « plus jeune » ? - ma-sante.news",
-        "GNews · Le Monde.fr — Le redécoupage électoral voulu par Donald Trump freiné en Caroline du Sud et en Alabama"
+        {
+          "label": "MSN · So Busy Girls — Donald Trump hospitalisé en urgence ? Ce que révèle vraiment la Maison-Blanche sur son état de santé",
+          "url": "https://www.msn.com/fr-fr/actualite/monde/donald-trump-hospitalisé-en-urgence-ce-que-révèle-vraiment-la-maison-blanche-sur-son-état-de-santé/ar-AA24aF5u?ocid=00000000"
+        },
+        {
+          "label": "Discover · TF1 Info — EN DIRECT - Moyen-Orient : la Maison Blanche qualifie de \"totale invention\" un projet d'accord exposé par la télévision d'État iranienne",
+          "url": "https://www.tf1info.fr/international/en-direct-guerre-moyen-orient-aujourd-hui-trump-nouvelles-frappes-americaines-iran-accord-de-paix-ormuz-pays-du-golfe-les-informations-du-mercredi-27-mai-2026-2443735.html"
+        },
+        {
+          "label": "GNews · parismatch.be — \"Je suis inquiet pour sa santé\" : le prince hériter de Norvège révèle l'état \"dégradé\" de son épouse Mette-Marit",
+          "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQWGFIUkpBci1LbzZwRFZfMUc0S1Q2eTFZNUZJcmxxbXNJZUhDX052cXlGMEVFcDl5cGlaOFNGRjZpTXRmTGZvN0ZyT1dZamg5aW9lYjAyc1VXMTlVWkJoT3hBQzRxOFhpVHdhcGRRQWlNamI1eGg2U01wWW9CMFYwSmRnUXNLajR0ZmZHaVJnMmZkM3ZOZEhPaEw1cm5MYzQ2dEhWOU4wNGxrdXRwYkdrb1BBMHJuWmZYLXprSUt0R25NbXBzTk9mZUlydzhZV1A2Tm83UV9ab09CTjkyT1NDdHk5dlhBeG4tRUNQSFpRLVVSVm5jUHdIVVFVckQySFpSUDZCTklid0hPRUtoQnhyNHBSeElPS1NSUEsxamp3ZWoxSUw5eE9NcGtkVUdpNnFXV3MxUQ?oc=5"
+        },
+        {
+          "label": "GNews · ma-sante.news — Les personnes avec ce groupe sanguin ont-elles vraiment un cerveau « plus jeune » ? - ma-sante.news",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93cUZzQm0wbkhxMVpIZ2k1ZzZGNlBnR2lnSzQ2VjJoNWtZVXdiMkwtV2dUYndQdDBxWm5QdlVPYWk5MGhaMDNSQWU0cTlmTjUybTc2QlB0ZmlHTGJwYVlvTEZoVEg0c2RPYzZGc0dhMkFyQTg?oc=5"
+        },
+        {
+          "label": "GNews · Le Monde.fr — Le redécoupage électoral voulu par Donald Trump freiné en Caroline du Sud et en Alabama",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOR0Z4UVdqdHhjaWdweXJnWDNPX3NrUlh1b0Q0OHA2OWx2eFQtbjJGZ0c2aFhOODhEX01IanJxekhhVzNacWNJWmV6U25OR1BOakZjYjNpZTNvSmtDZV8ycG9qVXpmVTlnX0YydXFGVlpyMURlclJXLV9IUDA4UmpIamFxMzNNcE8tMFp6eE5VaTBseFR4bkI3ZHVPTWo0dnFwaGQtZlZlNTRuSnI1ZUVPam9pMnZ5RFBFdC12cVdYcDB0eGFwOEpFVnd5d2RMMmRjVzFpYkpxaXlTTEdZSEdYMnZnSllUWHVjREdEVTRJNVo?oc=5"
+        }
       ],
       "discover_category": "/Sensitive Subjects",
       "discover_entities": [

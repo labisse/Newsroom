@@ -443,10 +443,17 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
         breakdown,
     )
 
-    refs: list[str] = []
+    # `refs` est une liste de dicts {label, url} pour que chaque référence
+    # puisse être un lien cliquable autonome côté front. Le front conserve
+    # une compatibilité avec l'ancien format (string) pour les snapshots
+    # antérieurs.
+    refs: list[dict[str, str]] = []
     if article.get("url"):
         refs.append(
-            f"MSN · {article.get('source', 'MSN')} — {article['title']}"
+            {
+                "label": f"MSN · {article.get('source', 'MSN')} — {article['title']}",
+                "url": article["url"],
+            }
         )
 
     # Métadonnées Discover pour filtrage côté front (cf click-to-filter)
@@ -460,14 +467,26 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
 
         d_publisher = d_target.get("publisher") or "Discover"
         d_title = d_target.get("title") or ""
+        d_url = d_target.get("url") or ""
         if d_title:
-            refs.append(f"Discover · {d_publisher} — {d_title}")
+            refs.append(
+                {
+                    "label": f"Discover · {d_publisher} — {d_title}",
+                    "url": d_url,
+                }
+            )
     # Top 3 articles Google News matchés (médias français de référence)
     for gn in (scored.get("gnews_top_matches") or [])[:3]:
         gn_source = gn.get("source") or "Google News"
         gn_title = gn.get("title") or ""
+        gn_url = gn.get("url") or ""
         if gn_title:
-            refs.append(f"GNews · {gn_source} — {gn_title}")
+            refs.append(
+                {
+                    "label": f"GNews · {gn_source} — {gn_title}",
+                    "url": gn_url,
+                }
+            )
 
     rounded = int(round(breakdown.total))
     return {

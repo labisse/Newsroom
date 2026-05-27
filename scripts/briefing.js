@@ -80,29 +80,35 @@ const renderDetail = (sujet) => {
     ),
   );
 
+  // Chaque ref peut être :
+  //   - string (ancien format) → on tombe en fallback sur msn_url
+  //   - { label, url }          → chaque ref a son propre lien
   const refs = sujet.refs?.length
     ? h(
         "div",
         { class: "detail-sources", style: "margin-top: 24px" },
         h("span", { class: "detail-col__label" }, "Articles de référence"),
-        ...sujet.refs.map((r) =>
-          h(
+        ...sujet.refs.map((r) => {
+          const isObj = r && typeof r === "object";
+          const label = isObj ? r.label : r;
+          const url = isObj ? r.url : sujet.msn_url;
+          return h(
             "div",
             { class: "detail-source-row", style: "grid-template-columns: 1fr" },
-            sujet.msn_url
+            url
               ? h(
                   "a",
                   {
                     class: "detail-source-row__name",
-                    href: sujet.msn_url,
+                    href: url,
                     target: "_blank",
                     rel: "noopener noreferrer",
                   },
-                  r,
+                  label,
                 )
-              : h("span", { class: "detail-source-row__name" }, r),
-          ),
-        ),
+              : h("span", { class: "detail-source-row__name" }, label),
+          );
+        }),
       )
     : null;
 
