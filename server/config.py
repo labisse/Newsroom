@@ -53,5 +53,13 @@ class Settings:
     discoversnoop_country: str = _get("DISCOVERSNOOP_COUNTRY", "FR")
     discoversnoop_hours: int = _get_int("DISCOVERSNOOP_HOURS", 12)
 
+    # Google Search Console (OAuth2 par projet)
+    gsc_client_id: str = _get("GSC_CLIENT_ID")
+    gsc_client_secret: str = _get("GSC_CLIENT_SECRET")
+    gsc_redirect_uri: str = _get(
+        "GSC_REDIRECT_URI", "http://localhost:8765/callback"
+    )
+    gsc_callback_port: int = _get_int("GSC_CALLBACK_PORT", 8765)
+
 
 settings = Settings()

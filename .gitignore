@@ -48,6 +48,8 @@ exports/
 *.db
 data/cache/
 data/tmp/
+# Tokens GSC OAuth par projet (NE JAMAIS commiter)
+data/projects/*/gsc_tokens.json
 
 # Test / coverage
 coverage/
