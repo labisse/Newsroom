@@ -38,6 +38,8 @@ export const loadSujets = async () => {
     weights: payload.weights,
     totals: payload.totals,
     sujets: payload.sujets,
+    categoriesTrending: payload.categories_trending || [],
+    entitiesTrending: payload.entities_trending || [],
   };
 };
 

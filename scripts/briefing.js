@@ -16,6 +16,7 @@ import {
   renderTierDivider,
   chevronSvg,
 } from "./utils.js?v=tbr4";
+import { renderCategories, renderEntities } from "./clusters.js?v=tbr4";
 
 /* ----- Sujet row (liste) ----- */
 
@@ -237,8 +238,19 @@ const mount = async () => {
     return;
   }
 
-  const { sujets, generatedAt } = data;
+  const { sujets, generatedAt, categoriesTrending, entitiesTrending } = data;
   list.innerHTML = "";
+
+  // Insertion des sections clusters (catégories + entités) AVANT la liste
+  // des sujets, dans le slot dédié #clusters-mount. On reset à chaque mount.
+  const clustersMount = document.querySelector("#clusters-mount");
+  if (clustersMount) {
+    clustersMount.innerHTML = "";
+    const catsNode = renderCategories(categoriesTrending);
+    if (catsNode) clustersMount.appendChild(catsNode);
+    const entsNode = renderEntities(entitiesTrending);
+    if (entsNode) clustersMount.appendChild(entsNode);
+  }
 
   const sorted = [...sujets].sort((a, b) => b.score - a.score);
   const buckets = { high: [], medium: [], low: [] };

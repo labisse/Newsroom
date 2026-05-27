@@ -21,6 +21,7 @@ from pathlib import Path
 from typing import Any
 
 from server.config import DATA_DIR
+from server.scoring import clusters as clustering
 from server.scoring import score as scoring
 from server.scoring.matcher import Match, best_match
 from server.scoring.normalize import token_set
@@ -494,6 +495,11 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
     discover_candidates = _prepare_discover(discover)
     gnews_candidates = _prepare_gnews(gnews)
 
+    # Clusters Discover (catégories + entités) — vue "univers éditorial"
+    discover_articles = discover.get("articles", [])
+    categories_trending = clustering.cluster_by_category(discover_articles)
+    entities_trending = clustering.cluster_by_entity(discover_articles)
+
     scored: list[dict[str, Any]] = []
     for article in msn.get("articles", []):
         result = _score_article(
@@ -547,6 +553,8 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
             "by_tier": counts,
         },
         "sujets": sujets,
+        "categories_trending": categories_trending,
+        "entities_trending": entities_trending,
     }
 
 

@@ -181,6 +181,289 @@
 }
 
 /* ===================================================================
+   Clusters — sections "Catégories qui performent" + "Topics tendances"
+   =================================================================== */
+
+.clusters-section {
+  margin-bottom: var(--space-3xl);
+}
+
+.clusters-section__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+.clusters-section__title {
+  font-family: var(--font-display);
+  font-size: var(--fs-h3);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-primary);
+}
+
+.clusters-section__hint {
+  font-family: var(--font-display);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+}
+
+/* --- Catégories : grille de cards --- */
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-md);
+}
+
+.category-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding: var(--space-lg);
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  transition: all var(--duration-fast) ease;
+}
+
+.category-card:hover {
+  border-color: var(--border-hover);
+}
+
+.category-card[data-tier="high"] {
+  border-left: 3px solid var(--success-color);
+}
+
+.category-card[data-tier="medium"] {
+  border-left: 3px solid var(--warning-color);
+}
+
+.category-card[data-tier="low"] {
+  border-left: 3px solid var(--border-strong);
+}
+
+.category-card__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-sm);
+}
+
+.category-card__label {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-primary);
+  line-height: 1.2;
+  flex: 1;
+  min-width: 0;
+}
+
+.category-card__avg {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  padding: 2px 6px;
+  background: var(--header-bg);
+  border: 1px solid var(--border-color);
+}
+
+.category-card[data-tier="high"] .category-card__avg {
+  color: var(--success-color);
+  border-color: var(--success-color);
+  background: rgba(0, 255, 0, 0.06);
+}
+
+.category-card[data-tier="medium"] .category-card__avg {
+  color: var(--warning-color);
+  border-color: var(--warning-color);
+  background: rgba(255, 170, 0, 0.06);
+}
+
+.category-card__stats {
+  display: flex;
+  gap: var(--space-lg);
+}
+
+.category-card__stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.category-card__stat-label {
+  font-family: var(--font-display);
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+}
+
+.category-card__stat-value {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.category-card__bar {
+  position: relative;
+  height: 3px;
+  background: var(--header-bg);
+  overflow: hidden;
+  margin-top: var(--space-xs);
+}
+
+.category-card__bar-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  background: var(--primary-color);
+}
+
+.category-card[data-tier="high"] .category-card__bar-fill {
+  background: var(--success-color);
+}
+
+.category-card[data-tier="medium"] .category-card__bar-fill {
+  background: var(--warning-color);
+}
+
+.category-card__top {
+  margin-top: var(--space-sm);
+  padding-top: var(--space-sm);
+  border-top: 1px dashed var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.category-card__top-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-family: var(--font-body);
+  font-size: var(--fs-xs);
+  line-height: 1.35;
+  color: var(--text-secondary);
+}
+
+.category-card__top-pub {
+  font-family: var(--font-display);
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--primary-color);
+}
+
+.category-card__top-title {
+  color: var(--text-primary);
+  font-size: 0.78rem;
+  font-weight: 400;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* --- Entités : pills en cloud --- */
+
+.entities-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  list-style: none;
+  padding: 0;
+}
+
+.entity-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 8px 14px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  cursor: default;
+  transition: all var(--duration-fast) ease;
+}
+
+.entity-pill:hover {
+  border-color: var(--border-hover);
+  background: var(--header-bg);
+}
+
+.entity-pill[data-tier="high"] {
+  border-color: var(--success-color);
+  background: rgba(0, 255, 0, 0.04);
+}
+
+.entity-pill[data-tier="medium"] {
+  border-color: var(--warning-color);
+  background: rgba(255, 170, 0, 0.04);
+}
+
+.entity-pill__name {
+  font-family: var(--font-display);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-primary);
+}
+
+.entity-pill__meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 8px;
+  border-left: 1px solid var(--border-color);
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+}
+
+.entity-pill__count {
+  text-transform: uppercase;
+}
+
+.entity-pill__score {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.entity-pill[data-tier="high"] .entity-pill__score {
+  color: var(--success-color);
+}
+
+.entity-pill[data-tier="medium"] .entity-pill__score {
+  color: var(--warning-color);
+}
+
+@media (max-width: 720px) {
+  .categories-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===================================================================
    Tier divider — séparateur entre tiers
    =================================================================== */
 

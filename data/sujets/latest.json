@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T07:19:45Z",
+  "generated_at": "2026-05-27T09:16:23Z",
   "sources_used": {
     "msn": {
       "fetched_at": "2026-05-26T22:29:49Z",
@@ -2396,6 +2396,616 @@
         "Discover · X — 🚨 Deux bonnes nouvelles avant PSG-Arsenal ! 🔴🔵 Dembélé et Hakimi attendus à l'entraînement collectif ce mardi. Voir sur X",
         "GNews · Sport.fr — PSG : du nouveau pour Dembélé et Hakimi",
         "GNews · Foot Mercato — PSG-Arsenal : le pronostic d’Unai Emery"
+      ]
+    }
+  ],
+  "categories_trending": [
+    {
+      "key": "/Sensitive Subjects",
+      "label": "Sujets sensibles",
+      "articles_count": 53,
+      "total_score": 161.2,
+      "avg_score": 3.0,
+      "top_articles": [
+        {
+          "title": "Enfant de 11 ans mort à Rennes : les deux ados reconnaissent avoir étranglé Théo lors d’une partie de pêche",
+          "publisher": "Ouest-France",
+          "score": 25.8,
+          "url": "https://www.ouest-france.fr/societe/faits-divers/direct-enfant-de-11-ans-mort-etrangle-a-rennes-suivez-la-conference-de-presse-du-procureur-a-18-h-f3a3b182-e8a3-41a7-a19e-906464ef874d"
+        },
+        {
+          "title": "« Je pense à eux toutes les secondes » : le père des enfants abandonnés au Portugal prend la parole",
+          "publisher": "Sud Ouest",
+          "score": 22.1,
+          "url": "https://www.sudouest.fr/international/europe/portugal/je-pense-a-eux-toutes-les-secondes-le-pere-des-enfants-abandonnes-au-portugal-prend-la-parole-29231145.php"
+        },
+        {
+          "title": "Un adolescent de 16 ans suspecté d'avoir égorgé son petit frère et blessé grièvement sa mère à Paris",
+          "publisher": "BFM",
+          "score": 20.7,
+          "url": "https://www.bfmtv.com/police-justice/un-adolescent-de-16-ans-suspecte-d-avoir-egorge-son-petit-frere-et-blesse-grievement-sa-mere-a-paris_AN-202605260331.html"
+        }
+      ]
+    },
+    {
+      "key": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "label": "People",
+      "articles_count": 26,
+      "total_score": 128.2,
+      "avg_score": 4.9,
+      "top_articles": [
+        {
+          "title": "Mort à 69 ans de Pierre Deny, star de Demain nous appartient et figure familière de la télévision française",
+          "publisher": "AlloCiné",
+          "score": 62.2,
+          "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000205719.html"
+        },
+        {
+          "title": "\"On pense fort à Véronique Sanson\" : Jeanne Cherhal, qui a remplacé la chanteuse au pied levé, prend la parole",
+          "publisher": "Purepeople",
+          "score": 30.2,
+          "url": "https://www.purepeople.com/article/on-pense-fort-a-veronique-sanson-jeanne-cherhal-qui-a-remplace-la-chanteuse-au-pied-leve-prend-la-parole_a550557/1"
+        },
+        {
+          "title": "Les millions de Laurent Wauquiez pour son « mini Puy du Fou » finissent au tribunal",
+          "publisher": "Mediapart",
+          "score": 20.1,
+          "url": "https://www.mediapart.fr/journal/politique/260526/les-millions-de-laurent-wauquiez-pour-son-mini-puy-du-fou-finissent-au-tribunal"
+        }
+      ]
+    },
+    {
+      "key": "/Arts & Entertainment/TV & Video/TV Shows & Programs",
+      "label": "Émissions TV",
+      "articles_count": 19,
+      "total_score": 74.0,
+      "avg_score": 3.9,
+      "top_articles": [
+        {
+          "title": "Audiences : 9 mois après son arrivée dans \"Tout le monde a son mot à dire\" sur France 2, Bruno Guillon fait-il mieux qu'Olivier Minne ?",
+          "publisher": "puremedias",
+          "score": 40.9,
+          "url": "https://www.ozap.com/actu/audiences-9-mois-apres-son-arrivee-dans-tout-le-monde-a-son-mot-a-dire-sur-france-2-bruno-guillon-fait-il-mieux-quolivier-minne/655258"
+        },
+        {
+          "title": "« Nous partageons votre déception » : la production de la tournée de la « Star Academy » annonce une mauvaise nouvelle",
+          "publisher": "Soirmag",
+          "score": 27.5,
+          "url": "https://soirmag.lesoir.be/748884/article/2026-05-26/nous-partageons-votre-deception-la-production-de-la-tournee-de-la-star-academy"
+        },
+        {
+          "title": "Appels d’urgence (TFX) : « Lors d’une intervention dans une cité sensible, un frigo est tombé à quelques mètres de notre cameraman »",
+          "publisher": "Télé 7 Jours",
+          "score": 1.9,
+          "url": "https://www.programme-television.org/news/tv/emissions-tele/appels-durgence-tfx-lors-dune-intervention-dans-une-cite-sensible-un-frigo-est-tombe-a-quelques-metres-de-notre-cameraman-132265"
+        }
+      ]
+    },
+    {
+      "key": "/Food & Drink/Restaurants/Fast Food",
+      "label": "Fast food",
+      "articles_count": 4,
+      "total_score": 52.1,
+      "avg_score": 13.0,
+      "top_articles": [
+        {
+          "title": "Le fast-food du Youtubeur Michou à Paris a fermé ses portes, d’anciens salariés dénoncent les conditions d’hygiène",
+          "publisher": "Ouest-France",
+          "score": 51.8,
+          "url": "https://www.ouest-france.fr/societe/gastronomie/restaurants/le-fast-food-du-youtubeur-michou-a-paris-a-ferme-ses-portes-danciens-salaries-denoncent-les-conditions-dhygiene-830f2384-590b-11f1-85b1-345c98c474fd"
+        },
+        {
+          "title": "« Une idée de génie » : à Paris, Roman revisite les sandwichs avec de la salade à la place du pain",
+          "publisher": "Le Parisien",
+          "score": 0.2,
+          "url": "https://www.leparisien.fr/paris-75/paris-75008/une-idee-de-genie-a-paris-roman-revisite-les-sandwichs-avec-de-la-salade-a-la-place-du-pain-26-05-2026-Y2NNHSMPZRBBXBC7DTEEV7QGVU.php"
+        },
+        {
+          "title": "Après 17 ans d'absence, cette grande chaîne de fast-food américaine envisage son retour à 1h30 de Paris",
+          "publisher": "Marmiton",
+          "score": 0.1,
+          "url": "https://www.marmiton.org/restaurants/apres-17-ans-d-absence-cette-grande-chaine-de-fast-food-americaine-envisage-son-retour-a-1h30-de-paris-s4133050.html"
+        }
+      ]
+    },
+    {
+      "key": "/Science/Ecology & Environment/Climate Change & Global Warming",
+      "label": "Climat & Réchauffement",
+      "articles_count": 3,
+      "total_score": 48.7,
+      "avg_score": 16.2,
+      "top_articles": [
+        {
+          "title": "Philippe Caverivière : \"Jean-Marc Jancovici, c'est l'équivalent de Nicolas Hulot, mais avec une braguette qui ferme\"",
+          "publisher": "RTL.fr",
+          "score": 48.4,
+          "url": "https://www.rtl.fr/culture/humour/philippe-caveriviere-jean-marc-jancovici-c-est-l-equivalent-de-nicolas-hulot-mais-avec-une-braguette-qui-ferme-7900638846"
+        },
+        {
+          "title": "Réchauffement climatique : l’Inde frôle les températures létales",
+          "publisher": "L'Humanité",
+          "score": 0.3,
+          "url": "https://www.humanite.fr/environnement/chaleur-extreme/rechauffement-climatique-linde-frole-les-temperatures-letales"
+        },
+        {
+          "title": "Vers un monde en crise : de très sombres prédictions pour l’an 2070",
+          "publisher": "Presse-citron",
+          "score": 0.0,
+          "url": "https://www.presse-citron.net/vers-un-monde-en-crise-de-tres-sombres-predictions-pour-lan-2070/"
+        }
+      ]
+    },
+    {
+      "key": "/Business & Industrial/Energy & Utilities",
+      "label": "Énergie & Services publics",
+      "articles_count": 7,
+      "total_score": 43.8,
+      "avg_score": 6.3,
+      "top_articles": [
+        {
+          "title": "L'Italie commence à se dire que la France avait raison et accélère son calendrier politique pour relancer sa propre filière nucléaire",
+          "publisher": "Media24.fr",
+          "score": 43.3,
+          "url": "https://media24.fr/2026/05/26/litalie-commence-a-se-dire-que-la-france-avait-raison-et-accelere-son-calendrier-politique-pour-relancer-sa-propre-filiere-nucleaire/"
+        },
+        {
+          "title": "Réduction des déchets à Ambert : des contenants réutilisables pour les plats à emporter",
+          "publisher": "La Montagne",
+          "score": 0.2,
+          "url": "https://www.lamontagne.fr/ambert-63600/actualites/reduction-des-dechets-a-ambert-des-contenants-reutilisables-pour-les-plats-a-emporter_14992631/"
+        },
+        {
+          "title": "À Taupont, Anne-Sophie et Gilles ont fait diagnostiquer leur jardin pour réduire leurs déchets verts",
+          "publisher": "Ouest-France",
+          "score": 0.2,
+          "url": "https://www.ouest-france.fr/environnement/dechets/a-taupont-anne-sophie-et-gilles-ont-fait-diagnostiquer-leur-jardin-pour-reduire-leurs-dechets-verts-d45f5cb0-580f-11f1-a4a7-f780c203d7d6"
+        }
+      ]
+    },
+    {
+      "key": "/Autos & Vehicles/Motor Vehicles (By Type)/Hybrid & Alternative Vehicles",
+      "label": "Véhicules hybrides & alternatifs",
+      "articles_count": 5,
+      "total_score": 42.7,
+      "avg_score": 8.5,
+      "top_articles": [
+        {
+          "title": "Une batterie qui surchauffe, une charge qui s’éternise… la Renault Twingo E-Tech n’est vraiment pas faite pour les longs trajets sur autoroute",
+          "publisher": "Challenges",
+          "score": 21.0,
+          "url": "https://www.challenges.fr/automobile/une-batterie-qui-surchauffe-une-charge-qui-seternise-la-renault-twingo-e-tech-nest-vraiment-pas-faite-pour-les-longs-trajets-sur-autoroute_643636"
+        },
+        {
+          "title": "Annoncée à 341 km, l’autonomie de sa Peugeot électrique n’est que de 160 km : la justice ordonne le remboursement",
+          "publisher": "Ouest-France",
+          "score": 11.8,
+          "url": "https://www.ouest-france.fr/economie/transports/voiture/annoncee-a-341-km-lautonomie-de-sa-peugeot-electrique-nest-que-de-160-km-la-justice-ordonne-le-remboursement-8e0ea66a-55aa-11f1-a4a7-f780c203d7d6"
+        },
+        {
+          "title": "Le piège se referme sur les hybrides rechargeables avec un matraquage à l'achat et au stationnement",
+          "publisher": "Caradisiac",
+          "score": 9.2,
+          "url": "https://www.caradisiac.com/ces-voitures-hybrides-rechargeables-hypertaxees-a-l-achat-comme-en-stationnement-222218.htm"
+        }
+      ]
+    },
+    {
+      "key": "/News/Weather",
+      "label": "Météo",
+      "articles_count": 46,
+      "total_score": 36.7,
+      "avg_score": 0.8,
+      "top_articles": [
+        {
+          "title": "Patrick Marlière : «On va conserver cet épisode de chaleur au moins jusqu'à dimanche»",
+          "publisher": "YouTube",
+          "score": 9.1,
+          "url": "https://www.youtube.com/watch?v=Ec-H1-LEe2U"
+        },
+        {
+          "title": "Canicule : voici les 20 départements placés en vigilance jaune ce mardi",
+          "publisher": "CNews",
+          "score": 3.5,
+          "url": "https://www.cnews.fr/france/2026-05-25/canicule-voici-les-20-departements-places-en-vigilance-jaune-ce-mardi-1867145"
+        },
+        {
+          "title": "Est-il vrai que l’épisode de chaleur dans l’Hexagone n’a rien d’«exceptionnel», com...",
+          "publisher": "Libération",
+          "score": 3.5,
+          "url": "https://www.liberation.fr/checknews/est-il-vrai-que-la-vague-actuelle-de-chaleur-dans-lhexagone-na-rien-dexceptionnel-comme-laffirme-pascal-praud-sur-cnews-20260526_QYJPYRP5Z5EGBINKMH6J3QHS2A/"
+        }
+      ]
+    }
+  ],
+  "entities_trending": [
+    {
+      "name": "Train",
+      "articles_count": 11,
+      "total_score": 55.4,
+      "avg_score": 5.0,
+      "top_articles": [
+        {
+          "title": "TGV bloqué sans climatisation : 200 € d’amende pour avoir ouvert une issue de secours",
+          "publisher": "Le Progrès",
+          "score": 51.7,
+          "url": "https://www.leprogres.fr/transport/2026/05/26/tgv-bloque-sans-climatisation-elle-recoit-200-d-amende-pour-avoir-ouvert-une-issue-de-secours"
+        },
+        {
+          "title": "CDG Express : voici les tarifs de la future navette directe reliant Paris à l’aéroport de Roissy en 20 minutes",
+          "publisher": "Le Parisien",
+          "score": 0.8,
+          "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/cdg-express-voici-les-tarifs-de-la-future-navette-directe-reliant-paris-a-laeroport-de-roissy-en-20-minutes-26-05-2026-WPHOXP2O45DHBPGZYKZQTSPKG4.php"
+        },
+        {
+          "title": "CDG Express: combien coûtera le billet pour rejoindre l'aéroport de Roissy en 20 minutes depuis Paris?",
+          "publisher": "RMC",
+          "score": 0.8,
+          "url": "https://rmc.bfmtv.com/conso/transports/cdg-express-combien-coutera-le-billet-pour-rejoindre-l-aeroport-de-roissy-en-20-minutes-depuis-paris_AN-202605260423.html"
+        }
+      ]
+    },
+    {
+      "name": "TGV",
+      "articles_count": 3,
+      "total_score": 52.8,
+      "avg_score": 17.6,
+      "top_articles": [
+        {
+          "title": "TGV bloqué sans climatisation : 200 € d’amende pour avoir ouvert une issue de secours",
+          "publisher": "Le Progrès",
+          "score": 51.7,
+          "url": "https://www.leprogres.fr/transport/2026/05/26/tgv-bloque-sans-climatisation-elle-recoit-200-d-amende-pour-avoir-ouvert-une-issue-de-secours"
+        },
+        {
+          "title": "« Une dame d’un certain âge était au bord de la crise de larmes » : avec les retards massifs sur les TGV Paris-Nice, des passagers se sont retrouvés en détresse au milieu de la nuit",
+          "publisher": "Nice-Matin",
+          "score": 0.6,
+          "url": "https://www.nicematin.com/societe/une-dame-d-un-certain-age-etait-au-bord-de-la-crise-de-larmes-avec-les-retards-massifs-sur-les-tgv-paris-nice-des-passagers-se-sont-retrouves-en-detresse-au-milieu-de-la-nuit-10682132"
+        },
+        {
+          "title": "TGV bloqué pendant des heures, sans clim : une passagère ouvre une issue de secours, ça ne plait pas aux contrôleurs, 200 euros d'amende",
+          "publisher": "Midi Libre",
+          "score": 0.5,
+          "url": "https://www.midilibre.fr/2026/05/26/tgv-bloque-pendant-des-heures-sans-clim-une-passagere-ouvre-une-issue-de-secours-ca-ne-plait-pas-aux-controleurs-200-euros-damende-13388843.php"
+        }
+      ]
+    },
+    {
+      "name": "Rhône",
+      "articles_count": 3,
+      "total_score": 52.4,
+      "avg_score": 17.5,
+      "top_articles": [
+        {
+          "title": "TGV bloqué sans climatisation : 200 € d’amende pour avoir ouvert une issue de secours",
+          "publisher": "Le Progrès",
+          "score": 51.7,
+          "url": "https://www.leprogres.fr/transport/2026/05/26/tgv-bloque-sans-climatisation-elle-recoit-200-d-amende-pour-avoir-ouvert-une-issue-de-secours"
+        },
+        {
+          "title": "Lyon. Attention aux radars, la vitesse baissée subitement sur plusieurs routes du Rhône",
+          "publisher": "Actu.fr",
+          "score": 0.4,
+          "url": "https://actu.fr/auvergne-rhone-alpes/lyon_69123/lyon-pourquoi-la-vitesse-est-baissee-subitement-a-70-km-h-sur-plusieurs-routes-du-rhone_64310301.html"
+        },
+        {
+          "title": "Bouches-du-Rhône : l'entreprise Naphtachimie accepte de payer 1,2 million d'euros après des pollutions",
+          "publisher": "Le Figaro",
+          "score": 0.3,
+          "url": "https://www.lefigaro.fr/marseille/bouches-du-rhone-l-entreprise-naphtachimie-accepte-de-payer-1-2-million-d-euros-apres-des-pollutions-20260526"
+        }
+      ]
+    },
+    {
+      "name": "Fast food",
+      "articles_count": 4,
+      "total_score": 52.2,
+      "avg_score": 13.0,
+      "top_articles": [
+        {
+          "title": "Le fast-food du Youtubeur Michou à Paris a fermé ses portes, d’anciens salariés dénoncent les conditions d’hygiène",
+          "publisher": "Ouest-France",
+          "score": 51.8,
+          "url": "https://www.ouest-france.fr/societe/gastronomie/restaurants/le-fast-food-du-youtubeur-michou-a-paris-a-ferme-ses-portes-danciens-salaries-denoncent-les-conditions-dhygiene-830f2384-590b-11f1-85b1-345c98c474fd"
+        },
+        {
+          "title": "« On n’a pas été prévenus » : contre un projet de McDonald’s en Vendée, des professionnels de santé menacent de partir",
+          "publisher": "Ouest-France",
+          "score": 0.3,
+          "url": "https://www.ouest-france.fr/pays-de-la-loire/mortagne-sur-sevre-85290/on-na-pas-ete-prevenus-contre-un-projet-de-mcdonalds-en-vendee-des-professionnels-de-sante-menacent-de-partir-7f9ae550-537d-11f1-a8af-559ef5894fc2"
+        },
+        {
+          "title": "Après 17 ans d'absence, cette grande chaîne de fast-food américaine envisage son retour à 1h30 de Paris",
+          "publisher": "Marmiton",
+          "score": 0.1,
+          "url": "https://www.marmiton.org/restaurants/apres-17-ans-d-absence-cette-grande-chaine-de-fast-food-americaine-envisage-son-retour-a-1h30-de-paris-s4133050.html"
+        }
+      ]
+    },
+    {
+      "name": "Islam",
+      "articles_count": 4,
+      "total_score": 49.7,
+      "avg_score": 12.4,
+      "top_articles": [
+        {
+          "title": "Plus d’un million et demi de musulmans vont prier sur le mont Arafat, étape phare du pèlerinage à La Mecque, sous des températures qui devraient dépasser 45 °C",
+          "publisher": "Le Monde.fr",
+          "score": 44.7,
+          "url": "https://www.lemonde.fr/international/article/2026/05/26/plus-d-un-million-et-demi-de-musulmans-vont-prier-sur-le-mont-arafat-etape-phare-du-pelerinage-a-la-mecque-sous-des-temperatures-qui-devraient-depasser-les-45-c_6693874_3210.html"
+        },
+        {
+          "title": "\"Ça nous impose des mesures supplémentaires\" : l'organisation de l'Aïd chamboulée par la canicule en Seine-Saint-Denis",
+          "publisher": "Actu.fr",
+          "score": 4.7,
+          "url": "https://actu.fr/ile-de-france/aubervilliers_93001/ca-nous-impose-des-mesures-supplementaires-l-organisation-de-l-aid-chamboulee-par-la-canicule-en-seine-saint-denis_64314032.html"
+        },
+        {
+          "title": "Aïd El Kebir \"dans le respect et l’harmonie\" : les musulmans appelés à respecter les règles dans l’Hérault",
+          "publisher": "Midi Libre",
+          "score": 0.3,
+          "url": "https://www.midilibre.fr/2026/05/26/aid-el-kebir-dans-le-respect-et-lharmonie-les-musulmans-appeles-a-respecter-les-regles-dans-lherault-13388942.php"
+        }
+      ]
+    },
+    {
+      "name": "Ukraine",
+      "articles_count": 5,
+      "total_score": 48.2,
+      "avg_score": 9.6,
+      "top_articles": [
+        {
+          "title": "Guerre en Ukraine : des mines magnétiques retrouvée...",
+          "publisher": "Le Parisien",
+          "score": 17.9,
+          "url": "https://www.leparisien.fr/international/ukraine/guerre-en-ukraine-des-mines-magnetiques-retrouvees-sur-la-coque-dun-petrolier-arrive-dans-un-port-russe-26-05-2026-PHCG2UEVJZC63PXOQGZ3SFJQUI.php"
+        },
+        {
+          "title": "L’armée ukrainienne lance une frappe de missile Storm Shadow contre un poste de commandement russe dans la région de Louhansk",
+          "publisher": "Actualités Ukrinform",
+          "score": 14.8,
+          "url": "https://www.ukrinform.fr/rubric-ato/4127205-larmee-ukrainienne-lance-une-frappe-de-missile-storm-shadow-contre-un-poste-de-commandement-russe-dans-la-region-de-louhansk.html"
+        },
+        {
+          "title": "En Ukraine, la visite de l’opposante biélorusse Svetlana Tsikhanovskaïa acte un net durcissement face au régime de Minsk",
+          "publisher": "Le Monde.fr",
+          "score": 13.5,
+          "url": "https://www.lemonde.fr/international/article/2026/05/26/en-ukraine-la-visite-de-l-opposante-bielorusse-svetlana-tsikhanovskaia-acte-un-net-durcissement-face-au-regime-de-minsk_6693865_3210.html"
+        }
+      ]
+    },
+    {
+      "name": "Automobile",
+      "articles_count": 14,
+      "total_score": 43.5,
+      "avg_score": 3.1,
+      "top_articles": [
+        {
+          "title": "Une batterie qui surchauffe, une charge qui s’éternise… la Renault Twingo E-Tech n’est vraiment pas faite pour les longs trajets sur autoroute",
+          "publisher": "Challenges",
+          "score": 21.0,
+          "url": "https://www.challenges.fr/automobile/une-batterie-qui-surchauffe-une-charge-qui-seternise-la-renault-twingo-e-tech-nest-vraiment-pas-faite-pour-les-longs-trajets-sur-autoroute_643636"
+        },
+        {
+          "title": "Annoncée à 341 km, l’autonomie de sa Peugeot électrique n’est que de 160 km : la justice ordonne le remboursement",
+          "publisher": "Ouest-France",
+          "score": 11.8,
+          "url": "https://www.ouest-france.fr/economie/transports/voiture/annoncee-a-341-km-lautonomie-de-sa-peugeot-electrique-nest-que-de-160-km-la-justice-ordonne-le-remboursement-8e0ea66a-55aa-11f1-a4a7-f780c203d7d6"
+        },
+        {
+          "title": "Le piège se referme sur les hybrides rechargeables avec un matraquage à l'achat et au stationnement",
+          "publisher": "Caradisiac",
+          "score": 9.2,
+          "url": "https://www.caradisiac.com/ces-voitures-hybrides-rechargeables-hypertaxees-a-l-achat-comme-en-stationnement-222218.htm"
+        }
+      ]
+    },
+    {
+      "name": "Supermarché",
+      "articles_count": 8,
+      "total_score": 39.5,
+      "avg_score": 4.9,
+      "top_articles": [
+        {
+          "title": "Avis aux clients des magasins E.Leclerc : il y a du nouveau et voici le changement qui vous attend côté drive",
+          "publisher": "Marmiton",
+          "score": 32.5,
+          "url": "https://www.marmiton.org/actus-supermarchs/avis-aux-clients-des-magasins-e-leclerc-il-y-a-du-nouveau-et-voici-le-changement-qui-vous-attend-cote-drive-s4133005.html"
+        },
+        {
+          "title": "Un supermarché va s'installer dans les anciens bureaux de La Poste, avenue des Droits-de-l’Homme à Orléans",
+          "publisher": "La République du Centre",
+          "score": 3.8,
+          "url": "https://www.larep.fr/orleans-45000/economie/un-supermarche-va-s-installer-dans-les-anciens-bureaux-de-la-poste-avenue-des-droits-de-lhomme-a-orleans_14991288/"
+        },
+        {
+          "title": "« Un magasin à taille humaine » : près de Rennes, un Carrefour Express a ouvert ses portes dans cette commune",
+          "publisher": "Actu.fr",
+          "score": 1.5,
+          "url": "https://actu.fr/bretagne/corps-nuds_35088/un-magasin-a-taille-humaine-pres-de-rennes-un-carrefour-express-a-ouvert-ses-portes_64312828.html"
+        }
+      ]
+    },
+    {
+      "name": "Pêche",
+      "articles_count": 4,
+      "total_score": 38.3,
+      "avg_score": 9.6,
+      "top_articles": [
+        {
+          "title": "Enfant de 11 ans mort à Rennes : les deux ados reconnaissent avoir étranglé Théo lors d’une partie de pêche",
+          "publisher": "Ouest-France",
+          "score": 25.8,
+          "url": "https://www.ouest-france.fr/societe/faits-divers/direct-enfant-de-11-ans-mort-etrangle-a-rennes-suivez-la-conference-de-presse-du-procureur-a-18-h-f3a3b182-e8a3-41a7-a19e-906464ef874d"
+        },
+        {
+          "title": "Mort d’un enfant à Rennes : deux adolescents disent avoir voulu « se venger » et « récupérer du matériel de pêche »",
+          "publisher": "Le Monde.fr",
+          "score": 7.5,
+          "url": "https://www.lemonde.fr/societe/article/2026/05/26/mort-d-un-enfant-a-rennes-deux-adolescents-disent-avoir-voulu-se-venger-et-recuperer-du-materiel-de-peche_6693936_3224.html"
+        },
+        {
+          "title": "« C’est surprenant » : partis pêcher le calamar au large de Cannes, quatre amis tombent nez-à-nez avec un requin bleu",
+          "publisher": "Nice-Matin",
+          "score": 5.0,
+          "url": "https://www.nicematin.com/societe/animaux/c-est-surprenant-partis-pecher-le-calamar-au-large-de-cannes-quatre-amis-pecheurs-croisent-un-requin-inoffensif-10682127"
+        }
+      ]
+    },
+    {
+      "name": "Musique",
+      "articles_count": 8,
+      "total_score": 38.0,
+      "avg_score": 4.8,
+      "top_articles": [
+        {
+          "title": "\"On pense fort à Véronique Sanson\" : Jeanne Cherhal, qui a remplacé la chanteuse au pied levé, prend la parole",
+          "publisher": "Purepeople",
+          "score": 30.2,
+          "url": "https://www.purepeople.com/article/on-pense-fort-a-veronique-sanson-jeanne-cherhal-qui-a-remplace-la-chanteuse-au-pied-leve-prend-la-parole_a550557/1"
+        },
+        {
+          "title": "Il est de retour à Nîmes quatre ans plus tard : un groupe de rock bien connu annoncé en concert",
+          "publisher": "Actu.fr",
+          "score": 3.1,
+          "url": "https://actu.fr/occitanie/nimes_30189/il-est-de-retour-a-nimes-quatre-ans-plus-tard-un-groupe-de-rock-bien-connu-annonce-en-concert_64311981.html"
+        },
+        {
+          "title": "La fille de Michael Jackson remporte une victoire juridique de taille dans la gestion du « Michael Jackson Estate »",
+          "publisher": "parismatch.com",
+          "score": 2.5,
+          "url": "https://www.parismatch.com/People/la-fille-de-michael-jackson-remporte-une-victoire-juridique-de-taille-dans-la-gestion-du-michael-jackson-estate-269714"
+        }
+      ]
+    },
+    {
+      "name": "Star Academy",
+      "articles_count": 3,
+      "total_score": 27.7,
+      "avg_score": 9.2,
+      "top_articles": [
+        {
+          "title": "« Nous partageons votre déception » : la production de la tournée de la « Star Academy » annonce une mauvaise nouvelle",
+          "publisher": "Soirmag",
+          "score": 27.5,
+          "url": "https://soirmag.lesoir.be/748884/article/2026-05-26/nous-partageons-votre-deception-la-production-de-la-tournee-de-la-star-academy"
+        },
+        {
+          "title": "Marine (Star Academy) évoque la situation financière de ses parents : \"Ce n'est pas que je ne veux pas leur donner de l'argent mais...\" - Télé-Loisirs ➡️ programme-tv.net/IsN... Voir sur Threads",
+          "publisher": "Threads",
+          "score": 0.2,
+          "url": "https://www.threads.com/@teleloisirs/post/DYsgnsvjZCo/marine-star-academy-evoque-la-situation-financiere-de-ses-parents-ce-nest-pas/"
+        },
+        {
+          "title": "La production de la Star Academy annonce l'annulation définitive d'un concert de la tournée : \"Nous partageons votre déception\"",
+          "publisher": "Télé-Loisirs",
+          "score": 0.0,
+          "url": "https://www.programme-tv.net/news/musique/402789-la-production-de-la-star-academy-annonce-l-annulation-definitive-d-un-concert-de-la-tournee-nous-partageons-votre-deception/"
+        }
+      ]
+    },
+    {
+      "name": "TF1",
+      "articles_count": 3,
+      "total_score": 27.5,
+      "avg_score": 9.2,
+      "top_articles": [
+        {
+          "title": "« Nous partageons votre déception » : la production de la tournée de la « Star Academy » annonce une mauvaise nouvelle",
+          "publisher": "Soirmag",
+          "score": 27.5,
+          "url": "https://soirmag.lesoir.be/748884/article/2026-05-26/nous-partageons-votre-deception-la-production-de-la-tournee-de-la-star-academy"
+        },
+        {
+          "title": "Les 12 coups de midi : Cyprien fait son retour sur TF1, l’ancien champion rend un vibrant hommage à Zette face à Jean-Luc Reichmann",
+          "publisher": "Toutelatele",
+          "score": 0.0,
+          "url": "https://toutelatele.ouest-france.fr/les-12-coups-de-midi-cyprien-fait-son-retour-sur-tf1-l-ancien-champion-rend-un-vibrant-hommage-a-zette-face-a-jean-luc-reichmann-186718"
+        },
+        {
+          "title": "Déprogrammation : TF1 repousse la diffusion de la finale de \"Koh-Lanta\" 2026",
+          "publisher": "puremedias",
+          "score": 0.0,
+          "url": "https://www.ozap.com/actu/deprogrammation-tf1-repousse-la-diffusion-de-la-finale-de-koh-lanta-2026/655264"
+        }
+      ]
+    },
+    {
+      "name": "Canicule",
+      "articles_count": 18,
+      "total_score": 27.1,
+      "avg_score": 1.5,
+      "top_articles": [
+        {
+          "title": "Patrick Marlière : «On va conserver cet épisode de chaleur au moins jusqu'à dimanche»",
+          "publisher": "YouTube",
+          "score": 9.1,
+          "url": "https://www.youtube.com/watch?v=Ec-H1-LEe2U"
+        },
+        {
+          "title": "\"Ça nous impose des mesures supplémentaires\" : l'organisation de l'Aïd chamboulée par la canicule en Seine-Saint-Denis",
+          "publisher": "Actu.fr",
+          "score": 4.7,
+          "url": "https://actu.fr/ile-de-france/aubervilliers_93001/ca-nous-impose-des-mesures-supplementaires-l-organisation-de-l-aid-chamboulee-par-la-canicule-en-seine-saint-denis_64314032.html"
+        },
+        {
+          "title": "Canicule : voici les 20 départements placés en vigilance jaune ce mardi",
+          "publisher": "CNews",
+          "score": 3.5,
+          "url": "https://www.cnews.fr/france/2026-05-25/canicule-voici-les-20-departements-places-en-vigilance-jaune-ce-mardi-1867145"
+        }
+      ]
+    },
+    {
+      "name": "Moyen-Orient",
+      "articles_count": 9,
+      "total_score": 25.7,
+      "avg_score": 2.9,
+      "top_articles": [
+        {
+          "title": "Guerre au Moyen-Orient : «En frappant l’Iran malgré les négociations, Trump a clarifié la nature de la puissance américaine»",
+          "publisher": "Le Figaro",
+          "score": 16.2,
+          "url": "https://www.lefigaro.fr/international/guerre-au-moyen-orient-en-frappant-l-iran-malgre-les-negociations-trump-a-clarifie-la-nature-de-la-puissance-americaine-20260526"
+        },
+        {
+          "title": "Guerre au Moyen-Orient : en pleine cérémonie du Memorial Day, Donald Trump déclare que l’Iran «ne disposera jamais de l’arme nucléaire»",
+          "publisher": "Le Figaro",
+          "score": 5.5,
+          "url": "https://www.lefigaro.fr/international/guerre-au-moyen-orient-en-pleine-ceremonie-du-memorial-day-donald-trump-declare-que-l-iran-ne-disposera-jamais-de-l-arme-nucleaire-20260526"
+        },
+        {
+          "title": "Guerre au Moyen-Orient: après trois mois de blocus, Marco Rubio affirme que le détroit d'Ormuz rouvrira \"d'une manière ou d'une autre\"",
+          "publisher": "BFM",
+          "score": 1.3,
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/guerre-au-moyen-orient-apres-trois-mois-de-blocus-marco-rubio-affirme-que-le-detroit-d-ormuz-rouvrira-d-une-maniere-ou-d-une-autre_AD-202605260249.html"
+        }
+      ]
+    },
+    {
+      "name": "Serpents",
+      "articles_count": 5,
+      "total_score": 25.5,
+      "avg_score": 5.1,
+      "top_articles": [
+        {
+          "title": "Des serpents venimeux se rapprochent de nos quartiers",
+          "publisher": "Euronews.com",
+          "score": 24.4,
+          "url": "https://fr.euronews.com/sante/2026/05/25/des-serpents-mortels-pourraient-bientot-arriver-pres-de-chez-vous"
+        },
+        {
+          "title": "Il trouve un serpent vivant dans son colis Amazon : « J’ai mis la main dans l’enveloppe, j’ai senti bouger »",
+          "publisher": "Ouest-France",
+          "score": 0.4,
+          "url": "https://www.ouest-france.fr/region-occitanie/tarn-et-garonne/il-trouve-un-serpent-vivant-dans-son-colis-amazon-jai-mis-la-main-dans-lenveloppe-jai-senti-bouger-a6c76932-5904-11f1-8ba2-e862963f4a46"
+        },
+        {
+          "title": "Une dizaine de reptiles morts mesurant jusqu’à 2 m découverts dans un bois du Finistère",
+          "publisher": "Ouest-France",
+          "score": 0.4,
+          "url": "https://www.ouest-france.fr/societe/faits-divers/une-dizaine-de-reptiles-morts-mesurant-jusqua-2-m-decouverts-dans-un-bois-du-finistere-eaf92cd4-5905-11f1-8481-6f001a76e738"
+        }
       ]
     }
   ]
