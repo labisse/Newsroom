@@ -34,6 +34,10 @@ TOP_URLS_DISPLAYED = 20
 # Seuil similarity à partir duquel un article est considéré "pertinent"
 # pour le calcul d'affinité (sinon bruit sémantique)
 AFFINITY_MIN_SIMILARITY = 0.50
+# Seuil clicks minimum pour qu'un match historique soit "intéressant"
+# à montrer comme contenu de référence (sinon trop niche pour servir
+# d'exemple de réussite éditoriale)
+AFFINITY_MIN_CLICKS_FOR_REFERENCE = 5_000
 
 
 def _now_iso() -> str:
@@ -178,7 +182,21 @@ def compute_affinity(matches: list[dict[str, Any]]) -> dict[str, Any]:
 
     total_score = round(score_sim + score_count + score_clicks)
 
-    # Top 3 matches pour expand UI
+    # Top 3 matches pour expand UI :
+    # On priorise les matches ≥ 5000 clicks (vrais performers
+    # historiques utilisables comme référence éditoriale), puis on
+    # complète avec les matches plus faibles si besoin pour avoir 3.
+    strong = sorted(
+        [m for m in relevant if int(m.get("clicks", 0) or 0) >= AFFINITY_MIN_CLICKS_FOR_REFERENCE],
+        key=lambda m: (float(m.get("similarity", 0)), int(m.get("clicks", 0))),
+        reverse=True,
+    )
+    weak = sorted(
+        [m for m in relevant if int(m.get("clicks", 0) or 0) < AFFINITY_MIN_CLICKS_FOR_REFERENCE],
+        key=lambda m: float(m.get("similarity", 0)),
+        reverse=True,
+    )
+    ranked = strong + weak
     top_matches = [
         {
             "url": m.get("url"),
@@ -186,7 +204,7 @@ def compute_affinity(matches: list[dict[str, Any]]) -> dict[str, Any]:
             "clicks": int(m.get("clicks", 0) or 0),
             "similarity": round(float(m.get("similarity", 0)), 3),
         }
-        for m in relevant[:3]
+        for m in ranked[:3]
     ]
 
     return {

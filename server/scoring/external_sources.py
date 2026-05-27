@@ -88,6 +88,41 @@ def _score_candidates(
     return matched
 
 
+def _consume_matches(
+    candidates_scored: list[tuple[float, dict[str, Any]]],
+    *,
+    source_label: str,
+    publisher_key: str,
+    date_key: str,
+    out: list[dict[str, Any]],
+    seen_urls: set[str],
+    seen_titles: set[str],
+    max_total: int,
+) -> None:
+    """Consomme des matches scorés et les ajoute à `out` jusqu'à max_total."""
+    for score, cand in candidates_scored:
+        if len(out) >= max_total:
+            return
+        url = cand.get("url", "")
+        title = (cand.get("title") or "").strip()
+        if not url or url in seen_urls:
+            continue
+        if title.lower() in seen_titles:
+            continue
+        seen_urls.add(url)
+        seen_titles.add(title.lower())
+        out.append(
+            {
+                "source": source_label,
+                "title": title,
+                "url": url,
+                "publisher": cand.get(publisher_key) or "",
+                "published_at": cand.get(date_key) or "",
+                "similarity": round(float(score), 3),
+            }
+        )
+
+
 def find_external_sources(
     sujet_title: str,
     *,
@@ -96,14 +131,11 @@ def find_external_sources(
 ) -> list[dict[str, Any]]:
     """Pour un sujet, retourne top N articles externes qui le couvrent.
 
-    Stratégie :
-      1. Match Google News (médias de référence) — prioritaire
-      2. Si pas assez de matches, complète avec Discoversnoop
-      3. Dédup par URL et par titre
-
-    Returns:
-        Liste de dicts {source, title, url, similarity, publisher,
-        published_at} triée par similarité.
+    Stratégie en 2 passes (strict → permissif) pour ne JAMAIS retourner
+    vide quand un signal existe :
+      1. Pass strict : GNews + Discover avec min_common=3, jaccard ≥ 0.30
+      2. Pass permissif (fallback) : min_common=2, jaccard ≥ 0.20
+    Tri final par similarité décroissante.
     """
     if not sujet_title:
         return []
@@ -116,63 +148,74 @@ def find_external_sources(
     seen_titles: set[str] = set()
     out: list[dict[str, Any]] = []
 
-    # 1. Google News
     gnews = _load_gnews()
-    gnews_matches = _score_candidates(
+    discover = _load_discover() if include_discover else []
+
+    # ── Pass 1 : seuils stricts (qualité prioritaire) ──
+    gnews_strict = _score_candidates(
         src_tokens, gnews, title_key="title", min_common=3, jaccard_threshold=0.30
     )
-    for score, cand in gnews_matches:
-        url = cand.get("url", "")
-        title = (cand.get("title") or "").strip()
-        if not url or url in seen_urls:
-            continue
-        if title.lower() in seen_titles:
-            continue
-        seen_urls.add(url)
-        seen_titles.add(title.lower())
-        out.append(
-            {
-                "source": "gnews",
-                "title": title,
-                "url": url,
-                "publisher": cand.get("source") or "",
-                "published_at": cand.get("published_at") or "",
-                "similarity": round(float(score), 3),
-            }
-        )
-        if len(out) >= top_n:
-            return out
+    _consume_matches(
+        gnews_strict,
+        source_label="gnews",
+        publisher_key="source",
+        date_key="published_at",
+        out=out,
+        seen_urls=seen_urls,
+        seen_titles=seen_titles,
+        max_total=top_n,
+    )
 
-    # 2. Discoversnoop en complément si pas assez
     if include_discover and len(out) < top_n:
-        discover = _load_discover()
-        discover_matches = _score_candidates(
-            src_tokens,
-            discover,
-            title_key="title",
-            min_common=3,
-            jaccard_threshold=0.30,
+        discover_strict = _score_candidates(
+            src_tokens, discover, title_key="title",
+            min_common=3, jaccard_threshold=0.30,
         )
-        for score, cand in discover_matches:
-            url = cand.get("url", "")
-            title = (cand.get("title") or "").strip()
-            if not url or url in seen_urls:
-                continue
-            if title.lower() in seen_titles:
-                continue
-            seen_urls.add(url)
-            seen_titles.add(title.lower())
-            out.append(
-                {
-                    "source": "discover",
-                    "title": title,
-                    "url": url,
-                    "publisher": cand.get("publisher") or "",
-                    "published_at": cand.get("firstviewed") or "",
-                    "similarity": round(float(score), 3),
-                }
-            )
-            if len(out) >= top_n:
-                return out
+        _consume_matches(
+            discover_strict,
+            source_label="discover",
+            publisher_key="publisher",
+            date_key="firstviewed",
+            out=out,
+            seen_urls=seen_urls,
+            seen_titles=seen_titles,
+            max_total=top_n,
+        )
 
-    return out
+    # ── Pass 2 : fallback plus permissif si pas assez ──
+    if len(out) < top_n:
+        gnews_loose = _score_candidates(
+            src_tokens, gnews, title_key="title",
+            min_common=2, jaccard_threshold=0.20,
+        )
+        _consume_matches(
+            gnews_loose,
+            source_label="gnews",
+            publisher_key="source",
+            date_key="published_at",
+            out=out,
+            seen_urls=seen_urls,
+            seen_titles=seen_titles,
+            max_total=top_n,
+        )
+
+    if include_discover and len(out) < top_n:
+        discover_loose = _score_candidates(
+            src_tokens, discover, title_key="title",
+            min_common=2, jaccard_threshold=0.20,
+        )
+        _consume_matches(
+            discover_loose,
+            source_label="discover",
+            publisher_key="publisher",
+            date_key="firstviewed",
+            out=out,
+            seen_urls=seen_urls,
+            seen_titles=seen_titles,
+            max_total=top_n,
+        )
+
+    # Tri final par similarité (les pass strict gardent leur priorité
+    # grâce à un score Jaccard plus élevé en moyenne)
+    out.sort(key=lambda x: x["similarity"], reverse=True)
+    return out[:top_n]

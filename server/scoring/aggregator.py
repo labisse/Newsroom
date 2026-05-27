@@ -192,11 +192,19 @@ def _build_signals(
 
     if discover_match:
         score = discover_match.target.get("score") or 0
+        # La médiane Discoversnoop est à 0.2 — afficher "0/65" est
+        # trompeur (suggère absence de signal). On distingue 3 cas :
+        if score >= 10:
+            value = f"{score:.0f}/65"
+        elif score >= 1:
+            value = f"{score:.1f}/65"
+        else:
+            value = "présent"
         signals.append(
             {
                 "source": "gsc",  # On réutilise la pastille verte "gsc" du front
                 "label": "discover",
-                "value": f"{score:.0f}/65",
+                "value": value,
             }
         )
 
