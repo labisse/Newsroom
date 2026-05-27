@@ -346,6 +346,58 @@ def cmd_gsc_scrape_titles(project_slug: str, limit: int | None) -> int:
     return 0
 
 
+def cmd_secrets_export() -> int:
+    """Affiche tous les secrets GitHub à configurer (workflows CI).
+
+    Lit les valeurs depuis le .env local et imprime ce qu'il faut
+    copier dans Settings → Secrets and variables → Actions.
+    Ne stocke rien, n'envoie rien — juste un dump local.
+    """
+    from server.config import settings as _s
+
+    print("Editorial Signal — Secrets GitHub à configurer\n")
+    print("→ https://github.com/labisse/Newsroom/settings/secrets/actions\n")
+
+    blocks = [
+        (
+            "fetch-and-score.yml (light + full)",
+            [
+                ("MSN_API_KEY", _s.msn_api_key),
+                ("SERPAPI_KEY", _s.serpapi_key),
+                ("WIKIMEDIA_USER_AGENT", _s.wikimedia_user_agent),
+                ("DISCOVERSNOOP_EMAIL", _s.discoversnoop_email),
+                ("DISCOVERSNOOP_PASSWORD", _s.discoversnoop_password),
+            ],
+        ),
+        (
+            "gsc-daily.yml (OAuth + RAG)",
+            [
+                ("GSC_CLIENT_ID", _s.gsc_client_id),
+                ("GSC_CLIENT_SECRET", _s.gsc_client_secret),
+                # Note : le refresh token par projet est récupérable
+                # individuellement via `gsc-export-secret --project=<slug>`
+                ("VOYAGE_API_KEY", _s.voyage_api_key),
+            ],
+        ),
+    ]
+
+    for title, items in blocks:
+        print(f"━━━ {title} ━━━")
+        for name, value in items:
+            status = "✓ présent" if value else "✗ MANQUANT dans .env"
+            value_display = value if value else "(vide — édite ton .env)"
+            print(f"  Name  : {name}")
+            print(f"  Value : {value_display}")
+            print(f"  État  : {status}")
+            print()
+
+    print("━━━ Refresh tokens GSC par projet ━━━")
+    print("  python -m server.cli gsc-export-secret --project=<slug>")
+    print()
+    print("⚠️ Ne partage JAMAIS ces valeurs publiquement.")
+    return 0
+
+
 def cmd_gsc_disconnect(project_slug: str) -> int:
     """Supprime les tokens d'un projet."""
     if not gsc_mod.is_connected(project_slug):
@@ -663,6 +715,11 @@ def main(argv: list[str] | None = None) -> int:
     )
     p_gsc_disc.add_argument("--project", required=True)
 
+    sub.add_parser(
+        "secrets-export",
+        help="Affiche tous les secrets GitHub à configurer (depuis .env local)",
+    )
+
     p_gsc_export = sub.add_parser(
         "gsc-export-secret",
         help="Affiche le refresh token à ajouter en GitHub Secret (pour CI)",
@@ -767,6 +824,8 @@ def main(argv: list[str] | None = None) -> int:
         )
     if args.cmd == "gsc-insights":
         return cmd_gsc_insights(args.project)
+    if args.cmd == "secrets-export":
+        return cmd_secrets_export()
 
     parser.print_help()
     return 2
