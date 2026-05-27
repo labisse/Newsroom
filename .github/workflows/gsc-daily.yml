@@ -1,0 +1,122 @@
+name: GSC daily sync
+
+# Synchronisation quotidienne des URLs Discover par projet.
+#
+# Pour chaque projet GSC-connecté :
+#   1. fetch des URLs Discover sur 365 jours (upsert dans le JSONL)
+#   2. scrape jusqu'à 500 titres manquants (politesse ~0.5s/req)
+#   3. commit du JSONL si changement, push
+#
+# Secrets requis (à ajouter dans Settings → Secrets and variables → Actions) :
+#   - GSC_CLIENT_ID           : Client OAuth Google (cf docs/GSC_SETUP.md)
+#   - GSC_CLIENT_SECRET       : Secret OAuth Google
+#   - GSC_REFRESH_TOKEN_<SLUG>: 1 par projet connecté
+#     ex. GSC_REFRESH_TOKEN_PARISMATCH (récupérable via :
+#         python -m server.cli gsc-export-secret --project=parismatch)
+#
+# Coût : 1 run/jour × ~5 min/projet (selon volume) sur les runners
+# GitHub gratuits (2000 min/mois sur compte personnel).
+
+on:
+  schedule:
+    # Tous les jours à 02:30 UTC (04:30 Paris)
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Fenêtre de jours (défaut 365)"
+        required: false
+        default: "365"
+      scrape_limit:
+        description: "Nb max de titres à scraper par projet (défaut 500)"
+        required: false
+        default: "500"
+      skip_scrape:
+        description: "Skip le scraping de titres"
+        required: false
+        default: "false"
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gsc-daily-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Sync all GSC projects
+    runs-on: ubuntu-latest
+    timeout-minutes: 60  # large pour gros volumes + scraping
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Detect mode
+        id: mode
+        run: |
+          DAYS="${{ github.event.inputs.days || '365' }}"
+          SCRAPE_LIMIT="${{ github.event.inputs.scrape_limit || '500' }}"
+          SKIP_SCRAPE="${{ github.event.inputs.skip_scrape || 'false' }}"
+          echo "days=$DAYS" >> "$GITHUB_OUTPUT"
+          echo "scrape_limit=$SCRAPE_LIMIT" >> "$GITHUB_OUTPUT"
+          echo "skip_scrape=$SKIP_SCRAPE" >> "$GITHUB_OUTPUT"
+          echo "Mode : days=$DAYS scrape_limit=$SCRAPE_LIMIT skip_scrape=$SKIP_SCRAPE"
+
+      - name: Sync GSC projects (fetch + scrape)
+        if: steps.mode.outputs.skip_scrape != 'true'
+        env:
+          # Auth Google OAuth — communs à tous les projets
+          GSC_CLIENT_ID: ${{ secrets.GSC_CLIENT_ID }}
+          GSC_CLIENT_SECRET: ${{ secrets.GSC_CLIENT_SECRET }}
+          # Refresh tokens par projet (1 secret par site connecté)
+          # Le module gsc.py lit GSC_REFRESH_TOKEN_<SLUG_UPPERCASE>
+          GSC_REFRESH_TOKEN_PARISMATCH: ${{ secrets.GSC_REFRESH_TOKEN_PARISMATCH }}
+          GSC_REFRESH_TOKEN_FUTURA_SCIENCES: ${{ secrets.GSC_REFRESH_TOKEN_FUTURA_SCIENCES }}
+        run: |
+          python -m server.cli gsc-sync-all \
+            --days=${{ steps.mode.outputs.days }} \
+            --scrape-titles \
+            --scrape-limit=${{ steps.mode.outputs.scrape_limit }}
+
+      - name: Sync GSC projects (fetch only)
+        if: steps.mode.outputs.skip_scrape == 'true'
+        env:
+          GSC_CLIENT_ID: ${{ secrets.GSC_CLIENT_ID }}
+          GSC_CLIENT_SECRET: ${{ secrets.GSC_CLIENT_SECRET }}
+          GSC_REFRESH_TOKEN_PARISMATCH: ${{ secrets.GSC_REFRESH_TOKEN_PARISMATCH }}
+          GSC_REFRESH_TOKEN_FUTURA_SCIENCES: ${{ secrets.GSC_REFRESH_TOKEN_FUTURA_SCIENCES }}
+        run: |
+          python -m server.cli gsc-sync-all \
+            --days=${{ steps.mode.outputs.days }}
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # On stage UNIQUEMENT les JSONL des projets — JAMAIS les tokens
+          git add 'data/projects/*/discover_history.jsonl' || true
+
+          if git diff --staged --quiet; then
+            echo "Pas de changement, rien à commit."
+            exit 0
+          fi
+
+          TS="$(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit -m "chore(gsc): daily sync — ${TS} [skip ci]"
+          git push

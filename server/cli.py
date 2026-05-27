@@ -350,6 +350,128 @@ def cmd_gsc_disconnect(project_slug: str) -> int:
     return 0
 
 
+def cmd_gsc_export_secret(project_slug: str) -> int:
+    """Affiche le refresh token + nom du secret GitHub à créer."""
+    try:
+        refresh_token = gsc_mod.get_refresh_token(project_slug)
+    except RuntimeError as exc:
+        print(f"✗ {exc}", file=sys.stderr)
+        return 1
+
+    env_name = gsc_mod.env_var_name_for(project_slug)
+    print(f"Editorial Signal — Export secret GSC [{project_slug}]\n")
+    print("→ Va sur https://github.com/labisse/Newsroom/settings/secrets/actions")
+    print("→ Clique 'New repository secret' et ajoute :\n")
+    print(f"  Name  : {env_name}")
+    print(f"  Value : {refresh_token}")
+    print()
+    print("⚠️ Ne partage JAMAIS ce token. Il permet l'accès en lecture")
+    print("   aux données Search Console du site connecté.")
+    print()
+    print("Secrets requis pour le workflow gsc-daily.yml :")
+    print("  - GSC_CLIENT_ID")
+    print("  - GSC_CLIENT_SECRET")
+    print(f"  - {env_name}")
+    return 0
+
+
+def _discover_connected_projects() -> list[str]:
+    """Liste les projets ayant un token GSC (fichier local ou env var).
+
+    Lit data/projects/index.json (config officielle) et garde ceux
+    pour lesquels gsc.is_connected() retourne True.
+    """
+    projects_index = DATA_DIR / "projects" / "index.json"
+    if not projects_index.exists():
+        return []
+    try:
+        payload = json.loads(projects_index.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+
+    slugs = [p.get("slug", "") for p in payload.get("projects", []) if p.get("slug")]
+    return [s for s in slugs if gsc_mod.is_connected(s)]
+
+
+def cmd_gsc_sync_all(
+    days: int,
+    scrape_titles: bool,
+    scrape_limit: int,
+) -> int:
+    """Synchronise tous les projets connectés (fetch + optionnellement scrape).
+
+    Conçu pour être appelé par le workflow GitHub Action gsc-daily.yml.
+    """
+    print(f"Editorial Signal — GSC sync-all (Discover {days}j)\n")
+
+    slugs = _discover_connected_projects()
+    if not slugs:
+        print("Aucun projet GSC connecté. Vérifie :")
+        print("  - data/projects/index.json existe et liste les projets")
+        print("  - chaque projet a soit un fichier gsc_tokens.json local,")
+        print(f"    soit une env var {gsc_mod.env_var_name_for('<SLUG>')}")
+        return 0
+
+    print(f"Projets à synchroniser : {', '.join(slugs)}\n")
+
+    overall_failures = 0
+    for slug in slugs:
+        print(f"━━━ {slug} ━━━")
+        try:
+            # Fetch Discover URLs
+            sites = gsc_mod.get_sites(slug)
+            if not sites:
+                print(f"  ⚠ aucun site accessible pour {slug}, skip")
+                continue
+            site_url = sites[0].get("siteUrl", "")
+            print(f"  Site : {site_url}")
+
+            started = time.perf_counter()
+            payload = gsc_mod.fetch_discover_12m(slug, site_url, days=days)
+            elapsed = time.perf_counter() - started
+            print(
+                f"  Fetch : {len(payload['rows'])} URLs en {elapsed:.1f}s"
+            )
+
+            up = gsc_storage.upsert_discover_rows(slug, payload["rows"])
+            print(
+                f"  Upsert : +{up['inserted']} · ~{up['updated']} · "
+                f"{up['total']} total"
+            )
+
+            # Scrape titres (optionnel)
+            if scrape_titles:
+                pending = gsc_storage.items_missing_title(slug, limit=scrape_limit)
+                if pending:
+                    print(
+                        f"  Scrape : {len(pending)} titres "
+                        f"(politesse {len(pending) * 0.5:.0f}s estimé)"
+                    )
+                    started = time.perf_counter()
+                    result = gsc_titles.scrape_missing_titles(
+                        slug, limit=scrape_limit
+                    )
+                    elapsed = time.perf_counter() - started
+                    print(
+                        f"  Titres : +{result['scraped']} OK · "
+                        f"{result['failed']} échec · "
+                        f"{result['remaining']} restants ({elapsed:.0f}s)"
+                    )
+                else:
+                    print("  Scrape : aucun titre manquant.")
+        except Exception as exc:  # noqa: BLE001
+            print(f"  ✗ {type(exc).__name__}: {exc}", file=sys.stderr)
+            overall_failures += 1
+
+        print()
+
+    print("━" * 60)
+    print(
+        f"Terminé : {len(slugs) - overall_failures}/{len(slugs)} projets OK"
+    )
+    return 0 if overall_failures == 0 else 1
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="editorial-signal",
@@ -416,6 +538,31 @@ def main(argv: list[str] | None = None) -> int:
     )
     p_gsc_disc.add_argument("--project", required=True)
 
+    p_gsc_export = sub.add_parser(
+        "gsc-export-secret",
+        help="Affiche le refresh token à ajouter en GitHub Secret (pour CI)",
+    )
+    p_gsc_export.add_argument("--project", required=True)
+
+    p_gsc_sync = sub.add_parser(
+        "gsc-sync-all",
+        help="Sync tous les projets connectés (fetch + scrape) — pour CI",
+    )
+    p_gsc_sync.add_argument(
+        "--days", type=int, default=365, help="Fenêtre de jours (défaut 365)"
+    )
+    p_gsc_sync.add_argument(
+        "--scrape-titles",
+        action="store_true",
+        help="Scraper aussi les titres manquants",
+    )
+    p_gsc_sync.add_argument(
+        "--scrape-limit",
+        type=int,
+        default=500,
+        help="Nb max d'URLs à scraper par projet (défaut 500)",
+    )
+
     args = parser.parse_args(argv)
 
     if args.cmd == "fetch-all":
@@ -438,6 +585,14 @@ def main(argv: list[str] | None = None) -> int:
         return cmd_gsc_scrape_titles(args.project, args.limit)
     if args.cmd == "gsc-disconnect":
         return cmd_gsc_disconnect(args.project)
+    if args.cmd == "gsc-export-secret":
+        return cmd_gsc_export_secret(args.project)
+    if args.cmd == "gsc-sync-all":
+        return cmd_gsc_sync_all(
+            days=args.days,
+            scrape_titles=args.scrape_titles,
+            scrape_limit=args.scrape_limit,
+        )
 
     parser.print_help()
     return 2

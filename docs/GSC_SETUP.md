@@ -205,10 +205,63 @@ juste des URLs publiques + métriques.
 
 ---
 
+---
+
+## 9. Automatisation via GitHub Actions (Sprint 2)
+
+Le workflow `.github/workflows/gsc-daily.yml` synchronise chaque jour
+les URLs Discover + scrape jusqu'à 500 titres par projet.
+
+### Secrets requis sur GitHub
+
+Va sur **Settings → Secrets and variables → Actions → New repository secret**
+et ajoute :
+
+| Nom | Valeur |
+|---|---|
+| `GSC_CLIENT_ID` | Le même que dans ton `.env` local |
+| `GSC_CLIENT_SECRET` | Le même que dans ton `.env` local |
+| `GSC_REFRESH_TOKEN_PARISMATCH` | Cf commande ci-dessous |
+| `GSC_REFRESH_TOKEN_<AUTRE_PROJET>` | Idem par projet |
+
+### Récupérer le refresh token d'un projet
+
+```bash
+python -m server.cli gsc-export-secret --project=parismatch
+```
+
+Affiche le nom de la variable + le refresh token à coller dans GitHub.
+
+⚠️ **Ne partage jamais ce token** — il permet l'accès en lecture aux
+données Search Console du site connecté.
+
+### Lancer manuellement
+
+Sur **Actions → GSC daily sync → Run workflow**, tu peux ajuster :
+- `days` : fenêtre d'extraction (défaut 365)
+- `scrape_limit` : nb max de titres scrapés par projet (défaut 500)
+- `skip_scrape` : skip le scraping (pour les runs rapides)
+
+### Fréquence
+
+Par défaut tous les jours à **02:30 UTC (04:30 Paris)**. Pour changer :
+édite le cron dans `gsc-daily.yml`.
+
+Sur 12 894 URLs Paris Match avec 500 titres scrapés/jour → environ
+**26 jours pour couvrir tout l'historique**.
+
+### Commit auto
+
+Le workflow commit `data/projects/*/discover_history.jsonl` si delta,
+avec un message `chore(gsc): daily sync — <date> [skip ci]`. Les tokens
+ne sont JAMAIS touchés (gitignored + secrets côté GitHub).
+
+---
+
 ## Roadmap (sprints suivants)
 
-- **Sprint 2** : GitHub Action quotidienne → `gsc-fetch` auto sur tous
-  les projets connectés
+- ~~**Sprint 1** : OAuth GSC + extraction Discover par projet~~ ✓
+- ~~**Sprint 2** : GitHub Action quotidienne~~ ✓
 - **Sprint 3** : Embeddings (Voyage API ou TF-IDF) sur les titres pour
   recherche sémantique
 - **Sprint 4** : Croisement temps-réel × historique → angles éditoriaux

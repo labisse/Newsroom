@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import secrets
 import time
 from datetime import datetime, timedelta
@@ -60,19 +61,55 @@ def _tokens_file(project_slug: str) -> Path:
     return _project_dir(project_slug) / "gsc_tokens.json"
 
 
+def _env_var_name(project_slug: str) -> str:
+    """Nom de la variable d'env pour le refresh token d'un projet.
+
+    Ex : "parismatch" → "GSC_REFRESH_TOKEN_PARISMATCH"
+         "futura-sciences" → "GSC_REFRESH_TOKEN_FUTURA_SCIENCES"
+    """
+    safe = re.sub(r"[^a-zA-Z0-9]+", "_", project_slug.strip()).upper()
+    return f"GSC_REFRESH_TOKEN_{safe}"
+
+
 # ============================================================
-# TOKEN STORAGE (fichier JSON par projet)
+# TOKEN STORAGE (fichier JSON par projet + fallback env var)
 # ============================================================
 
 
 def _load_tokens(project_slug: str) -> dict[str, Any]:
+    """Charge les tokens d'un projet.
+
+    Stratégie de fallback :
+      1. data/projects/{slug}/gsc_tokens.json (cas dev local)
+      2. Variable d'env GSC_REFRESH_TOKEN_<SLUG> (cas CI/CD)
+
+    Pour le cas (2) on n'a que le refresh_token : access_token et
+    expires_at seront générés à la demande par get_valid_access_token.
+    """
     path = _tokens_file(project_slug)
-    if not path.exists():
-        return {}
-    return json.loads(path.read_text(encoding="utf-8"))
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+
+    # Fallback env : utile pour GitHub Actions (cf gsc-daily.yml)
+    env_var = _env_var_name(project_slug)
+    refresh_token = os.environ.get(env_var, "").strip()
+    if refresh_token:
+        return {
+            "refresh_token": refresh_token,
+            "access_token": "",
+            "expires_at": 0,
+            "connected_at": None,
+            "source": "env",
+        }
+    return {}
 
 
 def _save_tokens(project_slug: str, data: dict[str, Any]) -> None:
+    """Persiste les tokens. No-op si on est en mode env (CI/CD read-only)."""
+    if data.get("source") == "env":
+        # Mode CI : on rafraîchit l'access_token en mémoire seulement,
+        # on n'écrit pas sur disque (le refresh_token reste en secret).
+        return
     path = _tokens_file(project_slug)
     path.write_text(
         json.dumps(data, ensure_ascii=False, indent=2),
@@ -81,15 +118,33 @@ def _save_tokens(project_slug: str, data: dict[str, Any]) -> None:
 
 
 def is_connected(project_slug: str) -> bool:
-    """True si on a un refresh_token valide pour ce projet."""
+    """True si on a un refresh_token valide pour ce projet
+    (fichier local OU env var)."""
     return bool(_load_tokens(project_slug).get("refresh_token"))
 
 
 def disconnect(project_slug: str) -> None:
-    """Supprime les tokens d'un projet."""
+    """Supprime le fichier tokens local. N'affecte pas les env vars."""
     path = _tokens_file(project_slug)
     if path.exists():
         path.unlink()
+
+
+def get_refresh_token(project_slug: str) -> str:
+    """Retourne le refresh_token brut (utile pour export GitHub Secret)."""
+    tokens = _load_tokens(project_slug)
+    rt = tokens.get("refresh_token", "")
+    if not rt:
+        raise RuntimeError(
+            f"Aucun refresh_token pour '{project_slug}'. "
+            f"Lance d'abord `python -m server.cli gsc-connect --project={project_slug}`."
+        )
+    return rt
+
+
+def env_var_name_for(project_slug: str) -> str:
+    """Expose le nom de l'env var attendue pour un projet."""
+    return _env_var_name(project_slug)
 
 
 # ============================================================
