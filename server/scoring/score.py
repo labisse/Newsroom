@@ -1,18 +1,21 @@
 """Barèmes par signal + pondération finale.
 
-Le CdC liste 5 signaux (Trends, Wiki, X, Google News, GSC). Pour le
-POC, on a maintenant 5 sources qui couvrent l'esprit du CdC :
+6 sources actives pour le POC (CdC mentionne 5 mais on a ajouté
+Discover en plus, qui est le signal le plus pertinent puisque c'est
+l'objectif final du produit) :
+
+  - Discoversnoop     ← visibilité Discover directe (= objectif final)
   - Google Trends     ← signal de recherche
-  - Wikimedia         ← signal d'audience encyclopédique
-  - X Trends          ← signal conversationnel (présence seulement)
-  - MSN engagement    ← proxy d'attention médiatique (votes/comments)
-  - Discoversnoop     ← signal direct de visibilité Google Discover
-                         (= objectif final du produit !)
+  - Wikimedia         ← audience encyclopédique
+  - Google News       ← couverture médiatique (combien de médias couvrent)
+  - MSN engagement    ← attention média sur agrégateur (votes/comments)
+  - X Trends          ← signal conversationnel (présence)
 
 Pondération POC :
-  - Discoversnoop    : 30%  (signal le plus pertinent, direct)
-  - Google Trends    : 25%
-  - Wikimedia        : 20%
+  - Discoversnoop    : 25%
+  - Google Trends    : 20%
+  - Wikimedia        : 15%
+  - Google News      : 15%  (nouveau — couverture médiatique)
   - MSN engagement   : 15%
   - X Trends         : 10%
   ────────────────────
@@ -32,9 +35,10 @@ from dataclasses import dataclass
 # ---------------------------------------------------------------
 
 WEIGHTS = {
-    "discover": 0.30,
-    "trends": 0.25,
-    "wiki": 0.20,
+    "discover": 0.25,
+    "trends": 0.20,
+    "wiki": 0.15,
+    "gnews": 0.15,
     "msn": 0.15,
     "x": 0.10,
 }
@@ -111,6 +115,27 @@ def x_score(rank: int | None) -> float:
     return 20.0
 
 
+def gnews_score(matched_count: int) -> float:
+    """Score Google News basé sur le nombre d'articles qui couvrent le sujet.
+
+    Sémantique : plus de médias couvrent un même événement = plus de
+    "buzz éditorial". Saturation rapide après quelques matches.
+
+      - 0 article  →   0
+      - 1 article  →  35
+      - 2 articles →  55
+      - 3 articles →  70
+      - 5 articles →  85
+      - 8+ articles → 95
+      - 12+ articles → 100
+    """
+    if not matched_count or matched_count <= 0:
+        return 0.0
+    # Log saturé : anchor à 3 → ~70 points
+    raw = 35.0 + 35.0 * math.log(matched_count) / math.log(3)
+    return min(100.0, max(0.0, raw))
+
+
 def discover_score(raw_score: float | None) -> float:
     """Score Discoversnoop.
 
@@ -159,6 +184,7 @@ class ScoreBreakdown:
     discover: float
     trends: float
     wiki: float
+    gnews: float
     msn: float
     x: float
     total: float
@@ -168,6 +194,7 @@ class ScoreBreakdown:
             "discover": round(self.discover, 1),
             "trends": round(self.trends, 1),
             "wiki": round(self.wiki, 1),
+            "gnews": round(self.gnews, 1),
             "msn": round(self.msn, 1),
             "x": round(self.x, 1),
             "total": round(self.total, 1),
@@ -178,17 +205,20 @@ def _convergence_bonus(*subscores: float, threshold: float = 20.0) -> float:
     """Bonus de convergence multi-signaux externes.
 
     L'intuition : un sujet confirmé par plusieurs sources externes
-    (Discover, Trends, Wiki, X) est plus actionnable qu'un sujet à
-    un seul signal fort. On ne compte que les signaux externes — pas
-    MSN qui est notre base.
+    (Discover, Trends, Wiki, GNews, X) est plus actionnable qu'un sujet
+    à un seul signal fort. On ne compte que les signaux externes —
+    pas MSN qui est notre base.
 
     Barème :
-      - 1 signal externe   → 0
+      - 1 signal externe   →  0
       - 2 signaux externes → +5
       - 3 signaux externes → +10
       - 4 signaux externes → +15
+      - 5 signaux externes → +20
     """
     confirmed = sum(1 for s in subscores if s >= threshold)
+    if confirmed >= 5:
+        return 20.0
     if confirmed >= 4:
         return 15.0
     if confirmed >= 3:
@@ -203,22 +233,30 @@ def composite_score(
     discover: float = 0.0,
     trends: float = 0.0,
     wiki: float = 0.0,
+    gnews: float = 0.0,
     msn: float = 0.0,
     x: float = 0.0,
 ) -> ScoreBreakdown:
-    """Combine les 5 sous-scores selon les pondérations + bonus convergence."""
+    """Combine les 6 sous-scores selon les pondérations + bonus convergence."""
     weighted = (
         WEIGHTS["discover"] * discover
         + WEIGHTS["trends"] * trends
         + WEIGHTS["wiki"] * wiki
+        + WEIGHTS["gnews"] * gnews
         + WEIGHTS["msn"] * msn
         + WEIGHTS["x"] * x
     )
     # Le bonus s'applique aux signaux externes uniquement (pas MSN)
-    bonus = _convergence_bonus(discover, trends, wiki, x)
+    bonus = _convergence_bonus(discover, trends, wiki, gnews, x)
     total = min(100.0, weighted + bonus)
     return ScoreBreakdown(
-        discover=discover, trends=trends, wiki=wiki, msn=msn, x=x, total=total
+        discover=discover,
+        trends=trends,
+        wiki=wiki,
+        gnews=gnews,
+        msn=msn,
+        x=x,
+        total=total,
     )
 
 

@@ -74,6 +74,45 @@ def _prepare_discover(payload: dict) -> list[dict]:
     return payload.get("articles", [])
 
 
+def _prepare_gnews(payload: dict) -> list[dict]:
+    """Google News : articles RSS dédupliqués, on les retourne tels quels."""
+    return payload.get("articles", [])
+
+
+def _count_matches(
+    source_tokens: set,
+    candidates: list[dict],
+    *,
+    title_key: str,
+    min_common: int = 2,
+    jaccard_threshold: float = 0.25,
+) -> tuple[int, list[dict]]:
+    """Compte tous les matches d'un titre source dans les candidats.
+
+    Différent de best_match : on collecte TOUS les matches au-dessus du
+    seuil. Utile pour Google News où plusieurs médias couvrent le même
+    sujet et le nombre de matches = signal de couverture.
+
+    Retourne (count, matched_items_top_N).
+    """
+    from server.scoring.matcher import jaccard
+    from server.scoring.normalize import token_set
+
+    matched: list[tuple[float, dict]] = []
+    for cand in candidates:
+        title = cand.get(title_key) or ""
+        cand_tokens = token_set(title)
+        if not cand_tokens:
+            continue
+        common = source_tokens & cand_tokens
+        score = jaccard(source_tokens, cand_tokens)
+        if score >= jaccard_threshold or len(common) >= min_common:
+            matched.append((score, cand))
+
+    matched.sort(key=lambda x: x[0], reverse=True)
+    return len(matched), [c for _, c in matched[:5]]
+
+
 # ---------------------------------------------------------------
 # Génération de la phrase rationale
 # ---------------------------------------------------------------
@@ -84,6 +123,7 @@ def _rationale(
     discover_match: Match | None,
     trends_match: Match | None,
     wiki_match: Match | None,
+    gnews_count: int,
     x_match: Match | None,
     breakdown: scoring.ScoreBreakdown,
 ) -> str:
@@ -110,6 +150,13 @@ def _rationale(
     elif wiki_match:
         parts.append("présent dans le top Wikipedia")
 
+    if gnews_count >= 5:
+        parts.append(f"forte couverture médiatique ({gnews_count} médias)")
+    elif gnews_count >= 2:
+        parts.append(f"couvert par {gnews_count} médias")
+    elif gnews_count == 1:
+        parts.append("repris sur Google Actualités")
+
     if x_match and breakdown.x >= 60:
         parts.append("trending sur X")
     elif x_match:
@@ -135,6 +182,7 @@ def _build_signals(
     discover_match: Match | None,
     trends_match: Match | None,
     wiki_match: Match | None,
+    gnews_count: int,
     x_match: Match | None,
     msn_article: dict,
 ) -> list[dict[str, Any]]:
@@ -148,6 +196,15 @@ def _build_signals(
                 "source": "gsc",  # On réutilise la pastille verte "gsc" du front
                 "label": "discover",
                 "value": f"{score:.0f}/65",
+            }
+        )
+
+    if gnews_count > 0:
+        signals.append(
+            {
+                "source": "news",
+                "label": "gnews",
+                "value": f"{gnews_count} média{'s' if gnews_count > 1 else ''}",
             }
         )
 
@@ -212,6 +269,7 @@ def _build_sources_detail(
     discover_match: Match | None,
     trends_match: Match | None,
     wiki_match: Match | None,
+    gnews_count: int,
     x_match: Match | None,
     breakdown: scoring.ScoreBreakdown,
 ) -> list[dict[str, Any]]:
@@ -225,6 +283,15 @@ def _build_sources_detail(
                 else "—"
             ),
             "fill": int(breakdown.discover),
+        },
+        {
+            "name": "Google News",
+            "value": (
+                f"{gnews_count} média{'s' if gnews_count > 1 else ''}"
+                if gnews_count > 0
+                else "—"
+            ),
+            "fill": int(breakdown.gnews),
         },
         {
             "name": "Google Trends",
@@ -267,6 +334,7 @@ def _score_article(
     discover_candidates: list[dict],
     gt_candidates: list[dict],
     wiki_candidates: list[dict],
+    gnews_candidates: list[dict],
     x_candidates: list[dict],
 ) -> dict[str, Any] | None:
     """Score un article MSN. Retourne None si titre vide."""
@@ -284,6 +352,17 @@ def _score_article(
     trends_match = best_match(src_tokens, gt_candidates, title_key="query")
     wiki_match = best_match(src_tokens, wiki_candidates, title_key="title_display")
     x_match = best_match(src_tokens, x_candidates, title_key="query")
+
+    # Google News : count-based. Min 2 tokens communs OU Jaccard ≥ 0.30.
+    # Les stopwords FR (cf normalize.py) éliminent déjà "voici", "voila",
+    # "ans", "direct" qui généraient des faux positifs.
+    gnews_count, gnews_top_matches = _count_matches(
+        src_tokens,
+        gnews_candidates,
+        title_key="title",
+        min_common=2,
+        jaccard_threshold=0.30,
+    )
 
     breakdown = scoring.composite_score(
         discover=(
@@ -304,6 +383,7 @@ def _score_article(
             if wiki_match
             else 0.0
         ),
+        gnews=scoring.gnews_score(gnews_count),
         msn=scoring.msn_score(msn_article),
         x=(scoring.x_score(x_match.target.get("rank")) if x_match else 0.0),
     )
@@ -313,6 +393,8 @@ def _score_article(
         "discover_match": discover_match,
         "trends_match": trends_match,
         "wiki_match": wiki_match,
+        "gnews_count": gnews_count,
+        "gnews_top_matches": gnews_top_matches,
         "x_match": x_match,
         "breakdown": breakdown,
     }
@@ -322,12 +404,14 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
     """Convertit un score en sujet prêt à sérialiser pour le front."""
     article = scored["msn_article"]
     breakdown: scoring.ScoreBreakdown = scored["breakdown"]
+    gnews_count = scored.get("gnews_count", 0)
 
     rationale = _rationale(
         article,
         scored["discover_match"],
         scored["trends_match"],
         scored["wiki_match"],
+        gnews_count,
         scored["x_match"],
         breakdown,
     )
@@ -336,6 +420,7 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
         scored["discover_match"],
         scored["trends_match"],
         scored["wiki_match"],
+        gnews_count,
         scored["x_match"],
         article,
     )
@@ -344,6 +429,7 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
         scored["discover_match"],
         scored["trends_match"],
         scored["wiki_match"],
+        gnews_count,
         scored["x_match"],
         breakdown,
     )
@@ -361,6 +447,12 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
         d_title = d_target.get("title") or ""
         if d_title:
             refs.append(f"Discover · {d_publisher} — {d_title}")
+    # Top 3 articles Google News matchés (médias français de référence)
+    for gn in (scored.get("gnews_top_matches") or [])[:3]:
+        gn_source = gn.get("source") or "Google News"
+        gn_title = gn.get("title") or ""
+        if gn_title:
+            refs.append(f"GNews · {gn_source} — {gn_title}")
 
     rounded = int(round(breakdown.total))
     return {
@@ -395,10 +487,12 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
     gt = _load("google_trends")
     x = _load("x_trends")
     discover = _load("discoversnoop")
+    gnews = _load("google_news")
 
     gt_candidates, x_candidates = _prepare_trends(gt, x)
     wiki_candidates = _prepare_wiki(wikimedia)
     discover_candidates = _prepare_discover(discover)
+    gnews_candidates = _prepare_gnews(gnews)
 
     scored: list[dict[str, Any]] = []
     for article in msn.get("articles", []):
@@ -407,6 +501,7 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
             discover_candidates=discover_candidates,
             gt_candidates=gt_candidates,
             wiki_candidates=wiki_candidates,
+            gnews_candidates=gnews_candidates,
             x_candidates=x_candidates,
         )
         if result is not None:
@@ -439,6 +534,10 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
             "discoversnoop": {
                 "fetched_at": discover.get("fetched_at"),
                 "count": discover.get("count"),
+            },
+            "google_news": {
+                "fetched_at": gnews.get("fetched_at"),
+                "count": gnews.get("count"),
             },
         },
         "weights": scoring.WEIGHTS,

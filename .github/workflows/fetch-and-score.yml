@@ -80,7 +80,7 @@ jobs:
           DISCOVERSNOOP_PASSWORD: ${{ secrets.DISCOVERSNOOP_PASSWORD }}
           DISCOVERSNOOP_COUNTRY: FR
           DISCOVERSNOOP_HOURS: 12
-        run: python -m server.cli fetch msn x_trends discoversnoop
+        run: python -m server.cli fetch msn x_trends discoversnoop google_news
 
       - name: Fetch sources (full)
         if: steps.mode.outputs.mode == 'full'

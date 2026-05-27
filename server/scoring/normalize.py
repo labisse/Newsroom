@@ -46,6 +46,11 @@ STOPWORDS_FR: frozenset[str] = frozenset(
         # Mots vides éditoriaux fréquents en titres
         "the", "les", "info", "actu", "actus", "actualité", "actualites",
         "vidéo", "video", "photo", "photos", "exclusif", "exclusive",
+        # Mots d'accroche très fréquents en titres (sinon faux positifs)
+        "voici", "voila", "ceci", "cela",
+        "ans",  # "à 17 ans", "à 80 ans" — peu informatif
+        "an",
+        "direct",  # "EN DIRECT, ..." typique Le Monde
     }
 )
 
