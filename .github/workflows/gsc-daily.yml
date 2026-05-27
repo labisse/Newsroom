@@ -109,6 +109,9 @@ jobs:
           # Voyage AI pour les embeddings sémantiques (sinon fallback TF-IDF)
           VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
           VOYAGE_MODEL: voyage-3
+          # Claude pour générer les titres proposés (sinon proposed_title=None)
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: claude-haiku-4-5
         run: |
           # Pour chaque projet GSC-connecté, rebuild l'index sémantique
           # (à partir de la base à jour) + pré-calcule les insights croisés

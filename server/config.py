@@ -11,7 +11,11 @@ from dotenv import load_dotenv
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 
-load_dotenv(ROOT / ".env")
+# override=True : si une variable d'environnement existe déjà dans le shell
+# (ex. via ~/.zshrc) avec une valeur vide ou obsolète, on laisse .env gagner.
+# Sans ça, ANTHROPIC_API_KEY="" exporté ailleurs masquerait silencieusement
+# la clé du .env (bug rencontré en prod).
+load_dotenv(ROOT / ".env", override=True)
 
 
 def _get(key: str, default: str = "") -> str:
@@ -67,7 +71,7 @@ class Settings:
 
     # Claude — génération de titres dans le style d'un média
     anthropic_api_key: str = _get("ANTHROPIC_API_KEY")
-    anthropic_model: str = _get("ANTHROPIC_MODEL", "claude-haiku-4-5-20250514")
+    anthropic_model: str = _get("ANTHROPIC_MODEL", "claude-haiku-4-5")
 
 
 settings = Settings()
