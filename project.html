@@ -13,10 +13,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap"
     />
-    <link rel="stylesheet" href="styles/tokens.css?v=tbr3" />
-    <link rel="stylesheet" href="styles/base.css?v=tbr3" />
-    <link rel="stylesheet" href="styles/components.css?v=tbr3" />
-    <link rel="stylesheet" href="styles/projects.css?v=tbr3" />
+    <link rel="stylesheet" href="styles/tokens.css?v=tbr6" />
+    <link rel="stylesheet" href="styles/base.css?v=tbr6" />
+    <link rel="stylesheet" href="styles/components.css?v=tbr6" />
+    <link rel="stylesheet" href="styles/projects.css?v=tbr6" />
     <script>
       (function () {
         try {
@@ -90,7 +90,29 @@
         <div class="project-detail-hero__themes" id="project-themes"></div>
       </section>
 
-      <section class="project-pending">
+      <!-- Bloc visible si insights.json présent (projet GSC connecté) -->
+      <div id="project-insights" style="display: none">
+        <section class="project-stats" id="project-stats"></section>
+        <section class="project-top-urls">
+          <div class="project-section__head">
+            <h2 class="project-section__title">Top Discover · 12 mois</h2>
+            <span class="project-section__hint" id="project-top-meta">—</span>
+          </div>
+          <ul class="project-top-list" id="project-top-list"></ul>
+        </section>
+        <section class="project-rag">
+          <div class="project-section__head">
+            <h2 class="project-section__title">Croisé avec le flux du jour</h2>
+            <span class="project-section__hint">
+              Pour chaque univers tendance, contenus historiques qui ont déjà cartonné
+            </span>
+          </div>
+          <div class="project-rag__groups" id="project-rag-groups"></div>
+        </section>
+      </div>
+
+      <!-- Bloc visible si insights.json absent (placeholder pending) -->
+      <section class="project-pending" id="project-pending" style="display: none">
         <div class="project-pending__icon">
           <span></span>
           Connexion GSC en attente
@@ -115,8 +137,7 @@
             <span class="project-pending__step-num">02</span>
             <span>
               <strong>Import des archives</strong><br />
-              Téléchargement de l'historique Discover (jusqu'à 16 mois côté GSC,
-              plus si CSV manuel) pour cartographier les sujets performants.
+              Téléchargement de l'historique Discover (jusqu'à 16 mois côté GSC).
             </span>
           </div>
           <div class="project-pending__step">
@@ -124,17 +145,15 @@
             <span>
               <strong>Scoring contextuel</strong><br />
               Les signaux externes sont pondérés par l'affinité historique du
-              site avec chaque thématique. Un sujet "People" sort prioritaire
-              pour Paris Match, un sujet "Espace" pour Futura Sciences.
+              site avec chaque thématique.
             </span>
           </div>
           <div class="project-pending__step">
             <span class="project-pending__step-num">04</span>
             <span>
               <strong>Anticipation IA</strong><br />
-              Sur les sujets récurrents (virus, élections, décès, événements
-              sportifs), génération automatique de pages "questions
-              prévisibles" ancrées sur les pages existantes les mieux placées.
+              Sur les sujets récurrents, génération automatique de pages
+              "questions prévisibles" ancrées sur les pages existantes les mieux placées.
             </span>
           </div>
         </div>

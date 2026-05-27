@@ -67,11 +67,18 @@ def text_for_url(item: dict) -> str:
     """Texte à embedder pour une entrée d'historique.
 
     Préférence : title (vrai titre éditorial scrapé) > slug nettoyé.
+    Garantit JAMAIS de string vide (Voyage rejette les empty strings) :
+    fallback final sur l'URL elle-même.
     """
     title = (item.get("title") or "").strip()
     if title:
         return title
-    return slug_to_text(item.get("url", ""))
+    slug_text = slug_to_text(item.get("url", "")).strip()
+    if slug_text:
+        return slug_text
+    # Fallback ultime : l'URL elle-même (jamais vide en pratique)
+    url = (item.get("url") or "").strip()
+    return url or "untitled"
 
 
 # ──────────────────────────────────────────────────────────────
@@ -154,7 +161,9 @@ def build_index(
     vectors, used_backend = embeddings.embed_batch(texts, backend=chosen_backend)
     matrix = np.asarray(vectors, dtype=np.float32)
 
-    # 4) Sauvegarder
+    # 4) Sauvegarder — on stocke aussi le backend utilisé pour
+    # garantir que la search utilise le même (vecteurs incompatibles
+    # entre Voyage 1024-dim et TF-IDF 5000-dim sinon).
     if on_progress:
         on_progress("save", 0, 1)
     out_path = index_path(project_slug)
@@ -168,6 +177,7 @@ def build_index(
             [int(item.get("clicks_total", 0)) for item in items],
             dtype=np.int64,
         ),
+        backend=np.array([used_backend], dtype=object),
     )
 
     # Méta lisible
@@ -193,7 +203,7 @@ def build_index(
 
 
 def load_index(project_slug: str) -> dict[str, Any]:
-    """Charge l'index .npz d'un projet."""
+    """Charge l'index .npz d'un projet (avec son backend d'origine)."""
     path = index_path(project_slug)
     if not path.exists():
         raise RuntimeError(
@@ -201,11 +211,18 @@ def load_index(project_slug: str) -> dict[str, Any]:
             f"Lance d'abord gsc-embed --project={project_slug}."
         )
     data = np.load(path, allow_pickle=True)
+    # Backend : présent dans les nouveaux index, fallback "tfidf" pour
+    # les anciens (qui n'avaient pas ce champ)
+    if "backend" in data.files:
+        backend = str(data["backend"][0])
+    else:
+        backend = "tfidf"
     return {
         "vectors": data["vectors"],
         "urls": data["urls"],
         "titles": data["titles"],
         "clicks": data["clicks"],
+        "backend": backend,
     }
 
 
@@ -241,7 +258,11 @@ def search_similar(
     titles = index["titles"]
     clicks = index["clicks"]
 
-    chosen_backend = backend or embeddings.backend_name()
+    # Le backend doit matcher celui utilisé pour build l'index
+    # (vecteurs Voyage 1024-dim vs TF-IDF 5000-dim incompatibles).
+    # On ignore l'argument explicite + l'auto-détection si l'index
+    # contient un backend forcé.
+    chosen_backend = backend or index.get("backend") or embeddings.backend_name()
 
     # Pour TF-IDF, le vocab doit avoir été fit sur le même corpus.
     # On le re-fit ici à partir des URLs en base (texts identiques à

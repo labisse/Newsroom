@@ -104,13 +104,39 @@ jobs:
           python -m server.cli gsc-sync-all \
             --days=${{ steps.mode.outputs.days }}
 
+      - name: Rebuild embeddings index + insights per project
+        env:
+          # Voyage AI pour les embeddings sémantiques (sinon fallback TF-IDF)
+          VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
+          VOYAGE_MODEL: voyage-3
+        run: |
+          # Pour chaque projet GSC-connecté, rebuild l'index sémantique
+          # (à partir de la base à jour) + pré-calcule les insights croisés
+          # avec data/sujets/latest.json (= flux global du jour).
+          set -e
+          for project_dir in data/projects/*/; do
+            slug=$(basename "$project_dir")
+            # Skip si pas de history (= projet non synchronisé)
+            if [[ ! -f "$project_dir/discover_history.jsonl" ]]; then
+              echo "Skip $slug (pas d'history)"
+              continue
+            fi
+            echo "━━━ $slug ━━━"
+            python -m server.cli gsc-embed --project="$slug" || true
+            python -m server.cli gsc-insights --project="$slug" || true
+          done
+
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # On stage UNIQUEMENT les JSONL des projets — JAMAIS les tokens
+          # On stage UNIQUEMENT les fichiers data — JAMAIS les tokens
+          # (qui sont gitignored via data/projects/*/gsc_tokens.json)
           git add 'data/projects/*/discover_history.jsonl' || true
+          git add 'data/projects/*/embeddings.npz' || true
+          git add 'data/projects/*/embeddings_meta.json' || true
+          git add 'data/projects/*/insights.json' || true
 
           if git diff --staged --quiet; then
             echo "Pas de changement, rien à commit."
@@ -118,5 +144,5 @@ jobs:
           fi
 
           TS="$(date -u +'%Y-%m-%d %H:%M UTC')"
-          git commit -m "chore(gsc): daily sync — ${TS} [skip ci]"
+          git commit -m "chore(gsc): daily sync + embeddings + insights — ${TS} [skip ci]"
           git push

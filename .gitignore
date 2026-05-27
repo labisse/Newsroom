@@ -50,6 +50,12 @@ data/cache/
 data/tmp/
 # Tokens GSC OAuth par projet (NE JAMAIS commiter)
 data/projects/*/gsc_tokens.json
+# Index embeddings (peut faire ~50 Mo avec Voyage, régénérable à la
+# volée via `gsc-embed`). Le front n'en a pas besoin — il lit
+# insights.json (~50 Ko) qui contient les pré-calculs RAG.
+data/projects/*/embeddings.npz
+# Cache disque embeddings — régénérable
+data/cache/
 
 # Test / coverage
 coverage/

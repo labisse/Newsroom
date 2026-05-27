@@ -1,7 +1,7 @@
 {
   "project": "parismatch",
-  "backend": "tfidf",
-  "dim": 5000,
+  "backend": "voyage",
+  "dim": 1024,
   "count": 12894,
   "used_titles": 50,
   "used_slugs": 12844,

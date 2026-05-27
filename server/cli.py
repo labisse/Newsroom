@@ -43,7 +43,13 @@ from server.sources import (
     x_trends,
 )
 from server.sources import gsc as gsc_mod
-from server.sources import gsc_oauth_local, gsc_rag, gsc_storage, gsc_titles
+from server.sources import (
+    gsc_insights,
+    gsc_oauth_local,
+    gsc_rag,
+    gsc_storage,
+    gsc_titles,
+)
 
 SOURCES: dict[str, Callable[[], dict[str, Any]]] = {
     "msn": msn.run,
@@ -433,6 +439,42 @@ def cmd_gsc_search(
     return 0
 
 
+def cmd_gsc_insights(project_slug: str) -> int:
+    """Génère le JSON d'insights pré-calculé pour le front statique."""
+    print(f"Editorial Signal — GSC insights [{project_slug}]\n")
+
+    started = time.perf_counter()
+    try:
+        payload = gsc_insights.run(project_slug)
+    except Exception as exc:  # noqa: BLE001
+        print(f"✗ {type(exc).__name__}: {exc}", file=sys.stderr)
+        traceback.print_exc()
+        return 1
+    elapsed = time.perf_counter() - started
+
+    s = payload["stats"]
+    src = payload["sujets_source"]
+    ins = payload["insights"]
+    print(f"  ✓ Insights générés ({elapsed:.1f}s)")
+    print(
+        f"    Stats   : {s['total_urls']:,} URLs · "
+        f"{s['total_clicks']:,} clicks · "
+        f"{s['with_title']} titres scrapés".replace(",", " ")
+    )
+    print(
+        f"    RAG     : {len(ins['by_category'])} catégories · "
+        f"{len(ins['by_entity_cluster'])} clusters · "
+        f"{len(ins['by_entity'])} entités"
+    )
+    if not src["available"]:
+        print(
+            "    ⚠ data/sujets/latest.json absent — sections RAG vides. "
+            "Lance `python -m server.cli score` d'abord."
+        )
+    print(f"    Fichier : data/projects/{project_slug}/insights.json")
+    return 0
+
+
 def cmd_gsc_export_secret(project_slug: str) -> int:
     """Affiche le refresh token + nom du secret GitHub à créer."""
     try:
@@ -664,6 +706,12 @@ def main(argv: list[str] | None = None) -> int:
         help="Force le backend (par défaut auto-détection via .env)",
     )
 
+    p_gsc_insights = sub.add_parser(
+        "gsc-insights",
+        help="Pré-calcule insights.json (stats + RAG croisés) pour le front",
+    )
+    p_gsc_insights.add_argument("--project", required=True)
+
     p_gsc_search = sub.add_parser(
         "gsc-search",
         help="Recherche sémantique top-K dans l'historique d'un projet",
@@ -717,6 +765,8 @@ def main(argv: list[str] | None = None) -> int:
         return cmd_gsc_search(
             args.project, args.query, args.top, args.rerank_by_clicks
         )
+    if args.cmd == "gsc-insights":
+        return cmd_gsc_insights(args.project)
 
     parser.print_help()
     return 2

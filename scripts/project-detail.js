@@ -1,26 +1,44 @@
 /* ===================================================================
-   Page projet individuel — lit ?slug= et affiche les infos.
+   Page projet individuel — lit ?slug=, affiche les infos + insights GSC.
 
-   Placeholder pour cette session : pas encore de flux personnalisé,
-   on attend la connexion GSC (voir project.html section "pending").
+   Comportement :
+     1. Charge data/projects/index.json pour les méta du projet
+     2. Tente de charger data/projects/{slug}/insights.json
+        - Si OK → affiche stats + top URLs + insights RAG croisés
+        - Si 404 → affiche le placeholder "GSC en attente"
    =================================================================== */
 
-import { h } from "./utils.js";
+import { h } from "./utils.js?v=tbr6";
 
 const PROJECTS_URL = "/data/projects/index.json";
+const insightsUrl = (slug) => `/data/projects/${slug}/insights.json`;
+
+/* ----- Helpers ----- */
 
 const setText = (selector, value) => {
   const el = document.querySelector(selector);
   if (el) el.textContent = value;
 };
 
+const formatNumber = (n) => {
+  if (n == null) return "—";
+  return Number(n).toLocaleString("fr-FR").replace(/ /g, " ");
+};
+
+const formatPercent = (n) => {
+  if (n == null) return "—";
+  return `${(n * 100).toFixed(1)}%`;
+};
+
+const truncate = (s, n) =>
+  s && s.length > n ? s.slice(0, n - 1) + "…" : s || "";
+
 const showError = (message) => {
   const main = document.querySelector("#project-main");
   const errorBox = document.querySelector("#project-error");
   if (!main || !errorBox) return;
-
-  main.querySelector(".project-detail-hero")?.remove();
-  main.querySelector(".project-pending")?.remove();
+  main.querySelectorAll("section").forEach((el) => (el.style.display = "none"));
+  document.querySelector("#project-insights").style.display = "none";
   errorBox.style.display = "block";
   errorBox.innerHTML = "";
   errorBox.appendChild(
@@ -53,6 +71,263 @@ const renderThemes = (themes) => {
   }
 };
 
+/* ----- Rendu insights ----- */
+
+const renderStats = (stats, generatedAt) => {
+  const container = document.querySelector("#project-stats");
+  if (!container) return;
+  container.innerHTML = "";
+
+  const cards = [
+    {
+      value: formatNumber(stats.total_urls),
+      label: "URLs Discover · 12 mois",
+    },
+    {
+      value: formatNumber(stats.total_clicks),
+      label: "Clicks Discover cumulés",
+      accent: true,
+    },
+    {
+      value: formatNumber(stats.with_title),
+      sub: `/ ${formatNumber(stats.total_urls)}`,
+      label: "Titres scrapés",
+    },
+    {
+      value: generatedAt ? formatRelative(generatedAt) : "—",
+      label: "Insights générés",
+    },
+  ];
+
+  for (const c of cards) {
+    container.appendChild(
+      h(
+        "div",
+        { class: "project-stat-card" + (c.accent ? " is-accent" : "") },
+        h(
+          "div",
+          { class: "project-stat-card__value" },
+          c.value,
+          c.sub ? h("span", { class: "project-stat-card__sub" }, " " + c.sub) : null,
+        ),
+        h("div", { class: "project-stat-card__label" }, c.label),
+      ),
+    );
+  }
+};
+
+const formatRelative = (iso) => {
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return "—";
+  const diffMin = Math.round((Date.now() - date.getTime()) / 60_000);
+  if (diffMin < 1) return "à l'instant";
+  if (diffMin < 60) return `il y a ${diffMin} min`;
+  if (diffMin < 60 * 24) return `il y a ${Math.round(diffMin / 60)} h`;
+  return `il y a ${Math.round(diffMin / (60 * 24))} j`;
+};
+
+const renderTopUrls = (topUrls) => {
+  const list = document.querySelector("#project-top-list");
+  const meta = document.querySelector("#project-top-meta");
+  if (!list) return;
+  list.innerHTML = "";
+  if (meta) meta.textContent = `${topUrls.length} URLs · triées par clicks`;
+
+  topUrls.forEach((item, idx) => {
+    list.appendChild(
+      h(
+        "li",
+        { class: "project-top-item" },
+        h(
+          "span",
+          { class: "project-top-item__rank" },
+          String(idx + 1).padStart(2, "0"),
+        ),
+        h(
+          "span",
+          { class: "project-top-item__clicks" },
+          formatNumber(item.clicks),
+        ),
+        h(
+          "a",
+          {
+            class: "project-top-item__title",
+            href: item.url,
+            target: "_blank",
+            rel: "noopener noreferrer",
+            title: item.url,
+          },
+          item.title || urlToReadable(item.url),
+        ),
+      ),
+    );
+  });
+};
+
+const urlToReadable = (url) => {
+  try {
+    const parsed = new URL(url);
+    const slug = parsed.pathname.split("/").filter(Boolean).pop() || parsed.pathname;
+    return slug.replace(/[-_]+/g, " ").replace(/\b\d{4,}$/, "").trim() || url;
+  } catch {
+    return url;
+  }
+};
+
+const renderRagGroups = (insights) => {
+  const container = document.querySelector("#project-rag-groups");
+  if (!container) return;
+  container.innerHTML = "";
+
+  // Onglets : catégories / clusters / entités
+  const tabs = [
+    {
+      key: "by_category",
+      label: "Catégories",
+      items: insights.by_category || [],
+      labelKey: "label",
+      metaKey: "global_articles_count",
+      metaLabel: "articles tendance",
+    },
+    {
+      key: "by_entity_cluster",
+      label: "Univers",
+      items: insights.by_entity_cluster || [],
+      labelKey: "label",
+      extraKey: "members",
+      metaKey: "global_articles_count",
+      metaLabel: "articles tendance",
+    },
+    {
+      key: "by_entity",
+      label: "Entités",
+      items: insights.by_entity || [],
+      labelKey: "name",
+      metaKey: "global_articles_count",
+      metaLabel: "articles tendance",
+    },
+  ];
+
+  // Tabs UI
+  const tabsBar = h("div", { class: "project-rag__tabs" });
+  const contentArea = h("div", { class: "project-rag__content" });
+  container.appendChild(tabsBar);
+  container.appendChild(contentArea);
+
+  const activate = (idx) => {
+    [...tabsBar.children].forEach((el, i) =>
+      el.classList.toggle("is-active", i === idx),
+    );
+    contentArea.innerHTML = "";
+    contentArea.appendChild(renderGroupContent(tabs[idx]));
+  };
+
+  tabs.forEach((tab, idx) => {
+    tabsBar.appendChild(
+      h(
+        "button",
+        {
+          class: "project-rag__tab" + (idx === 0 ? " is-active" : ""),
+          type: "button",
+          onClick: () => activate(idx),
+        },
+        `${tab.label} (${tab.items.length})`,
+      ),
+    );
+  });
+
+  activate(0);
+};
+
+const renderGroupContent = (tab) => {
+  if (!tab.items.length) {
+    return h(
+      "div",
+      { class: "project-rag__empty" },
+      h("strong", {}, "Aucun élément."),
+      h("p", {}, "Le flux du jour ne contient pas cette dimension."),
+    );
+  }
+
+  const grid = h("div", { class: "project-rag__group-grid" });
+  for (const item of tab.items) {
+    grid.appendChild(renderGroupCard(item, tab));
+  }
+  return grid;
+};
+
+const renderGroupCard = (item, tab) => {
+  const matches = item.matches || [];
+  const label = item[tab.labelKey] || "—";
+  const members = tab.extraKey ? item[tab.extraKey] || [] : [];
+
+  return h(
+    "div",
+    { class: "project-rag__card" },
+    h(
+      "div",
+      { class: "project-rag__card-head" },
+      h("h3", { class: "project-rag__card-label" }, label),
+      h(
+        "span",
+        { class: "project-rag__card-meta" },
+        `${item[tab.metaKey] || 0} ${tab.metaLabel}`,
+      ),
+    ),
+    members.length
+      ? h(
+          "div",
+          { class: "project-rag__card-members" },
+          ...members.map((m) =>
+            h("span", { class: "project-rag__card-member" }, m),
+          ),
+        )
+      : null,
+    matches.length
+      ? h(
+          "ul",
+          { class: "project-rag__matches" },
+          ...matches.map((m) => renderMatch(m)),
+        )
+      : h(
+          "div",
+          { class: "project-rag__no-match" },
+          "Aucun contenu historique pertinent trouvé.",
+        ),
+  );
+};
+
+const renderMatch = (m) => {
+  const sim = (m.similarity * 100).toFixed(0);
+  const title = m.title || urlToReadable(m.url);
+  return h(
+    "li",
+    { class: "project-rag__match" },
+    h("span", { class: "project-rag__match-sim" }, `${sim}%`),
+    h(
+      "div",
+      { class: "project-rag__match-body" },
+      h(
+        "a",
+        {
+          class: "project-rag__match-title",
+          href: m.url,
+          target: "_blank",
+          rel: "noopener noreferrer",
+        },
+        truncate(title, 110),
+      ),
+      h(
+        "span",
+        { class: "project-rag__match-clicks" },
+        `${formatNumber(m.clicks)} clicks`,
+      ),
+    ),
+  );
+};
+
+/* ----- Main ----- */
+
 const mount = async () => {
   const params = new URLSearchParams(window.location.search);
   const slug = params.get("slug");
@@ -62,17 +337,20 @@ const mount = async () => {
     return;
   }
 
-  let payload;
+  // 1. Charge la config projet
+  let projectsPayload;
   try {
     const res = await fetch(PROJECTS_URL, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    payload = await res.json();
+    projectsPayload = await res.json();
   } catch {
     showError("Impossible de charger data/projects/index.json.");
     return;
   }
 
-  const project = (payload.projects || []).find((p) => p.slug === slug);
+  const project = (projectsPayload.projects || []).find(
+    (p) => p.slug === slug,
+  );
   if (!project) {
     showError(`Aucun projet ne correspond au slug "${slug}".`);
     return;
@@ -83,6 +361,26 @@ const mount = async () => {
   setText("#project-domain", project.domain || "");
   setText("#project-tagline", project.tagline || "");
   renderThemes(project.themes);
+
+  // 2. Tente de charger insights.json
+  let insights = null;
+  try {
+    const res = await fetch(insightsUrl(slug), { cache: "no-store" });
+    if (res.ok) insights = await res.json();
+  } catch {
+    /* ignore */
+  }
+
+  if (insights) {
+    document.querySelector("#project-insights").style.display = "block";
+    document.querySelector("#project-pending").style.display = "none";
+    renderStats(insights.stats, insights.generated_at);
+    renderTopUrls(insights.stats.top_urls || []);
+    renderRagGroups(insights.insights || {});
+  } else {
+    document.querySelector("#project-insights").style.display = "none";
+    document.querySelector("#project-pending").style.display = "block";
+  }
 };
 
 if (document.readyState === "loading") {

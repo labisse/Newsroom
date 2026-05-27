@@ -73,13 +73,17 @@ VOYAGE_TIMEOUT_S = 60
 
 
 def _voyage_embed(texts: list[str]) -> list[list[float]]:
-    """Appel batch à Voyage API."""
+    """Appel batch à Voyage API. Voyage rejette les empty strings :
+    on remplace par "untitled" pour ne jamais planter le batch."""
     if not settings.voyage_api_key:
         raise RuntimeError("VOYAGE_API_KEY manquant")
 
+    # Sanitize : pas d'empty string dans le payload Voyage
+    safe_texts = [(t or "").strip() or "untitled" for t in texts]
+
     out: list[list[float]] = []
-    for i in range(0, len(texts), VOYAGE_BATCH_SIZE):
-        chunk = texts[i : i + VOYAGE_BATCH_SIZE]
+    for i in range(0, len(safe_texts), VOYAGE_BATCH_SIZE):
+        chunk = safe_texts[i : i + VOYAGE_BATCH_SIZE]
         response = requests.post(
             VOYAGE_URL,
             headers={
