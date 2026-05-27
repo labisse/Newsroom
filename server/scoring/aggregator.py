@@ -440,10 +440,16 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
         refs.append(
             f"MSN · {article.get('source', 'MSN')} — {article['title']}"
         )
-    # Référence croisée Discover si match
+
+    # Métadonnées Discover pour filtrage côté front (cf click-to-filter)
     discover_match = scored["discover_match"]
+    discover_category: str | None = None
+    discover_entities: list[str] = []
     if discover_match:
         d_target = discover_match.target
+        discover_category = (d_target.get("category") or "").strip() or None
+        discover_entities = list(d_target.get("entities_list") or [])
+
         d_publisher = d_target.get("publisher") or "Discover"
         d_title = d_target.get("title") or ""
         if d_title:
@@ -473,6 +479,9 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
         "msn_image": article.get("image_url"),
         "msn_source_name": article.get("source"),
         "refs": refs,
+        # Méta pour filtrage côté front (clic sur catégorie ou entité)
+        "discover_category": discover_category,
+        "discover_entities": discover_entities,
     }
 
 
@@ -498,7 +507,16 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
     # Clusters Discover (catégories + entités) — vue "univers éditorial"
     discover_articles = discover.get("articles", [])
     categories_trending = clustering.cluster_by_category(discover_articles)
-    entities_trending = clustering.cluster_by_entity(discover_articles)
+    entity_clusters = clustering.cluster_entities_by_cooccurrence(
+        discover_articles
+    )
+    # Pour la vue plate, on retire les entités déjà absorbées dans un cluster
+    clustered = clustering.entities_in_clusters(entity_clusters)
+    entities_trending = [
+        e
+        for e in clustering.cluster_by_entity(discover_articles)
+        if e["name"] not in clustered
+    ]
 
     scored: list[dict[str, Any]] = []
     for article in msn.get("articles", []):
@@ -554,6 +572,7 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
         },
         "sujets": sujets,
         "categories_trending": categories_trending,
+        "entity_clusters": entity_clusters,
         "entities_trending": entities_trending,
     }
 

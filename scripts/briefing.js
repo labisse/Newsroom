@@ -1,24 +1,37 @@
 /* ===================================================================
-   Daily Briefing — flux Discover global, vue neutre sans assignation.
-   ===================================================================
+   Daily Briefing — flux Discover global + filtrage par cat/entité/cluster.
 
-   Les sujets viennent du backend (data/sujets/latest.json).
-   Pas de rédacteur attaché : la HP est un flux généraliste,
-   les vues filtrées par site arrivent côté "Projets".
+   Sujets viennent du backend (data/sujets/latest.json).
+   Pas de rédacteur attaché (HP neutre, projets par site séparés).
 */
 
-import { tierFromScore, tierLabel } from "./data.js?v=tbr4";
-import { loadSujets, formatFreshness, formatLongDate } from "./api.js?v=tbr4";
+import { tierFromScore, tierLabel } from "./data.js?v=tbr5";
+import { loadSujets, formatFreshness, formatLongDate } from "./api.js?v=tbr5";
 import {
   h,
   renderScore,
   renderSignal,
   renderTierDivider,
   chevronSvg,
-} from "./utils.js?v=tbr4";
-import { renderCategories, renderEntities } from "./clusters.js?v=tbr4";
+} from "./utils.js?v=tbr5";
+import {
+  renderCategories,
+  renderEntityClusters,
+  renderEntities,
+} from "./clusters.js?v=tbr5";
 
-/* ----- Sujet row (liste) ----- */
+/* ===================================================================
+   State global pour le filtrage par clic
+   =================================================================== */
+
+const state = {
+  allSujets: [],
+  filter: null, // { kind: "category" | "entity" | "entity-cluster", value: string, label: string, members?: string[] }
+};
+
+/* ===================================================================
+   Sujet row + détail
+   =================================================================== */
 
 const renderSujet = (sujet) => {
   const row = h(
@@ -52,8 +65,6 @@ const renderSujet = (sujet) => {
 
   return row;
 };
-
-/* ----- Detail (collapsed) ----- */
 
 const renderDetail = (sujet) => {
   const sourceRows = sujet.sources.map((src) =>
@@ -159,7 +170,9 @@ const action = (kind, sujet) => {
   toast(`${labels[kind]} · ${sujet.title.slice(0, 60)}${sujet.title.length > 60 ? "…" : ""}`);
 };
 
-/* ----- Toast ----- */
+/* ===================================================================
+   Toast
+   =================================================================== */
 
 const toast = (message) => {
   let host = document.querySelector(".toast-host");
@@ -176,7 +189,9 @@ const toast = (message) => {
   }, 2400);
 };
 
-/* ----- States: loading / error ----- */
+/* ===================================================================
+   States loading / error
+   =================================================================== */
 
 const renderLoading = () =>
   h(
@@ -194,7 +209,171 @@ const renderError = (message) =>
     h("span", {}, message),
   );
 
-/* ----- Counts UI helpers ----- */
+const renderEmptyFilter = () =>
+  h(
+    "li",
+    { class: "briefing-state" },
+    h("strong", {}, "Aucun sujet ne correspond au filtre."),
+    h(
+      "span",
+      {},
+      "Essaie une autre catégorie / topic, ou efface le filtre actif.",
+    ),
+  );
+
+/* ===================================================================
+   Filtrage
+   =================================================================== */
+
+const matchesFilter = (sujet, filter) => {
+  if (!filter) return true;
+  const cat = sujet.discover_category || "";
+  const ents = sujet.discover_entities || [];
+
+  if (filter.kind === "category") {
+    return cat === filter.value;
+  }
+  if (filter.kind === "entity") {
+    return ents.includes(filter.value);
+  }
+  if (filter.kind === "entity-cluster") {
+    // L'un des membres du cluster doit matcher au moins une des entités du sujet
+    const members = filter.members || [filter.value];
+    return ents.some((e) => members.includes(e));
+  }
+  return true;
+};
+
+const setFilter = (filter) => {
+  state.filter = filter;
+  refreshList();
+  updateFilterBanner();
+  updateFilterHighlight();
+};
+
+const clearFilter = () => setFilter(null);
+
+const updateFilterBanner = () => {
+  const banner = document.querySelector("#filter-banner");
+  if (!banner) return;
+
+  if (!state.filter) {
+    banner.classList.remove("is-active");
+    banner.innerHTML = "";
+    return;
+  }
+
+  const visible = state.allSujets.filter((s) => matchesFilter(s, state.filter));
+  const kindLabel = {
+    category: "Catégorie",
+    entity: "Topic",
+    "entity-cluster": "Univers",
+  }[state.filter.kind];
+
+  banner.classList.add("is-active");
+  banner.innerHTML = "";
+  banner.appendChild(
+    h(
+      "div",
+      { class: "filter-banner__inner" },
+      h("span", { class: "filter-banner__kind" }, kindLabel),
+      h("span", { class: "filter-banner__value" }, state.filter.label),
+      h(
+        "span",
+        { class: "filter-banner__count" },
+        `${visible.length} sujet${visible.length > 1 ? "s" : ""}`,
+      ),
+      h(
+        "button",
+        {
+          class: "filter-banner__clear",
+          type: "button",
+          onClick: clearFilter,
+        },
+        "Effacer ✕",
+      ),
+    ),
+  );
+};
+
+const updateFilterHighlight = () => {
+  document.querySelectorAll("[data-filter-kind]").forEach((el) => {
+    el.classList.remove("is-active");
+  });
+  if (!state.filter) return;
+  const selector = `[data-filter-kind="${state.filter.kind}"][data-filter-value="${cssEscape(
+    state.filter.value,
+  )}"]`;
+  document.querySelectorAll(selector).forEach((el) => {
+    el.classList.add("is-active");
+  });
+};
+
+// Échappe une valeur pour usage dans un attribute selector CSS
+const cssEscape = (value) =>
+  String(value).replace(/(["\\])/g, "\\$1");
+
+const attachClusterFilters = () => {
+  const handler = (event) => {
+    const target = event.target.closest("[data-filter-kind]");
+    if (!target) return;
+    if (event.type === "keydown" && event.key !== "Enter" && event.key !== " ") return;
+    event.preventDefault();
+
+    const kind = target.dataset.filterKind;
+    const value = target.dataset.filterValue;
+    const label = target.dataset.filterLabel || value;
+    const extra = target.dataset.filterExtra;
+    const members = extra ? extra.split("|").filter(Boolean) : undefined;
+
+    // Toggle : re-clic sur le même filtre = clear
+    if (
+      state.filter &&
+      state.filter.kind === kind &&
+      state.filter.value === value
+    ) {
+      clearFilter();
+      return;
+    }
+
+    setFilter({ kind, value, label, members });
+    // Scroller la liste des sujets pour voir le résultat
+    document
+      .querySelector(".sujet-list")
+      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  const mount = document.querySelector("#clusters-mount");
+  if (!mount) return;
+  mount.addEventListener("click", handler);
+  mount.addEventListener("keydown", handler);
+};
+
+/* ===================================================================
+   Render de la liste des sujets (avec ou sans filtre)
+   =================================================================== */
+
+const refreshList = () => {
+  const list = document.querySelector("#sujet-list");
+  list.innerHTML = "";
+
+  const filtered = state.allSujets.filter((s) => matchesFilter(s, state.filter));
+
+  if (filtered.length === 0) {
+    list.appendChild(renderEmptyFilter());
+    return;
+  }
+
+  const sorted = [...filtered].sort((a, b) => b.score - a.score);
+  const buckets = { high: [], medium: [], low: [] };
+  for (const s of sorted) buckets[tierFromScore(s.score)].push(s);
+
+  for (const tier of ["high", "medium", "low"]) {
+    if (buckets[tier].length === 0) continue;
+    list.appendChild(renderTierDivider(tierLabel[tier], buckets[tier].length));
+    for (const s of buckets[tier]) list.appendChild(renderSujet(s));
+  }
+};
 
 const setCounts = (sujets) => {
   const counts = sujets.reduce(
@@ -222,7 +401,9 @@ const setFreshness = (generatedAt) => {
   }
 };
 
-/* ----- Mount ----- */
+/* ===================================================================
+   Mount
+   =================================================================== */
 
 const mount = async () => {
   const list = document.querySelector("#sujet-list");
@@ -238,31 +419,31 @@ const mount = async () => {
     return;
   }
 
-  const { sujets, generatedAt, categoriesTrending, entitiesTrending } = data;
-  list.innerHTML = "";
+  const {
+    sujets,
+    generatedAt,
+    categoriesTrending,
+    entityClusters,
+    entitiesTrending,
+  } = data;
 
-  // Insertion des sections clusters (catégories + entités) AVANT la liste
-  // des sujets, dans le slot dédié #clusters-mount. On reset à chaque mount.
+  state.allSujets = sujets;
+
+  // Sections clusters : Catégories + Clusters d'entités + Entités résiduelles
   const clustersMount = document.querySelector("#clusters-mount");
   if (clustersMount) {
     clustersMount.innerHTML = "";
     const catsNode = renderCategories(categoriesTrending);
     if (catsNode) clustersMount.appendChild(catsNode);
+    const clustersNode = renderEntityClusters(entityClusters);
+    if (clustersNode) clustersMount.appendChild(clustersNode);
     const entsNode = renderEntities(entitiesTrending);
     if (entsNode) clustersMount.appendChild(entsNode);
   }
 
-  const sorted = [...sujets].sort((a, b) => b.score - a.score);
-  const buckets = { high: [], medium: [], low: [] };
-  for (const s of sorted) buckets[tierFromScore(s.score)].push(s);
-
-  for (const tier of ["high", "medium", "low"]) {
-    if (buckets[tier].length === 0) continue;
-    list.appendChild(renderTierDivider(tierLabel[tier], buckets[tier].length));
-    for (const s of buckets[tier]) list.appendChild(renderSujet(s));
-  }
-
-  setCounts(sorted);
+  attachClusterFilters();
+  refreshList();
+  setCounts(sujets);
   setFreshness(generatedAt);
 
   document.querySelector("#export-btn")?.addEventListener("click", () => {

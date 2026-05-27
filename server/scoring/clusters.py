@@ -335,3 +335,150 @@ def cluster_by_entity(
         key=lambda c: (c["total_score"], c["articles_count"]), reverse=True
     )
     return clusters[:top_n]
+
+
+# ---------------------------------------------------------------
+# Clustering co-occurrence — regroupement d'entités liées
+# ---------------------------------------------------------------
+
+
+def cluster_entities_by_cooccurrence(
+    articles: list[dict],
+    *,
+    min_articles_per_entity: int = 3,
+    jaccard_threshold: float = 0.40,
+    min_cluster_size: int = 2,
+    max_entities_per_cluster: int = 6,
+    top_n: int = 8,
+    exclude_generic: bool = True,
+) -> list[dict[str, Any]]:
+    """Regroupe les entités qui co-occurrent dans les mêmes articles.
+
+    Algorithme single-link sur le Jaccard d'ensembles d'articles :
+      1. Pour chaque entité fréquente, on calcule l'ensemble des articles
+         où elle apparaît.
+      2. Pour chaque paire d'entités, si Jaccard(setA, setB) >= seuil,
+         elles sont liées.
+      3. Composantes connexes du graphe → clusters.
+      4. Pour chaque cluster :
+         - articles = union des articles des membres
+         - label = entité avec le plus d'articles (la dominante)
+         - members = toutes les entités du cluster (capées à max_per_cluster)
+
+    Permet de transformer ["Train", "TGV", "Rhône"] → cluster "Train"
+    avec ses 2 membres associés et le total des articles uniques.
+    """
+    # 1. Set d'articles par entité (par index dans la liste)
+    by_ent: dict[str, set[int]] = {}
+    by_ent_score: dict[str, float] = {}
+    for idx, article in enumerate(articles):
+        for ent in article.get("entities_list") or []:
+            ent_clean = (ent or "").strip()
+            if not ent_clean:
+                continue
+            if exclude_generic and ent_clean in GENERIC_ENTITIES:
+                continue
+            by_ent.setdefault(ent_clean, set()).add(idx)
+            by_ent_score[ent_clean] = (
+                by_ent_score.get(ent_clean, 0.0)
+                + (article.get("score") or 0.0)
+            )
+
+    # Filtrer les entités peu fréquentes
+    eligible = [
+        ent for ent, idxs in by_ent.items() if len(idxs) >= min_articles_per_entity
+    ]
+    if len(eligible) < 2:
+        return []
+
+    # 2. Construire les liens (union-find pour composantes connexes)
+    parent = {ent: ent for ent in eligible}
+
+    def find(x: str) -> str:
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]  # path compression
+            x = parent[x]
+        return x
+
+    def union(a: str, b: str) -> None:
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[ra] = rb
+
+    for i, ent_a in enumerate(eligible):
+        for ent_b in eligible[i + 1 :]:
+            inter = by_ent[ent_a] & by_ent[ent_b]
+            if not inter:
+                continue
+            union_set = by_ent[ent_a] | by_ent[ent_b]
+            jacc = len(inter) / len(union_set)
+            if jacc >= jaccard_threshold:
+                union(ent_a, ent_b)
+
+    # 3. Regrouper par composante connexe
+    groups: dict[str, list[str]] = {}
+    for ent in eligible:
+        root = find(ent)
+        groups.setdefault(root, []).append(ent)
+
+    # 4. Construire les clusters finaux
+    clusters: list[dict[str, Any]] = []
+    for members in groups.values():
+        if len(members) < min_cluster_size:
+            continue
+
+        # Tri par volume d'articles décroissant → label = dominante
+        members_sorted = sorted(
+            members, key=lambda e: len(by_ent[e]), reverse=True
+        )
+        members_capped = members_sorted[:max_entities_per_cluster]
+
+        all_article_idxs: set[int] = set()
+        for ent in members:
+            all_article_idxs |= by_ent[ent]
+
+        articles_in_cluster = [articles[i] for i in all_article_idxs]
+        total_score = sum((a.get("score") or 0.0) for a in articles_in_cluster)
+        top_articles = sorted(
+            articles_in_cluster,
+            key=lambda a: a.get("score") or 0.0,
+            reverse=True,
+        )[:3]
+
+        clusters.append(
+            {
+                "label": members_sorted[0],  # entité dominante
+                "members": members_capped,
+                "members_count": len(members),
+                "articles_count": len(all_article_idxs),
+                "total_score": round(total_score, 1),
+                "avg_score": round(
+                    total_score / max(1, len(all_article_idxs)), 1
+                ),
+                "top_articles": [
+                    {
+                        "title": a.get("title", ""),
+                        "publisher": a.get("publisher", ""),
+                        "score": round(a.get("score") or 0.0, 1),
+                        "url": a.get("url", ""),
+                    }
+                    for a in top_articles
+                ],
+            }
+        )
+
+    clusters.sort(
+        key=lambda c: (c["total_score"], c["articles_count"]),
+        reverse=True,
+    )
+    return clusters[:top_n]
+
+
+def entities_in_clusters(clusters: list[dict]) -> set[str]:
+    """Set des entités absorbées dans un cluster (pour éviter de les
+    afficher en double dans la vue entités plates)."""
+    seen: set[str] = set()
+    for c in clusters:
+        for m in c.get("members") or []:
+            seen.add(m)
+    return seen

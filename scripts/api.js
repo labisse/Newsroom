@@ -39,6 +39,7 @@ export const loadSujets = async () => {
     totals: payload.totals,
     sujets: payload.sujets,
     categoriesTrending: payload.categories_trending || [],
+    entityClusters: payload.entity_clusters || [],
     entitiesTrending: payload.entities_trending || [],
   };
 };

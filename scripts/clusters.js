@@ -1,21 +1,21 @@
 /* ===================================================================
-   Rendu des clusters éditoriaux (catégories + entités).
+   Rendu des clusters éditoriaux (catégories + clusters d'entités +
+   entités résiduelles).
 
-   Sources : payload.categories_trending + payload.entities_trending
-   (produits par server/scoring/clusters.py, exposés via api.js).
+   Tous les éléments sont CLIQUABLES via data attributes :
+     - data-filter-kind  : "category" | "entity" | "entity-cluster"
+     - data-filter-value : la clé (ex. path Discover, nom d'entité)
+     - data-filter-extra : pour les clusters, les membres séparés par |
 
-   Objectif UX : montrer au rédac chef les **univers** qui performent,
-   pas seulement les sujets individuels. Un rédacteur peut être driver
-   sur une catégorie ou une entité sans qu'un sujet spécifique sorte.
+   briefing.js attache les click handlers (cf attachClusterFilters).
    =================================================================== */
 
-import { h } from "./utils.js?v=tbr4";
+import { h } from "./utils.js?v=tbr5";
 
-/* ----- Catégories (cards "stat-card-like") ----- */
+/* ----- Catégories ----- */
 
 export const renderCategories = (categories) => {
   if (!Array.isArray(categories) || categories.length === 0) return null;
-
   const maxScore = Math.max(...categories.map((c) => c.total_score || 0));
 
   return h(
@@ -28,7 +28,7 @@ export const renderCategories = (categories) => {
       h(
         "span",
         { class: "clusters-section__hint" },
-        "Lignes éditoriales tendance",
+        "Clique pour filtrer les sujets",
       ),
     ),
     h(
@@ -40,18 +40,21 @@ export const renderCategories = (categories) => {
 };
 
 const renderCategoryCard = (cat, maxScore) => {
-  // Hauteur de barre relative au max
   const fill = maxScore > 0 ? Math.round((cat.total_score / maxScore) * 100) : 0;
   const tier =
-    cat.avg_score >= 8
-      ? "high"
-      : cat.avg_score >= 3
-        ? "medium"
-        : "low";
+    cat.avg_score >= 8 ? "high" : cat.avg_score >= 3 ? "medium" : "low";
 
   return h(
     "li",
-    { class: "category-card", "data-tier": tier },
+    {
+      class: "category-card",
+      "data-tier": tier,
+      "data-filter-kind": "category",
+      "data-filter-value": cat.key,
+      "data-filter-label": cat.label,
+      role: "button",
+      tabindex: "0",
+    },
     h(
       "div",
       { class: "category-card__head" },
@@ -115,7 +118,84 @@ const renderCategoryCard = (cat, maxScore) => {
   );
 };
 
-/* ----- Entités (pills/tags) ----- */
+/* ----- Clusters d'entités (co-occurrence) ----- */
+
+export const renderEntityClusters = (clusters) => {
+  if (!Array.isArray(clusters) || clusters.length === 0) return null;
+
+  return h(
+    "section",
+    { class: "clusters-section" },
+    h(
+      "div",
+      { class: "clusters-section__head" },
+      h("h2", { class: "clusters-section__title" }, "Univers à creuser"),
+      h(
+        "span",
+        { class: "clusters-section__hint" },
+        "Entités liées · clique pour filtrer",
+      ),
+    ),
+    h(
+      "ul",
+      { class: "entity-cluster-grid" },
+      ...clusters.map((c) => renderEntityClusterCard(c)),
+    ),
+  );
+};
+
+const renderEntityClusterCard = (cluster) => {
+  const tier =
+    cluster.total_score >= 30
+      ? "high"
+      : cluster.total_score >= 10
+        ? "medium"
+        : "low";
+  const members = cluster.members || [];
+
+  return h(
+    "li",
+    {
+      class: "entity-cluster-card",
+      "data-tier": tier,
+      "data-filter-kind": "entity-cluster",
+      "data-filter-value": cluster.label,
+      "data-filter-label": cluster.label,
+      "data-filter-extra": members.join("|"),
+      role: "button",
+      tabindex: "0",
+    },
+    h(
+      "div",
+      { class: "entity-cluster-card__head" },
+      h("h3", { class: "entity-cluster-card__label" }, cluster.label),
+      h(
+        "span",
+        { class: "entity-cluster-card__score" },
+        cluster.total_score.toFixed(0),
+      ),
+    ),
+    h(
+      "div",
+      { class: "entity-cluster-card__members" },
+      ...members.map((m) =>
+        h("span", { class: "entity-cluster-card__member" }, m),
+      ),
+    ),
+    h(
+      "div",
+      { class: "entity-cluster-card__meta" },
+      h(
+        "span",
+        {},
+        `${cluster.articles_count} article${cluster.articles_count > 1 ? "s" : ""}`,
+      ),
+      h("span", {}, `${members.length} entité${members.length > 1 ? "s" : ""}`),
+    ),
+  );
+};
+
+/* ----- Entités résiduelles (hors clusters) ----- */
 
 export const renderEntities = (entities) => {
   if (!Array.isArray(entities) || entities.length === 0) return null;
@@ -126,15 +206,11 @@ export const renderEntities = (entities) => {
     h(
       "div",
       { class: "clusters-section__head" },
-      h(
-        "h2",
-        { class: "clusters-section__title" },
-        "Topics tendances",
-      ),
+      h("h2", { class: "clusters-section__title" }, "Topics individuels"),
       h(
         "span",
         { class: "clusters-section__hint" },
-        "Entités à creuser",
+        "Entités isolées · clique pour filtrer",
       ),
     ),
     h(
@@ -154,6 +230,11 @@ const renderEntityPill = (ent) => {
     {
       class: "entity-pill",
       "data-tier": tier,
+      "data-filter-kind": "entity",
+      "data-filter-value": ent.name,
+      "data-filter-label": ent.name,
+      role: "button",
+      tabindex: "0",
       title: ent.top_articles?.[0]?.title || ent.name,
     },
     h("span", { class: "entity-pill__name" }, ent.name),

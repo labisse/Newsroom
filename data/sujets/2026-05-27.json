@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T09:16:23Z",
+  "generated_at": "2026-05-27T09:28:58Z",
   "sources_used": {
     "msn": {
       "fetched_at": "2026-05-26T22:29:49Z",
@@ -122,6 +122,10 @@
         "MSN · Public : Actu People en continu — Mort de Pierre Deny : sa compagne, elle aussi célèbre, lui rend un bel hommage",
         "Discover · AlloCiné — Mort à 69 ans de Pierre Deny, star de Demain nous appartient et figure familière de la télévision française",
         "GNews · Journal des Femmes Santé — Décès de Pierre Deny : quelle est l'espérance de vie de la maladie de Charcot ?"
+      ],
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Pierre Deny"
       ]
     },
     {
@@ -207,6 +211,12 @@
         "MSN · Purepeople — « On pense fort à Véronique Sanson » : Jeanne Cherhal, qui a remplacé la chanteuse au pied levé, prend la parole",
         "Discover · Purepeople — \"On pense fort à Véronique Sanson\" : Jeanne Cherhal, qui a remplacé la chanteuse au pied levé, prend la parole",
         "GNews · Sud Ouest — « Je pense à eux toutes les secondes » : le père des enfants abandonnés au Portugal prend la parole"
+      ],
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "France à l'Eurovision",
+        "Musique",
+        "Véronique Sanson"
       ]
     },
     {
@@ -294,6 +304,13 @@
         "GNews · CNews — Roland-Garros 2026 : la performance du Français Moïse Kouame qui entre dans l’histoire après sa victoire contre Marin Cilic",
         "GNews · franceinfo — Roland-Garros 2026 : l'exploit de Moïse Kouame, Loïs Boisson déjà éliminée... Les trois infos à retenir de mardi",
         "GNews · franceinfo — \"Le regret, c'est de ne pas arriver à être en bonne santé\", confie Loïs Boisson après son élimination au premier tour à Roland-Garros"
+      ],
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
+      "discover_entities": [
+        "Marin Čilić",
+        "Roland-Garros",
+        "Sport",
+        "Tennis"
       ]
     },
     {
@@ -381,6 +398,11 @@
         "GNews · La Croix — Guerre en Iran : terré et inaccessible, le guide suprême Mojtaba Khamenei retarde un accord avec les États-Unis",
         "GNews · Le Figaro — EN DIRECT - Guerre au Moyen-Orient : Israël affirme avoir tué le nouveau chef de la branche armée du Hamas dans une frappe à Gaza",
         "GNews · Le Figaro — Guerre au Moyen-Orient : un pétrolier touché par une explosion au large d’Oman"
+      ],
+      "discover_category": "/Sensitive Subjects",
+      "discover_entities": [
+        "Iran",
+        "Moyen-Orient"
       ]
     },
     {
@@ -463,6 +485,12 @@
         "GNews · public.fr — \"Il ne répond plus au téléphone\" : Patrick Bruel a décidé de disparaître",
         "GNews · Numerama — Alexa+ arrive en France : Amazon promet une IA « vraiment française » dès aujourd’hui",
         "GNews · Ouest-France — « Si on annule, on devra des centaines de milliers d’euros à Patrick Bruel… » : à Brest, la mairie est dans l’impasse - Ouest-France"
+      ],
+      "discover_category": "/Business & Industrial",
+      "discover_entities": [
+        "Airbus",
+        "Airbus A350",
+        "Avion"
       ]
     },
     {
@@ -548,6 +576,10 @@
         "MSN · Gala (French) — En pleine polémique, Gilles Lellouche remet les pendules à l’heure : « On m’a traité de lâche… »",
         "Discover · RTL.fr — \"On m'a traité de lâche\" : Gilles Lellouche répond fermement à la polémique autour de la promotion du film \"Moulin\" à Cannes",
         "GNews · RTL.fr — \"On m'a traité de lâche\" : Gilles Lellouche répond fermement à la polémique autour de la promotion du film \"Moulin\" à Cannes"
+      ],
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Gilles Lellouche"
       ]
     },
     {
@@ -630,6 +662,10 @@
         "GNews · Biba Magazine — Astro : ces 3 signes vont toucher le bonheur absolu lors de la Pleine Lune du 31 mai 2026",
         "GNews · seine-et-marne.gouv.fr — Pollution en Île-de-France : des mesures activées ce mercredi 27 mai 2026 - seine-et-marne.gouv.fr",
         "GNews · Frandroid — J’ai testé cette électrique chinoise de luxe qui arrive en France au prix d’une Volkswagen : attention à ces gros défauts"
+      ],
+      "discover_category": "/News/Weather",
+      "discover_entities": [
+        "Température"
       ]
     },
     {
@@ -712,6 +748,11 @@
         "GNews · public.fr — \"Il ne répond plus au téléphone\" : Patrick Bruel a décidé de disparaître",
         "GNews · CNews — Roland-Garros 2026 : la performance du Français Moïse Kouame qui entre dans l’histoire après sa victoire contre Marin Cilic",
         "GNews · Ouest-France — « Si on annule, on devra des centaines de milliers d’euros à Patrick Bruel… » : à Brest, la mairie est dans l’impasse - Ouest-France"
+      ],
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Musique",
+        "Patrick Bruel"
       ]
     },
     {
@@ -794,7 +835,9 @@
         "GNews · public.fr — \"Il ne répond plus au téléphone\" : Patrick Bruel a décidé de disparaître",
         "GNews · Ouest-France — « Si on annule, on devra des centaines de milliers d’euros à Patrick Bruel… » : à Brest, la mairie est dans l’impasse - Ouest-France",
         "GNews · NextPlz — Jean-Louis Aubert cash sur l'affaire Patrick Bruel : \"J'aurais pu être très con aussi\", son constat sans langue de bois"
-      ]
+      ],
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": []
     },
     {
       "id": "s10",
@@ -876,7 +919,9 @@
         "GNews · public.fr — \"Il ne répond plus au téléphone\" : Patrick Bruel a décidé de disparaître",
         "GNews · Ouest-France — « Si on annule, on devra des centaines de milliers d’euros à Patrick Bruel… » : à Brest, la mairie est dans l’impasse - Ouest-France",
         "GNews · NextPlz — Jean-Louis Aubert cash sur l'affaire Patrick Bruel : \"J'aurais pu être très con aussi\", son constat sans langue de bois"
-      ]
+      ],
+      "discover_category": "/Arts & Entertainment/Music & Audio/Pop Music",
+      "discover_entities": []
     },
     {
       "id": "s11",
@@ -958,7 +1003,9 @@
         "GNews · public.fr — \"Il ne répond plus au téléphone\" : Patrick Bruel a décidé de disparaître",
         "GNews · Ouest-France — « Si on annule, on devra des centaines de milliers d’euros à Patrick Bruel… » : à Brest, la mairie est dans l’impasse - Ouest-France",
         "GNews · NextPlz — Jean-Louis Aubert cash sur l'affaire Patrick Bruel : \"J'aurais pu être très con aussi\", son constat sans langue de bois"
-      ]
+      ],
+      "discover_category": "/Arts & Entertainment/Music & Audio/Pop Music",
+      "discover_entities": []
     },
     {
       "id": "s12",
@@ -1040,7 +1087,9 @@
         "GNews · public.fr — \"Il ne répond plus au téléphone\" : Patrick Bruel a décidé de disparaître",
         "GNews · Ouest-France — « Si on annule, on devra des centaines de milliers d’euros à Patrick Bruel… » : à Brest, la mairie est dans l’impasse - Ouest-France",
         "GNews · NextPlz — Jean-Louis Aubert cash sur l'affaire Patrick Bruel : \"J'aurais pu être très con aussi\", son constat sans langue de bois"
-      ]
+      ],
+      "discover_category": "/Arts & Entertainment/Music & Audio/Pop Music",
+      "discover_entities": []
     },
     {
       "id": "s13",
@@ -1117,6 +1166,13 @@
         "GNews · Le Monde.fr — En Corée du Sud, des employés de Samsung vont toucher une prime record de 290 000 euros en moyenne",
         "GNews · Ouest-France — « On pensait n’avoir personne » : abandonnées petites, elles découvrent qu’elles côtoient leur famille depuis des années - Ouest-France",
         "GNews · franceinfo — \"Si on peut guérir, il ne faut pas attendre qu'il soit trop tard\" : un programme pilote de dépistage du cancer du poumon recherche 20 000 volontaires"
+      ],
+      "discover_category": "/Home & Garden/Pest Control",
+      "discover_entities": [
+        "Acariens",
+        "Arachnides",
+        "Araignées",
+        "Arthropodes"
       ]
     },
     {
@@ -1193,7 +1249,9 @@
         "GNews · Journal de l'Economie — Elon Musk veut lancer un smartphone sans opérateur ni forfait : les télécoms n'ont pas vu venir ce qui les attend avec Starlink",
         "GNews · ladepeche.fr — \"Les pizzas arrivent froides\" : un géant franchisé de Pizza Hut réclame 100 millions de dollars à sa maison mère après l’imposition d’une IA",
         "GNews · Presse-citron — Nous savons enfin ce que voulait Elon Musk en Chine aux côtés de Donald Trump. En quatre mots : la survie de Tesla - Presse-citron"
-      ]
+      ],
+      "discover_category": null,
+      "discover_entities": []
     },
     {
       "id": "s15",
@@ -1262,6 +1320,12 @@
       "refs": [
         "MSN · Toute La Télé — Bruno Guillon cède sa place à la présentation de Chacun son tour",
         "Discover · puremedias — Audiences : 9 mois après son arrivée dans \"Tout le monde a son mot à dire\" sur France 2, Bruno Guillon fait-il mieux qu'Olivier Minne ?"
+      ],
+      "discover_category": "/Arts & Entertainment/TV & Video/TV Shows & Programs",
+      "discover_entities": [
+        "Bruno Guillon",
+        "Olivier Minne",
+        "Tout le monde a son mot à dire"
       ]
     },
     {
@@ -1339,6 +1403,13 @@
         "GNews · L'Humanité — Nagatitan : tout savoir de ce nouveau dinosaure gigantesque découvert en Thaïlande",
         "GNews · Futura, le média qui explore le monde — Encore plus redoutable que le T. rex : ce mosasaure géant, de la taille d'un bus, est le plus féroce jamais découvert",
         "GNews · L'Automobile Magazine — DS avait quitté Citroën pour voler seule : Stellantis vient peut-être de boucler la boucle"
+      ],
+      "discover_category": "/Autos & Vehicles",
+      "discover_entities": [
+        "Citroën",
+        "Citroën DS",
+        "DS Automobiles",
+        "Stellantis"
       ]
     },
     {
@@ -1416,6 +1487,10 @@
         "GNews · CNews — Canicule : voici les 7 aliments à éviter absolument pendant les fortes chaleurs",
         "GNews · Marie France, magazine féminin — Ce mardi 26 mai 2026, le Soleil et Pluton vont bouleverser la journée de ces 3 signes astro",
         "GNews · Midi Libre — TGV bloqué pendant des heures, sans clim : une passagère ouvre une issue de secours, ça ne plait pas aux contrôleurs, 200 euros d'amende"
+      ],
+      "discover_category": "/News/Weather",
+      "discover_entities": [
+        "Température"
       ]
     },
     {
@@ -1486,7 +1561,9 @@
         "MSN · Marie France — Impôts 2026 : après les piscines, le fisc et la DGFiP s’attaquent à ces 2 parties de la maison non déclarées ce printemps",
         "GNews · Challenges — Et si l’IA privait le fisc d’impôts ? Le scénario pas si fou qui menace notre modèle de partage des richesses",
         "GNews · ladepeche.fr — \"Les pizzas arrivent froides\" : un géant franchisé de Pizza Hut réclame 100 millions de dollars à sa maison mère après l’imposition d’une IA"
-      ]
+      ],
+      "discover_category": null,
+      "discover_entities": []
     },
     {
       "id": "s19",
@@ -1560,6 +1637,10 @@
       "refs": [
         "MSN · Public : Actu People en continu — Viens chez moi, j’habite chez une copine : après Michel Blanc, décès à 80 ans de la comédienne Thérèse Liotard",
         "Discover · La Provence — \"Viens à vélo avec une copine\", une balade 100% féminine à Pélissanne"
+      ],
+      "discover_category": "/Sports/Individual Sports/Cycling",
+      "discover_entities": [
+        "Cyclisme"
       ]
     },
     {
@@ -1637,6 +1718,10 @@
         "GNews · franceinfo — Le saxophoniste Sonny Rollins, dernière figure de l'âge d'or du jazz, est mort à 95 ans",
         "GNews · Actu.fr — Enfant de 11 ans retrouvé mort à Rennes : deux adolescents reconnaissent avoir étranglé Théo",
         "GNews · ici.fr — Enfant retrouvé mort à Rennes : deux adolescents en garde à vue, du matériel de pêche au cœur de l'affaire"
+      ],
+      "discover_category": "/Jobs & Education/Jobs/Job Listings",
+      "discover_entities": [
+        "Recrutement"
       ]
     },
     {
@@ -1717,6 +1802,11 @@
         "MSN · RMC — « Tu n'es pas assez fortement opposé à l'extrême droite »: quand la tante de Charles Consigny tente de le recadrer en direct",
         "Discover · BFM — \"Ça ne fait que l'aider\": l'ambassadeur d'Israël en France juge \"ridicule\" d'interdire de territoire le ministre israélien d'extrême droite Itamar Ben Gvir",
         "GNews · puremedias — \"Soit c'est un débat, soit je me casse\" : Après un clash de plusieurs minutes avec Raquel Garrido, Charles Consigny quitte le plateau de BFMTV"
+      ],
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Israël",
+        "Itamar Ben-Gvir"
       ]
     },
     {
@@ -1792,6 +1882,10 @@
         "MSN · Marie France — Retraite : si vous touchez plus que cette pension chaque mois, vous êtes plus riche que la moyenne des seniors en France en 2026",
         "Discover · Tameteo.com — Après la canicule de mai, bientôt des étés à 50°C en France : voici nos projections",
         "GNews · Ouest-France — Un jeune homme tué par balles mardi soir quartier Halvêque et un troisième meurtre à Nantes en moins d’un mois - Ouest-France"
+      ],
+      "discover_category": "/News/Weather",
+      "discover_entities": [
+        "Température"
       ]
     },
     {
@@ -1867,6 +1961,12 @@
         "MSN · Ouest-France — « J’avais acheté tout mon matériel de jardinage avec des batteries, mais aujourd’hui c’est la douche froide ! »",
         "Discover · RFI — Aujourd'hui l'économie - Les difficultés d’Airbus inquiètent l’industrie aéronautique",
         "GNews · Numerama — Alexa+ arrive en France : Amazon promet une IA « vraiment française » dès aujourd’hui"
+      ],
+      "discover_category": "/Business & Industrial",
+      "discover_entities": [
+        "Airbus",
+        "Airbus A350",
+        "Avion"
       ]
     },
     {
@@ -1936,7 +2036,9 @@
       "refs": [
         "MSN · Voici — « J'ai demandé à ce qu'on m'abrège la vie... » : Mireille Dumas brise le tabou sur sa fin de vie",
         "GNews · Le Figaro — Fin de vie : une commission mixte paritaire vouée à l’échec et un calendrier encore incertain"
-      ]
+      ],
+      "discover_category": null,
+      "discover_entities": []
     },
     {
       "id": "s25",
@@ -2011,6 +2113,11 @@
         "MSN · AlloCiné — « J'ai envoyé un peu loin le bouchon » : Jean Gabin pensait faire une blague sur ce film, mais il n’avait pas du tout mesuré les conséquences",
         "Discover · BFM — Présidentielle 2027: Édouard Philippe et Jean-Luc Mélenchon dans un mouchoir de poche au premier tour selon un sondage, le RN toujours loin devant",
         "GNews · public.fr — \"TF1 m’a obligée à inviter le président à son enterrement\", Nathalie Marquay, ce qu’elle n’avait jamais dit sur les obsèques de Jean-Pierre Pernaut"
+      ],
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Jean-Luc Mélenchon",
+        "Édouard Philippe"
       ]
     },
     {
@@ -2086,7 +2193,9 @@
         "MSN · Le Nouvel Obs — Enfants abandonnés au Portugal par un couple de Français : quel est le profil des parents ?",
         "Discover · Le Monde.fr — Les enfants français abandonnés au Portugal seront confiés aux services sociaux de Colmar",
         "GNews · Sud Ouest — « Je pense à eux toutes les secondes » : le père des enfants abandonnés au Portugal prend la parole"
-      ]
+      ],
+      "discover_category": "/Sensitive Subjects",
+      "discover_entities": []
     },
     {
       "id": "s27",
@@ -2163,6 +2272,12 @@
         "GNews · La République des Pyrénées — Vague de chaleur : le département des Pyrénées-Atlantiques en vigilance jaune à partir de mercredi midi",
         "GNews · Le Monde.fr — EN DIRECT, canicule : 13 départements en vigilance orange ; l’épisode de fortes chaleurs se poursuit et s’étend progressivement vers le sud du pays",
         "GNews · Sud Ouest — Vague de chaleur : a-t-on réellement moins faim quand il fait chaud ?"
+      ],
+      "discover_category": "/News/Weather",
+      "discover_entities": [
+        "Chaleur",
+        "Météo-France",
+        "Température"
       ]
     },
     {
@@ -2238,6 +2353,10 @@
         "MSN · 20 Minutes — Mort de Tessa Raimbault près de Nantes : la peine de cinq ans de prison pour l’automobiliste confirmée en appel",
         "Discover · Ouest-France — Les commerçants vont animer les rues de cette ville près de Nantes",
         "GNews · L'Automobile Magazine — Bornes de recharge électriques : \"Des écarts de prix de près de 500% pour une recharge identique\". Les résultats de cette association sont sans appel"
+      ],
+      "discover_category": "/News",
+      "discover_entities": [
+        "Carquefou"
       ]
     },
     {
@@ -2320,6 +2439,10 @@
         "GNews · Le Grand Continent — Le futur de la démocratie chrétienne passe par Donald Trump",
         "GNews · ma-sante.news — Les personnes avec ce groupe sanguin ont-elles vraiment un cerveau « plus jeune » ? - ma-sante.news",
         "GNews · Le Monde.fr — Le redécoupage électoral voulu par Donald Trump freiné en Caroline du Sud et en Alabama"
+      ],
+      "discover_category": "/Sensitive Subjects",
+      "discover_entities": [
+        "Val-d'Oise"
       ]
     },
     {
@@ -2396,6 +2519,12 @@
         "Discover · X — 🚨 Deux bonnes nouvelles avant PSG-Arsenal ! 🔴🔵 Dembélé et Hakimi attendus à l'entraînement collectif ce mardi. Voir sur X",
         "GNews · Sport.fr — PSG : du nouveau pour Dembélé et Hakimi",
         "GNews · Foot Mercato — PSG-Arsenal : le pronostic d’Unai Emery"
+      ],
+      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_entities": [
+        "Achraf Hakimi",
+        "Arsenal",
+        "Ousmane Dembélé"
       ]
     }
   ],
@@ -2613,6 +2742,258 @@
           "publisher": "Libération",
           "score": 3.5,
           "url": "https://www.liberation.fr/checknews/est-il-vrai-que-la-vague-actuelle-de-chaleur-dans-lhexagone-na-rien-dexceptionnel-comme-laffirme-pascal-praud-sur-cnews-20260526_QYJPYRP5Z5EGBINKMH6J3QHS2A/"
+        }
+      ]
+    }
+  ],
+  "entity_clusters": [
+    {
+      "label": "Iran",
+      "members": [
+        "Iran",
+        "Moyen-Orient",
+        "Donald Trump"
+      ],
+      "members_count": 3,
+      "articles_count": 11,
+      "total_score": 25.9,
+      "avg_score": 2.4,
+      "top_articles": [
+        {
+          "title": "Guerre au Moyen-Orient : «En frappant l’Iran malgré les négociations, Trump a clarifié la nature de la puissance américaine»",
+          "publisher": "Le Figaro",
+          "score": 16.2,
+          "url": "https://www.lefigaro.fr/international/guerre-au-moyen-orient-en-frappant-l-iran-malgre-les-negociations-trump-a-clarifie-la-nature-de-la-puissance-americaine-20260526"
+        },
+        {
+          "title": "Guerre au Moyen-Orient : en pleine cérémonie du Memorial Day, Donald Trump déclare que l’Iran «ne disposera jamais de l’arme nucléaire»",
+          "publisher": "Le Figaro",
+          "score": 5.5,
+          "url": "https://www.lefigaro.fr/international/guerre-au-moyen-orient-en-pleine-ceremonie-du-memorial-day-donald-trump-declare-que-l-iran-ne-disposera-jamais-de-l-arme-nucleaire-20260526"
+        },
+        {
+          "title": "Guerre au Moyen-Orient: après trois mois de blocus, Marco Rubio affirme que le détroit d'Ormuz rouvrira \"d'une manière ou d'une autre\"",
+          "publisher": "BFM",
+          "score": 1.3,
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/guerre-au-moyen-orient-apres-trois-mois-de-blocus-marco-rubio-affirme-que-le-detroit-d-ormuz-rouvrira-d-une-maniere-ou-d-une-autre_AD-202605260249.html"
+        }
+      ]
+    },
+    {
+      "label": "Édouard Philippe",
+      "members": [
+        "Édouard Philippe",
+        "Jean-Luc Mélenchon"
+      ],
+      "members_count": 2,
+      "articles_count": 5,
+      "total_score": 11.9,
+      "avg_score": 2.4,
+      "top_articles": [
+        {
+          "title": "Sondage. Présidentielle 2027 : derrière le RN, l’écart entre Édouard Philippe et Jean-Luc Mélenchon se resserre",
+          "publisher": "Sud Ouest",
+          "score": 6.3,
+          "url": "https://www.sudouest.fr/elections/sondages/sondage-presidentielle-2027-derriere-le-rn-l-ecart-entre-edouard-philippe-et-jean-luc-melenchon-se-resserre-29228703.php"
+        },
+        {
+          "title": "Ce sondage sur Mélenchon fait oublier à LFI tous ses griefs contre les sondeurs",
+          "publisher": "Le HuffPost",
+          "score": 5.2,
+          "url": "https://www.huffingtonpost.fr/politique/article/ce-sondage-sur-melenchon-fait-oublier-a-lfi-tous-ses-griefs-contre-les-sondeurs_264106.html"
+        },
+        {
+          "title": "Présidentielle 2027: Édouard Philippe et Jean-Luc Mélenchon dans un mouchoir de poche au premier tour selon un sondage, le RN toujours loin devant",
+          "publisher": "BFM",
+          "score": 0.2,
+          "url": "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-le-rn-loin-devant-au-premier-tour-selon-un-sondage-edouard-philippe-et-jean-luc-melenchon-dans-un-mouchoir-de-poche_AD-202605260153.html"
+        }
+      ]
+    },
+    {
+      "label": "Roland-Garros",
+      "members": [
+        "Roland-Garros",
+        "Tennis"
+      ],
+      "members_count": 2,
+      "articles_count": 13,
+      "total_score": 7.9,
+      "avg_score": 0.6,
+      "top_articles": [
+        {
+          "title": "A 17 ans, le Français Moïse Kouame crée l'exploit en éliminant au premier tour l'ancien demi-finaliste de Roland-Garros Marin Cilic",
+          "publisher": "franceinfo",
+          "score": 3.8,
+          "url": "https://www.franceinfo.fr/roland-garros/a-17-ans-le-francais-moise-kouame-cree-l-exploit-en-eliminant-au-premier-tour-l-ancien-demi-finaliste-de-roland-garros-marin-cilic_8029223.html"
+        },
+        {
+          "title": "Roland-Garros 2026: combien va gagner Moïse Kouame après sa victoire au premier tour?",
+          "publisher": "RMC Sport",
+          "score": 2.0,
+          "url": "https://rmcsport.bfmtv.com/tennis/roland-garros/roland-garros-2026-combien-va-gagner-moise-kouame-apres-sa-victoire-au-premier-tour_AV-202605260518.html"
+        },
+        {
+          "title": "Après le dernier match à Roland-Garros de Gaël Monfils, le tennis français tourne la page des « Mousquetaires » > lequipe.fr/OjW Voir sur X (Twitter)",
+          "publisher": "X",
+          "score": 0.6,
+          "url": "https://x.com/lequipe/status/2059038893769388540"
+        }
+      ]
+    },
+    {
+      "label": "Assemblée nationale",
+      "members": [
+        "Assemblée nationale",
+        "Ousmane Sonko"
+      ],
+      "members_count": 2,
+      "articles_count": 4,
+      "total_score": 7.2,
+      "avg_score": 1.8,
+      "top_articles": [
+        {
+          "title": "Des actes \"odieux\" et \"choquants\": Sébasten Lecornu envisage de saisir la justice française après la vidéo de l'arrestation des militants de la \"flottille pour Gaza\"",
+          "publisher": "BFM",
+          "score": 6.2,
+          "url": "https://www.bfmtv.com/politique/gouvernement/des-actes-odieux-et-choquants-sebasten-lecornu-envisage-de-saisir-la-justice-francaise-apres-la-video-de-l-arrestation-des-militants-de-la-flottille-pour-gaza_AN-202605260649.html"
+        },
+        {
+          "title": "Sénégal: l’ex-Premier ministre Ousmane Sonko élu président de l’Assemblée nationale",
+          "publisher": "RFI",
+          "score": 0.6,
+          "url": "https://www.rfi.fr/fr/afrique/20260526-s%C3%A9n%C3%A9gal-l-ex-premier-ministre-ousmane-sonko-%C3%A9lu-pr%C3%A9sident-de-l-assembl%C3%A9e-nationale"
+        },
+        {
+          "title": "Sénégal : Ahmadou Al Aminou Mohamed Lô nommé premier ministre après le limogeage d’Ousmane Sonko",
+          "publisher": "Le Monde.fr",
+          "score": 0.2,
+          "url": "https://www.lemonde.fr/afrique/article/2026/05/26/senegal-ahmadou-al-aminou-mohamed-lo-nomme-premier-ministre-apres-le-limogeage-d-ousmane-sonko_6693693_3212.html"
+        }
+      ]
+    },
+    {
+      "label": "Feria",
+      "members": [
+        "Feria",
+        "Feria de Nîmes"
+      ],
+      "members_count": 2,
+      "articles_count": 6,
+      "total_score": 3.4,
+      "avg_score": 0.6,
+      "top_articles": [
+        {
+          "title": "Feria de Pentecôte 2026 : une très bonne fréquentation dans (presque) toutes les bodegas",
+          "publisher": "Midi Libre",
+          "score": 1.6,
+          "url": "https://www.midilibre.fr/2026/05/26/feria-de-pentecote-2026-une-tres-bonne-frequentation-dans-presque-toutes-les-bodegas-13388787.php"
+        },
+        {
+          "title": "La feria de Vic-Fezensac a battu des records de fréquentation malgré la canicule, à Nîmes, plus d’un million de festayres",
+          "publisher": "Sud Ouest",
+          "score": 1.0,
+          "url": "https://www.sudouest.fr/culture/ferias/la-feria-de-vic-fezensac-a-battu-des-records-de-frequentation-malgre-la-canicule-a-nimes-plus-d-un-million-de-festayres-29231286.php"
+        },
+        {
+          "title": "Toros : héroïque à Madrid et triomphateur à Nîmes, Sébastien Castella attendu en héros à Saint-Sever",
+          "publisher": "Sud Ouest",
+          "score": 0.4,
+          "url": "https://www.sudouest.fr/culture/toros/toros-heroique-a-madrid-et-triomphateur-a-nimes-sebastien-castella-attendu-en-heros-a-saint-sever-29221189.php"
+        }
+      ]
+    },
+    {
+      "label": "OGC Nice",
+      "members": [
+        "OGC Nice",
+        "ASSE",
+        "Stade Geoffroy-Guichard"
+      ],
+      "members_count": 3,
+      "articles_count": 8,
+      "total_score": 2.9,
+      "avg_score": 0.4,
+      "top_articles": [
+        {
+          "title": "À quelle heure et sur quelle chaîne voir le barrage aller entre Saint-Étienne et Nice ?",
+          "publisher": "L'Équipe",
+          "score": 1.4,
+          "url": "https://www.lequipe.fr/Football/Actualites/A-quelle-heure-et-sur-quelle-chaine-voir-le-match-aller-du-barrage-saint-etienne-nice/1678983"
+        },
+        {
+          "title": "Mercato : L'ASSE signe Rassel Amari pour 5 saisons",
+          "publisher": "Peuple-Vert.fr",
+          "score": 0.9,
+          "url": "https://peuple-vert.fr/mercato/mercato-asse-signe-rassel-amari-pour-5-saisons/"
+        },
+        {
+          "title": "Saint-Étienne-Nice : les compositions probables du barrage aller",
+          "publisher": "Foot National",
+          "score": 0.2,
+          "url": "https://www.foot-national.com/actus/saint-etienne-nice-les-compositions-probables-du-barrage-aller-946697"
+        }
+      ]
+    },
+    {
+      "label": "Drogue",
+      "members": [
+        "Drogue",
+        "Stupéfiant"
+      ],
+      "members_count": 2,
+      "articles_count": 5,
+      "total_score": 1.1,
+      "avg_score": 0.2,
+      "top_articles": [
+        {
+          "title": "Un témoin alerte sur la trajectoire d’un car avec 50 enfants à bord : le chauffeur positif à l’alcool et aux stupéfiants",
+          "publisher": "Ouest-France",
+          "score": 0.4,
+          "url": "https://www.ouest-france.fr/societe/faits-divers/un-temoin-alerte-sur-la-trajectoire-dun-car-avec-50-enfants-a-bord-le-chauffeur-positif-a-lalcool-et-aux-stupefiants-6be47f3a-544f-11f1-a8af-559ef5894fc2"
+        },
+        {
+          "title": "Seine-et-Marne : \"Un véritable poison social\"... un homme jugé pour le trafic de la nouvelle \"drogue du pauvre\"",
+          "publisher": "Actu.fr",
+          "score": 0.3,
+          "url": "https://actu.fr/ile-de-france/melun_77288/seine-et-marne-un-veritable-poison-social-un-homme-juge-pour-le-trafic-de-la-nouvelle-drogue-du-pauvre_64316276.html"
+        },
+        {
+          "title": "« Une vague de chaleur stupéfiante » : des contrôles de drogue autour de Brest, 41 personnes sanctionnées",
+          "publisher": "Actu.fr",
+          "score": 0.2,
+          "url": "https://actu.fr/faits-divers/une-vague-de-chaleur-stupefiante-des-controles-de-drogue-autour-de-brest-41-personnes-sanctionnees_64316779.html"
+        }
+      ]
+    },
+    {
+      "label": "Transport scolaire",
+      "members": [
+        "Transport scolaire",
+        "Autocar"
+      ],
+      "members_count": 2,
+      "articles_count": 4,
+      "total_score": 0.9,
+      "avg_score": 0.2,
+      "top_articles": [
+        {
+          "title": "« Une tragédie qui nous marquera longtemps » : en Belgique, vive émotion après la collision entre un car scolaire et un train",
+          "publisher": "Le Parisien",
+          "score": 0.5,
+          "url": "https://www.leparisien.fr/faits-divers/il-ne-devait-pas-conduire-la-camionnette-en-belgique-vive-emotion-apres-la-collision-entre-un-car-scolaire-et-un-train-26-05-2026-FWA4CGZFBFB6DAYVYMHXBMITUY.php"
+        },
+        {
+          "title": "Plusieurs morts dans une collision entre un car scolaire et un train en Belgique",
+          "publisher": "Ouest-France",
+          "score": 0.4,
+          "url": "https://www.ouest-france.fr/europe/belgique/plusieurs-victimes-apres-une-collision-entre-un-car-scolaire-et-un-train-en-belgique-739923a6-58e2-11f1-8ba2-e862963f4a46"
+        },
+        {
+          "title": "Quatre morts, dont deux enfants, un passage à niveau franchi malgré une barrière baissée, un choc violent... Ce que l'on sait de la collision d'un car scolaire avec un train en Belgique",
+          "publisher": "RTL.fr",
+          "score": 0.0,
+          "url": "https://www.rtl.fr/actu/justice-faits-divers/quatre-morts-dont-deux-enfants-un-passage-a-niveau-franchi-malgre-une-barriere-baissee-un-choc-violent-ce-que-l-on-sait-de-la-collision-d-un-car-scolaire-avec-un-train-en-belgique-7900639115"
         }
       ]
     }
@@ -2953,32 +3334,6 @@
           "publisher": "CNews",
           "score": 3.5,
           "url": "https://www.cnews.fr/france/2026-05-25/canicule-voici-les-20-departements-places-en-vigilance-jaune-ce-mardi-1867145"
-        }
-      ]
-    },
-    {
-      "name": "Moyen-Orient",
-      "articles_count": 9,
-      "total_score": 25.7,
-      "avg_score": 2.9,
-      "top_articles": [
-        {
-          "title": "Guerre au Moyen-Orient : «En frappant l’Iran malgré les négociations, Trump a clarifié la nature de la puissance américaine»",
-          "publisher": "Le Figaro",
-          "score": 16.2,
-          "url": "https://www.lefigaro.fr/international/guerre-au-moyen-orient-en-frappant-l-iran-malgre-les-negociations-trump-a-clarifie-la-nature-de-la-puissance-americaine-20260526"
-        },
-        {
-          "title": "Guerre au Moyen-Orient : en pleine cérémonie du Memorial Day, Donald Trump déclare que l’Iran «ne disposera jamais de l’arme nucléaire»",
-          "publisher": "Le Figaro",
-          "score": 5.5,
-          "url": "https://www.lefigaro.fr/international/guerre-au-moyen-orient-en-pleine-ceremonie-du-memorial-day-donald-trump-declare-que-l-iran-ne-disposera-jamais-de-l-arme-nucleaire-20260526"
-        },
-        {
-          "title": "Guerre au Moyen-Orient: après trois mois de blocus, Marco Rubio affirme que le détroit d'Ormuz rouvrira \"d'une manière ou d'une autre\"",
-          "publisher": "BFM",
-          "score": 1.3,
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/guerre-au-moyen-orient-apres-trois-mois-de-blocus-marco-rubio-affirme-que-le-detroit-d-ormuz-rouvrira-d-une-maniere-ou-d-une-autre_AD-202605260249.html"
         }
       ]
     },
