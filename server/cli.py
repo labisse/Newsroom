@@ -265,6 +265,28 @@ def cmd_gsc_sites(project_slug: str) -> int:
     return 0
 
 
+def _resolve_project_site(project_slug: str) -> str | None:
+    """Retourne le site_url GSC qui correspond au `domain` déclaré dans
+    data/projects/index.json. None si pas de domain configuré."""
+    projects_index = DATA_DIR / "projects" / "index.json"
+    if not projects_index.exists():
+        return None
+    try:
+        payload = json.loads(projects_index.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return None
+    for p in payload.get("projects", []):
+        if p.get("slug") == project_slug:
+            domain = (p.get("domain") or "").strip()
+            if not domain:
+                return None
+            # On tente d'abord la forme sc-domain (couvre tous sous-domaines)
+            # puis https://www. en fallback — resolve_site_url côté API GSC
+            # fera le match exact.
+            return f"sc-domain:{domain}"
+    return None
+
+
 def cmd_gsc_fetch(project_slug: str, site_url: str | None, days: int) -> int:
     """Extrait les URLs Discover sur N jours et upsert dans le JSONL projet."""
     print(f"Editorial Signal — GSC fetch [{project_slug}] (Discover, {days}j)\n")
@@ -280,18 +302,27 @@ def cmd_gsc_fetch(project_slug: str, site_url: str | None, days: int) -> int:
         )
         return 2
 
-    # Si pas de site fourni, tenter le premier accessible
+    # Stratégie de résolution du site_url :
+    #   1. CLI explicite (--site=URL) prend toujours la priorité
+    #   2. Sinon, on tente le domain déclaré dans data/projects/index.json
+    #   3. En dernier recours seulement, on prend la 1re propriété accessible
     if not site_url:
-        try:
-            sites = gsc_mod.get_sites(project_slug)
-        except Exception as exc:  # noqa: BLE001
-            print(f"✗ {type(exc).__name__}: {exc}", file=sys.stderr)
-            return 1
-        if not sites:
-            print("✗ Aucune propriété GSC accessible.", file=sys.stderr)
-            return 1
-        site_url = sites[0].get("siteUrl", "")
-        print(f"  Site par défaut : {site_url}")
+        from_config = _resolve_project_site(project_slug)
+        if from_config:
+            site_url = from_config
+            print(f"  Site (depuis config projet) : {site_url}")
+        else:
+            try:
+                sites = gsc_mod.get_sites(project_slug)
+            except Exception as exc:  # noqa: BLE001
+                print(f"✗ {type(exc).__name__}: {exc}", file=sys.stderr)
+                return 1
+            if not sites:
+                print("✗ Aucune propriété GSC accessible.", file=sys.stderr)
+                return 1
+            site_url = sites[0].get("siteUrl", "")
+            print(f"  ⚠ Aucun domain dans index.json pour ce projet —")
+            print(f"    fallback sur la 1re propriété : {site_url}")
 
     started = time.perf_counter()
     try:
@@ -596,12 +627,17 @@ def cmd_gsc_sync_all(
         print(f"━━━ {slug} ━━━")
         try:
             # Fetch Discover URLs
-            sites = gsc_mod.get_sites(slug)
-            if not sites:
-                print(f"  ⚠ aucun site accessible pour {slug}, skip")
-                continue
-            site_url = sites[0].get("siteUrl", "")
-            print(f"  Site : {site_url}")
+            # Priorité au domain déclaré dans index.json (cf gsc-fetch)
+            site_url = _resolve_project_site(slug)
+            if not site_url:
+                sites = gsc_mod.get_sites(slug)
+                if not sites:
+                    print(f"  ⚠ aucun site accessible pour {slug}, skip")
+                    continue
+                site_url = sites[0].get("siteUrl", "")
+                print(f"  Site (fallback 1re propriété) : {site_url}")
+            else:
+                print(f"  Site (depuis config projet) : {site_url}")
 
             started = time.perf_counter()
             payload = gsc_mod.fetch_discover_12m(slug, site_url, days=days)

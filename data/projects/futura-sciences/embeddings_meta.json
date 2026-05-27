@@ -2,8 +2,8 @@
   "project": "futura-sciences",
   "backend": "voyage",
   "dim": 1024,
-  "count": 2,
-  "used_titles": 2,
-  "used_slugs": 0,
+  "count": 11102,
+  "used_titles": 43,
+  "used_slugs": 11059,
   "index_file": "data/projects/futura-sciences/embeddings.npz"
 }
