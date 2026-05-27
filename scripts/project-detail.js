@@ -381,6 +381,7 @@ const mount = async () => {
       insights.project_tier_counts || { high: 0, medium: 0, low: 0 },
       insights.sujets_source,
       project.name,
+      insights.topical_filter || null,
     );
 
     // Sections secondaires (dans les tabs)
@@ -398,19 +399,38 @@ const mount = async () => {
 
 /* ----- Briefing personnalisé : liste re-triée + affinity badge ----- */
 
-const renderBriefing = (scoredSujets, tierCounts, sujetsSource, projectName) => {
+const renderBriefing = (
+  scoredSujets,
+  tierCounts,
+  sujetsSource,
+  projectName,
+  topicalFilter,
+) => {
   // Meta header
   const meta = document.querySelector("#project-briefing-meta");
   if (meta) {
     const srcDate = sujetsSource?.generated_at
       ? formatRelative(sujetsSource.generated_at)
       : "n/a";
-    meta.innerHTML =
+    const total = topicalFilter?.total_candidates ?? scoredSujets.length;
+    const excluded = topicalFilter?.excluded_off_topic ?? 0;
+    const strict = topicalFilter?.strict_topical === true;
+
+    let html =
       `<strong>${scoredSujets.length} sujets</strong> du flux global ` +
       `re-scorés avec ton historique Discover. ` +
       `Tri par <strong>Score ${projectName}</strong> ` +
-      `(combinaison signal global × affinité historique). ` +
-      `<em>Flux global : ${srcDate}</em>.`;
+      `(combinaison signal global × affinité historique).`;
+
+    if (strict && excluded > 0) {
+      html +=
+        ` <span class="briefing-filter-note">` +
+        `<strong>${excluded}/${total}</strong> sujets globaux écartés ` +
+        `(hors territoire éditorial : catégorie ou thèmes du projet non concernés)` +
+        `.</span>`;
+    }
+    html += ` <em>Flux global : ${srcDate}</em>.`;
+    meta.innerHTML = html;
   }
 
   // Counts
@@ -440,18 +460,40 @@ const renderBriefing = (scoredSujets, tierCounts, sujetsSource, projectName) => 
   list.innerHTML = "";
 
   if (!scoredSujets.length) {
-    list.appendChild(
-      h(
-        "li",
-        { class: "project-empty" },
-        h("strong", {}, "Aucun sujet à scorer."),
+    const strict = topicalFilter?.strict_topical === true;
+    const total = topicalFilter?.total_candidates ?? 0;
+    if (strict && total > 0) {
+      list.appendChild(
         h(
-          "p",
-          {},
-          "Lance `python -m server.cli score` pour générer le flux global, puis re-génère les insights.",
+          "li",
+          { class: "project-empty" },
+          h(
+            "strong",
+            {},
+            "Aucun sujet du flux global ne touche votre territoire éditorial aujourd'hui.",
+          ),
+          h(
+            "p",
+            {},
+            `${total} sujets analysés, tous écartés (catégories Discover et thèmes du projet non concernés). ` +
+              "C'est un signal honnête : pas d'angle évident à creuser dans l'actu chaude.",
+          ),
         ),
-      ),
-    );
+      );
+    } else {
+      list.appendChild(
+        h(
+          "li",
+          { class: "project-empty" },
+          h("strong", {}, "Aucun sujet à scorer."),
+          h(
+            "p",
+            {},
+            "Lance `python -m server.cli score` pour générer le flux global, puis re-génère les insights.",
+          ),
+        ),
+      );
+    }
     return;
   }
 

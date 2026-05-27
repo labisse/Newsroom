@@ -38,6 +38,60 @@ AFFINITY_MIN_SIMILARITY = 0.50
 # à montrer comme contenu de référence (sinon trop niche pour servir
 # d'exemple de réussite éditoriale)
 AFFINITY_MIN_CLICKS_FOR_REFERENCE = 5_000
+# Pour les projets avec `strict_topical_filter`, un sujet sans alignement
+# thématique peut tout de même rester s'il a une affinité sémantique très
+# forte (≥ ce seuil) — protection contre les faux négatifs.
+HIGH_AFFINITY_OVERRIDE_SIMILARITY = 0.78
+
+# Expansion de mots-clés thématiques pour la détection d'alignement.
+# Volontairement minimal (les thèmes Futura et PM aujourd'hui), à étendre
+# au fur et à mesure des nouveaux projets.
+THEME_KEYWORD_EXPANSIONS: dict[str, list[str]] = {
+    "sciences": [
+        "science", "scientifique", "scientifiques", "recherche", "découverte",
+        "découvertes", "étude", "laboratoire", "physique", "chimie", "biologie",
+        "mathématique", "expérience",
+    ],
+    "tech": [
+        "tech", "technologie", "technologique", "ia", "intelligence artificielle",
+        "robot", "robotique", "numérique", "informatique", "ordinateur",
+        "chatgpt", "openai", "google", "apple", "microsoft", "cyberattaque",
+        "cybersécurité", "smartphone", "android", "iphone", "internet",
+    ],
+    "espace": [
+        "espace", "spatial", "astronomie", "astronome", "cosmos", "nasa",
+        "spacex", "esa", "planète", "planètes", "galaxie", "étoile", "trou noir",
+        "lune", "mars", "fusée", "satellite", "univers", "exoplanète",
+    ],
+    "santé": [
+        "santé", "médical", "médicament", "médecine", "maladie", "cancer",
+        "virus", "vaccin", "épidémie", "alzheimer", "obésité", "diabète",
+        "covid", "hôpital", "patient", "psychiatrie", "neurologie",
+    ],
+    "environnement": [
+        "environnement", "climat", "climatique", "réchauffement", "écologie",
+        "écologique", "biodiversité", "pollution", "carbone", "co2", "énergie",
+        "renouvelable", "espèce", "espèces", "forêt", "océan", "canicule",
+        "sécheresse", "inondation", "ouragan", "cyclone",
+    ],
+    "people": [
+        "acteur", "actrice", "chanteur", "chanteuse", "star", "célébrité",
+        "festival", "cannes", "interview", "couple", "divorce", "mariage",
+    ],
+    "royauté": [
+        "roi", "reine", "prince", "princesse", "royal", "royale", "monarchie",
+        "windsor", "buckingham", "monaco", "monégasque",
+    ],
+    "politique": [
+        "politique", "élu", "député", "président", "ministre", "élection",
+        "gouvernement", "assemblée", "parti", "sénat", "macron", "mélenchon",
+        "le pen",
+    ],
+    "société": [
+        "société", "social", "sociale", "violence", "féminicide",
+        "discrimination", "manifestation",
+    ],
+}
 
 
 def _now_iso() -> str:
@@ -223,6 +277,51 @@ def compute_affinity(
     }
 
 
+def thematic_alignment(
+    sujet: dict[str, Any],
+    project_cfg: dict[str, Any],
+) -> tuple[bool, str]:
+    """Vérifie si un sujet s'inscrit dans le territoire éditorial du projet.
+
+    Deux signaux combinés (OU logique) :
+      1. La `discover_category` du sujet est un préfixe de l'une des
+         catégories Discover du projet (ex: '/Science/Astronomy' chevauche
+         '/Science').
+      2. Au moins un mot-clé thématique (project.themes + expansions) est
+         présent dans le titre ou les entités du sujet.
+
+    Retourne (matched: bool, reason: str). La raison sert au debug et peut
+    être affichée côté front pour expliquer pourquoi un sujet est gardé.
+    """
+    # 1. Match par préfixe de catégorie Discover
+    sujet_cat = (sujet.get("discover_category") or "").lower().strip()
+    if sujet_cat:
+        for pcat in project_cfg.get("categories") or []:
+            pcat_lc = pcat.lower().strip()
+            if not pcat_lc:
+                continue
+            if sujet_cat.startswith(pcat_lc) or pcat_lc.startswith(sujet_cat):
+                return True, f"category:{pcat}"
+
+    # 2. Match par mots-clés thématiques (titre + entités)
+    title_lc = (sujet.get("title") or "").lower()
+    entities = sujet.get("discover_entities") or []
+    entities_lc = " ".join(str(e) for e in entities).lower()
+    haystack = f"{title_lc} {entities_lc}"
+
+    themes = [t.lower().strip() for t in (project_cfg.get("themes") or [])]
+    for theme in themes:
+        keywords = THEME_KEYWORD_EXPANSIONS.get(theme, [theme])
+        for kw in keywords:
+            # Match mot-entier pour éviter "tech" → "discothèque"
+            kw_padded = f" {kw} "
+            haystack_padded = f" {haystack} "
+            if kw_padded in haystack_padded:
+                return True, f"theme:{theme}({kw})"
+
+    return False, ""
+
+
 def compute_project_score(
     global_score: int,
     affinity_score: int,
@@ -251,24 +350,39 @@ def score_sujets_for_project(
     project_name: str,
     sujets: list[dict[str, Any]],
     *,
+    project_cfg: dict[str, Any] | None = None,
     generate_titles: bool = True,
     affinity_min_similarity: float = AFFINITY_MIN_SIMILARITY,
-) -> list[dict[str, Any]]:
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     """Re-score chaque sujet du flux global pour un projet précis.
 
     Pour chaque sujet :
       1. Recherche sémantique dans l'historique Discover du projet
       2. Calcul d'affinité (cf compute_affinity)
-      3. Project score = combinaison signal global × affinité
-      4. Génération d'un titre proposé dans le style du média (Claude)
-      5. Récupération de 3 sources externes (GNews + Discover)
-      6. Retour de la liste triée par project_score décroissant
+      3. Filtre topical optionnel si project.strict_topical_filter == true
+         (sites spécialisés type Futura : on exclut les sujets sans
+         alignement thématique avec project.categories / project.themes,
+         sauf si l'affinité sémantique est extrêmement forte)
+      4. Project score = combinaison signal global × affinité
+      5. Génération d'un titre proposé dans le style du média (Claude)
+      6. Récupération de 3 sources externes (GNews + Discover)
+      7. Retour de la liste triée par project_score décroissant
+
+    Retourne (sujets_kept, filter_meta). filter_meta contient :
+      - total_candidates : nombre de sujets globaux examinés
+      - kept              : nombre retenus
+      - excluded_off_topic: nombre filtrés faute d'alignement thématique
+      - strict_topical    : True/False (mode activé pour ce projet)
     """
     # Reset le cache des sources externes pour utiliser les snapshots
     # les plus récents (gsc-insights peut être appelé après un fetch)
     external_sources.reset_cache()
 
+    cfg = project_cfg or {}
+    strict = bool(cfg.get("strict_topical_filter", False))
+
     scored: list[dict[str, Any]] = []
+    excluded_off_topic = 0
 
     for sujet in sujets:
         global_score = int(sujet.get("score", 0))
@@ -276,11 +390,28 @@ def score_sujets_for_project(
         if not query:
             continue
 
-        # 1-3. RAG search + affinity + project_score
+        # 1-3. RAG search + affinity
         matches = _enrich_search_results(
             project_slug, query, top_k=TOP_K_PER_SUJET, rerank_by_clicks=False
         )
         affinity = compute_affinity(matches, min_similarity=affinity_min_similarity)
+
+        # Filtre topical strict pour projets spécialisés
+        topical_match = False
+        topical_reason = ""
+        if strict:
+            topical_match, topical_reason = thematic_alignment(sujet, cfg)
+            # Override : on garde quand même si l'affinité sémantique est très
+            # forte (un sujet peut être thématiquement off mais sémantiquement
+            # très proche d'un contenu phare du site)
+            high_aff_override = (
+                affinity["max_similarity"] >= HIGH_AFFINITY_OVERRIDE_SIMILARITY
+                and affinity["match_count"] >= 3
+            )
+            if not (topical_match or high_aff_override):
+                excluded_off_topic += 1
+                continue
+
         project_score = compute_project_score(global_score, affinity["score"])
 
         # 4. Titre proposé dans le style du média (best-effort)
@@ -324,6 +455,8 @@ def score_sujets_for_project(
             "project_score": project_score,
             "proposed_title": proposed_title,
             "external_sources": ext_sources,
+            "topical_match": topical_match if strict else None,
+            "topical_reason": topical_reason if strict else None,
         }
         scored.append(enriched)
 
@@ -331,7 +464,14 @@ def score_sujets_for_project(
     scored.sort(key=lambda s: s["project_score"], reverse=True)
     for i, s in enumerate(scored, start=1):
         s["project_rank"] = i
-    return scored
+
+    filter_meta = {
+        "total_candidates": len(sujets),
+        "kept": len(scored),
+        "excluded_off_topic": excluded_off_topic,
+        "strict_topical": strict,
+    }
+    return scored, filter_meta
 
 
 def build_insights(project_slug: str) -> dict[str, Any]:
@@ -365,16 +505,22 @@ def build_insights(project_slug: str) -> dict[str, Any]:
     affinity_threshold = float(
         project_cfg.get("affinity_min_similarity", AFFINITY_MIN_SIMILARITY)
     )
-    scored_sujets = (
-        score_sujets_for_project(
+    if sujets:
+        scored_sujets, filter_meta = score_sujets_for_project(
             project_slug,
             project_name,
             sujets,
+            project_cfg=project_cfg,
             affinity_min_similarity=affinity_threshold,
         )
-        if sujets
-        else []
-    )
+    else:
+        scored_sujets = []
+        filter_meta = {
+            "total_candidates": 0,
+            "kept": 0,
+            "excluded_off_topic": 0,
+            "strict_topical": bool(project_cfg.get("strict_topical_filter", False)),
+        }
 
     # Distribution par tier du Project Score (utile pour les compteurs hero)
     project_tier_counts = {"high": 0, "medium": 0, "low": 0}
@@ -458,6 +604,9 @@ def build_insights(project_slug: str) -> dict[str, Any]:
         # ★ Le briefing personnalisé du projet (objet principal pour le front)
         "scored_sujets": scored_sujets,
         "project_tier_counts": project_tier_counts,
+        # Métadonnées du filtre topical (utile pour expliciter côté UI
+        # combien de sujets globaux ont été écartés car hors-territoire)
+        "topical_filter": filter_meta,
         # Insights par dimension (sections secondaires)
         "insights": {
             "by_category": by_category,

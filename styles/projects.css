@@ -838,6 +838,22 @@
   color: var(--text-tertiary);
 }
 
+/* Note du filtre topical (projets spécialisés type Futura) :
+   rend explicite que X sujets globaux ont été écartés car hors-territoire. */
+.briefing-filter-note {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 4px 8px;
+  background: rgba(245, 0, 0, 0.06);
+  border-left: 2px solid var(--primary-color);
+  color: var(--text-secondary);
+  font-size: 0.85em;
+}
+
+.briefing-filter-note strong {
+  color: var(--primary-color);
+}
+
 .project-briefing__counts {
   display: flex;
   gap: var(--space-sm);

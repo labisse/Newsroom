@@ -33,6 +33,7 @@
       "themes": ["Sciences", "Tech", "Espace", "Santé", "Environnement"],
       "gsc_connected": false,
       "affinity_min_similarity": 0.65,
+      "strict_topical_filter": true,
       "stats": {
         "articles_30d": 0,
         "avg_discover_score": null,
