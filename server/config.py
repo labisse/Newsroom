@@ -61,5 +61,9 @@ class Settings:
     )
     gsc_callback_port: int = _get_int("GSC_CALLBACK_PORT", 8765)
 
+    # Embeddings (RAG sémantique)
+    voyage_api_key: str = _get("VOYAGE_API_KEY")
+    voyage_model: str = _get("VOYAGE_MODEL", "voyage-3")
+
 
 settings = Settings()

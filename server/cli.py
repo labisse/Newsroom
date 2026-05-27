@@ -43,7 +43,7 @@ from server.sources import (
     x_trends,
 )
 from server.sources import gsc as gsc_mod
-from server.sources import gsc_oauth_local, gsc_storage, gsc_titles
+from server.sources import gsc_oauth_local, gsc_rag, gsc_storage, gsc_titles
 
 SOURCES: dict[str, Callable[[], dict[str, Any]]] = {
     "msn": msn.run,
@@ -350,6 +350,89 @@ def cmd_gsc_disconnect(project_slug: str) -> int:
     return 0
 
 
+def cmd_gsc_embed(
+    project_slug: str,
+    limit: int | None,
+    backend: str | None,
+) -> int:
+    """Génère ou régénère l'index sémantique d'un projet."""
+    print(f"Editorial Signal — GSC embed [{project_slug}]\n")
+
+    def on_progress(stage: str, current: int, total: int) -> None:
+        label = {
+            "prepare": "Préparation des textes",
+            "fit_tfidf": "Fit TF-IDF (vocab)",
+            "embed": "Embedding",
+            "save": "Sauvegarde",
+        }.get(stage, stage)
+        print(f"  → {label} ({total} items)")
+
+    started = time.perf_counter()
+    try:
+        meta = gsc_rag.build_index(
+            project_slug,
+            limit=limit,
+            backend=backend,
+            on_progress=on_progress,
+        )
+    except Exception as exc:  # noqa: BLE001
+        print(f"✗ {type(exc).__name__}: {exc}", file=sys.stderr)
+        traceback.print_exc()
+        return 1
+    elapsed = time.perf_counter() - started
+
+    print(f"\n  ✓ Index sémantique généré ({elapsed:.1f}s)")
+    print(f"    Backend  : {meta['backend']}")
+    print(f"    Dimension: {meta['dim']}")
+    print(f"    Vecteurs : {meta['count']}")
+    print(
+        f"    Sources  : {meta['used_titles']} titres scrapés, "
+        f"{meta['used_slugs']} via slug nettoyé"
+    )
+    print(f"    Fichier  : data/projects/{project_slug}/embeddings.npz")
+    return 0
+
+
+def cmd_gsc_search(
+    project_slug: str,
+    query: str,
+    top_k: int,
+    rerank_by_clicks: bool,
+) -> int:
+    """Recherche sémantique top-K dans l'historique d'un projet."""
+    print(f"Editorial Signal — GSC search [{project_slug}]\n")
+    print(f'  Query : "{query}"')
+    if rerank_by_clicks:
+        print("  Re-ranking par clicks Discover activé")
+    print()
+
+    try:
+        results = gsc_rag.search_similar(
+            project_slug,
+            query,
+            top_k=top_k,
+            rerank_by_clicks=rerank_by_clicks,
+        )
+    except Exception as exc:  # noqa: BLE001
+        print(f"✗ {type(exc).__name__}: {exc}", file=sys.stderr)
+        return 1
+
+    if not results:
+        print("(aucun résultat)")
+        return 0
+
+    for i, r in enumerate(results, 1):
+        title = r["title"] or "(slug)"
+        print(
+            f"  #{i:>2} sim={r['similarity']:.3f}"
+            f" · {r['clicks']:>7,} clicks".replace(",", " ")
+        )
+        print(f"      {title[:100]}")
+        print(f"      {r['url'][:100]}")
+        print()
+    return 0
+
+
 def cmd_gsc_export_secret(project_slug: str) -> int:
     """Affiche le refresh token + nom du secret GitHub à créer."""
     try:
@@ -563,6 +646,41 @@ def main(argv: list[str] | None = None) -> int:
         help="Nb max d'URLs à scraper par projet (défaut 500)",
     )
 
+    p_gsc_embed = sub.add_parser(
+        "gsc-embed",
+        help="Génère l'index sémantique d'un projet (embeddings)",
+    )
+    p_gsc_embed.add_argument("--project", required=True)
+    p_gsc_embed.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Nb max d'URLs à embedder (par clicks décroissants)",
+    )
+    p_gsc_embed.add_argument(
+        "--backend",
+        choices=["voyage", "tfidf"],
+        default=None,
+        help="Force le backend (par défaut auto-détection via .env)",
+    )
+
+    p_gsc_search = sub.add_parser(
+        "gsc-search",
+        help="Recherche sémantique top-K dans l'historique d'un projet",
+    )
+    p_gsc_search.add_argument("--project", required=True)
+    p_gsc_search.add_argument(
+        "--query", required=True, help="Texte de recherche"
+    )
+    p_gsc_search.add_argument(
+        "--top", type=int, default=10, help="Nb de résultats (défaut 10)"
+    )
+    p_gsc_search.add_argument(
+        "--rerank-by-clicks",
+        action="store_true",
+        help="Boost les contenus déjà performants par clicks historiques",
+    )
+
     args = parser.parse_args(argv)
 
     if args.cmd == "fetch-all":
@@ -592,6 +710,12 @@ def main(argv: list[str] | None = None) -> int:
             days=args.days,
             scrape_titles=args.scrape_titles,
             scrape_limit=args.scrape_limit,
+        )
+    if args.cmd == "gsc-embed":
+        return cmd_gsc_embed(args.project, args.limit, args.backend)
+    if args.cmd == "gsc-search":
+        return cmd_gsc_search(
+            args.project, args.query, args.top, args.rerank_by_clicks
         )
 
     parser.print_help()
