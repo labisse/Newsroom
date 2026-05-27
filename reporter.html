@@ -17,8 +17,70 @@
     <link rel="stylesheet" href="styles/base.css?v=tbr3" />
     <link rel="stylesheet" href="styles/components.css?v=tbr3" />
     <link rel="stylesheet" href="styles/reporter.css?v=tbr3" />
+    <!-- Anti-FOUC : si pas de session valide, lock l'HTML avant le rendu -->
+    <script>
+      (function () {
+        try {
+          var raw = localStorage.getItem("tbr-auth-session");
+          var session = raw ? JSON.parse(raw) : null;
+          if (!session || typeof session.expires !== "number" || Date.now() >= session.expires) {
+            document.documentElement.classList.add("is-locked");
+          }
+        } catch (e) {
+          document.documentElement.classList.add("is-locked");
+        }
+      })();
+    </script>
   </head>
   <body>
+    <!-- Auth gate — modal de connexion (cf scripts/auth.js) -->
+    <div class="auth-gate" id="auth-gate" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+      <div class="auth-gate__card">
+        <div class="auth-gate__brand">
+          <img class="auth-gate__brand-logo" src="assets/logo-tbr.svg" alt="" />
+          <div class="auth-gate__brand-text">
+            <span class="auth-gate__brand-product">Editorial Signal</span>
+            <span class="auth-gate__brand-tag">The <em>Black</em> Room</span>
+          </div>
+        </div>
+        <h2 class="auth-gate__title" id="auth-title">Accès restreint</h2>
+        <p class="auth-gate__deck">
+          POC en cours · accès réservé à l'équipe et aux testeurs validés.
+        </p>
+        <form class="auth-gate__form" id="auth-form" novalidate autocomplete="off">
+          <div class="auth-gate__field">
+            <label class="auth-gate__label" for="auth-email">Email</label>
+            <input
+              class="auth-gate__input"
+              type="email"
+              id="auth-email"
+              name="email"
+              placeholder="contact@…"
+              autocomplete="email"
+              required
+            />
+          </div>
+          <div class="auth-gate__field">
+            <label class="auth-gate__label" for="auth-password">Mot de passe</label>
+            <input
+              class="auth-gate__input"
+              type="password"
+              id="auth-password"
+              name="password"
+              placeholder="••••••••"
+              autocomplete="current-password"
+              required
+            />
+          </div>
+          <div class="auth-gate__error" id="auth-error" role="alert"></div>
+          <button class="btn btn--primary auth-gate__submit" type="submit">Accéder</button>
+        </form>
+        <p class="auth-gate__footer">
+          Session conservée 7 jours sur ce navigateur.
+        </p>
+      </div>
+    </div>
+
     <header class="shell-header">
       <a class="brand" href="index.html" aria-label="The Black Room — Editorial Signal">
         <img class="brand__logo" src="assets/logo-tbr.svg" alt="" />
@@ -35,8 +97,12 @@
       </nav>
       <div class="shell-user">
         <span class="shell-user__role">Rédactrice · People</span>
-        <span class="shell-user__avatar">SM</span>
-      </div>
+        <button
+          class="shell-user__avatar"
+          type="button"
+          data-auth-logout
+          title="Cliquer pour se déconnecter"
+        >SM</button></div>
     </header>
 
     <main class="reporter-page content">
@@ -90,6 +156,7 @@
       </section>
     </main>
 
+    <script type="module" src="scripts/auth.js"></script>
     <script type="module" src="scripts/reporter.js"></script>
   </body>
 </html>
