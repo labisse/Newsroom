@@ -45,7 +45,7 @@ _OK_HTML = """<!doctype html>
 <body>
   <div class="card">
     <h1>Connexion réussie</h1>
-    <p>Le projet <code>{project}</code> est désormais connecté à Google Search Console.</p>
+    <p>Le projet <code>__PROJECT__</code> est désormais connecté à Google Search Console.</p>
     <p>Tu peux fermer cet onglet et retourner au terminal.</p>
   </div>
 </body>
@@ -71,7 +71,7 @@ _ERR_HTML = """<!doctype html>
 <body>
   <div class="card">
     <h1>Échec de l'authentification</h1>
-    <pre>{error}</pre>
+    <pre>__ERROR__</pre>
   </div>
 </body>
 </html>
@@ -112,7 +112,7 @@ def _build_handler(result: _CallbackResult, expected_state: str):
             if err:
                 result.received = True
                 result.error = err
-                self._respond_html(400, _ERR_HTML.format(error=err))
+                self._respond_html(400, _ERR_HTML.replace("__ERROR__", err))
                 return
 
             if state != expected_state:
@@ -120,13 +120,17 @@ def _build_handler(result: _CallbackResult, expected_state: str):
                 result.error = (
                     "State CSRF mismatch — possible attaque ou session expirée."
                 )
-                self._respond_html(400, _ERR_HTML.format(error=result.error))
+                self._respond_html(
+                    400, _ERR_HTML.replace("__ERROR__", result.error)
+                )
                 return
 
             if not code:
                 result.received = True
                 result.error = "Pas de code dans la réponse Google."
-                self._respond_html(400, _ERR_HTML.format(error=result.error))
+                self._respond_html(
+                    400, _ERR_HTML.replace("__ERROR__", result.error)
+                )
                 return
 
             result.received = True
@@ -134,7 +138,9 @@ def _build_handler(result: _CallbackResult, expected_state: str):
             result.state = state
             # Le slug sera décodé depuis le state côté caller
             _, slug = gsc.parse_state(state)
-            self._respond_html(200, _OK_HTML.format(project=slug or "?"))
+            self._respond_html(
+                200, _OK_HTML.replace("__PROJECT__", slug or "?")
+            )
 
         def _respond_html(self, status: int, body: str) -> None:
             self.send_response(status)
@@ -168,20 +174,41 @@ def run_oauth_flow(
 
     result = _CallbackResult()
     handler_cls = _build_handler(result, expected_state=state)
-    server = HTTPServer(("127.0.0.1", port), handler_cls)
 
-    thread = threading.Thread(target=server.serve_forever, daemon=True)
-    thread.start()
+    # SO_REUSEADDR évite "Address already in use" si un run précédent
+    # a été tué brutalement (socket en TIME_WAIT côté macOS/Linux).
+    class _ReusableHTTPServer(HTTPServer):
+        allow_reuse_address = True
 
-    print(f"  Mini-serveur OAuth actif sur http://127.0.0.1:{port}/callback")
-    if open_browser:
-        print("  Ouverture du navigateur vers Google…")
-        webbrowser.open(url, new=2)
-    else:
-        print(f"  Ouvre manuellement : {url}")
-
-    started = time.time()
     try:
+        server = _ReusableHTTPServer(("127.0.0.1", port), handler_cls)
+    except OSError as exc:
+        if exc.errno in (48, 98):  # EADDRINUSE (mac=48, linux=98)
+            raise RuntimeError(
+                f"Port {port} occupé par un autre process. "
+                f"Vérifie avec `lsof -i :{port}` et tue le process, "
+                f"ou change GSC_CALLBACK_PORT dans .env (et l'URI dans GCP)."
+            ) from exc
+        raise
+
+    # Ensure socket is always released even on unexpected error (KeyboardInterrupt,
+    # webbrowser.open() failures, etc.) — sinon on bind le port et on bloque les
+    # runs suivants jusqu'au reboot.
+    try:
+        thread = threading.Thread(target=server.serve_forever, daemon=True)
+        thread.start()
+
+        print(f"  Mini-serveur OAuth actif sur http://127.0.0.1:{port}/callback")
+        if open_browser:
+            print("  Ouverture du navigateur vers Google…")
+            try:
+                webbrowser.open(url, new=2)
+            except Exception:
+                print(f"  (browser indisponible — ouvre manuellement : {url})")
+        else:
+            print(f"  Ouvre manuellement : {url}")
+
+        started = time.time()
         while not result.received:
             if time.time() - started > timeout_s:
                 raise RuntimeError(
@@ -189,8 +216,14 @@ def run_oauth_flow(
                 )
             time.sleep(0.2)
     finally:
-        server.shutdown()
-        server.server_close()
+        try:
+            server.shutdown()
+        except Exception:
+            pass
+        try:
+            server.server_close()
+        except Exception:
+            pass
 
     if result.error:
         raise RuntimeError(f"OAuth échoué : {result.error}")
