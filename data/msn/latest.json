@@ -1,95 +1,60 @@
 {
   "source": "msn",
-  "fetched_at": "2026-05-28T08:51:44Z",
+  "fetched_at": "2026-05-28T10:37:02Z",
   "market": "fr-fr",
   "count": 100,
   "articles": [
     {
-      "msn_id": "AA24deFt",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/affaire-patrick-bruel-la-maison-de-disques-de-l-artiste-prend-une-décision-forte/ar-AA24deFt?ocid=00000000",
-      "url_hash": "4bbd9667736b270f30a8bd42cc6007aa92d6c724b6dfa88dfbd854275184170f",
-      "title": "Affaire Patrick Bruel : la maison de disques de l'artiste prend une décision forte",
-      "abstract": "Alors que l’affaire Patrick Bruel prend toujours plus d’ampleur au vu des nombreux témoignages accusant l’artiste d’agressions sexuelles et de viols, la maison de disques du chanteur a pris une décision forte, a révélé le magazine Elle ce mercredi 27 mai 2026.",
-      "image_url": "https://th.bing.com/th?id=ORMS.f8482c3b8ddc42f5db13057f89a34321&pid=Wdp",
-      "source": "Femme Actuelle",
-      "category": "divertissement",
-      "topics": [
-        "Célébrités",
-        "Divertissement"
-      ],
-      "published_at": "2026-05-27T20:01:57Z",
-      "upvotes": 87,
-      "downvotes": 47,
-      "comments": 17
-    },
-    {
-      "msn_id": "AA24fsal",
-      "url": "https://www.msn.com/fr-fr/actualite/monde/le-navire-de-guerre-de-ruyter-chassé-par-l-armée-chinoise-en-mer-de-chine-méridionale-les-pays-bas-accusés-de-violation-grave/ar-AA24fsal?ocid=00000000",
-      "url_hash": "1afcf3848d3ae98f2ac2bf6be2d7bce8393129574f3bec6a19e4acc2048882d0",
-      "title": "Le navire de guerre De Ruyter chassé par l’armée chinoise en mer de Chine méridionale, les Pays-Bas accusés de « violation grave »",
-      "abstract": "Le mouvement militaire n’a pas plus du tout à Pékin. L’armée chinoise revendique avoir mobilisé, ce mercredi, des moyens maritimes et aériens pour chasser un navire de guerre néerlandais d’eaux sous son contrôle en mer de Chine méridionale. Le commandement chinois « a mobilisé des forces navales et aériennes et, conformément aux lois et réglementat...",
-      "image_url": "https://th.bing.com/th?id=ORMS.6dfe5c869ef2953e3fee3ecbb9214583&pid=Wdp",
-      "source": "Le Parisien",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une",
-        "Monde"
-      ],
-      "published_at": "2026-05-28T05:55:43Z",
-      "upvotes": 11,
-      "downvotes": 7,
-      "comments": 1
-    },
-    {
-      "msn_id": "AA20K6oz",
-      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/leroy-merlin-c-est-fini-ce-magasin-de-6-000-m-ferme-ses-portes-gros-déstockage-en-vue-pour-tous-les-clients/ar-AA20K6oz?ocid=00000000",
-      "url_hash": "48e94f717db94f8b41e50cfdaa5ab580a9ee90a9fc3af7ac0eadde4438d0cce7",
-      "title": "Leroy Merlin c’est fini : ce magasin de 6 000 m² ferme ses portes, gros déstockage en vue pour tous les clients",
-      "abstract": "Leroy Merlin tourne une page avec une fermeture à venir. En attendant, un déstockage massif crée un afflux inattendu en magasin.",
-      "image_url": "https://th.bing.com/th?id=ORMS.2ad40984b184f4782d6fd680da0f5edc&pid=Wdp",
+      "msn_id": "AA24d5Op",
+      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/je-sais-que-ça-peut-déplaire-à-certains-patrick-bruel-marine-le-pen-monte-au-créneau-après-la-plainte-de-flavie-flament/ar-AA24d5Op?ocid=00000000",
+      "url_hash": "176270ad0e91ccead95a32e29be4678b08ec2a282776e3de5948bdb19f97af85",
+      "title": "« Je sais que ça peut déplaire à certains » : Patrick Bruel, Marine Le Pen monte au créneau après la plainte de Flavie Flament",
+      "abstract": "Suite aux plaintes pour agressions sexuelles et viols contre Patrick Bruel, Marine Le Pen s’est exprimée sur le sujet.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1NJJH2.img",
       "source": "Marie France",
       "category": "lifestyle",
       "topics": [
         "Lifestyle"
       ],
-      "published_at": "2026-05-27T13:35:13Z",
-      "upvotes": 267,
-      "downvotes": 171,
-      "comments": 29
+      "published_at": "2026-05-27T17:09:31Z",
+      "upvotes": 74,
+      "downvotes": 44,
+      "comments": 15
     },
     {
-      "msn_id": "AA23rV94",
-      "url": "https://www.msn.com/fr-fr/auto/actualite/pourquoi-de-plus-en-plus-d-automobilistes-roulent-à-cette-vitesse-précise-sur-autoroute-15-de-carburant-économisé-les-mécaniciens-confirment/ar-AA23rV94?ocid=00000000",
-      "url_hash": "40d7b9981a5149f789b997e7a913d229de0a923711ae8577b8022c225685c50b",
-      "title": "Pourquoi de plus en plus d’automobilistes roulent à cette vitesse précise sur autoroute : 15 % de carburant économisé, les mécaniciens confirment",
-      "abstract": "La hausse des prix du carburant met en lumière l’importance de l’éco-conduite. Les automobilistes subissent une répercussion directe sur leur dépenses carburants, surtout avec la montée récente des tarifs. Cette situation arrive au moment des ponts du mois de mai et avant les vacances d’été, quand la circulation est plus dense. Beaucoup se demanden...",
-      "image_url": "https://th.bing.com/th?id=ORMS.9563255a0a14a84496dc0db953ac2844&pid=Wdp",
-      "source": "L'Automobiliste",
-      "category": "auto",
-      "topics": [],
-      "published_at": "2026-05-18T05:15:00Z",
-      "upvotes": 141,
-      "downvotes": 115,
-      "comments": 69
-    },
-    {
-      "msn_id": "AA24aHo5",
-      "url": "https://www.msn.com/fr-fr/sport/tennis/novak-djokovic-sur-gaël-monfils-désolé-il-fallait-que-je-le-dise/ar-AA24aHo5?ocid=00000000",
-      "url_hash": "2e3381fd27cdf0596a6ef4d3fd8a1e86ef6f641073836085dddedfe7b6010500",
-      "title": "Novak Djokovic sur Gaël Monfils : « Désolé, il fallait que je le dise »",
-      "abstract": "S’il a rendu un vibrant hommage à Gaël Monfils, qui a disputé son dernier match à Roland‐Garros, le Serbe n’a toute­fois pas résisté à l’envie de glisser une petite plai­san­terie sur son bilan face au Français (vingt victoires à zéro), sans citer les chiffres, évidem­ment. « Je lui ai dit, et je l’ai aussi dit aux […]",
-      "image_url": "https://th.bing.com/th?id=ORMS.7dfc9d946ed5f82dc0a731e60a08a8bc&pid=Wdp",
-      "source": "We Love Tennis",
-      "category": "sport",
+      "msn_id": "AA243UKB",
+      "url": "https://www.msn.com/fr-fr/finance/autres/cauet-renvoyé-ce-salaire-hallucinant-qu-il-touchait-chez-nrj/ar-AA243UKB?ocid=00000000",
+      "url_hash": "c57119c6fe27d371621569e27ce54b498ae6e412caf37ad2696d03f149926bc4",
+      "title": "Cauet renvoyé : ce salaire hallucinant qu’il touchait chez NRJ",
+      "abstract": "Alors qu’il revient dans l’actualité judiciaire, le nom de Cauet refait aussi surgir une vieille question : combien gagnait vraiment l’animateur star de NRJ ?",
+      "image_url": "https://th.bing.com/th?id=ORMS.a1e1ed5f2a749336bd285b4aa5ad021c&pid=Wdp",
+      "source": "Public : Actu People en continu",
+      "category": "finance",
       "topics": [
-        "Tennis",
-        "Sport"
+        "Finance"
       ],
-      "published_at": "2026-05-27T08:55:00Z",
-      "upvotes": 158,
-      "downvotes": 64,
+      "published_at": "2026-05-26T06:00:00Z",
+      "upvotes": 78,
+      "downvotes": 75,
       "comments": 7
+    },
+    {
+      "msn_id": "AA24eKPw",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/la-russie-est-confrontée-à-un-déclin-démographique-catastrophique-dans-l-extrême-orient/ar-AA24eKPw?ocid=00000000",
+      "url_hash": "e8768a1a92842894b1ead21161c978feb9befde128a12d9fadce0b1d7a468b43",
+      "title": "La Russie est confrontée à un déclin démographique catastrophique dans l’Extrême-Orient",
+      "abstract": "Principaux renseignements L’Extrême-Orient russe est actuellement confronté à un déclin démographique catastrophique, une situation qualifiée de « tempête parfaite » par Paul Goble, expert de la Jamestown Foundation. Ce territoire stratégique, qui s’étend de la Sibérie au Pacifique et partage des frontières avec la Mongolie, la Corée du Nord et la Chine, connaît une baisse […]",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24eXof.img",
+      "source": "Business AM (Français)",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T05:02:00Z",
+      "upvotes": 32,
+      "downvotes": 3,
+      "comments": 10
     },
     {
       "msn_id": "AA22v1Lv",
@@ -105,9 +70,78 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-25T11:00:30Z",
-      "upvotes": 403,
-      "downvotes": 144,
+      "upvotes": 410,
+      "downvotes": 149,
       "comments": 7
+    },
+    {
+      "msn_id": "AA24aLmd",
+      "url": "https://www.msn.com/fr-fr/sport/other/gaël-da-silva-tué-dans-un-accident-de-la-route/ar-AA24aLmd?ocid=00000000",
+      "url_hash": "cdc005f58777c2e592d5820bfa1d7e6ede0859f98a1631e88eda834084d716ce",
+      "title": "Gaël Da Silva tué dans un accident de la route",
+      "abstract": "Médaillé européen en 2012, l'ancien gymnaste Gaël Da Silva (41 ans) est décédé mardi matin dans un terrible accident de la route. C'est avec un profond chagrin que le monde de la gymnastique a appr...",
+      "image_url": "https://th.bing.com/th?id=ORMS.01ac1338053638ca745637032108a879&pid=Wdp",
+      "source": "L'Equipe",
+      "category": "sport",
+      "topics": [
+        "Sport"
+      ],
+      "published_at": "2026-05-27T10:59:17Z",
+      "upvotes": 70,
+      "downvotes": 34,
+      "comments": 2
+    },
+    {
+      "msn_id": "AA24bxlD",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/un-chauffeur-de-taxi-suit-le-conseil-d-un-passager-son-cancer-détecté-à-temps-il-est-aujourd-hui-guéri/ar-AA24bxlD?ocid=00000000",
+      "url_hash": "f7b48eb9a215840d22f25bacb5826018eeaba7a15688cb5000a5c719c5dcb881",
+      "title": "Un chauffeur de taxi suit le conseil d’un passager : son cancer détecté à temps, il est aujourd’hui guéri",
+      "abstract": "À Glasgow, en Écosse, un chauffeur de taxi de 66 ans affirme avoir été sauvé d’un cancer de la prostate grâce à une conversation avec un passager engagé dans une association de prévention contre cette maladie",
+      "image_url": "https://th.bing.com/th?id=ORMS.c2ce6527c00cf6758cd73ceb163c650b&pid=Wdp",
+      "source": "20 Minutes",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-27T11:32:36Z",
+      "upvotes": 54,
+      "downvotes": 15,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24aTsZ",
+      "url": "https://www.msn.com/fr-fr/actualite/elections/bruno-retailleau-face-à-un-piège-politique-déjà-visible-dans-les-sondages/ar-AA24aTsZ?ocid=00000000",
+      "url_hash": "88558a02ee1f87a80db304a9706ad06325d14a6c7c436ababfe1e54dd54c2c05",
+      "title": "Bruno Retailleau face à un piège politique déjà visible dans les sondages",
+      "abstract": "Dans le sondage Toluna Harris Interactive pour M6 et RTL sur la présidentielle 2027, le cas de Bruno Retailleau est particulièrement révélateur. Le président des Républicains est crédité de 9 % à 13 % selon les configurations testées. Ce grand écart montre à quel point la droite traditionnelle évolue dans un espace politique instable. Le score de Bruno Retailleau dépend fortement des candidats présents autour de lui. Lorsque Jordan Bardella et...",
+      "image_url": "https://th.bing.com/th?id=ORMS.d02ce0e53d899bfd4a3f5cf400e6bdfb&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-27T11:36:00Z",
+      "upvotes": 8,
+      "downvotes": 5,
+      "comments": 2
+    },
+    {
+      "msn_id": "AA24fZdq",
+      "url": "https://www.msn.com/fr-fr/finance/autres/patrick-sébastien-pris-en-flagrant-délit-de-mensonge-ces-millions-d-euros-que-france-télévisions-lui-aurait-versés/ar-AA24fZdq?ocid=00000000",
+      "url_hash": "29b9d43e570da582637ee6c74874e676cb7fe7e667eec76ad5a8c05222e79dcd",
+      "title": "Patrick Sébastien pris en flagrant délit de mensonge ? Ces millions d’euros que France Télévisions lui aurait versés",
+      "abstract": "Patrick Sébastien est de nouveau au centre d’une polémique autour de ses années passées sur France 2. Cette fois, ce sont les revenus générés par ses sociétés qui sont concernés.",
+      "image_url": "https://th.bing.com/th?id=ORMS.4b50e0300744c42f9ab08e0831060b71&pid=Wdp",
+      "source": "Télé star",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-28T07:15:18Z",
+      "upvotes": 5,
+      "downvotes": 8,
+      "comments": 1
     },
     {
       "msn_id": "AA24fCGN",
@@ -123,61 +157,28 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-28T07:51:11Z",
-      "upvotes": 2,
-      "downvotes": 0,
-      "comments": 0
+      "upvotes": 47,
+      "downvotes": 13,
+      "comments": 5
     },
     {
-      "msn_id": "AA24aLmd",
-      "url": "https://www.msn.com/fr-fr/sport/other/gaël-da-silva-tué-dans-un-accident-de-la-route/ar-AA24aLmd?ocid=00000000",
-      "url_hash": "cdc005f58777c2e592d5820bfa1d7e6ede0859f98a1631e88eda834084d716ce",
-      "title": "Gaël Da Silva tué dans un accident de la route",
-      "abstract": "Médaillé européen en 2012, l'ancien gymnaste Gaël Da Silva (41 ans) est décédé mardi matin dans un terrible accident de la route. C'est avec un profond chagrin que le monde de la gymnastique a appr...",
-      "image_url": "https://th.bing.com/th?id=ORMS.01ac1338053638ca745637032108a879&pid=Wdp",
-      "source": "L'Equipe",
-      "category": "sport",
+      "msn_id": "AA24ayu5",
+      "url": "https://www.msn.com/fr-fr/finance/economie/ah-bon-c-est-ça-le-sexisme-schneider-electric-bnp-paribas-les-entreprises-en-lutte-contre-le-sexisme-ordinaire/ar-AA24ayu5?ocid=00000000",
+      "url_hash": "22a7a5e2ea4600836234094add2cf50261bffbe25572cf8b963aef63ab40f9eb",
+      "title": "« Ah bon, c’est ça le sexisme ? » Schneider Electric, BNP Paribas... Les entreprises en lutte contre le sexisme ordinaire",
+      "abstract": "Des formations sont mises en place pour aider à détecter les propos problématiques et apprendre aux victimes ou aux témoins à réagir.",
+      "image_url": "https://th.bing.com/th?id=ORMS.9cfa13626d91ab12eef4531dc61320a7&pid=Wdp",
+      "source": "Le Figaro",
+      "category": "finance",
       "topics": [
-        "Sport"
+        "Finance",
+        "Économie",
+        "Actu éco"
       ],
-      "published_at": "2026-05-27T10:59:17Z",
-      "upvotes": 66,
-      "downvotes": 30,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA24aAxp",
-      "url": "https://www.msn.com/fr-fr/actualite/other/elle-déteste-ça-donald-trump-révèle-la-remarque-de-melania-qui-en-dit-long-sur-sa-danse-culte/ar-AA24aAxp?ocid=00000000",
-      "url_hash": "ebe4a4c65fc741340ebb79b045480988e94aac590eed8f3fafb628a253ce0d3d",
-      "title": "« Elle déteste ça » : Donald Trump révèle la remarque de Melania qui en dit long sur sa danse culte",
-      "abstract": "C’est une petite phrase qui a immédiatement attiré l’attention, parce qu’elle mêle politique, couple présidentiel, humour et mise en scène publique. Lors d’une prise de parole en Floride, Donald Trump a raconté ce que son épouse, Melania Trump, pensait vraiment de ses célèbres pas de danse sur YMCA, le tube culte des Village People devenu l’un des morceaux les plus associés à ses rassemblements. Et la réponse de la Première dame serait beaucoup...",
-      "image_url": "https://th.bing.com/th?id=ORMS.84a04b64a0fb0126cdef3c0a2bcbe333&pid=Wdp",
-      "source": "So Busy Girls",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-27T09:37:00Z",
-      "upvotes": 10,
-      "downvotes": 12,
-      "comments": 1
-    },
-    {
-      "msn_id": "AA246KuP",
-      "url": "https://www.msn.com/fr-fr/divertissement/actualite/les-chiens-ont-été-cool-les-mecs-avaient-des-cagoules-michaël-youn-réagit-à-son-home-jacking-avec-une-blague-inattendue/ar-AA246KuP?ocid=00000000",
-      "url_hash": "13482c9068f2edfd4eee33e8d740d2d78e1b15accef579019c16ae9dfaadd043",
-      "title": "« Les chiens ont été cool, les mecs avaient des cagoules » : Michaël Youn réagit à son home-jacking avec une blague inattendue",
-      "abstract": "Victime d'un home-jacking traumatisant, Michaël Youn a choisi l'humour pour réagir. Sa première pensée s'est tournée vers ses chiens avec une blague géniale.",
-      "image_url": "https://th.bing.com/th?id=ORMS.ed4e08fb3793a8aac6be631ee5e29caa&pid=Wdp",
-      "source": "Histoire d'animaux",
-      "category": "divertissement",
-      "topics": [
-        "Divertissement"
-      ],
-      "published_at": "2026-05-26T18:06:38Z",
-      "upvotes": 29,
-      "downvotes": 14,
-      "comments": 2
+      "published_at": "2026-05-27T10:00:00Z",
+      "upvotes": 6,
+      "downvotes": 5,
+      "comments": 5
     },
     {
       "msn_id": "AA24dg1y",
@@ -193,9 +194,219 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-27T17:58:20Z",
-      "upvotes": 102,
-      "downvotes": 31,
-      "comments": 29
+      "upvotes": 144,
+      "downvotes": 46,
+      "comments": 44
+    },
+    {
+      "msn_id": "AA23tz3X",
+      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/retraite-si-vous-touchez-plus-que-cette-pension-chaque-mois-vous-êtes-plus-riche-que-la-moyenne-des-seniors-en-france-en-2026/ar-AA23tz3X?ocid=00000000",
+      "url_hash": "fdc9ff0e2dc0820da55c2b01597b93b48d56c8bb229484774f06b0638073c447",
+      "title": "Retraite : si vous touchez plus que cette pension chaque mois, vous êtes plus riche que la moyenne des seniors en France en 2026",
+      "abstract": "Êtes-vous considéré comme riche en France en 2026 ? Tout dépend du montant de votre pension si vous êtes à la retraite, et la réponse est oui si vous dépassez cette somme chaque mois sur votre compte en banque.",
+      "image_url": "https://th.bing.com/th?id=ORMS.b7f750a9fc6b1e79f4f839e59f43cf76&pid=Wdp",
+      "source": "Marie France",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-18T09:48:48Z",
+      "upvotes": 390,
+      "downvotes": 464,
+      "comments": 68
+    },
+    {
+      "msn_id": "AA246cRR",
+      "url": "https://www.msn.com/fr-fr/lifestyle/other/pourquoi-la-relation-entre-maria-carolina-de-bourbon-et-jordan-bardella-met-sa-sœur-maria-chiara-dans-une-situation-délicate/ar-AA246cRR?ocid=00000000",
+      "url_hash": "3fbacd3148dafb99eb1fe4893a774a84d1f789f0bfe159cb8e060abce6865130",
+      "title": "Pourquoi la relation entre Maria Carolina de Bourbon et Jordan Bardella met sa sœur Maria Chiara dans une situation délicate",
+      "abstract": "Depuis plusieurs mois, la relation entre Maria Carolina de Bourbon des Deux-Siciles et Jordan Bardella ne cesse de faire parler. D’abord discrète, cette histoire d’amour a franchi un cap décisif lorsque le couple a été aperçu lors d’une escapade en Corse, photos à l’appui. Cette exposition médiatique a immédiatement suscité de nombreuses réactions, notamment en raison du statut politique de Jordan Bardella. Lire aussi : \"Elle vit très bien\" la...",
+      "image_url": "https://th.bing.com/th?id=ORMS.e02bd33b221d5fb0054cd1dff850f9e0&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-26T12:04:00Z",
+      "upvotes": 6,
+      "downvotes": 2,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24d1HO",
+      "url": "https://www.msn.com/fr-fr/sport/tennis/novak-djokovic-après-sa-victoire-contre-valentin-royer-j-espère-ne-plus-jouer-contre-un-français-avant-la-fin-du-tournoi/ar-AA24d1HO?ocid=00000000",
+      "url_hash": "229e0daef88ba048919a5adeab43c3aa18bf09d81a7f43d5955b9eaa526707dc",
+      "title": "Novak Djokovic, après sa victoire contre Valentin Royer : « J’espère ne plus jouer contre un Français avant la fin du tournoi »",
+      "abstract": "Programmé en pleine après‐midi ce mercredi sur le court Philippe‐Chatrier et sous le cagnard pari­sien, Novak Djokovic a géré avec beau­coup d’ex­pé­rience les condi­tions de jeu compli­quées. Malgré un set lâché en route face au Français, Valentin Royer, le Serbe s’est imposé après 3h45 d’une belle bataille : 6–3, 6–2, 6–7(7), 6–3. Souvent bous­culé par un […]",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24cYX2.img",
+      "source": "We Love Tennis",
+      "category": "sport",
+      "topics": [
+        "Tennis",
+        "Sport"
+      ],
+      "published_at": "2026-05-27T18:10:00Z",
+      "upvotes": 68,
+      "downvotes": 23,
+      "comments": 2
+    },
+    {
+      "msn_id": "AA24fBje",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/les-européens-veulent-éviter-le-piège-de-poutine-sur-l-ukraine/ar-AA24fBje?ocid=00000000",
+      "url_hash": "94709dbf74669e453a6c35830c2303086c8eb706ee0a1a67434b22271664c7c0",
+      "title": "Les Européens veulent éviter le « piège » de Poutine sur l'Ukraine",
+      "abstract": "Les Européens doivent éviter le \"piège\" russe au moment où ils discutent de l'éventualité de nommer un médiateur européen pour la guerre en Ukraine, a averti jeudi la cheffe de la diplomatie de l'Union européenne, Kaja Kallas. \"Je pense que c'est un piège dans lequel la Russie veut nous faire tomber: que nous discutions de qui leur parle\", a toutefois mis en garde Mme Kallas, lors d'une réunion des ministres des Affaires étrangères de l'Union...",
+      "image_url": "https://th.bing.com/th?id=ORMS.4bafa2db39e718618dc979d8e234ded9&pid=Wdp",
+      "source": "AFP",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une",
+        "Monde"
+      ],
+      "published_at": "2026-05-27T20:29:18Z",
+      "upvotes": 2,
+      "downvotes": 0,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA23GFWY",
+      "url": "https://www.msn.com/fr-fr/finance/autres/la-chute-terrible-de-lacoste-comment-une-marque-de-luxe-s-est-détruite/vi-AA23GFWY?ocid=00000000",
+      "url_hash": "07c7105875d4b908f0d96848a1f66b49daf2ad82d5b85f181c2e077fbc2dab92",
+      "title": "La chute terrible de Lacoste | Comment une marque de luxe s'est détruite",
+      "abstract": "Les outils gratuits pour créer votre business 👨‍💻 Lacoste : chute, scandales et renaissance Lacoste, c’est bien plus qu’un polo. C’est l’histoire d’un sportif malade devenu champion du monde. D’un logo qui a conquis la planète… avant de tout perdre. Dans cette vidéo, on explore comment la marque française a failli sombrer, et surtout comment elle est en train de revenir au sommet. Un cas d’école pour tous ceux qui veulent lancer un produit haut de gamme… ou sauver une marque en crise. Comment Lacoste a ruiné son image premium (et perdu des milliards) 🔎 Au programme : branding, luxe, stratégie, distribution, image, contrefaçon, collaborations Netflix et guerre des logos. 👇 Dites-moi en commentaire : quelle autre marque on analyse la prochaine fois ? 00:00 Intro — Le crocodile ne mord plus aussi fort 01:42 Chapitre 1 — Le malade qui voulait devenir champion 03:26 Chapitre 2 — Le polo qui a cassé les codes 05:25 Chapitre 3 — Le crocodile dévoré par son propre succès 07:26 Chapitre 4 — Renaissance : la revanche du crocodile 10:43 Conclusion — L’art de renaître sans trahir ---------------------------------------------------------------------------------------------------------------------------------------------------------------- Tous les contenus de ces vidéos sont utilisés à des fins éducatives et respectent les directives d'utilisation équitable. Si vous êtes ou représentez le propriétaire des droits d'auteur du...",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA23GLst.img",
+      "source": "Entrepreneur Mindset",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-21T00:25:06Z",
+      "upvotes": 281,
+      "downvotes": 158,
+      "comments": 14
+    },
+    {
+      "msn_id": "AA24b3Ms",
+      "url": "https://www.msn.com/fr-fr/actualite/other/grand-plan-clim-réclamé-par-le-pen-c-est-se-moquer-du-monde-s-agace-copé-qui-dénonce-du-populisme/ar-AA24b3Ms?ocid=00000000",
+      "url_hash": "65d3d9569482d258c2c5d8a3c82dd84f816ab207e63de03abb178b5810550b59",
+      "title": "« Grand plan clim » réclamé par Le Pen : « C'est se moquer du monde », s'agace Copé qui dénonce « du populisme »",
+      "abstract": "Le maire LR de Meaux a réagi ce mercredi dans les Grandes Gueules à la réclamation de Marine Le Pen d'adopter un \"grand plan climatisation\", pour faire face aux grandes chaleurs. \"Une illustration du populisme\", tacle ainsi Jean-François Copé.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24aOzo.img",
+      "source": "RMC",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-27T11:38:59Z",
+      "upvotes": 32,
+      "downvotes": 70,
+      "comments": 63
+    },
+    {
+      "msn_id": "AA24azgg",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/il-devait-recevoir-des-milliards-de-dollars-le-conseil-de-paix-de-donald-trump-tourne-au-fiasco/ar-AA24azgg?ocid=00000000",
+      "url_hash": "29e7909be9600f86aad4b7c7dfc0ccf922bd42526d7768dec273c33673834db3",
+      "title": "Il devait recevoir des milliards de dollars : le Conseil de paix de Donald Trump tourne au fiasco",
+      "abstract": "Dans un article publié ce mercredi 27 mai, le Financial Times, média américain, révèle que le concurrent à l'ONU voulu par Donald Trump n'a, en réalité, aucun financement officiel.",
+      "image_url": "https://th.bing.com/th?id=ORMS.53706f069875907b435b2ac83fa0c655&pid=Wdp",
+      "source": "Actu",
+      "category": "actualite",
+      "topics": [
+        "Monde",
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-27T10:52:45Z",
+      "upvotes": 186,
+      "downvotes": 75,
+      "comments": 28
+    },
+    {
+      "msn_id": "AA246mkK",
+      "url": "https://www.msn.com/fr-fr/divertissement/tv/tf1-ça-vire-au-cauchemar-pour-la-chaîne/ar-AA246mkK?ocid=00000000",
+      "url_hash": "8aa9b01217848b9ae999f4ab4213ea07c577be778a833e3195a24e44c40dc3c8",
+      "title": "TF1 : ça vire au cauchemar pour la chaîne",
+      "abstract": "TF1 a fait un pari en ce lundi de Pentecôte en misant sur un film en plus d'une de ses émissions phares. Ce lundi 25 mai 2026, la sanction a été lourde pour la Une.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA246SQ5.img",
+      "source": "Toute La Télé",
+      "category": "divertissement",
+      "topics": [
+        "Divertissement"
+      ],
+      "published_at": "2026-05-26T14:45:33Z",
+      "upvotes": 71,
+      "downvotes": 40,
+      "comments": 6
+    },
+    {
+      "msn_id": "AA20QMwR",
+      "url": "https://www.msn.com/fr-fr/finance/autres/il-volait-à-2-286-mètres-d-altitude-puis-il-s-est-écrasé/vi-AA20QMwR?ocid=00000000",
+      "url_hash": "d129e8070d15803a3f2dd82e501881238ae64445a4ed6e92740915015090c271",
+      "title": "Il volait à 2 286 mètres d’altitude - puis il s’est écrasé",
+      "abstract": "Il vivait pour l’adrénaline et passait sa vie à repousser les limites du possible. Après des années de vols extrêmes, d’escalades sans corde et de sauts interdits, il a tenté un dernier passage à très haute altitude. Mais cette fois, la marge d’erreur était trop faible. Son parachute n’a jamais été ouvert. Une histoire vraie choquante sur le risque, l’obsession et le prix fatal de l’extrême.",
+      "image_url": "https://th.bing.com/th?id=ORMS.384cef09e4d724c2bb5048c174bf712f&pid=Wdp",
+      "source": "Comment Survivre",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-11T09:46:13Z",
+      "upvotes": 1049,
+      "downvotes": 651,
+      "comments": 30
+    },
+    {
+      "msn_id": "AA23KVnq",
+      "url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/structure-mystérieuse-découverte-sous-la-glace-de-l-antarctique/vi-AA23KVnq?ocid=00000000",
+      "url_hash": "fbeb981e8ca2c39b0260ed3341b3eaef345b241e73b32c18ce00dae30828009d",
+      "title": "Structure mystérieuse découverte sous la glace de l'Antarctique",
+      "abstract": "Des scientifiques explorant sous l'Antarctique ont pénétré plus profondément que jamais auparavant — et ce qui s'est passé ensuite a choqué tout le monde impliqué. Alors que l'équipe analysait le système souterrain gelé, des anomalies radar ont dépassé toutes les attentes, et les capteurs ont soudainement frappé une architecture massive elle-même, quelque chose que les chercheurs rencontrent presque jamais directement. La découverte a révélé des conditions si extrêmes que les équipements ont commencé à échouer sous le froid et la pression intenses. Mais l'expédition a également ouvert une rare fenêtre sur l'histoire cachée enfouie dans la glace en dessous. Regardez maintenant pour découvrir ce que les scientifiques ont trouvé après avoir cherché trop profondément en Antarctique.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA23LpqN.img",
+      "source": "SYMPA",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-21T19:48:40Z",
+      "upvotes": 57,
+      "downvotes": 30,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA230CkN",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/pourquoi-certaines-plaques-d-immatriculation-sont-elles-roses/ar-AA230CkN?ocid=00000000",
+      "url_hash": "89be7bfcc755e92be71e25b1c6fa5146aa1a42cef4e89c8a298de5ec002fce60",
+      "title": "Pourquoi certaines plaques d’immatriculation sont-elles roses ?",
+      "abstract": "Depuis le 1er janvier 2026, des véhicules avec de mystérieuses plaques roses circulent sur les routes françaises. Que signifient-elles et pourquoi le gouvernement a-t-il décidé de changer les règles ?",
+      "image_url": "https://th.bing.com/th?id=ORMS.a731ed3d2c7f5c01b88dcc4c9b3dea5d&pid=Wdp",
+      "source": "Le Figaro",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-12T13:31:00Z",
+      "upvotes": 556,
+      "downvotes": 256,
+      "comments": 24
+    },
+    {
+      "msn_id": "AA22UDWN",
+      "url": "https://www.msn.com/fr-fr/video/viral/navire-de-luxe-abandonné-depuis-100-ans-retrouvé-près-de-la-côte-des-bermudes/vi-AA22UDWN?ocid=00000000",
+      "url_hash": "c667c742f7c354ea20bacc4f13d84ccfeeda8ad66eb3de3152deb6808b8b3197",
+      "title": "Navire de luxe abandonné depuis 100 ans retrouvé près de la côte des Bermudes",
+      "abstract": "Un navire de luxe âgé de 100 ans vient d'être découvert près des côtes des Bermudes—et quelque chose à son sujet semble déconcertant. Le navire paraît intact, pourtant il n'y a pas d'équipage, aucune explication et aucun signe clair de ce qui s'est passé. C'est comme si le temps s'était figé... et que tout le monde avait simplement disparu. Cela a-t-il un lien avec le Triangle des Bermudes, ou bien se cache-t-il une histoire plus sombre derrière cette découverte mystérieuse ? Regardez jusqu'à la fin pour découvrir la vérité derrière ce mystère centenaire 👇 #bermudes #navirefantôme #mystère #mystèreocéanique #triangledesbermudes #épave Animation créée par Sympa. ---------------------------------------------------------------------------------------- Musique par Epidemic Sound https://www.epidemicsound.com Pour ne rien perdre de Sympa, abonnez-vous!: https://goo.gl/6E4Xna​ ---------------------------------------------------------------------------------------- Nos réseaux sociaux : Facebook: https://www.facebook.com/sympasympacom/ Instagram: https://www.instagram.com/sympa.officiel/ Stock de fichiers (photos, vidéos et autres): https://www.depositphotos.com https://www.shutterstock.com https://www.eastnews.ru ---------------------------------------------------------------------------------------- Si tu en veux encore plus, fais un tour ici: http://sympa-sympa.com",
+      "image_url": "https://th.bing.com/th?id=ORMS.af9907c317b598cbd7ead5fe9c5f84db&pid=Wdp",
+      "source": "Dailymotion",
+      "category": "video",
+      "topics": [],
+      "published_at": "2026-05-11T12:00:00Z",
+      "upvotes": 227,
+      "downvotes": 110,
+      "comments": 4
     },
     {
       "msn_id": "AA24bGiZ",
@@ -212,113 +423,9 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-27T12:40:42Z",
-      "upvotes": 80,
-      "downvotes": 27,
+      "upvotes": 90,
+      "downvotes": 30,
       "comments": 34
-    },
-    {
-      "msn_id": "AA249QxJ",
-      "url": "https://www.msn.com/fr-fr/actualite/monde/la-suède-les-disait-dépassés-l-ukraine-les-a-lâchés-sur-la-russie/vi-AA249QxJ?ocid=00000000",
-      "url_hash": "5da5cacb33a3e0a395b056fe226414db42ee5a6e7a9f0eef1da3d7e14157ced0",
-      "title": "La Suède les disait dépassés… L’Ukraine les a lâchés sur la Russie",
-      "abstract": "Plongez dans l’histoire incroyable du PBV 302, ce blindé suédois des années 60 qui fait un retour inattendu sur le front ukrainien ! Entre anecdotes, comparaisons avec les BMP soviétiques et retours terrain, découvrez comment la vieille école peut encore faire la différence. Abonnez-vous pour ne rien rater de nos analyses militaires et dites-nous en commentaire ce que vous avez préféré ! #Ukraine #militaire #Suède #histoire #technologie",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24azkI.img",
-      "source": "Le Spectacle Militaire",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-27T08:08:04Z",
-      "upvotes": 127,
-      "downvotes": 43,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA24d1HO",
-      "url": "https://www.msn.com/fr-fr/sport/tennis/novak-djokovic-après-sa-victoire-contre-valentin-royer-j-espère-ne-plus-jouer-contre-un-français-avant-la-fin-du-tournoi/ar-AA24d1HO?ocid=00000000",
-      "url_hash": "229e0daef88ba048919a5adeab43c3aa18bf09d81a7f43d5955b9eaa526707dc",
-      "title": "Novak Djokovic, après sa victoire contre Valentin Royer : « J’espère ne plus jouer contre un Français avant la fin du tournoi »",
-      "abstract": "Programmé en pleine après‐midi ce mercredi sur le court Philippe‐Chatrier et sous le cagnard pari­sien, Novak Djokovic a géré avec beau­coup d’ex­pé­rience les condi­tions de jeu compli­quées. Malgré un set lâché en route face au Français, Valentin Royer, le Serbe s’est imposé après 3h45 d’une belle bataille : 6–3, 6–2, 6–7(7), 6–3. Souvent bous­culé par un […]",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24cYX2.img",
-      "source": "We Love Tennis",
-      "category": "sport",
-      "topics": [
-        "Tennis",
-        "Sport"
-      ],
-      "published_at": "2026-05-27T18:10:00Z",
-      "upvotes": 47,
-      "downvotes": 15,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA230CkN",
-      "url": "https://www.msn.com/fr-fr/actualite/monde/pourquoi-certaines-plaques-d-immatriculation-sont-elles-roses/ar-AA230CkN?ocid=00000000",
-      "url_hash": "89be7bfcc755e92be71e25b1c6fa5146aa1a42cef4e89c8a298de5ec002fce60",
-      "title": "Pourquoi certaines plaques d’immatriculation sont-elles roses ?",
-      "abstract": "Depuis le 1er janvier 2026, des véhicules avec de mystérieuses plaques roses circulent sur les routes françaises. Que signifient-elles et pourquoi le gouvernement a-t-il décidé de changer les règles ?",
-      "image_url": "https://th.bing.com/th?id=ORMS.a731ed3d2c7f5c01b88dcc4c9b3dea5d&pid=Wdp",
-      "source": "Le Figaro",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-12T13:31:00Z",
-      "upvotes": 549,
-      "downvotes": 256,
-      "comments": 24
-    },
-    {
-      "msn_id": "AA246stY",
-      "url": "https://www.msn.com/fr-fr/video/actualite/la-monnaie-de-paris-lance-le-marianne-or-une-monnaie-d-investissement-en-or-pur/vi-AA246stY?ocid=00000000",
-      "url_hash": "6bb83e8c1410c1f1e9e52432031740df899435319acc33a7f47466abc8d38e7c",
-      "title": "La Monnaie de Paris lance le Marianne-or, une monnaie d'investissement en or pur",
-      "abstract": "La Monnaie de Paris lance le Marianne-or, une monnaie d'investissement en or pur, aussi appelée bullion, avec la possibilité soit de le détenir physiquement soit d'opter pour la forme dématérialisée.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA245VQP.img",
-      "source": "AFP",
-      "category": "video",
-      "topics": [],
-      "published_at": "2026-05-26T13:20:18Z",
-      "upvotes": 7,
-      "downvotes": 3,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA246cRR",
-      "url": "https://www.msn.com/fr-fr/lifestyle/other/pourquoi-la-relation-entre-maria-carolina-de-bourbon-et-jordan-bardella-met-sa-sœur-maria-chiara-dans-une-situation-délicate/ar-AA246cRR?ocid=00000000",
-      "url_hash": "3fbacd3148dafb99eb1fe4893a774a84d1f789f0bfe159cb8e060abce6865130",
-      "title": "Pourquoi la relation entre Maria Carolina de Bourbon et Jordan Bardella met sa sœur Maria Chiara dans une situation délicate",
-      "abstract": "Depuis plusieurs mois, la relation entre Maria Carolina de Bourbon des Deux-Siciles et Jordan Bardella ne cesse de faire parler. D’abord discrète, cette histoire d’amour a franchi un cap décisif lorsque le couple a été aperçu lors d’une escapade en Corse, photos à l’appui. Cette exposition médiatique a immédiatement suscité de nombreuses réactions, notamment en raison du statut politique de Jordan Bardella. Lire aussi : \"Elle vit très bien\" la...",
-      "image_url": "https://th.bing.com/th?id=ORMS.e02bd33b221d5fb0054cd1dff850f9e0&pid=Wdp",
-      "source": "So Busy Girls",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-26T12:04:00Z",
-      "upvotes": 5,
-      "downvotes": 0,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA1JOWAD",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/lily-rose-depp-en-couple-qui-est-sa-compagne-070-shake-dont-elle-est-follement-fière/ar-AA1JOWAD?ocid=00000000",
-      "url_hash": "ae1eed0d9ffeca6468027a2a2910e9ceef2762dde62a46d0224a06e0e40fcdb9",
-      "title": "Lily-Rose Depp en couple : qui est sa compagne 070 Shake dont elle est « follement fière » ?",
-      "abstract": "Depuis près de deux ans, Lily-Rose ne quitte plus la rappeuse 070 Shake. Mais qui est cette jeune femme ?",
-      "image_url": "https://th.bing.com/th?id=ORMS.5089201e31b4a3741e057c17a4672d78&pid=Wdp",
-      "source": "grazia",
-      "category": "divertissement",
-      "topics": [
-        "Célébrités",
-        "Divertissement"
-      ],
-      "published_at": "2026-05-27T05:28:18Z",
-      "upvotes": 73,
-      "downvotes": 197,
-      "comments": 19
     },
     {
       "msn_id": "AA24ccVD",
@@ -334,128 +441,27 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-27T12:38:49Z",
-      "upvotes": 99,
-      "downvotes": 42,
-      "comments": 43
+      "upvotes": 117,
+      "downvotes": 56,
+      "comments": 74
     },
     {
-      "msn_id": "AA23KVnq",
-      "url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/structure-mystérieuse-découverte-sous-la-glace-de-l-antarctique/vi-AA23KVnq?ocid=00000000",
-      "url_hash": "fbeb981e8ca2c39b0260ed3341b3eaef345b241e73b32c18ce00dae30828009d",
-      "title": "Structure mystérieuse découverte sous la glace de l'Antarctique",
-      "abstract": "Des scientifiques explorant sous l'Antarctique ont pénétré plus profondément que jamais auparavant — et ce qui s'est passé ensuite a choqué tout le monde impliqué. Alors que l'équipe analysait le système souterrain gelé, des anomalies radar ont dépassé toutes les attentes, et les capteurs ont soudainement frappé une architecture massive elle-même, quelque chose que les chercheurs rencontrent presque jamais directement. La découverte a révélé des conditions si extrêmes que les équipements ont commencé à échouer sous le froid et la pression intenses. Mais l'expédition a également ouvert une rare fenêtre sur l'histoire cachée enfouie dans la glace en dessous. Regardez maintenant pour découvrir ce que les scientifiques ont trouvé après avoir cherché trop profondément en Antarctique.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA23LpqN.img",
-      "source": "SYMPA",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-21T19:48:40Z",
-      "upvotes": 53,
-      "downvotes": 30,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24cPBf",
-      "url": "https://www.msn.com/fr-fr/sport/football/jean-philippe-mateta-offre-la-ligue-conférence-à-crystal-palace-tombeur-du-rayo-vallecano/vi-AA24cPBf?ocid=00000000",
-      "url_hash": "998dabd66745844b676bc8eceb63d9f5bd4c389332d235d315e8b6014f0396a6",
-      "title": "Jean-Philippe Mateta offre la Ligue Conférence à Crystal Palace, tombeur du Rayo Vallecano",
-      "abstract": "Crystal Palace a remporté la Ligue Conférence ce mercredi soir, en dominant en finale le Rayo Vallecano (1-0) grâce à un but de l'international français Jean-Philippe Mateta. Il s'agit du troisième titre de Palace en deux ans, le premier en Coupe d'Europe.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24dGpc.img",
-      "source": "L'Equipe",
-      "category": "sport",
-      "topics": [
-        "Football",
-        "Sport"
-      ],
-      "published_at": "2026-05-27T21:24:49Z",
-      "upvotes": 4,
-      "downvotes": 1,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24ab2C",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/véronique-sanson-prise-en-charge-la-chanteuse-prend-enfin-la-parole-pour-donner-de-ses-nouvelles/ar-AA24ab2C?ocid=00000000",
-      "url_hash": "5ee29ef0c218c53d5382b1ad24bbe6a8e27a1041baa3b99508f9aebc9adff18c",
-      "title": "Véronique Sanson prise en charge : la chanteuse prend enfin la parole pour donner de ses nouvelles",
-      "abstract": "Contrainte d'annuler son show très attendu au festival Art Rock de Saint-Brieuc à la toute dernière minute, Véronique Sanson a dû être prise en charge par les secours en urgence. Après des jours d'inquiétude, la chanteuse s'est enfin emparée de ses réseaux sociaux pour rassurer son public.",
-      "image_url": "https://th.bing.com/th?id=ORMS.6c32e5d48cb9d34537fc8b9032ef6005&pid=Wdp",
-      "source": "Purepeople",
-      "category": "divertissement",
-      "topics": [
-        "Célébrités",
-        "Divertissement"
-      ],
-      "published_at": "2026-05-27T08:41:00Z",
-      "upvotes": 23,
-      "downvotes": 10,
-      "comments": 1
-    },
-    {
-      "msn_id": "AA200LNI",
-      "url": "https://www.msn.com/fr-fr/video/regarder/les-mystères-du-rover-lunaire-de-la-nasa/vi-AA200LNI?ocid=00000000",
-      "url_hash": "278e39bfb44dad7e38e16e1b36b80d35e2dd2c18a37f7ec1eaa81c2eeba39de4",
-      "title": "Les mystères du rover lunaire de la NASA",
-      "abstract": "Prenez vos données personnelles en main avec Incogni ! Cette vidéo présente le module lunaire (LM) avec des images réelles provenant de la NASA. 📚 Sources : - \"Across the Airless Wilds\" par Earl Swift - \"Lunar and Planetary Rovers\" par Anthony Young - \"NASA Moon Missions Operations Manual (Haynes)\" par David Baker 🎵 Musique : - \"Naxos Moon\" par Big Score Audio - \"Hip Tech\" par A-List Music - \"Bright Design\" par High Street Music - \"Artisan Craft\" par Cody Martin 🟠 Animation réalisée avec Blender 4.5 (Cycles Render) #NASA #Lune #ModuleLunaire #Incogni #Animation",
-      "image_url": "https://th.bing.com/th?id=ORMS.8313cbd327060c3e6a755674adfdf1f8&pid=Wdp",
-      "source": "JaredOwen",
-      "category": "video",
-      "topics": [],
-      "published_at": "2026-04-02T16:00:00Z",
-      "upvotes": 57,
-      "downvotes": 14,
-      "comments": 1
-    },
-    {
-      "msn_id": "AA247WA2",
-      "url": "https://www.msn.com/fr-fr/actualite/france/muriel-robin-bouleverse-les-molières-et-interpelle-gérald-darmanin-cette-phrase-qui-a-marqué-la-soirée/ar-AA247WA2?ocid=00000000",
-      "url_hash": "b0100a3b746aacaa1e0a75f2d9b37fd539784803fd6946dcd90db54b2cb04768",
-      "title": "Muriel Robin bouleverse les Molières et interpelle Gérald Darmanin : cette phrase qui a marqué la soirée",
-      "abstract": "La 37e cérémonie des Molières devait célébrer le théâtre, ses artistes, ses succès et ses grandes émotions. Elle l’a fait, bien sûr, mais un moment a largement dépassé le cadre de la simple remise de prix. Ce lundi 4 mai, aux Folies Bergère, Muriel Robin a reçu le tout premier Molière de sa carrière, après neuf nominations et plusieurs décennies passées à occuper une place singulière dans le cœur du public français. Lire aussi :...",
-      "image_url": "https://th.bing.com/th?id=ORMS.80b45fafc17795d1496876d3e76bb812&pid=Wdp",
+      "msn_id": "AA24c2fQ",
+      "url": "https://www.msn.com/fr-fr/actualite/france/125-000-euros-ou-beaucoup-moins-le-chiffre-qui-embarrasse-dominique-de-villepin/ar-AA24c2fQ?ocid=00000000",
+      "url_hash": "a5fa22e637aaac03c7d28e8a56bbc20517bff53145c19cb721c0202c2f902421",
+      "title": "125 000 euros ou beaucoup moins ? Le chiffre qui embarrasse Dominique de Villepin",
+      "abstract": "Dans l’affaire des statuettes reçues par Dominique de Villepin, un chiffre a tout de suite marqué les esprits : 125 000 euros. Il correspond à la valeur totale avancée pour deux statuettes de Napoléon, l’une estimée à 75 000 euros, l’autre à 50 000 euros. À lui seul, ce montant suffit à faire basculer l’histoire dans une autre dimension. Car un cadeau à plusieurs dizaines de milliers d’euros n’est jamais perçu comme un simple présent. Lorsqu’il...",
+      "image_url": "https://th.bing.com/th?id=ORMS.1b4960831bce496e58562ba7d2b1c332&pid=Wdp",
       "source": "So Busy Girls",
       "category": "actualite",
       "topics": [
         "ACTUALITÉ",
         "Actualité à la Une"
       ],
-      "published_at": "2026-05-26T21:10:00Z",
-      "upvotes": 6,
-      "downvotes": 10,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA246mkK",
-      "url": "https://www.msn.com/fr-fr/divertissement/tv/tf1-ça-vire-au-cauchemar-pour-la-chaîne/ar-AA246mkK?ocid=00000000",
-      "url_hash": "8aa9b01217848b9ae999f4ab4213ea07c577be778a833e3195a24e44c40dc3c8",
-      "title": "TF1 : ça vire au cauchemar pour la chaîne",
-      "abstract": "TF1 a fait un pari en ce lundi de Pentecôte en misant sur un film en plus d'une de ses émissions phares. Ce lundi 25 mai 2026, la sanction a été lourde pour la Une.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA246SQ5.img",
-      "source": "Toute La Télé",
-      "category": "divertissement",
-      "topics": [
-        "Divertissement"
-      ],
-      "published_at": "2026-05-26T14:45:33Z",
-      "upvotes": 64,
-      "downvotes": 36,
-      "comments": 6
-    },
-    {
-      "msn_id": "AA21p5jU",
-      "url": "https://www.msn.com/fr-fr/video/viral/un-nouveau-serpent-géant-vient-d-être-découvert-en-amazonie/vi-AA21p5jU?ocid=00000000",
-      "url_hash": "1616a65ef9bdea296f31b3a6b2da59731757e0536f8398acd618e26e1ada531e",
-      "title": "Un nouveau serpent géant vient d’être découvert en Amazonie",
-      "abstract": "Au cœur de l'Amazonie équatorienne, des chercheurs viennent de révéler un secret colossal qui se cachait à la vue de tous pendant des millions d'années : une toute nouvelle espèce de grand anaconda. Notre toute dernière vidéo vous plonge directement dans les eaux troubles avec les scientifiques qui ont nagé aux côtés de ce prédateur de 20 pieds de long, révélant les différences génétiques surprenantes qui font de l'Anaconda vert du Nord une espèce entièrement non répertoriée. Nous explorons comment les guides indigènes Waorani ont mené l'équipe vers ces créatures incroyables et ce que signifie cette découverte massive pour la biodiversité terrifiante et cachée qui rôde encore à l'intérieur de la plus grande forêt tropicale du monde. Si vous aimez les monstres massifs de la vie réelle, les expéditions palpitantes en jungle et les découvertes biologiques stupéfiantes, vous ne pouvez absolument pas manquer cette vidéo. Animation créée par Sympa. ---------------------------------------------------------------------------------------- Musique par Epidemic Sound https://www.epidemicsound.com Pour ne rien perdre de Sympa, abonnez-vous!: https://goo.gl/6E4Xna​ ---------------------------------------------------------------------------------------- Nos réseaux sociaux : Facebook: https://www.facebook.com/sympasympacom/ Instagram: https://www.instagram.com/sympa.officiel/ Stock de fichiers (photos, vidéos et autres): https://www.depositphotos.com https://www.shutterstock.com https://www.eastnews.ru ---------------------------------------------------------------------------------------- Si tu en veux encore plus, fais un tour ici: http://sympa-sympa.com",
-      "image_url": "https://th.bing.com/th?id=ORMS.cdbe23aa396cc4534604c3a9d412fde0&pid=Wdp",
-      "source": "Dailymotion",
-      "category": "video",
-      "topics": [],
-      "published_at": "2026-04-21T12:00:00Z",
-      "upvotes": 581,
-      "downvotes": 349,
-      "comments": 6
+      "published_at": "2026-05-27T16:38:00Z",
+      "upvotes": 9,
+      "downvotes": 2,
+      "comments": 0
     },
     {
       "msn_id": "AA1yPcXk",
@@ -470,9 +476,133 @@
         "Lifestyle"
       ],
       "published_at": "2026-05-27T18:30:30Z",
-      "upvotes": 372,
-      "downvotes": 311,
-      "comments": 66
+      "upvotes": 380,
+      "downvotes": 317,
+      "comments": 67
+    },
+    {
+      "msn_id": "AA24bd4X",
+      "url": "https://www.msn.com/fr-fr/actualite/elections/présidentielle-2027-si-jean-luc-mélenchon-se-qualifie-au-second-tour-c-est-la-victoire-assurée-du-rn-l-alerte-du-député-jérôme-guedj/ar-AA24bd4X?ocid=00000000",
+      "url_hash": "3188b395d10863768a33316c6ea011efca1d8dd7b04f7bc6951564ab92e8a99e",
+      "title": "Présidentielle 2027 : « Si Jean-Luc Mélenchon se qualifie au second tour, c’est la victoire assurée du RN », l'alerte du député Jérôme Guedj",
+      "abstract": "L’annonce était attendue, mais elle n’en finit déjà plus de provoquer des remous à gauche. En officialisant sa candidature à la présidentielle 2027, Jean-Luc Mélenchon a replacé La France insoumise au centre du jeu politique, avec une stratégie claire : incarner une nouvelle fois le principal pôle d’opposition au Rassemblement national et tenter d’accéder au second tour. Lire aussi : Présidentielle 2027 : selon un nouveau sondage, le RN domine...",
+      "image_url": "https://th.bing.com/th?id=ORMS.30e14697bbca9cbb310f781b53ed27d1&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "actualite",
+      "topics": [
+        "Politique",
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-27T10:51:00Z",
+      "upvotes": 24,
+      "downvotes": 17,
+      "comments": 16
+    },
+    {
+      "msn_id": "AA24ePMZ",
+      "url": "https://www.msn.com/fr-fr/finance/economie/canicule-pourquoi-la-sncf-annule-t-elle-des-trains-intercités-ce-jeudi-et-vendredi/ar-AA24ePMZ?ocid=00000000",
+      "url_hash": "b119baaacf5cb3a02260e6b3d11290bcf04681635bbde833c63e60724bbac9cc",
+      "title": "Canicule : pourquoi la SNCF annule-t-elle des trains Intercités ce jeudi et vendredi ?",
+      "abstract": "Sont concernés, des trains reliant Paris à Toulouse, Brive et Cahors, et entre Bordeaux et Marseille.",
+      "image_url": "https://th.bing.com/th?id=ORMS.09e74870ec760ff663478ab637e10e5c&pid=Wdp",
+      "source": "BFM Business",
+      "category": "finance",
+      "topics": [
+        "Finance",
+        "Actu éco",
+        "Économie"
+      ],
+      "published_at": "2026-05-28T04:43:25Z",
+      "upvotes": 3,
+      "downvotes": 1,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24deFt",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/affaire-patrick-bruel-la-maison-de-disques-de-l-artiste-prend-une-décision-forte/ar-AA24deFt?ocid=00000000",
+      "url_hash": "4bbd9667736b270f30a8bd42cc6007aa92d6c724b6dfa88dfbd854275184170f",
+      "title": "Affaire Patrick Bruel : la maison de disques de l'artiste prend une décision forte",
+      "abstract": "Alors que l’affaire Patrick Bruel prend toujours plus d’ampleur au vu des nombreux témoignages accusant l’artiste d’agressions sexuelles et de viols, la maison de disques du chanteur a pris une décision forte, a révélé le magazine Elle ce mercredi 27 mai 2026.",
+      "image_url": "https://th.bing.com/th?id=ORMS.f8482c3b8ddc42f5db13057f89a34321&pid=Wdp",
+      "source": "Femme Actuelle",
+      "category": "divertissement",
+      "topics": [
+        "Célébrités",
+        "Divertissement"
+      ],
+      "published_at": "2026-05-27T20:01:57Z",
+      "upvotes": 120,
+      "downvotes": 68,
+      "comments": 26
+    },
+    {
+      "msn_id": "AA24c21a",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/des-centaines-de-billes-tirées-à-vitesse-supersonique-le-char-leclerc-s-invite-dans-la-lutte-antidrones/ar-AA24c21a?ocid=00000000",
+      "url_hash": "44a0c6dfd6cc9a6416b229a7c9d4ee15a803daa3d5ee30c00b32c7703313c443",
+      "title": "« Des centaines de billes tirées à vitesse supersonique »... Le char Leclerc s’invite dans la lutte antidrones",
+      "abstract": "Le 5e RC de l’armée de Terre a expérimenté, depuis les Emirats arabes unis, un obus à effet canalisé pour effectuer de la lutte antidrones",
+      "image_url": "https://th.bing.com/th?id=ORMS.90e53cc8f9f8978c8f14d17aa4bbb892&pid=Wdp",
+      "source": "20 Minutes",
+      "category": "actualite",
+      "topics": [
+        "Monde",
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-27T16:14:15Z",
+      "upvotes": 86,
+      "downvotes": 14,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24a2gm",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/voici-pourquoi-vous-devriez-cesser-d-écrire-cordialement-à-la-fin-de-vos-mails-selon-une-experte-en-langue-française/ar-AA24a2gm?ocid=00000000",
+      "url_hash": "6137ad955ce413bf6bc1a67dacabe68425d3b26d61354802c4f8546bc6d4615f",
+      "title": "Voici pourquoi vous devriez cesser d'écrire « cordialement » à la fin de vos mails, selon une experte en langue française",
+      "abstract": "Vous avez tendance à utiliser des formules de politesse courantes dans vos écrits ? Voici l’erreur à ne surtout pas faire, selon une experte.",
+      "image_url": "https://th.bing.com/th?id=ORMS.1aaa23c730a4cd3f49bb9218a39c509e&pid=Wdp",
+      "source": "psychologies",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-27T07:02:45Z",
+      "upvotes": 88,
+      "downvotes": 52,
+      "comments": 19
+    },
+    {
+      "msn_id": "AA24bgiU",
+      "url": "https://www.msn.com/fr-fr/auto/actualite/il-prend-la-fuite-à-200-km-h-perd-le-contrôle-et-percute-un-mur-la-bac-découvre-un-chargement-de-cannabis-xxl-dans-son-véhicule/ar-AA24bgiU?ocid=00000000",
+      "url_hash": "35e61aa3b471c925ff57ccffe6a0400849db204c22581f1df1115f10368d55e3",
+      "title": "Il prend la fuite à 200 km/h, perd le contrôle et percute un mur : la BAC découvre un chargement de cannabis XXL dans son véhicule",
+      "abstract": "Une course folle dans les rues de Marseille s’est brutalement achevée contre un mur, laissant derrière elle un impressionnant butin de stupéfiants. Après un refus d’obtempérer à vive allure, les policiers de la BAC ont mis la main sur plusieurs dizaines de kilos de résine de cannabis dissimulés dans un véhicule. La nuit avait tout d’un contrôle ord...",
+      "image_url": "https://th.bing.com/th?id=ORMS.06d83cb6ebdc71cf641d68d2eea819c4&pid=Wdp",
+      "source": "Autonews",
+      "category": "auto",
+      "topics": [],
+      "published_at": "2026-05-27T14:00:00Z",
+      "upvotes": 130,
+      "downvotes": 15,
+      "comments": 13
+    },
+    {
+      "msn_id": "AA20K6oz",
+      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/leroy-merlin-c-est-fini-ce-magasin-de-6-000-m-ferme-ses-portes-gros-déstockage-en-vue-pour-tous-les-clients/ar-AA20K6oz?ocid=00000000",
+      "url_hash": "48e94f717db94f8b41e50cfdaa5ab580a9ee90a9fc3af7ac0eadde4438d0cce7",
+      "title": "Leroy Merlin c’est fini : ce magasin de 6 000 m² ferme ses portes, gros déstockage en vue pour tous les clients",
+      "abstract": "Leroy Merlin tourne une page avec une fermeture à venir. En attendant, un déstockage massif crée un afflux inattendu en magasin.",
+      "image_url": "https://th.bing.com/th?id=ORMS.2ad40984b184f4782d6fd680da0f5edc&pid=Wdp",
+      "source": "Marie France",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-27T13:35:13Z",
+      "upvotes": 275,
+      "downvotes": 184,
+      "comments": 29
     },
     {
       "msn_id": "AA24bOvv",
@@ -488,74 +618,8 @@
         "Divertissement"
       ],
       "published_at": "2026-05-27T15:10:00Z",
-      "upvotes": 14,
-      "downvotes": 10,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24aKEp",
-      "url": "https://www.msn.com/fr-fr/finance/autres/pas-éligible-à-l-aide-carburant-vous-toucherez-peut-être-cette-prime-de-600-euros-voici-qui-peut-en-bénéficier/ar-AA24aKEp?ocid=00000000",
-      "url_hash": "edcd2b2f317733ae27fa24c7c7d1546d0e3eab5851ea58ee12ccabc409a56044",
-      "title": "Pas éligible à l'aide carburant ? Vous toucherez peut-être cette prime de 600 euros : voici qui peut en bénéficier",
-      "abstract": "Il est possible de demander l'aide grand rouleur à partir de ce mercredi 27 mai. Mais si vous n'y êtes pas éligible, une autre aide peut vous intéresser. On vous explique.",
-      "image_url": "https://th.bing.com/th?id=ORMS.dcc5cdd89b93a89911e2461f47fd760b&pid=Wdp",
-      "source": "Actu",
-      "category": "finance",
-      "topics": [
-        "Finance"
-      ],
-      "published_at": "2026-05-27T10:11:58Z",
-      "upvotes": 12,
-      "downvotes": 7,
-      "comments": 4
-    },
-    {
-      "msn_id": "AA22UDWN",
-      "url": "https://www.msn.com/fr-fr/video/viral/navire-de-luxe-abandonné-depuis-100-ans-retrouvé-près-de-la-côte-des-bermudes/vi-AA22UDWN?ocid=00000000",
-      "url_hash": "c667c742f7c354ea20bacc4f13d84ccfeeda8ad66eb3de3152deb6808b8b3197",
-      "title": "Navire de luxe abandonné depuis 100 ans retrouvé près de la côte des Bermudes",
-      "abstract": "Un navire de luxe âgé de 100 ans vient d'être découvert près des côtes des Bermudes—et quelque chose à son sujet semble déconcertant. Le navire paraît intact, pourtant il n'y a pas d'équipage, aucune explication et aucun signe clair de ce qui s'est passé. C'est comme si le temps s'était figé... et que tout le monde avait simplement disparu. Cela a-t-il un lien avec le Triangle des Bermudes, ou bien se cache-t-il une histoire plus sombre derrière cette découverte mystérieuse ? Regardez jusqu'à la fin pour découvrir la vérité derrière ce mystère centenaire 👇 #bermudes #navirefantôme #mystère #mystèreocéanique #triangledesbermudes #épave Animation créée par Sympa. ---------------------------------------------------------------------------------------- Musique par Epidemic Sound https://www.epidemicsound.com Pour ne rien perdre de Sympa, abonnez-vous!: https://goo.gl/6E4Xna​ ---------------------------------------------------------------------------------------- Nos réseaux sociaux : Facebook: https://www.facebook.com/sympasympacom/ Instagram: https://www.instagram.com/sympa.officiel/ Stock de fichiers (photos, vidéos et autres): https://www.depositphotos.com https://www.shutterstock.com https://www.eastnews.ru ---------------------------------------------------------------------------------------- Si tu en veux encore plus, fais un tour ici: http://sympa-sympa.com",
-      "image_url": "https://th.bing.com/th?id=ORMS.af9907c317b598cbd7ead5fe9c5f84db&pid=Wdp",
-      "source": "Dailymotion",
-      "category": "video",
-      "topics": [],
-      "published_at": "2026-05-11T12:00:00Z",
-      "upvotes": 224,
-      "downvotes": 106,
-      "comments": 4
-    },
-    {
-      "msn_id": "AA24a2gm",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/voici-pourquoi-vous-devriez-cesser-d-écrire-cordialement-à-la-fin-de-vos-mails-selon-une-experte-en-langue-française/ar-AA24a2gm?ocid=00000000",
-      "url_hash": "6137ad955ce413bf6bc1a67dacabe68425d3b26d61354802c4f8546bc6d4615f",
-      "title": "Voici pourquoi vous devriez cesser d'écrire « cordialement » à la fin de vos mails, selon une experte en langue française",
-      "abstract": "Vous avez tendance à utiliser des formules de politesse courantes dans vos écrits ? Voici l’erreur à ne surtout pas faire, selon une experte.",
-      "image_url": "https://th.bing.com/th?id=ORMS.1aaa23c730a4cd3f49bb9218a39c509e&pid=Wdp",
-      "source": "psychologies",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-27T07:02:45Z",
-      "upvotes": 84,
-      "downvotes": 48,
-      "comments": 19
-    },
-    {
-      "msn_id": "AA24cMpU",
-      "url": "https://www.msn.com/fr-fr/finance/actualite/l-ukraine-dévoile-un-nouveau-drone-kamikaze-d-une-portée-de-300-km-et-doté-d-une-forte-puissance-destructrice/ar-AA24cMpU?ocid=00000000",
-      "url_hash": "cf7c0c63d2ae9cdcbd8ccfdf3d4757b4581f5d173901089e773f59c55d264b18",
-      "title": "L’Ukraine dévoile un nouveau drone kamikaze d’une portée de 300 km et doté d’une forte puissance destructrice",
-      "abstract": "L’Ukraine a dévoilé un nouveau drone kamikaze de grande taille baptisé Behemoth, développé pour frapper des cibles à longue distance et équipé de deux charges différentes.",
-      "image_url": "https://th.bing.com/th?id=ORMS.45d918eba76961085715af8f6a81bb61&pid=Wdp",
-      "source": "Carro e Motos",
-      "category": "finance",
-      "topics": [
-        "Finance"
-      ],
-      "published_at": "2026-05-27T16:38:46Z",
-      "upvotes": 55,
-      "downvotes": 5,
+      "upvotes": 15,
+      "downvotes": 14,
       "comments": 0
     },
     {
@@ -573,112 +637,9 @@
         "France"
       ],
       "published_at": "2026-05-28T04:46:20Z",
-      "upvotes": 41,
-      "downvotes": 10,
-      "comments": 22
-    },
-    {
-      "msn_id": "AA24d5Op",
-      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/je-sais-que-ça-peut-déplaire-à-certains-patrick-bruel-marine-le-pen-monte-au-créneau-après-la-plainte-de-flavie-flament/ar-AA24d5Op?ocid=00000000",
-      "url_hash": "176270ad0e91ccead95a32e29be4678b08ec2a282776e3de5948bdb19f97af85",
-      "title": "« Je sais que ça peut déplaire à certains » : Patrick Bruel, Marine Le Pen monte au créneau après la plainte de Flavie Flament",
-      "abstract": "Suite aux plaintes pour agressions sexuelles et viols contre Patrick Bruel, Marine Le Pen s’est exprimée sur le sujet.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1NJJH2.img",
-      "source": "Marie France",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-27T17:09:31Z",
-      "upvotes": 55,
-      "downvotes": 31,
-      "comments": 10
-    },
-    {
-      "msn_id": "AA24bxlD",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/un-chauffeur-de-taxi-suit-le-conseil-d-un-passager-son-cancer-détecté-à-temps-il-est-aujourd-hui-guéri/ar-AA24bxlD?ocid=00000000",
-      "url_hash": "f7b48eb9a215840d22f25bacb5826018eeaba7a15688cb5000a5c719c5dcb881",
-      "title": "Un chauffeur de taxi suit le conseil d’un passager : son cancer détecté à temps, il est aujourd’hui guéri",
-      "abstract": "À Glasgow, en Écosse, un chauffeur de taxi de 66 ans affirme avoir été sauvé d’un cancer de la prostate grâce à une conversation avec un passager engagé dans une association de prévention contre cette maladie",
-      "image_url": "https://th.bing.com/th?id=ORMS.c2ce6527c00cf6758cd73ceb163c650b&pid=Wdp",
-      "source": "20 Minutes",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-27T11:32:36Z",
-      "upvotes": 48,
-      "downvotes": 14,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24bgiU",
-      "url": "https://www.msn.com/fr-fr/auto/actualite/il-prend-la-fuite-à-200-km-h-perd-le-contrôle-et-percute-un-mur-la-bac-découvre-un-chargement-de-cannabis-xxl-dans-son-véhicule/ar-AA24bgiU?ocid=00000000",
-      "url_hash": "35e61aa3b471c925ff57ccffe6a0400849db204c22581f1df1115f10368d55e3",
-      "title": "Il prend la fuite à 200 km/h, perd le contrôle et percute un mur : la BAC découvre un chargement de cannabis XXL dans son véhicule",
-      "abstract": "Une course folle dans les rues de Marseille s’est brutalement achevée contre un mur, laissant derrière elle un impressionnant butin de stupéfiants. Après un refus d’obtempérer à vive allure, les policiers de la BAC ont mis la main sur plusieurs dizaines de kilos de résine de cannabis dissimulés dans un véhicule. La nuit avait tout d’un contrôle ord...",
-      "image_url": "https://th.bing.com/th?id=ORMS.06d83cb6ebdc71cf641d68d2eea819c4&pid=Wdp",
-      "source": "Autonews",
-      "category": "auto",
-      "topics": [],
-      "published_at": "2026-05-27T14:00:00Z",
-      "upvotes": 120,
-      "downvotes": 14,
-      "comments": 12
-    },
-    {
-      "msn_id": "AA24aXle",
-      "url": "https://www.msn.com/fr-fr/actualite/elections/emmanuel-macron-aurait-déjà-son-favori-pour-2027-et-ce-nom-en-dit-long-sur-l-après-élysée/ar-AA24aXle?ocid=00000000",
-      "url_hash": "ba0343c315b4abe3d74e910e34223848491cc162d9b24a4f53c6b2ed51924f02",
-      "title": "Emmanuel Macron aurait déjà son favori pour 2027 et ce nom en dit long sur l’après-Élysée",
-      "abstract": "À moins d’un an de la présidentielle 2027, la grande question de l’après-Macron agite déjà le paysage politique français. Qui pourra reprendre le flambeau d’un camp central construit autour d’Emmanuel Macron, mais désormais obligé d’imaginer son avenir sans son fondateur à l’Élysée ? Le président de la République ne pourra pas se représenter pour un troisième mandat consécutif, ce qui ouvre une séquence aussi décisive que délic...",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA21DabP.img",
-      "source": "So Busy Girls",
-      "category": "actualite",
-      "topics": [
-        "Politique",
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-27T10:09:00Z",
-      "upvotes": 15,
-      "downvotes": 37,
-      "comments": 6
-    },
-    {
-      "msn_id": "AA24bHl4",
-      "url": "https://www.msn.com/fr-fr/actualite/france/le-gouvernement-charge-xenia-fedorova-vedette-pro-russe-de-cnews-et-ses-propos-très-graves/ar-AA24bHl4?ocid=00000000",
-      "url_hash": "095c6da379c3dd1c089fecf024517710dd8b68dad4c72f464b0c8d82c264de24",
-      "title": "Le gouvernement charge Xenia Fedorova, vedette pro-russe de CNews, et ses « propos très graves »",
-      "abstract": "L’ex-directrice de la chaîne RT France, coqueluche de la « bollosphère » et qui se revendique « journaliste », est connue pour ses déclarations alignées sur celle du Kremlin.",
-      "image_url": "https://th.bing.com/th?id=ORMS.986c2d43300b17297c02aedd69d50d4c&pid=Wdp",
-      "source": "Le HuffPost",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-27T14:52:06Z",
-      "upvotes": 74,
-      "downvotes": 40,
-      "comments": 67
-    },
-    {
-      "msn_id": "AA24cqtl",
-      "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-pas-de-poignée-de-main-avertissement-improbable-grosse-embrouille-lors-d-un-match-du-tableau-féminin/ar-AA24cqtl?ocid=00000000",
-      "url_hash": "9656cfc261a60f8e4fafedb54b107ae2d399ccecf03364583415e6cf3a800bf6",
-      "title": "Roland-Garros : pas de poignée de main, avertissement improbable… grosse embrouille lors d’un match du tableau féminin",
-      "abstract": "La chaleur n’émanait pas seulement du ciel de Roland-Garros ce mercredi. Les esprits se sont également échauffés sur le court n°7, théâtre de la rencontre du tableau féminin opposant la Chinoise Wang Xinyu à l’Allemande Tamara Korpatsch. Remportée par la seconde, sortie victorieuse d’une belle empoignade en trois manches (6-2, 2-6, 6-3), la partie ...",
-      "image_url": "https://th.bing.com/th?id=ORMS.1de731b08a56fa6d176d2dfd9ca63fa3&pid=Wdp",
-      "source": "Le Parisien",
-      "category": "sport",
-      "topics": [
-        "Sport"
-      ],
-      "published_at": "2026-05-27T14:31:17Z",
-      "upvotes": 21,
-      "downvotes": 13,
-      "comments": 1
+      "upvotes": 80,
+      "downvotes": 25,
+      "comments": 31
     },
     {
       "msn_id": "AA24bJTA",
@@ -693,9 +654,26 @@
         "Divertissement"
       ],
       "published_at": "2026-05-27T15:00:00Z",
-      "upvotes": 86,
-      "downvotes": 59,
-      "comments": 33
+      "upvotes": 93,
+      "downvotes": 68,
+      "comments": 36
+    },
+    {
+      "msn_id": "AA24d3Hg",
+      "url": "https://www.msn.com/fr-fr/finance/autres/restaurant-cette-nouvelle-habitude-de-faire-payer-l-addition-au-comptoir-n-a-rien-d-anodin-elle-révèle-un-grand-changement-pour-les-serveurs/ar-AA24d3Hg?ocid=00000000",
+      "url_hash": "d248d8c99e898ba389217c370f320cae0112f024fdc9b5f8c941e433f355f717",
+      "title": "Restaurant : cette nouvelle habitude de faire payer l’addition au comptoir n’a rien d’anodin, elle révèle un grand changement pour les serveurs",
+      "abstract": "En 2026, la suggestion du serveur pour aller payer au comptoir s’impose dans les bistrots et brasseries, surtout le midi. Derrière ce nouveau rituel de l’addition se cache un vrai changement pour les serveurs, entre gains de temps, pression et pourboires.",
+      "image_url": "https://th.bing.com/th?id=ORMS.9aa8bd40873e642956fcbb737952843a&pid=Wdp",
+      "source": "Aufeminin",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-27T18:27:51Z",
+      "upvotes": 9,
+      "downvotes": 7,
+      "comments": 0
     },
     {
       "msn_id": "AA24bJ09",
@@ -711,61 +689,80 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-27T14:12:32Z",
-      "upvotes": 152,
-      "downvotes": 18,
+      "upvotes": 169,
+      "downvotes": 21,
       "comments": 3
     },
     {
-      "msn_id": "AA249Nfg",
-      "url": "https://www.msn.com/fr-fr/finance/autres/carte-bancaire-c-est-la-fin-du-code-à-4-chiffres-comment-cela-va-t-il-fonctionner-dorénavant/ar-AA249Nfg?ocid=00000000",
-      "url_hash": "097f5204c6dc5cf0581e93218079779bf52e4f7426512598bb92542beacedd90",
-      "title": "Carte bancaire : c'est la fin du code à 4 chiffres, comment cela va-t-il fonctionner dorénavant ?",
-      "abstract": "Composer un code à 4 chiffres avant chaque paiement pourrait bientôt appartenir au passé. Les banques françaises accélèrent désormais le déploiement des cartes biométriques basées sur l’empreinte digitale.",
-      "image_url": "https://th.bing.com/th?id=ORMS.e709c1e67ef765207e9db5493cb59b26&pid=Wdp",
-      "source": "Pleine Vie",
-      "category": "finance",
+      "msn_id": "AA24fqZN",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/c-était-la-fois-de-trop-un-enfant-retrouvé-enfermé-dans-un-placard-la-voisine-qui-a-donné-l-alerte-témoigne/ar-AA24fqZN?ocid=00000000",
+      "url_hash": "49eae7b771a7f9dfe7633d6612c16e7c9e9bdfd28f62baf7093058f7e80ff28f",
+      "title": "« C'était la fois de trop »: un enfant retrouvé enfermé dans un placard, la voisine qui a donné l'alerte témoigne",
+      "abstract": "À Mérindol (Vaucluse), un jeune garçon de 9 ans a été secouru par les gendarmes. Il a été retrouvé dans un placard enfermé par ses parents. C'est une voisine qui a donné l'alerte. Elle était inquiète de ne jamais le voir avec sa famille.",
+      "image_url": "https://th.bing.com/th?id=ORMS.0b28888d2e9752227d3bf85698a1e0ed&pid=Wdp",
+      "source": "RMC",
+      "category": "actualite",
       "topics": [
-        "Finance"
+        "Actualité",
+        "Actualité à la Une"
       ],
-      "published_at": "2026-05-27T06:00:56Z",
+      "published_at": "2026-05-28T08:30:28Z",
       "upvotes": 43,
-      "downvotes": 28,
-      "comments": 6
+      "downvotes": 4,
+      "comments": 11
     },
     {
-      "msn_id": "AA24aF5u",
-      "url": "https://www.msn.com/fr-fr/actualite/monde/donald-trump-hospitalisé-en-urgence-ce-que-révèle-vraiment-la-maison-blanche-sur-son-état-de-santé/ar-AA24aF5u?ocid=00000000",
-      "url_hash": "2a2d956d4deced657a68af0beb359f4ed2f6d3f643061616e98e9d41a8193396",
-      "title": "Donald Trump hospitalisé en urgence ? Ce que révèle vraiment la Maison-Blanche sur son état de santé",
-      "abstract": "Depuis plusieurs jours, une question agite les médias et les réseaux sociaux : Donald Trump a-t-il été transporté à l’hôpital en urgence ? Une rumeur persistante qui a rapidement enflammé l’opinion publique, suscitant interrogations, inquiétudes et spéculations autour de l’état de santé du président américain. Mais que s’est-il réellement passé ? Et pourquoi ces informations ont-elles pris une telle ampleur ? Lire aussi : « Emmanuel Macron se...",
-      "image_url": "https://th.bing.com/th?id=ORMS.8893570f8afdd513386bb526037962ad&pid=Wdp",
+      "msn_id": "AA24b9vL",
+      "url": "https://www.msn.com/fr-fr/divertissement/tv/rendez-vous-en-terre-inconnue-laury-thilleman-donne-de-tristes-nouvelles-de-la-communauté-des-wauja-d-amazonie/ar-AA24b9vL?ocid=00000000",
+      "url_hash": "a360275f3b753dbb7af5030f771ebd58fe16be86ac356856031c5795477b5fc0",
+      "title": "« Rendez-vous en terre inconnue » : Laury Thilleman donne de tristes nouvelles de la communauté des Wauja d’Amazonie",
+      "abstract": "Les autochtones qui accueillaient l’équipe de tournage ont dû faire face à un événement tragique",
+      "image_url": "https://th.bing.com/th?id=ORMS.955f8bef8225e0f2919296f780719e34&pid=Wdp",
+      "source": "20 Minutes",
+      "category": "divertissement",
+      "topics": [
+        "Divertissement"
+      ],
+      "published_at": "2026-05-27T12:21:03Z",
+      "upvotes": 75,
+      "downvotes": 68,
+      "comments": 8
+    },
+    {
+      "msn_id": "AA24c1p1",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/pékin-hausse-le-ton-après-l-attaque-du-san-antonio-pourquoi-ce-porte-conteneur-français-fait-monter-la-tension-à-ormuz/ar-AA24c1p1?ocid=00000000",
+      "url_hash": "cb104fa01203ea016f6384349dd7eeadae695409003201a14a6a246ae9962b4f",
+      "title": "Pékin hausse le ton après l’attaque du San Antonio : pourquoi ce porte-conteneur français fait monter la tension à Ormuz",
+      "abstract": "La réaction de Pékin n’est pas passée inaperçue. Après l’attaque du porte-conteneur San Antonio, exploité par CMA CGM, dans le détroit d’Ormuz, la Chine a réclamé un arrêt « complet » et immédiat des hostilités. Une déclaration forte, qui montre à quel point cet incident maritime dépasse largement le cas d’un seul navire touché par un projectile. Le San Antonio, battant pavillon maltais, a été attaqué alors qu’il circul...",
+      "image_url": "https://th.bing.com/th?id=ORMS.48eeb58fa971aba4dd51a140acba2556&pid=Wdp",
       "source": "So Busy Girls",
       "category": "actualite",
       "topics": [
         "ACTUALITÉ",
         "Actualité à la Une"
       ],
-      "published_at": "2026-05-27T09:10:00Z",
-      "upvotes": 72,
-      "downvotes": 91,
-      "comments": 2
+      "published_at": "2026-05-27T15:05:00Z",
+      "upvotes": 34,
+      "downvotes": 23,
+      "comments": 11
     },
     {
-      "msn_id": "AA24bPwb",
-      "url": "https://www.msn.com/fr-fr/finance/autres/prêt-à-porter-une-nouvelle-enseigne-ferme-60-magasins-en-france-et-va-licencier-jusqu-à-290-employés/ar-AA24bPwb?ocid=00000000",
-      "url_hash": "9183e523dfc40ee006da02d4f8319ff6b9a70d40d13ad261480e4e81fa48ae93",
-      "title": "Prêt-à-porter : une nouvelle enseigne ferme 60 magasins en France et va licencier jusqu’à 290 employés",
-      "abstract": "À peine quatre mois après son placement en redressement judiciaire, le groupe IDKids, propriétaire de la marque Okaïdi, a annoncé un vaste plan de restructuration en France. L’enseigne de vêtements pour enfants prévoit jusqu’à 290 suppressions de postes ainsi que la fermeture d’environ soixante magasins sur le territoire national. L’entreprise, qui...",
-      "image_url": "https://th.bing.com/th?id=ORMS.84245eac62cb62b40d8551c3a0052a47&pid=Wdp",
-      "source": "Econostrum.info",
-      "category": "finance",
+      "msn_id": "AA24czL2",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/affaire-patrick-bruel-un-ex-prof-de-star-academy-s-exprime-franchement-si-ça-m-arrivait-je-me-retirerais/ar-AA24czL2?ocid=00000000",
+      "url_hash": "06a944ad015dcd15afd1533dc5ed2878a6bae346bcaa739cd5a1f83cb0877c39",
+      "title": "Affaire Patrick Bruel, un ex-prof de Star Academy s’exprime franchement : « Si ça m’arrivait, je me retirerais »",
+      "abstract": "Interrogée par TV Mag pendant un entretien, une ancienne professeure de la Star Academy s’est exprimée à propos de l’affaire Patrick Bruel. Elle a notamment indiqué, que selon elle, il devrait se retirer médiatiquement pour la sérénité de l’instruction.",
+      "image_url": "https://th.bing.com/th?id=ORMS.4c3944ae39312b4cdce21419422505df&pid=Wdp",
+      "source": "Gala (French)",
+      "category": "divertissement",
       "topics": [
-        "Finance"
+        "Divertissement",
+        "Célébrités"
       ],
-      "published_at": "2026-05-27T11:44:00Z",
-      "upvotes": 38,
-      "downvotes": 23,
-      "comments": 0
+      "published_at": "2026-05-27T20:09:42Z",
+      "upvotes": 97,
+      "downvotes": 76,
+      "comments": 17
     },
     {
       "msn_id": "AA24cpwf",
@@ -781,374 +778,9 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-27T18:00:05Z",
-      "upvotes": 65,
-      "downvotes": 4,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA24dObh",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/la-pièce-de-patrick-bruel-interrompue-par-des-militantes-féministes-voici-ce-que-l-on-sait/ar-AA24dObh?ocid=00000000",
-      "url_hash": "d36f32f416de846107fe106356505272a90077871dea78f6f79d1c0ffcaf0797",
-      "title": "La pièce de Patrick Bruel interrompue par des militantes féministes, voici ce que l'on sait",
-      "abstract": "Une représentation théâtrale de la pièce Deuxième partie a été perturbée par des militantes féministes ce mercredi 27 mai au Théâtre Edouard-VII à Paris. Elles se sont manifestées dans la salle avec des masques à l'effigie de Patrick Bruel.",
-      "image_url": "https://th.bing.com/th?id=ORMS.d0102dd24c450eaac6d669fc83aa827e&pid=Wdp",
-      "source": "Voici",
-      "category": "divertissement",
-      "topics": [
-        "Célébrités",
-        "Divertissement"
-      ],
-      "published_at": "2026-05-27T21:58:00Z",
-      "upvotes": 53,
-      "downvotes": 14,
-      "comments": 18
-    },
-    {
-      "msn_id": "AA24fP2B",
-      "url": "https://www.msn.com/fr-fr/actualite/france/canicule-17-départements-en-alerte-orange-réunion-interministérielle-à-matignon-le-point-sur-la-situation/ar-AA24fP2B?ocid=00000000",
-      "url_hash": "a647748e37bb6a3fc5fd772639f3edef4523530584d0831b89d10b501576ac1d",
-      "title": "Canicule : 17 départements en alerte orange, réunion interministérielle à Matignon... Le point sur la situation",
-      "abstract": "Météo-France a porté à 17 le nombre de départements en alerte orange dans son bulletin de 6 heures, dont la capitale, les Hauts-de-Seine, la Seine-Saint-Denis et le Val-de-Marne en plus de 13 départements de l’ouest.",
-      "image_url": "https://th.bing.com/th?id=ORMS.fbbb4ea4fe34b9dd584352080b9565f9&pid=Wdp",
-      "source": "Le Nouvel Obs",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T07:00:01Z",
-      "upvotes": 0,
-      "downvotes": 1,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24d3Hg",
-      "url": "https://www.msn.com/fr-fr/finance/autres/restaurant-cette-nouvelle-habitude-de-faire-payer-l-addition-au-comptoir-n-a-rien-d-anodin-elle-révèle-un-grand-changement-pour-les-serveurs/ar-AA24d3Hg?ocid=00000000",
-      "url_hash": "d248d8c99e898ba389217c370f320cae0112f024fdc9b5f8c941e433f355f717",
-      "title": "Restaurant : cette nouvelle habitude de faire payer l’addition au comptoir n’a rien d’anodin, elle révèle un grand changement pour les serveurs",
-      "abstract": "En 2026, la suggestion du serveur pour aller payer au comptoir s’impose dans les bistrots et brasseries, surtout le midi. Derrière ce nouveau rituel de l’addition se cache un vrai changement pour les serveurs, entre gains de temps, pression et pourboires.",
-      "image_url": "https://th.bing.com/th?id=ORMS.9aa8bd40873e642956fcbb737952843a&pid=Wdp",
-      "source": "Aufeminin",
-      "category": "finance",
-      "topics": [
-        "Finance"
-      ],
-      "published_at": "2026-05-27T18:27:51Z",
-      "upvotes": 8,
-      "downvotes": 6,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24cPO7",
-      "url": "https://www.msn.com/fr-fr/sport/other/roland-garros-une-étrange-séparation-en-plein-tournoi/ar-AA24cPO7?ocid=00000000",
-      "url_hash": "a7f325ceb1b482fef41b06bcb1626c99371d082dcdfebdaff09105d8ea389417",
-      "title": "Roland-Garros, une étrange séparation en plein tournoi",
-      "abstract": "Éliminé ce mercredi au second tour de Roland-Garros, Alejandro Davidovich Fokina a raconté que son entraîneur l'avait abandonné.",
-      "image_url": "https://th.bing.com/th?id=ORMS.e4544658819fb9816ac8b2046e1b73be&pid=Wdp",
-      "source": "Sports.fr",
-      "category": "sport",
-      "topics": [
-        "Sport"
-      ],
-      "published_at": "2026-05-27T15:55:14Z",
-      "upvotes": 11,
-      "downvotes": 2,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24fgwx",
-      "url": "https://www.msn.com/fr-fr/sport/football/fc-nantes-le-verdict-est-tombé-pour-nantes-après-le-chaos-face-à-toulouse/ar-AA24fgwx?ocid=00000000",
-      "url_hash": "6e250b4889b4f92ea5308c163a79c9af88c018527c494cb30c518fa2ca2d9ac3",
-      "title": "FC Nantes : Le verdict est tombé pour Nantes après le chaos face à Toulouse",
-      "abstract": "La commission de discipline de la LFP a tranché. Après les incidents survenus lors de Nantes - Toulouse, définitivement interrompu après des débordements en Tribune Loire, le FC Nantes a été sanctionné. Les Canaris écopent d’un match ferme à huis clos à la Beaujoire, tandis que la Tribune Loire sera fermée pour deux rencontres. Nantes craignait une sanction très lourde La fin de saison du FC Nantes a viré au chaos. Déjà assurés...",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24fF73.img",
-      "source": "Score",
-      "category": "sport",
-      "topics": [
-        "Sport"
-      ],
-      "published_at": "2026-05-28T07:30:02Z",
-      "upvotes": 0,
-      "downvotes": 0,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24b9vL",
-      "url": "https://www.msn.com/fr-fr/divertissement/tv/rendez-vous-en-terre-inconnue-laury-thilleman-donne-de-tristes-nouvelles-de-la-communauté-des-wauja-d-amazonie/ar-AA24b9vL?ocid=00000000",
-      "url_hash": "a360275f3b753dbb7af5030f771ebd58fe16be86ac356856031c5795477b5fc0",
-      "title": "« Rendez-vous en terre inconnue » : Laury Thilleman donne de tristes nouvelles de la communauté des Wauja d’Amazonie",
-      "abstract": "Les autochtones qui accueillaient l’équipe de tournage ont dû faire face à un événement tragique",
-      "image_url": "https://th.bing.com/th?id=ORMS.955f8bef8225e0f2919296f780719e34&pid=Wdp",
-      "source": "20 Minutes",
-      "category": "divertissement",
-      "topics": [
-        "Divertissement"
-      ],
-      "published_at": "2026-05-27T12:21:03Z",
-      "upvotes": 66,
-      "downvotes": 60,
-      "comments": 9
-    },
-    {
-      "msn_id": "AA24b7wr",
-      "url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-après-andréa-bescond-alexandra-lamy-sort-du-silence-et-prend-position/ar-AA24b7wr?ocid=00000000",
-      "url_hash": "303048b68fda5c76a0b4706f0079392ffe89d7689077d489ff5e23d129ab4292",
-      "title": "Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
-      "abstract": "Les accusations visant Patrick Bruel ont rapidement provoqué des réactions dans le monde artistique, notamment parmi des figures engagées sur les questions de violences faites aux femmes. Parmi elles, la réalisatrice et danseuse Andréa Bescond a été l’une des premières à s’exprimer publiquement, en relayant les témoignages et en affichant clairement son soutien aux femmes qui accusent le chanteur. Dans la foulée, Alexandra Lamy a elle aussi pris...",
-      "image_url": "https://th.bing.com/th?id=ORMS.d4e4a222e38e383f884f0dd9ff242a67&pid=Wdp",
-      "source": "So Busy Girls",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-27T10:12:00Z",
-      "upvotes": 18,
-      "downvotes": 18,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA249Rq3",
-      "url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/interdit-pendant-90-ans-ce-matériau-de-construction-revient-en-force-il-isole-15-fois-mieux-que-le-béton-et-stocke-du-co-pendant-des-siècles/ar-AA249Rq3?ocid=00000000",
-      "url_hash": "ff9508e9e12b3dd8b5b83c56f0523680a87373a3c18faa9ca6f69a0ab08e9779",
-      "title": "Interdit pendant 90 ans, ce matériau de construction revient en force : il isole 15 fois mieux que le béton et stocke du CO₂ pendant des siècles",
-      "abstract": "Le chanvre-chaux pourrait révolutionner la construction durable !",
-      "image_url": "https://th.bing.com/th?id=ORMS.5a8590ec2820652355614cad4010b3c5&pid=Wdp",
-      "source": "RSE Magazine",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-27T05:40:00Z",
-      "upvotes": 53,
-      "downvotes": 18,
-      "comments": 8
-    },
-    {
-      "msn_id": "AA1PuinD",
-      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/voici-le-salaire-qu-il-faut-toucher-tous-les-mois-pour-faire-partie-de-la-classe-moyenne-en-2026-en-france/ar-AA1PuinD?ocid=00000000",
-      "url_hash": "f3243894f8a381cf36ceb772be28acab3fd13e8eb4420486ce9713a3a5b8c2eb",
-      "title": "Voici le salaire qu'il faut toucher tous les mois pour faire partie de la classe moyenne en 2026 en France",
-      "abstract": "Faites-vous partie de la classe moyenne, ou vos revenus vous empêchent-ils d’y accéder de peu ? Voici, selon votre salaire, comment savoir si vous vous en sortez bien au quotidien.",
-      "image_url": "https://th.bing.com/th?id=ORMS.3b678557c2fff4952dbada0b35ba30de&pid=Wdp",
-      "source": "Marie France",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-26T13:15:41Z",
-      "upvotes": 1379,
-      "downvotes": 729,
-      "comments": 215
-    },
-    {
-      "msn_id": "AA24fMsG",
-      "url": "https://www.msn.com/fr-fr/actualite/france/trafic-de-cocaïne-un-gros-poisson-qui-rêve-de-reprendre-le-large/ar-AA24fMsG?ocid=00000000",
-      "url_hash": "ec45b1aac5ddebaa0dfff98f84fe2ad7e1b548204fb231c9cf170d754c131206",
-      "title": "Trafic de cocaïne : un « gros poisson » qui rêve de reprendre le large",
-      "abstract": "Mardi dernier, un franco mauricien de 33 ans, mis en examen pour trafic de stupéfiants, a fait appel de son placement en détention provisoire alors que tout le désigne comme la tête d’affiche d’un réseau très lucratif. L’enquête débute de façon très classique le 20 juillet 2024. Les douaniers interceptent une mule à son arrivée […] Mardi dernier, un franco mauricien de 33 ans, mis en examen pour trafic de stupéfiants, a fait appel de son...",
-      "image_url": "https://th.bing.com/th?id=ORMS.0ae5f60f89a30cf8c7be4273d8fc8d0a&pid=Wdp",
-      "source": "Zinfos",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T06:53:46Z",
-      "upvotes": 5,
-      "downvotes": 0,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA240cg8",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/j-ai-demandé-à-ce-qu-on-m-abrège-la-vie-mireille-dumas-brise-le-tabou-sur-sa-fin-de-vie/ar-AA240cg8?ocid=00000000",
-      "url_hash": "82148dc9033f84a9f4732567b8a0064a23647a684a9d1b7c878b68071a17ebbe",
-      "title": "« J'ai demandé à ce qu'on m'abrège la vie... » : Mireille Dumas brise le tabou sur sa fin de vie",
-      "abstract": "Ce samedi 23 mai 2026, dans l'émission Piquantes diffusée sur Téva, Nicole Ferroni recevait Mireille Dumas. Entre éclats de rire et confidences, l’intervieweuse star de Vie privée, vie publique a abordé le thème de la fin de vie. À 72 ans, l'animatrice assume une position très claire et dit avoir déjà tout prévu.",
-      "image_url": "https://th.bing.com/th?id=ORMS.161c0e77d818ead3b0bfc4cc844f453c&pid=Wdp",
-      "source": "Voici",
-      "category": "divertissement",
-      "topics": [
-        "Célébrités",
-        "Divertissement"
-      ],
-      "published_at": "2026-05-25T11:17:00Z",
-      "upvotes": 173,
-      "downvotes": 76,
-      "comments": 14
-    },
-    {
-      "msn_id": "AA24c9fA",
-      "url": "https://www.msn.com/fr-fr/actualite/france/médicaments-anti-obésité-le-wegovy-et-le-mounjaro-seront-remboursés-à-compter-de-la-mi-juin/ar-AA24c9fA?ocid=00000000",
-      "url_hash": "5a305cd716c6576ed8cef9f0fea054f86c45d1188caa77f470cf7cef989c53e0",
-      "title": "Médicaments anti-obésité : le Wegovy et le Mounjaro seront remboursés à compter de la mi-juin",
-      "abstract": "La ministre de la Santé l'a annoncé jeudi 28 mai. L’Assurance maladie remboursera, pour un nombre restreint de malades, 65 % du prix fixé entre les laboratoires et les autorités sanitaires.",
-      "image_url": "https://th.bing.com/th?id=ORMS.a44589b17f75b6457976917d9f14197a&pid=Wdp",
-      "source": "Liberation",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T08:00:06Z",
-      "upvotes": 4,
-      "downvotes": 10,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24aGfJ",
-      "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-scandale-dénoncé-après-un-forfait/ar-AA24aGfJ?ocid=00000000",
-      "url_hash": "79224890e4d235b27a38683d9ac05d26462f7287e4f2d896d2d55d7193508dbb",
-      "title": "Roland-Garros, scandale dénoncé après un forfait",
-      "abstract": "Le message posté et édité par Alex Blockx pour annoncer son forfait pour son match du 2e tour à Roland-Garros, fait parler.",
-      "image_url": "https://th.bing.com/th?id=ORMS.77ec63d501cb1c762453095c24e14b3f&pid=Wdp",
-      "source": "Sports.fr",
-      "category": "sport",
-      "topics": [
-        "Sport"
-      ],
-      "published_at": "2026-05-27T11:02:50Z",
-      "upvotes": 7,
-      "downvotes": 4,
-      "comments": 1
-    },
-    {
-      "msn_id": "AA24cGbJ",
-      "url": "https://www.msn.com/fr-fr/actualite/monde/l-islamologue-français-françois-burgat-condamné-en-appel-pour-apologie-du-terrorisme/ar-AA24cGbJ?ocid=00000000",
-      "url_hash": "3228680e5520b29ac12dfc05de1a7b563bd91b943d8c1240ab31d2c9cb855b35",
-      "title": "L’islamologue français François Burgat condamné en appel pour « apologie du terrorisme »",
-      "abstract": "L’islamologue François Burgat a été reconnu coupable mercredi « d’apologie du terrorisme » et condamné en appel à 5 000 euros d’amende pour des « publications » en ligne en janvier 2024 concernant le Hamas, après les attaques du mouvement palestinien contre Israël et en pleine guerre à Gaza. Il y a un an, dans cette même affaire, ce spécialiste de ...",
-      "image_url": "https://th.bing.com/th?id=ORMS.e9e971dd37fadf1fe14b83c273351ef2&pid=Wdp",
-      "source": "Le Parisien",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-27T15:26:36Z",
-      "upvotes": 120,
-      "downvotes": 16,
-      "comments": 38
-    },
-    {
-      "msn_id": "AA24ba3T",
-      "url": "https://www.msn.com/fr-fr/divertissement/tv/france-2-présente-ses-excuses-après-le-20h-de-léa-salamé-pourquoi-cette-séquence-a-créé-un-malaise/ar-AA24ba3T?ocid=00000000",
-      "url_hash": "e8d9e5041ceb7789d347a15463f9049592bc8c60d130f873a1a07af6fe1d97e3",
-      "title": "France 2 présente ses excuses après le 20h de Léa Salamé : pourquoi cette séquence a créé un malaise",
-      "abstract": "La réaction de France 2 était attendue après la diffusion d’une séquence qui a surpris de nombreux téléspectateurs. Lire aussi : Voici le salaire astronomique que Léa Salamé a refusé chez BFMTV pour présenter le JT de France 2 Dans le 20h présenté par Léa Salamé, une statue floutée en arrière-plan a provoqué des interrogations, au point que la chaîne a fini par reconnaître une initiative qui n’avait pas lieu d’être. Ce n’est p...",
-      "image_url": "https://th.bing.com/th?id=ORMS.d9d036c01f10c373e65f42bb36bd680d&pid=Wdp",
-      "source": "So Busy Girls",
-      "category": "divertissement",
-      "topics": [
-        "Divertissement"
-      ],
-      "published_at": "2026-05-27T10:03:00Z",
-      "upvotes": 22,
-      "downvotes": 26,
-      "comments": 6
-    },
-    {
-      "msn_id": "AA24fCA1",
-      "url": "https://www.msn.com/fr-fr/finance/autres/ce-hangar-portable-allemand-lance-un-drone-en-mer-déchaînée-en-quelques-minutes-une-première-mondiale/ar-AA24fCA1?ocid=00000000",
-      "url_hash": "add1eb81672b9dbf426cc3faa716eae6e560bbbce98c72ab52538439b61c9a82",
-      "title": "Ce « hangar portable » allemand lance un drone en mer déchaînée en quelques minutes : une première mondiale",
-      "abstract": "L’innovation avance à grands pas avec la présentation de l’ORKA Dock, un hangar portable autonome pour drones navals développé par la PME allemande CiS. Ce dispositif a été dévoilé au Combined Naval Event à Farnborough le 19 mai 2026. Le système permet un décollage et un atterrissage entièrement autonomes depuis un navire de surface non habité (USV...",
-      "image_url": "https://th.bing.com/th?id=ORMS.938fe8786c15d0e36749c9cd683cb086&pid=Wdp",
-      "source": "Armees.com",
-      "category": "finance",
-      "topics": [
-        "Finance"
-      ],
-      "published_at": "2026-05-28T06:05:00Z",
-      "upvotes": 0,
-      "downvotes": 0,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA244In1",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/pire-que-gainsbourg-le-chanteur-ycare-se-confie-sur-ses-excès-et-son-nouveau-mode-de-vie-pour-les-combattre/ar-AA244In1?ocid=00000000",
-      "url_hash": "b304a42a847c9b8db12778bbf7627fa75ab4874219b5e1e22ac27ff56cb1dda9",
-      "title": "« Pire que Gainsbourg » : le chanteur Ycare se confie sur ses excès et son nouveau mode de vie pour les combattre",
-      "abstract": "Le chanteur Ycare a décidé de traverser la Vendée à pied en donnant des concerts intimistes chaque soir. Un choix qui s’inscrit dans une nouvelle hygiène de vie de l’artiste, qui a cédé à de nombreux excès par le passé.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2457ij.img",
-      "source": "Femme Actuelle",
-      "category": "divertissement",
-      "topics": [
-        "Célébrités",
-        "Divertissement"
-      ],
-      "published_at": "2026-05-26T08:20:47Z",
-      "upvotes": 10,
-      "downvotes": 8,
-      "comments": 1
-    },
-    {
-      "msn_id": "AA24cMkU",
-      "url": "https://www.msn.com/fr-fr/divertissement/actualite/véronique-genest-monte-au-créneau-pour-défendre-patrick-bruel/ar-AA24cMkU?ocid=00000000",
-      "url_hash": "4a08df52c7f4996e7658bde0ca87edf3d2be3a20901d6c3a48f495e1b1bd37e2",
-      "title": "Véronique Genest monte au créneau pour défendre Patrick Bruel",
-      "abstract": "Les accusations de violences sexuelles contre Patrick Bruel bouleversent sa tournée et relancent le débat sur la présomption d’innocence en pleine polémique.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24d1xC.img",
-      "source": "Ohmymag FR",
-      "category": "divertissement",
-      "topics": [
-        "Divertissement"
-      ],
-      "published_at": "2026-05-27T18:00:00Z",
       "upvotes": 75,
-      "downvotes": 66,
-      "comments": 48
-    },
-    {
-      "msn_id": "AA1C7pvy",
-      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/impôts-2026-mauvaise-nouvelle-pour-les-propriétaires-de-poules-dont-le-poulailler-dépasse-cette-superficie-dans-le-jardin/ar-AA1C7pvy?ocid=00000000",
-      "url_hash": "7db151a54c9e08f34756f5399bc88d32a5fddbc223430298694fe693c5099b8d",
-      "title": "Impôts 2026 : mauvaise nouvelle pour les propriétaires de poules dont le poulailler dépasse cette superficie dans le jardin",
-      "abstract": "Avis aux propriétaires de poules ! Attention à la taille de votre poulailler. Dépasser cette limite pourrait vous coûter cher.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1XBgtM.img",
-      "source": "Marie France",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-27T13:50:18Z",
-      "upvotes": 204,
-      "downvotes": 173,
-      "comments": 66
-    },
-    {
-      "msn_id": "AA24fsFH",
-      "url": "https://www.msn.com/fr-fr/actualite/france/il-contre-attaque-la-décision-radicale-de-patrick-bruel-après-les-accusations-qui-secouent-sa-carrière/ar-AA24fsFH?ocid=00000000",
-      "url_hash": "5606bc222b131f8845393e229c249c6283ad98395656968552b15e5cdb05ed42",
-      "title": "« Il contre-attaque » : la décision radicale de Patrick Bruel après les accusations qui secouent sa carrière",
-      "abstract": "L’affaire autour de Patrick Bruel connaît un nouveau tournant avec la publication d’une enquête approfondie mettant en lumière plusieurs témoignages accablants. Huit femmes accusent le chanteur de violences sexuelles, de harcèlement et, pour certaines, de tentatives de viol, sur une période s’étendant de 1992 à 2019. Lire aussi : Patrick Bruel accusé de violences sexuelles : le message lapidaire de Chloé Jouannet après sa mère Alexandra Lamy en...",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ZwuG7.img",
-      "source": "So Busy Girls",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T07:45:00Z",
-      "upvotes": 2,
-      "downvotes": 0,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24co2Z",
-      "url": "https://www.msn.com/fr-fr/auto/actualite/une-citroën-ami-débridée-flashée-à-près-de-100-km-h-en-ville-avec-deux-ados-de-14-et-15-ans-à-bord/ar-AA24co2Z?ocid=00000000",
-      "url_hash": "f73b2f419ddb17d070ca04ce95b7f7413d4926534fb10212cdb299890684c1cc",
-      "title": "Une Citroën Ami débridée flashée à près de 100 km/h en ville avec deux ados de 14 et 15 ans à bord",
-      "abstract": "Petite par la taille, immense par la surprise qu’elle a provoquée : une Citroën Ami transformée a été interceptée après avoir été enregistrée à une vitesse proche des 100 km/h en pleine zone urbaine. À bord, deux adolescents de seulement 14 et 15 ans, au cœur d’une scène qui laisse les forces de l’ordre aussi perplexes qu’inquiètes. Habituellement ...",
-      "image_url": "https://th.bing.com/th?id=ORMS.2191a01b0847aab59b811244fc6e4956&pid=Wdp",
-      "source": "Autonews",
-      "category": "auto",
-      "topics": [],
-      "published_at": "2026-05-27T17:00:00Z",
-      "upvotes": 67,
-      "downvotes": 17,
-      "comments": 12
+      "downvotes": 6,
+      "comments": 3
     },
     {
       "msn_id": "AA234oxM",
@@ -1168,20 +800,213 @@
       "comments": 2
     },
     {
-      "msn_id": "AA24aGWt",
-      "url": "https://www.msn.com/fr-fr/sport/other/léon-marchand-rupture-confirmée/ar-AA24aGWt?ocid=00000000",
-      "url_hash": "9972b0de7d9343668149bf7bb4142e787564d412c137b0ac38bc97dbd20659cc",
-      "title": "Léon Marchand, rupture confirmée",
-      "abstract": "Formé au sein des Dauphins du TOEC, Léon Marchand revient dans son club dès qu'il est en France. Cette année, il va rompre la tradition.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24bdT8.img",
-      "source": "Sports.fr",
+      "msn_id": "AA249Nfg",
+      "url": "https://www.msn.com/fr-fr/finance/autres/carte-bancaire-c-est-la-fin-du-code-à-4-chiffres-comment-cela-va-t-il-fonctionner-dorénavant/ar-AA249Nfg?ocid=00000000",
+      "url_hash": "097f5204c6dc5cf0581e93218079779bf52e4f7426512598bb92542beacedd90",
+      "title": "Carte bancaire : c'est la fin du code à 4 chiffres, comment cela va-t-il fonctionner dorénavant ?",
+      "abstract": "Composer un code à 4 chiffres avant chaque paiement pourrait bientôt appartenir au passé. Les banques françaises accélèrent désormais le déploiement des cartes biométriques basées sur l’empreinte digitale.",
+      "image_url": "https://th.bing.com/th?id=ORMS.e709c1e67ef765207e9db5493cb59b26&pid=Wdp",
+      "source": "Pleine Vie",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-27T06:00:56Z",
+      "upvotes": 48,
+      "downvotes": 32,
+      "comments": 6
+    },
+    {
+      "msn_id": "AA24e5pJ",
+      "url": "https://www.msn.com/fr-fr/actualite/france/sondage-63-des-français-favorables-à-une-suspension-de-l-immigration-légale-pendant-trois-ans/ar-AA24e5pJ?ocid=00000000",
+      "url_hash": "61bcbbbcb249b47e1e3d73a8dddf522bd8c6658d46c93b80c11b5950eef79c90",
+      "title": "Sondage – 63 % des Français favorables à une suspension de l’immigration légale pendant trois ans",
+      "abstract": "D’après un nouveau sondage CSA pour CNews, Europe 1 et le JDD, plus de la moitié des Français approuvent l'arrêt temporaire de l'immigration légale suggéré par le garde des Sceaux Gérald Darmanin.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24eFtf.img",
+      "source": "leJDD",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T04:00:07Z",
+      "upvotes": 144,
+      "downvotes": 12,
+      "comments": 46
+    },
+    {
+      "msn_id": "AA24b5uq",
+      "url": "https://www.msn.com/fr-fr/actualite/elections/à-gauche-tout-bascule-d-après-un-nouveau-sondage-glucksmann-dépasserait-mélenchon-aux-présidentielles-et-redistribuerait-totalement-les-cartes/ar-AA24b5uq?ocid=00000000",
+      "url_hash": "cdfa3c88997d0e246f324cf935f3d811b1a45fe2aa4b6debe0cc9fc6753fc324",
+      "title": "À gauche, tout bascule : d'après un nouveau sondage, Glucksmann dépasserait Mélenchon aux présidentielles et redistribuerait totalement les cartes",
+      "abstract": "Un changement discret en apparence, mais aux conséquences potentiellement majeures. Dans les intentions de vote pour la présidentielle 2027, Raphaël Glucksmann est désormais crédité de 14 %, devant Jean-Luc Mélenchon, qui recule à 11 %. Un écart encore modéré, mais symboliquement très fort, tant il traduit une évolution profonde au sein de la gauche française. Pendant des années, Jean-Luc Mélenchon s’est imposé comme la figure dominante de cet...",
+      "image_url": "https://th.bing.com/th?id=ORMS.b81fd754e980ba58b7eecbed6e6444c2&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "actualite",
+      "topics": [
+        "Politique",
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-27T10:57:00Z",
+      "upvotes": 31,
+      "downvotes": 22,
+      "comments": 19
+    },
+    {
+      "msn_id": "AA1WlLsz",
+      "url": "https://www.msn.com/fr-fr/finance/autres/sfr-vendu-pour-20-milliards-ce-qui-change-immédiatement-pour-les-25-millions-d-abonnés/ar-AA1WlLsz?ocid=00000000",
+      "url_hash": "41da51994e2ae8472159ea10e2d1e96b2a1af1c62fed2d66b99eb03f9103349f",
+      "title": "SFR vendu pour 20 milliards : ce qui change immédiatement pour les 25 millions d'abonnés",
+      "abstract": "Le feuilleton SFR touche à sa fin. En avril 2026, Patrick Drahi a cédé à l'offre historique de 20,35 milliards d'euros formulée par le trio Orange, Bouygues Telecom et Free. Alors que la France s'apprête à repasser à trois opérateurs, une question brûle les lèvres des 25 millions de clients du carré rouge : à quelle sauce allez-vous être mangés ? Entre risques de hausses de prix et transition technique, autopsie d’un séisme télécom.",
+      "image_url": "https://th.bing.com/th?id=ORMS.f8316a5141c776b4372f6b0d41ca750b&pid=Wdp",
+      "source": "Les Numériques",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-27T17:00:00Z",
+      "upvotes": 112,
+      "downvotes": 58,
+      "comments": 19
+    },
+    {
+      "msn_id": "AA24c9fA",
+      "url": "https://www.msn.com/fr-fr/actualite/france/médicaments-anti-obésité-le-wegovy-et-le-mounjaro-seront-remboursés-à-compter-de-la-mi-juin/ar-AA24c9fA?ocid=00000000",
+      "url_hash": "5a305cd716c6576ed8cef9f0fea054f86c45d1188caa77f470cf7cef989c53e0",
+      "title": "Médicaments anti-obésité : le Wegovy et le Mounjaro seront remboursés à compter de la mi-juin",
+      "abstract": "La ministre de la Santé l'a annoncé jeudi 28 mai. L’Assurance maladie remboursera, pour un nombre restreint de malades, 65 % du prix fixé entre les laboratoires et les autorités sanitaires.",
+      "image_url": "https://th.bing.com/th?id=ORMS.a44589b17f75b6457976917d9f14197a&pid=Wdp",
+      "source": "Liberation",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T08:00:06Z",
+      "upvotes": 6,
+      "downvotes": 13,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24co2Z",
+      "url": "https://www.msn.com/fr-fr/auto/actualite/une-citroën-ami-débridée-flashée-à-près-de-100-km-h-en-ville-avec-deux-ados-de-14-et-15-ans-à-bord/ar-AA24co2Z?ocid=00000000",
+      "url_hash": "f73b2f419ddb17d070ca04ce95b7f7413d4926534fb10212cdb299890684c1cc",
+      "title": "Une Citroën Ami débridée flashée à près de 100 km/h en ville avec deux ados de 14 et 15 ans à bord",
+      "abstract": "Petite par la taille, immense par la surprise qu’elle a provoquée : une Citroën Ami transformée a été interceptée après avoir été enregistrée à une vitesse proche des 100 km/h en pleine zone urbaine. À bord, deux adolescents de seulement 14 et 15 ans, au cœur d’une scène qui laisse les forces de l’ordre aussi perplexes qu’inquiètes. Habituellement ...",
+      "image_url": "https://th.bing.com/th?id=ORMS.2191a01b0847aab59b811244fc6e4956&pid=Wdp",
+      "source": "Autonews",
+      "category": "auto",
+      "topics": [],
+      "published_at": "2026-05-27T17:00:00Z",
+      "upvotes": 78,
+      "downvotes": 22,
+      "comments": 13
+    },
+    {
+      "msn_id": "AA24fsal",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/le-navire-de-guerre-de-ruyter-chassé-par-l-armée-chinoise-en-mer-de-chine-méridionale-les-pays-bas-accusés-de-violation-grave/ar-AA24fsal?ocid=00000000",
+      "url_hash": "1afcf3848d3ae98f2ac2bf6be2d7bce8393129574f3bec6a19e4acc2048882d0",
+      "title": "Le navire de guerre De Ruyter chassé par l’armée chinoise en mer de Chine méridionale, les Pays-Bas accusés de « violation grave »",
+      "abstract": "Le mouvement militaire n’a pas plus du tout à Pékin. L’armée chinoise revendique avoir mobilisé, ce mercredi, des moyens maritimes et aériens pour chasser un navire de guerre néerlandais d’eaux sous son contrôle en mer de Chine méridionale. Le commandement chinois « a mobilisé des forces navales et aériennes et, conformément aux lois et réglementat...",
+      "image_url": "https://th.bing.com/th?id=ORMS.6dfe5c869ef2953e3fee3ecbb9214583&pid=Wdp",
+      "source": "Le Parisien",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une",
+        "Monde"
+      ],
+      "published_at": "2026-05-28T05:55:43Z",
+      "upvotes": 30,
+      "downvotes": 19,
+      "comments": 2
+    },
+    {
+      "msn_id": "AA24bPwb",
+      "url": "https://www.msn.com/fr-fr/finance/autres/prêt-à-porter-une-nouvelle-enseigne-ferme-60-magasins-en-france-et-va-licencier-jusqu-à-290-employés/ar-AA24bPwb?ocid=00000000",
+      "url_hash": "9183e523dfc40ee006da02d4f8319ff6b9a70d40d13ad261480e4e81fa48ae93",
+      "title": "Prêt-à-porter : une nouvelle enseigne ferme 60 magasins en France et va licencier jusqu’à 290 employés",
+      "abstract": "À peine quatre mois après son placement en redressement judiciaire, le groupe IDKids, propriétaire de la marque Okaïdi, a annoncé un vaste plan de restructuration en France. L’enseigne de vêtements pour enfants prévoit jusqu’à 290 suppressions de postes ainsi que la fermeture d’environ soixante magasins sur le territoire national. L’entreprise, qui...",
+      "image_url": "https://th.bing.com/th?id=ORMS.84245eac62cb62b40d8551c3a0052a47&pid=Wdp",
+      "source": "Econostrum.info",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-27T11:44:00Z",
+      "upvotes": 44,
+      "downvotes": 25,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24dqQV",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/zazie-62-ans-débarrassée-de-certains-codes-elle-assume-pleinement-ses-cheveux-blancs-et-le-temps-qui-passe/ar-AA24dqQV?ocid=00000000",
+      "url_hash": "f6c25806794a516e5a062198cda9ce24404367ff2940e4c10e0d4c5be5eef809",
+      "title": "Zazie (62 ans) « débarrassée » de certains codes, elle assume pleinement ses cheveux blancs et le temps qui passe",
+      "abstract": "De passage sur le plateau de C à vous ce mercredi 27 mai, Zazie a livré un discours rafraîchissant et décomplexé sur le fait de vieillir. Totalement en paix avec son âge et sa chevelure blanche, la chanteuse de 62 ans s'est confiée sur cette nouvelle forme de liberté qu'elle embrasse, n'en déplaise à ses détracteurs.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24cXdW.img",
+      "source": "Purepeople",
+      "category": "divertissement",
+      "topics": [
+        "Célébrités",
+        "Divertissement"
+      ],
+      "published_at": "2026-05-27T19:40:00Z",
+      "upvotes": 41,
+      "downvotes": 33,
+      "comments": 10
+    },
+    {
+      "msn_id": "AA24fYhi",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/caroline-roux-avec-ses-enfants-rosalie-et-marceau-à-l-élysée-pour-une-grande-occasion-le-trio-attire-tous-les-regards/ar-AA24fYhi?ocid=00000000",
+      "url_hash": "791fc6266554e037fbff8824d5b07f160d94787e68f3ff5ec076cad766448f72",
+      "title": "Caroline Roux avec ses enfants Rosalie et Marceau à l’Élysée pour une grande occasion : le trio attire tous les regards !",
+      "abstract": "Caroline Roux a fait une apparition remarquée avec ses enfants Rosalie et Marceau à l’Élysée pour une remise de Légion d’honneur ce mercredi 27 mai.",
+      "image_url": "https://th.bing.com/th?id=ORMS.5fc6c857439efcdd108bed2e111036d2&pid=Wdp",
+      "source": "Gala (French)",
+      "category": "divertissement",
+      "topics": [
+        "Divertissement",
+        "Célébrités"
+      ],
+      "published_at": "2026-05-28T08:59:20Z",
+      "upvotes": 2,
+      "downvotes": 4,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24cjEb",
+      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/parfois-les-hommes-sont-très-cons-jean-louis-aubert-cash-sur-patrick-bruel-après-la-plainte-de-flavie-flament/ar-AA24cjEb?ocid=00000000",
+      "url_hash": "00a047f3f3f7194fce9d820cbea3d34786fc3371da37b7d5976770f32546dd5d",
+      "title": "« Parfois, les hommes sont très cons » : Jean-Louis Aubert cash sur Patrick Bruel après la plainte de Flavie Flament",
+      "abstract": "Les artistes sont nombreux à devoir s'exprimer sur l'affaire qui vise Patrick Bruel. Jean-Louis Aubert a, lui aussi, dû parler du sujet.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24cNo7.img",
+      "source": "Marie France",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-27T16:00:08Z",
+      "upvotes": 54,
+      "downvotes": 15,
+      "comments": 3
+    },
+    {
+      "msn_id": "AA24cqtl",
+      "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-pas-de-poignée-de-main-avertissement-improbable-grosse-embrouille-lors-d-un-match-du-tableau-féminin/ar-AA24cqtl?ocid=00000000",
+      "url_hash": "9656cfc261a60f8e4fafedb54b107ae2d399ccecf03364583415e6cf3a800bf6",
+      "title": "Roland-Garros : pas de poignée de main, avertissement improbable… grosse embrouille lors d’un match du tableau féminin",
+      "abstract": "La chaleur n’émanait pas seulement du ciel de Roland-Garros ce mercredi. Les esprits se sont également échauffés sur le court n°7, théâtre de la rencontre du tableau féminin opposant la Chinoise Wang Xinyu à l’Allemande Tamara Korpatsch. Remportée par la seconde, sortie victorieuse d’une belle empoignade en trois manches (6-2, 2-6, 6-3), la partie ...",
+      "image_url": "https://th.bing.com/th?id=ORMS.1de731b08a56fa6d176d2dfd9ca63fa3&pid=Wdp",
+      "source": "Le Parisien",
       "category": "sport",
       "topics": [
         "Sport"
       ],
-      "published_at": "2026-05-27T12:04:11Z",
-      "upvotes": 36,
-      "downvotes": 19,
+      "published_at": "2026-05-27T14:31:17Z",
+      "upvotes": 22,
+      "downvotes": 18,
       "comments": 1
     },
     {
@@ -1197,44 +1022,219 @@
         "Lifestyle"
       ],
       "published_at": "2026-05-14T21:00:46Z",
-      "upvotes": 664,
-      "downvotes": 373,
+      "upvotes": 674,
+      "downvotes": 374,
       "comments": 39
     },
     {
-      "msn_id": "AA24aMl9",
-      "url": "https://www.msn.com/fr-fr/actualite/other/donald-trump-hué-à-washington-ce-qui-s-est-vraiment-passé-lors-de-cette-soirée-très-attendue-avec-melania/ar-AA24aMl9?ocid=00000000",
-      "url_hash": "8f0f3460b28f69a822c766ca85ab727c095d62654d7dfb66c04501c745141d5a",
-      "title": "Donald Trump hué à Washington : ce qui s’est vraiment passé lors de cette soirée très attendue avec Melania",
-      "abstract": "La scène n’est pas passée inaperçue. Lors de leur récente sortie à Washington, Donald Trump et Melania Trump ont attiré tous les regards… mais pas uniquement pour des raisons glamour. Lire aussi : Donald Trump hospitalisé en urgence ? Ce que révèle vraiment la Maison-Blanche sur son état de santé Donald Trump hué au Kennedy Center : une arrivée sous tension à Washington En se rendant au Kennedy Center, l’un des hauts lieux culturels de la...",
-      "image_url": "https://th.bing.com/th?id=ORMS.d23ed992011c334d559c1f6139bec041&pid=Wdp",
-      "source": "So Busy Girls",
+      "msn_id": "AA249Rq3",
+      "url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/interdit-pendant-90-ans-ce-matériau-de-construction-revient-en-force-il-isole-15-fois-mieux-que-le-béton-et-stocke-du-co-pendant-des-siècles/ar-AA249Rq3?ocid=00000000",
+      "url_hash": "ff9508e9e12b3dd8b5b83c56f0523680a87373a3c18faa9ca6f69a0ab08e9779",
+      "title": "Interdit pendant 90 ans, ce matériau de construction revient en force : il isole 15 fois mieux que le béton et stocke du CO₂ pendant des siècles",
+      "abstract": "Le chanvre-chaux pourrait révolutionner la construction durable !",
+      "image_url": "https://th.bing.com/th?id=ORMS.5a8590ec2820652355614cad4010b3c5&pid=Wdp",
+      "source": "RSE Magazine",
       "category": "actualite",
       "topics": [
         "ACTUALITÉ",
         "Actualité à la Une"
       ],
-      "published_at": "2026-05-27T08:54:00Z",
-      "upvotes": 19,
-      "downvotes": 15,
+      "published_at": "2026-05-27T05:40:00Z",
+      "upvotes": 55,
+      "downvotes": 18,
+      "comments": 9
+    },
+    {
+      "msn_id": "AA24fyvy",
+      "url": "https://www.msn.com/fr-fr/actualite/other/l-artisan-avait-caché-une-enveloppe-dans-une-chaise-je-l-ai-retrouvée-101-ans-après/ar-AA24fyvy?ocid=00000000",
+      "url_hash": "599bc72c6265a5c4f347b3cf080384bd47390acafc3a9c4c2752b5fa16b00969",
+      "title": "« L’artisan avait caché une enveloppe dans une chaise, je l’ai retrouvée 101 ans après… »",
+      "abstract": "Courrier des lectrices et des lecteurs. « En effectuant la rénovation d’une chaise pour une cliente, j’ai retrouvé dans la garniture en paille, une boule de papier chiffonnée… »",
+      "image_url": "https://th.bing.com/th?id=ORMS.ca9f7e68184821feecbf6fac37f88c3a&pid=Wdp",
+      "source": "Ouest-France",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T08:45:06Z",
+      "upvotes": 5,
+      "downvotes": 1,
       "comments": 0
     },
     {
-      "msn_id": "AA243UKB",
-      "url": "https://www.msn.com/fr-fr/finance/autres/cauet-renvoyé-ce-salaire-hallucinant-qu-il-touchait-chez-nrj/ar-AA243UKB?ocid=00000000",
-      "url_hash": "c57119c6fe27d371621569e27ce54b498ae6e412caf37ad2696d03f149926bc4",
-      "title": "Cauet renvoyé : ce salaire hallucinant qu’il touchait chez NRJ",
-      "abstract": "Alors qu’il revient dans l’actualité judiciaire, le nom de Cauet refait aussi surgir une vieille question : combien gagnait vraiment l’animateur star de NRJ ?",
-      "image_url": "https://th.bing.com/th?id=ORMS.a1e1ed5f2a749336bd285b4aa5ad021c&pid=Wdp",
-      "source": "Public : Actu People en continu",
+      "msn_id": "AA24cGwY",
+      "url": "https://www.msn.com/fr-fr/sport/football/un-point-de-pénalité-nice-crie-au-scandale/ar-AA24cGwY?ocid=00000000",
+      "url_hash": "a9a253a4c42c5ca442dc54cc72dcb92ea7547e087ac5e9e21caffd0fd469d989",
+      "title": "Un point de pénalité, Nice crie au scandale",
+      "abstract": "En espérant annuler le huis clos pour son barrage retour contre l’AS Saint-Etienne vendredi, l’OGC Nice a fait appel auprès de la Fédération Française de Football après les incidents face à Metz. Mais l’instance s’est montrée encore plus sévère que la commission de discipline. D’où la colère du Gym. Décidément, rien ne va pour l’OGC Nice. Le club azuréen paye très cher les incidents de son match face à Metz (0-0) le 17 mai dernier. Pour « usage...",
+      "image_url": "https://th.bing.com/th?id=ORMS.09f927e15fdfb738cd910fb88e7773eb&pid=Wdp",
+      "source": "Foot01",
+      "category": "sport",
+      "topics": [
+        "Sport"
+      ],
+      "published_at": "2026-05-27T16:40:00Z",
+      "upvotes": 17,
+      "downvotes": 5,
+      "comments": 5
+    },
+    {
+      "msn_id": "AA24fSBX",
+      "url": "https://www.msn.com/fr-fr/finance/autres/le-torchon-brûle-entre-michel-edouard-leclerc-et-le-ministre-de-l-economie-passe-d-armes-par-médias-interposés/ar-AA24fSBX?ocid=00000000",
+      "url_hash": "ee6b80c58af468a1f681ae10142c705a789e927a0617926b825a475c5dbb317f",
+      "title": "Le torchon brûle entre Michel-Edouard Leclerc et le ministre de l'Economie : passe d'armes par médias interposés",
+      "abstract": "Accusé par le ministre de l’Economie Roland Lescure d’être un «prophète de malheur» après ses prévisions d’inflation, Michel-Edouard Leclerc riposte et défend son rôle face à la hausse des prix.",
+      "image_url": "https://th.bing.com/th?id=ORMS.49ccec6f287f13343c162e4ef736149b&pid=Wdp",
+      "source": "Capital France",
       "category": "finance",
       "topics": [
         "Finance"
       ],
-      "published_at": "2026-05-26T06:00:00Z",
-      "upvotes": 74,
-      "downvotes": 69,
-      "comments": 6
+      "published_at": "2026-05-28T08:22:08Z",
+      "upvotes": 7,
+      "downvotes": 1,
+      "comments": 4
+    },
+    {
+      "msn_id": "AA24fMsG",
+      "url": "https://www.msn.com/fr-fr/actualite/france/trafic-de-cocaïne-un-gros-poisson-qui-rêve-de-reprendre-le-large/ar-AA24fMsG?ocid=00000000",
+      "url_hash": "ec45b1aac5ddebaa0dfff98f84fe2ad7e1b548204fb231c9cf170d754c131206",
+      "title": "Trafic de cocaïne : un « gros poisson » qui rêve de reprendre le large",
+      "abstract": "Mardi dernier, un franco mauricien de 33 ans, mis en examen pour trafic de stupéfiants, a fait appel de son placement en détention provisoire alors que tout le désigne comme la tête d’affiche d’un réseau très lucratif. L’enquête débute de façon très classique le 20 juillet 2024. Les douaniers interceptent une mule à son arrivée […] Mardi dernier, un franco mauricien de 33 ans, mis en examen pour trafic de stupéfiants, a fait appel de son...",
+      "image_url": "https://th.bing.com/th?id=ORMS.0ae5f60f89a30cf8c7be4273d8fc8d0a&pid=Wdp",
+      "source": "Zinfos",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T06:53:46Z",
+      "upvotes": 9,
+      "downvotes": 1,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24cIY1",
+      "url": "https://www.msn.com/fr-fr/finance/autres/carrefour-ouvre-un-espace-discret-pour-les-seniors-en-magasin-si-vous-avez-plus-de-60-ans-vous-ratez-peut-être-tout-ça/ar-AA24cIY1?ocid=00000000",
+      "url_hash": "dd8a4145adb2996cc286a00ba26c95ddf1e7d0aeebbbb6beb8d0c008e24eac27",
+      "title": "Carrefour ouvre un espace discret pour les seniors en magasin : si vous avez plus de 60 ans, vous ratez peut-être tout ça",
+      "abstract": "Avec un habitant sur cinq déjà âgé de 65 ans ou plus, les courses deviennent un vrai enjeu pour les seniors. Carrefour des Générations promet de bousculer leurs habitudes en magasin de quartier.",
+      "image_url": "https://th.bing.com/th?id=ORMS.dfe1d5b96665431365d31168638db5a6&pid=Wdp",
+      "source": "Marmiton",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-27T17:00:00Z",
+      "upvotes": 39,
+      "downvotes": 15,
+      "comments": 9
+    },
+    {
+      "msn_id": "AA1C7pvy",
+      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/impôts-2026-mauvaise-nouvelle-pour-les-propriétaires-de-poules-dont-le-poulailler-dépasse-cette-superficie-dans-le-jardin/ar-AA1C7pvy?ocid=00000000",
+      "url_hash": "7db151a54c9e08f34756f5399bc88d32a5fddbc223430298694fe693c5099b8d",
+      "title": "Impôts 2026 : mauvaise nouvelle pour les propriétaires de poules dont le poulailler dépasse cette superficie dans le jardin",
+      "abstract": "Avis aux propriétaires de poules ! Attention à la taille de votre poulailler. Dépasser cette limite pourrait vous coûter cher.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1XBgtM.img",
+      "source": "Marie France",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-27T13:50:18Z",
+      "upvotes": 210,
+      "downvotes": 178,
+      "comments": 67
+    },
+    {
+      "msn_id": "AA24aGfJ",
+      "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-scandale-dénoncé-après-un-forfait/ar-AA24aGfJ?ocid=00000000",
+      "url_hash": "79224890e4d235b27a38683d9ac05d26462f7287e4f2d896d2d55d7193508dbb",
+      "title": "Roland-Garros, scandale dénoncé après un forfait",
+      "abstract": "Le message posté et édité par Alex Blockx pour annoncer son forfait pour son match du 2e tour à Roland-Garros, fait parler.",
+      "image_url": "https://th.bing.com/th?id=ORMS.77ec63d501cb1c762453095c24e14b3f&pid=Wdp",
+      "source": "Sports.fr",
+      "category": "sport",
+      "topics": [
+        "Sport"
+      ],
+      "published_at": "2026-05-27T11:02:50Z",
+      "upvotes": 11,
+      "downvotes": 4,
+      "comments": 1
+    },
+    {
+      "msn_id": "AA1PuinD",
+      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/voici-le-salaire-qu-il-faut-toucher-tous-les-mois-pour-faire-partie-de-la-classe-moyenne-en-2026-en-france/ar-AA1PuinD?ocid=00000000",
+      "url_hash": "f3243894f8a381cf36ceb772be28acab3fd13e8eb4420486ce9713a3a5b8c2eb",
+      "title": "Voici le salaire qu'il faut toucher tous les mois pour faire partie de la classe moyenne en 2026 en France",
+      "abstract": "Faites-vous partie de la classe moyenne, ou vos revenus vous empêchent-ils d’y accéder de peu ? Voici, selon votre salaire, comment savoir si vous vous en sortez bien au quotidien.",
+      "image_url": "https://th.bing.com/th?id=ORMS.3b678557c2fff4952dbada0b35ba30de&pid=Wdp",
+      "source": "Marie France",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-26T13:15:41Z",
+      "upvotes": 1393,
+      "downvotes": 731,
+      "comments": 215
+    },
+    {
+      "msn_id": "AA24bIUE",
+      "url": "https://www.msn.com/fr-fr/actualite/france/le-fast-food-parisien-du-youtubeur-michou-ferme-déjà-ses-portes-d-anciens-salariés-livrent-des-témoignages-accablants/ar-AA24bIUE?ocid=00000000",
+      "url_hash": "5299d89d9f4b9bce6a755bad87c45ddbdb0ba15137f636ab56081b2757b0ad30",
+      "title": "Le fast-food parisien du youtubeur Michou ferme déjà ses portes, d’anciens salariés livrent des témoignages accablants",
+      "abstract": "Moins d’un an après son ouverture, le fast-food parisien du youtubeur Michou a fermé ses portes. D’anciens employés dénonçant de graves problèmes d’hygiène et des conditions de travail déplorables",
+      "image_url": "https://th.bing.com/th?id=ORMS.2fa72bc036e8bd838f133ff79356eac1&pid=Wdp",
+      "source": "20 Minutes",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-27T14:02:36Z",
+      "upvotes": 128,
+      "downvotes": 50,
+      "comments": 33
+    },
+    {
+      "msn_id": "AA247065",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/mariés-au-premier-regard-la-décision-inattendue-de-mélanie-et-antoine-spoiler/ar-AA247065?ocid=00000000",
+      "url_hash": "042c9af6b2d185f57f82f56ec3c5c30daf407292232e90b0255297c1a470d60c",
+      "title": "Mariés au premier regard : la décision inattendue de Mélanie et Antoine (spoiler)",
+      "abstract": "Mélanie et Antoine, couple à 77% compatible dans Mariés au premier regard saison 10, ont-ils préféré rester mariés ou le divorce ? Voici tout ce qu'il faut savoir !",
+      "image_url": "https://th.bing.com/th?id=ORMS.b2dc5a1b245aa9fb913ae50a6987675c&pid=Wdp",
+      "source": "Ohmymag FR",
+      "category": "divertissement",
+      "topics": [
+        "Célébrités",
+        "Divertissement"
+      ],
+      "published_at": "2026-05-26T19:30:00Z",
+      "upvotes": 15,
+      "downvotes": 11,
+      "comments": 1
+    },
+    {
+      "msn_id": "AA24ahEH",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/raoudha-jean-zéphirin-maman-pour-la-11e-fois-elle-dévoile-un-adorable-cliché-du-bébé-et-révèle-si-c-est-un-garçon-ou-une-fille/ar-AA24ahEH?ocid=00000000",
+      "url_hash": "72ba55ad20778fe79a700465bf171e4438f213ceb20ed079210694e63af087ce",
+      "title": "Raoudha Jean-Zéphirin maman pour la 11e fois : elle dévoile un adorable cliché du bébé et révèle si c'est un garçon ou une fille",
+      "abstract": "Et de onze pour la team Jean-Zéphirin. Raoudha, l'épouse de Stéphane, a révélé ce 26 mai avoir donné naissance au petit dernier de la tribu, sur son compte Instagram. Pour ses abonnés déjà conquis, elle a dévoilé un adorable cliché qui va en faire fondre plus d'un.",
+      "image_url": "https://th.bing.com/th?id=ORMS.f966e2eef62a5df1acfe5afa08f5a3bd&pid=Wdp",
+      "source": "Voici",
+      "category": "divertissement",
+      "topics": [
+        "Célébrités",
+        "Divertissement"
+      ],
+      "published_at": "2026-05-27T07:54:00Z",
+      "upvotes": 22,
+      "downvotes": 22,
+      "comments": 17
     },
     {
       "msn_id": "AA23YSVA",
@@ -1250,9 +1250,26 @@
         "Divertissement"
       ],
       "published_at": "2026-05-25T05:45:00Z",
-      "upvotes": 140,
-      "downvotes": 154,
+      "upvotes": 145,
+      "downvotes": 161,
       "comments": 5
+    },
+    {
+      "msn_id": "AA1Mhs6n",
+      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/retraite-j-ai-touché-le-rsa-toute-ma-vie-voici-combien-je-gagne-de-pension-chaque-mois-en-2026/ar-AA1Mhs6n?ocid=00000000",
+      "url_hash": "940828a80dcc6a9df13a3cb6df66e3bbf3e3d53374f96d2dfcddee3f904b8878",
+      "title": "Retraite : j’ai touché le RSA toute ma vie, voici combien je gagne de pension chaque mois en 2026",
+      "abstract": "Il est souvent dit que les aides comme le RSA sont parfois trop généreuses. Mais qu’en est-il vraiment lorsque les concernés passent le cap de la retraite ? On fait le point.",
+      "image_url": "https://th.bing.com/th?id=ORMS.4e08d12996f0830668955654125d4b9d&pid=Wdp",
+      "source": "Marie France",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-25T16:10:38Z",
+      "upvotes": 1032,
+      "downvotes": 1022,
+      "comments": 588
     },
     {
       "msn_id": "AA23TDqF",
@@ -1268,7 +1285,7 @@
       ],
       "published_at": "2026-05-23T15:40:35Z",
       "upvotes": 154,
-      "downvotes": 156,
+      "downvotes": 158,
       "comments": 33
     },
     {
@@ -1284,26 +1301,9 @@
         "Lifestyle"
       ],
       "published_at": "2026-05-23T05:00:23Z",
-      "upvotes": 252,
-      "downvotes": 200,
+      "upvotes": 258,
+      "downvotes": 201,
       "comments": 20
-    },
-    {
-      "msn_id": "AA1Mhs6n",
-      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/retraite-j-ai-touché-le-rsa-toute-ma-vie-voici-combien-je-gagne-de-pension-chaque-mois-en-2026/ar-AA1Mhs6n?ocid=00000000",
-      "url_hash": "940828a80dcc6a9df13a3cb6df66e3bbf3e3d53374f96d2dfcddee3f904b8878",
-      "title": "Retraite : j’ai touché le RSA toute ma vie, voici combien je gagne de pension chaque mois en 2026",
-      "abstract": "Il est souvent dit que les aides comme le RSA sont parfois trop généreuses. Mais qu’en est-il vraiment lorsque les concernés passent le cap de la retraite ? On fait le point.",
-      "image_url": "https://th.bing.com/th?id=ORMS.4e08d12996f0830668955654125d4b9d&pid=Wdp",
-      "source": "Marie France",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-25T16:10:38Z",
-      "upvotes": 1031,
-      "downvotes": 1019,
-      "comments": 587
     },
     {
       "msn_id": "AA24chv7",
@@ -1318,7 +1318,7 @@
         "Sport"
       ],
       "published_at": "2026-05-27T16:13:51Z",
-      "upvotes": 5,
+      "upvotes": 6,
       "downvotes": 2,
       "comments": 0
     },
@@ -1336,8 +1336,8 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-27T12:01:51Z",
-      "upvotes": 44,
-      "downvotes": 21,
+      "upvotes": 48,
+      "downvotes": 26,
       "comments": 6
     },
     {
@@ -1354,9 +1354,9 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-27T14:45:40Z",
-      "upvotes": 61,
-      "downvotes": 18,
-      "comments": 40
+      "upvotes": 70,
+      "downvotes": 25,
+      "comments": 51
     },
     {
       "msn_id": "AA24cuFq",
@@ -1374,24 +1374,40 @@
       "published_at": "2026-05-27T18:00:12Z",
       "upvotes": 10,
       "downvotes": 7,
-      "comments": 5
+      "comments": 7
     },
     {
-      "msn_id": "AA24cd6T",
-      "url": "https://www.msn.com/fr-fr/sport/football/ligue-des-champions-samir-nasri-n-ira-pas-à-la-finale-pour-canal-après-avoir-été-insulté-par-les-supporters-du-psg-à-munich/ar-AA24cd6T?ocid=00000000",
-      "url_hash": "2c773b7b8c7cb00f8cd4cab9210b500de6df20bbdd771846c0dfd8f0e917df70",
-      "title": "Ligue des champions : Samir Nasri n’ira pas à la finale pour Canal+ après avoir été insulté par les supporters du PSG à Munich",
-      "abstract": "Il aurait dû se trouver en bord de terrain sur la pelouse de la Puskas-Arena ce samedi pour commenter l’avant-match de la finale de la Ligue des champions. Canal +, qui possède les droits de la compétition l’avait d’ailleurs accrédité pour le match auprès de l’UEFA. Mais le lendemain, la chaîne cryptée a renvoyé une nouvelle liste à l’UEFA et cette...",
-      "image_url": "https://th.bing.com/th?id=ORMS.c6996fb5d8f09a636537d3bfa2fc57cc&pid=Wdp",
-      "source": "Le Parisien",
-      "category": "sport",
-      "topics": [
-        "Sport"
-      ],
-      "published_at": "2026-05-28T05:39:06Z",
-      "upvotes": 3,
-      "downvotes": 5,
+      "msn_id": "AA24gd0V",
+      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/citroën-ressort-la-2cv-le-vrai-retour-d-une-icône-automobile/ar-AA24gd0V?ocid=00000000",
+      "url_hash": "4d76d05a937a26de517493550dba368ae3019eeb96ee8f564ed1633b0e26fa72",
+      "title": "Citroën ressort la 2CV : le vrai retour d’une icône automobile ?",
+      "abstract": "Citroën promet le retour de la 2CV. Pas une copie conforme, mais un modèle électrique inspiré d’une voiture qui a marqué plusieurs générations.",
+      "image_url": "https://th.bing.com/th?id=ORMS.2173f44b62d690aa22d5165bae2ee44e&pid=Wdp",
+      "source": "Futura-sciences",
+      "category": "lifestyle",
+      "topics": [],
+      "published_at": "2026-05-28T09:31:43Z",
+      "upvotes": 1,
+      "downvotes": 0,
       "comments": 0
+    },
+    {
+      "msn_id": "AA24cGbJ",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/l-islamologue-français-françois-burgat-condamné-en-appel-pour-apologie-du-terrorisme/ar-AA24cGbJ?ocid=00000000",
+      "url_hash": "3228680e5520b29ac12dfc05de1a7b563bd91b943d8c1240ab31d2c9cb855b35",
+      "title": "L’islamologue français François Burgat condamné en appel pour « apologie du terrorisme »",
+      "abstract": "L’islamologue François Burgat a été reconnu coupable mercredi « d’apologie du terrorisme » et condamné en appel à 5 000 euros d’amende pour des « publications » en ligne en janvier 2024 concernant le Hamas, après les attaques du mouvement palestinien contre Israël et en pleine guerre à Gaza. Il y a un an, dans cette même affaire, ce spécialiste de ...",
+      "image_url": "https://th.bing.com/th?id=ORMS.e9e971dd37fadf1fe14b83c273351ef2&pid=Wdp",
+      "source": "Le Parisien",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-27T15:26:36Z",
+      "upvotes": 144,
+      "downvotes": 20,
+      "comments": 45
     },
     {
       "msn_id": "AA24bViK",
@@ -1407,215 +1423,42 @@
       ],
       "published_at": "2026-05-27T11:10:58Z",
       "upvotes": 14,
-      "downvotes": 3,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24cxdV",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/meurtre-de-jonathan-c-est-moi-qui-ai-insisté-pour-qu-il-parte-en-voyage-au-procès-de-ney-la-douleur-des-proches/ar-AA24cxdV?ocid=00000000",
-      "url_hash": "8acea71a2d6a1c40c4b36d3dc5f7038cb8e1d4edc34d9ce4268bf807de13f281",
-      "title": "Meurtre de Jonathan : « C’est moi qui ai insisté pour qu’il parte en voyage » au procès de Ney, la douleur des proches",
-      "abstract": "Le procès du pédocriminel Martin Ney se poursuit aux assises de Loire-Atlantique dans l’affaire du meurtre du « petit Jonathan », disparu en 2004 en classe de mer. Mercredi après-midi, la grande sœur et le père de l’enfant ont livré leurs témoignages",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24daV2.img",
-      "source": "20 Minutes",
-      "category": "divertissement",
-      "topics": [
-        "Célébrités",
-        "Divertissement"
-      ],
-      "published_at": "2026-05-27T17:34:59Z",
-      "upvotes": 1,
       "downvotes": 4,
       "comments": 0
     },
     {
-      "msn_id": "AA24cEVH",
-      "url": "https://www.msn.com/fr-fr/sport/tennis/valentin-royer-après-sa-défaite-contre-djokovic-je-l-ai-vu-se-plaindre-un-peu-s-étirer-mais-bon-c-est-du-novak-il-fait-ça-pour-essayer/ar-AA24cEVH?ocid=00000000",
-      "url_hash": "4876b1e21c551bdaed6c3601884fb7c5f02911485f3427d0010bf368aad34a57",
-      "title": "Valentin Royer, après sa défaite contre Djokovic : « Je l’ai vu se plaindre un peu, s’étirer. Mais bon, c’est du Novak. Il fait ça pour essayer »",
-      "abstract": "En plus d’avoir séduit le public fran­çais pour sa comba­ti­vité lors de sa défaite face à Novak Djokovic au deuxième tour de Roland‐Garros ce mercredi, Valentin Royer a égale­ment impres­sionné le Serbe, à qui il a vrai­ment donner du fil à retordre. Interrogé en confé­rence de presse d’après match sur son adver­saire, 24 fois vainqueur […]",
-      "image_url": "https://th.bing.com/th?id=ORMS.055335635a08d089e127d61e5b10f040&pid=Wdp",
-      "source": "We Love Tennis",
+      "msn_id": "AA24aGWt",
+      "url": "https://www.msn.com/fr-fr/sport/other/léon-marchand-rupture-confirmée/ar-AA24aGWt?ocid=00000000",
+      "url_hash": "9972b0de7d9343668149bf7bb4142e787564d412c137b0ac38bc97dbd20659cc",
+      "title": "Léon Marchand, rupture confirmée",
+      "abstract": "Formé au sein des Dauphins du TOEC, Léon Marchand revient dans son club dès qu'il est en France. Cette année, il va rompre la tradition.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24bdT8.img",
+      "source": "Sports.fr",
       "category": "sport",
       "topics": [
         "Sport"
       ],
-      "published_at": "2026-05-27T20:48:16Z",
-      "upvotes": 11,
-      "downvotes": 1,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24cuc3",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/barbara-probst-l-or-bleu-est-la-fille-et-la-petite-fille-de-célèbres-comédiennes/ar-AA24cuc3?ocid=00000000",
-      "url_hash": "962e2f46a2b6c26c8b353904b5785780028f02c6f8352f747f26b82e9af8cf39",
-      "title": "Barbara Probst (L'Or Bleu) est la fille (et la petite-fille) de célèbres comédiennes",
-      "abstract": "A l'affiche de la série L'Or Bleu, Barbara Probst a de qui tenir. Ses parents comme ses grands-parents sont en effet tous issus du milieu du showbusiness.",
-      "image_url": "https://th.bing.com/th?id=ORMS.ec88086c7fcffd830382c233f15874a2&pid=Wdp",
-      "source": "Cosmopolitan France",
-      "category": "divertissement",
-      "topics": [
-        "Divertissement",
-        "Célébrités"
-      ],
-      "published_at": "2026-05-27T17:00:00Z",
-      "upvotes": 13,
-      "downvotes": 15,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA24enyG",
-      "url": "https://www.msn.com/fr-fr/actualite/insolite/tu-arroses-trop-souvent-trois-gestes-d-un-ancien-qui-ont-enfin-sauvé-mes-tomates-de-la-canicule/ar-AA24enyG?ocid=00000000",
-      "url_hash": "4b2ff877328fb52dff5d21c1783c26cca40b8bdb01dd4f24f891960213d30413",
-      "title": "« Tu arroses trop souvent » : trois gestes d’un ancien qui ont enfin sauvé mes tomates de la canicule",
-      "abstract": "À chaque vague de chaleur, ses tomates séchaient malgré des arrosoirs entiers. Jusqu’au jour où un ancien du village lui a révélé trois gestes inattendus.",
-      "image_url": "https://th.bing.com/th?id=ORMS.e7110d043201c0c63f3a87c7f4801d3b&pid=Wdp",
-      "source": "Pleine Vie",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T03:08:18Z",
-      "upvotes": 3,
-      "downvotes": 1,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24cjEb",
-      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/parfois-les-hommes-sont-très-cons-jean-louis-aubert-cash-sur-patrick-bruel-après-la-plainte-de-flavie-flament/ar-AA24cjEb?ocid=00000000",
-      "url_hash": "00a047f3f3f7194fce9d820cbea3d34786fc3371da37b7d5976770f32546dd5d",
-      "title": "« Parfois, les hommes sont très cons » : Jean-Louis Aubert cash sur Patrick Bruel après la plainte de Flavie Flament",
-      "abstract": "Les artistes sont nombreux à devoir s'exprimer sur l'affaire qui vise Patrick Bruel. Jean-Louis Aubert a, lui aussi, dû parler du sujet.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24cNo7.img",
-      "source": "Marie France",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-27T16:00:08Z",
-      "upvotes": 41,
-      "downvotes": 11,
+      "published_at": "2026-05-27T12:04:11Z",
+      "upvotes": 39,
+      "downvotes": 20,
       "comments": 1
     },
     {
-      "msn_id": "AA24dqQV",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/zazie-62-ans-débarrassée-de-certains-codes-elle-assume-pleinement-ses-cheveux-blancs-et-le-temps-qui-passe/ar-AA24dqQV?ocid=00000000",
-      "url_hash": "f6c25806794a516e5a062198cda9ce24404367ff2940e4c10e0d4c5be5eef809",
-      "title": "Zazie (62 ans) « débarrassée » de certains codes, elle assume pleinement ses cheveux blancs et le temps qui passe",
-      "abstract": "De passage sur le plateau de C à vous ce mercredi 27 mai, Zazie a livré un discours rafraîchissant et décomplexé sur le fait de vieillir. Totalement en paix avec son âge et sa chevelure blanche, la chanteuse de 62 ans s'est confiée sur cette nouvelle forme de liberté qu'elle embrasse, n'en déplaise à ses détracteurs.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24cXdW.img",
-      "source": "Purepeople",
-      "category": "divertissement",
-      "topics": [
-        "Célébrités",
-        "Divertissement"
-      ],
-      "published_at": "2026-05-27T19:40:00Z",
-      "upvotes": 26,
-      "downvotes": 19,
-      "comments": 6
-    },
-    {
-      "msn_id": "AA24eZx2",
-      "url": "https://www.msn.com/fr-fr/finance/autres/on-en-peut-plus-un-boulanger-s-exprime-sur-ces-remarques-de-clients-qu-il-entend-chaque-jour/ar-AA24eZx2?ocid=00000000",
-      "url_hash": "d3dd4d98f7b159f7e3ed9a34a28e35cadd9ab886359a3c93811f4bf7efac794c",
-      "title": "« On en peut plus » : un boulanger s'exprime sur ces remarques de clients qu'il entend chaque jour",
-      "abstract": "Derrière les vitrines bien garnies des boulangeries, la fatigue et l’agacement montent chez certains artisans. Un boulanger a décidé de raconter les remarques répétitives de clients qui finissent, selon lui, par rendre le quotidien particulièrement pesant et démoralisant.",
-      "image_url": "https://th.bing.com/th?id=ORMS.700266113722152bba690a3f368e1ff2&pid=Wdp",
-      "source": "Pleine Vie",
-      "category": "finance",
-      "topics": [
-        "Finance"
-      ],
-      "published_at": "2026-05-28T04:00:54Z",
-      "upvotes": 1,
-      "downvotes": 2,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA23FNY2",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/je-ne-plante-plus-mes-courgettes-au-hasard-l-erreur-fatale-qui-ruine-vos-récoltes-et-la-distance-à-respecter/ar-AA23FNY2?ocid=00000000",
-      "url_hash": "06049d0347aba89515e59badf62130a7bde8a02fd1b860db9cd1a4d59178b713",
-      "title": "« Je ne plante plus mes courgettes au hasard » : l’erreur fatale qui ruine vos récoltes et la distance à respecter",
-      "abstract": "Trois plants serrés au pied d’une haie, un arrosage « à la douche » et des limaces en embuscade : vos courgettes sont condamnées avant l’été. Comment corriger cette erreur de départ sans tout refaire au potager ?",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA23G9Nk.img",
-      "source": "Pleine Vie",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-20T20:09:46Z",
-      "upvotes": 16,
-      "downvotes": 4,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA2447R4",
-      "url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/500-tortues-lâchées-en-plein-sahara-cinq-ans-plus-tard-l-herbe-pousse-là-où-personne-n-avait-réussi-à-planter-un-seul-arbre/ar-AA2447R4?ocid=00000000",
-      "url_hash": "9921bc18232e32507e5c36ef929cb53dbed583e7f74c7fb71e4846d1422f4434",
-      "title": "500 tortues lâchées en plein Sahara : cinq ans plus tard, l’herbe pousse là où personne n’avait réussi à planter un seul arbre",
-      "abstract": "Cinq ans après la réintroduction de 500 tortues dans le Sahara, des zones désertiques révèlent une biodiversité renaissante.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA244zm3.img",
-      "source": "RSE Magazine",
+      "msn_id": "AA24dsvy",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/inoffensif-tant-qu-on-ne-le-dérange-pas-robert-kennedy-jr-attrape-un-serpent-à-main-nue-et-autres-histoires-animalières/ar-AA24dsvy?ocid=00000000",
+      "url_hash": "4b9fedf6008c4390f35513163ab9bed4d7c9bd9e47076e078def8804b650c99b",
+      "title": "« Inoffensif tant qu’on ne le dérange pas » : Robert Kennedy Jr attrape un serpent à main nue, et autres histoires animalières",
+      "abstract": "La vidéo est rapidement devenue virale : elle montre le ministre américain de la Santé Robert Kennedy Jr attraper deux serpents noirs à mains nues. L’un d’eux semble même mordre RFK à un moment mais l’homme politique garde le sourire. La séquence a remis sous les projecteurs ses expériences souvent bizarres avec les animaux. Ministre aussi atypique...",
+      "image_url": "https://th.bing.com/th?id=ORMS.ad73e002b5b243c7758a0b291c7666b7&pid=Wdp",
+      "source": "Le Parisien",
       "category": "actualite",
       "topics": [
         "ACTUALITÉ",
         "Actualité à la Une"
       ],
-      "published_at": "2026-05-26T06:10:00Z",
-      "upvotes": 136,
-      "downvotes": 13,
-      "comments": 6
-    },
-    {
-      "msn_id": "AA24ap4M",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/les-anciens-plantaient-cet-arbuste-près-de-l-entrée-pour-une-raison-précise-aujourd-hui-on-comprend-qu-ils-avaient-tout-compris/ar-AA24ap4M?ocid=00000000",
-      "url_hash": "3cae0957f908d5392293671386223acaf8fe3d6752393b775bea0ce09e7bd9d9",
-      "title": "Les anciens plantaient cet arbuste près de l’entrée pour une raison précise : aujourd’hui, on comprend qu’ils avaient tout compris",
-      "abstract": "Il fut un temps où l’aménagement de l’extérieur ne répondait pas seulement à des critères esthétiques, mais surtout à un bon sens paysan d’une redoutable efficacité. En observant les vieilles bâtisses de nos campagnes, on remarque souvent la présence d’une végétation spécifique positionnée à des endroits très stratégiques. Près du portail ou de la porte… Poursuivre la lecture Les anciens plantaient cet arbuste près de l’entrée pour une raison...",
-      "image_url": "https://th.bing.com/th?id=ORMS.04f75c835a00ca01f72ab8730c616439&pid=Wdp",
-      "source": "masculin.com",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-27T07:00:00Z",
-      "upvotes": 36,
-      "downvotes": 7,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24dc6C",
-      "url": "https://www.msn.com/fr-fr/sport/football/mercato-om-7-joueurs-arrivent-lorenzi-est-déjà-sous-l-eau/ar-AA24dc6C?ocid=00000000",
-      "url_hash": "56e5223755066c3898600d62edfb721555b11da2ad26babe5cf697c3ce0f4352",
-      "title": "Mercato - OM : 7 joueurs arrivent, Lorenzi est déjà sous l’eau !",
-      "abstract": "Stéphane Richard a annoncé l’arrivée de Grégory Lorenzi et le directeur sportif marseillais n'aura pas le temps de se reposer. De nombreux joueurs vont revenir à l’OM à l’issue de leur prêt.",
-      "image_url": "https://th.bing.com/th?id=ORMS.aa605b3abab88b9b67117f78d2f54808&pid=Wdp",
-      "source": "Foot Marseillais",
-      "category": "sport",
-      "topics": [
-        "Football",
-        "Sport"
-      ],
-      "published_at": "2026-05-28T06:00:59Z",
-      "upvotes": 0,
-      "downvotes": 0,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24fkkE",
-      "url": "https://www.msn.com/fr-fr/auto/actualite/ces-nouveaux-radars-au-laser-flashent-avant-même-que-vous-freiniez-quand-vous-les-voyez-il-est-déjà-trop-tard-selon-les-gendarmes/ar-AA24fkkE?ocid=00000000",
-      "url_hash": "14a781748030184554d614f1a7e558a038fad033853d9ebb3ef37b06010a1955",
-      "title": "Ces nouveaux radars au laser flashent avant même que vous freiniez : « Quand vous les voyez, il est déjà trop tard » selon les gendarmes",
-      "abstract": "L’Espagne s’apprête à franchir un cap en matière de sécurité routière avec l’activation imminente de ses nouveaux radars dits intelligents. Ces dispositifs de dernière génération, accessibles sur le réseau routier espagnol « de l’autre côté des Pyrénées », visent à renforcer la surveillance du trafic et la prévention des accidents. Annoncé par la R...",
-      "image_url": "https://th.bing.com/th?id=ORMS.d4bb95077e140a8896c2d8b088fa8bb2&pid=Wdp",
-      "source": "L'Automobiliste",
-      "category": "auto",
-      "topics": [],
-      "published_at": "2026-05-28T06:15:00Z",
+      "published_at": "2026-05-27T23:01:37Z",
       "upvotes": 2,
-      "downvotes": 1,
+      "downvotes": 5,
       "comments": 0
     },
     {
@@ -1632,8 +1475,165 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-28T03:00:00Z",
-      "upvotes": 5,
+      "upvotes": 13,
+      "downvotes": 4,
+      "comments": 2
+    },
+    {
+      "msn_id": "AA24fy2h",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/ça-me-rend-complètement-fou-les-restaurateurs-ne-supportent-plus-cette-habitude-des-clients-en-entrant-au-restaurant/ar-AA24fy2h?ocid=00000000",
+      "url_hash": "f66447be502e4e3f603d4ab545427575c0ad07f8297a14e727b65dd06eefc978",
+      "title": "«Ça me rend complètement fou» : les restaurateurs ne supportent plus cette habitude des clients en entrant au restaurant",
+      "abstract": "L’attitude des clients au restaurant peut être une véritable source de stress pour le personnel concerné. Certaines habitudes ont la vie dure et contribuent fortement à dégrader l’atmosphère. On vous en révèle une, que vous avez peut-être déjà adoptée, et qui met les restaurateurs à bout de nerfs !",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24fKd4.img",
+      "source": "Marmiton",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-28T08:00:00Z",
+      "upvotes": 2,
       "downvotes": 2,
+      "comments": 3
+    },
+    {
+      "msn_id": "AA24cxdV",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/meurtre-de-jonathan-c-est-moi-qui-ai-insisté-pour-qu-il-parte-en-voyage-au-procès-de-ney-la-douleur-des-proches/ar-AA24cxdV?ocid=00000000",
+      "url_hash": "8acea71a2d6a1c40c4b36d3dc5f7038cb8e1d4edc34d9ce4268bf807de13f281",
+      "title": "Meurtre de Jonathan : « C’est moi qui ai insisté pour qu’il parte en voyage » au procès de Ney, la douleur des proches",
+      "abstract": "Le procès du pédocriminel Martin Ney se poursuit aux assises de Loire-Atlantique dans l’affaire du meurtre du « petit Jonathan », disparu en 2004 en classe de mer. Mercredi après-midi, la grande sœur et le père de l’enfant ont livré leurs témoignages",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24daV2.img",
+      "source": "20 Minutes",
+      "category": "divertissement",
+      "topics": [
+        "Célébrités",
+        "Divertissement"
+      ],
+      "published_at": "2026-05-27T17:34:59Z",
+      "upvotes": 8,
+      "downvotes": 5,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24bhcS",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/canicule-non-ce-n-est-pas-le-matin-très-tôt-qu-il-faut-arroser-vos-plantes-sous-30-degrés/ar-AA24bhcS?ocid=00000000",
+      "url_hash": "e53ab607bfdc06ed02042a78b861e00891dea809ac72b6aa53911ff5056ecded",
+      "title": "Canicule : non, ce n'est pas le matin très tôt qu'il faut arroser vos plantes sous 30 degrés",
+      "abstract": "Avec les températures qui grimpent dès le matin, les habitudes au jardin doivent évoluer. Contrairement à une idée largement répandue, arroser ses plantes à 7 ou 8 heures n’est plus suffisant en période de canicule.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24cfnX.img",
+      "source": "Aufeminin",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-27T13:28:28Z",
+      "upvotes": 19,
+      "downvotes": 7,
+      "comments": 1
+    },
+    {
+      "msn_id": "AA24cd6T",
+      "url": "https://www.msn.com/fr-fr/sport/football/ligue-des-champions-samir-nasri-n-ira-pas-à-la-finale-pour-canal-après-avoir-été-insulté-par-les-supporters-du-psg-à-munich/ar-AA24cd6T?ocid=00000000",
+      "url_hash": "2c773b7b8c7cb00f8cd4cab9210b500de6df20bbdd771846c0dfd8f0e917df70",
+      "title": "Ligue des champions : Samir Nasri n’ira pas à la finale pour Canal+ après avoir été insulté par les supporters du PSG à Munich",
+      "abstract": "Il aurait dû se trouver en bord de terrain sur la pelouse de la Puskas-Arena ce samedi pour commenter l’avant-match de la finale de la Ligue des champions. Canal +, qui possède les droits de la compétition l’avait d’ailleurs accrédité pour le match auprès de l’UEFA. Mais le lendemain, la chaîne cryptée a renvoyé une nouvelle liste à l’UEFA et cette...",
+      "image_url": "https://th.bing.com/th?id=ORMS.c6996fb5d8f09a636537d3bfa2fc57cc&pid=Wdp",
+      "source": "Le Parisien",
+      "category": "sport",
+      "topics": [
+        "Sport"
+      ],
+      "published_at": "2026-05-28T05:39:06Z",
+      "upvotes": 8,
+      "downvotes": 9,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24cuc3",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/barbara-probst-l-or-bleu-est-la-fille-et-la-petite-fille-de-célèbres-comédiennes/ar-AA24cuc3?ocid=00000000",
+      "url_hash": "962e2f46a2b6c26c8b353904b5785780028f02c6f8352f747f26b82e9af8cf39",
+      "title": "Barbara Probst (L'Or Bleu) est la fille (et la petite-fille) de célèbres comédiennes",
+      "abstract": "A l'affiche de la série L'Or Bleu, Barbara Probst a de qui tenir. Ses parents comme ses grands-parents sont en effet tous issus du milieu du showbusiness.",
+      "image_url": "https://th.bing.com/th?id=ORMS.ec88086c7fcffd830382c233f15874a2&pid=Wdp",
+      "source": "Cosmopolitan France",
+      "category": "divertissement",
+      "topics": [
+        "Divertissement",
+        "Célébrités"
+      ],
+      "published_at": "2026-05-27T17:00:00Z",
+      "upvotes": 16,
+      "downvotes": 18,
+      "comments": 3
+    },
+    {
+      "msn_id": "AA24gc20",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/des-analystes-estiment-que-les-états-unis-se-rapprochent-d-une-déclaration-de-victoire-et-d-un-retrait-de-la-guerre-avec-l-iran/ar-AA24gc20?ocid=00000000",
+      "url_hash": "7d3d615483889099b97fdfb30e8e8d50f84192323f565bcd391f6739a01e79b1",
+      "title": "Des analystes estiment que les États-Unis se rapprochent d’une déclaration de victoire et d’un retrait de la guerre avec l’Iran",
+      "abstract": "De plus en plus d’analystes estiment que Washington se dirige vers une issue bien connue dans la guerre avec l’Iran : affirmer que les objectifs principaux ont été atteints, verrouiller un cadre diplomatique limité et éviter un conflit ouvert plus profond et sans limite de temps. L’enjeu est important, car les récents messages des États-Unis ont mêlé discours sur les progrès, pression sur l’Iran et signaux répétés indiquant que la Maison Blanche...",
+      "image_url": "https://th.bing.com/th?id=ORMS.6d56f4ed31c6456ecabb7dd991244ecc&pid=Wdp",
+      "source": "Walking Archive",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T08:05:40Z",
+      "upvotes": 1,
+      "downvotes": 0,
+      "comments": 2
+    },
+    {
+      "msn_id": "AA243Kni",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/j-arrosais-mon-potager-chaque-soir-en-pensant-bien-faire-un-maraîcher-m-a-montré-ce-qui-se-passait-à-5-cm-sous-terre/ar-AA243Kni?ocid=00000000",
+      "url_hash": "8e83c2d0d45209c17e0ffdf9461b94f9dd482d562501c897bf64a16f899655b9",
+      "title": "J’arrosais mon potager chaque soir en pensant bien faire : un maraîcher m’a montré ce qui se passait à 5 cm sous terre",
+      "abstract": "En cette fin du mois de mai, alors que les jours rallongent et que les premières véritables chaleurs commencent à s’installer, une scène familière se répète dans de nombreux jardins. À la tombée de la nuit, le tuyau d’arrosage à la main, on offre une douche rafraîchissante aux tomates, courgettes et salades, en pensant bien… Poursuivre la lecture J’arrosais mon potager chaque soir en pensant bien faire : un maraîcher m’a montré ce qui se passait...",
+      "image_url": "https://th.bing.com/th?id=ORMS.049e4378747fbf1f628254de9450f9c1&pid=Wdp",
+      "source": "masculin.com",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-26T04:00:00Z",
+      "upvotes": 26,
+      "downvotes": 14,
+      "comments": 1
+    },
+    {
+      "msn_id": "AA24bHl4",
+      "url": "https://www.msn.com/fr-fr/actualite/france/le-gouvernement-charge-xenia-fedorova-vedette-pro-russe-de-cnews-et-ses-propos-très-graves/ar-AA24bHl4?ocid=00000000",
+      "url_hash": "095c6da379c3dd1c089fecf024517710dd8b68dad4c72f464b0c8d82c264de24",
+      "title": "Le gouvernement charge Xenia Fedorova, vedette pro-russe de CNews, et ses « propos très graves »",
+      "abstract": "L’ex-directrice de la chaîne RT France, coqueluche de la « bollosphère » et qui se revendique « journaliste », est connue pour ses déclarations alignées sur celle du Kremlin.",
+      "image_url": "https://th.bing.com/th?id=ORMS.986c2d43300b17297c02aedd69d50d4c&pid=Wdp",
+      "source": "Le HuffPost",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-27T14:52:06Z",
+      "upvotes": 85,
+      "downvotes": 48,
+      "comments": 82
+    },
+    {
+      "msn_id": "AA24ap4M",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/les-anciens-plantaient-cet-arbuste-près-de-l-entrée-pour-une-raison-précise-aujourd-hui-on-comprend-qu-ils-avaient-tout-compris/ar-AA24ap4M?ocid=00000000",
+      "url_hash": "3cae0957f908d5392293671386223acaf8fe3d6752393b775bea0ce09e7bd9d9",
+      "title": "Les anciens plantaient cet arbuste près de l’entrée pour une raison précise : aujourd’hui, on comprend qu’ils avaient tout compris",
+      "abstract": "Il fut un temps où l’aménagement de l’extérieur ne répondait pas seulement à des critères esthétiques, mais surtout à un bon sens paysan d’une redoutable efficacité. En observant les vieilles bâtisses de nos campagnes, on remarque souvent la présence d’une végétation spécifique positionnée à des endroits très stratégiques. Près du portail ou de la porte… Poursuivre la lecture Les anciens plantaient cet arbuste près de l’entrée pour une raison...",
+      "image_url": "https://th.bing.com/th?id=ORMS.04f75c835a00ca01f72ab8730c616439&pid=Wdp",
+      "source": "masculin.com",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-27T07:00:00Z",
+      "upvotes": 39,
+      "downvotes": 9,
       "comments": 0
     },
     {
@@ -1649,9 +1649,96 @@
         "Finance"
       ],
       "published_at": "2026-05-27T03:30:46Z",
-      "upvotes": 45,
-      "downvotes": 25,
+      "upvotes": 47,
+      "downvotes": 26,
       "comments": 4
+    },
+    {
+      "msn_id": "AA2447R4",
+      "url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/500-tortues-lâchées-en-plein-sahara-cinq-ans-plus-tard-l-herbe-pousse-là-où-personne-n-avait-réussi-à-planter-un-seul-arbre/ar-AA2447R4?ocid=00000000",
+      "url_hash": "9921bc18232e32507e5c36ef929cb53dbed583e7f74c7fb71e4846d1422f4434",
+      "title": "500 tortues lâchées en plein Sahara : cinq ans plus tard, l’herbe pousse là où personne n’avait réussi à planter un seul arbre",
+      "abstract": "Cinq ans après la réintroduction de 500 tortues dans le Sahara, des zones désertiques révèlent une biodiversité renaissante.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA244zm3.img",
+      "source": "RSE Magazine",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-26T06:10:00Z",
+      "upvotes": 139,
+      "downvotes": 13,
+      "comments": 6
+    },
+    {
+      "msn_id": "AA24c9hG",
+      "url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-acapulco-us-open-dinard-ces-lieux-au-cœur-des-accusations/ar-AA24c9hG?ocid=00000000",
+      "url_hash": "e078f172ff44357b6ea08544b1d2b9253d4d0c50a48c936f8ddb5c462eb93147",
+      "title": "Patrick Bruel accusé : Acapulco, US Open, Dinard : ces lieux au cœur des accusations",
+      "abstract": "Les accusations visant Patrick Bruel s’étendent sur près de trois décennies et concernent plusieurs lieux, chacun associé à des témoignages précis. Parmi eux, Acapulco, l’US Open et Dinard reviennent régulièrement dans les récits des femmes qui mettent en cause le chanteur. À Acapulco, en 1997, Daniela Elstner affirme avoir été victime d’une agression lors du festival du Film français. Elle décrit une scène dans une voiture, puis dans une...",
+      "image_url": "https://th.bing.com/th?id=ORMS.edf7e7d537e87fb6b9c1e66d3e8438ff&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-27T15:09:00Z",
+      "upvotes": 10,
+      "downvotes": 0,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA249n4W",
+      "url": "https://www.msn.com/fr-fr/finance/autres/wind-to-watt-une-éolienne-domestique-française-qui-produit-de-l-électricité-en-moins-de-3-heures/ar-AA249n4W?ocid=00000000",
+      "url_hash": "65816df55971b1b4d7001cb0d23153eae146bc015dba0e2f87aea9828a41f1ab",
+      "title": "Wind to Watt, une éolienne domestique française qui produit de l’électricité en moins de 3 heures",
+      "abstract": "Quand on parle d’énergies renouvelables accessibles au grand public, on pense presque toujours aux panneaux photovoltaïques. Pourtant, le vent est lui aussi partout autour de nous. C’est justement l’idée derrière Wind To Watt, une innovation française qui tente de simplifier radicalement l’accès à l’énergie éolienne. Sur le site officiel du ministè...",
+      "image_url": "https://th.bing.com/th?id=ORMS.60f9d070bc060aa3d431477f9e3403f2&pid=Wdp",
+      "source": "NeozOne",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-27T05:00:03Z",
+      "upvotes": 18,
+      "downvotes": 5,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24dOxf",
+      "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-la-solution-de-djokovic-pour-s-adapter-aux-très-fortes-chaleurs/ar-AA24dOxf?ocid=00000000",
+      "url_hash": "f440c946225d4428f88a4a4fa37b04dbe5f18b5c8aa21356c689530ef765f8d5",
+      "title": "Roland-Garros : la solution de Djokovic pour s'adapter aux très fortes chaleurs",
+      "abstract": "Après un deuxième tour \"épuisant\" mercredi en pleine vague de chaleur, Novak Djokovic a estimé que l'organisation de Roland-Garros devrait \"repousser\" les matchs de quelques heures quand de telles conditions extrêmes se présentent, comme cela se fait en Australie.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24dx8F.img",
+      "source": "RMC Sport",
+      "category": "sport",
+      "topics": [
+        "Sport"
+      ],
+      "published_at": "2026-05-27T22:44:22Z",
+      "upvotes": 6,
+      "downvotes": 0,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA1HUA7L",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/on-peut-démasquer-nos-collègues-incompétents-en-observant-ces-3-détails-sur-leur-visage-selon-des-chercheurs-de-princeton/ar-AA1HUA7L?ocid=00000000",
+      "url_hash": "829ce5b142acdea136a37bdf9019903af9c0b3b0046ca7ead38fcab08d80a1f4",
+      "title": "On peut démasquer nos collègues incompétents en observant ces 3 détails sur leur visage, selon des chercheurs de Princeton",
+      "abstract": "Des chercheurs américains ont dessiné les traits du visage des personnes jugées incompétentes. Une découverte surprenante qui se base sur nos perceptions.",
+      "image_url": "https://th.bing.com/th?id=ORMS.8f542ceb69590413c0a0f4c096a81839&pid=Wdp",
+      "source": "psychologies",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-28T09:09:03Z",
+      "upvotes": 115,
+      "downvotes": 129,
+      "comments": 14
     },
     {
       "msn_id": "AA24bYDv",
@@ -1667,78 +1754,9 @@
         "Divertissement"
       ],
       "published_at": "2026-05-27T14:10:00Z",
-      "upvotes": 11,
-      "downvotes": 12,
+      "upvotes": 13,
+      "downvotes": 14,
       "comments": 1
-    },
-    {
-      "msn_id": "AA24bIUE",
-      "url": "https://www.msn.com/fr-fr/actualite/france/le-fast-food-parisien-du-youtubeur-michou-ferme-déjà-ses-portes-d-anciens-salariés-livrent-des-témoignages-accablants/ar-AA24bIUE?ocid=00000000",
-      "url_hash": "5299d89d9f4b9bce6a755bad87c45ddbdb0ba15137f636ab56081b2757b0ad30",
-      "title": "Le fast-food parisien du youtubeur Michou ferme déjà ses portes, d’anciens salariés livrent des témoignages accablants",
-      "abstract": "Moins d’un an après son ouverture, le fast-food parisien du youtubeur Michou a fermé ses portes. D’anciens employés dénonçant de graves problèmes d’hygiène et des conditions de travail déplorables",
-      "image_url": "https://th.bing.com/th?id=ORMS.2fa72bc036e8bd838f133ff79356eac1&pid=Wdp",
-      "source": "20 Minutes",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-27T14:02:36Z",
-      "upvotes": 112,
-      "downvotes": 43,
-      "comments": 31
-    },
-    {
-      "msn_id": "AA24aKwo",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/rappel-produit-urgent-dans-les-magasins-carrefour-et-auchan-attention-ces-produits-ne-doivent-pas-être-consommés/ar-AA24aKwo?ocid=00000000",
-      "url_hash": "e89f7744ce9a93af3664250bf4660c35c4ad88592998b75a0bc62dfe6a326bda",
-      "title": "Rappel produit urgent dans les magasins Carrefour et Auchan : attention, ces produits ne doivent pas être consommés",
-      "abstract": "Une boisson au gingembre et citron commercialisée chez Auchan et Carrefour en Île-de-France est rappelée après la découverte d’un allergène non mentionné sur l’étiquette. Les consommateurs concernés sont invités à la prudence, notamment les personnes sensibles à certaines substances présentes dans ce lot précis.",
-      "image_url": "https://th.bing.com/th?id=ORMS.9c677c6b44b4e26d18a3456dc3728b1d&pid=Wdp",
-      "source": "Marmiton",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-27T10:00:00Z",
-      "upvotes": 22,
-      "downvotes": 10,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24dZUY",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/pendant-des-années-mes-poules-arrêtaient-de-pondre-dès-juin-un-ancien-m-a-fait-regarder-le-poulailler-à-l-aube-et-j-ai-tout-compris/ar-AA24dZUY?ocid=00000000",
-      "url_hash": "3782a5f5a3aadcc70dea2bfe61a1568cfd0facb7c0411726938f00a30be82619",
-      "title": "Pendant des années, mes poules arrêtaient de pondre dès juin : un ancien m’a fait regarder le poulailler à l’aube et j’ai tout compris",
-      "abstract": "C’est une scène bien connue des amateurs de petits élevages familiaux. À l’approche de la belle saison, l’espoir de récolter quotidiennement de beaux œufs frais se heurte souvent à une réalité bien décevante. Un gros plan sur une poule au regard perçant, confortablement installée dans la paille de son pondoir, laisse espérer une belle récolte,… Poursuivre la lecture Pendant des années, mes poules arrêtaient de pondre dès juin : un ancien m’a...",
-      "image_url": "https://th.bing.com/th?id=ORMS.407018a0529a97cd86bf7ac9b60b2875&pid=Wdp",
-      "source": "masculin.com",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-28T03:00:00Z",
-      "upvotes": 9,
-      "downvotes": 2,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24dqX4",
-      "url": "https://www.msn.com/fr-fr/finance/autres/la-réforme-des-retraites-de-nouveau-sur-la-table-le-ministre-du-travail-affirme-qu-il-faut-la-reprendre/ar-AA24dqX4?ocid=00000000",
-      "url_hash": "8e4694ae377f3ff0740aeb0642401a806233dc823100ad6819a35261a2016f52",
-      "title": "La réforme des retraites de nouveau sur la table ? Le ministre du travail affirme qu'il faut la reprendre",
-      "abstract": "Suspendue dans le cadre de la loi de financement de la Sécurité sociale, la réforme des retraites devrait être un des thèmes de campagne des candidats à la présidentielle de 2027. Pour le ministre du Travail il faut de nouveau rouvrir le dossier.",
-      "image_url": "https://th.bing.com/th?id=ORMS.004f3392ce0c6e588f30b4fcd8b4a946&pid=Wdp",
-      "source": "Capital France",
-      "category": "finance",
-      "topics": [
-        "Finance"
-      ],
-      "published_at": "2026-05-27T20:28:27Z",
-      "upvotes": 22,
-      "downvotes": 19,
-      "comments": 13
     }
   ]
 }
