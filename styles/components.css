@@ -298,6 +298,57 @@
   letter-spacing: 1px;
 }
 
+/* Article Discover non-promu en sujet MSN : marqueur visuel distinct
+   pour ne pas le confondre avec un sujet scoré globalement. */
+.sujet--discover-only {
+  border-style: dashed;
+  background: rgba(245, 0, 0, 0.02);
+}
+
+.sujet__rank--discover {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  letter-spacing: 1.5px;
+  align-self: center;
+}
+
+.sujet__discover-score {
+  font-family: var(--font-display);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  border: 1px solid rgba(245, 0, 0, 0.4);
+  background: rgba(245, 0, 0, 0.05);
+  min-width: 56px;
+}
+
+.sujet__discover-score-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  line-height: 1;
+}
+
+.sujet__discover-score-label {
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+.sujet__title--link {
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: color 150ms ease-out;
+}
+
+.sujet__title--link:hover {
+  color: var(--primary-color);
+}
+
 .sujet__head {
   min-width: 0;
   display: flex;

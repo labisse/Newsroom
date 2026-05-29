@@ -26,6 +26,12 @@ import {
 
 const state = {
   allSujets: [],
+  // Buckets clusters bruts (catégories, clusters d'entités, entités plates)
+  // → utilisés pour piocher les top_articles Discover quand un filtre actif
+  //   ne ramène aucun sujet MSN (cf bug "5 ART → 0 SUJET").
+  categoriesTrending: [],
+  entityClusters: [],
+  entitiesTrending: [],
   filter: null, // { kind: "category" | "entity" | "entity-cluster", value: string, label: string, members?: string[] }
 };
 
@@ -250,6 +256,87 @@ const matchesFilter = (sujet, filter) => {
   return true;
 };
 
+/**
+ * Récupère les top_articles Discover du bucket qui correspond au filtre actif.
+ * Les sujets MSN (top 30) ne couvrent qu'une fraction des entités/catégories
+ * vues en Discover (1200+ articles) — quand aucun sujet MSN ne matche, on
+ * affiche directement les articles Discover qui ont fait grimper le compteur
+ * (cf bug "5 ART → 0 SUJET").
+ *
+ * Dédup contre les sujets MSN déjà affichés (par URL ou titre normalisé).
+ */
+const discoverArticlesForFilter = (filter, msnUrls) => {
+  if (!filter) return [];
+  let bucket = null;
+  if (filter.kind === "category") {
+    bucket = state.categoriesTrending.find((c) => c.key === filter.value);
+  } else if (filter.kind === "entity") {
+    bucket = state.entitiesTrending.find((e) => e.name === filter.value);
+  } else if (filter.kind === "entity-cluster") {
+    bucket = state.entityClusters.find((c) => c.label === filter.value);
+  }
+  if (!bucket) return [];
+  const articles = bucket.top_articles || [];
+  return articles.filter((a) => {
+    const url = a.url || "";
+    return url && !msnUrls.has(url);
+  });
+};
+
+const renderDiscoverArticle = (article) => {
+  // Carte minimaliste : un article Discover repéré dans le flux mais
+  // pas encore promu en sujet global. Visuellement distinct du sujet MSN
+  // pour ne pas tromper le rédac chef sur le statut éditorial.
+  const score = Number(article.score || 0);
+  const scoreDisplay =
+    score >= 10 ? score.toFixed(0) : score >= 1 ? score.toFixed(1) : "présent";
+  return h(
+    "li",
+    { class: "sujet sujet--discover-only" },
+    h(
+      "span",
+      { class: "sujet__rank sujet__rank--discover" },
+      "DIS",
+    ),
+    h(
+      "div",
+      { class: "sujet__discover-score", title: "Score Discoversnoop" },
+      h("span", { class: "sujet__discover-score-value" }, String(scoreDisplay)),
+      h("span", { class: "sujet__discover-score-label" }, "/65"),
+    ),
+    h(
+      "div",
+      { class: "sujet__head" },
+      article.url
+        ? h(
+            "a",
+            {
+              class: "sujet__title sujet__title--link",
+              href: article.url,
+              target: "_blank",
+              rel: "noopener noreferrer",
+            },
+            article.title || "(sans titre)",
+          )
+        : h("h3", { class: "sujet__title" }, article.title || "(sans titre)"),
+      h(
+        "div",
+        { class: "sujet__meta" },
+        h(
+          "span",
+          { class: "sujet__theme" },
+          article.publisher || "Discover",
+        ),
+        h(
+          "span",
+          { class: "signal-pill", "data-source": "gsc" },
+          "discover · non promu MSN",
+        ),
+      ),
+    ),
+  );
+};
+
 const setFilter = (filter) => {
   state.filter = filter;
   refreshList();
@@ -270,11 +357,25 @@ const updateFilterBanner = () => {
   }
 
   const visible = state.allSujets.filter((s) => matchesFilter(s, state.filter));
+  const msnUrls = new Set(visible.map((s) => s.msn_url || "").filter(Boolean));
+  const discoverExtras = discoverArticlesForFilter(state.filter, msnUrls);
   const kindLabel = {
     category: "Catégorie",
     entity: "Topic",
     "entity-cluster": "Univers",
   }[state.filter.kind];
+
+  // Compteur unifié : sujets MSN scorés + articles Discover non promus
+  const countParts = [];
+  if (visible.length > 0) {
+    countParts.push(`${visible.length} sujet${visible.length > 1 ? "s" : ""}`);
+  }
+  if (discoverExtras.length > 0) {
+    countParts.push(
+      `${discoverExtras.length} article${discoverExtras.length > 1 ? "s" : ""} Discover`,
+    );
+  }
+  const countText = countParts.length ? countParts.join(" · ") : "0 sujet";
 
   banner.classList.add("is-active");
   banner.innerHTML = "";
@@ -284,11 +385,7 @@ const updateFilterBanner = () => {
       { class: "filter-banner__inner" },
       h("span", { class: "filter-banner__kind" }, kindLabel),
       h("span", { class: "filter-banner__value" }, state.filter.label),
-      h(
-        "span",
-        { class: "filter-banner__count" },
-        `${visible.length} sujet${visible.length > 1 ? "s" : ""}`,
-      ),
+      h("span", { class: "filter-banner__count" }, countText),
       h(
         "button",
         {
@@ -365,19 +462,39 @@ const refreshList = () => {
 
   const filtered = state.allSujets.filter((s) => matchesFilter(s, state.filter));
 
-  if (filtered.length === 0) {
-    list.appendChild(renderEmptyFilter());
-    return;
-  }
-
+  // Sujets MSN matchés, regroupés par tier
   const sorted = [...filtered].sort((a, b) => b.score - a.score);
   const buckets = { high: [], medium: [], low: [] };
   for (const s of sorted) buckets[tierFromScore(s.score)].push(s);
-
   for (const tier of ["high", "medium", "low"]) {
     if (buckets[tier].length === 0) continue;
     list.appendChild(renderTierDivider(tierLabel[tier], buckets[tier].length));
     for (const s of buckets[tier]) list.appendChild(renderSujet(s));
+  }
+
+  // Articles Discover du bucket filtré qui ne sont PAS déjà couverts par
+  // un sujet MSN (cf bug "5 ART → 0 SUJET"). On dédup par URL pour ne
+  // pas afficher deux fois un article qui aurait été matché en MSN.
+  if (state.filter) {
+    const msnUrls = new Set(
+      filtered.map((s) => s.msn_url || "").filter(Boolean),
+    );
+    const discoverArticles = discoverArticlesForFilter(state.filter, msnUrls);
+    if (discoverArticles.length > 0) {
+      list.appendChild(
+        renderTierDivider(
+          `Articles Discover · non promus en sujet MSN`,
+          discoverArticles.length,
+        ),
+      );
+      for (const a of discoverArticles) {
+        list.appendChild(renderDiscoverArticle(a));
+      }
+    } else if (filtered.length === 0) {
+      // Vraie absence de signal (rare) : pas de sujet MSN, pas d'article
+      // Discover dans le bucket → message d'orientation.
+      list.appendChild(renderEmptyFilter());
+    }
   }
 };
 
@@ -434,6 +551,9 @@ const mount = async () => {
   } = data;
 
   state.allSujets = sujets;
+  state.categoriesTrending = categoriesTrending || [];
+  state.entityClusters = entityClusters || [];
+  state.entitiesTrending = entitiesTrending || [];
 
   // Sections clusters : Catégories + Clusters d'entités + Entités résiduelles
   const clustersMount = document.querySelector("#clusters-mount");
