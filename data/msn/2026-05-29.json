@@ -1,9 +1,45 @@
 {
   "source": "msn",
-  "fetched_at": "2026-05-29T16:12:46Z",
+  "fetched_at": "2026-05-29T16:52:58Z",
   "market": "fr-fr",
   "count": 100,
   "articles": [
+    {
+      "msn_id": "AA24mXLH",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/après-son-retrait-des-enfoirés-patrick-bruel-prend-la-parole-compte-tenu-des-circonstances/ar-AA24mXLH?ocid=00000000",
+      "url_hash": "103a2e95cfe32d0fef5fcc965c3fcdb0349f5ea6891b30aa4c97cb13fa67314e",
+      "title": "Après son retrait des Enfoirés, Patrick Bruel prend la parole : « Compte tenu des circonstances… »",
+      "abstract": "Selon les informations de RTL, dans la nuit du jeudi 28 au vendredi 29 mai, Patrick Bruel a envoyé un message à la troupe des Enfoirés pour annoncer son retrait des concerts de la prochaine édition, en raison des accusations de violences sexuelles dont il fait l’objet.",
+      "image_url": "https://th.bing.com/th?id=ORMS.df090ae42e4a23bf708366eee4216c5e&pid=Wdp",
+      "source": "Gala (French)",
+      "category": "divertissement",
+      "topics": [
+        "Divertissement",
+        "Célébrités"
+      ],
+      "published_at": "2026-05-29T15:12:00Z",
+      "upvotes": 1,
+      "downvotes": 3,
+      "comments": 1
+    },
+    {
+      "msn_id": "AA24lEo4",
+      "url": "https://www.msn.com/fr-fr/actualite/elections/bruno-retailleau-face-à-un-piège-politique-déjà-visible-dans-les-sondages/ar-AA24lEo4?ocid=00000000",
+      "url_hash": "e591440725642cbf84412b23413ebc27a1cb4ae815f000a13e164cc104b4c215",
+      "title": "Bruno Retailleau face à un piège politique déjà visible dans les sondages",
+      "abstract": "Dans le sondage Toluna Harris Interactive pour M6 et RTL sur la présidentielle 2027, le cas de Bruno Retailleau est particulièrement révélateur. Le président des Républicains est crédité de 9 % à 13 % selon les configurations testées. Ce grand écart montre à quel point la droite traditionnelle évolue dans un espace politique instable. Le score de Bruno Retailleau dépend fortement des candidats présents autour de lui. Lorsque Jordan Bardella et...",
+      "image_url": "https://th.bing.com/th?id=ORMS.d02ce0e53d899bfd4a3f5cf400e6bdfb&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-29T09:54:00Z",
+      "upvotes": 10,
+      "downvotes": 5,
+      "comments": 1
+    },
     {
       "msn_id": "AA24lOha",
       "url": "https://www.msn.com/fr-fr/actualite/monde/on-n-a-jamais-vécu-cela-sidérée-évelyne-dhéliat-réagit-aux-violentes-attaques-et-menaces-à-l-encontre-des-journalistes-météo/ar-AA24lOha?ocid=00000000",
@@ -18,59 +54,27 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-29T12:38:34Z",
-      "upvotes": 4,
-      "downvotes": 1,
-      "comments": 1
-    },
-    {
-      "msn_id": "AA24hdkc",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/mireille-mathieu-tournée-en-ridicule-la-chanteuse-de-79-ans-très-choquée-on-vous-explique/ar-AA24hdkc?ocid=00000000",
-      "url_hash": "db281b0f3d147a2331ad0b05ee45259c956ef9c5c582d25d95e0c7b334f1758f",
-      "title": "Mireille Mathieu tournée en ridicule, la chanteuse de 79 ans « très choquée » : on vous explique",
-      "abstract": "Ces derniers jours, le nom de Mireille Mathieu a été tourné en ridicule par un propriétaire d’une brasserie française. Une initiative qui a beaucoup agacé l’artiste de 79 ans qui a, dès lors, décidé d’agir !",
-      "image_url": "https://th.bing.com/th?id=ORMS.e5cf03d14f96adcc9a7a1d83e0745ad3&pid=Wdp",
-      "source": "Gala (French)",
-      "category": "divertissement",
-      "topics": [
-        "Divertissement",
-        "Célébrités"
-      ],
-      "published_at": "2026-05-28T13:00:46Z",
-      "upvotes": 91,
-      "downvotes": 86,
-      "comments": 22
-    },
-    {
-      "msn_id": "AA24mvcN",
-      "url": "https://www.msn.com/fr-fr/auto/actualite/son-habitacle-rempli-d-épaisse-fumée-intrigue-les-gendarmes-il-fumait-la-chicha-en-conduisant/ar-AA24mvcN?ocid=00000000",
-      "url_hash": "2197077d96363c2df54bf1d8bdcb24a46bb6a2e85b2a6735cca076a5cad6e415",
-      "title": "Son habitacle rempli d'épaisse fumée intrigue les gendarmes… il fumait la chicha en conduisant!",
-      "abstract": "Une épaisse fumée s’échappant d’un véhicule en circulation a immédiatement éveillé les soupçons des gendarmes. Mais derrière cette scène digne d’un brouillard miniature sur quatre roues, les forces de l’ordre ont découvert un conducteur absorbé par une activité aussi insolite que risquée : il fumait tranquillement la chicha au volant. Sur la route,...",
-      "image_url": "https://th.bing.com/th?id=ORMS.44aef2c82219f1d269233366e5caafe1&pid=Wdp",
-      "source": "Autonews",
-      "category": "auto",
-      "topics": [],
-      "published_at": "2026-05-29T15:00:00Z",
       "upvotes": 16,
-      "downvotes": 3,
-      "comments": 2
+      "downvotes": 10,
+      "comments": 7
     },
     {
-      "msn_id": "AA23qKFm",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/restaurant-ce-que-les-serveurs-analysent-en-secret-lorsque-vous-vous-installez-selon-une-experte-de-l-étiquette/ar-AA23qKFm?ocid=00000000",
-      "url_hash": "90fa3617de9648408ecf4f867e036e6d634ffed5046fb9ff8fb1bfd4e618ec61",
-      "title": "Restaurant : ce que les serveurs analysent en secret lorsque vous vous installez selon une experte de l'étiquette",
-      "abstract": "Dès votre installation au restaurant, les serveurs observent plusieurs détails précis selon une experte de l’étiquette. Attitude, politesse ou comportement à table : certains gestes influencent discrètement la perception du personnel et parfois même la qualité du service.",
-      "image_url": "https://th.bing.com/th?id=ORMS.af51cf20cb0a4c4851c7304adcda522b&pid=Wdp",
-      "source": "Aufeminin",
-      "category": "lifestyle",
+      "msn_id": "AA24dfpM",
+      "url": "https://www.msn.com/fr-fr/actualite/france/des-militantes-féministes-interrompent-une-représentation-de-patrick-bruel-à-paris/ar-AA24dfpM?ocid=00000000",
+      "url_hash": "b6898b53ab82cfc3b7b5f7d9ff0d4fb8b3d98ca582fbbf26f03d574230b766cf",
+      "title": "Des militantes féministes interrompent une représentation de Patrick Bruel à Paris",
+      "abstract": "Une représentation de Patrick Bruel a été brièvement perturbée mercredi 27 mai au Théâtre Édouard‑VII par des militantes féministes du collectif Nous Toutes, venues scander des slogans avant d’être rapidement évacuées par la sécurité, dans un contexte d’accusations visant l’artiste.",
+      "image_url": "https://th.bing.com/th?id=ORMS.cf92dac8b207635db01f3458bce5b5a2&pid=Wdp",
+      "source": "Ouest-France",
+      "category": "actualite",
       "topics": [
-        "Lifestyle"
+        "Actualité",
+        "Actualité à la Une"
       ],
-      "published_at": "2026-05-17T18:01:30Z",
-      "upvotes": 59,
-      "downvotes": 62,
-      "comments": 0
+      "published_at": "2026-05-28T06:01:16Z",
+      "upvotes": 52,
+      "downvotes": 20,
+      "comments": 11
     },
     {
       "msn_id": "AA24lTku",
@@ -86,43 +90,43 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-29T13:18:41Z",
-      "upvotes": 63,
-      "downvotes": 27,
-      "comments": 3
+      "upvotes": 87,
+      "downvotes": 32,
+      "comments": 5
     },
     {
-      "msn_id": "AA24ho2s",
-      "url": "https://www.msn.com/fr-fr/finance/autres/canicule-voici-la-facture-d-une-climatisation-laissée-allumée-toute-la-nuit/ar-AA24ho2s?ocid=00000000",
-      "url_hash": "12d28a6616e4e5a2a4e6e4b0f7c987e6a837ec1d25ff02ad176b6c587714f94f",
-      "title": "Canicule : voici la facture d’une climatisation laissée allumée toute la nuit",
-      "abstract": "Avec la canicule qui sévit nombreux sont les Français à laisser tourner leur climatiseur la nuit. Voici comment cela se répercute sur la facture d’électricité",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24h9m3.img",
-      "source": "20 Minutes",
+      "msn_id": "AA24na6L",
+      "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-2026-ce-que-risque-vallejo-après-ses-propos-sexistes-contre-l-arbitre-de-son-match-contre-kouame/ar-AA24na6L?ocid=00000000",
+      "url_hash": "e74cbaf654b3c89a38952b19352447e485a44008295e8e241e5f36306fdf47e0",
+      "title": "Roland-Garros 2026 : ce que risque Vallejo après ses propos sexistes contre l'arbitre de son match contre Kouame",
+      "abstract": "Défait par la pépite tricolore Moïse Kouame au terme d’un duel épique lors du deuxième tour de Roland-Garros, Adolfo Daniel Vallejo a tenu des propos sexistes envers l’arbitre brésilienne Ana Carvalho. Il a déclaré que \"ce genre de match devait être arbitré par un homme\", lui reprochant de ne pas avoir assez contenu un public déchaîné. Que risque le Paraguayen après avoir tenu de tel propos?",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24mNNy.img",
+      "source": "RMC Sport",
+      "category": "sport",
+      "topics": [
+        "Sport"
+      ],
+      "published_at": "2026-05-29T15:03:59Z",
+      "upvotes": 1,
+      "downvotes": 1,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA243UKB",
+      "url": "https://www.msn.com/fr-fr/finance/autres/cauet-renvoyé-ce-salaire-hallucinant-qu-il-touchait-chez-nrj/ar-AA243UKB?ocid=00000000",
+      "url_hash": "c57119c6fe27d371621569e27ce54b498ae6e412caf37ad2696d03f149926bc4",
+      "title": "Cauet renvoyé : ce salaire hallucinant qu’il touchait chez NRJ",
+      "abstract": "Alors qu’il revient dans l’actualité judiciaire, le nom de Cauet refait aussi surgir une vieille question : combien gagnait vraiment l’animateur star de NRJ ?",
+      "image_url": "https://th.bing.com/th?id=ORMS.a1e1ed5f2a749336bd285b4aa5ad021c&pid=Wdp",
+      "source": "Public : Actu People en continu",
       "category": "finance",
       "topics": [
         "Finance"
       ],
-      "published_at": "2026-05-28T14:02:36Z",
-      "upvotes": 20,
-      "downvotes": 16,
-      "comments": 8
-    },
-    {
-      "msn_id": "AA24fZdq",
-      "url": "https://www.msn.com/fr-fr/finance/autres/patrick-sébastien-pris-en-flagrant-délit-de-mensonge-ces-millions-d-euros-que-france-télévisions-lui-aurait-versés/ar-AA24fZdq?ocid=00000000",
-      "url_hash": "29b9d43e570da582637ee6c74874e676cb7fe7e667eec76ad5a8c05222e79dcd",
-      "title": "Patrick Sébastien pris en flagrant délit de mensonge ? Ces millions d’euros que France Télévisions lui aurait versés",
-      "abstract": "Patrick Sébastien est de nouveau au centre d’une polémique autour de ses années passées sur France 2. Cette fois, ce sont les revenus générés par ses sociétés qui sont concernés.",
-      "image_url": "https://th.bing.com/th?id=ORMS.4b50e0300744c42f9ab08e0831060b71&pid=Wdp",
-      "source": "Télé star",
-      "category": "finance",
-      "topics": [
-        "Finance"
-      ],
-      "published_at": "2026-05-28T07:15:18Z",
-      "upvotes": 99,
-      "downvotes": 99,
-      "comments": 29
+      "published_at": "2026-05-26T06:00:00Z",
+      "upvotes": 126,
+      "downvotes": 96,
+      "comments": 9
     },
     {
       "msn_id": "AA24i8hb",
@@ -143,110 +147,21 @@
       "comments": 5
     },
     {
-      "msn_id": "AA24mS4Q",
-      "url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/et-si-nous-étions-tous-des-martiens-le-rover-curiosity-de-la-nasa-vient-de-trouver-la-preuve/vi-AA24mS4Q?ocid=00000000",
-      "url_hash": "cb466783f432a58ca7e32cdd8f4ec0db1240a30623fa71c100fe0227b29824c9",
-      "title": "Et si nous étions tous des Martiens ? Le rover Curiosity de la NASA vient de trouver la preuve",
-      "abstract": "Le rover Curiosity de la NASA vient de forer des roches martiennes vieilles de 3,5 milliards d'années et y a découvert plus de 20 molécules organiques – les éléments constitutifs de la vie, riches en azote et en soufre, tout comme ceux qui ont donné naissance à la vie sur Terre. Utilisant pour la première fois du TMAH sur un autre monde, SAM a détecté du carbone préservé dans d'anciens sédiments du cratère Gale, à Glen Torridon. Mars a connu des lacs et une température élevée des milliards d'années avant les plus anciens fossiles terrestres. Ces composés chimiques correspondent parfaitement aux origines de la Terre – trop parfaitement ? La panspermie suggère que des microbes éjectés par des impacts ont été propulsés jusqu'à notre planète. Géologie ou vie ancienne ? La science ne peut pas encore trancher, mais la corrélation est troublante. Avec les retours d'échantillons de Perseverance, nous pourrions prouver que Mars a ensemencé la Terre. Et si nous étions tous des Martiens ?",
-      "image_url": "https://th.bing.com/th?id=ORMS.2b73c2cfd9e89b6b051e05f8f0642455&pid=Wdp",
-      "source": "SYMPA",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-29T14:08:14Z",
-      "upvotes": 9,
-      "downvotes": 4,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA247qwy",
-      "url": "https://www.msn.com/fr-fr/lifestyle/cuisine/arrête-de-les-couper-comme-ça-ce-que-mon-voisin-m-a-appris-sur-les-gourmands-des-tomates-cerises-et-mes-récoltes-ont-explosé/ar-AA247qwy?ocid=00000000",
-      "url_hash": "be00dbfdd0a92492943497d91c8e46a72fe745d9b889498639f5431ca88aabef",
-      "title": "« Arrête de les couper comme ça » : ce que mon voisin m’a appris sur les gourmands des tomates cerises et mes récoltes ont explosé",
-      "abstract": "Pendant des années, j’ai traqué les gourmands de mes tomates cerises, persuadé de bien faire. Jusqu’au jour où un voisin m’a révélé ce que je gâchais.",
-      "image_url": "https://th.bing.com/th?id=ORMS.811f4a2faebb37cb772266d1aa4504e2&pid=Wdp",
-      "source": "Pleine Vie",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle",
-        "Cuisine"
-      ],
-      "published_at": "2026-05-26T17:09:06Z",
-      "upvotes": 21,
-      "downvotes": 6,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24iNDL",
-      "url": "https://www.msn.com/fr-fr/actualite/france/je-l-ai-vu-de-mes-yeux-ce-que-décrit-anny-duperey-sur-les-fans-de-patrick-bruel-relance-le-débat/ar-AA24iNDL?ocid=00000000",
-      "url_hash": "5b9ca7ddc3b26ab1d86175e7fd54df3340629f3211fa7f03801e8d2b79f3a5c9",
-      "title": "« Je l’ai vu de mes yeux » : ce que décrit Anny Duperey sur les fans de Patrick Bruel relance le débat",
-      "abstract": "En évoquant Patrick Bruel, Anny Duperey s’est appuyée sur ce qu’elle présente comme des observations directes. Elle affirme avoir vu des images et des scènes de sorties de concerts où des fans se jetaient sur l’artiste avec une intensité qu’elle juge marquante. Ce souvenir, qu’elle met en avant pour expliquer sa position, apporte un éclairage personnel qui a immédiatement suscité l’attention. Selon elle, ces comportements ne relèvent pas...",
-      "image_url": "https://th.bing.com/th?id=ORMS.79b383165ef6e69e8b8b86416b31c7a1&pid=Wdp",
+      "msn_id": "AA24bOvv",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/quelques-mois-avant-sa-mort-nathalie-baye-lâchait-cette-phrase-troublante-sur-laeticia-hallyday/ar-AA24bOvv?ocid=00000000",
+      "url_hash": "7bcc236f1df2ecf6bc4a620a163d3c2eef035ee2e0c16a5f58ccb16a0e4ac5db",
+      "title": "Quelques mois avant sa mort, Nathalie Baye lâchait cette phrase troublante sur Laeticia Hallyday",
+      "abstract": "« C’est un peu plus loin, mais il n’y a pas de malaise ni de quoi que ce soit. » Cette phrase, prononcée par Nathalie Baye lors de sa dernière interview télévisée en septembre 2024, résonne aujourd’hui avec une intensité particulière. À l’époque, elle semblait presque anodine, glissée au détour d’une réponse sur ses relations avec les femmes qui ont partagé la vie de Johnny Hallyday. Mais avec le recul, elle intrigue et interroge. Car derrière...",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA21ozoJ.img",
       "source": "So Busy Girls",
-      "category": "actualite",
+      "category": "divertissement",
       "topics": [
-        "Actualité",
-        "Actualité à la Une"
+        "Célébrités",
+        "Divertissement"
       ],
-      "published_at": "2026-05-28T19:01:00Z",
-      "upvotes": 60,
-      "downvotes": 47,
-      "comments": 1
-    },
-    {
-      "msn_id": "AA243UKB",
-      "url": "https://www.msn.com/fr-fr/finance/autres/cauet-renvoyé-ce-salaire-hallucinant-qu-il-touchait-chez-nrj/ar-AA243UKB?ocid=00000000",
-      "url_hash": "c57119c6fe27d371621569e27ce54b498ae6e412caf37ad2696d03f149926bc4",
-      "title": "Cauet renvoyé : ce salaire hallucinant qu’il touchait chez NRJ",
-      "abstract": "Alors qu’il revient dans l’actualité judiciaire, le nom de Cauet refait aussi surgir une vieille question : combien gagnait vraiment l’animateur star de NRJ ?",
-      "image_url": "https://th.bing.com/th?id=ORMS.a1e1ed5f2a749336bd285b4aa5ad021c&pid=Wdp",
-      "source": "Public : Actu People en continu",
-      "category": "finance",
-      "topics": [
-        "Finance"
-      ],
-      "published_at": "2026-05-26T06:00:00Z",
-      "upvotes": 124,
-      "downvotes": 94,
-      "comments": 9
-    },
-    {
-      "msn_id": "AA24mfM7",
-      "url": "https://www.msn.com/fr-fr/actualite/monde/on-disait-que-l-ukraine-ne-reprendrait-jamais-la-crimée-voici-ce-qui-s-est-passé/vi-AA24mfM7?ocid=00000000",
-      "url_hash": "2bd1e121e1429191a99ecde20f95fe930bc60ce7385d3df4b45a6d811b0bd8d1",
-      "title": "On disait que l’Ukraine ne reprendrait jamais la Crimée... Voici ce qui s’est passé",
-      "abstract": "Poutine pensait la Crimée intouchable ? Détrompez-vous ! Découvrez comment l’Ukraine déjoue tous les pronostics, en frappant fort et avec intelligence là où la Russie ne s’y attendait pas. Plongez dans cette analyse captivante pleine de rebondissements ! Abonnez-vous à notre chaîne pour ne rien rater et dites-nous en commentaire ce qui vous a le plus bluffé dans la vidéo ! #Ukraine #Russie #Crimée #Guerre #Stratégie",
-      "image_url": "https://th.bing.com/th?id=ORMS.f9672d0d8e29a082826ec931d6f9e33c&pid=Wdp",
-      "source": "Le Spectacle Militaire",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-29T13:25:19Z",
-      "upvotes": 41,
-      "downvotes": 12,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA24ii5q",
-      "url": "https://www.msn.com/fr-fr/actualite/france/canicule-peut-on-exiger-une-carafe-d-eau-gratuite-au-restaurant-ce-que-dit-la-loi-en-france/ar-AA24ii5q?ocid=00000000",
-      "url_hash": "4ad61cdfeeb10a1061c05bac457cb614d209177b529727327ea6f321d8197d3f",
-      "title": "Canicule : peut-on exiger une carafe d’eau gratuite au restaurant ? Ce que dit la loi en France",
-      "abstract": "DÉCRYPTAGE - Une cliente italienne vient d’être déboutée après avoir attaqué un hôtel de luxe qui refusait de lui servir de l’eau du robinet à table. En France, la loi est plus protectrice pour les consommateurs, mais elle ne s’applique pas à toutes les situations.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24i5T3.img",
-      "source": "Le Figaro",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T16:00:07Z",
-      "upvotes": 5,
-      "downvotes": 3,
+      "published_at": "2026-05-27T15:10:00Z",
+      "upvotes": 54,
+      "downvotes": 49,
       "comments": 0
     },
     {
@@ -263,59 +178,63 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-29T15:19:52Z",
-      "upvotes": 5,
+      "upvotes": 8,
       "downvotes": 0,
-      "comments": 1
+      "comments": 5
     },
     {
-      "msn_id": "AA22Tv3r",
-      "url": "https://www.msn.com/fr-fr/auto/actualite/la-mercedes-amg-s63-w222-atteint-330-km-h-sur-l-autobahn-allemande/vi-AA22Tv3r?ocid=00000000",
-      "url_hash": "706cd31a9ca7700ff212bb13984353472985f2f4abff060327b13bea59af112c",
-      "title": "La Mercedes-AMG S63 W222 atteint 330 km/h sur l'Autobahn allemande",
-      "abstract": "La Mercedes-AMG S63 W222 est au centre d'un passage à grande vitesse sur l'Autobahn, qui met en avant le caractère performance de cette berline de luxe. Tournée sur l'Autobahn allemande, la vidéo se concentre sur l'accélération soutenue, la présence sur la route et le design soigné de la génération W222. Elle offre un aperçu clair du comportement d'une berline Mercedes-AMG à très haute vitesse dans l'un des environnements de conduite les plus connus d'Europe. Ces images s'adressent particulièrement aux passionnés de voitures sportives, d'autoroutes allemandes et d'ingénierie automobile haut de gamme.",
-      "image_url": "https://th.bing.com/th?id=ORMS.a172c487d324b6db9fc36bb077a9a852&pid=Wdp",
-      "source": "AutoTopNL",
-      "category": "auto",
-      "topics": [],
-      "published_at": "2026-05-11T08:00:49Z",
-      "upvotes": 10,
-      "downvotes": 17,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA2427y0",
-      "url": "https://www.msn.com/fr-fr/lifestyle/lifestylegeneral/vos-verres-rangés-à-l-envers-depuis-des-années-cachent-ce-qu-aucun-chef-ne-tolère-dans-sa-cuisine/ar-AA2427y0?ocid=00000000",
-      "url_hash": "6db9255df2ff2ba0a70b07f3352deb0ec29f7860c21885397d7aca38272771ff",
-      "title": "Vos verres rangés à l’envers depuis des années cachent ce qu’aucun chef ne tolère dans sa cuisine",
-      "abstract": "En ce doux printemps, la lumière qui inonde peu à peu nos intérieurs donne souvent des envies de grand rangement et de renouveau dans la cuisine. En organisant les placards pour faire de la place aux jolies tablées de saison, un détail retient parfois l’attention : l’alignement strict des verres, soigneusement posés à l’envers. Cette… Poursuivre la lecture Vos verres rangés à l’envers depuis des années cachent ce qu’aucun chef ne tolère dans sa...",
-      "image_url": "https://th.bing.com/th?id=ORMS.a78ce337a4be48ec2b044c82c8208083&pid=Wdp",
-      "source": "masculin.com",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-25T19:30:00Z",
-      "upvotes": 37,
-      "downvotes": 42,
-      "comments": 1
-    },
-    {
-      "msn_id": "AA24dfpM",
-      "url": "https://www.msn.com/fr-fr/actualite/france/des-militantes-féministes-interrompent-une-représentation-de-patrick-bruel-à-paris/ar-AA24dfpM?ocid=00000000",
-      "url_hash": "b6898b53ab82cfc3b7b5f7d9ff0d4fb8b3d98ca582fbbf26f03d574230b766cf",
-      "title": "Des militantes féministes interrompent une représentation de Patrick Bruel à Paris",
-      "abstract": "Une représentation de Patrick Bruel a été brièvement perturbée mercredi 27 mai au Théâtre Édouard‑VII par des militantes féministes du collectif Nous Toutes, venues scander des slogans avant d’être rapidement évacuées par la sécurité, dans un contexte d’accusations visant l’artiste.",
-      "image_url": "https://th.bing.com/th?id=ORMS.cf92dac8b207635db01f3458bce5b5a2&pid=Wdp",
-      "source": "Ouest-France",
+      "msn_id": "AA24mfM7",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/on-disait-que-l-ukraine-ne-reprendrait-jamais-la-crimée-voici-ce-qui-s-est-passé/vi-AA24mfM7?ocid=00000000",
+      "url_hash": "2bd1e121e1429191a99ecde20f95fe930bc60ce7385d3df4b45a6d811b0bd8d1",
+      "title": "On disait que l’Ukraine ne reprendrait jamais la Crimée... Voici ce qui s’est passé",
+      "abstract": "Poutine pensait la Crimée intouchable ? Détrompez-vous ! Découvrez comment l’Ukraine déjoue tous les pronostics, en frappant fort et avec intelligence là où la Russie ne s’y attendait pas. Plongez dans cette analyse captivante pleine de rebondissements ! Abonnez-vous à notre chaîne pour ne rien rater et dites-nous en commentaire ce qui vous a le plus bluffé dans la vidéo ! #Ukraine #Russie #Crimée #Guerre #Stratégie",
+      "image_url": "https://th.bing.com/th?id=ORMS.f9672d0d8e29a082826ec931d6f9e33c&pid=Wdp",
+      "source": "Le Spectacle Militaire",
       "category": "actualite",
       "topics": [
-        "Actualité",
+        "ACTUALITÉ",
         "Actualité à la Une"
       ],
-      "published_at": "2026-05-28T06:01:16Z",
-      "upvotes": 50,
-      "downvotes": 20,
-      "comments": 11
+      "published_at": "2026-05-29T13:25:19Z",
+      "upvotes": 53,
+      "downvotes": 17,
+      "comments": 2
+    },
+    {
+      "msn_id": "AA24hdkc",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/mireille-mathieu-tournée-en-ridicule-la-chanteuse-de-79-ans-très-choquée-on-vous-explique/ar-AA24hdkc?ocid=00000000",
+      "url_hash": "db281b0f3d147a2331ad0b05ee45259c956ef9c5c582d25d95e0c7b334f1758f",
+      "title": "Mireille Mathieu tournée en ridicule, la chanteuse de 79 ans « très choquée » : on vous explique",
+      "abstract": "Ces derniers jours, le nom de Mireille Mathieu a été tourné en ridicule par un propriétaire d’une brasserie française. Une initiative qui a beaucoup agacé l’artiste de 79 ans qui a, dès lors, décidé d’agir !",
+      "image_url": "https://th.bing.com/th?id=ORMS.e5cf03d14f96adcc9a7a1d83e0745ad3&pid=Wdp",
+      "source": "Gala (French)",
+      "category": "divertissement",
+      "topics": [
+        "Divertissement",
+        "Célébrités"
+      ],
+      "published_at": "2026-05-28T13:00:46Z",
+      "upvotes": 93,
+      "downvotes": 86,
+      "comments": 22
+    },
+    {
+      "msn_id": "AA247WA2",
+      "url": "https://www.msn.com/fr-fr/actualite/france/muriel-robin-bouleverse-les-molières-et-interpelle-gérald-darmanin-cette-phrase-qui-a-marqué-la-soirée/ar-AA247WA2?ocid=00000000",
+      "url_hash": "b0100a3b746aacaa1e0a75f2d9b37fd539784803fd6946dcd90db54b2cb04768",
+      "title": "Muriel Robin bouleverse les Molières et interpelle Gérald Darmanin : cette phrase qui a marqué la soirée",
+      "abstract": "La 37e cérémonie des Molières devait célébrer le théâtre, ses artistes, ses succès et ses grandes émotions. Elle l’a fait, bien sûr, mais un moment a largement dépassé le cadre de la simple remise de prix. Ce lundi 4 mai, aux Folies Bergère, Muriel Robin a reçu le tout premier Molière de sa carrière, après neuf nominations et plusieurs décennies passées à occuper une place singulière dans le cœur du public français. Lire aussi :...",
+      "image_url": "https://th.bing.com/th?id=ORMS.80b45fafc17795d1496876d3e76bb812&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-26T21:10:00Z",
+      "upvotes": 14,
+      "downvotes": 54,
+      "comments": 4
     },
     {
       "msn_id": "AA24hxCo",
@@ -328,188 +247,62 @@
       "category": "auto",
       "topics": [],
       "published_at": "2026-05-28T13:04:55Z",
-      "upvotes": 13,
-      "downvotes": 21,
+      "upvotes": 14,
+      "downvotes": 22,
       "comments": 11
     },
     {
-      "msn_id": "AA24bOvv",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/quelques-mois-avant-sa-mort-nathalie-baye-lâchait-cette-phrase-troublante-sur-laeticia-hallyday/ar-AA24bOvv?ocid=00000000",
-      "url_hash": "7bcc236f1df2ecf6bc4a620a163d3c2eef035ee2e0c16a5f58ccb16a0e4ac5db",
-      "title": "Quelques mois avant sa mort, Nathalie Baye lâchait cette phrase troublante sur Laeticia Hallyday",
-      "abstract": "« C’est un peu plus loin, mais il n’y a pas de malaise ni de quoi que ce soit. » Cette phrase, prononcée par Nathalie Baye lors de sa dernière interview télévisée en septembre 2024, résonne aujourd’hui avec une intensité particulière. À l’époque, elle semblait presque anodine, glissée au détour d’une réponse sur ses relations avec les femmes qui ont partagé la vie de Johnny Hallyday. Mais avec le recul, elle intrigue et interroge. Car derrière...",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA21ozoJ.img",
-      "source": "So Busy Girls",
-      "category": "divertissement",
-      "topics": [
-        "Célébrités",
-        "Divertissement"
-      ],
-      "published_at": "2026-05-27T15:10:00Z",
-      "upvotes": 53,
-      "downvotes": 48,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24kjTP",
-      "url": "https://www.msn.com/fr-fr/actualite/monde/qui-est-andrey-kiyko-tueur-en-série-russe-envoyé-sur-le-front-en-ukraine-et-traqué-par-les-autorités-après-sa-désertion/ar-AA24kjTP?ocid=00000000",
-      "url_hash": "64296fae3543ebe587cca8a0efe8ce36cb2352df42bf4009c85db6ea54f7fb19",
-      "title": "Qui est Andrey Kiyko, tueur en série russe envoyé sur le front en Ukraine et traqué par les autorités après sa désertion ?",
-      "abstract": "Un tueur en série en cavale. Les autorités russes sont à la recherche d’Andrey Kiyko, un homme de 41 ans connu dans les médias russes sous le nom de « maniaque de Sosnovka » ou « étrangleur de Sosnovka ». Le criminel s’est évadé d’un hôpital militaire après avoir été libéré de prison en 2024 pour être envoyé sur le front, en Ukraine, dans le cadre ...",
-      "image_url": "https://th.bing.com/th?id=ORMS.a6d386491142eb9161a08db4c118adbc&pid=Wdp",
-      "source": "Le Parisien",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-29T10:24:42Z",
-      "upvotes": 86,
-      "downvotes": 22,
-      "comments": 14
-    },
-    {
-      "msn_id": "AA24iIhb",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/coluche-son-fils-marius-colucci-coule-des-jours-paisibles-avec-sa-femme-sarah-dans-une-petite-commune-du-tarn-et-garonne-découvrez-leur-quotidien/ar-AA24iIhb?ocid=00000000",
-      "url_hash": "5fa203a19240ffec377053a43ed7f0f9df43b297aa7e4f0a4a4c2ca3f07060d1",
-      "title": "Coluche : son fils Marius Colucci coule des jours paisibles avec sa femme Sarah dans une petite commune du Tarn-et-Garonne, découvrez leur quotidien",
-      "abstract": "À l’occasion de la diffusion, ce 28 mai au soir sur TMC, d’un documentaire sur Coluche, Gala vous propose d’en savoir plus sur la vie heureuse de son fils Marius, marié à sa compagne et éloigné de Paris.",
-      "image_url": "https://th.bing.com/th?id=ORMS.952047a34ab1a4c46161fa2c5c9b3535&pid=Wdp",
-      "source": "Gala (French)",
-      "category": "divertissement",
-      "topics": [
-        "Divertissement",
-        "Célébrités"
-      ],
-      "published_at": "2026-05-28T18:26:00Z",
-      "upvotes": 36,
-      "downvotes": 13,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA24a2gm",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/voici-pourquoi-vous-devriez-cesser-d-écrire-cordialement-à-la-fin-de-vos-mails-selon-une-experte-en-langue-française/ar-AA24a2gm?ocid=00000000",
-      "url_hash": "6137ad955ce413bf6bc1a67dacabe68425d3b26d61354802c4f8546bc6d4615f",
-      "title": "Voici pourquoi vous devriez cesser d'écrire « cordialement » à la fin de vos mails, selon une experte en langue française",
-      "abstract": "Vous avez tendance à utiliser des formules de politesse courantes dans vos écrits ? Voici l’erreur à ne surtout pas faire, selon une experte.",
-      "image_url": "https://th.bing.com/th?id=ORMS.1aaa23c730a4cd3f49bb9218a39c509e&pid=Wdp",
-      "source": "psychologies",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-27T07:02:45Z",
-      "upvotes": 132,
-      "downvotes": 99,
-      "comments": 24
-    },
-    {
-      "msn_id": "AA24mIxF",
-      "url": "https://www.msn.com/fr-fr/finance/autres/les-commissaires-européens-en-ont-marre-de-rouler-en-voiture-électrique-entre-bruxelles-et-strasbourg/ar-AA24mIxF?ocid=00000000",
-      "url_hash": "2adbcde169474b848724a3604a8636eaa2a948f0703c5e60e1ee40f3a20aafc6",
-      "title": "Les commissaires européens en ont marre de rouler en voiture électrique entre Bruxelles et Strasbourg",
-      "abstract": "La Commission européenne veut montrer l'exemple avec l'électrification de sa flotte. Mais, au vu de la technologie actuelle, cela entraîne des trajets entre Strasbourg et Bruxelles qui comportent un arrêt.",
-      "image_url": "https://th.bing.com/th?id=ORMS.884fe31bb783ade5c2df50ce9636324c&pid=Wdp",
-      "source": "Clubic",
+      "msn_id": "AA24g2TP",
+      "url": "https://www.msn.com/fr-fr/finance/autres/ce-pont-vieillissant-transportait-178-millions-de-véhicules-puis-il-a-cédé-en-quelques-secondes/vi-AA24g2TP?ocid=00000000",
+      "url_hash": "386b7992e868561db6af6dc8569d26049e66a4be5cfd19687f988df61b0c181b",
+      "title": "Ce pont vieillissant transportait 178 millions de véhicules - puis il a cédé en quelques secondes",
+      "abstract": "Le I-35W Mississippi River bridge collapse semblait supporter le trafic comme n’importe quel autre jour — jusqu’au moment où toute la structure a commencé à céder sous des centaines de voitures. En quelques secondes, des véhicules ont chuté de plus de six étages dans le fleuve Mississippi, piégeant des familles et plongeant la ville dans le chaos. Ce documentaire revient sur l’effondrement choquant de ce pont vieillissant emprunté par des millions de véhicules, les erreurs qui ont conduit à la catastrophe et les témoignages terrifiants des survivants. Entre métal qui craque, voitures englouties et opérations de sauvetage désespérées, cette tragédie reste l’un des pires effondrements de pont de l’histoire américaine.",
+      "image_url": "https://th.bing.com/th?id=ORMS.99cffff887ad3539644ecbb3aa334245&pid=Wdp",
+      "source": "Comment Survivre",
       "category": "finance",
       "topics": [
         "Finance"
       ],
-      "published_at": "2026-05-29T14:22:00Z",
-      "upvotes": 10,
-      "downvotes": 2,
-      "comments": 13
-    },
-    {
-      "msn_id": "AA24mxEr",
-      "url": "https://www.msn.com/fr-fr/actualite/france/après-la-canicule-les-orages-arrivent-13-départements-placés-en-vigilance-par-météo-france-ce-vendredi-29-mai-2026/ar-AA24mxEr?ocid=00000000",
-      "url_hash": "3127a436c074f3783dee20e99228b0e32132791551bb13f955393b661f619546",
-      "title": "Après la canicule, les orages arrivent : 13 départements placés en vigilance par Météo France, ce vendredi 29 mai 2026",
-      "abstract": "Après une semaine marquée par une chaleur précoce et étouffante, le temps commence à changer. Ce vendredi 29 mai 2026, Météo France alerte sur l’arrivée d’orages parfois soutenus dans plusieurs régions françaises. Treize départements sont placés en vigilance jaune, alors que les températures restent encore très élevées avant une baisse attendue ce week-end.",
-      "image_url": "https://th.bing.com/th?id=ORMS.bb45680e57d4aa45a1b7137279919a75&pid=Wdp",
-      "source": "Aufeminin",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-29T13:26:08Z",
-      "upvotes": 8,
-      "downvotes": 5,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24ivz5",
-      "url": "https://www.msn.com/fr-fr/actualite/other/charlotte-d-ornellas-le-spectacle-est-non-seulement-insupportable-mais-il-devient-très-coûteux/vi-AA24ivz5?ocid=00000000",
-      "url_hash": "b9fe7c0d036545046624e3b288c4e6d91075704d2ef69fffa4edfd8dcb21a245",
-      "title": "Charlotte d'Ornellas : « Le spectacle est non seulement insupportable mais il devient très coûteux »",
-      "abstract": "«Le spectacle est non seulement insupportable mais il devient très coûteux», a assuré la journaliste Charlotte d'Ornellas dans #Facealinfo. Elle faisait référence aux débordements lors des matchs de football.",
-      "image_url": "https://th.bing.com/th?id=ORMS.f8fd7167514afce8d8d0bd2fb9571190&pid=Wdp",
-      "source": "CNEWS - Video",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T17:20:29Z",
-      "upvotes": 111,
-      "downvotes": 35,
-      "comments": 26
-    },
-    {
-      "msn_id": "AA24iGru",
-      "url": "https://www.msn.com/fr-fr/actualite/elections/52-contre-48-ce-sondage-qui-rebat-les-cartes-entre-édouard-philippe-et-jordan-bardella/ar-AA24iGru?ocid=00000000",
-      "url_hash": "f47e32f7ad41edd0e71e1d0fb4dbf31b06e8a5a472d06a148534a11a0ede4336",
-      "title": "52 % contre 48 % : ce sondage qui rebat les cartes entre Édouard Philippe et Jordan Bardella",
-      "abstract": "Un nouveau sondage présidentielle 2027 publié par l’institut Odoxa-Mascaret relance les spéculations autour d’un éventuel duel entre Édouard Philippe et Jordan Bardella. Selon cette enquête, l’ancien Premier ministre pourrait s’imposer au second tour avec 52% des intentions de vote, contre 48% pour le président du Rassemblement national. Lire aussi : Indemnités, avantages, réforme : ce que gagnent réellement les maires et leurs adjoints Ces...",
-      "image_url": "https://th.bing.com/th?id=ORMS.1049f913b5eec63e4cfc345780b5850b&pid=Wdp",
-      "source": "So Busy Girls",
-      "category": "actualite",
-      "topics": [
-        "Politique",
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T19:42:00Z",
-      "upvotes": 26,
-      "downvotes": 30,
-      "comments": 36
-    },
-    {
-      "msn_id": "AA249QxJ",
-      "url": "https://www.msn.com/fr-fr/actualite/monde/la-suède-les-disait-dépassés-l-ukraine-les-a-lâchés-sur-la-russie/vi-AA249QxJ?ocid=00000000",
-      "url_hash": "5da5cacb33a3e0a395b056fe226414db42ee5a6e7a9f0eef1da3d7e14157ced0",
-      "title": "La Suède les disait dépassés… L’Ukraine les a lâchés sur la Russie",
-      "abstract": "Plongez dans l’histoire incroyable du PBV 302, ce blindé suédois des années 60 qui fait un retour inattendu sur le front ukrainien ! Entre anecdotes, comparaisons avec les BMP soviétiques et retours terrain, découvrez comment la vieille école peut encore faire la différence. Abonnez-vous pour ne rien rater de nos analyses militaires et dites-nous en commentaire ce que vous avez préféré ! #Ukraine #militaire #Suède #histoire #technologie",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24azkI.img",
-      "source": "Le Spectacle Militaire",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-27T08:08:04Z",
-      "upvotes": 205,
-      "downvotes": 69,
+      "published_at": "2026-05-29T09:17:22Z",
+      "upvotes": 94,
+      "downvotes": 61,
       "comments": 1
     },
     {
-      "msn_id": "AA24jbfT",
-      "url": "https://www.msn.com/fr-fr/actualite/france/disparu-depuis-la-tentative-de-suicide-de-sa-mère-un-bébé-de-quatre-jours-retrouvé-mort-dans-une-rivière-à-angers/ar-AA24jbfT?ocid=00000000",
-      "url_hash": "c55982d19dc5c536c0c9a4c89f41e8a518f740fecf210c283a4cfb47fa982b8f",
-      "title": "Disparu depuis la tentative de suicide de sa mère, un bébé de quatre jours retrouvé mort dans une rivière à Angers",
-      "abstract": "Un important dispositif de police et de secours est toujours mobilisé ce jeudi soir sur les bords de la Maine, à Angers (Maine-et-Loire), après la découverte d’un nourrisson retrouvé mort dans le cours d’eau, quelques heures après la tentative de suicide de sa mère à Château-Gontier (Mayenne). Selon les premières informations recueillies, une femme...",
-      "image_url": "https://th.bing.com/th?id=ORMS.4153925eb4f317b115f1a5ef81fadb34&pid=Wdp",
-      "source": "Le Parisien",
+      "msn_id": "AA24mLqt",
+      "url": "https://www.msn.com/fr-fr/actualite/france/canicule-deux-adolescents-ouvrent-des-bouches-à-incendie-leurs-parents-devront-payer-la-facture/ar-AA24mLqt?ocid=00000000",
+      "url_hash": "6dddcc24c84daebf100209b9c4375a45a44713a1b866687a906546cddc729454",
+      "title": "Canicule : deux adolescents ouvrent des bouches à incendie, leurs parents devront payer la facture",
+      "abstract": "En pleine vague de chaleur, deux adolescents ont ouvert des bouches à incendie à Asnières-sur-Seine, gaspillant 80 mètres cubes d’eau en 40 minutes. Identifiées grâce à la vidéosurveillance, leurs familles devront payer 1.000 euros chacune pour les dégâts. \"Tu casses, tu répares\", avait lancé il y a deux ans Gabriel Attal, alors Premier ministre. À croire que Manuel Aeschlimann, le maire d’Asnières-sur-Seine, en banlieue parisienne, l’a écouté....",
+      "image_url": "https://th.bing.com/th?id=ORMS.ca24246e343164721a9f77786f3785d0&pid=Wdp",
+      "source": "Europe 1",
       "category": "actualite",
       "topics": [
-        "Actualité",
+        "ACTUALITÉ",
         "Actualité à la Une"
       ],
-      "published_at": "2026-05-28T20:45:30Z",
-      "upvotes": 113,
-      "downvotes": 45,
-      "comments": 33
+      "published_at": "2026-05-28T18:36:00Z",
+      "upvotes": 20,
+      "downvotes": 0,
+      "comments": 4
+    },
+    {
+      "msn_id": "AA24nan0",
+      "url": "https://www.msn.com/fr-fr/sport/football/terrible-nouvelle-bryan-bergougnoux-est-mort-à-l-âge-de-43-ans/ar-AA24nan0?ocid=00000000",
+      "url_hash": "2e1ad38d9374be884bc3ab30f11b84ec402f9a025a1cd385ff836f711ffaff69",
+      "title": "Terrible nouvelle : Bryan Bergougnoux est mort à l’âge de 43 ans",
+      "abstract": "Le Progrès vient de l'annoncer. Cette nuit, à Toulouse, Bryan Bergougnoux est décédé à l’âge de 43 ans.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24mu38.img",
+      "source": "LesViolets.com",
+      "category": "sport",
+      "topics": [
+        "Football",
+        "Sport"
+      ],
+      "published_at": "2026-05-29T15:40:00Z",
+      "upvotes": 2,
+      "downvotes": 1,
+      "comments": 0
     },
     {
       "msn_id": "AA24j5zC",
@@ -525,83 +318,9 @@
         "Célébrités"
       ],
       "published_at": "2026-05-28T20:52:42Z",
-      "upvotes": 312,
-      "downvotes": 304,
-      "comments": 113
-    },
-    {
-      "msn_id": "AA22QJWq",
-      "url": "https://www.msn.com/fr-fr/actualite/culture/notre-nouveau-bateau-mis-à-l-épreuve-dès-le-premier-jour/vi-AA22QJWq?ocid=00000000",
-      "url_hash": "d9e43b875773430089d085755513264e4408ebd7f9f40aba452bed105ac53b08",
-      "title": "Notre nouveau bateau mis à l’épreuve dès le premier jour!",
-      "abstract": "Cette vidéo explore la beauté fascinante de la mer, mettant en avant des paysages marins époustouflants. Nous découvrons la diversité de la vie marine, avec des prises de vue étonnantes de coraux, de poissons colorés et d'autres créatures aquatiques. #AmazingSea",
-      "image_url": "https://th.bing.com/th?id=ORMS.185819ba9e2fae468a7bfab676bc39c0&pid=Wdp",
-      "source": "Amazing Sea",
-      "category": "actualite",
-      "topics": [
-        "Culture",
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-10T19:00:00Z",
-      "upvotes": 19,
-      "downvotes": 18,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA235Ykf",
-      "url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/kongo-plongée-photographique-au-cœur-du-bassin-du-congo-menacé-par-la-déforestation/vi-AA235Ykf?ocid=00000000",
-      "url_hash": "637f9a99eb259e21aaf9674620deb1cd66206ffd09bc43b56c922dd302193bd5",
-      "title": "« Kongo » : plongée photographique au cœur du bassin du Congo menacé par la déforestation",
-      "abstract": "Dans Kongo, le photographe Thomas Nicolon rassemble des images réalisées au cœur du bassin du Congo. Son travail documente les paysages, les populations et les effets de la déforestation dans cette région d’Afrique centrale.",
-      "image_url": "https://th.bing.com/th?id=ORMS.38616979598b592eec41c454fb3caef3&pid=Wdp",
-      "source": "France24 - Video",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-13T12:30:08Z",
-      "upvotes": 26,
-      "downvotes": 11,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24iT3O",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/c-est-comme-un-coup-de-foudre-la-dernière-compagne-de-coluche-fred-romano-se-confie-sur-leur-relation/ar-AA24iT3O?ocid=00000000",
-      "url_hash": "69d56392c6852b46d88e5fc836faa45bcdc26749b3aee50bacb888409c900c4a",
-      "title": "« C'est comme un coup de foudre » : la dernière compagne de Coluche, Fred Romano, se confie sur leur relation",
-      "abstract": "Quarante ans après la disparition de l’humoriste préféré des Français, les souvenirs restent intacts pour celle qui a partagé ses dernières années. Dans les colonnes du magazine VSD paru ce jeudi 28 mai, Fred Romano s’est livrée, avec émotion, sur son histoire d’amour avec Coluche. L’ancienne journaliste et actrice revient notamment sur leur rencontre marquante au début des années 1980.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24is75.img",
-      "source": "Voici",
-      "category": "divertissement",
-      "topics": [
-        "Célébrités",
-        "Divertissement"
-      ],
-      "published_at": "2026-05-28T20:09:00Z",
-      "upvotes": 11,
-      "downvotes": 5,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24iwyS",
-      "url": "https://www.msn.com/fr-fr/actualite/elections/emmanuel-macron-aurait-déjà-son-favori-pour-2027-et-ce-nom-en-dit-long-sur-l-après-élysée/ar-AA24iwyS?ocid=00000000",
-      "url_hash": "621d2e89804e644df59ffc3a13a9a7d127830a57ddf572cabfaf75b674e44bee",
-      "title": "Emmanuel Macron aurait déjà son favori pour 2027 et ce nom en dit long sur l’après-Élysée",
-      "abstract": "À moins d’un an de la présidentielle 2027, la grande question de l’après-Macron agite déjà le paysage politique français. Qui pourra reprendre le flambeau d’un camp central construit autour d’Emmanuel Macron, mais désormais obligé d’imaginer son avenir sans son fondateur à l’Élysée ? Le président de la République ne pourra pas se représenter pour un troisième mandat consécutif, ce qui ouvre une séquence aussi décisive que délic...",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA21DabP.img",
-      "source": "So Busy Girls",
-      "category": "actualite",
-      "topics": [
-        "Politique",
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T19:27:00Z",
-      "upvotes": 47,
-      "downvotes": 107,
-      "comments": 31
+      "upvotes": 328,
+      "downvotes": 318,
+      "comments": 114
     },
     {
       "msn_id": "AA24kgt2",
@@ -620,7 +339,132 @@
       "published_at": "2026-05-29T04:17:53Z",
       "upvotes": 75,
       "downvotes": 22,
-      "comments": 45
+      "comments": 64
+    },
+    {
+      "msn_id": "AA24iwyS",
+      "url": "https://www.msn.com/fr-fr/actualite/elections/emmanuel-macron-aurait-déjà-son-favori-pour-2027-et-ce-nom-en-dit-long-sur-l-après-élysée/ar-AA24iwyS?ocid=00000000",
+      "url_hash": "621d2e89804e644df59ffc3a13a9a7d127830a57ddf572cabfaf75b674e44bee",
+      "title": "Emmanuel Macron aurait déjà son favori pour 2027 et ce nom en dit long sur l’après-Élysée",
+      "abstract": "À moins d’un an de la présidentielle 2027, la grande question de l’après-Macron agite déjà le paysage politique français. Qui pourra reprendre le flambeau d’un camp central construit autour d’Emmanuel Macron, mais désormais obligé d’imaginer son avenir sans son fondateur à l’Élysée ? Le président de la République ne pourra pas se représenter pour un troisième mandat consécutif, ce qui ouvre une séquence aussi décisive que délic...",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA21DabP.img",
+      "source": "So Busy Girls",
+      "category": "actualite",
+      "topics": [
+        "Politique",
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T19:27:00Z",
+      "upvotes": 47,
+      "downvotes": 108,
+      "comments": 31
+    },
+    {
+      "msn_id": "AA24mq71",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/quatre-jours-après-leur-naufrage-au-large-du-maroc-les-deux-français-disparus-retrouvés-indemnes/ar-AA24mq71?ocid=00000000",
+      "url_hash": "b521a606c08724f52040e9747d2cad4afa081a26fe44690247b94b15b2f63fd9",
+      "title": "Quatre jours après leur naufrage au large du Maroc, les deux Français disparus retrouvés indemnes",
+      "abstract": "Une disparition en mer au large du Maroc Jeudi soir, un soulagement palpable a gagné les proches de deux ressortissants français portés disparus depuis plusieurs jours. Les deux hommes ont été retrouvés « sains et saufs par un navire de commerce qui les a récupérés au large d’Assilah », au nord du Maroc, selon le Centre national de coordination et ...",
+      "image_url": "https://th.bing.com/th?id=ORMS.2049fddda7de48e337aee88d3fa44fa2&pid=Wdp",
+      "source": "24matins.fr",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-29T13:00:50Z",
+      "upvotes": 23,
+      "downvotes": 5,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24kG3n",
+      "url": "https://www.msn.com/fr-fr/actualite/france/une-propagandiste-patentée-jean-noël-barrot-considère-que-la-russe-xenia-fedorova-sert-de-relais-de-désinformation-du-kremlin-en-france/ar-AA24kG3n?ocid=00000000",
+      "url_hash": "b906c7afaee637dd81203aab7533d03bb6ecb03b47a41a2e305d2877a1b13892",
+      "title": "« Une propagandiste patentée » : Jean-Noël Barrot considère que la Russe Xenia Fedorova « sert de relais de désinformation du Kremlin » en France",
+      "abstract": "Invité sur France Inter ce vendredi 28 mai, le ministre des Affaires étrangères a estimé qu'\"ouvrir ses plateaux et ses colonnes\" à l'ancienne patronne de la chaîne RT en France, comme le fait CNews, \"c'est tout simplement servir la soupe de Vladimir Poutine\".",
+      "image_url": "https://th.bing.com/th?id=ORMS.210a0376709425d6dc28a2250ee6765f&pid=Wdp",
+      "source": "BFM",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-29T10:09:42Z",
+      "upvotes": 19,
+      "downvotes": 19,
+      "comments": 11
+    },
+    {
+      "msn_id": "AA23Dqhf",
+      "url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/les-pyramides-n-ont-pas-été-construites-par-les-égyptiens-selon-une-nouvelle-étude/vi-AA23Dqhf?ocid=00000000",
+      "url_hash": "435df67a64e4209f2bb5b10942f29ecb83f4a9533108cdc2d8aa5e29c374fa09",
+      "title": "Les pyramides n'ont pas été construites par les Égyptiens, selon une nouvelle étude",
+      "abstract": "Une nouvelle affirmation surprenante suggère que les célèbres pyramides n'ont peut-être pas été construites comme on nous l'a toujours raconté. Certaines théories récentes avancent que des structures telles que la Grande Pyramide de Gizeh pourraient être plus anciennes que la civilisation égyptienne antique, voire même avoir été remodelées à partir de formations préexistantes. Mais voici le point crucial : la plupart des experts s'y opposent fermement, soulignant l'abondance de preuves indiquant qu'elles ont été construites par des ouvriers égyptiens qualifiés il y a plus de 4 500 ans. Alors, qu'est-ce qui relève de la réalité et qu'est-ce qui n'est que spéculation ? Regardez cette vidéo pour découvrir la théorie qui divise les scientifiques et faites-vous votre propre opinion.",
+      "image_url": "https://th.bing.com/th?id=ORMS.5ffcff9ded7765a90278c3782885d648&pid=Wdp",
+      "source": "SYMPA",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-20T07:42:46Z",
+      "upvotes": 184,
+      "downvotes": 256,
+      "comments": 19
+    },
+    {
+      "msn_id": "AA24a2gm",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/voici-pourquoi-vous-devriez-cesser-d-écrire-cordialement-à-la-fin-de-vos-mails-selon-une-experte-en-langue-française/ar-AA24a2gm?ocid=00000000",
+      "url_hash": "6137ad955ce413bf6bc1a67dacabe68425d3b26d61354802c4f8546bc6d4615f",
+      "title": "Voici pourquoi vous devriez cesser d'écrire « cordialement » à la fin de vos mails, selon une experte en langue française",
+      "abstract": "Vous avez tendance à utiliser des formules de politesse courantes dans vos écrits ? Voici l’erreur à ne surtout pas faire, selon une experte.",
+      "image_url": "https://th.bing.com/th?id=ORMS.1aaa23c730a4cd3f49bb9218a39c509e&pid=Wdp",
+      "source": "psychologies",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-27T07:02:45Z",
+      "upvotes": 133,
+      "downvotes": 99,
+      "comments": 24
+    },
+    {
+      "msn_id": "AA24ho2s",
+      "url": "https://www.msn.com/fr-fr/finance/autres/canicule-voici-la-facture-d-une-climatisation-laissée-allumée-toute-la-nuit/ar-AA24ho2s?ocid=00000000",
+      "url_hash": "12d28a6616e4e5a2a4e6e4b0f7c987e6a837ec1d25ff02ad176b6c587714f94f",
+      "title": "Canicule : voici la facture d’une climatisation laissée allumée toute la nuit",
+      "abstract": "Avec la canicule qui sévit nombreux sont les Français à laisser tourner leur climatiseur la nuit. Voici comment cela se répercute sur la facture d’électricité",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24h9m3.img",
+      "source": "20 Minutes",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-28T14:02:36Z",
+      "upvotes": 20,
+      "downvotes": 15,
+      "comments": 8
+    },
+    {
+      "msn_id": "AA24iIhb",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/coluche-son-fils-marius-colucci-coule-des-jours-paisibles-avec-sa-femme-sarah-dans-une-petite-commune-du-tarn-et-garonne-découvrez-leur-quotidien/ar-AA24iIhb?ocid=00000000",
+      "url_hash": "5fa203a19240ffec377053a43ed7f0f9df43b297aa7e4f0a4a4c2ca3f07060d1",
+      "title": "Coluche : son fils Marius Colucci coule des jours paisibles avec sa femme Sarah dans une petite commune du Tarn-et-Garonne, découvrez leur quotidien",
+      "abstract": "À l’occasion de la diffusion, ce 28 mai au soir sur TMC, d’un documentaire sur Coluche, Gala vous propose d’en savoir plus sur la vie heureuse de son fils Marius, marié à sa compagne et éloigné de Paris.",
+      "image_url": "https://th.bing.com/th?id=ORMS.952047a34ab1a4c46161fa2c5c9b3535&pid=Wdp",
+      "source": "Gala (French)",
+      "category": "divertissement",
+      "topics": [
+        "Divertissement",
+        "Célébrités"
+      ],
+      "published_at": "2026-05-28T18:26:00Z",
+      "upvotes": 43,
+      "downvotes": 15,
+      "comments": 3
     },
     {
       "msn_id": "AA24l6cV",
@@ -635,150 +479,97 @@
         "Sport"
       ],
       "published_at": "2026-05-29T09:57:50Z",
-      "upvotes": 21,
+      "upvotes": 23,
       "downvotes": 6,
       "comments": 0
     },
     {
-      "msn_id": "AA249SxK",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/affaire-patrick-bruel-agnès-jaoui-a-un-avis-sur-son-maintien-sur-scène-ça-ne-me-choque-pas/ar-AA249SxK?ocid=00000000",
-      "url_hash": "3e7346d16a536c20dbea5e56f0432cec4af4e3a257c3fbbad0976715a66207cc",
-      "title": "Affaire Patrick Bruel, Agnès Jaoui a un avis sur son maintien sur scène : « Ça ne me choque pas… »",
-      "abstract": "Invitée à réagir à l’affaire Patrick Bruel dans les colonnes du Parisien, Agnès Jaoui a livré un point de vue nuancé sur le sujet. La réalisatrice évoque à la fois les avancées de #MeToo et certaines dérives qu’elle juge inquiétantes.",
-      "image_url": "https://th.bing.com/th?id=ORMS.650a86aceabb319c5f7ea2dd61239c9d&pid=Wdp",
-      "source": "Gala (French)",
-      "category": "divertissement",
-      "topics": [
-        "Divertissement",
-        "Célébrités"
-      ],
-      "published_at": "2026-05-27T07:30:49Z",
-      "upvotes": 91,
-      "downvotes": 71,
-      "comments": 9
-    },
-    {
-      "msn_id": "AA24eIkh",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/avis-à-tous-les-français-qui-ont-du-pain-au-congélateur-prenez-garde-cette-habitude-très-courante-favorise-les-bactéries/ar-AA24eIkh?ocid=00000000",
-      "url_hash": "e142a5317bdae951086577d193f9ba956dc88dd6275f8f27193a4c9272609a5b",
-      "title": "Avis à tous les Français qui ont du pain au congélateur : prenez garde, cette habitude très courante favorise les bactéries",
-      "abstract": "Mettre du pain au congélateur, c’est le réflexe pratique par excellence. Une baguette en trop, quelques tranches pour dépanner, et hop, on pense avoir tout bon. Sauf qu’une erreur très répandue peut nuire à la conservation du pain et favoriser le développement des bactéries.",
-      "image_url": "https://th.bing.com/th?id=ORMS.506a84fde20ab66517a6fdc4c562e21e&pid=Wdp",
-      "source": "Marmiton",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-28T05:30:00Z",
-      "upvotes": 30,
-      "downvotes": 33,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24i3UA",
-      "url": "https://www.msn.com/fr-fr/actualite/france/ni-mariage-ni-pacs-ni-concubinage-à-l-assemblée-le-député-alloncle-mis-hors-de-cause/ar-AA24i3UA?ocid=00000000",
-      "url_hash": "224ebafacc07e7359ea72eef93ae6b9e1fa61e7106b601d634d651fe01482cd2",
-      "title": "« Ni mariage, ni Pacs, ni concubinage » : à l’Assemblée, le député Alloncle mis hors de cause",
-      "abstract": "La petite bombe, lâchée par Paris Match le jeudi 21 mai, avait fait grand bruit à l’Assemblée nationale. Le député Charles Alloncle (UDR) aurait-il enfreint la loi en employant sa « compagne » en tant que collaboratrice parlementaire ? C’est en tout cas ce que laissait sous-entendre l’hebdomadaire dans un article accompagné de deux photos des conce...",
-      "image_url": "https://th.bing.com/th?id=ORMS.edd7dd2ed588eecbef58b5cfe27f6110&pid=Wdp",
-      "source": "Le Parisien",
+      "msn_id": "AA249QxJ",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/la-suède-les-disait-dépassés-l-ukraine-les-a-lâchés-sur-la-russie/vi-AA249QxJ?ocid=00000000",
+      "url_hash": "5da5cacb33a3e0a395b056fe226414db42ee5a6e7a9f0eef1da3d7e14157ced0",
+      "title": "La Suède les disait dépassés… L’Ukraine les a lâchés sur la Russie",
+      "abstract": "Plongez dans l’histoire incroyable du PBV 302, ce blindé suédois des années 60 qui fait un retour inattendu sur le front ukrainien ! Entre anecdotes, comparaisons avec les BMP soviétiques et retours terrain, découvrez comment la vieille école peut encore faire la différence. Abonnez-vous pour ne rien rater de nos analyses militaires et dites-nous en commentaire ce que vous avez préféré ! #Ukraine #militaire #Suède #histoire #technologie",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24azkI.img",
+      "source": "Le Spectacle Militaire",
       "category": "actualite",
       "topics": [
-        "Actualité",
+        "ACTUALITÉ",
         "Actualité à la Une"
       ],
-      "published_at": "2026-05-28T17:27:24Z",
-      "upvotes": 160,
-      "downvotes": 28,
-      "comments": 52
+      "published_at": "2026-05-27T08:08:04Z",
+      "upvotes": 206,
+      "downvotes": 70,
+      "comments": 1
     },
     {
-      "msn_id": "AA24irpb",
-      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/boîte-auto-cette-erreur-avec-le-neutre-au-feu-rouge-peut-ruiner-votre-transmission-et-vous-coûter-très-cher/ar-AA24irpb?ocid=00000000",
-      "url_hash": "c7f5b881a3ba53a90bea427ac8da36b1f36bfe309500b97fe272a6bae4cbc25a",
-      "title": "Boîte auto : cette erreur avec le neutre au feu rouge peut ruiner votre transmission et vous coûter très cher",
-      "abstract": "Un automobiliste persuadé de ménager sa boîte automatique en passant en Neutre à chaque feu rouge se heurte aux explications très concrètes de son garagiste. Ce face-à-face au garage révèle des risques mécaniques et des factures salées que peu de conducteurs soupçonnent.",
-      "image_url": "https://th.bing.com/th?id=ORMS.7674d6da62d009de51c237440a1bf922&pid=Wdp",
-      "source": "Marie France",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-28T18:35:51Z",
-      "upvotes": 25,
-      "downvotes": 19,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA24hMaK",
-      "url": "https://www.msn.com/fr-fr/sport/tennis/guy-forget-sur-la-défaite-de-sinner-il-donne-une-expli-ca-tion-qui-est-la-sienne-mais-on-se-dit-qu-il-y-a-autre-chose-derrière/ar-AA24hMaK?ocid=00000000",
-      "url_hash": "026a8749f05a65371397cabc867762ca9f9e161dbd19b992707a26729e0a7289",
-      "title": "Guy Forget sur la défaite de Sinner : «Il donne une expli­ca­tion, qui est la sienne, mais on se dit qu’il y a autre chose derrière»",
-      "abstract": "La défaite surprise et reten­tis­sante de Jannik Sinner dès le deuxième tour de Roland‐Garros fait logi­que­ment beau­coup réagir. Consultant pour France Télévision, Guy Forget a été invité à s’ex­primer sur les expli­ca­tions four­nies par le numéro 1 mondial lors de son passage en confé­rence de presse d’après match. Et si l’Italien a expliqué qu’il n’avait […]",
-      "image_url": "https://th.bing.com/th?id=ORMS.c1a9d64bbf4644e696c7f6d710b867f4&pid=Wdp",
-      "source": "We Love Tennis",
-      "category": "sport",
-      "topics": [
-        "Tennis",
-        "Sport"
-      ],
-      "published_at": "2026-05-28T17:01:00Z",
-      "upvotes": 15,
-      "downvotes": 8,
-      "comments": 9
-    },
-    {
-      "msn_id": "AA24iBvw",
-      "url": "https://www.msn.com/fr-fr/actualite/france/après-la-prison-et-le-bracelet-nicolas-sarkozy-obtient-une-décision-de-justice-qui-change-son-quotidien/ar-AA24iBvw?ocid=00000000",
-      "url_hash": "5127d2bcc8c7f4d089df19bc4c094ce50bd254b5237ef3784508a680653a6a22",
-      "title": "Après la prison et le bracelet, Nicolas Sarkozy obtient une décision de justice qui change son quotidien",
-      "abstract": "Nicolas Sarkozy traverse depuis plusieurs mois une séquence judiciaire particulièrement intense. Après avoir déjà connu le bracelet électronique dans l’affaire Bismuth et après un passage en prison évoqué dans le contexte de ses autres dossiers, l’ancien président de la République obtient cette fois une décision plus favorable dans l’affaire Bygmalion. Il ne portera pas de nouveau bracelet électronique. La justice lui accorde une libération...",
-      "image_url": "https://th.bing.com/th?id=ORMS.82ec7c485f5cd04ce679861c5d90c913&pid=Wdp",
+      "msn_id": "AA24iDPZ",
+      "url": "https://www.msn.com/fr-fr/actualite/france/6-femmes-2-plaintes-un-nouveau-témoignage-ce-qui-est-vraiment-reproché-à-patrick-bruel/ar-AA24iDPZ?ocid=00000000",
+      "url_hash": "d99c21d3e5667f68467b1ada9bc7c27e0690478636f82b7cfdf1ae28da6c45c4",
+      "title": "6 femmes, 2 plaintes, un nouveau témoignage : ce qui est vraiment reproché à Patrick Bruel",
+      "abstract": "L’affaire autour de Patrick Bruel s’est intensifiée ces derniers jours avec l’accumulation de témoignages et de plaintes, en France comme en Belgique. Plusieurs femmes ont évoqué des faits qu’elles qualifient de violences sexuelles, couvrant une période allant des années 1990 jusqu’à 2019. À cela s’ajoute désormais le témoignage de Karine Viseur, attachée de presse belge, qui affirme avoir été victime d’une agression sexuelle en 2010 dans les...",
+      "image_url": "https://th.bing.com/th?id=ORMS.771893bb3dfbadb98a9a9a9d5ae230fd&pid=Wdp",
       "source": "So Busy Girls",
       "category": "actualite",
       "topics": [
         "ACTUALITÉ",
         "Actualité à la Une"
       ],
-      "published_at": "2026-05-28T19:07:00Z",
-      "upvotes": 49,
-      "downvotes": 63,
-      "comments": 16
+      "published_at": "2026-05-28T19:21:00Z",
+      "upvotes": 11,
+      "downvotes": 3,
+      "comments": 0
     },
     {
-      "msn_id": "AA24mdpV",
-      "url": "https://www.msn.com/fr-fr/finance/autres/guerre-en-ukraine-les-dépenses-militaires-de-la-russie-menacent-de-faire-exploser-le-budget-de-poutine/ar-AA24mdpV?ocid=00000000",
-      "url_hash": "b66c64b8bea2a1decde7479e87e7b4339551a66e4172df511fecc69ee3ad7110",
-      "title": "Guerre en Ukraine : les dépenses militaires de la Russie menacent de faire exploser le budget de Poutine",
-      "abstract": "Selon un document interne consulté par le Financial Times, les dépenses liées à la guerre en Ukraine pourraient dépasser de plusieurs milliers de milliards de roubles les prévisions du Kremlin cette année.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24lJdj.img",
-      "source": "Paris Match FR",
+      "msn_id": "AA24ktti",
+      "url": "https://www.msn.com/fr-fr/actualite/france/elle-se-jette-volontairement-d-une-voiture-lancée-à-100-km-h-sur-l-autoroute-une-femme-de-33-ans-s-en-sort-par-miracle/ar-AA24ktti?ocid=00000000",
+      "url_hash": "e62cc662c4460659cea7e4c77e09523d9267cd7efa27bad7032212c87f15d12c",
+      "title": "Elle se jette volontairement d’une voiture lancée à 100 km/h sur l’autoroute : une femme de 33 ans s’en sort par miracle",
+      "abstract": "Une femme de 33 ans a été secourue par les sapeurs-pompiers et le Samu sur l’autoroute A480 à Grenoble. Après s'être jetée d'une voiture en marche, elle a été transportée en urgence absolue au CHU Grenoble Alpes, elle s’en sort finalement avec des blessures légères. Comme le rapporte Le Dauphiné Libéré, la circulation sur l’autoroute A480 à Grenobl...",
+      "image_url": "https://th.bing.com/th?id=ORMS.73ee31b38e1d32d78f61c8c97afcbfeb&pid=Wdp",
+      "source": "Auto Moto",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-29T06:00:00Z",
+      "upvotes": 73,
+      "downvotes": 30,
+      "comments": 10
+    },
+    {
+      "msn_id": "AA24mIxF",
+      "url": "https://www.msn.com/fr-fr/finance/autres/les-commissaires-européens-en-ont-marre-de-rouler-en-voiture-électrique-entre-bruxelles-et-strasbourg/ar-AA24mIxF?ocid=00000000",
+      "url_hash": "2adbcde169474b848724a3604a8636eaa2a948f0703c5e60e1ee40f3a20aafc6",
+      "title": "Les commissaires européens en ont marre de rouler en voiture électrique entre Bruxelles et Strasbourg",
+      "abstract": "La Commission européenne veut montrer l'exemple avec l'électrification de sa flotte. Mais, au vu de la technologie actuelle, cela entraîne des trajets entre Strasbourg et Bruxelles qui comportent un arrêt.",
+      "image_url": "https://th.bing.com/th?id=ORMS.884fe31bb783ade5c2df50ce9636324c&pid=Wdp",
+      "source": "Clubic",
       "category": "finance",
       "topics": [
         "Finance"
       ],
-      "published_at": "2026-05-29T12:48:44Z",
-      "upvotes": 38,
-      "downvotes": 10,
-      "comments": 14
+      "published_at": "2026-05-29T14:22:00Z",
+      "upvotes": 16,
+      "downvotes": 3,
+      "comments": 19
     },
     {
-      "msn_id": "AA24lfzF",
-      "url": "https://www.msn.com/fr-fr/actualite/monde/états-unis-lors-du-débat-contre-donald-trump-en-2024-jill-biden-a-cru-que-son-mari-joe-faisait-un-avc/ar-AA24lfzF?ocid=00000000",
-      "url_hash": "a4a9b6ce2f9ad0219c3ffdc43bbb141a36ef9e27eac77b26e1ee3ba7ab92ae75",
-      "title": "États-Unis : lors du débat contre Donald Trump en 2024, Jill Biden a cru que son mari, Joe, faisait un AVC",
-      "abstract": "C'est un épisode qui a provoqué la chute de Joe Biden lors de la dernière présidentielle américaine : son débat raté contre Donald Trump en juin 2024. Le président en exercice était apparu en difficulté, affaibli physiquement et mentalement. Jill Biden révèle qu'elle pensait que son mari faisait un AVC en direct. Ce débat avait scellé le sort de Joe Biden lors de l'élection présidentielle de 2024. Le 28 juin 2024, le président encore en exercice...",
-      "image_url": "https://th.bing.com/th?id=ORMS.da35ab82c20fa6727ab67b2f0b9cddc9&pid=Wdp",
-      "source": "Europe 1",
+      "msn_id": "AA23KVnq",
+      "url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/structure-mystérieuse-découverte-sous-la-glace-de-l-antarctique/vi-AA23KVnq?ocid=00000000",
+      "url_hash": "fbeb981e8ca2c39b0260ed3341b3eaef345b241e73b32c18ce00dae30828009d",
+      "title": "Structure mystérieuse découverte sous la glace de l'Antarctique",
+      "abstract": "Des scientifiques explorant sous l'Antarctique ont pénétré plus profondément que jamais auparavant — et ce qui s'est passé ensuite a choqué tout le monde impliqué. Alors que l'équipe analysait le système souterrain gelé, des anomalies radar ont dépassé toutes les attentes, et les capteurs ont soudainement frappé une architecture massive elle-même, quelque chose que les chercheurs rencontrent presque jamais directement. La découverte a révélé des conditions si extrêmes que les équipements ont commencé à échouer sous le froid et la pression intenses. Mais l'expédition a également ouvert une rare fenêtre sur l'histoire cachée enfouie dans la glace en dessous. Regardez maintenant pour découvrir ce que les scientifiques ont trouvé après avoir cherché trop profondément en Antarctique.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA23LpqN.img",
+      "source": "SYMPA",
       "category": "actualite",
       "topics": [
-        "Actualité",
-        "Actualité à la Une",
-        "Monde"
+        "ACTUALITÉ",
+        "Actualité à la Une"
       ],
-      "published_at": "2026-05-28T19:00:02Z",
-      "upvotes": 1,
-      "downvotes": 4,
+      "published_at": "2026-05-21T19:48:40Z",
+      "upvotes": 79,
+      "downvotes": 44,
       "comments": 0
     },
     {
@@ -800,22 +591,22 @@
       "comments": 0
     },
     {
-      "msn_id": "AA24lbm3",
-      "url": "https://www.msn.com/fr-fr/actualite/france/nice-éric-ciotti-réclame-la-dissolution-du-mouvement-aquila-popularis-accusé-d-encourager-la-violence-politique/ar-AA24lbm3?ocid=00000000",
-      "url_hash": "4b66a4bdaa00ce18aea2fbb9e185f6095f37d6ca6612a8c1563e8ffa2344cb41",
-      "title": "Nice. Éric Ciotti réclame la dissolution du mouvement « Aquila Popularis », accusé d’encourager la violence politique",
-      "abstract": "En mobilisant les dispositifs du Code de la sécurité intérieure plusieurs fois usités ces derniers mois, le maire de Nice réclame à l’État de «prononcer la dissolution» d’Aquila Popularis. Il ne veut pas du tout être associé à eux. Interrogé par Le Point de cette semaine, Éric Ciotti a assuré : «Je condamne avec la [...]",
-      "image_url": "https://th.bing.com/th?id=ORMS.271e4fb1c80e8e6914d0f695e31a43c5&pid=Wdp",
-      "source": "Nice Presse",
+      "msn_id": "AA24l2Xq",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/regardez-comment-un-paquebot-a-attaqué-un-cuirassé/vi-AA24l2Xq?ocid=00000000",
+      "url_hash": "909ddc64df291439480cf7c9df791f630076f3e6bd4a50803f85f8f0bcf33f7b",
+      "title": "Regardez comment un paquebot a attaqué un cuirassé",
+      "abstract": "5 novembre 1940. Le convoi HX-84 traverse l’Atlantique, transportant des fournitures vitales de Halifax vers la Grande-Bretagne. Pour protéger ses trente-sept navires marchands, il ne dispose que d’une seule escorte : le HMS Jervis Bay, un croiseur marchand armé converti à partir d’un paquebot civil et équipé d’un armement dépassé. Lorsqu’un puissant navire de guerre allemand apparaît à l’horizon et se rapproche rapidement, le capitaine Edward Stephen Fogarty Fegen se retrouve face à un choix impossible. Inférieur en puissance de feu, largement dépassé et sans aucun espoir de victoire, il ordonne à son bâtiment de foncer vers l’ennemi, offrant un temps précieux au convoi pour se disperser lors de l’un des actes de bravoure navale les plus remarquables de la Seconde Guerre mondiale.",
+      "image_url": "https://th.bing.com/th?id=ORMS.edbb4cae25af70ce18e6a270fa36c1ea&pid=Wdp",
+      "source": "Yarnhub",
       "category": "actualite",
       "topics": [
         "ACTUALITÉ",
         "Actualité à la Une"
       ],
-      "published_at": "2026-05-29T09:50:39Z",
-      "upvotes": 114,
-      "downvotes": 20,
-      "comments": 19
+      "published_at": "2026-05-29T08:53:43Z",
+      "upvotes": 5,
+      "downvotes": 2,
+      "comments": 1
     },
     {
       "msn_id": "AA24iEnU",
@@ -831,80 +622,9 @@
         "Divertissement"
       ],
       "published_at": "2026-05-28T20:47:00Z",
-      "upvotes": 61,
-      "downvotes": 46,
-      "comments": 30
-    },
-    {
-      "msn_id": "AA24irdK",
-      "url": "https://www.msn.com/fr-fr/actualite/monde/accident-de-michael-schumacher-un-secouriste-présent-en-2013-brise-le-silence-et-révèle-la-pression-qu-il-a-ressentie-ce-jour-là/ar-AA24irdK?ocid=00000000",
-      "url_hash": "f0c8b403a0e83572cb5d8af5e81d877aeffcf9fb965349a06b3b3d816d0b02fd",
-      "title": "Accident de Michael Schumacher : un secouriste présent en 2013 brise le silence et révèle la « pression » qu'il a ressentie ce jour-là",
-      "abstract": "Alors qu’il avait choisi de se taire depuis l’accident de ski de Michael Schumacher en 2013, le secouriste qui a assisté le pilote de Formule 1 a pris la parole pour la première fois dans les colonnes de L’Équipe ce mercredi 27 mai 2026. Il a expliqué la pression inhérente à ce type de sauvetage.",
-      "image_url": "https://th.bing.com/th?id=ORMS.4dd8cc424bd57ec51fbc29c649b7e948&pid=Wdp",
-      "source": "Femme Actuelle",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T18:09:11Z",
-      "upvotes": 108,
-      "downvotes": 77,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA24lQaX",
-      "url": "https://www.msn.com/fr-fr/actualite/insolite/comme-si-on-jouait-dans-l-allemagne-nazie-le-coup-de-gueule-de-l-ukrainienne-oliynykova-contre-sa-future-adversaire-russe/ar-AA24lQaX?ocid=00000000",
-      "url_hash": "894254eb616faa8e2b07b6f3a63bed08bce1d07b9e9ce6f214594fb7ccf0d687",
-      "title": "« Comme si on jouait dans l’Allemagne nazie » : le coup de gueule de l’Ukrainienne Oliynykova contre sa future adversaire russe",
-      "abstract": "La poignée de main risque d’être froide, voire inexistante. Ce samedi, l’Ukrainienne Oleksandra Oliynykova affronte la Russe Diana Shnaider au 3e tour de Roland-Garros. Un match très important sportivement, mais hautement symbolique politiquement. D’autant que l’Ukrainienne prend régulièrement la parole sur le conflit dans son pays, critiquant les ...",
-      "image_url": "https://th.bing.com/th?id=ORMS.4724aed6e2d784a52923254aa897fce7&pid=Wdp",
-      "source": "Le Parisien",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-29T10:33:14Z",
-      "upvotes": 56,
-      "downvotes": 38,
-      "comments": 25
-    },
-    {
-      "msn_id": "AA24aZsO",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/c-est-incurable-camille-cerf-vit-au-quotidien-la-même-situation-qu-environ-11-des-femmes-en-france/ar-AA24aZsO?ocid=00000000",
-      "url_hash": "18ba70a43d3a1ee73ceed96338dfacffb7bab45e371fe2f9c90fc1a3ad71a482",
-      "title": "« C'est incurable » : Camille Cerf vit au quotidien la même situation qu'environ 11 % des femmes en France",
-      "abstract": "Récemment interviewée par Télé-Loisirs, Camille Cerf s'est confiée sur son combat contre une pathologie chronique et douloureuse qui toucherait près de 11 % des femmes en France. Si la maladie reste « incurable », l'ancienne Miss France a partagé les différentes solutions qu'elle met en place pour soulager son quotidien face à ce trouble encore largement méconnu.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24aDg8.img",
-      "source": "Purepeople",
-      "category": "divertissement",
-      "topics": [
-        "Célébrités",
-        "Divertissement"
-      ],
-      "published_at": "2026-05-27T09:16:00Z",
-      "upvotes": 62,
-      "downvotes": 50,
-      "comments": 3
-    },
-    {
-      "msn_id": "AA24k91O",
-      "url": "https://www.msn.com/fr-fr/sport/other/france-af-du-sud-la-sanction-est-tombée-pour-l-arbitre-ben-o-keeffe/ar-AA24k91O?ocid=00000000",
-      "url_hash": "310cfb54f0d651902717afcaa87d8f629319b2292a58df838ca5fb5b0fc26664",
-      "title": "France-Af. du Sud : La sanction est tombée pour l’arbitre Ben O’Keeffe!",
-      "abstract": "De son propre aveu, Ben O’Keeffe a passé des jours difficiles après le quart de finale polémique entre la France et l’Afrique du Sud lors de la dernière Coupe du monde.",
-      "image_url": "https://th.bing.com/th?id=ORMS.e1898808d0950e6edb63d150f5fe6a0a&pid=Wdp",
-      "source": "Sports.fr",
-      "category": "sport",
-      "topics": [
-        "Sport"
-      ],
-      "published_at": "2026-05-29T03:00:31Z",
-      "upvotes": 91,
-      "downvotes": 90,
-      "comments": 20
+      "upvotes": 59,
+      "downvotes": 44,
+      "comments": 29
     },
     {
       "msn_id": "AA24mjrs",
@@ -920,113 +640,132 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-29T14:21:00Z",
-      "upvotes": 0,
-      "downvotes": 1,
+      "upvotes": 2,
+      "downvotes": 4,
       "comments": 0
     },
     {
-      "msn_id": "AA24ih3w",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/chiara-mastroianni-et-benoît-poelvoorde-en-couple-retour-sur-une-idylle-oubliée-qui-a-duré-10-ans/ar-AA24ih3w?ocid=00000000",
-      "url_hash": "9391fe88525a5a836ea9dd68437fe1cc0419afd29f96e5df6ef39e342558ec67",
-      "title": "Chiara Mastroianni et Benoît Poelvoorde en couple : retour sur une idylle oubliée... qui a duré 10 ans !",
-      "abstract": "Chiara Mastroianni, qui célèbre ses 54 ans ce jeudi 28 mai, a vécu une belle histoire d’amour avec Benoît Poelvoorde suite à leur rencontre en 2014 sur un plateau de tournage, avant de se séparer dix ans plus tard.",
-      "image_url": "https://th.bing.com/th?id=ORMS.fa9b2320b8050978bfe300171624ab39&pid=Wdp",
-      "source": "Gala (French)",
-      "category": "divertissement",
-      "topics": [
-        "Célébrités",
-        "Divertissement"
-      ],
-      "published_at": "2026-05-28T18:06:00Z",
-      "upvotes": 16,
-      "downvotes": 14,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24mH91",
-      "url": "https://www.msn.com/fr-fr/finance/autres/lidl-rappelle-des-lardons-partout-en-france-ne-les-consommez-surtout-pas/ar-AA24mH91?ocid=00000000",
-      "url_hash": "03da542b893149fa1e892c4a22d2434e7233258a8f7626b5e5321e7d42fc1c25",
-      "title": "Lidl rappelle des lardons partout en France, ne les consommez surtout pas",
-      "abstract": "Lidl vient de procéder au rappel de lardons vendus partout en France ces derniers jours. Les garanties sanitaires n’étant pas satisfaisantes, ce produit ne doit pas être consommé",
-      "image_url": "https://th.bing.com/th?id=ORMS.f277fba5c8941027133bd8e29624419b&pid=Wdp",
-      "source": "20 Minutes",
+      "msn_id": "AA24mdpV",
+      "url": "https://www.msn.com/fr-fr/finance/autres/guerre-en-ukraine-les-dépenses-militaires-de-la-russie-menacent-de-faire-exploser-le-budget-de-poutine/ar-AA24mdpV?ocid=00000000",
+      "url_hash": "b66c64b8bea2a1decde7479e87e7b4339551a66e4172df511fecc69ee3ad7110",
+      "title": "Guerre en Ukraine : les dépenses militaires de la Russie menacent de faire exploser le budget de Poutine",
+      "abstract": "Selon un document interne consulté par le Financial Times, les dépenses liées à la guerre en Ukraine pourraient dépasser de plusieurs milliers de milliards de roubles les prévisions du Kremlin cette année.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24lJdj.img",
+      "source": "Paris Match FR",
       "category": "finance",
       "topics": [
         "Finance"
       ],
-      "published_at": "2026-05-29T12:47:36Z",
-      "upvotes": 2,
-      "downvotes": 2,
+      "published_at": "2026-05-29T12:48:44Z",
+      "upvotes": 38,
+      "downvotes": 10,
+      "comments": 14
+    },
+    {
+      "msn_id": "AA24eIkh",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/avis-à-tous-les-français-qui-ont-du-pain-au-congélateur-prenez-garde-cette-habitude-très-courante-favorise-les-bactéries/ar-AA24eIkh?ocid=00000000",
+      "url_hash": "e142a5317bdae951086577d193f9ba956dc88dd6275f8f27193a4c9272609a5b",
+      "title": "Avis à tous les Français qui ont du pain au congélateur : prenez garde, cette habitude très courante favorise les bactéries",
+      "abstract": "Mettre du pain au congélateur, c’est le réflexe pratique par excellence. Une baguette en trop, quelques tranches pour dépanner, et hop, on pense avoir tout bon. Sauf qu’une erreur très répandue peut nuire à la conservation du pain et favoriser le développement des bactéries.",
+      "image_url": "https://th.bing.com/th?id=ORMS.506a84fde20ab66517a6fdc4c562e21e&pid=Wdp",
+      "source": "Marmiton",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-28T05:30:00Z",
+      "upvotes": 31,
+      "downvotes": 33,
       "comments": 0
     },
     {
-      "msn_id": "AA24ijp6",
-      "url": "https://www.msn.com/fr-fr/actualite/france/il-fracture-une-voiture-dans-un-parking-mais-est-trahi-par-un-oubli-insolite/ar-AA24ijp6?ocid=00000000",
-      "url_hash": "6d0c01824278f72b8aad7e21d1e8d7caabddd336f5d8713a9bff8c489b8e29bf",
-      "title": "Il fracture une voiture dans un parking mais est trahi par un oubli insolite",
-      "abstract": "En février, dans plusieurs parkings souterrains de Bordeaux, un roulottier de 41 ans multiplie les voitures fracturées. Une maladresse invraisemblable va pourtant précipiter son interpellation et une condamnation très commentée.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24iooM.img",
-      "source": "L'auto-journal",
+      "msn_id": "AA24irpb",
+      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/boîte-auto-cette-erreur-avec-le-neutre-au-feu-rouge-peut-ruiner-votre-transmission-et-vous-coûter-très-cher/ar-AA24irpb?ocid=00000000",
+      "url_hash": "c7f5b881a3ba53a90bea427ac8da36b1f36bfe309500b97fe272a6bae4cbc25a",
+      "title": "Boîte auto : cette erreur avec le neutre au feu rouge peut ruiner votre transmission et vous coûter très cher",
+      "abstract": "Un automobiliste persuadé de ménager sa boîte automatique en passant en Neutre à chaque feu rouge se heurte aux explications très concrètes de son garagiste. Ce face-à-face au garage révèle des risques mécaniques et des factures salées que peu de conducteurs soupçonnent.",
+      "image_url": "https://th.bing.com/th?id=ORMS.7674d6da62d009de51c237440a1bf922&pid=Wdp",
+      "source": "Marie France",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-28T18:35:51Z",
+      "upvotes": 25,
+      "downvotes": 20,
+      "comments": 2
+    },
+    {
+      "msn_id": "AA24mbqc",
+      "url": "https://www.msn.com/fr-fr/actualite/france/paris-deux-soeurs-âgées-découvertes-mortes-chez-elles-manifestement-sous-des-coups/ar-AA24mbqc?ocid=00000000",
+      "url_hash": "8a74dda2ffce3e853e9a6ac27911d798f868dd29f6c496fe85548871c244f457",
+      "title": "Paris : Deux soeurs âgées découvertes mortes chez elles, « manifestement sous des coups »",
+      "abstract": "Une nonagénaire et une octogénaire nées en 1935 et 1939, ont été retrouvées mortes vendredi dans leur appartement du 19e arrondissement de Paris, ce vendredi",
+      "image_url": "https://th.bing.com/th?id=ORMS.d39fa029f2993cd01ef9b7fa96a19c01&pid=Wdp",
+      "source": "20 Minutes",
       "category": "actualite",
       "topics": [
         "ACTUALITÉ",
         "Actualité à la Une"
       ],
-      "published_at": "2026-05-28T18:00:57Z",
-      "upvotes": 61,
-      "downvotes": 7,
+      "published_at": "2026-05-29T14:21:56Z",
+      "upvotes": 16,
+      "downvotes": 5,
       "comments": 0
     },
     {
-      "msn_id": "AA24lWqU",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/ça-m-a-gelé-le-sang-une-bénévole-des-enfoirés-raconte-sa-rencontre-choquante-avec-patrick-bruel/ar-AA24lWqU?ocid=00000000",
-      "url_hash": "17b6399b73b43848502564209e61dc61ff27b1f36b8ba5c84fa23a2578054f70",
-      "title": "Ça m'a gelé le sang : une bénévole des Enfoirés raconte sa rencontre choquante avec Patrick Bruel",
-      "abstract": "Un nouveau témoignage vient dénoncer le comportement de prédateur de Patrick Bruel sur la tournée des Enfoirés. Une attitude dont la production aurait eu connaissance.",
-      "image_url": "https://th.bing.com/th?id=ORMS.b88a01bdfe873aa1e94ae87317d8341d&pid=Wdp",
-      "source": "Cosmopolitan France",
+      "msn_id": "AA24irdK",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/accident-de-michael-schumacher-un-secouriste-présent-en-2013-brise-le-silence-et-révèle-la-pression-qu-il-a-ressentie-ce-jour-là/ar-AA24irdK?ocid=00000000",
+      "url_hash": "f0c8b403a0e83572cb5d8af5e81d877aeffcf9fb965349a06b3b3d816d0b02fd",
+      "title": "Accident de Michael Schumacher : un secouriste présent en 2013 brise le silence et révèle la « pression » qu'il a ressentie ce jour-là",
+      "abstract": "Alors qu’il avait choisi de se taire depuis l’accident de ski de Michael Schumacher en 2013, le secouriste qui a assisté le pilote de Formule 1 a pris la parole pour la première fois dans les colonnes de L’Équipe ce mercredi 27 mai 2026. Il a expliqué la pression inhérente à ce type de sauvetage.",
+      "image_url": "https://th.bing.com/th?id=ORMS.4dd8cc424bd57ec51fbc29c649b7e948&pid=Wdp",
+      "source": "Femme Actuelle",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T18:09:11Z",
+      "upvotes": 110,
+      "downvotes": 79,
+      "comments": 2
+    },
+    {
+      "msn_id": "AA249SxK",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/affaire-patrick-bruel-agnès-jaoui-a-un-avis-sur-son-maintien-sur-scène-ça-ne-me-choque-pas/ar-AA249SxK?ocid=00000000",
+      "url_hash": "3e7346d16a536c20dbea5e56f0432cec4af4e3a257c3fbbad0976715a66207cc",
+      "title": "Affaire Patrick Bruel, Agnès Jaoui a un avis sur son maintien sur scène : « Ça ne me choque pas… »",
+      "abstract": "Invitée à réagir à l’affaire Patrick Bruel dans les colonnes du Parisien, Agnès Jaoui a livré un point de vue nuancé sur le sujet. La réalisatrice évoque à la fois les avancées de #MeToo et certaines dérives qu’elle juge inquiétantes.",
+      "image_url": "https://th.bing.com/th?id=ORMS.650a86aceabb319c5f7ea2dd61239c9d&pid=Wdp",
+      "source": "Gala (French)",
+      "category": "divertissement",
+      "topics": [
+        "Divertissement",
+        "Célébrités"
+      ],
+      "published_at": "2026-05-27T07:30:49Z",
+      "upvotes": 92,
+      "downvotes": 72,
+      "comments": 9
+    },
+    {
+      "msn_id": "AA24iT3O",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/c-est-comme-un-coup-de-foudre-la-dernière-compagne-de-coluche-fred-romano-se-confie-sur-leur-relation/ar-AA24iT3O?ocid=00000000",
+      "url_hash": "69d56392c6852b46d88e5fc836faa45bcdc26749b3aee50bacb888409c900c4a",
+      "title": "« C'est comme un coup de foudre » : la dernière compagne de Coluche, Fred Romano, se confie sur leur relation",
+      "abstract": "Quarante ans après la disparition de l’humoriste préféré des Français, les souvenirs restent intacts pour celle qui a partagé ses dernières années. Dans les colonnes du magazine VSD paru ce jeudi 28 mai, Fred Romano s’est livrée, avec émotion, sur son histoire d’amour avec Coluche. L’ancienne journaliste et actrice revient notamment sur leur rencontre marquante au début des années 1980.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24is75.img",
+      "source": "Voici",
       "category": "divertissement",
       "topics": [
         "Célébrités",
         "Divertissement"
       ],
-      "published_at": "2026-05-29T09:45:07Z",
-      "upvotes": 61,
-      "downvotes": 43,
-      "comments": 10
-    },
-    {
-      "msn_id": "AA24mq71",
-      "url": "https://www.msn.com/fr-fr/actualite/monde/quatre-jours-après-leur-naufrage-au-large-du-maroc-les-deux-français-disparus-retrouvés-indemnes/ar-AA24mq71?ocid=00000000",
-      "url_hash": "b521a606c08724f52040e9747d2cad4afa081a26fe44690247b94b15b2f63fd9",
-      "title": "Quatre jours après leur naufrage au large du Maroc, les deux Français disparus retrouvés indemnes",
-      "abstract": "Une disparition en mer au large du Maroc Jeudi soir, un soulagement palpable a gagné les proches de deux ressortissants français portés disparus depuis plusieurs jours. Les deux hommes ont été retrouvés « sains et saufs par un navire de commerce qui les a récupérés au large d’Assilah », au nord du Maroc, selon le Centre national de coordination et ...",
-      "image_url": "https://th.bing.com/th?id=ORMS.2049fddda7de48e337aee88d3fa44fa2&pid=Wdp",
-      "source": "24matins.fr",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-29T13:00:50Z",
-      "upvotes": 20,
-      "downvotes": 4,
+      "published_at": "2026-05-28T20:09:00Z",
+      "upvotes": 13,
+      "downvotes": 5,
       "comments": 0
-    },
-    {
-      "msn_id": "AA24fEAL",
-      "url": "https://www.msn.com/fr-fr/auto/actualite/toutes-les-voitures-devront-en-disposer-les-automobilistes-devront-bientôt-s-acquitter-de-ce-nouveau-dispositif-voici-la-date-d-entrée-en-vigueur/ar-AA24fEAL?ocid=00000000",
-      "url_hash": "ea49b5adaa9da5d48f06fe3fe1da8ebe6c6cd73ae56a6d10bf03298afa26a634",
-      "title": "« Toutes les voitures devront en disposer » : les automobilistes devront bientôt s'acquitter de ce nouveau dispositif, voici la date d'entrée en vigueur",
-      "abstract": "Un nouveau dispositif de sécurité va bientôt faire son apparition sur les voitures neuves. Dès le 7 juillet 2026, les feux stop clignotants lors des freinages brusques deviendront obligatoires dans toute l’Union européenne afin de mieux alerter les conducteurs.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24fU2Y.img",
-      "source": "Pleine Vie",
-      "category": "auto",
-      "topics": [],
-      "published_at": "2026-05-28T06:38:18Z",
-      "upvotes": 81,
-      "downvotes": 60,
-      "comments": 33
     },
     {
       "msn_id": "AA24igZJ",
@@ -1042,9 +781,9 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-28T06:25:03Z",
-      "upvotes": 126,
-      "downvotes": 32,
-      "comments": 29
+      "upvotes": 125,
+      "downvotes": 33,
+      "comments": 30
     },
     {
       "msn_id": "AA24iLo5",
@@ -1061,9 +800,237 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-28T19:32:00Z",
-      "upvotes": 44,
-      "downvotes": 24,
+      "upvotes": 46,
+      "downvotes": 25,
       "comments": 7
+    },
+    {
+      "msn_id": "AA24lbm3",
+      "url": "https://www.msn.com/fr-fr/actualite/france/nice-éric-ciotti-réclame-la-dissolution-du-mouvement-aquila-popularis-accusé-d-encourager-la-violence-politique/ar-AA24lbm3?ocid=00000000",
+      "url_hash": "4b66a4bdaa00ce18aea2fbb9e185f6095f37d6ca6612a8c1563e8ffa2344cb41",
+      "title": "Nice. Éric Ciotti réclame la dissolution du mouvement « Aquila Popularis », accusé d’encourager la violence politique",
+      "abstract": "En mobilisant les dispositifs du Code de la sécurité intérieure plusieurs fois usités ces derniers mois, le maire de Nice réclame à l’État de «prononcer la dissolution» d’Aquila Popularis. Il ne veut pas du tout être associé à eux. Interrogé par Le Point de cette semaine, Éric Ciotti a assuré : «Je condamne avec la [...]",
+      "image_url": "https://th.bing.com/th?id=ORMS.271e4fb1c80e8e6914d0f695e31a43c5&pid=Wdp",
+      "source": "Nice Presse",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-29T09:50:39Z",
+      "upvotes": 139,
+      "downvotes": 28,
+      "comments": 20
+    },
+    {
+      "msn_id": "AA24jbfT",
+      "url": "https://www.msn.com/fr-fr/actualite/france/disparu-depuis-la-tentative-de-suicide-de-sa-mère-un-bébé-de-quatre-jours-retrouvé-mort-dans-une-rivière-à-angers/ar-AA24jbfT?ocid=00000000",
+      "url_hash": "c55982d19dc5c536c0c9a4c89f41e8a518f740fecf210c283a4cfb47fa982b8f",
+      "title": "Disparu depuis la tentative de suicide de sa mère, un bébé de quatre jours retrouvé mort dans une rivière à Angers",
+      "abstract": "Un important dispositif de police et de secours est toujours mobilisé ce jeudi soir sur les bords de la Maine, à Angers (Maine-et-Loire), après la découverte d’un nourrisson retrouvé mort dans le cours d’eau, quelques heures après la tentative de suicide de sa mère à Château-Gontier (Mayenne). Selon les premières informations recueillies, une femme...",
+      "image_url": "https://th.bing.com/th?id=ORMS.4153925eb4f317b115f1a5ef81fadb34&pid=Wdp",
+      "source": "Le Parisien",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T20:45:30Z",
+      "upvotes": 115,
+      "downvotes": 45,
+      "comments": 35
+    },
+    {
+      "msn_id": "AA24mvcN",
+      "url": "https://www.msn.com/fr-fr/auto/actualite/son-habitacle-rempli-d-épaisse-fumée-intrigue-les-gendarmes-il-fumait-la-chicha-en-conduisant/ar-AA24mvcN?ocid=00000000",
+      "url_hash": "2197077d96363c2df54bf1d8bdcb24a46bb6a2e85b2a6735cca076a5cad6e415",
+      "title": "Son habitacle rempli d'épaisse fumée intrigue les gendarmes… il fumait la chicha en conduisant!",
+      "abstract": "Une épaisse fumée s’échappant d’un véhicule en circulation a immédiatement éveillé les soupçons des gendarmes. Mais derrière cette scène digne d’un brouillard miniature sur quatre roues, les forces de l’ordre ont découvert un conducteur absorbé par une activité aussi insolite que risquée : il fumait tranquillement la chicha au volant. Sur la route,...",
+      "image_url": "https://th.bing.com/th?id=ORMS.44aef2c82219f1d269233366e5caafe1&pid=Wdp",
+      "source": "Autonews",
+      "category": "auto",
+      "topics": [],
+      "published_at": "2026-05-29T15:00:00Z",
+      "upvotes": 16,
+      "downvotes": 3,
+      "comments": 2
+    },
+    {
+      "msn_id": "AA24ih3w",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/chiara-mastroianni-et-benoît-poelvoorde-en-couple-retour-sur-une-idylle-oubliée-qui-a-duré-10-ans/ar-AA24ih3w?ocid=00000000",
+      "url_hash": "9391fe88525a5a836ea9dd68437fe1cc0419afd29f96e5df6ef39e342558ec67",
+      "title": "Chiara Mastroianni et Benoît Poelvoorde en couple : retour sur une idylle oubliée... qui a duré 10 ans !",
+      "abstract": "Chiara Mastroianni, qui célèbre ses 54 ans ce jeudi 28 mai, a vécu une belle histoire d’amour avec Benoît Poelvoorde suite à leur rencontre en 2014 sur un plateau de tournage, avant de se séparer dix ans plus tard.",
+      "image_url": "https://th.bing.com/th?id=ORMS.fa9b2320b8050978bfe300171624ab39&pid=Wdp",
+      "source": "Gala (French)",
+      "category": "divertissement",
+      "topics": [
+        "Célébrités",
+        "Divertissement"
+      ],
+      "published_at": "2026-05-28T18:06:00Z",
+      "upvotes": 18,
+      "downvotes": 15,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24aZsO",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/c-est-incurable-camille-cerf-vit-au-quotidien-la-même-situation-qu-environ-11-des-femmes-en-france/ar-AA24aZsO?ocid=00000000",
+      "url_hash": "18ba70a43d3a1ee73ceed96338dfacffb7bab45e371fe2f9c90fc1a3ad71a482",
+      "title": "« C'est incurable » : Camille Cerf vit au quotidien la même situation qu'environ 11 % des femmes en France",
+      "abstract": "Récemment interviewée par Télé-Loisirs, Camille Cerf s'est confiée sur son combat contre une pathologie chronique et douloureuse qui toucherait près de 11 % des femmes en France. Si la maladie reste « incurable », l'ancienne Miss France a partagé les différentes solutions qu'elle met en place pour soulager son quotidien face à ce trouble encore largement méconnu.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24aDg8.img",
+      "source": "Purepeople",
+      "category": "divertissement",
+      "topics": [
+        "Célébrités",
+        "Divertissement"
+      ],
+      "published_at": "2026-05-27T09:16:00Z",
+      "upvotes": 63,
+      "downvotes": 52,
+      "comments": 3
+    },
+    {
+      "msn_id": "AA24jy7P",
+      "url": "https://www.msn.com/fr-fr/finance/actualite/beretta-révèle-un-système-équipé-de-8-fusils-automatiques-pour-abattre-des-drones/ar-AA24jy7P?ocid=00000000",
+      "url_hash": "3f1928f63da4a463570cb38eafccd53f86c5b4ae6936bf13ca9f427b3f8c9d2e",
+      "title": "Beretta révèle un système équipé de 8 fusils automatiques pour abattre des drones",
+      "abstract": "Beretta Defense Technologies a dévoilé une nouvelle tourelle automatisée équipée de huit fusils antidrones afin de renforcer la protection des infrastructures critiques et des installations militaires.",
+      "image_url": "https://th.bing.com/th?id=ORMS.a2ec5dae307e37576f227c7eae633c3f&pid=Wdp",
+      "source": "Carro e Motos",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-28T17:01:06Z",
+      "upvotes": 62,
+      "downvotes": 13,
+      "comments": 8
+    },
+    {
+      "msn_id": "AA24iSxf",
+      "url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-après-andréa-bescond-alexandra-lamy-sort-du-silence-et-prend-position/ar-AA24iSxf?ocid=00000000",
+      "url_hash": "19e73fa5aab821e3488a98ee52a1af1abffdb67bc641f594c71620dd4fac5765",
+      "title": "Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
+      "abstract": "Les accusations visant Patrick Bruel ont rapidement provoqué des réactions dans le monde artistique, notamment parmi des figures engagées sur les questions de violences faites aux femmes. Parmi elles, la réalisatrice et danseuse Andréa Bescond a été l’une des premières à s’exprimer publiquement, en relayant les témoignages et en affichant clairement son soutien aux femmes qui accusent le chanteur. Dans la foulée, Alexandra Lamy a elle aussi pris...",
+      "image_url": "https://th.bing.com/th?id=ORMS.d4e4a222e38e383f884f0dd9ff242a67&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T19:14:00Z",
+      "upvotes": 78,
+      "downvotes": 60,
+      "comments": 5
+    },
+    {
+      "msn_id": "AA24k91O",
+      "url": "https://www.msn.com/fr-fr/sport/other/france-af-du-sud-la-sanction-est-tombée-pour-l-arbitre-ben-o-keeffe/ar-AA24k91O?ocid=00000000",
+      "url_hash": "310cfb54f0d651902717afcaa87d8f629319b2292a58df838ca5fb5b0fc26664",
+      "title": "France-Af. du Sud : La sanction est tombée pour l’arbitre Ben O’Keeffe!",
+      "abstract": "De son propre aveu, Ben O’Keeffe a passé des jours difficiles après le quart de finale polémique entre la France et l’Afrique du Sud lors de la dernière Coupe du monde.",
+      "image_url": "https://th.bing.com/th?id=ORMS.e1898808d0950e6edb63d150f5fe6a0a&pid=Wdp",
+      "source": "Sports.fr",
+      "category": "sport",
+      "topics": [
+        "Sport"
+      ],
+      "published_at": "2026-05-29T03:00:31Z",
+      "upvotes": 94,
+      "downvotes": 93,
+      "comments": 20
+    },
+    {
+      "msn_id": "AA24ijp6",
+      "url": "https://www.msn.com/fr-fr/actualite/france/il-fracture-une-voiture-dans-un-parking-mais-est-trahi-par-un-oubli-insolite/ar-AA24ijp6?ocid=00000000",
+      "url_hash": "6d0c01824278f72b8aad7e21d1e8d7caabddd336f5d8713a9bff8c489b8e29bf",
+      "title": "Il fracture une voiture dans un parking mais est trahi par un oubli insolite",
+      "abstract": "En février, dans plusieurs parkings souterrains de Bordeaux, un roulottier de 41 ans multiplie les voitures fracturées. Une maladresse invraisemblable va pourtant précipiter son interpellation et une condamnation très commentée.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24iooM.img",
+      "source": "L'auto-journal",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T18:00:57Z",
+      "upvotes": 62,
+      "downvotes": 7,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24iEGb",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/jordan-bardella-en-pleine-cure-ce-péché-mignon-qu-il-a-abandonné-en-vue-de-2027/ar-AA24iEGb?ocid=00000000",
+      "url_hash": "cf1c80ce01b34c0f1aec7e44c63c13881fac414eeb916fe1687265d3ce54a04f",
+      "title": "Jordan Bardella en pleine « cure » : ce péché mignon qu’il a abandonné en vue de 2027",
+      "abstract": "Jordan Bardella se prépare pour une éventuelle candidature pour les élections présidentielles de 2027. Alors que le Rassemblement national n’a pas annoncé de candidat, l’homme politique a tout de même pris une décision radicale.",
+      "image_url": "https://th.bing.com/th?id=ORMS.19f5d722e6534003690701795c69cfe4&pid=Wdp",
+      "source": "Gala (French)",
+      "category": "divertissement",
+      "topics": [
+        "Divertissement",
+        "Célébrités"
+      ],
+      "published_at": "2026-05-28T21:28:00Z",
+      "upvotes": 33,
+      "downvotes": 21,
+      "comments": 23
+    },
+    {
+      "msn_id": "AA24kjTP",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/qui-est-andrey-kiyko-tueur-en-série-russe-envoyé-sur-le-front-en-ukraine-et-traqué-par-les-autorités-après-sa-désertion/ar-AA24kjTP?ocid=00000000",
+      "url_hash": "64296fae3543ebe587cca8a0efe8ce36cb2352df42bf4009c85db6ea54f7fb19",
+      "title": "Qui est Andrey Kiyko, tueur en série russe envoyé sur le front en Ukraine et traqué par les autorités après sa désertion ?",
+      "abstract": "Un tueur en série en cavale. Les autorités russes sont à la recherche d’Andrey Kiyko, un homme de 41 ans connu dans les médias russes sous le nom de « maniaque de Sosnovka » ou « étrangleur de Sosnovka ». Le criminel s’est évadé d’un hôpital militaire après avoir été libéré de prison en 2024 pour être envoyé sur le front, en Ukraine, dans le cadre ...",
+      "image_url": "https://th.bing.com/th?id=ORMS.a6d386491142eb9161a08db4c118adbc&pid=Wdp",
+      "source": "Le Parisien",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-29T10:24:42Z",
+      "upvotes": 90,
+      "downvotes": 23,
+      "comments": 15
+    },
+    {
+      "msn_id": "AA24k7Ne",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/depuis-les-tranchées-ukrainiennes-la-russie-envoie-son-yolka-contrer-les-drones-ennemis/ar-AA24k7Ne?ocid=00000000",
+      "url_hash": "eaf2033c22fa712bf164c37220b2d86ca24c7633d30f37a88b54fd447a2cdb74",
+      "title": "Depuis les tranchées ukrainiennes, la Russie envoie son Yolka contrer les drones ennemis",
+      "abstract": "Pensé comme une réponse aux drones FPV, le drone intercepteur Yolka, lancé à la main par les soldats russes, neutralise les appareils ennemis par collision. Bien que prometteur, son déploiement demeure pourtant timide.",
+      "image_url": "https://th.bing.com/th?id=ORMS.3468a831f4d4c346f1963de5d0256b68&pid=Wdp",
+      "source": "GEO France",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-29T04:13:00Z",
+      "upvotes": 29,
+      "downvotes": 13,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24izr9",
+      "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-l-improbable-appel-à-l-aide-de-tiafoe-après-le-vol-de-sa-raquette-par-un-spectateur/ar-AA24izr9?ocid=00000000",
+      "url_hash": "59dfb4b5d2701a0d78a7b64ff6c49faf06adbf1b5061dc8c3176c551b01a090c",
+      "title": "Roland-Garros : l'improbable appel à l'aide de Tiafoe après le vol de sa raquette par un spectateur",
+      "abstract": "Sur son compte Instagram, Frances Tiafoe a diffusé un appel à l'aide peu commun: retrouver sa raquette, volée par un spectateur jeudi après sa victoire contre Hubert Hurkacz. A la personne qui la lui rendra, l'Américian a promis deux places pour son prochain match à Roland. Une tactique qui pourrait avoir fonctionné.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24irNO.img",
+      "source": "RMC Sport",
+      "category": "sport",
+      "topics": [
+        "Sport"
+      ],
+      "published_at": "2026-05-28T19:31:20Z",
+      "upvotes": 26,
+      "downvotes": 15,
+      "comments": 1
     },
     {
       "msn_id": "AA24i8ne",
@@ -1079,26 +1046,9 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-28T17:50:43Z",
-      "upvotes": 165,
+      "upvotes": 168,
       "downvotes": 21,
       "comments": 4
-    },
-    {
-      "msn_id": "AA24hXGs",
-      "url": "https://www.msn.com/fr-fr/finance/autres/400-000-stations-météo-ont-cessé-de-fonctionner-en-france-du-jour-au-lendemain-la-colère-monte/ar-AA24hXGs?ocid=00000000",
-      "url_hash": "feb6c8dedb733ec0c58c07acc4dc953c7e8c10068bebbf6d106042fc2bff5424",
-      "title": "400 000 stations météo ont cessé de fonctionner en France du jour au lendemain, la colère monte",
-      "abstract": "Depuis début mai 2026, des centaines de milliers de stations météo de la gamme WD affichent des tirets à la place des prévisions. Changer les piles ne sert à rien : le réseau qui les alimentait depuis quinze ans vient de s'effondrer, victime d'une liquidation judiciaire passée sous les radars. La Crosse Technology confirme l'arrêt, sans avancer de date de rétablissement.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24hV3o.img",
-      "source": "Les Numériques",
-      "category": "finance",
-      "topics": [
-        "Finance"
-      ],
-      "published_at": "2026-05-28T17:10:00Z",
-      "upvotes": 65,
-      "downvotes": 17,
-      "comments": 5
     },
     {
       "msn_id": "AA24hPf9",
@@ -1119,74 +1069,147 @@
       "comments": 1
     },
     {
-      "msn_id": "AA24ktti",
-      "url": "https://www.msn.com/fr-fr/actualite/france/elle-se-jette-volontairement-d-une-voiture-lancée-à-100-km-h-sur-l-autoroute-une-femme-de-33-ans-s-en-sort-par-miracle/ar-AA24ktti?ocid=00000000",
-      "url_hash": "e62cc662c4460659cea7e4c77e09523d9267cd7efa27bad7032212c87f15d12c",
-      "title": "Elle se jette volontairement d’une voiture lancée à 100 km/h sur l’autoroute : une femme de 33 ans s’en sort par miracle",
-      "abstract": "Une femme de 33 ans a été secourue par les sapeurs-pompiers et le Samu sur l’autoroute A480 à Grenoble. Après s'être jetée d'une voiture en marche, elle a été transportée en urgence absolue au CHU Grenoble Alpes, elle s’en sort finalement avec des blessures légères. Comme le rapporte Le Dauphiné Libéré, la circulation sur l’autoroute A480 à Grenobl...",
-      "image_url": "https://th.bing.com/th?id=ORMS.73ee31b38e1d32d78f61c8c97afcbfeb&pid=Wdp",
-      "source": "Auto Moto",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-29T06:00:00Z",
-      "upvotes": 73,
-      "downvotes": 30,
-      "comments": 10
-    },
-    {
-      "msn_id": "AA24iSxf",
-      "url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-après-andréa-bescond-alexandra-lamy-sort-du-silence-et-prend-position/ar-AA24iSxf?ocid=00000000",
-      "url_hash": "19e73fa5aab821e3488a98ee52a1af1abffdb67bc641f594c71620dd4fac5765",
-      "title": "Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
-      "abstract": "Les accusations visant Patrick Bruel ont rapidement provoqué des réactions dans le monde artistique, notamment parmi des figures engagées sur les questions de violences faites aux femmes. Parmi elles, la réalisatrice et danseuse Andréa Bescond a été l’une des premières à s’exprimer publiquement, en relayant les témoignages et en affichant clairement son soutien aux femmes qui accusent le chanteur. Dans la foulée, Alexandra Lamy a elle aussi pris...",
-      "image_url": "https://th.bing.com/th?id=ORMS.d4e4a222e38e383f884f0dd9ff242a67&pid=Wdp",
-      "source": "So Busy Girls",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T19:14:00Z",
-      "upvotes": 72,
-      "downvotes": 57,
-      "comments": 3
-    },
-    {
-      "msn_id": "AA24fCA1",
-      "url": "https://www.msn.com/fr-fr/finance/autres/ce-hangar-portable-allemand-lance-un-drone-en-mer-déchaînée-en-quelques-minutes-une-première-mondiale/ar-AA24fCA1?ocid=00000000",
-      "url_hash": "add1eb81672b9dbf426cc3faa716eae6e560bbbce98c72ab52538439b61c9a82",
-      "title": "Ce « hangar portable » allemand lance un drone en mer déchaînée en quelques minutes : une première mondiale",
-      "abstract": "L’innovation avance à grands pas avec la présentation de l’ORKA Dock, un hangar portable autonome pour drones navals développé par la PME allemande CiS. Ce dispositif a été dévoilé au Combined Naval Event à Farnborough le 19 mai 2026. Le système permet un décollage et un atterrissage entièrement autonomes depuis un navire de surface non habité (USV...",
-      "image_url": "https://th.bing.com/th?id=ORMS.938fe8786c15d0e36749c9cd683cb086&pid=Wdp",
-      "source": "Armees.com",
+      "msn_id": "AA24hXGs",
+      "url": "https://www.msn.com/fr-fr/finance/autres/400-000-stations-météo-ont-cessé-de-fonctionner-en-france-du-jour-au-lendemain-la-colère-monte/ar-AA24hXGs?ocid=00000000",
+      "url_hash": "feb6c8dedb733ec0c58c07acc4dc953c7e8c10068bebbf6d106042fc2bff5424",
+      "title": "400 000 stations météo ont cessé de fonctionner en France du jour au lendemain, la colère monte",
+      "abstract": "Depuis début mai 2026, des centaines de milliers de stations météo de la gamme WD affichent des tirets à la place des prévisions. Changer les piles ne sert à rien : le réseau qui les alimentait depuis quinze ans vient de s'effondrer, victime d'une liquidation judiciaire passée sous les radars. La Crosse Technology confirme l'arrêt, sans avancer de date de rétablissement.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24hV3o.img",
+      "source": "Les Numériques",
       "category": "finance",
       "topics": [
         "Finance"
       ],
-      "published_at": "2026-05-28T06:05:00Z",
-      "upvotes": 39,
-      "downvotes": 15,
+      "published_at": "2026-05-28T17:10:00Z",
+      "upvotes": 64,
+      "downvotes": 16,
+      "comments": 5
+    },
+    {
+      "msn_id": "AA24lQaX",
+      "url": "https://www.msn.com/fr-fr/actualite/insolite/comme-si-on-jouait-dans-l-allemagne-nazie-le-coup-de-gueule-de-l-ukrainienne-oliynykova-contre-sa-future-adversaire-russe/ar-AA24lQaX?ocid=00000000",
+      "url_hash": "894254eb616faa8e2b07b6f3a63bed08bce1d07b9e9ce6f214594fb7ccf0d687",
+      "title": "« Comme si on jouait dans l’Allemagne nazie » : le coup de gueule de l’Ukrainienne Oliynykova contre sa future adversaire russe",
+      "abstract": "La poignée de main risque d’être froide, voire inexistante. Ce samedi, l’Ukrainienne Oleksandra Oliynykova affronte la Russe Diana Shnaider au 3e tour de Roland-Garros. Un match très important sportivement, mais hautement symbolique politiquement. D’autant que l’Ukrainienne prend régulièrement la parole sur le conflit dans son pays, critiquant les ...",
+      "image_url": "https://th.bing.com/th?id=ORMS.4724aed6e2d784a52923254aa897fce7&pid=Wdp",
+      "source": "Le Parisien",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-29T10:33:14Z",
+      "upvotes": 64,
+      "downvotes": 44,
+      "comments": 29
+    },
+    {
+      "msn_id": "AA24l37z",
+      "url": "https://www.msn.com/fr-fr/actualite/elections/drapeaux-européens-consignes-aux-maires-ce-virage-de-jordan-bardella-qui-crée-un-malaise-face-à-marine-le-pen/ar-AA24l37z?ocid=00000000",
+      "url_hash": "7cd20af83e6df15f010384b24e4e1b6b61541e101de84813d979025aad82dbf3",
+      "title": "Drapeaux européens, consignes aux maires : ce virage de Jordan Bardella qui crée un malaise face à Marine Le Pen",
+      "abstract": "Dans les coulisses du Rassemblement national, un changement de cap stratégique suscite de nombreuses réactions. Jordan Bardella, à la tête du parti, semble vouloir infléchir la ligne sur la question européenne, un sujet pourtant central dans l’ADN politique du mouvement. Cette évolution, perçue comme une tentative de normalisation, ne fait pas l’unanimité auprès des proches de Marine Le Pen. L’un des épisodes les plus révélateurs concerne la...",
+      "image_url": "https://th.bing.com/th?id=ORMS.8eef500a676956c6cb80bb131454f79b&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "actualite",
+      "topics": [
+        "Politique",
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-29T08:58:00Z",
+      "upvotes": 8,
+      "downvotes": 3,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA1ZHubj",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/selon-un-cardiologue-voici-l-erreur-à-ne-pas-faire-au-réveil-quand-on-souffre-d-hypertension-artérielle/ar-AA1ZHubj?ocid=00000000",
+      "url_hash": "14a922de82b099d817da999f2b5b6011057cf072783536216f82266587e655db",
+      "title": "Selon un cardiologue, voici l'erreur à ne pas faire au réveil, quand on souffre d'hypertension artérielle",
+      "abstract": "Considérées comme hypertendues, toutes les personnes présentant une tension artérielle supérieure à 140/90mmHg doivent adopter des habitudes de vie saines. Un cardiologue recommande un réflexe à prendre au réveil.",
+      "image_url": "https://th.bing.com/th?id=ORMS.193de71e477831316e219b0c12f27115&pid=Wdp",
+      "source": "Cosmopolitan France",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-03-30T06:00:00Z",
+      "upvotes": 7,
+      "downvotes": 3,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24iQrd",
+      "url": "https://www.msn.com/fr-fr/actualite/france/2004-une-suite-d-hôtel-une-porte-bloquée-ce-témoignage-glaçant-sur-patrick-bruel-qui-refait-surface/ar-AA24iQrd?ocid=00000000",
+      "url_hash": "69019aecab267f3a0364191aa8f4867d18ac8768f0f1619e5737190b9629409e",
+      "title": "2004, une suite d’hôtel, une porte bloquée : ce témoignage glaçant sur Patrick Bruel qui refait surface",
+      "abstract": "Le témoignage d’une attachée de presse concernant Patrick Bruel remet en lumière un épisode remontant à plus de vingt ans. Selon son récit, les faits se seraient déroulés en 2004, lors d’une journée presse organisée dans un hôtel, dans un contexte professionnel où plusieurs médias étaient présents. Elle explique s’être retrouvée seule avec l’artiste dans une suite, avant que la situation ne devienne inconfortable. Elle décrit un moment où...",
+      "image_url": "https://th.bing.com/th?id=ORMS.72731da7f5c356e4654b9d2b6867a929&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T19:45:00Z",
+      "upvotes": 7,
+      "downvotes": 5,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24ldqy",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/guerre-en-ukraine-kiev-établit-un-nouveau-record-de-portée-avec-une-frappe-de-drone-fpv-à-102-km-derrière-la-ligne-de-front/ar-AA24ldqy?ocid=00000000",
+      "url_hash": "0bcb1e62aa7331bf0887db3430948157e4e0db62f9c7b3f4743d345a927eef4a",
+      "title": "Guerre en Ukraine : Kiev établit un nouveau record de portée avec une frappe de drone FPV à 102 km derrière la ligne de front",
+      "abstract": "Une frappe historique pour l’Ukraine. Les opérateurs de drones ukrainiens ont établi, mardi 26 mai, un nouveau record de portée. Ils ont atteint une cible située à 102 km avec un drone FPV (« First Person View ») de type quadricoptère, sans utiliser de drone porteur ni de système « vaisseau-mère », a révélé sur Telegram Serhii Sternenko, conseiller...",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24llkj.img",
+      "source": "Le Parisien",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une",
+        "Monde"
+      ],
+      "published_at": "2026-05-29T08:26:06Z",
+      "upvotes": 52,
+      "downvotes": 7,
+      "comments": 5
+    },
+    {
+      "msn_id": "AA24mAk5",
+      "url": "https://www.msn.com/fr-fr/actualite/monde/cargo-turc-attaqué-près-d-odessa-l-autre-incident-qui-ajoute-de-la-tension-en-mer-noire/ar-AA24mAk5?ocid=00000000",
+      "url_hash": "70b3b6f0444f55e6b7490ce1273237b88c521ed274b3371b5e7328de9efeff76",
+      "title": "Cargo turc attaqué près d’Odessa : l’autre incident qui ajoute de la tension en mer Noire",
+      "abstract": "Alors que la chute d’un drone russe sur un immeuble à Galati, en Roumanie, suscite une vive inquiétude en Europe, un autre incident vient rappeler la tension persistante autour de l’Ukraine et de la mer Noire. La marine ukrainienne affirme qu’un cargo turc parti d’Odessa a été attaqué par un drone. Selon les informations communiquées par les forces ukrainiennes, deux membres d’équipage ont été blessés. Ils auraient été rapidement évacués par des...",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24mfVv.img",
+      "source": "So Busy Girls",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-29T13:38:00Z",
+      "upvotes": 8,
+      "downvotes": 0,
       "comments": 1
     },
     {
-      "msn_id": "AA24hUaO",
-      "url": "https://www.msn.com/fr-fr/divertissement/tv/france-2-présente-ses-excuses-après-le-20h-de-léa-salamé-pourquoi-cette-séquence-a-créé-un-malaise/ar-AA24hUaO?ocid=00000000",
-      "url_hash": "390e6207ed621686042a0bd15e3f557c16b183b82a17d2cd36d48732d8667d13",
-      "title": "France 2 présente ses excuses après le 20h de Léa Salamé : pourquoi cette séquence a créé un malaise",
-      "abstract": "La réaction de France 2 était attendue après la diffusion d’une séquence qui a surpris de nombreux téléspectateurs. Lire aussi : Voici le salaire astronomique que Léa Salamé a refusé chez BFMTV pour présenter le JT de France 2 Dans le 20h présenté par Léa Salamé, une statue floutée en arrière-plan a provoqué des interrogations, au point que la chaîne a fini par reconnaître une initiative qui n’avait pas lieu d’être. Ce n’est p...",
-      "image_url": "https://th.bing.com/th?id=ORMS.d9d036c01f10c373e65f42bb36bd680d&pid=Wdp",
-      "source": "So Busy Girls",
-      "category": "divertissement",
+      "msn_id": "AA24hvhT",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/vous-prenez-un-traitement-pour-la-tension-attention-à-ce-danger-méconnu-pendant-la-canicule/ar-AA24hvhT?ocid=00000000",
+      "url_hash": "aa45bb32b4f70ebd4424d0259e357687f63b7507108cf00208c72c2b92085383",
+      "title": "Vous prenez un traitement pour la tension ? Attention à ce danger méconnu pendant la canicule",
+      "abstract": "Alors que la canicule s’installe, des millions de Français sous traitement voient leur risque de coup de chaleur grimper. Quels médicaments transforment un geste banal en danger silencieux ?",
+      "image_url": "https://th.bing.com/th?id=ORMS.412da8e7cfbea662eeb795b67ca288b3&pid=Wdp",
+      "source": "Modes&Travaux",
+      "category": "lifestyle",
       "topics": [
-        "Divertissement"
+        "Lifestyle"
       ],
-      "published_at": "2026-05-28T19:28:00Z",
-      "upvotes": 24,
-      "downvotes": 29,
-      "comments": 7
+      "published_at": "2026-05-28T13:30:23Z",
+      "upvotes": 42,
+      "downvotes": 31,
+      "comments": 2
     },
     {
       "msn_id": "AA24l0oK",
@@ -1202,8 +1225,148 @@
         "Actualité à la Une"
       ],
       "published_at": "2026-05-29T08:08:16Z",
-      "upvotes": 11,
+      "upvotes": 14,
       "downvotes": 2,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24hUaO",
+      "url": "https://www.msn.com/fr-fr/divertissement/tv/france-2-présente-ses-excuses-après-le-20h-de-léa-salamé-pourquoi-cette-séquence-a-créé-un-malaise/ar-AA24hUaO?ocid=00000000",
+      "url_hash": "390e6207ed621686042a0bd15e3f557c16b183b82a17d2cd36d48732d8667d13",
+      "title": "France 2 présente ses excuses après le 20h de Léa Salamé : pourquoi cette séquence a créé un malaise",
+      "abstract": "La réaction de France 2 était attendue après la diffusion d’une séquence qui a surpris de nombreux téléspectateurs. Lire aussi : Voici le salaire astronomique que Léa Salamé a refusé chez BFMTV pour présenter le JT de France 2 Dans le 20h présenté par Léa Salamé, une statue floutée en arrière-plan a provoqué des interrogations, au point que la chaîne a fini par reconnaître une initiative qui n’avait pas lieu d’être. Ce n’est p...",
+      "image_url": "https://th.bing.com/th?id=ORMS.d9d036c01f10c373e65f42bb36bd680d&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "divertissement",
+      "topics": [
+        "Divertissement"
+      ],
+      "published_at": "2026-05-28T19:28:00Z",
+      "upvotes": 25,
+      "downvotes": 30,
+      "comments": 7
+    },
+    {
+      "msn_id": "AA24irOV",
+      "url": "https://www.msn.com/fr-fr/actualite/france/non-catégorique-aurore-bergé-refuse-de-lâcher-patrick-bruel-et-surprend-tout-le-monde/ar-AA24irOV?ocid=00000000",
+      "url_hash": "b0d49657beda9355639a8e5c5991208aab9d31e8cc7e40c7c13094489df9f155",
+      "title": "« Non catégorique » : Aurore Bergé refuse de lâcher Patrick Bruel et surprend tout le monde",
+      "abstract": "La prise de parole d’Aurore Bergé n’est pas passée inaperçue. Invitée face à Thomas Sotto, la ministre chargée de l’Égalité entre les femmes et les hommes a été interrogée sur un sujet explosif : les accusations de violences sexuelles visant Patrick Bruel, qui font l’objet de plusieurs enquêtes en France et en Belgique. Dans un contexte déjà très tendu, sa réponse a immédiatement marqué les esprits, notamment lorsqu’elle a été...",
+      "image_url": "https://th.bing.com/th?id=ORMS.9f92b0234bbd992098796e35a50f8625&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T19:34:00Z",
+      "upvotes": 21,
+      "downvotes": 16,
+      "comments": 6
+    },
+    {
+      "msn_id": "AA24i3UA",
+      "url": "https://www.msn.com/fr-fr/actualite/france/ni-mariage-ni-pacs-ni-concubinage-à-l-assemblée-le-député-alloncle-mis-hors-de-cause/ar-AA24i3UA?ocid=00000000",
+      "url_hash": "224ebafacc07e7359ea72eef93ae6b9e1fa61e7106b601d634d651fe01482cd2",
+      "title": "« Ni mariage, ni Pacs, ni concubinage » : à l’Assemblée, le député Alloncle mis hors de cause",
+      "abstract": "La petite bombe, lâchée par Paris Match le jeudi 21 mai, avait fait grand bruit à l’Assemblée nationale. Le député Charles Alloncle (UDR) aurait-il enfreint la loi en employant sa « compagne » en tant que collaboratrice parlementaire ? C’est en tout cas ce que laissait sous-entendre l’hebdomadaire dans un article accompagné de deux photos des conce...",
+      "image_url": "https://th.bing.com/th?id=ORMS.edd7dd2ed588eecbef58b5cfe27f6110&pid=Wdp",
+      "source": "Le Parisien",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T17:27:24Z",
+      "upvotes": 161,
+      "downvotes": 27,
+      "comments": 52
+    },
+    {
+      "msn_id": "AA24iLgM",
+      "url": "https://www.msn.com/fr-fr/divertissement/tv/flavie-flament-frappée-par-une-autre-annonce-au-moment-où-son-nom-revient-au-premier-plan-avec-la-polémique-bruel/ar-AA24iLgM?ocid=00000000",
+      "url_hash": "f18a4f740b0e2aa9d43088b83cabcdf99208af2e053b229ceca5429fb27db1f9",
+      "title": "Flavie Flament frappée par une autre annonce au moment où son nom revient au premier plan avec la polémique Bruel",
+      "abstract": "Flavie Flament se retrouve au cœur d’une période particulièrement exposée. Alors qu’elle vient de reprendre la parole après ses accusations visant Patrick Bruel, l’animatrice apprend aussi que son émission quotidienne Flavie en France doit s’arrêter sur France 3. Une décision qui serait liée aux audiences du programme, après une seule saison à l’antenne. Cette annonce télévisuelle ne doit pas être confondue avec l’affaire visant Patrick Bruel....",
+      "image_url": "https://th.bing.com/th?id=ORMS.21a451391afd023e44ea45a9316b476e&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "divertissement",
+      "topics": [
+        "Divertissement"
+      ],
+      "published_at": "2026-05-28T19:22:00Z",
+      "upvotes": 19,
+      "downvotes": 19,
+      "comments": 3
+    },
+    {
+      "msn_id": "AA24i1p6",
+      "url": "https://www.msn.com/fr-fr/actualite/france/drôme-un-lycéen-trouve-la-mort-dans-un-terrible-accident-de-tronçonneuse/ar-AA24i1p6?ocid=00000000",
+      "url_hash": "455d45a037e55df4e51b874dca43ac364a0969b33fd96d78b929817888482133",
+      "title": "Drôme : Un lycéen trouve la mort dans un terrible accident de tronçonneuse",
+      "abstract": "Un élève de 15 ans est mort, ce jeudi, après un accident de tronçonneuse survenu lors d’un exercice de formation agricole dans la Drôme. Une cellule psychologique a été mise en place",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24inPF.img",
+      "source": "20 Minutes",
+      "category": "actualite",
+      "topics": [
+        "ACTUALITÉ",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-28T17:15:20Z",
+      "upvotes": 55,
+      "downvotes": 20,
+      "comments": 3
+    },
+    {
+      "msn_id": "AA24mEMx",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/ni-19h50-ni-même-20h-voici-l-heure-à-laquelle-il-faut-vraiment-arriver-si-vous-êtes-invités-à-dîner-à-20h/ar-AA24mEMx?ocid=00000000",
+      "url_hash": "d7e5cceaf32a4705be6e47960adc00e8b1c51c64efdb85ae6e2d23e7ab8531ec",
+      "title": "Ni 19h50, ni même 20h : voici l'heure à laquelle il faut vraiment arriver si vous êtes invités à dîner à 20h",
+      "abstract": "Être ponctuel ne signifie pas toujours arriver à l'heure exacte. Lorsqu'on est invité à dîner, les règles du savoir-vivre réservent une surprise à de nombreux Français. Une erreur très fréquente peut même mettre vos hôtes dans l'embarras sans que vous vous en rendiez compte.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24m5Yx.img",
+      "source": "Marmiton",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-29T13:00:00Z",
+      "upvotes": 3,
+      "downvotes": 3,
+      "comments": 2
+    },
+    {
+      "msn_id": "AA24hdBp",
+      "url": "https://www.msn.com/fr-fr/finance/autres/je-donne-500-euros-tous-les-mois-à-ma-fille-dois-je-le-déclarer-aux-impôts/ar-AA24hdBp?ocid=00000000",
+      "url_hash": "25f0dc2be3313c7fe491bc375bdf41daeb4a07cc3dc9324d7bea714c4ea8d639",
+      "title": "« Je donne 500 euros tous les mois à ma fille. Dois-je le déclarer aux impôts ?»",
+      "abstract": "Faut-il déclarer aux impôts ce que vous donnez chaque mois à vos enfants majeurs ? La rédaction de MoneyVox reçoit une multitude de questions sur ce thème, lors de la campagne de l'impôt sur le revenu mais aussi tout au long de l'année. Car ces dons mensuels peuvent aussi bien correspondre à une pension alimentaire qu'à une donation. Or, selon votr...",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24gWFv.img",
+      "source": "Moneyvox",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-27T12:55:42Z",
+      "upvotes": 35,
+      "downvotes": 41,
+      "comments": 16
+    },
+    {
+      "msn_id": "AA24ggi5",
+      "url": "https://www.msn.com/fr-fr/lifestyle/cuisine/trop-de-cadmium-voici-les-pires-pâtes-de-supermarché-selon-l-ufc-que-choisir/ar-AA24ggi5?ocid=00000000",
+      "url_hash": "41b883f84708e6acc472fcc4f9a4eca53c0c1f982d8c0f8bfb5cc893f296d25d",
+      "title": "« Trop de cadmium » : voici les pires pâtes de supermarché selon l’UFC-Que Choisir",
+      "abstract": "Barilla, Rummo, De Cecco, Panzani, Lustucru… L’UFC-Que Choisir a comparé les pâtes industrielles de 25 grandes marques et marques de distributeurs. Résultat : le paquet de pâtes torsades le moins bien noté n’est pas forcément celui auquel vous vous attendiez ! Il a une teneur en cadmium problématique.",
+      "image_url": "https://th.bing.com/th?id=ORMS.9cb7dd870ade601a9036de431a637e94&pid=Wdp",
+      "source": "Aufeminin",
+      "category": "lifestyle",
+      "topics": [
+        "Cuisine",
+        "Lifestyle"
+      ],
+      "published_at": "2026-05-28T10:59:46Z",
+      "upvotes": 20,
+      "downvotes": 20,
       "comments": 0
     },
     {
@@ -1225,19 +1388,36 @@
       "comments": 3
     },
     {
-      "msn_id": "AA24gd0V",
-      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/citroën-ressort-la-2cv-le-vrai-retour-d-une-icône-automobile/ar-AA24gd0V?ocid=00000000",
-      "url_hash": "4d76d05a937a26de517493550dba368ae3019eeb96ee8f564ed1633b0e26fa72",
-      "title": "Citroën ressort la 2CV : le vrai retour d’une icône automobile ?",
-      "abstract": "Citroën promet le retour de la 2CV. Pas une copie conforme, mais un modèle électrique inspiré d’une voiture qui a marqué plusieurs générations.",
-      "image_url": "https://th.bing.com/th?id=ORMS.2173f44b62d690aa22d5165bae2ee44e&pid=Wdp",
-      "source": "Futura-sciences",
-      "category": "lifestyle",
+      "msn_id": "AA24fEAL",
+      "url": "https://www.msn.com/fr-fr/auto/actualite/toutes-les-voitures-devront-en-disposer-les-automobilistes-devront-bientôt-s-acquitter-de-ce-nouveau-dispositif-voici-la-date-d-entrée-en-vigueur/ar-AA24fEAL?ocid=00000000",
+      "url_hash": "ea49b5adaa9da5d48f06fe3fe1da8ebe6c6cd73ae56a6d10bf03298afa26a634",
+      "title": "« Toutes les voitures devront en disposer » : les automobilistes devront bientôt s'acquitter de ce nouveau dispositif, voici la date d'entrée en vigueur",
+      "abstract": "Un nouveau dispositif de sécurité va bientôt faire son apparition sur les voitures neuves. Dès le 7 juillet 2026, les feux stop clignotants lors des freinages brusques deviendront obligatoires dans toute l’Union européenne afin de mieux alerter les conducteurs.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24fU2Y.img",
+      "source": "Pleine Vie",
+      "category": "auto",
       "topics": [],
-      "published_at": "2026-05-28T09:31:43Z",
-      "upvotes": 52,
-      "downvotes": 26,
-      "comments": 15
+      "published_at": "2026-05-28T06:38:18Z",
+      "upvotes": 82,
+      "downvotes": 61,
+      "comments": 34
+    },
+    {
+      "msn_id": "AA21STyH",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/vous-vous-réveillez-souvent-avec-la-bouche-sèche-c-est-peut-être-le-symptôme-de-cette-maladie-de-plus-en-plus-diagnostiquée/ar-AA21STyH?ocid=00000000",
+      "url_hash": "976005b5be5f2a440c19f51b95c67b31246591c883616952080f28d535ae3ccb",
+      "title": "Vous vous réveillez souvent avec la bouche sèche ? C’est peut-être le symptôme de cette maladie de plus en plus diagnostiquée",
+      "abstract": "L’apnée du sommeil est une maladie qui est de plus en plus reconnue mais encore trop rarement diagnostiquée, aussi parce qu’elle a des conséquences pour la santé qu’on ne rapproche pas toujours de cette affection.",
+      "image_url": "https://th.bing.com/th?id=ORMS.d1b06856cfd44207e44717091047bf3f&pid=Wdp",
+      "source": "Cosmopolitan France",
+      "category": "lifestyle",
+      "topics": [
+        "Lifestyle"
+      ],
+      "published_at": "2026-04-28T05:00:00Z",
+      "upvotes": 89,
+      "downvotes": 68,
+      "comments": 0
     },
     {
       "msn_id": "AA24g8Is",
@@ -1252,289 +1432,9 @@
         "Lifestyle"
       ],
       "published_at": "2026-05-28T09:52:57Z",
-      "upvotes": 83,
-      "downvotes": 93,
+      "upvotes": 85,
+      "downvotes": 95,
       "comments": 17
-    },
-    {
-      "msn_id": "AA1PuinD",
-      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/voici-le-salaire-qu-il-faut-toucher-tous-les-mois-pour-faire-partie-de-la-classe-moyenne-en-2026-en-france/ar-AA1PuinD?ocid=00000000",
-      "url_hash": "f3243894f8a381cf36ceb772be28acab3fd13e8eb4420486ce9713a3a5b8c2eb",
-      "title": "Voici le salaire qu'il faut toucher tous les mois pour faire partie de la classe moyenne en 2026 en France",
-      "abstract": "Faites-vous partie de la classe moyenne, ou vos revenus vous empêchent-ils d’y accéder de peu ? Voici, selon votre salaire, comment savoir si vous vous en sortez bien au quotidien.",
-      "image_url": "https://th.bing.com/th?id=ORMS.3b678557c2fff4952dbada0b35ba30de&pid=Wdp",
-      "source": "Marie France",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-26T13:15:41Z",
-      "upvotes": 1415,
-      "downvotes": 746,
-      "comments": 218
-    },
-    {
-      "msn_id": "AA24izr9",
-      "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-l-improbable-appel-à-l-aide-de-tiafoe-après-le-vol-de-sa-raquette-par-un-spectateur/ar-AA24izr9?ocid=00000000",
-      "url_hash": "59dfb4b5d2701a0d78a7b64ff6c49faf06adbf1b5061dc8c3176c551b01a090c",
-      "title": "Roland-Garros : l'improbable appel à l'aide de Tiafoe après le vol de sa raquette par un spectateur",
-      "abstract": "Sur son compte Instagram, Frances Tiafoe a diffusé un appel à l'aide peu commun: retrouver sa raquette, volée par un spectateur jeudi après sa victoire contre Hubert Hurkacz. A la personne qui la lui rendra, l'Américian a promis deux places pour son prochain match à Roland. Une tactique qui pourrait avoir fonctionné.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24irNO.img",
-      "source": "RMC Sport",
-      "category": "sport",
-      "topics": [
-        "Sport"
-      ],
-      "published_at": "2026-05-28T19:31:20Z",
-      "upvotes": 26,
-      "downvotes": 15,
-      "comments": 1
-    },
-    {
-      "msn_id": "AA24jy7P",
-      "url": "https://www.msn.com/fr-fr/finance/actualite/beretta-révèle-un-système-équipé-de-8-fusils-automatiques-pour-abattre-des-drones/ar-AA24jy7P?ocid=00000000",
-      "url_hash": "3f1928f63da4a463570cb38eafccd53f86c5b4ae6936bf13ca9f427b3f8c9d2e",
-      "title": "Beretta révèle un système équipé de 8 fusils automatiques pour abattre des drones",
-      "abstract": "Beretta Defense Technologies a dévoilé une nouvelle tourelle automatisée équipée de huit fusils antidrones afin de renforcer la protection des infrastructures critiques et des installations militaires.",
-      "image_url": "https://th.bing.com/th?id=ORMS.a2ec5dae307e37576f227c7eae633c3f&pid=Wdp",
-      "source": "Carro e Motos",
-      "category": "finance",
-      "topics": [
-        "Finance"
-      ],
-      "published_at": "2026-05-28T17:01:06Z",
-      "upvotes": 62,
-      "downvotes": 11,
-      "comments": 8
-    },
-    {
-      "msn_id": "AA24kqWH",
-      "url": "https://www.msn.com/fr-fr/finance/economie/l-amf-révèle-un-email-qui-accable-le-groupe-bolloré-dans-son-procès-autour-de-vivendi/ar-AA24kqWH?ocid=00000000",
-      "url_hash": "757f39597aa62ccbb7367f02ad05c3b8250bc0d4eaa0a7c30a73231678619049",
-      "title": "L’AMF révèle un email qui accable le groupe Bolloré dans son procès autour de Vivendi",
-      "abstract": "La semaine dernière, l’Autorité des Marchés Financiers a révélé devant la Cour d’appel un courrier du groupe Bolloré datant de 2017 qui revendique son contrôle de fait de Vivendi. Le fonds CIAM réclame une OPA du groupe de Vincent Bolloré.",
-      "image_url": "https://th.bing.com/th?id=ORMS.af326758b480c6968cea1f048082413b&pid=Wdp",
-      "source": "BFM Business",
-      "category": "finance",
-      "topics": [
-        "Économie",
-        "Actu éco",
-        "Finance"
-      ],
-      "published_at": "2026-05-29T04:03:56Z",
-      "upvotes": 57,
-      "downvotes": 38,
-      "comments": 44
-    },
-    {
-      "msn_id": "AA24hvhT",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/vous-prenez-un-traitement-pour-la-tension-attention-à-ce-danger-méconnu-pendant-la-canicule/ar-AA24hvhT?ocid=00000000",
-      "url_hash": "aa45bb32b4f70ebd4424d0259e357687f63b7507108cf00208c72c2b92085383",
-      "title": "Vous prenez un traitement pour la tension ? Attention à ce danger méconnu pendant la canicule",
-      "abstract": "Alors que la canicule s’installe, des millions de Français sous traitement voient leur risque de coup de chaleur grimper. Quels médicaments transforment un geste banal en danger silencieux ?",
-      "image_url": "https://th.bing.com/th?id=ORMS.412da8e7cfbea662eeb795b67ca288b3&pid=Wdp",
-      "source": "Modes&Travaux",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-28T13:30:23Z",
-      "upvotes": 44,
-      "downvotes": 30,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA24hQU7",
-      "url": "https://www.msn.com/fr-fr/actualite/france/un-grave-danger-pour-les-consommateurs-le-master-poulet-de-clichy-fermé-après-un-contrôle-sanitaire/ar-AA24hQU7?ocid=00000000",
-      "url_hash": "63d5fdde6225ab7551f6000da1e4f81e060c9105aeec2b981d2b34e51beaf4ba",
-      "title": "« Un grave danger pour les consommateurs » : le Master Poulet de Clichy fermé après un contrôle sanitaire",
-      "abstract": "Le service communal d’hygiène de la commune a notamment relevé une « absence de maîtrise de la chaîne du froid », des aliments congelés ayant par exemple été retrouvés dans un frigo.",
-      "image_url": "https://th.bing.com/th?id=ORMS.8d784157f8ebb9df57c0de4c9edd4b37&pid=Wdp",
-      "source": "Liberation",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T16:48:52Z",
-      "upvotes": 103,
-      "downvotes": 20,
-      "comments": 7
-    },
-    {
-      "msn_id": "AA24irOV",
-      "url": "https://www.msn.com/fr-fr/actualite/france/non-catégorique-aurore-bergé-refuse-de-lâcher-patrick-bruel-et-surprend-tout-le-monde/ar-AA24irOV?ocid=00000000",
-      "url_hash": "b0d49657beda9355639a8e5c5991208aab9d31e8cc7e40c7c13094489df9f155",
-      "title": "« Non catégorique » : Aurore Bergé refuse de lâcher Patrick Bruel et surprend tout le monde",
-      "abstract": "La prise de parole d’Aurore Bergé n’est pas passée inaperçue. Invitée face à Thomas Sotto, la ministre chargée de l’Égalité entre les femmes et les hommes a été interrogée sur un sujet explosif : les accusations de violences sexuelles visant Patrick Bruel, qui font l’objet de plusieurs enquêtes en France et en Belgique. Dans un contexte déjà très tendu, sa réponse a immédiatement marqué les esprits, notamment lorsqu’elle a été...",
-      "image_url": "https://th.bing.com/th?id=ORMS.9f92b0234bbd992098796e35a50f8625&pid=Wdp",
-      "source": "So Busy Girls",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T19:34:00Z",
-      "upvotes": 19,
-      "downvotes": 16,
-      "comments": 7
-    },
-    {
-      "msn_id": "AA24mEMx",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/ni-19h50-ni-même-20h-voici-l-heure-à-laquelle-il-faut-vraiment-arriver-si-vous-êtes-invités-à-dîner-à-20h/ar-AA24mEMx?ocid=00000000",
-      "url_hash": "d7e5cceaf32a4705be6e47960adc00e8b1c51c64efdb85ae6e2d23e7ab8531ec",
-      "title": "Ni 19h50, ni même 20h : voici l'heure à laquelle il faut vraiment arriver si vous êtes invités à dîner à 20h",
-      "abstract": "Être ponctuel ne signifie pas toujours arriver à l'heure exacte. Lorsqu'on est invité à dîner, les règles du savoir-vivre réservent une surprise à de nombreux Français. Une erreur très fréquente peut même mettre vos hôtes dans l'embarras sans que vous vous en rendiez compte.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24m5Yx.img",
-      "source": "Marmiton",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-29T13:00:00Z",
-      "upvotes": 3,
-      "downvotes": 2,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA24i1p6",
-      "url": "https://www.msn.com/fr-fr/actualite/france/drôme-un-lycéen-trouve-la-mort-dans-un-terrible-accident-de-tronçonneuse/ar-AA24i1p6?ocid=00000000",
-      "url_hash": "455d45a037e55df4e51b874dca43ac364a0969b33fd96d78b929817888482133",
-      "title": "Drôme : Un lycéen trouve la mort dans un terrible accident de tronçonneuse",
-      "abstract": "Un élève de 15 ans est mort, ce jeudi, après un accident de tronçonneuse survenu lors d’un exercice de formation agricole dans la Drôme. Une cellule psychologique a été mise en place",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24inPF.img",
-      "source": "20 Minutes",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T17:15:20Z",
-      "upvotes": 54,
-      "downvotes": 20,
-      "comments": 3
-    },
-    {
-      "msn_id": "AA1ZHubj",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/selon-un-cardiologue-voici-l-erreur-à-ne-pas-faire-au-réveil-quand-on-souffre-d-hypertension-artérielle/ar-AA1ZHubj?ocid=00000000",
-      "url_hash": "14a922de82b099d817da999f2b5b6011057cf072783536216f82266587e655db",
-      "title": "Selon un cardiologue, voici l'erreur à ne pas faire au réveil, quand on souffre d'hypertension artérielle",
-      "abstract": "Considérées comme hypertendues, toutes les personnes présentant une tension artérielle supérieure à 140/90mmHg doivent adopter des habitudes de vie saines. Un cardiologue recommande un réflexe à prendre au réveil.",
-      "image_url": "https://th.bing.com/th?id=ORMS.193de71e477831316e219b0c12f27115&pid=Wdp",
-      "source": "Cosmopolitan France",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-03-30T06:00:00Z",
-      "upvotes": 7,
-      "downvotes": 3,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24iAdg",
-      "url": "https://www.msn.com/fr-fr/actualite/france/canicule-peut-on-casser-la-vitre-d-une-voiture-si-un-chien-est-enfermé-à-l-intérieur-la-loi-française-est-formelle/ar-AA24iAdg?ocid=00000000",
-      "url_hash": "1e83491d3b8d05ab6d8a2b707e132aff2e28757884e64d09de378e26ef220a8e",
-      "title": "Canicule : peut-on casser la vitre d'une voiture si un chien est enfermé à l'intérieur ? La loi française est formelle",
-      "abstract": "Un chien suffoque dans une voiture en plein soleil, les minutes s’égrènent et vous hésitez à casser la vitre. Entre urgence vitale et risque de poursuites, voici quand l’état de nécessité peut vraiment jouer en votre faveur.",
-      "image_url": "https://th.bing.com/th?id=ORMS.676ac37c3c54d54ff5661b7672bf4bdd&pid=Wdp",
-      "source": "Aufeminin",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T16:33:38Z",
-      "upvotes": 75,
-      "downvotes": 10,
-      "comments": 5
-    },
-    {
-      "msn_id": "AA24hdBp",
-      "url": "https://www.msn.com/fr-fr/finance/autres/je-donne-500-euros-tous-les-mois-à-ma-fille-dois-je-le-déclarer-aux-impôts/ar-AA24hdBp?ocid=00000000",
-      "url_hash": "25f0dc2be3313c7fe491bc375bdf41daeb4a07cc3dc9324d7bea714c4ea8d639",
-      "title": "« Je donne 500 euros tous les mois à ma fille. Dois-je le déclarer aux impôts ?»",
-      "abstract": "Faut-il déclarer aux impôts ce que vous donnez chaque mois à vos enfants majeurs ? La rédaction de MoneyVox reçoit une multitude de questions sur ce thème, lors de la campagne de l'impôt sur le revenu mais aussi tout au long de l'année. Car ces dons mensuels peuvent aussi bien correspondre à une pension alimentaire qu'à une donation. Or, selon votr...",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24gWFv.img",
-      "source": "Moneyvox",
-      "category": "finance",
-      "topics": [
-        "Finance"
-      ],
-      "published_at": "2026-05-27T12:55:42Z",
-      "upvotes": 36,
-      "downvotes": 39,
-      "comments": 15
-    },
-    {
-      "msn_id": "AA24ggi5",
-      "url": "https://www.msn.com/fr-fr/lifestyle/cuisine/trop-de-cadmium-voici-les-pires-pâtes-de-supermarché-selon-l-ufc-que-choisir/ar-AA24ggi5?ocid=00000000",
-      "url_hash": "41b883f84708e6acc472fcc4f9a4eca53c0c1f982d8c0f8bfb5cc893f296d25d",
-      "title": "« Trop de cadmium » : voici les pires pâtes de supermarché selon l’UFC-Que Choisir",
-      "abstract": "Barilla, Rummo, De Cecco, Panzani, Lustucru… L’UFC-Que Choisir a comparé les pâtes industrielles de 25 grandes marques et marques de distributeurs. Résultat : le paquet de pâtes torsades le moins bien noté n’est pas forcément celui auquel vous vous attendiez ! Il a une teneur en cadmium problématique.",
-      "image_url": "https://th.bing.com/th?id=ORMS.9cb7dd870ade601a9036de431a637e94&pid=Wdp",
-      "source": "Aufeminin",
-      "category": "lifestyle",
-      "topics": [
-        "Cuisine",
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-28T10:59:46Z",
-      "upvotes": 20,
-      "downvotes": 19,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24mIGn",
-      "url": "https://www.msn.com/fr-fr/sport/other/psg-arsenal-luis-enrique-ne-mâche-pas-ses-mots-sur-la-finale/ar-AA24mIGn?ocid=00000000",
-      "url_hash": "507189291383899b5fe5c248abf1a24f24baeb28f99c41a58abbabf1d0d7439f",
-      "title": "PSG/Arsenal – Luis Enrique ne mâche pas ses mots sur la finale",
-      "abstract": "Samedi, en finale de la Ligue des Champions 2025-2026, le Paris Saint-Germain affrontera Arsenal à la Puskas Arena de Budapest (coup d’envoi à 18h, diffusion sur Canal+ et M6). A la veille de cette rencontre, le coach parisien Luis Enrique a répondu à plusieurs questions en conférence de presse. Luis Enrique « deux idées qui se ressemblent mais avec des chemins différents. » Deux visions du football qui s’affrontent ? Plus que deux idées...",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24mKXR.img",
-      "source": "Paris Fans",
-      "category": "sport",
-      "topics": [
-        "Sport"
-      ],
-      "published_at": "2026-05-29T14:47:16Z",
-      "upvotes": 0,
-      "downvotes": 0,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24gMgj",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/canicule-cette-erreur-que-l-on-fait-tous-en-donnant-à-boire-à-son-chien-quand-il-fait-très-chaud/ar-AA24gMgj?ocid=00000000",
-      "url_hash": "90df190827a98ebc9d5b4801224b6ed110622eb695ae015e975b36f7138326e1",
-      "title": "Canicule : cette erreur que l'on fait tous en donnant à boire à son chien quand il fait très chaud",
-      "abstract": "Quand le thermomètre explose, remplir la gamelle d’eau glacée semble rassurant. Pourtant, ce réflexe peut perturber l’organisme du chien et augmenter certains risques sans mieux le protéger de la canicule.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24hypp.img",
-      "source": "Aufeminin",
-      "category": "lifestyle",
-      "topics": [
-        "Lifestyle"
-      ],
-      "published_at": "2026-05-28T14:29:58Z",
-      "upvotes": 30,
-      "downvotes": 12,
-      "comments": 3
-    },
-    {
-      "msn_id": "AA24n7Nl",
-      "url": "https://www.msn.com/fr-fr/actualite/insolite/retrouvée-12-ans-après-sa-disparition-cette-husky-séniore-parcourt-2-250-kilomètres-pour-retrouver-son-maître/ar-AA24n7Nl?ocid=00000000",
-      "url_hash": "2cdfcddc3aed481cfa738a2e44c2edd08aa6171f31ae89a483abed8bb7fc83fe",
-      "title": "Retrouvée 12 ans après sa disparition, cette Husky séniore parcourt 2 250 kilomètres pour retrouver son maître",
-      "abstract": "En Floride, des agents recueillent une Husky séniore et affaiblie. Ils ne se doutent pas que le scan de sa puce va révéler un secret vieux de 12 ans.",
-      "image_url": "https://th.bing.com/th?id=ORMS.65e72a5c7a26a6cfac16d7771cc3b678&pid=Wdp",
-      "source": "Histoire d'animaux",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-29T16:15:48Z",
-      "upvotes": 8,
-      "downvotes": 0,
-      "comments": 1
     },
     {
       "msn_id": "AA24msBJ",
@@ -1550,168 +1450,93 @@
       ],
       "published_at": "2026-05-29T13:11:18Z",
       "upvotes": 5,
-      "downvotes": 5,
+      "downvotes": 6,
       "comments": 0
     },
     {
-      "msn_id": "AA243Kni",
-      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/j-arrosais-mon-potager-chaque-soir-en-pensant-bien-faire-un-maraîcher-m-a-montré-ce-qui-se-passait-à-5-cm-sous-terre/ar-AA243Kni?ocid=00000000",
-      "url_hash": "8e83c2d0d45209c17e0ffdf9461b94f9dd482d562501c897bf64a16f899655b9",
-      "title": "J’arrosais mon potager chaque soir en pensant bien faire : un maraîcher m’a montré ce qui se passait à 5 cm sous terre",
-      "abstract": "En cette fin du mois de mai, alors que les jours rallongent et que les premières véritables chaleurs commencent à s’installer, une scène familière se répète dans de nombreux jardins. À la tombée de la nuit, le tuyau d’arrosage à la main, on offre une douche rafraîchissante aux tomates, courgettes et salades, en pensant bien… Poursuivre la lecture J’arrosais mon potager chaque soir en pensant bien faire : un maraîcher m’a montré ce qui se passait...",
-      "image_url": "https://th.bing.com/th?id=ORMS.049e4378747fbf1f628254de9450f9c1&pid=Wdp",
-      "source": "masculin.com",
+      "msn_id": "AA24gd0V",
+      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/citroën-ressort-la-2cv-le-vrai-retour-d-une-icône-automobile/ar-AA24gd0V?ocid=00000000",
+      "url_hash": "4d76d05a937a26de517493550dba368ae3019eeb96ee8f564ed1633b0e26fa72",
+      "title": "Citroën ressort la 2CV : le vrai retour d’une icône automobile ?",
+      "abstract": "Citroën promet le retour de la 2CV. Pas une copie conforme, mais un modèle électrique inspiré d’une voiture qui a marqué plusieurs générations.",
+      "image_url": "https://th.bing.com/th?id=ORMS.2173f44b62d690aa22d5165bae2ee44e&pid=Wdp",
+      "source": "Futura-sciences",
+      "category": "lifestyle",
+      "topics": [],
+      "published_at": "2026-05-28T09:31:43Z",
+      "upvotes": 53,
+      "downvotes": 27,
+      "comments": 15
+    },
+    {
+      "msn_id": "AA24gMgj",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/canicule-cette-erreur-que-l-on-fait-tous-en-donnant-à-boire-à-son-chien-quand-il-fait-très-chaud/ar-AA24gMgj?ocid=00000000",
+      "url_hash": "90df190827a98ebc9d5b4801224b6ed110622eb695ae015e975b36f7138326e1",
+      "title": "Canicule : cette erreur que l'on fait tous en donnant à boire à son chien quand il fait très chaud",
+      "abstract": "Quand le thermomètre explose, remplir la gamelle d’eau glacée semble rassurant. Pourtant, ce réflexe peut perturber l’organisme du chien et augmenter certains risques sans mieux le protéger de la canicule.",
+      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24hypp.img",
+      "source": "Aufeminin",
       "category": "lifestyle",
       "topics": [
         "Lifestyle"
       ],
-      "published_at": "2026-05-26T04:00:00Z",
-      "upvotes": 27,
-      "downvotes": 20,
-      "comments": 1
-    },
-    {
-      "msn_id": "AA24iDQ1",
-      "url": "https://www.msn.com/fr-fr/actualite/elections/ça-commence-à-se-voir-au-rn-des-cadres-alertent-sur-une-fracture-qui-ne-peut-plus-être-ignorée/ar-AA24iDQ1?ocid=00000000",
-      "url_hash": "026ccae24f9a99518ad1d6f651e46be8d7e5d9e5f1ebafe99e39c035df87d737",
-      "title": "« Ça commence à se voir » : au RN, des cadres alertent sur une fracture qui ne peut plus être ignorée",
-      "abstract": "Au sein du Rassemblement national, les tensions ne sont plus seulement perceptibles en coulisses. Elles commencent à être évoquées ouvertement par certains cadres, qui décrivent une situation de plus en plus difficile à contenir. Entre Jordan Bardella et Marine Le Pen, les divergences stratégiques prennent une ampleur nouvelle et se traduisent par des discussions internes de plus en plus franches. Ces inquiétudes reposent sur un constat simple :...",
-      "image_url": "https://th.bing.com/th?id=ORMS.8eef500a676956c6cb80bb131454f79b&pid=Wdp",
-      "source": "So Busy Girls",
-      "category": "actualite",
-      "topics": [
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T19:17:00Z",
-      "upvotes": 21,
-      "downvotes": 15,
-      "comments": 6
-    },
-    {
-      "msn_id": "AA24fBG8",
-      "url": "https://www.msn.com/fr-fr/finance/autres/retraite-voici-le-montant-moyen-d-une-pension-en-france-gagnez-vous-plus/ar-AA24fBG8?ocid=00000000",
-      "url_hash": "910ce27398496cea84bff10fc2d4aec3ce901af89b5a4454458c0ac3711bb284",
-      "title": "Retraite : voici le montant moyen d'une pension en France, gagnez-vous plus ?",
-      "abstract": "D'après les derniers chiffres de la Drees, on dénombre en France 17,3 millions de retraités de droit direct, qui perçoivent une pension brute d'en moyenne 1.705 euros. Ce chiffre cache néanmoins de très grandes disparités entre hommes et femmes.",
-      "image_url": "https://th.bing.com/th?id=ORMS.6cbfd1bf7e9f58e54cbc2ef70a848e41&pid=Wdp",
-      "source": "RMC",
-      "category": "finance",
-      "topics": [
-        "Finance"
-      ],
-      "published_at": "2026-05-28T06:29:04Z",
-      "upvotes": 8,
-      "downvotes": 9,
+      "published_at": "2026-05-28T14:29:58Z",
+      "upvotes": 32,
+      "downvotes": 12,
       "comments": 3
     },
     {
-      "msn_id": "AA24lzUs",
-      "url": "https://www.msn.com/fr-fr/actualite/france/il-tenait-mon-chat-dans-sa-gueule-il-intervient-juste-à-temps-pour-éviter-le-pire-drame/ar-AA24lzUs?ocid=00000000",
-      "url_hash": "e7b4245de7ba47b687cec8ae0ad12817123e4fbc06ee89c1e3181a697f888995",
-      "title": "« Il tenait mon chat dans sa gueule » : il intervient juste à temps pour éviter le pire drame",
-      "abstract": "Un soir, la vie de Gilles et de son chat Muscat bascule. Il découvre son compagnon violemment attaqué par un chien et se lance dans un combat pour justice.",
-      "image_url": "https://th.bing.com/th?id=ORMS.b1846c52719e4208f765df437179df64&pid=Wdp",
-      "source": "Histoire d'animaux",
-      "category": "actualite",
+      "msn_id": "AA1PuinD",
+      "url": "https://www.msn.com/fr-fr/lifestyle/shopping/voici-le-salaire-qu-il-faut-toucher-tous-les-mois-pour-faire-partie-de-la-classe-moyenne-en-2026-en-france/ar-AA1PuinD?ocid=00000000",
+      "url_hash": "f3243894f8a381cf36ceb772be28acab3fd13e8eb4420486ce9713a3a5b8c2eb",
+      "title": "Voici le salaire qu'il faut toucher tous les mois pour faire partie de la classe moyenne en 2026 en France",
+      "abstract": "Faites-vous partie de la classe moyenne, ou vos revenus vous empêchent-ils d’y accéder de peu ? Voici, selon votre salaire, comment savoir si vous vous en sortez bien au quotidien.",
+      "image_url": "https://th.bing.com/th?id=ORMS.3b678557c2fff4952dbada0b35ba30de&pid=Wdp",
+      "source": "Marie France",
+      "category": "lifestyle",
       "topics": [
-        "Actualité",
-        "Actualité à la Une"
+        "Lifestyle"
       ],
-      "published_at": "2026-05-29T11:08:45Z",
-      "upvotes": 44,
-      "downvotes": 6,
-      "comments": 6
+      "published_at": "2026-05-26T13:15:41Z",
+      "upvotes": 1416,
+      "downvotes": 747,
+      "comments": 218
     },
     {
-      "msn_id": "AA24k7yi",
-      "url": "https://www.msn.com/fr-fr/actualite/insolite/forte-chaleur-l-horaire-idéal-pour-arroser-le-potager-n-est-ni-8h-ni-20h-les-jardiniers-experts-ne-loupent-pas-ce-créneau/ar-AA24k7yi?ocid=00000000",
-      "url_hash": "b45f9c74ee8f41e4117a4a1f43884492b10c59ed0b1a359dcfe4f1236d48fe9e",
-      "title": "Forte chaleur : l'horaire idéal pour arroser le potager n'est ni 8h ni 20h, les jardiniers experts ne loupent pas ce créneau",
-      "abstract": "Avec les épisodes de fortes chaleurs qui s’installent de plus en plus tôt dans l’année, un simple arrosage au mauvais moment peut suffire à épuiser certaines plantations. Et contrairement à une idée très répandue, attendre 7h ou 8h du matin n’est déjà parfois plus une bonne idée lorsque les températures dépassent les 30°C.",
-      "image_url": "https://th.bing.com/th?id=ORMS.6fbfc0c0317574d4eb408613774b90af&pid=Wdp",
-      "source": "Marmiton",
+      "msn_id": "AA23rY26",
+      "url": "https://www.msn.com/fr-fr/actualite/insolite/arrête-tu-es-en-train-de-tuer-tes-tomates-tomates-espacées-à-60-cm-et-sans-piquet-unique-pour-doubler-la-récolte-cet-été/ar-AA23rY26?ocid=00000000",
+      "url_hash": "0ffcaf2c9db7109cb0f40f79650a277676f7dfda9f25221c1acd323b4134919b",
+      "title": "« Arrête, tu es en train de tuer tes tomates » : tomates espacées à 60 cm et sans piquet unique pour doubler la récolte cet été",
+      "abstract": "Au printemps, de simples erreurs tomates suffisent à ruiner des pieds pourtant bien choisis au potager. Du calendrier au tuteurage, quelques gestes clés changent tout.",
+      "image_url": "https://th.bing.com/th?id=ORMS.3166980b3b0fc7458bf050b0d6a3d078&pid=Wdp",
+      "source": "Pleine Vie",
       "category": "actualite",
       "topics": [
         "Actualité",
         "Actualité à la Une"
       ],
-      "published_at": "2026-05-29T04:00:00Z",
-      "upvotes": 1,
+      "published_at": "2026-05-18T02:08:08Z",
+      "upvotes": 20,
+      "downvotes": 5,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24jVp1",
+      "url": "https://www.msn.com/fr-fr/sport/football/mercato-om-lorenzi-lâche-une-bombe-sur-l-avenir-de-greenwood/ar-AA24jVp1?ocid=00000000",
+      "url_hash": "0fb64519298c869fd5f135cdf0d57e937b8c68a4a058126185779a786afc91bb",
+      "title": "Mercato OM : Lorenzi lâche une bombe sur l’avenir de Greenwood",
+      "abstract": "‎Mason Greenwood n’est déjà plus totalement assuré de poursuivre son aventure à l'OM. À peine installé dans son costume de directeur sportif, Grégory Lorenzi a envoyé un message fort sur le futur de l’attaquant anglais, symbole d’un été placé sous le signe des décisions difficiles à Marseille. ‎Mercato OM : Lorenzi pose ses conditions sur Greenwood ‎À l’OM, les grandes manœuvres ont commencé. Officialisé récemment, Grégory Lorenzi hérite d’un...",
+      "image_url": "https://th.bing.com/th?id=ORMS.82c42eda8a7b4cd6944b1d6534d9de71&pid=Wdp",
+      "source": "Foot sur 7",
+      "category": "sport",
+      "topics": [
+        "Football",
+        "Sport"
+      ],
+      "published_at": "2026-05-29T04:33:00Z",
+      "upvotes": 2,
       "downvotes": 2,
       "comments": 0
-    },
-    {
-      "msn_id": "AA24apbD",
-      "url": "https://www.msn.com/fr-fr/divertissement/actualite/il-y-a-45-ans-une-simple-phrase-prononcée-par-spielberg-a-suffi-pour-offrir-à-cet-acteur-culte-d-indiana-jones-une-belle-leçon-d-humilité/ar-AA24apbD?ocid=00000000",
-      "url_hash": "4680a1a39683980ba06d7025852207eea8051971443fedf4c61125becc3ce074",
-      "title": "Il y a 45 ans, une simple phrase prononcée par Spielberg a suffi pour offrir à cet acteur culte d'Indiana Jones une belle leçon d'humilité",
-      "abstract": "Il n'a pas joué très longtemps dans Les Aventuriers de l'Arche Perdue, mais son apparition a beaucoup marqué les fans. 45 ans après, ce comédien culte revient sur une anecdote touchante et savoureux à propos d'Indiana Jones.",
-      "image_url": "https://th.bing.com/th?id=ORMS.b2f86264014ce622d642410b779bc190&pid=Wdp",
-      "source": "AlloCiné",
-      "category": "divertissement",
-      "topics": [
-        "Divertissement"
-      ],
-      "published_at": "2026-05-28T16:25:00Z",
-      "upvotes": 8,
-      "downvotes": 3,
-      "comments": 0
-    },
-    {
-      "msn_id": "AA24iBug",
-      "url": "https://www.msn.com/fr-fr/actualite/other/je-n-irai-pas-fabio-quartararo-claque-la-porte-de-la-commission-de-sécurité-motogp/ar-AA24iBug?ocid=00000000",
-      "url_hash": "55a71bd51caa89818830d3fa8fc92c541ea65170621b25a3234ba7f9b6ae2fec",
-      "title": "« Je n’irai pas » : Fabio Quartararo claque la porte de la Commission de sécurité MotoGP",
-      "abstract": "Fabio Quartararo ne viendra pas à la prochaine réunion de la Commission de sécurité. « Je n'irai pas parce qu'il n'y a rien à discuter. » Cet article “Je n’irai pas” : Fabio Quartararo claque la porte de la Commission de sécurité MotoGP est apparu en premier sur Paddock GP.",
-      "image_url": "https://th.bing.com/th?id=ORMS.a29e37a01117b3f97890a8059adede16&pid=Wdp",
-      "source": "Paddock GP",
-      "category": "actualite",
-      "topics": [
-        "ACTUALITÉ",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-28T19:04:40Z",
-      "upvotes": 26,
-      "downvotes": 6,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA24lWL0",
-      "url": "https://www.msn.com/fr-fr/actualite/monde/jean-noël-barrot-a-saisi-la-justice-après-les-mauvais-traitements-infligés-par-israël-à-des-membres-français-de-la-flottille-pour-gaza/ar-AA24lWL0?ocid=00000000",
-      "url_hash": "3435717112a4ab4eabb4a343d70cb56e47a40d6b5422344b8d10c0c19e3d283a",
-      "title": "Jean-Noël Barrot a saisi la justice après les mauvais traitements infligés par Israël à des membres français de la Flottille pour Gaza",
-      "abstract": "Le ministre français des Affaires étrangères Jean-Noël Barrot a annoncé ce vendredi 29 mai avoir saisi la justice française sur les mauvais traitements infligés aux membres français de la Flottille pour Gaza lors de leur détention provisoire en Israël. « J’ai décidé hier de saisir la procureure de la République, en vertu de l’article 40 du code de ...",
-      "image_url": "https://th.bing.com/th?id=ORMS.09278325c08ac88856b284145ad3dbf3&pid=Wdp",
-      "source": "Le Parisien",
-      "category": "actualite",
-      "topics": [
-        "Guerre Israël-Hamas",
-        "Actualité",
-        "Actualité à la Une"
-      ],
-      "published_at": "2026-05-29T08:09:43Z",
-      "upvotes": 7,
-      "downvotes": 7,
-      "comments": 2
-    },
-    {
-      "msn_id": "AA24ieUo",
-      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/un-si-grand-soleil-en-avance-le-29-mai-charles-craque-sous-la-pression-et-eve-prend-de-gros-risques/ar-AA24ieUo?ocid=00000000",
-      "url_hash": "00131eed3fb6879b8d04a02ec10de9aa5d3998e53a739d569b1736a797c4372f",
-      "title": "Un si grand soleil en avance : le 29 mai, Charles craque sous la pression et Eve prend de gros risques",
-      "abstract": "Un si grand soleil va encore révéler plusieurs tensions aux téléspectateurs ce vendredi 29 mai sur France 3. Dans cet épisode inédit, Charles va se retrouver sous pression alors que Florent va continuer de creuser dans l’affaire Eliott.",
-      "image_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA22fnNQ.img",
-      "source": "Télé star",
-      "category": "divertissement",
-      "topics": [
-        "Divertissement",
-        "Célébrités"
-      ],
-      "published_at": "2026-05-28T19:30:08Z",
-      "upvotes": 10,
-      "downvotes": 6,
-      "comments": 3
     },
     {
       "msn_id": "AA24iATY",
@@ -1732,40 +1557,213 @@
       "comments": 17
     },
     {
-      "msn_id": "AA24mrGc",
-      "url": "https://www.msn.com/fr-fr/lifestyle/style/cette-robe-illusion-portée-par-jennifer-lopez-fait-sensation/ar-AA24mrGc?ocid=00000000",
-      "url_hash": "56fd4af0aba2a2a33d561639a842d1ee20560dbe7ca2c2be54045b6aa873bd1d",
-      "title": "Cette robe « illusion » portée par Jennifer Lopez fait sensation",
-      "abstract": "Pour la première de la comédie romantique américaine « Office Romance », Jennifer Lopez a misé sur une robe à effet « illusion » qui a immédiatement enflammé la Toile. Jennifer Lopez illumine la première d’« Office Romance » Jennifer Lopez a fait une entrée remarquée à la première mondiale du nouveau film Netflix « Office […]",
-      "image_url": "https://th.bing.com/th?id=ORMS.e1ea8428dda9355aad39be3260239577&pid=Wdp",
-      "source": "The Body Optimist",
+      "msn_id": "AA24lzUs",
+      "url": "https://www.msn.com/fr-fr/actualite/france/il-tenait-mon-chat-dans-sa-gueule-il-intervient-juste-à-temps-pour-éviter-le-pire-drame/ar-AA24lzUs?ocid=00000000",
+      "url_hash": "e7b4245de7ba47b687cec8ae0ad12817123e4fbc06ee89c1e3181a697f888995",
+      "title": "« Il tenait mon chat dans sa gueule » : il intervient juste à temps pour éviter le pire drame",
+      "abstract": "Un soir, la vie de Gilles et de son chat Muscat bascule. Il découvre son compagnon violemment attaqué par un chien et se lance dans un combat pour justice.",
+      "image_url": "https://th.bing.com/th?id=ORMS.b1846c52719e4208f765df437179df64&pid=Wdp",
+      "source": "Histoire d'animaux",
+      "category": "actualite",
+      "topics": [
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-29T11:08:45Z",
+      "upvotes": 51,
+      "downvotes": 6,
+      "comments": 8
+    },
+    {
+      "msn_id": "AA24fBG8",
+      "url": "https://www.msn.com/fr-fr/finance/autres/retraite-voici-le-montant-moyen-d-une-pension-en-france-gagnez-vous-plus/ar-AA24fBG8?ocid=00000000",
+      "url_hash": "910ce27398496cea84bff10fc2d4aec3ce901af89b5a4454458c0ac3711bb284",
+      "title": "Retraite : voici le montant moyen d'une pension en France, gagnez-vous plus ?",
+      "abstract": "D'après les derniers chiffres de la Drees, on dénombre en France 17,3 millions de retraités de droit direct, qui perçoivent une pension brute d'en moyenne 1.705 euros. Ce chiffre cache néanmoins de très grandes disparités entre hommes et femmes.",
+      "image_url": "https://th.bing.com/th?id=ORMS.6cbfd1bf7e9f58e54cbc2ef70a848e41&pid=Wdp",
+      "source": "RMC",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-28T06:29:04Z",
+      "upvotes": 8,
+      "downvotes": 9,
+      "comments": 3
+    },
+    {
+      "msn_id": "AA24lcOG",
+      "url": "https://www.msn.com/fr-fr/divertissement/actualite/ça-se-trouve-c-est-la-future-première-dame-pourquoi-la-phrase-de-faustine-bollaert-amuse-autant/ar-AA24lcOG?ocid=00000000",
+      "url_hash": "d6ca47e2054ae6bded615709a78d5a87ed8b79907d356b1c2715ba568f4c7631",
+      "title": "« Ça se trouve, c’est la future Première dame! » : pourquoi la phrase de Faustine Bollaert amuse autant",
+      "abstract": "En quelques mots, Faustine Bollaert a résumé tout le décalage de cette histoire. Invitée sur le plateau de C à vous, l’animatrice a réagi à l’ancienne apparition de Maria Carolina de Bourbon des Deux-Siciles dans Ça commence aujourd’hui, désormais relue à la lumière de sa médiatisation auprès de Jordan Bardella. Lire aussi : Cette relation inattendue qui intrigue tout le monde autour de Jordan Bardella Sa phrase exacte, “Ça se trouve, c’est la...",
+      "image_url": "https://th.bing.com/th?id=ORMS.78169f082513d74253291680fbacc2d9&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "divertissement",
+      "topics": [
+        "Divertissement"
+      ],
+      "published_at": "2026-05-29T09:36:00Z",
+      "upvotes": 3,
+      "downvotes": 3,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24lp5j",
+      "url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/windows-11-microsoft-cède-à-la-pression-et-retire-ses-propos-sur-l-inutilité-des-antivirus-tiers/ar-AA24lp5j?ocid=00000000",
+      "url_hash": "18484f1891bfbc98dabf06e6d25b4ac7a041a663ff792adcdaa5ad78b3c492e1",
+      "title": "Windows 11 : Microsoft cède à la pression et retire ses propos sur l'inutilité des antivirus tiers",
+      "abstract": "Le rétropédalage a été rapide pour Microsoft, enlevant toute mention que Windows 11 avait tout ce qu’il faut pour protéger ses utilisateurs.",
+      "image_url": "https://th.bing.com/th?id=ORMS.f9688b637f881867b656ce3a6f652423&pid=Wdp",
+      "source": "Les Numériques",
+      "category": "actualite",
+      "topics": [
+        "Microsoft",
+        "Actualité",
+        "Actualité à la Une"
+      ],
+      "published_at": "2026-05-29T10:47:00Z",
+      "upvotes": 1,
+      "downvotes": 2,
+      "comments": 1
+    },
+    {
+      "msn_id": "AA24gBBv",
+      "url": "https://www.msn.com/fr-fr/finance/autres/nous-allons-devoir-travailler-plus-longtemps-edouard-philippe-rappelé-à-ses-propos-sur-la-retraite-à-67-ans/ar-AA24gBBv?ocid=00000000",
+      "url_hash": "f8ae9ee442744fdc96c3ceedd227af15f2e2bbf805189c8a8b7ebe5afa70b240",
+      "title": "« Nous allons devoir travailler plus longtemps », Edouard Philippe rappelé à ses propos sur la retraite à 67 ans",
+      "abstract": "Edouard Philippe a de nouveau défendu l’idée d’un allongement du temps de travail pour préserver le système de retraites. L’ancien Premier ministre assume des positions déjà évoquées sur un possible recul de l’âge de départ jusqu’à 67 ans.",
+      "image_url": "https://th.bing.com/th?id=ORMS.6382f564016e1335f149734236200441&pid=Wdp",
+      "source": "Capital France",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-28T12:24:44Z",
+      "upvotes": 65,
+      "downvotes": 140,
+      "comments": 146
+    },
+    {
+      "msn_id": "AA24hG68",
+      "url": "https://www.msn.com/fr-fr/divertissement/celebrites/il-a-voulu-me-frapper-cyril-hanouna-révèle-avoir-été-agressé-par-un-de-ses-chroniqueurs/ar-AA24hG68?ocid=00000000",
+      "url_hash": "75834745e765b1f36e75f672c2e770ccf4652b01af0116e4cf99aa53d768d94b",
+      "title": "« Il a voulu me frapper » : Cyril Hanouna révèle avoir été agressé par un de ses chroniqueurs",
+      "abstract": "Mercredi 27 juin 2026, Cyril Hanouna s'est confié au sujet d'une altercation qu'il a eue avec un collaborateur, sur le plateau de Tout beau tout neuf. Sur W9, l'animateur est revenu sur cet épisode désagréable qui l'a marqué.",
+      "image_url": "https://th.bing.com/th?id=ORMS.f222f0d64f043eae6cf8008528bbb797&pid=Wdp",
+      "source": "Voici",
+      "category": "divertissement",
+      "topics": [
+        "Célébrités",
+        "Divertissement"
+      ],
+      "published_at": "2026-05-28T14:49:00Z",
+      "upvotes": 15,
+      "downvotes": 29,
+      "comments": 5
+    },
+    {
+      "msn_id": "AA24grai",
+      "url": "https://www.msn.com/fr-fr/finance/autres/sfr-c-est-terminé-voici-qui-va-vraiment-changer-pour-votre-forfait-et-votre-facture-mobile/ar-AA24grai?ocid=00000000",
+      "url_hash": "1317fdf90206de65b56bc8a44592d68dfaf794f972aff6a8ce83f1ee278e45c4",
+      "title": "SFR c’est terminé : voici qui va vraiment changer pour votre forfait et votre facture mobile",
+      "abstract": "Racheté 20,35 milliards par Bouygues, Free et Orange, SFR va disparaître et 25 millions d’abonnés voient leur forfait mobile menacé. Jusqu’à quand votre facture restera-t-elle vraiment stable ?",
+      "image_url": "https://th.bing.com/th?id=ORMS.502f13be9e528c1e0d429a07da25ff43&pid=Wdp",
+      "source": "La crème du gaming",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-28T12:00:42Z",
+      "upvotes": 43,
+      "downvotes": 33,
+      "comments": 4
+    },
+    {
+      "msn_id": "AA24ahjK",
+      "url": "https://www.msn.com/fr-fr/divertissement/tv/salaires-à-la-télé-cyril-hanouna-dévoile-qui-gagne-vraiment-le-plus-et-ce-n-est-pas-une-surprise/ar-AA24ahjK?ocid=00000000",
+      "url_hash": "afa5fc1b3531f9eb4beacdf0dc10bdf2c883eedb74f3eeb3245550037a07b358",
+      "title": "Salaires à la télé : Cyril Hanouna dévoile qui gagne vraiment le plus et ce n’est pas une surprise",
+      "abstract": "Le suspense aura duré des années, mais la réponse semble désormais évidente. Selon Cyril Hanouna, l’animateur qui gagnerait le plus à la télévision française n’est autre que Jean-Luc Reichmann. Une révélation qui, paradoxalement, surprend moins qu’elle ne confirme une intuition largement partagée. Car au fond, tout pointe dans cette direction. Une émission quotidienne, une audience massive, une image rassurante et une longévité exceptionnelle :...",
+      "image_url": "https://th.bing.com/th?id=ORMS.6f3a274d362a66256ef40c9ca4a3bfe3&pid=Wdp",
+      "source": "So Busy Girls",
+      "category": "divertissement",
+      "topics": [
+        "Divertissement"
+      ],
+      "published_at": "2026-05-27T07:13:00Z",
+      "upvotes": 12,
+      "downvotes": 9,
+      "comments": 0
+    },
+    {
+      "msn_id": "AA24aO1k",
+      "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/votre-jardin-souffre-des-fortes-chaleurs-l-astuce-simple-et-efficace-pour-éviter-que-vos-cultures-ne-se-dessèchent-et-réduire-les-arrosages/ar-AA24aO1k?ocid=00000000",
+      "url_hash": "45b1636f4b6c334c0bbf5240af6c51eaf2686808c1a366d0c8ccba839eaa7815",
+      "title": "Votre jardin souffre des fortes chaleurs ? L'astuce simple et efficace pour éviter que vos cultures ne se dessèchent et réduire les arrosages",
+      "abstract": "Après des épisodes de pluies, la chaleur règne sur toute la France. Mais ces hausses brutales de température mettent nos jardins à rude épreuve. Potagers, fleurs, arbustes et plantes en pots se dessèchent plus rapidement. Pour protéger ses cultures et limiter les arrosages sans voir sa facture d’eau grimper, une jardinière dévoile une astuce aussi simple qu’efficace.",
+      "image_url": "https://th.bing.com/th?id=ORMS.d36b80670615321053ba6f1dfa37d34b&pid=Wdp",
+      "source": "Femme Actuelle",
       "category": "lifestyle",
       "topics": [
-        "Style",
         "Lifestyle"
       ],
-      "published_at": "2026-05-29T11:54:43Z",
-      "upvotes": 9,
+      "published_at": "2026-05-27T10:38:46Z",
+      "upvotes": 5,
       "downvotes": 4,
       "comments": 0
     },
     {
-      "msn_id": "AA22Ayem",
-      "url": "https://www.msn.com/fr-fr/lifestyle/style/les-règles-d-or-pour-porter-le-pantalon-large-quand-on-est-petite/ar-AA22Ayem?ocid=00000000",
-      "url_hash": "b728c366f89d06f6b6c10fb457551d450d9a7834b42e4bead0adc04e716b790f",
-      "title": "Les règles d'or pour porter le pantalon large quand on est petite",
-      "abstract": "Le pantalon flare et le maxi blazer squattent tous les feed Instagram, mais vous craignez qu'ils ne soient réservés qu'aux silhouettes élancées ? Détrompez-vous ! Mesurer moins d'1m60 ne vous empêche absolument pas d'adopter la tendance. Voici le mode d'emploi pour porter le pantalon large avec style, sans jamais sacrifier votre stature.",
-      "image_url": "https://th.bing.com/th?id=ORMS.800a3fffbb1a9eb97548443290ba4164&pid=Wdp",
-      "source": "Voici",
-      "category": "lifestyle",
+      "msn_id": "AA24hMaK",
+      "url": "https://www.msn.com/fr-fr/sport/tennis/guy-forget-sur-la-défaite-de-sinner-il-donne-une-expli-ca-tion-qui-est-la-sienne-mais-on-se-dit-qu-il-y-a-autre-chose-derrière/ar-AA24hMaK?ocid=00000000",
+      "url_hash": "026a8749f05a65371397cabc867762ca9f9e161dbd19b992707a26729e0a7289",
+      "title": "Guy Forget sur la défaite de Sinner : «Il donne une expli­ca­tion, qui est la sienne, mais on se dit qu’il y a autre chose derrière»",
+      "abstract": "La défaite surprise et reten­tis­sante de Jannik Sinner dès le deuxième tour de Roland‐Garros fait logi­que­ment beau­coup réagir. Consultant pour France Télévision, Guy Forget a été invité à s’ex­primer sur les expli­ca­tions four­nies par le numéro 1 mondial lors de son passage en confé­rence de presse d’après match. Et si l’Italien a expliqué qu’il n’avait […]",
+      "image_url": "https://th.bing.com/th?id=ORMS.c1a9d64bbf4644e696c7f6d710b867f4&pid=Wdp",
+      "source": "We Love Tennis",
+      "category": "sport",
       "topics": [
-        "Lifestyle",
-        "Style"
+        "Tennis",
+        "Sport"
       ],
-      "published_at": "2026-05-07T10:09:00Z",
-      "upvotes": 26,
-      "downvotes": 12,
+      "published_at": "2026-05-28T17:01:00Z",
+      "upvotes": 15,
+      "downvotes": 8,
+      "comments": 10
+    },
+    {
+      "msn_id": "AA24mH91",
+      "url": "https://www.msn.com/fr-fr/finance/autres/lidl-rappelle-des-lardons-partout-en-france-ne-les-consommez-surtout-pas/ar-AA24mH91?ocid=00000000",
+      "url_hash": "03da542b893149fa1e892c4a22d2434e7233258a8f7626b5e5321e7d42fc1c25",
+      "title": "Lidl rappelle des lardons partout en France, ne les consommez surtout pas",
+      "abstract": "Lidl vient de procéder au rappel de lardons vendus partout en France ces derniers jours. Les garanties sanitaires n’étant pas satisfaisantes, ce produit ne doit pas être consommé",
+      "image_url": "https://th.bing.com/th?id=ORMS.f277fba5c8941027133bd8e29624419b&pid=Wdp",
+      "source": "20 Minutes",
+      "category": "finance",
+      "topics": [
+        "Finance"
+      ],
+      "published_at": "2026-05-29T12:47:36Z",
+      "upvotes": 3,
+      "downvotes": 2,
       "comments": 0
+    },
+    {
+      "msn_id": "AA24hrTE",
+      "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-il-aurait-perdu-à-100-dans-une-autre-ville-le-gros-tacle-de-vallejo-contre-l-arbitre-après-sa-défaite-face-à-kouame/ar-AA24hrTE?ocid=00000000",
+      "url_hash": "07cb9d56dd8d35a48f8b9d6fea23a421bcab001288d9127091cd681945a91db6",
+      "title": "Roland-Garros : \"Il aurait perdu à 100 % dans une autre ville\", le gros tacle de Vallejo contre l'arbitre après sa défaite face à Kouame",
+      "abstract": "Tombé au deuxième tour de Roland-Garros après un match marathon de près de 5h de jeu face à Moïse Kouame, le Paraguayen Adolfo Vallejo a tenu à saluer son jeune adversaire en conférence de presse. Il a en revanche été beaucoup plus critique envers l'arbitre de la rencontre, qui a selon lui \"manqué de contrôle\" face au public qui poussait derrière le Français.",
+      "image_url": "https://th.bing.com/th?id=ORMS.d5474b94077da6add36537cb2dd58123&pid=Wdp",
+      "source": "RMC Sport",
+      "category": "sport",
+      "topics": [
+        "Sport"
+      ],
+      "published_at": "2026-05-28T17:13:20Z",
+      "upvotes": 38,
+      "downvotes": 12,
+      "comments": 12
     }
   ]
 }
