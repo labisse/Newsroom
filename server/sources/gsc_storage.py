@@ -162,12 +162,18 @@ def items_missing_title(
     *,
     limit: int | None = None,
 ) -> list[dict[str, Any]]:
-    """Retourne les URLs sans titre scrapé (ou avec titre vide)."""
+    """Retourne les URLs sans titre scrapé (ou avec titre vide).
+
+    Tri par clicks_total décroissant : avec un limit faible (ex: 2000), on
+    scrape d'abord les URLs à fort trafic — c'est là que l'amélioration
+    sémantique RAG aura le plus d'impact pour le briefing éditorial.
+    """
     out = [
         item
         for item in load_history(project_slug)
         if not item.get("title")
     ]
+    out.sort(key=lambda i: int(i.get("clicks_total") or 0), reverse=True)
     if limit:
         return out[:limit]
     return out
