@@ -1,9 +1,9 @@
 {
   "source": "x_trends",
-  "fetched_at": "2026-05-29T04:39:00Z",
+  "fetched_at": "2026-05-29T04:51:14Z",
   "region": "france",
   "url": "https://trends24.in/france/",
-  "count": 189,
+  "count": 180,
   "trends": [
     {
       "query": "Game 7",
@@ -14,15 +14,7 @@
       "tweet_count": 0
     },
     {
-      "query": "Dylan Harper",
-      "tweet_count": 0
-    },
-    {
-      "query": "Spurs",
-      "tweet_count": 0
-    },
-    {
-      "query": "Gordon",
+      "query": "Harper",
       "tweet_count": 0
     },
     {
@@ -30,7 +22,27 @@
       "tweet_count": 0
     },
     {
-      "query": "Booba",
+      "query": "Gordon",
+      "tweet_count": 0
+    },
+    {
+      "query": "Spurs",
+      "tweet_count": 0
+    },
+    {
+      "query": "#hatethatimadeyouloveme",
+      "tweet_count": 0
+    },
+    {
+      "query": "Kouame",
+      "tweet_count": 0
+    },
+    {
+      "query": "Zverev",
+      "tweet_count": 0
+    },
+    {
+      "query": "#RolandGarros",
       "tweet_count": 0
     },
     {
@@ -42,19 +54,11 @@
       "tweet_count": 0
     },
     {
-      "query": "Kouame",
+      "query": "Booba",
       "tweet_count": 0
     },
     {
-      "query": "#RolandGarros",
-      "tweet_count": 0
-    },
-    {
-      "query": "Zverev",
-      "tweet_count": 0
-    },
-    {
-      "query": "Vassell",
+      "query": "ariana",
       "tweet_count": 0
     },
     {
@@ -62,15 +66,11 @@
       "tweet_count": 0
     },
     {
+      "query": "Vassell",
+      "tweet_count": 0
+    },
+    {
       "query": "#feebetsbetclic",
-      "tweet_count": 0
-    },
-    {
-      "query": "Huntrill",
-      "tweet_count": 0
-    },
-    {
-      "query": "Jean Messiha",
       "tweet_count": 0
     },
     {
@@ -78,15 +78,11 @@
       "tweet_count": 0
     },
     {
-      "query": "Djoko",
-      "tweet_count": 0
-    },
-    {
-      "query": "Kendall",
-      "tweet_count": 0
-    },
-    {
       "query": "Vallejo",
+      "tweet_count": 0
+    },
+    {
+      "query": "Jean Messiha",
       "tweet_count": 0
     },
     {
@@ -94,7 +90,7 @@
       "tweet_count": 0
     },
     {
-      "query": "#blanconemesis",
+      "query": "Djoko",
       "tweet_count": 0
     },
     {
@@ -102,7 +98,11 @@
       "tweet_count": 0
     },
     {
-      "query": "Dort",
+      "query": "#blanconemesis",
+      "tweet_count": 0
+    },
+    {
+      "query": "Kendall",
       "tweet_count": 0
     },
     {
@@ -110,19 +110,19 @@
       "tweet_count": 0
     },
     {
-      "query": "Rashford",
-      "tweet_count": 0
-    },
-    {
-      "query": "Les Zhommes",
-      "tweet_count": 0
-    },
-    {
       "query": "Shelton",
       "tweet_count": 0
     },
     {
-      "query": "Aaron Fox",
+      "query": "Huntrill",
+      "tweet_count": 0
+    },
+    {
+      "query": "Rashford",
+      "tweet_count": 0
+    },
+    {
+      "query": "Dort",
       "tweet_count": 0
     },
     {
@@ -130,15 +130,11 @@
       "tweet_count": 0
     },
     {
-      "query": "Thunder",
-      "tweet_count": 0
-    },
-    {
       "query": "McCain",
       "tweet_count": 0
     },
     {
-      "query": "Robert Conrad",
+      "query": "Castle",
       "tweet_count": 0
     },
     {
@@ -146,7 +142,7 @@
       "tweet_count": 0
     },
     {
-      "query": "Castle",
+      "query": "Robert Conrad",
       "tweet_count": 0
     },
     {
@@ -166,6 +162,10 @@
       "tweet_count": 0
     },
     {
+      "query": "Thunder",
+      "tweet_count": 0
+    },
+    {
       "query": "Deco",
       "tweet_count": 0
     },
@@ -175,6 +175,42 @@
     },
     {
       "query": "Rintintin",
+      "tweet_count": 0
+    },
+    {
+      "query": "Alcaraz",
+      "tweet_count": 0
+    },
+    {
+      "query": "patrick balkany",
+      "tweet_count": 0
+    },
+    {
+      "query": "Modern Warfare 4",
+      "tweet_count": 0
+    },
+    {
+      "query": "SCOP",
+      "tweet_count": 0
+    },
+    {
+      "query": "Jodar",
+      "tweet_count": 0
+    },
+    {
+      "query": "Les Zhommes",
+      "tweet_count": 0
+    },
+    {
+      "query": "Scuro",
+      "tweet_count": 0
+    },
+    {
+      "query": "Dylan Harper",
+      "tweet_count": 0
+    },
+    {
+      "query": "Aaron Fox",
       "tweet_count": 0
     },
     {
@@ -190,15 +226,7 @@
       "tweet_count": 0
     },
     {
-      "query": "Alcaraz",
-      "tweet_count": 0
-    },
-    {
       "query": "Clim",
-      "tweet_count": 0
-    },
-    {
-      "query": "patrick balkany",
       "tweet_count": 0
     },
     {
@@ -222,19 +250,11 @@
       "tweet_count": 0
     },
     {
-      "query": "Harper",
-      "tweet_count": 0
-    },
-    {
       "query": "Zumba",
       "tweet_count": 0
     },
     {
       "query": "Wallace",
-      "tweet_count": 0
-    },
-    {
-      "query": "SCOP",
       "tweet_count": 0
     },
     {
@@ -251,10 +271,6 @@
     },
     {
       "query": "GrÃ©gory Lorenzi",
-      "tweet_count": 0
-    },
-    {
-      "query": "Modern Warfare 4",
       "tweet_count": 0
     },
     {
@@ -283,10 +299,6 @@
     },
     {
       "query": "BarÃ§a",
-      "tweet_count": 0
-    },
-    {
-      "query": "Jodar",
       "tweet_count": 0
     },
     {
@@ -423,10 +435,6 @@
     },
     {
       "query": "Raphinha",
-      "tweet_count": 0
-    },
-    {
-      "query": "Scuro",
       "tweet_count": 0
     },
     {
@@ -715,50 +723,6 @@
     },
     {
       "query": "Genesio",
-      "tweet_count": 0
-    },
-    {
-      "query": "Moise Kouame",
-      "tweet_count": 0
-    },
-    {
-      "query": "#Canicule",
-      "tweet_count": 0
-    },
-    {
-      "query": "Action Model",
-      "tweet_count": 0
-    },
-    {
-      "query": "Adri",
-      "tweet_count": 0
-    },
-    {
-      "query": "namjoon",
-      "tweet_count": 0
-    },
-    {
-      "query": "Dragon Quest",
-      "tweet_count": 0
-    },
-    {
-      "query": "Flamengo",
-      "tweet_count": 0
-    },
-    {
-      "query": "Zurich",
-      "tweet_count": 0
-    },
-    {
-      "query": "#CRYRAY",
-      "tweet_count": 0
-    },
-    {
-      "query": "#minaspace",
-      "tweet_count": 0
-    },
-    {
-      "query": "Rayo Vallecano",
       "tweet_count": 0
     }
   ]

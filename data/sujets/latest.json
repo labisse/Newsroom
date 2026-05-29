@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-05-29T04:39:34Z",
+  "generated_at": "2026-05-29T04:51:29Z",
   "sources_used": {
     "msn": {
-      "fetched_at": "2026-05-29T04:39:00Z",
+      "fetched_at": "2026-05-29T04:51:13Z",
       "count": 100
     },
     "wikimedia": {
-      "fetched_at": "2026-05-28T20:41:40Z",
-      "count": 985
+      "fetched_at": "2026-05-29T04:51:13Z",
+      "count": 984
     },
     "google_trends": {
-      "fetched_at": "2026-05-28T20:41:41Z",
-      "count": 281
+      "fetched_at": "2026-05-29T04:51:14Z",
+      "count": 290
     },
     "x_trends": {
-      "fetched_at": "2026-05-29T04:39:00Z",
-      "count": 189
+      "fetched_at": "2026-05-29T04:51:14Z",
+      "count": 180
     },
     "discoversnoop": {
-      "fetched_at": "2026-05-29T04:39:27Z",
+      "fetched_at": "2026-05-29T04:51:20Z",
       "count": 1016
     },
     "google_news": {
-      "fetched_at": "2026-05-29T04:39:31Z",
-      "count": 483
+      "fetched_at": "2026-05-29T04:51:25Z",
+      "count": 496
     }
   },
   "weights": {
@@ -38,9 +38,9 @@
     "candidates_scored": 100,
     "kept": 30,
     "by_tier": {
-      "high": 2,
-      "medium": 8,
-      "low": 20
+      "high": 3,
+      "medium": 10,
+      "low": 17
     }
   },
   "sujets": [
@@ -49,14 +49,14 @@
       "rank": 1,
       "title": "« Cela n’en est que plus cynique » : Jean Messiha restitue la cagnotte de 42 000 euros aux veuves des victimes d’Amra",
       "theme": "actualite",
-      "score": 67,
+      "score": 64,
       "tier": "high",
-      "rationale": "Forte visibilité Discover (score 35) · présent dans le top Wikipedia · repris sur Google Actualités · trending sur X.",
+      "rationale": "Forte visibilité Discover (score 36) · présent dans le top Wikipedia · repris sur Google Actualités · trending sur X.",
       "signals": [
         {
           "source": "gsc",
           "label": "discover",
-          "value": "35/65"
+          "value": "36/65"
         },
         {
           "source": "news",
@@ -66,23 +66,23 @@
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "12k vues"
+          "value": "9k vues"
         },
         {
           "source": "x",
           "label": "x",
-          "value": "#17"
+          "value": "#20"
         },
         {
           "source": "news",
           "label": "msn",
-          "value": "23+ react."
+          "value": "18+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 35.3",
+          "value": "score 35.5",
           "fill": 100
         },
         {
@@ -97,28 +97,28 @@
         },
         {
           "name": "Wikimedia",
-          "value": "12k vues/h",
-          "fill": 53
+          "value": "9k vues/h",
+          "fill": 42
         },
         {
           "name": "X velocity",
-          "value": "rang #17",
+          "value": "rang #20",
           "fill": 60
         },
         {
           "name": "MSN engagement",
-          "value": "51/100",
-          "fill": 51
+          "value": "44/100",
+          "fill": 43
         }
       ],
       "score_breakdown": {
         "discover": 100.0,
         "trends": 0.0,
-        "wiki": 53.7,
+        "wiki": 42.7,
         "gnews": 35.0,
-        "msn": 51.3,
+        "msn": 43.7,
         "x": 60.0,
-        "total": 67.0
+        "total": 64.2
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/cela-n-en-est-que-plus-cynique-jean-messiha-restitue-la-cagnotte-de-42-000-euros-aux-veuves-des-victimes-d-amra/ar-AA24i7kZ?ocid=00000000",
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24iIU5.img",
@@ -148,9 +148,9 @@
       "rank": 2,
       "title": "Patrick Bruel pense qu’il est « mort professionnellement » et les faits semblent lui donner raison",
       "theme": "divertissement",
-      "score": 54,
+      "score": 60,
       "tier": "high",
-      "rationale": "Présent sur Google Discover · présent dans le top Wikipedia · couvert par 3 médias · engagement MSN élevé.",
+      "rationale": "Présent sur Google Discover · forte audience Wikipedia (26 997 vues/jour) · couvert par 3 médias · engagement MSN élevé.",
       "signals": [
         {
           "source": "gsc",
@@ -165,19 +165,19 @@
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "12k vues"
+          "value": "27k vues"
         },
         {
           "source": "news",
           "label": "msn",
-          "value": "207+ react."
+          "value": "210+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 10.1",
-          "fill": 39
+          "value": "score 10.4",
+          "fill": 40
         },
         {
           "name": "Google News",
@@ -191,8 +191,8 @@
         },
         {
           "name": "Wikimedia",
-          "value": "12k vues/h",
-          "fill": 55
+          "value": "27k vues/h",
+          "fill": 98
         },
         {
           "name": "X velocity",
@@ -206,13 +206,13 @@
         }
       ],
       "score_breakdown": {
-        "discover": 39.2,
+        "discover": 40.1,
         "trends": 0.0,
-        "wiki": 55.6,
+        "wiki": 98.6,
         "gnews": 70.0,
         "msn": 100.0,
         "x": 0.0,
-        "total": 53.6
+        "total": 60.3
       },
       "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/patrick-bruel-pense-qu-il-est-mort-professionnellement-et-les-faits-semblent-lui-donner-raison/ar-AA24gAQv?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.265d2a674e54ed843e7fe1abc5ddd0dc&pid=Wdp",
@@ -231,8 +231,8 @@
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZFBwLXdpcGp3cVlCVlFURDlEZWhhS011UVJJdWQyeEVBRGdYVERMekNlZDBmdVZrTjJTZ0dpWjV3N0VHN1NYTDhsaExmVDI5MDZ0OEtZeEtQaGh2WUNaVzdWMW5rbnR0SUkwUmo5Y0JIR0VsbEMxekpnenp0a1cwRVlHUGpnamJRWFBiWFdmeGktcUIzZU1waGRJUXB2VV96WHEwQ3h4MHlVaHhFSE12ZElnTnBkUjV0VFA4bHRDMVoyUWVicmVF?oc=5"
         },
         {
-          "label": "GNews · Le Monde.fr — « Patrick Bruel a pour lui les fans. Mais il a contre lui des élus de tout bord, et c’est inédit »",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTWhwbnc1aHdNYWVYckpGYzI1bmZpTEZaS193VEFGclJVZXNhNG56R0tkYXlmeWtIYjFsVkk4VjJrdnUwRDV3TVJ5Qk1YQ2NnMlNyWEdQNm5keXlOc2JScFlmRldtLUwxckllWU5iaVhpb084MUVOVGtlb2x1UjMtSlltQXo1QU5RVHoyeHc2MkpuT2o2OXNxQUs3ZEgtcGNqTGdmektBWkg4dkllRmdqSmcxMDNyblUzS0xTU0x3ck53Y05RSzRXem56ZUlLampHZHh0YjgyMkFxYkhhUGtIS0NuWlZYY01Mbk9zRzZsOA?oc=5"
+          "label": "GNews · parismatch.com — « Je sais que ma carrière est terminée » : tentatives de viol, agressions sexuelles... Affaire Patrick Bruel, nos révélations",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWk0zcWJHWDRBVGF5ZVItbmVsUktRVjJra1VPUkJuV3puNG1KMVcwcUhNY3BNRVhsc0dTdldDQkxmTV9xVGRINmpUdm9IbU0zWElBNkZoOWxlM1JkV0d1VHhRR0pEZC1iWm45cFJRN01jMFQ3cm5PMzJTTHdid1lzR3YxZnp0MWk5LTJPNVktelBZZTN3ZWYzZDFfdEpTT3RmRllkQXlFTXFLZkN4OVI5Nm5zM1czTFg1Y0hjVGZ3WFhIdHVtNDFBN3d3dUMzN2JFZnFNUVdMZ2tQVk5CSU5OQ09TZGlpVUF0QzRn?oc=5"
         },
         {
           "label": "GNews · public.fr — Patrick Bruel : Flavie Flament refuse la chambre mise à sa disposition dans l’hôtel du chanteur lors sa dernière venue à L’Isle-sur-la-Sorgue",
@@ -248,11 +248,113 @@
     {
       "id": "s03",
       "rank": 3,
+      "title": "« Elles se jettent sur les hommes » : ce renversement du discours d'Anny Duperey qui prend la défense de Patrick Bruel déclenche une vive polémique",
+      "theme": "actualite",
+      "score": 54,
+      "tier": "high",
+      "rationale": "Présent sur Google Discover · forte audience Wikipedia (26 997 vues/jour) · couvert par 3 médias.",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "10/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "27k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "44+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 10.4",
+          "fill": 40
+        },
+        {
+          "name": "Google News",
+          "value": "3 médias",
+          "fill": 70
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "27k vues/h",
+          "fill": 98
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "56/100",
+          "fill": 55
+        }
+      ],
+      "score_breakdown": {
+        "discover": 40.1,
+        "trends": 0.0,
+        "wiki": 98.6,
+        "gnews": 70.0,
+        "msn": 55.7,
+        "x": 0.0,
+        "total": 53.7
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/elles-se-jettent-sur-les-hommes-ce-renversement-du-discours-d-anny-duperey-qui-prend-la-défense-de-patrick-bruel-déclenche-une-vive-polémique/ar-AA24fxZY?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.74aef2ed7e00d9a07373b30d17021658&pid=Wdp",
+      "msn_source_name": "So Busy Girls",
+      "refs": [
+        {
+          "label": "MSN · So Busy Girls — « Elles se jettent sur les hommes » : ce renversement du discours d'Anny Duperey qui prend la défense de Patrick Bruel déclenche une vive polémique",
+          "url": "https://www.msn.com/fr-fr/actualite/france/elles-se-jettent-sur-les-hommes-ce-renversement-du-discours-d-anny-duperey-qui-prend-la-défense-de-patrick-bruel-déclenche-une-vive-polémique/ar-AA24fxZY?ocid=00000000"
+        },
+        {
+          "label": "Discover · YouTube — L’affaire Patrick Bruel” continue de prendre de l’ampleur",
+          "url": "https://www.youtube.com/watch?v=hqDAMEIneaA"
+        },
+        {
+          "label": "GNews · Linternaute.com — Patrick Bruel : nouvelle réaction du chanteur, ce qu'il a dit à ses proches est une déflagration",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZFBwLXdpcGp3cVlCVlFURDlEZWhhS011UVJJdWQyeEVBRGdYVERMekNlZDBmdVZrTjJTZ0dpWjV3N0VHN1NYTDhsaExmVDI5MDZ0OEtZeEtQaGh2WUNaVzdWMW5rbnR0SUkwUmo5Y0JIR0VsbEMxekpnenp0a1cwRVlHUGpnamJRWFBiWFdmeGktcUIzZU1waGRJUXB2VV96WHEwQ3h4MHlVaHhFSE12ZElnTnBkUjV0VFA4bHRDMVoyUWVicmVF?oc=5"
+        },
+        {
+          "label": "GNews · parismatch.com — « Je sais que ma carrière est terminée » : tentatives de viol, agressions sexuelles... Affaire Patrick Bruel, nos révélations",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWk0zcWJHWDRBVGF5ZVItbmVsUktRVjJra1VPUkJuV3puNG1KMVcwcUhNY3BNRVhsc0dTdldDQkxmTV9xVGRINmpUdm9IbU0zWElBNkZoOWxlM1JkV0d1VHhRR0pEZC1iWm45cFJRN01jMFQ3cm5PMzJTTHdid1lzR3YxZnp0MWk5LTJPNVktelBZZTN3ZWYzZDFfdEpTT3RmRllkQXlFTXFLZkN4OVI5Nm5zM1czTFg1Y0hjVGZ3WFhIdHVtNDFBN3d3dUMzN2JFZnFNUVdMZ2tQVk5CSU5OQ09TZGlpVUF0QzRn?oc=5"
+        },
+        {
+          "label": "GNews · public.fr — Patrick Bruel : Flavie Flament refuse la chambre mise à sa disposition dans l’hôtel du chanteur lors sa dernière venue à L’Isle-sur-la-Sorgue",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNcU9QdmYxc0lxd2pTWE93NUc2bWZXbWU0X2p5N1BfOGdMellyeDQyb19tYlJWaEtnSVgwR3ZDRG01S2FZd3pYVjh6S1RDeXltMWE4SnYtOFJjcVVheVJJU3I0THpJNmt6QU5oUmt3ODNHcm54djZPWloyVEhYNEhtc1J1RXY5eDBDQzd0Tk1iY3lLbzdPZU5rOGZYUlFYRU04MWtCNzdWZnBXVmxndklUU1ZuQ3NRZkFmZDBMOTktMWNoMGFTWDF1N3JOS2NDMWRBTlpLRmRqRDducnlmUnFGV214RjAtdEhmcVhlTUtrYnJiYlc5VXc?oc=5"
+        }
+      ],
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Europe 1",
+        "Patrick Bruel"
+      ]
+    },
+    {
+      "id": "s04",
+      "rank": 4,
       "title": "Roland-Garros : \"Il aurait perdu à 100 % dans une autre ville\", le gros tacle de Vallejo contre l'arbitre après sa défaite face à Kouame",
       "theme": "sport",
-      "score": 48,
+      "score": 49,
       "tier": "medium",
-      "rationale": "Pic Google Trends (200 000 recherches) · présent dans le top Wikipedia · forte couverture médiatique (7 médias).",
+      "rationale": "Pic Google Trends (200 000 recherches) · présent dans le top Wikipedia · forte couverture médiatique (10 médias).",
       "signals": [
         {
           "source": "gsc",
@@ -262,7 +364,7 @@
         {
           "source": "news",
           "label": "gnews",
-          "value": "7 médias"
+          "value": "10 médias"
         },
         {
           "source": "trends",
@@ -272,7 +374,7 @@
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "3k vues"
+          "value": "4k vues"
         },
         {
           "source": "news",
@@ -288,8 +390,8 @@
         },
         {
           "name": "Google News",
-          "value": "7 médias",
-          "fill": 96
+          "value": "10 médias",
+          "fill": 100
         },
         {
           "name": "Google Trends",
@@ -298,8 +400,8 @@
         },
         {
           "name": "Wikimedia",
-          "value": "3k vues/h",
-          "fill": 16
+          "value": "4k vues/h",
+          "fill": 19
         },
         {
           "name": "X velocity",
@@ -315,11 +417,11 @@
       "score_breakdown": {
         "discover": 6.7,
         "trends": 100.0,
-        "wiki": 16.6,
-        "gnews": 97.0,
+        "wiki": 19.8,
+        "gnews": 100.0,
         "msn": 30.3,
         "x": 0.0,
-        "total": 48.3
+        "total": 49.2
       },
       "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-il-aurait-perdu-à-100-dans-une-autre-ville-le-gros-tacle-de-vallejo-contre-l-arbitre-après-sa-défaite-face-à-kouame/ar-AA24hrTE?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.d5474b94077da6add36537cb2dd58123&pid=Wdp",
@@ -334,16 +436,16 @@
           "url": "https://www.lequipe.fr/Tennis/Actualites/Daniel-vallejo-battu-par-moise-kouame-au-deuxieme-tour-de-roland-garros-il-peut-devenir-une-superstar/1679711"
         },
         {
-          "label": "GNews · franceinfo — Embraser le public, tenir physiquement, gérer mentalement : comment Moïse Kouame a trouvé les ressources pour rallier un 3e tour historique à Roland-Garros",
-          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNNTlPbHJMRXcwS3owbmNuYU5UTWJibGRGQTRXa2tmT2dxNjYyUGVhdXNZc0lXbDVBMDhEdWdBTWFtdE9xRnJuS01zMDZPZERhOVNiWjl3MmFINWhhRmRKOE10VTJnX09MWUxOUzdwdzRtR2N4UHFpblE3bEZBSnVQN3ZXZ3RheXpEUnRpWkVEZlpEX3lJMGdwLThOeFg1R0tsNXNpRmdEdkhmLW1wWEVzY2VnMV81QldfT1hHX2lUSUgwdnNzSWFaUTVhTUFkbWNDeVY5SlVDOVJYV08xYUFNMldDUVBMSlFXbzYtNzMtYk9xcmJzcVVhZjNGaUViLW9ZSGk5TV9LcnpkalRLelNGV3ZPM1lCU0NYSFZlbmpPMlE2b0tDeE5LRVF3dC0?oc=5"
+          "label": "GNews · Le Figaro — Roland-Garros : «Un match difficile, long, très épuisant», assure Djokovic après sa victoire face à Royer",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNLTVRcjFYRTdLMHRMZDVoSW5lY2RSS3RrV1l6SXAwV09sN2VCeERIbDJwbnFzRHIyZmNkeG1FQnpjekFvSHpCVTBpVlJfVnJXRnF2ODRKN3ROWTFkUlJmcXJ5OU9pckhGcmRCY01kZXp4T3AtanJKVGJZUVZiNzJNUGFQMm9mUlFhRTdiRkNQamc3V1JvbFZBcm1qNUpMb2tSb2hsSjEwYzJGTERSU1JfQVRsWkRqeklfNjdOdTdvVkNXZHFUWnFpLXM3b1BrQkpjQ3pJU015b3NUR3NScG5fZm1Xc29sOTFRRDhVcnZMY1E?oc=5"
         },
         {
-          "label": "GNews · Le Monde.fr — Roland-Garros 2026, les résultats du jeudi 28 mai : Moïse Kouamé et Diane Parry qualifiés pour le troisième tour, élimination surprise du numéro 1 mondial Jannik Sinner",
+          "label": "GNews · Le Monde.fr — EN DIRECT, Roland-Garros 2026 : élimination surprise de Jannik Sinner, Moïse Kouamé et Diane Parry qualifiés côté Français, Elsa Jacquemot s’incline face à Aryna Sabalenka",
           "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxORGN2VG9GMUFTUFNVV2VWU3hCS29QYmJyNmxGcmFVM0VhR19BZVhGV2kyOW5hdG14MmdpUkVrQ1pJQkFTMzRDWEo1UFRKUktRZ1JieTZGWFdFRG1KUW5aNTc0MklpX1J0QW1oRThMWXFWeWpjWk53SGdackxPS0hQRS15dGdTLU0xMHRzVC1hTnQtZHJlRXNJUEFFUDY2VnRDUUYxSHNMUlJYY2JfRnlteHJyeTZhdVBnZThWUXhTaDByZ1RKMTJlUjVvNWRaX3VLOUtqdjN6YkVGSlhsV0htRjZnTlZlSWVRQjNqY3B0b3Jfb3pwQmJpWGlzWjMyR252MnlJQkhOVWxCVWRKWHZrRjFlNDFOTGFTbTFNT1lvRHhMM3JmSXNmcTdR?oc=5"
         },
         {
-          "label": "GNews · Canal Supporters PSG 24-7 — Le PSG Handball champion de France après sa victoire dans le choc face à Nantes - Canal Supporters PSG 24-7",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcTNPNlNobUpzWm9uMGpkbVRQWkhfV21icklvYkEzXzE1MHEySlFoM3pSNWtSN3pjWFkzVHZWUlJKMHlWNE5SVjZLWHlDMTJrbzEtdUxqX3Z2dW9wbVRheUJZc0xwclZ3M3VMOFpHU0ljWk9XQWN6aDFYUnFscC12WjhSU1lkNG9WZXNNZnZJTV85MXlmZWZBWkpFb1ZxY29HSGZhYUVoQXFGM1ktZUHSAdcCQVVfeXFMTmdxR2JiOTNROVJFU3d2NV9Ga2pRdFI0UFF3OG9CaTZmUm1Pa3RDcllSa0M4U1BXaF9zb2M0LXBQZnlYeW5RSEcwLXlQYVg4bkhRcW1iZE44WENWdENfRVF0bURYSU1xTlJHZE45LXRHTFhvQmdiSm5UeVFtYWxYdzVSUUpPZWNMU1B0VGtXeENTZS1UYUlEMXBQX0xXcWp2Yzg4d3dlZ1JsSTJnWEQ2ZlBvUUI2ejZMVkI1RmgwNklKWWR1eGtibzliMVpDOURkUnZnSzV2LV8wQkJ5UVV3dTFDUkJxdTE2d0JoMnhhX25iTzBnaWtkZzdYeXd2blZVY2R0UVpTOURHTFpHMnBiRU1IdzNxVnR4aHVCSUJqOGJyeU4yZFBOWFJPeFZwaTQ0bXpGcGh0SURVdU1nSVZPUE4tS1pkbEw1cC02dC1PZXpPTkN4ZEJaMA?oc=5"
+          "label": "GNews · franceinfo — Embraser le public, tenir physiquement, gérer mentalement : comment Moïse Kouame a trouvé les ressources pour rallier un 3e tour historique à Roland-Garros",
+          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNNTlPbHJMRXcwS3owbmNuYU5UTWJibGRGQTRXa2tmT2dxNjYyUGVhdXNZc0lXbDVBMDhEdWdBTWFtdE9xRnJuS01zMDZPZERhOVNiWjl3MmFINWhhRmRKOE10VTJnX09MWUxOUzdwdzRtR2N4UHFpblE3bEZBSnVQN3ZXZ3RheXpEUnRpWkVEZlpEX3lJMGdwLThOeFg1R0tsNXNpRmdEdkhmLW1wWEVzY2VnMV81QldfT1hHX2lUSUgwdnNzSWFaUTVhTUFkbWNDeVY5SlVDOVJYV08xYUFNMldDUVBMSlFXbzYtNzMtYk9xcmJzcVVhZjNGaUViLW9ZSGk5TV9LcnpkalRLelNGV3ZPM1lCU0NYSFZlbmpPMlE2b0tDeE5LRVF3dC0?oc=5"
         }
       ],
       "discover_category": "/Sports/Individual Sports/Racquet Sports",
@@ -354,13 +456,13 @@
       ]
     },
     {
-      "id": "s04",
-      "rank": 4,
-      "title": "« Elles se jettent sur les hommes » : ce renversement du discours d'Anny Duperey qui prend la défense de Patrick Bruel déclenche une vive polémique",
+      "id": "s05",
+      "rank": 5,
+      "title": "« Il était intouchable » : ce que le statut de Patrick Bruel a changé dans le silence de certaines femmes",
       "theme": "actualite",
-      "score": 47,
+      "score": 48,
       "tier": "medium",
-      "rationale": "Présent sur Google Discover · présent dans le top Wikipedia · couvert par 3 médias.",
+      "rationale": "Présent sur Google Discover · forte audience Wikipedia (26 997 vues/jour) · couvert par 3 médias.",
       "signals": [
         {
           "source": "gsc",
@@ -375,19 +477,19 @@
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "12k vues"
+          "value": "27k vues"
         },
         {
           "source": "news",
           "label": "msn",
-          "value": "45+ react."
+          "value": "12+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 10.1",
-          "fill": 39
+          "value": "score 10.4",
+          "fill": 40
         },
         {
           "name": "Google News",
@@ -401,8 +503,8 @@
         },
         {
           "name": "Wikimedia",
-          "value": "12k vues/h",
-          "fill": 55
+          "value": "27k vues/h",
+          "fill": 98
         },
         {
           "name": "X velocity",
@@ -411,38 +513,38 @@
         },
         {
           "name": "MSN engagement",
-          "value": "57/100",
-          "fill": 57
+          "value": "21/100",
+          "fill": 21
         }
       ],
       "score_breakdown": {
-        "discover": 39.2,
+        "discover": 40.1,
         "trends": 0.0,
-        "wiki": 55.6,
+        "wiki": 98.6,
         "gnews": 70.0,
-        "msn": 57.1,
+        "msn": 21.0,
         "x": 0.0,
-        "total": 47.2
+        "total": 48.5
       },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/elles-se-jettent-sur-les-hommes-ce-renversement-du-discours-d-anny-duperey-qui-prend-la-défense-de-patrick-bruel-déclenche-une-vive-polémique/ar-AA24fxZY?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.74aef2ed7e00d9a07373b30d17021658&pid=Wdp",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/il-était-intouchable-ce-que-le-statut-de-patrick-bruel-a-changé-dans-le-silence-de-certaines-femmes/ar-AA24fMTf?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.9e11274f06170ea891d1f72d8520d502&pid=Wdp",
       "msn_source_name": "So Busy Girls",
       "refs": [
         {
-          "label": "MSN · So Busy Girls — « Elles se jettent sur les hommes » : ce renversement du discours d'Anny Duperey qui prend la défense de Patrick Bruel déclenche une vive polémique",
-          "url": "https://www.msn.com/fr-fr/actualite/france/elles-se-jettent-sur-les-hommes-ce-renversement-du-discours-d-anny-duperey-qui-prend-la-défense-de-patrick-bruel-déclenche-une-vive-polémique/ar-AA24fxZY?ocid=00000000"
+          "label": "MSN · So Busy Girls — « Il était intouchable » : ce que le statut de Patrick Bruel a changé dans le silence de certaines femmes",
+          "url": "https://www.msn.com/fr-fr/actualite/france/il-était-intouchable-ce-que-le-statut-de-patrick-bruel-a-changé-dans-le-silence-de-certaines-femmes/ar-AA24fMTf?ocid=00000000"
         },
         {
           "label": "Discover · YouTube — L’affaire Patrick Bruel” continue de prendre de l’ampleur",
           "url": "https://www.youtube.com/watch?v=hqDAMEIneaA"
         },
         {
-          "label": "GNews · Le Monde.fr — « Patrick Bruel a pour lui les fans. Mais il a contre lui des élus de tout bord, et c’est inédit »",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTWhwbnc1aHdNYWVYckpGYzI1bmZpTEZaS193VEFGclJVZXNhNG56R0tkYXlmeWtIYjFsVkk4VjJrdnUwRDV3TVJ5Qk1YQ2NnMlNyWEdQNm5keXlOc2JScFlmRldtLUwxckllWU5iaVhpb084MUVOVGtlb2x1UjMtSlltQXo1QU5RVHoyeHc2MkpuT2o2OXNxQUs3ZEgtcGNqTGdmektBWkg4dkllRmdqSmcxMDNyblUzS0xTU0x3ck53Y05RSzRXem56ZUlLampHZHh0YjgyMkFxYkhhUGtIS0NuWlZYY01Mbk9zRzZsOA?oc=5"
-        },
-        {
           "label": "GNews · Linternaute.com — Patrick Bruel : nouvelle réaction du chanteur, ce qu'il a dit à ses proches est une déflagration",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZFBwLXdpcGp3cVlCVlFURDlEZWhhS011UVJJdWQyeEVBRGdYVERMekNlZDBmdVZrTjJTZ0dpWjV3N0VHN1NYTDhsaExmVDI5MDZ0OEtZeEtQaGh2WUNaVzdWMW5rbnR0SUkwUmo5Y0JIR0VsbEMxekpnenp0a1cwRVlHUGpnamJRWFBiWFdmeGktcUIzZU1waGRJUXB2VV96WHEwQ3h4MHlVaHhFSE12ZElnTnBkUjV0VFA4bHRDMVoyUWVicmVF?oc=5"
+        },
+        {
+          "label": "GNews · parismatch.com — « Je sais que ma carrière est terminée » : tentatives de viol, agressions sexuelles... Affaire Patrick Bruel, nos révélations",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWk0zcWJHWDRBVGF5ZVItbmVsUktRVjJra1VPUkJuV3puNG1KMVcwcUhNY3BNRVhsc0dTdldDQkxmTV9xVGRINmpUdm9IbU0zWElBNkZoOWxlM1JkV0d1VHhRR0pEZC1iWm45cFJRN01jMFQ3cm5PMzJTTHdid1lzR3YxZnp0MWk5LTJPNVktelBZZTN3ZWYzZDFfdEpTT3RmRllkQXlFTXFLZkN4OVI5Nm5zM1czTFg1Y0hjVGZ3WFhIdHVtNDFBN3d3dUMzN2JFZnFNUVdMZ2tQVk5CSU5OQ09TZGlpVUF0QzRn?oc=5"
         },
         {
           "label": "GNews · public.fr — Patrick Bruel : Flavie Flament refuse la chambre mise à sa disposition dans l’hôtel du chanteur lors sa dernière venue à L’Isle-sur-la-Sorgue",
@@ -456,13 +558,121 @@
       ]
     },
     {
-      "id": "s05",
-      "rank": 5,
-      "title": "Moïse Kouame, son aveu au public après la victoire",
+      "id": "s06",
+      "rank": 6,
+      "title": "Roland-Garros : l'improbable appel à l'aide de Tiafoe après le vol de sa raquette par un spectateur",
       "theme": "sport",
-      "score": 44,
+      "score": 45,
       "tier": "medium",
-      "rationale": "Forte audience Wikipedia (26 691 vues/jour) · couvert par 3 médias · mentionné sur X.",
+      "rationale": "Pic Google Trends (200 000 recherches) · présent dans le top Wikipedia · forte couverture médiatique (7 médias).",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "7 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "200k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "4k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "4+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.1",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "7 médias",
+          "fill": 96
+        },
+        {
+          "name": "Google Trends",
+          "value": "200k",
+          "fill": 100
+        },
+        {
+          "name": "Wikimedia",
+          "value": "4k vues/h",
+          "fill": 19
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "15/100",
+          "fill": 15
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.5,
+        "trends": 100.0,
+        "wiki": 19.8,
+        "gnews": 97.0,
+        "msn": 15.0,
+        "x": 0.0,
+        "total": 44.9
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-l-improbable-appel-à-l-aide-de-tiafoe-après-le-vol-de-sa-raquette-par-un-spectateur/ar-AA24izr9?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24irNO.img",
+      "msn_source_name": "RMC Sport",
+      "refs": [
+        {
+          "label": "MSN · RMC Sport — Roland-Garros : l'improbable appel à l'aide de Tiafoe après le vol de sa raquette par un spectateur",
+          "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-l-improbable-appel-à-l-aide-de-tiafoe-après-le-vol-de-sa-raquette-par-un-spectateur/ar-AA24izr9?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le Monde — EN DIRECT, Roland-Garros 2026 : élimination",
+          "url": "https://www.lemonde.fr/sport/live/2026/05/28/en-direct-roland-garros-2026-elimination-surprise-de-jannik-sinner-des-le-deuxieme-tour-moise-kouame-et-diane-parry-qualifies-cote-francais_6694434_3242.html"
+        },
+        {
+          "label": "GNews · Le Figaro — Roland-Garros : «Un match difficile, long, très épuisant», assure Djokovic après sa victoire face à Royer",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNLTVRcjFYRTdLMHRMZDVoSW5lY2RSS3RrV1l6SXAwV09sN2VCeERIbDJwbnFzRHIyZmNkeG1FQnpjekFvSHpCVTBpVlJfVnJXRnF2ODRKN3ROWTFkUlJmcXJ5OU9pckhGcmRCY01kZXp4T3AtanJKVGJZUVZiNzJNUGFQMm9mUlFhRTdiRkNQamc3V1JvbFZBcm1qNUpMb2tSb2hsSjEwYzJGTERSU1JfQVRsWkRqeklfNjdOdTdvVkNXZHFUWnFpLXM3b1BrQkpjQ3pJU015b3NUR3NScG5fZm1Xc29sOTFRRDhVcnZMY1E?oc=5"
+        },
+        {
+          "label": "GNews · Roland-Garros 2026 — Deuxième tour : revivez le jeudi 28 mai - Roland-Garros 2026",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZDJlSnpRZnBGby1ZQWg0WjlOVGJ5amZ5Y2V0WDZqemszTlg1d21Lc05xMEVtV2UtTGxoSEdSU2xXMGluUUQ0a3hzTFRzS2lGREVIbG15NUhnek9VZk1BbFFMXzVSUTZpOURyakVuTGlqdl9ubnhrRG5OUWhBNnhweDA2U054S0FrY0FIT0hlVTVKMVg0dllJWnN6U0wwalY4ZDNYX0ZBczlpUkptREFF?oc=5"
+        },
+        {
+          "label": "GNews · Reporterre, le média de l'écologie — « Vous voulez qu’un joueur meure sur le court ? » de Roland Garros à l'Open d'Australie, le tennis au défi des canicules",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNODBqZDZTZkhFSERyRGx3RUlBdHNvSlpCeEJXLTQwWXhKRUdZSHM0d0pHaENpMTJXMk5wd1JmbWcxN0lqeG5TUGtoTnJ6MXJiTllaSm80aWVQVXhfYmNIU3YtcWU4czhsYjVKNDJWZDNSc1pmeFJTWGlQTzFpanlRdA?oc=5"
+        }
+      ],
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
+      "discover_entities": [
+        "Diane Parry",
+        "Jannik Sinner",
+        "Roland-Garros"
+      ]
+    },
+    {
+      "id": "s07",
+      "rank": 7,
+      "title": "Patrick Bruel interrompu et insulté en pleine pièce de théâtre à Paris : ce qui s’est passé au Théâtre Édouard VII",
+      "theme": "actualite",
+      "score": 43,
+      "tier": "medium",
+      "rationale": "Forte audience Wikipedia (26 997 vues/jour) · couvert par 3 médias · engagement MSN élevé.",
       "signals": [
         {
           "source": "gsc",
@@ -478,114 +688,6 @@
           "source": "wiki",
           "label": "wiki",
           "value": "27k vues"
-        },
-        {
-          "source": "x",
-          "label": "x",
-          "value": "#179"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "21+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.0",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "3 médias",
-          "fill": 70
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "27k vues/h",
-          "fill": 97
-        },
-        {
-          "name": "X velocity",
-          "value": "rang #179",
-          "fill": 20
-        },
-        {
-          "name": "MSN engagement",
-          "value": "45/100",
-          "fill": 45
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.0,
-        "trends": 0.0,
-        "wiki": 97.9,
-        "gnews": 70.0,
-        "msn": 45.2,
-        "x": 20.0,
-        "total": 44.0
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/other/moïse-kouame-son-aveu-au-public-après-la-victoire/ar-AA24hAVc?ocid=00000000",
-      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24hS85.img",
-      "msn_source_name": "Sports.fr",
-      "refs": [
-        {
-          "label": "MSN · Sports.fr — Moïse Kouame, son aveu au public après la victoire",
-          "url": "https://www.msn.com/fr-fr/sport/other/moïse-kouame-son-aveu-au-public-après-la-victoire/ar-AA24hAVc?ocid=00000000"
-        },
-        {
-          "label": "Discover · YouTube — Moïse Kouamé : le nouveau phénomène du tennis français est né",
-          "url": "https://www.youtube.com/watch?v=B3b9H5Qw2b0"
-        },
-        {
-          "label": "GNews · franceinfo — Embraser le public, tenir physiquement, gérer mentalement : comment Moïse Kouame a trouvé les ressources pour rallier un 3e tour historique à Roland-Garros",
-          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNNTlPbHJMRXcwS3owbmNuYU5UTWJibGRGQTRXa2tmT2dxNjYyUGVhdXNZc0lXbDVBMDhEdWdBTWFtdE9xRnJuS01zMDZPZERhOVNiWjl3MmFINWhhRmRKOE10VTJnX09MWUxOUzdwdzRtR2N4UHFpblE3bEZBSnVQN3ZXZ3RheXpEUnRpWkVEZlpEX3lJMGdwLThOeFg1R0tsNXNpRmdEdkhmLW1wWEVzY2VnMV81QldfT1hHX2lUSUgwdnNzSWFaUTVhTUFkbWNDeVY5SlVDOVJYV08xYUFNMldDUVBMSlFXbzYtNzMtYk9xcmJzcVVhZjNGaUViLW9ZSGk5TV9LcnpkalRLelNGV3ZPM1lCU0NYSFZlbmpPMlE2b0tDeE5LRVF3dC0?oc=5"
-        },
-        {
-          "label": "GNews · Canal Supporters PSG 24-7 — Le PSG Handball champion de France après sa victoire dans le choc face à Nantes - Canal Supporters PSG 24-7",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcTNPNlNobUpzWm9uMGpkbVRQWkhfV21icklvYkEzXzE1MHEySlFoM3pSNWtSN3pjWFkzVHZWUlJKMHlWNE5SVjZLWHlDMTJrbzEtdUxqX3Z2dW9wbVRheUJZc0xwclZ3M3VMOFpHU0ljWk9XQWN6aDFYUnFscC12WjhSU1lkNG9WZXNNZnZJTV85MXlmZWZBWkpFb1ZxY29HSGZhYUVoQXFGM1ktZUHSAdcCQVVfeXFMTmdxR2JiOTNROVJFU3d2NV9Ga2pRdFI0UFF3OG9CaTZmUm1Pa3RDcllSa0M4U1BXaF9zb2M0LXBQZnlYeW5RSEcwLXlQYVg4bkhRcW1iZE44WENWdENfRVF0bURYSU1xTlJHZE45LXRHTFhvQmdiSm5UeVFtYWxYdzVSUUpPZWNMU1B0VGtXeENTZS1UYUlEMXBQX0xXcWp2Yzg4d3dlZ1JsSTJnWEQ2ZlBvUUI2ejZMVkI1RmgwNklKWWR1eGtibzliMVpDOURkUnZnSzV2LV8wQkJ5UVV3dTFDUkJxdTE2d0JoMnhhX25iTzBnaWtkZzdYeXd2blZVY2R0UVpTOURHTFpHMnBiRU1IdzNxVnR4aHVCSUJqOGJyeU4yZFBOWFJPeFZwaTQ0bXpGcGh0SURVdU1nSVZPUE4tS1pkbEw1cC02dC1PZXpPTkN4ZEJaMA?oc=5"
-        },
-        {
-          "label": "GNews · Le Monde.fr — Roland-Garros 2026, les résultats du jeudi 28 mai : Moïse Kouamé et Diane Parry qualifiés pour le troisième tour, élimination surprise du numéro 1 mondial Jannik Sinner",
-          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxORGN2VG9GMUFTUFNVV2VWU3hCS29QYmJyNmxGcmFVM0VhR19BZVhGV2kyOW5hdG14MmdpUkVrQ1pJQkFTMzRDWEo1UFRKUktRZ1JieTZGWFdFRG1KUW5aNTc0MklpX1J0QW1oRThMWXFWeWpjWk53SGdackxPS0hQRS15dGdTLU0xMHRzVC1hTnQtZHJlRXNJUEFFUDY2VnRDUUYxSHNMUlJYY2JfRnlteHJyeTZhdVBnZThWUXhTaDByZ1RKMTJlUjVvNWRaX3VLOUtqdjN6YkVGSlhsV0htRjZnTlZlSWVRQjNqY3B0b3Jfb3pwQmJpWGlzWjMyR252MnlJQkhOVWxCVWRKWHZrRjFlNDFOTGFTbTFNT1lvRHhMM3JmSXNmcTdR?oc=5"
-        }
-      ],
-      "discover_category": "/Sports/Individual Sports/Racquet Sports",
-      "discover_entities": [
-        "Roland-Garros",
-        "Sport",
-        "Tennis"
-      ]
-    },
-    {
-      "id": "s06",
-      "rank": 6,
-      "title": "Patrick Bruel interrompu et insulté en pleine pièce de théâtre à Paris : ce qui s’est passé au Théâtre Édouard VII",
-      "theme": "actualite",
-      "score": 36,
-      "tier": "medium",
-      "rationale": "Présent dans le top Wikipedia · couvert par 3 médias · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "3 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "12k vues"
         },
         {
           "source": "news",
@@ -611,8 +713,8 @@
         },
         {
           "name": "Wikimedia",
-          "value": "12k vues/h",
-          "fill": 55
+          "value": "27k vues/h",
+          "fill": 98
         },
         {
           "name": "X velocity",
@@ -628,11 +730,11 @@
       "score_breakdown": {
         "discover": 0.9,
         "trends": 0.0,
-        "wiki": 55.6,
+        "wiki": 98.6,
         "gnews": 70.0,
         "msn": 81.1,
         "x": 0.0,
-        "total": 36.2
+        "total": 42.7
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-interrompu-et-insulté-en-pleine-pièce-de-théâtre-à-paris-ce-qui-s-est-passé-au-théâtre-édouard-vii/ar-AA24gQfU?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.ff786839ecf11fcd556e41ca3e76cf91&pid=Wdp",
@@ -647,12 +749,12 @@
           "url": "https://x.com/afpfr/status/2059900044837298606"
         },
         {
-          "label": "GNews · Le Monde.fr — « Patrick Bruel a pour lui les fans. Mais il a contre lui des élus de tout bord, et c’est inédit »",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTWhwbnc1aHdNYWVYckpGYzI1bmZpTEZaS193VEFGclJVZXNhNG56R0tkYXlmeWtIYjFsVkk4VjJrdnUwRDV3TVJ5Qk1YQ2NnMlNyWEdQNm5keXlOc2JScFlmRldtLUwxckllWU5iaVhpb084MUVOVGtlb2x1UjMtSlltQXo1QU5RVHoyeHc2MkpuT2o2OXNxQUs3ZEgtcGNqTGdmektBWkg4dkllRmdqSmcxMDNyblUzS0xTU0x3ck53Y05RSzRXem56ZUlLampHZHh0YjgyMkFxYkhhUGtIS0NuWlZYY01Mbk9zRzZsOA?oc=5"
-        },
-        {
           "label": "GNews · Linternaute.com — Patrick Bruel : nouvelle réaction du chanteur, ce qu'il a dit à ses proches est une déflagration",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZFBwLXdpcGp3cVlCVlFURDlEZWhhS011UVJJdWQyeEVBRGdYVERMekNlZDBmdVZrTjJTZ0dpWjV3N0VHN1NYTDhsaExmVDI5MDZ0OEtZeEtQaGh2WUNaVzdWMW5rbnR0SUkwUmo5Y0JIR0VsbEMxekpnenp0a1cwRVlHUGpnamJRWFBiWFdmeGktcUIzZU1waGRJUXB2VV96WHEwQ3h4MHlVaHhFSE12ZElnTnBkUjV0VFA4bHRDMVoyUWVicmVF?oc=5"
+        },
+        {
+          "label": "GNews · parismatch.com — « Je sais que ma carrière est terminée » : tentatives de viol, agressions sexuelles... Affaire Patrick Bruel, nos révélations",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWk0zcWJHWDRBVGF5ZVItbmVsUktRVjJra1VPUkJuV3puNG1KMVcwcUhNY3BNRVhsc0dTdldDQkxmTV9xVGRINmpUdm9IbU0zWElBNkZoOWxlM1JkV0d1VHhRR0pEZC1iWm45cFJRN01jMFQ3cm5PMzJTTHdid1lzR3YxZnp0MWk5LTJPNVktelBZZTN3ZWYzZDFfdEpTT3RmRllkQXlFTXFLZkN4OVI5Nm5zM1czTFg1Y0hjVGZ3WFhIdHVtNDFBN3d3dUMzN2JFZnFNUVdMZ2tQVk5CSU5OQ09TZGlpVUF0QzRn?oc=5"
         },
         {
           "label": "GNews · public.fr — Patrick Bruel : Flavie Flament refuse la chambre mise à sa disposition dans l’hôtel du chanteur lors sa dernière venue à L’Isle-sur-la-Sorgue",
@@ -665,8 +767,212 @@
       ]
     },
     {
-      "id": "s07",
-      "rank": 7,
+      "id": "s08",
+      "rank": 8,
+      "title": "Moïse Kouame, son aveu au public après la victoire",
+      "theme": "sport",
+      "score": 37,
+      "tier": "medium",
+      "rationale": "Forte audience Wikipedia (284 303 vues/jour) · couvert par 3 médias.",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "284k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "21+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.0",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "3 médias",
+          "fill": 70
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "284k vues/h",
+          "fill": 100
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "45/100",
+          "fill": 45
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 0.0,
+        "wiki": 100.0,
+        "gnews": 70.0,
+        "msn": 45.2,
+        "x": 0.0,
+        "total": 37.3
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/other/moïse-kouame-son-aveu-au-public-après-la-victoire/ar-AA24hAVc?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24hS85.img",
+      "msn_source_name": "Sports.fr",
+      "refs": [
+        {
+          "label": "MSN · Sports.fr — Moïse Kouame, son aveu au public après la victoire",
+          "url": "https://www.msn.com/fr-fr/sport/other/moïse-kouame-son-aveu-au-public-après-la-victoire/ar-AA24hAVc?ocid=00000000"
+        },
+        {
+          "label": "Discover · YouTube — Moïse Kouamé : le nouveau phénomène du tennis français est né",
+          "url": "https://www.youtube.com/watch?v=B3b9H5Qw2b0"
+        },
+        {
+          "label": "GNews · franceinfo — Embraser le public, tenir physiquement, gérer mentalement : comment Moïse Kouame a trouvé les ressources pour rallier un 3e tour historique à Roland-Garros",
+          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNNTlPbHJMRXcwS3owbmNuYU5UTWJibGRGQTRXa2tmT2dxNjYyUGVhdXNZc0lXbDVBMDhEdWdBTWFtdE9xRnJuS01zMDZPZERhOVNiWjl3MmFINWhhRmRKOE10VTJnX09MWUxOUzdwdzRtR2N4UHFpblE3bEZBSnVQN3ZXZ3RheXpEUnRpWkVEZlpEX3lJMGdwLThOeFg1R0tsNXNpRmdEdkhmLW1wWEVzY2VnMV81QldfT1hHX2lUSUgwdnNzSWFaUTVhTUFkbWNDeVY5SlVDOVJYV08xYUFNMldDUVBMSlFXbzYtNzMtYk9xcmJzcVVhZjNGaUViLW9ZSGk5TV9LcnpkalRLelNGV3ZPM1lCU0NYSFZlbmpPMlE2b0tDeE5LRVF3dC0?oc=5"
+        },
+        {
+          "label": "GNews · Le Figaro — Roland-Garros : «Un match difficile, long, très épuisant», assure Djokovic après sa victoire face à Royer",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNLTVRcjFYRTdLMHRMZDVoSW5lY2RSS3RrV1l6SXAwV09sN2VCeERIbDJwbnFzRHIyZmNkeG1FQnpjekFvSHpCVTBpVlJfVnJXRnF2ODRKN3ROWTFkUlJmcXJ5OU9pckhGcmRCY01kZXp4T3AtanJKVGJZUVZiNzJNUGFQMm9mUlFhRTdiRkNQamc3V1JvbFZBcm1qNUpMb2tSb2hsSjEwYzJGTERSU1JfQVRsWkRqeklfNjdOdTdvVkNXZHFUWnFpLXM3b1BrQkpjQ3pJU015b3NUR3NScG5fZm1Xc29sOTFRRDhVcnZMY1E?oc=5"
+        },
+        {
+          "label": "GNews · Le Monde.fr — EN DIRECT, Roland-Garros 2026 : élimination surprise de Jannik Sinner, Moïse Kouamé et Diane Parry qualifiés côté Français, Elsa Jacquemot s’incline face à Aryna Sabalenka",
+          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxORGN2VG9GMUFTUFNVV2VWU3hCS29QYmJyNmxGcmFVM0VhR19BZVhGV2kyOW5hdG14MmdpUkVrQ1pJQkFTMzRDWEo1UFRKUktRZ1JieTZGWFdFRG1KUW5aNTc0MklpX1J0QW1oRThMWXFWeWpjWk53SGdackxPS0hQRS15dGdTLU0xMHRzVC1hTnQtZHJlRXNJUEFFUDY2VnRDUUYxSHNMUlJYY2JfRnlteHJyeTZhdVBnZThWUXhTaDByZ1RKMTJlUjVvNWRaX3VLOUtqdjN6YkVGSlhsV0htRjZnTlZlSWVRQjNqY3B0b3Jfb3pwQmJpWGlzWjMyR252MnlJQkhOVWxCVWRKWHZrRjFlNDFOTGFTbTFNT1lvRHhMM3JmSXNmcTdR?oc=5"
+        }
+      ],
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
+      "discover_entities": [
+        "Roland-Garros",
+        "Sport",
+        "Tennis"
+      ]
+    },
+    {
+      "id": "s09",
+      "rank": 9,
+      "title": "« Il n'y a rien » : divorcé de Flavie Flament, Benjamin Castaldi se confie sur leur relation après les accusations contre Patrick Bruel",
+      "theme": "divertissement",
+      "score": 37,
+      "tier": "medium",
+      "rationale": "Forte audience Wikipedia (26 997 vues/jour) · forte couverture médiatique (5 médias).",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "5 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "27k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "25+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.1",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "5 médias",
+          "fill": 86
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "27k vues/h",
+          "fill": 98
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "28/100",
+          "fill": 28
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.5,
+        "trends": 0.0,
+        "wiki": 98.6,
+        "gnews": 86.3,
+        "msn": 28.5,
+        "x": 0.0,
+        "total": 37.1
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/il-n-y-a-rien-divorcé-de-flavie-flament-benjamin-castaldi-se-confie-sur-leur-relation-après-les-accusations-contre-patrick-bruel/ar-AA24hWlw?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.1bfda76c89d8569c532b59f2c340263a&pid=Wdp",
+      "msn_source_name": "Aufeminin",
+      "refs": [
+        {
+          "label": "MSN · Aufeminin — « Il n'y a rien » : divorcé de Flavie Flament, Benjamin Castaldi se confie sur leur relation après les accusations contre Patrick Bruel",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/il-n-y-a-rien-divorcé-de-flavie-flament-benjamin-castaldi-se-confie-sur-leur-relation-après-les-accusations-contre-patrick-bruel/ar-AA24hWlw?ocid=00000000"
+        },
+        {
+          "label": "Discover · Melty — Après Patrick Bruel, Cyril Hanouna pris au piège : \"Il passe son temps à mentir\", une peine d'un an de prison pour l'escroc qui les a roulés dans la farine",
+          "url": "https://www.melty.fr/people/apres-patrick-bruel-cyril-hanouna-pris-au-piege-il-passe-son-temps-a-mentir-une-peine-dun-an-de-prison-pour-lescroc-qui-les-a-roules-dans-la-farine-2320205.html"
+        },
+        {
+          "label": "GNews · NextPlz — \"Une catastrophe !\" : Flavie Flament trompée par Benjamin Castaldi, ce SMS destiné à sa maitresse a précipité leur divorce",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObjRKMWxFejJNc3Q0VUJodmFRMjI5WGdiNWl3RGdsYUhFbDFnY3dBa0pwSE5kSkR3X2Voa2J0NXJfdnF5YVM3UG9FZE5vVFBkNTdzYlBqYlN3eXRwb25aM1FGQjYtZXdWQzVCeGNhWUpJWWNIeXkyU0ZBSkViTGNuNXhwY21YZWVTTGV6bGluSjZ2LTdGVjlTLTZCcUJNZ0hXOVdGTDdMY1J6RUJxWHlvWEJLcFVKNVpiSnZhbC03aDdzMUtCMDVxX1NDODNjVzZkckdMQ2tCYnlnM1lSalBSTkNHaG5TN1k?oc=5"
+        },
+        {
+          "label": "GNews · public.fr — Patrick Bruel : Flavie Flament refuse la chambre mise à sa disposition dans l’hôtel du chanteur lors sa dernière venue à L’Isle-sur-la-Sorgue",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNcU9QdmYxc0lxd2pTWE93NUc2bWZXbWU0X2p5N1BfOGdMellyeDQyb19tYlJWaEtnSVgwR3ZDRG01S2FZd3pYVjh6S1RDeXltMWE4SnYtOFJjcVVheVJJU3I0THpJNmt6QU5oUmt3ODNHcm54djZPWloyVEhYNEhtc1J1RXY5eDBDQzd0Tk1iY3lLbzdPZU5rOGZYUlFYRU04MWtCNzdWZnBXVmxndklUU1ZuQ3NRZkFmZDBMOTktMWNoMGFTWDF1N3JOS2NDMWRBTlpLRmRqRDducnlmUnFGV214RjAtdEhmcVhlTUtrYnJiYlc5VXc?oc=5"
+        },
+        {
+          "label": "GNews · Linternaute.com — Patrick Bruel : nouvelle réaction du chanteur, ce qu'il a dit à ses proches est une déflagration",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZFBwLXdpcGp3cVlCVlFURDlEZWhhS011UVJJdWQyeEVBRGdYVERMekNlZDBmdVZrTjJTZ0dpWjV3N0VHN1NYTDhsaExmVDI5MDZ0OEtZeEtQaGh2WUNaVzdWMW5rbnR0SUkwUmo5Y0JIR0VsbEMxekpnenp0a1cwRVlHUGpnamJRWFBiWFdmeGktcUIzZU1waGRJUXB2VV96WHEwQ3h4MHlVaHhFSE12ZElnTnBkUjV0VFA4bHRDMVoyUWVicmVF?oc=5"
+        }
+      ],
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Patrick Bruel"
+      ]
+    },
+    {
+      "id": "s10",
+      "rank": 10,
       "title": "Affaire Patrick Bruel : la femme qui lui aurait réclamé une importante somme d'argent en échange de son silence s'exprime",
       "theme": "divertissement",
       "score": 35,
@@ -686,7 +992,7 @@
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "1k vues"
+          "value": "2k vues"
         },
         {
           "source": "news",
@@ -697,8 +1003,8 @@
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 10.1",
-          "fill": 39
+          "value": "score 10.4",
+          "fill": 40
         },
         {
           "name": "Google News",
@@ -712,8 +1018,8 @@
         },
         {
           "name": "Wikimedia",
-          "value": "1k vues/h",
-          "fill": 8
+          "value": "2k vues/h",
+          "fill": 13
         },
         {
           "name": "X velocity",
@@ -722,18 +1028,18 @@
         },
         {
           "name": "MSN engagement",
-          "value": "57/100",
-          "fill": 57
+          "value": "53/100",
+          "fill": 52
         }
       ],
       "score_breakdown": {
-        "discover": 39.2,
+        "discover": 40.1,
         "trends": 0.0,
-        "wiki": 8.1,
+        "wiki": 13.5,
         "gnews": 70.0,
-        "msn": 57.1,
+        "msn": 52.8,
         "x": 0.0,
-        "total": 35.1
+        "total": 35.5
       },
       "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/affaire-patrick-bruel-la-femme-qui-lui-aurait-réclamé-une-importante-somme-d-argent-en-échange-de-son-silence-s-exprime/ar-AA24hl8p?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.6c301fef0b8f11aa51c9cec060ca41bb&pid=Wdp",
@@ -748,8 +1054,8 @@
           "url": "https://www.youtube.com/watch?v=hqDAMEIneaA"
         },
         {
-          "label": "GNews · Le Monde.fr — « Patrick Bruel a pour lui les fans. Mais il a contre lui des élus de tout bord, et c’est inédit »",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTWhwbnc1aHdNYWVYckpGYzI1bmZpTEZaS193VEFGclJVZXNhNG56R0tkYXlmeWtIYjFsVkk4VjJrdnUwRDV3TVJ5Qk1YQ2NnMlNyWEdQNm5keXlOc2JScFlmRldtLUwxckllWU5iaVhpb084MUVOVGtlb2x1UjMtSlltQXo1QU5RVHoyeHc2MkpuT2o2OXNxQUs3ZEgtcGNqTGdmektBWkg4dkllRmdqSmcxMDNyblUzS0xTU0x3ck53Y05RSzRXem56ZUlLampHZHh0YjgyMkFxYkhhUGtIS0NuWlZYY01Mbk9zRzZsOA?oc=5"
+          "label": "GNews · parismatch.com — « Je sais que ma carrière est terminée » : tentatives de viol, agressions sexuelles... Affaire Patrick Bruel, nos révélations",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWk0zcWJHWDRBVGF5ZVItbmVsUktRVjJra1VPUkJuV3puNG1KMVcwcUhNY3BNRVhsc0dTdldDQkxmTV9xVGRINmpUdm9IbU0zWElBNkZoOWxlM1JkV0d1VHhRR0pEZC1iWm45cFJRN01jMFQ3cm5PMzJTTHdid1lzR3YxZnp0MWk5LTJPNVktelBZZTN3ZWYzZDFfdEpTT3RmRllkQXlFTXFLZkN4OVI5Nm5zM1czTFg1Y0hjVGZ3WFhIdHVtNDFBN3d3dUMzN2JFZnFNUVdMZ2tQVk5CSU5OQ09TZGlpVUF0QzRn?oc=5"
         },
         {
           "label": "GNews · Linternaute.com — Patrick Bruel : nouvelle réaction du chanteur, ce qu'il a dit à ses proches est une déflagration",
@@ -767,13 +1073,13 @@
       ]
     },
     {
-      "id": "s08",
-      "rank": 8,
-      "title": "Condamné à de la prison ferme pour détournements de fonds publics, Patrick Balkany échappe à l'incarcération",
+      "id": "s11",
+      "rank": 11,
+      "title": "Ivry-sur-Seine : Ileana, 10 ans, portée disparue depuis près de deux semaines, a été retrouvée en vie",
       "theme": "actualite",
-      "score": 33,
+      "score": 35,
       "tier": "medium",
-      "rationale": "Couvert par 2 médias · mentionné sur X · engagement MSN élevé.",
+      "rationale": "Présent sur Google Trends · couvert par 3 médias · engagement MSN élevé.",
       "signals": [
         {
           "source": "gsc",
@@ -783,34 +1089,34 @@
         {
           "source": "news",
           "label": "gnews",
-          "value": "2 médias"
+          "value": "3 médias"
         },
         {
-          "source": "x",
-          "label": "x",
-          "value": "#49"
+          "source": "trends",
+          "label": "trends",
+          "value": "10k"
         },
         {
           "source": "news",
           "label": "msn",
-          "value": "96+ react."
+          "value": "79+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 0.8",
-          "fill": 3
+          "value": "score 0.1",
+          "fill": 0
         },
         {
           "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
+          "value": "3 médias",
+          "fill": 70
         },
         {
           "name": "Google Trends",
-          "value": "—",
-          "fill": 0
+          "value": "10k",
+          "fill": 21
         },
         {
           "name": "Wikimedia",
@@ -819,8 +1125,8 @@
         },
         {
           "name": "X velocity",
-          "value": "rang #49",
-          "fill": 40
+          "value": "—",
+          "fill": 0
         },
         {
           "name": "MSN engagement",
@@ -829,44 +1135,150 @@
         }
       ],
       "score_breakdown": {
-        "discover": 3.6,
-        "trends": 0.0,
+        "discover": 0.5,
+        "trends": 21.0,
         "wiki": 0.0,
-        "gnews": 57.1,
+        "gnews": 70.0,
         "msn": 100.0,
-        "x": 40.0,
-        "total": 33.5
+        "x": 0.0,
+        "total": 34.8
       },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/condamné-à-de-la-prison-ferme-pour-détournements-de-fonds-publics-patrick-balkany-échappe-à-l-incarcération/ar-AA24h45B?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.5ff13241d8214aa88a51cfac499afd9b&pid=Wdp",
-      "msn_source_name": "AFP",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/ivry-sur-seine-ileana-10-ans-portée-disparue-depuis-près-de-deux-semaines-a-été-retrouvée-en-vie/ar-AA24gozw?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.8e159581c87d513b8dc8247f21f2306c&pid=Wdp",
+      "msn_source_name": "Le Parisien",
       "refs": [
         {
-          "label": "MSN · AFP — Condamné à de la prison ferme pour détournements de fonds publics, Patrick Balkany échappe à l'incarcération",
-          "url": "https://www.msn.com/fr-fr/actualite/france/condamné-à-de-la-prison-ferme-pour-détournements-de-fonds-publics-patrick-balkany-échappe-à-l-incarcération/ar-AA24h45B?ocid=00000000"
+          "label": "MSN · Le Parisien — Ivry-sur-Seine : Ileana, 10 ans, portée disparue depuis près de deux semaines, a été retrouvée en vie",
+          "url": "https://www.msn.com/fr-fr/actualite/france/ivry-sur-seine-ileana-10-ans-portée-disparue-depuis-près-de-deux-semaines-a-été-retrouvée-en-vie/ar-AA24gozw?ocid=00000000"
         },
         {
-          "label": "Discover · TF1 Info — Détournements de fonds publics : Patrick Balkany condamné à de la prison ferme",
-          "url": "https://www.tf1info.fr/justice-faits-divers/detournements-de-fonds-publics-patrick-balkany-condamne-a-de-la-prison-ferme-2444085.html"
+          "label": "Discover · Sud Ouest — Biarritz : des habitants et commerçants du quartier Saint-Martin privés d’internet depuis plus de deux semaines",
+          "url": "https://www.sudouest.fr/pyrenees-atlantiques/biarritz/biarritz-des-habitants-et-commercants-du-quartier-saint-martin-prives-d-internet-depuis-plus-de-deux-semaines-29265338.php"
         },
         {
-          "label": "GNews · Le HuffPost — Patrick Balkany condamné à de la prison ferme sans mandat de dépôt pour détournements de fonds publics",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUXg3VmJ6LVI2LUtnQVVlMzJhdFI3ZlVfcC02NURsMlZ2OTFCeEc1ZEg4MFhrYThQLWpnMFlHUVVkd1FEVUQzOVhlZlRlZXBEbUpLQWE1UzViWmtGZGo0ejVCcnNHUkZFSS02OGVLMG5QRXU1TlNQRVVBOHNqTTAzNUNpRzFlNWZJYzVMb095bEg3WTI2YXNlUGRzdzVYVXdQaC1Lb3lpcmpoVm1maUZtT1prVms4U3NkS0RZYi1hSmY1YUxLZW81SVMyTjh5Z2V4Y0pDT0dkSFVrQnRRYlE?oc=5"
+          "label": "GNews · Midi Libre — Elle était portée disparue depuis près de trois semaines : la petite Iléana, 10 ans, a été retrouvée vivante",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNWGNoOXNGNkNTUTduRW1xVklRZU9ZajVqTUpPeHRtZUlQU3FLNm9CR0VXVXk2OXRDeWpnYTdzdC11TDVKcEVPVU9mTDVwc19TRUUwUDVoUXNYcVVMRmRycUM4OC1DUldsVHNISHFyS2ZXUk9SRTFUbm0xSVNPc3NZUndiajI2S1kxY0kxUWItckE2VFNMQlZFbHRFY2hScVRZY3FGRjI0YVE3QUxMYkNraHkza0RNV1M4V0ZvQWNRN3cwZlNaSjROTkZpU2lLNXIySU9LMmZicHJSZjFLTXR6bTVBbFNDVXdXT0M0UzdHM2JsRnJvWk1WNDFJUUt3OVFiazNHcA?oc=5"
         },
         {
-          "label": "GNews · Le Monde.fr — Mort de Matthew Perry : l’assistant personnel qui lui injectait régulièrement de la kétamine condamné à trois ans de prison",
-          "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNd2tGOHdEb2xpRzJjQmdoZGtxRHdHbGxmWDlERVJfZE52N0VsY3JTaU1CdkNwWHpoak9jWGxfSklQMmYzMkxwSVRhWUVQNjZQU1pCQkhPRDdZZG55NlRDZEF2VjdOSUJ5UW5nWFpwMmpGSnFnNmpuN1I1d0l5UzBIM0poV2NXM2Q1R1JrdExCUmhVX3R0cjhjbzQ3R2labUNVT1l2N2NNTzVwT19oLTlxNTJxNEhjT2oyUlhfeURIQ0tnRU00TlBacnNPSEJQTUVBc0hYX0NEVzJpdk54ak02dXZ2WVFxZVRKUzRBMWVqSE9ocEF3U3NhTE1HQ2YzVG83YzJtZjQ0RUZaYzQxZzRLMWZ4Rm9peVNROTI2ZU9xakE?oc=5"
+          "label": "GNews · BFM — Les deux Français disparus en mer au Maroc ont été retrouvés sains et saufs",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRWhQSFFFeG9FdFBPckJmWk1GbHhONDNBNVVndFFCNXRoeDVkdS1fUVpYSlgzRTk3ck5IcF8xWE96R1RWaFlESDFNakktVU13dFJTamREWTVDaVRVRTFpSmQ4cEJLb2hMcXI5TFJJMWREbjZkSndNMWRhbVQ4WUlmMUV0X2dWaUZJcnliaVctQU51NVVMUGdwY3F5RW5TSkRCUGNEbk0xU0NpSTgtNkNYV1JJMWlsTGlzOVdKNEZSbEJPS2h5QjRRbU9CelRKNzNxSzRqdzJIU1g0V2kyaEM4?oc=5"
+        },
+        {
+          "label": "GNews · Le Monde.fr — EN DIRECT, guerres au Moyen-Orient : au moins 17 morts au Liban jeudi, dont une femme et deux enfants près de Beyrouth ; la Finul déplore une « escalade » des tensions",
+          "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOdnEzMlhsbEtSUVBBb01ZdkVWUGhQQ1hnQXRYODgwX3F1VGFFSnJXMHJJTm5FMUNsTTk3RnRoYmVLakwtRC1iTVFhbWZOSmJOQzlIRDJqNl9takJGcThLT2RXSktUbTlaOEpvN0cxd1hod1lFZ2s2WlRFaV8yYndWbklaTzRoVWsyV05odUJLTzhJNDNjTVFXd0gwcnNuVHNUS3pDeVJnLXdYb1I2aFJ3aFhHN1F0cTRMSEIwZTlGRkJnR0FYaUVhZVBJT0QwYk1ac25RVS1QbGQyQ1JodmdSTG1xVjEwSUdVdFlWTFlPUFczNHkyaXRkZW03Z0hUYWU0c0hQTDZWNjlaWnhGelpZVU1CaFdRY29GVFl5dHh5STVkTUoxMXNNSG1XdUhucFZibm1fUkx6aWVUYldYck14RFZIdE5VbXM2Z3ROeA?oc=5"
         }
       ],
       "discover_category": "/News",
       "discover_entities": [
-        "Maire de Levallois-Perret",
-        "Patrick Balkany"
+        "Biarritz"
       ]
     },
     {
-      "id": "s09",
-      "rank": 9,
+      "id": "s12",
+      "rank": 12,
+      "title": "Jordan Bardella : ce que l’exposition de Maria Carolina change dans son image publique",
+      "theme": "divertissement",
+      "score": 33,
+      "tier": "medium",
+      "rationale": "Présent sur Google Discover · présent sur Google Trends · présent dans le top Wikipedia · couvert par 2 médias.",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "7.6/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "2 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "200"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "6k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "4+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 7.6",
+          "fill": 30
+        },
+        {
+          "name": "Google News",
+          "value": "2 médias",
+          "fill": 57
+        },
+        {
+          "name": "Google Trends",
+          "value": "200",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "6k vues/h",
+          "fill": 31
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "15/100",
+          "fill": 15
+        }
+      ],
+      "score_breakdown": {
+        "discover": 30.6,
+        "trends": 0.5,
+        "wiki": 31.6,
+        "gnews": 57.1,
+        "msn": 15.0,
+        "x": 0.0,
+        "total": 33.3
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/actualite/jordan-bardella-ce-que-l-exposition-de-maria-carolina-change-dans-son-image-publique/ar-AA24fudG?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.617595799a181fb106944351b81fa39c&pid=Wdp",
+      "msn_source_name": "So Busy Girls",
+      "refs": [
+        {
+          "label": "MSN · So Busy Girls — Jordan Bardella : ce que l’exposition de Maria Carolina change dans son image publique",
+          "url": "https://www.msn.com/fr-fr/divertissement/actualite/jordan-bardella-ce-que-l-exposition-de-maria-carolina-change-dans-son-image-publique/ar-AA24fudG?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le Figaro — « L’Allemagne de Merz n’est plus celle de Merkel » : Jordan Bardella se rapproche de la droite allemande au détriment de l’AfD",
+          "url": "https://www.lefigaro.fr/politique/l-allemagne-de-merz-n-est-plus-celle-de-merkel-jordan-bardella-se-rapproche-de-la-droite-allemande-au-detriment-de-l-afd-20260528"
+        },
+        {
+          "label": "GNews · Linternaute.com — La mère de Maria Carolina a bien son opinion sur Jordan Bardella et sur le RN",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBdE1IWkdTbmxCZDQ3Tm1hV25EMUpsejBveExJR2NvM2l1aG5lNWtENTVqY0VqY3cyNDMxZ0lXbUhTbm4wb0RkNWU2MmRmemhZOWxwUF9yRWVlUE1KY1lfN0pDTlNOTlptVHNNczMtMXBreVFJTV82RA?oc=5"
+        },
+        {
+          "label": "GNews · franceinfo — Jordan Bardella annonce déposer plainte contre le rappeur Soli pour des \"menaces de mort\"",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYjRfdFl3SGJ6UjBmLTM1aUx1NEh2UVVDS0dXbVRlajVoS1JiNjVBVG1ydFRPMEQ3RVZpWTVoSEFqNl9YX3k4MEROOE5UYWdJY01PX3lTUmdaeHItdDh3cW01S19tTEhJOGVXRDlIbDQ0YjFpczVXMk9iZXZfc0xFYWtjR3RsUjdIQUh5R0dqUThKUlZBT19PaWhDVGFjSDJiTDVHTF9MOHIzUHF1cmNKSVdXc2s4aGtFWklGc3p2YVlOS1hlY3BGdDJIOXQzU2VMZ05FZU5RS3FUT3gxNGhoZTNOVU5PUHM?oc=5"
+        }
+      ],
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Friedrich Merz",
+        "Jordan Bardella"
+      ]
+    },
+    {
+      "id": "s13",
+      "rank": 13,
       "title": "Dans une déclaration surprenante, Trump menace de bombarder Oman, puis confond l’Iran et le Venezuela",
       "theme": "actualite",
       "score": 33,
@@ -964,210 +1376,13 @@
       ]
     },
     {
-      "id": "s10",
-      "rank": 10,
-      "title": "« Il n'y a rien » : divorcé de Flavie Flament, Benjamin Castaldi se confie sur leur relation après les accusations contre Patrick Bruel",
-      "theme": "divertissement",
-      "score": 31,
-      "tier": "medium",
-      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (5 médias).",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "5 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "12k vues"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "28+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "5 médias",
-          "fill": 86
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "12k vues/h",
-          "fill": 55
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "32/100",
-          "fill": 32
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 55.6,
-        "gnews": 86.3,
-        "msn": 32.0,
-        "x": 0.0,
-        "total": 31.2
-      },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/il-n-y-a-rien-divorcé-de-flavie-flament-benjamin-castaldi-se-confie-sur-leur-relation-après-les-accusations-contre-patrick-bruel/ar-AA24hWlw?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.1bfda76c89d8569c532b59f2c340263a&pid=Wdp",
-      "msn_source_name": "Aufeminin",
-      "refs": [
-        {
-          "label": "MSN · Aufeminin — « Il n'y a rien » : divorcé de Flavie Flament, Benjamin Castaldi se confie sur leur relation après les accusations contre Patrick Bruel",
-          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/il-n-y-a-rien-divorcé-de-flavie-flament-benjamin-castaldi-se-confie-sur-leur-relation-après-les-accusations-contre-patrick-bruel/ar-AA24hWlw?ocid=00000000"
-        },
-        {
-          "label": "Discover · Melty — Après Patrick Bruel, Cyril Hanouna pris au piège : \"Il passe son temps à mentir\", une peine d'un an de prison pour l'escroc qui les a roulés dans la farine",
-          "url": "https://www.melty.fr/people/apres-patrick-bruel-cyril-hanouna-pris-au-piege-il-passe-son-temps-a-mentir-une-peine-dun-an-de-prison-pour-lescroc-qui-les-a-roules-dans-la-farine-2320205.html"
-        },
-        {
-          "label": "GNews · NextPlz — \"Une catastrophe !\" : Flavie Flament trompée par Benjamin Castaldi, ce SMS destiné à sa maitresse a précipité leur divorce",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObjRKMWxFejJNc3Q0VUJodmFRMjI5WGdiNWl3RGdsYUhFbDFnY3dBa0pwSE5kSkR3X2Voa2J0NXJfdnF5YVM3UG9FZE5vVFBkNTdzYlBqYlN3eXRwb25aM1FGQjYtZXdWQzVCeGNhWUpJWWNIeXkyU0ZBSkViTGNuNXhwY21YZWVTTGV6bGluSjZ2LTdGVjlTLTZCcUJNZ0hXOVdGTDdMY1J6RUJxWHlvWEJLcFVKNVpiSnZhbC03aDdzMUtCMDVxX1NDODNjVzZkckdMQ2tCYnlnM1lSalBSTkNHaG5TN1k?oc=5"
-        },
-        {
-          "label": "GNews · Le Monde.fr — « Patrick Bruel a pour lui les fans. Mais il a contre lui des élus de tout bord, et c’est inédit »",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTWhwbnc1aHdNYWVYckpGYzI1bmZpTEZaS193VEFGclJVZXNhNG56R0tkYXlmeWtIYjFsVkk4VjJrdnUwRDV3TVJ5Qk1YQ2NnMlNyWEdQNm5keXlOc2JScFlmRldtLUwxckllWU5iaVhpb084MUVOVGtlb2x1UjMtSlltQXo1QU5RVHoyeHc2MkpuT2o2OXNxQUs3ZEgtcGNqTGdmektBWkg4dkllRmdqSmcxMDNyblUzS0xTU0x3ck53Y05RSzRXem56ZUlLampHZHh0YjgyMkFxYkhhUGtIS0NuWlZYY01Mbk9zRzZsOA?oc=5"
-        },
-        {
-          "label": "GNews · public.fr — Patrick Bruel : Flavie Flament refuse la chambre mise à sa disposition dans l’hôtel du chanteur lors sa dernière venue à L’Isle-sur-la-Sorgue",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNcU9QdmYxc0lxd2pTWE93NUc2bWZXbWU0X2p5N1BfOGdMellyeDQyb19tYlJWaEtnSVgwR3ZDRG01S2FZd3pYVjh6S1RDeXltMWE4SnYtOFJjcVVheVJJU3I0THpJNmt6QU5oUmt3ODNHcm54djZPWloyVEhYNEhtc1J1RXY5eDBDQzd0Tk1iY3lLbzdPZU5rOGZYUlFYRU04MWtCNzdWZnBXVmxndklUU1ZuQ3NRZkFmZDBMOTktMWNoMGFTWDF1N3JOS2NDMWRBTlpLRmRqRDducnlmUnFGV214RjAtdEhmcVhlTUtrYnJiYlc5VXc?oc=5"
-        }
-      ],
-      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
-      "discover_entities": [
-        "Patrick Bruel"
-      ]
-    },
-    {
-      "id": "s11",
-      "rank": 11,
-      "title": "L’offensive du gouvernement Trump contre E Jean Carroll, une des accusatrices du président",
-      "theme": "actualite",
-      "score": 29,
-      "tier": "low",
-      "rationale": "Forte couverture médiatique (5 médias) · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "3.7/65"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "5 médias"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "53+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 3.7",
-          "fill": 15
-        },
-        {
-          "name": "Google News",
-          "value": "5 médias",
-          "fill": 86
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "80/100",
-          "fill": 80
-        }
-      ],
-      "score_breakdown": {
-        "discover": 15.9,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 86.3,
-        "msn": 80.0,
-        "x": 0.0,
-        "total": 28.9
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/l-offensive-du-gouvernement-trump-contre-e-jean-carroll-une-des-accusatrices-du-président/ar-AA24gdRF?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.1c91ec5513b5d0cf0f5e4a1aa7175cc4&pid=Wdp",
-      "msn_source_name": "Le HuffPost",
-      "refs": [
-        {
-          "label": "MSN · Le HuffPost — L’offensive du gouvernement Trump contre E Jean Carroll, une des accusatrices du président",
-          "url": "https://www.msn.com/fr-fr/actualite/monde/l-offensive-du-gouvernement-trump-contre-e-jean-carroll-une-des-accusatrices-du-président/ar-AA24gdRF?ocid=00000000"
-        },
-        {
-          "label": "Discover · BFM — Il est interdit de mettre une personne vivante sur un billet depuis 1866 mais le gouvernement américain fait pression pour que Trump soit sur un billet de 250 dollars (le président a approuvé le design)",
-          "url": "https://www.bfmtv.com/economie/international/il-est-interdit-de-mettre-une-personne-vivante-sur-un-billet-depuis-1866-mais-le-gouvernement-americaine-fait-pression-pour-que-trump-soit-sur-le-billet-de-250-dollars-le-president-a-approuve-le-design_AD-202605280602.html"
-        },
-        {
-          "label": "GNews · parismatch.com — Le ministère américain de la Justice ouvre une enquête contre la journaliste E. Jean Carroll qui a accusé Trump de viol",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOX0VzbHRkUHdpcUw4V1lyLTRscUVYdl84dXlwS0RhUmtpcEdxcDhPSTdzTlYtSWs0QkhSU2NVclR2SVB4TlRUU2hfSTZ6NG14a3JwRUlEaXBlUFBQWmhzNjdXYmRYQkV5dUE5bDhNcnhmUlJDdEdBeHlrcnUwaXBOT1VJREx2cEd4b3lMNElmN3l6Um5VYjRmNVlqOTlhMzVHSkF5cnFyNlFjRGRsMjNzV0RIMjA5R293bEZNRlJrVnk0bWNVRGlMZnFwb1ZkRnYtWEdVRi1zMTdMVEtycUhKSEpxQk1ybnZKR2dSQzZIYXgxNXdzTGhqbEZNTHp4ODB0?oc=5"
-        },
-        {
-          "label": "GNews · Le Monde.fr — « Un président dangereux, raciste, incompétent et traître » : le réquisitoire impitoyable de Bruce Springsteen contre Donald Trump lors d’un concert à Washington",
-          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQUzUtRHZsc3JyWUhjeTBRVEFMNmNNWlJGbUdtTkE0ek5udHF3QVhvdVo0eHVENFY2RWpoeWdiUmpFdVZOQmRwZk9hVENwOUxrZmpYdGpQXy1xWkFtV0pPLV9tQkVUbWlIbVE1RHlISVZBMk1HdG5ReUdmcUxQa011RURTcVNGTVBEY1c5dmUwV01GQ0lHWUIzZnVxTE1oQWI0Qm9FampaQURWb3NxN2FOZkY5RWo5RnlPVmRiTkNBS2I0OFJyUTk1dEFWUFdUSmt3Nm1rYlQxeUdEQXJMYWFka0Z1d2JISjRxRF90cUNQY096cTB1Y29VallnT3lzN0dCeWJQZFNqNURDekF0MjNVRVIwWlJsd21FaTBFWlFGSzdOLVIwUTA3NUwwcGZzcDFVZldqTFU4ZHBjUVFkOE9RME5XZ2JEVzhUTnpZ?oc=5"
-        },
-        {
-          "label": "GNews · Le Figaro — États-Unis : l'administration Trump pousse pour un billet de 250 dollars à l’effigie du président",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWVQtTHVWUDg0cnoxdmZkZ3JtbnFnNk5uZjMxdlJfWWxZYk05N2kteWh4RHBoaEUweGVEV2NVQlFKWnBwSHpxb0RVS3RLTEZ1YXVieEFnSm5STUQtM3JrNkc3YVN4RVY2UUtyakpYV01uOGcwTXF0eDhoY3JkVzdDU1A4RFRBYUxFQlFfR29WcndSenhBUEdKYW55cnNEd1U5eDBDVnpJMm9kTDJNbVgyWTluaXY5QkhPdWFwZk5aalFZNGxRSktMM2hTdTlJbEE0c3p0MmpGTHFwQQ?oc=5"
-        }
-      ],
-      "discover_category": "/News/Politics",
-      "discover_entities": [
-        "Donald Trump"
-      ]
-    },
-    {
-      "id": "s12",
-      "rank": 12,
+      "id": "s14",
+      "rank": 14,
       "title": "Patrick Sébastien pris en flagrant délit de mensonge ? Ces millions d’euros que France Télévisions lui aurait versés",
       "theme": "finance",
-      "score": 28,
+      "score": 29,
       "tier": "low",
-      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (6 médias) · engagement MSN élevé.",
+      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (7 médias) · engagement MSN élevé.",
       "signals": [
         {
           "source": "gsc",
@@ -1177,7 +1392,7 @@
         {
           "source": "news",
           "label": "gnews",
-          "value": "6 médias"
+          "value": "7 médias"
         },
         {
           "source": "wiki",
@@ -1198,8 +1413,8 @@
         },
         {
           "name": "Google News",
-          "value": "6 médias",
-          "fill": 92
+          "value": "7 médias",
+          "fill": 96
         },
         {
           "name": "Google Trends",
@@ -1209,7 +1424,7 @@
         {
           "name": "Wikimedia",
           "value": "3k vues/h",
-          "fill": 16
+          "fill": 17
         },
         {
           "name": "X velocity",
@@ -1225,11 +1440,11 @@
       "score_breakdown": {
         "discover": 0.5,
         "trends": 0.0,
-        "wiki": 17.0,
-        "gnews": 92.1,
+        "wiki": 18.0,
+        "gnews": 97.0,
         "msn": 80.0,
         "x": 0.0,
-        "total": 28.5
+        "total": 29.4
       },
       "msn_url": "https://www.msn.com/fr-fr/finance/autres/patrick-sébastien-pris-en-flagrant-délit-de-mensonge-ces-millions-d-euros-que-france-télévisions-lui-aurait-versés/ar-AA24fZdq?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.4b50e0300744c42f9ab08e0831060b71&pid=Wdp",
@@ -1248,12 +1463,12 @@
           "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNMnRITHNiRUFrQ3NnX05kbHZHM0VfSlNqUENoUWwyNlhZeW95LTFhSXdjSlp0NnZyOG5DNHd0OHk4Wi04NTZJekxoUDVucnVvVU5JejFKeTFYZXNSbkNYS2NfaFFPUEZxdkxnd0ZyTGhGdUhNc1F3MkhleGdHTFN3TFEyZ3JWQWVhOHI3eGVIOEtFdmw3YTlMUnBrSzhkOXV5dVM0R3JseXBOSnVfcF95VHltSXJMdHlUOFZXNUNpN1B0VVlqQXhfSmtoeFBTUTJkSlVRLThMeUlGa25RQl9XNmZQcnBpT2tGb054WjByOTBrUkp0REhxVDRINGlOT3V2Tld2RnJGb29qUk16LTVzUk9R?oc=5"
         },
         {
-          "label": "GNews · Télérama — France Télévisions étudie trois scénarios de transformation radicale, à la demande du gouvernement",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONUNYZk4tRTlHRE5TTE96SHk3QzJoWXg1dEFIVzhtdm01ZDJIMktuUVEzek1FSzIzYndWMkV0b0tHQ21JWTZkS3dTUG9lUDNDQjF2UnhaNDZrZGNzNXFaa1ZrOXRhZEdfRHYwNDk2ZXFMTTJ1VVRoYXVIWjhaV1RKaXFDS2p0MG1OT0ROMWFScVNWVVloNHJZMFFYalRFdUduY2ZDNGRtNTZtZDhpZVhvOXJyZFBhUUJmUzgtSkdkcktZUFM2UXcwSS1VN25IY1YzRy0tSGdDVHUyRjRx?oc=5"
+          "label": "GNews · l'Informé — Oui, Patrick Sébastien s’est bien enrichi grâce au service public",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVUNtdzlpZkFvRS1jcVd0T3RYWU82ZTJvb3J2VUVwTkRLTDNPZnhDR1pQeUNhWkJZQ2ZjbldoTm1LVWVKTjNfOHc1clJxa3J4dnd3eVBpdm12RWRsdGlFRU8yc0VVbTNXcE1CYlptb1hONjRBSlo2VXhlelJwTC1DYlV4Z2pUUWFPeGlNM2dLc205WHBvc0VIbEl3VVlUSExsbWE1V1RsaFNyZm4wQlV4ZFJJNjlUMjdmVTRROVNBMA?oc=5"
         },
         {
-          "label": "GNews · franceinfo — La Commission européenne inflige une amende de 200 millions d'euros à Temu pour avoir permis la vente de produits illégaux",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQWElNbEtGMHJWQkhMNGFWVjlSUkc0OExBUVAtMG1BVWJJWm12UkljRTdjbGlEb2xZV2JYeXR2ODhhcWRxeE0xNXBDY1J5SFBla3hXbW5sRXdORGlJN0tTcXAyZ0VIS1F0U200NlJDWndaekhSNWs1NWZyNTZGLXg3WWdIQmJzOWh3QnNINnI3cWhheTBBTUxIYy00bWNWdzU4YVVza3YwWDlTUmlGbVF0TUpZcTBGVUdoUTU0dzVzLUxOdWpoOUpzWDFEQWpYMXROckJ0OHFuenJSREdyM0tmZlROYWlfWEF0TlljTTFNczhHeTU2V2sxcFNkOTBfX0hINGZyN1hoWWM5Y1E?oc=5"
+          "label": "GNews · Télérama — France Télévisions étudie trois scénarios de transformation radicale, à la demande du gouvernement",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONUNYZk4tRTlHRE5TTE96SHk3QzJoWXg1dEFIVzhtdm01ZDJIMktuUVEzek1FSzIzYndWMkV0b0tHQ21JWTZkS3dTUG9lUDNDQjF2UnhaNDZrZGNzNXFaa1ZrOXRhZEdfRHYwNDk2ZXFMTTJ1VVRoYXVIWjhaV1RKaXFDS2p0MG1OT0ROMWFScVNWVVloNHJZMFFYalRFdUduY2ZDNGRtNTZtZDhpZVhvOXJyZFBhUUJmUzgtSkdkcktZUFM2UXcwSS1VN25IY1YzRy0tSGdDVHUyRjRx?oc=5"
         }
       ],
       "discover_category": "/News",
@@ -1262,8 +1477,8 @@
       ]
     },
     {
-      "id": "s13",
-      "rank": 13,
+      "id": "s15",
+      "rank": 15,
       "title": "Donald Trump hospitalisé en urgence ? Ce que révèle vraiment la Maison-Blanche sur son état de santé",
       "theme": "actualite",
       "score": 28,
@@ -1315,7 +1530,7 @@
         {
           "name": "Wikimedia",
           "value": "3k vues/h",
-          "fill": 18
+          "fill": 17
         },
         {
           "name": "X velocity",
@@ -1331,11 +1546,11 @@
       "score_breakdown": {
         "discover": 0.5,
         "trends": 4.5,
-        "wiki": 18.3,
+        "wiki": 17.7,
         "gnews": 100.0,
         "msn": 61.2,
         "x": 0.0,
-        "total": 28.0
+        "total": 27.9
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/monde/donald-trump-hospitalisé-en-urgence-ce-que-révèle-vraiment-la-maison-blanche-sur-son-état-de-santé/ar-AA24gztp?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.8893570f8afdd513386bb526037962ad&pid=Wdp",
@@ -1358,210 +1573,13 @@
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVXlYbTlwYW5OcFBSVjRJT3dFZFRlZ2tMNklRMWJ4QThLaVhtemFtemhwSzJtamN3a1VHVEVxZjVXUGVkV3Bsa3U2Wjh4Nnpkemx2QVJWRk55RFppUjlsOGIzRU5UODEwZEl1T3dKUXBuT3hzdlFUYWpPbXVCUGRaWDN3cVhqdUQtbmtFU0pmc3RhSUZNaDhsT0V4WTVmN083QVR6TTF4T3Zub2tPemY2N05uV2xZY3RvYmlHS0F3MThaZmRZSVhGcmRyNUVPUQ?oc=5"
         },
         {
-          "label": "GNews · France 24 — Un cadre d'accord établi entre Washington et Téhéran, en attente de validation par Donald Trump",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNnJJYUxGYVM1WlJKeU9wWEVJMUYxZTNSdnJMb0ZrLUQyOHhLSzhWWnNIYnY2QjRhcS05UmRlQkhUU2FPYmtFbzY2dU9EOE11Z1l4cVlEV0xKQTgzdmMyOXRQRDNVOVFnQUg1Z3gzeXRoMDhybkdwbnJ1UmdpN0NFbUVPa3ZWQ01nM1Z3Ri1tSmtpdFJtbVZ4MjJpQnpaOXc2QW1FblZxc3R0a1p2dGtsSnMwQWRaOVRxaXFvUnI5MkRjUk1WVVNSdTZkM1c?oc=5"
+          "label": "GNews · Le Parisien — Des proches de Donald Trump font pression pour imprimer un billet de 250 dollars à son effigie",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQdVd3T3JBcGdkWlNodDREMWNVT1hSQjkzNG9tRXVwVVZRX0ZYbnZ0MlFMcmROX0dsZzJGWkpvd3ZoODMwdGhycjl5NVpqN0htZHF5RklYX1U3dXFLQ3hVbzg3YlQ5UDhZeHNWSFpQdkQ0TThLMXRWSmtOeHVBRFh5dENFVERJd1J5MmdSY3pURmpZU0lSZmloR3VnTUx0b25FR1hQZFVjYVFwa1UtUmFtUGM0RzlCRm9IaVpDLUY3QVJiaXlXbUVDYXJyNmxBbTI0bTZuU2Zyd2lnM05xZTZyR2R0ZFd6M0xmWF9XaFVIUlBtOEl0RGRwT1ZrWEJ2VjVTbG0tOWljelBwUnpINkhYNlpfYWpadw?oc=5"
         }
       ],
       "discover_category": "/Arts & Entertainment/Music & Audio/Pop Music",
       "discover_entities": [
         "Florent Pagny"
-      ]
-    },
-    {
-      "id": "s14",
-      "rank": 14,
-      "title": "Ivry-sur-Seine : Ileana, 10 ans, portée disparue depuis près de deux semaines, a été retrouvée en vie",
-      "theme": "actualite",
-      "score": 28,
-      "tier": "low",
-      "rationale": "Présent sur Google Trends · couvert par 3 médias · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "3 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "5k"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "79+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "3 médias",
-          "fill": 70
-        },
-        {
-          "name": "Google Trends",
-          "value": "5k",
-          "fill": 11
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 11.0,
-        "wiki": 0.0,
-        "gnews": 70.0,
-        "msn": 100.0,
-        "x": 0.0,
-        "total": 27.8
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/ivry-sur-seine-ileana-10-ans-portée-disparue-depuis-près-de-deux-semaines-a-été-retrouvée-en-vie/ar-AA24gozw?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.8e159581c87d513b8dc8247f21f2306c&pid=Wdp",
-      "msn_source_name": "Le Parisien",
-      "refs": [
-        {
-          "label": "MSN · Le Parisien — Ivry-sur-Seine : Ileana, 10 ans, portée disparue depuis près de deux semaines, a été retrouvée en vie",
-          "url": "https://www.msn.com/fr-fr/actualite/france/ivry-sur-seine-ileana-10-ans-portée-disparue-depuis-près-de-deux-semaines-a-été-retrouvée-en-vie/ar-AA24gozw?ocid=00000000"
-        },
-        {
-          "label": "Discover · Sud Ouest — Biarritz : des habitants et commerçants du quartier Saint-Martin privés d’internet depuis plus de deux semaines",
-          "url": "https://www.sudouest.fr/pyrenees-atlantiques/biarritz/biarritz-des-habitants-et-commercants-du-quartier-saint-martin-prives-d-internet-depuis-plus-de-deux-semaines-29265338.php"
-        },
-        {
-          "label": "GNews · Midi Libre — Elle était portée disparue depuis près de trois semaines : la petite Iléana, 10 ans, a été retrouvée vivante",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNWGNoOXNGNkNTUTduRW1xVklRZU9ZajVqTUpPeHRtZUlQU3FLNm9CR0VXVXk2OXRDeWpnYTdzdC11TDVKcEVPVU9mTDVwc19TRUUwUDVoUXNYcVVMRmRycUM4OC1DUldsVHNISHFyS2ZXUk9SRTFUbm0xSVNPc3NZUndiajI2S1kxY0kxUWItckE2VFNMQlZFbHRFY2hScVRZY3FGRjI0YVE3QUxMYkNraHkza0RNV1M4V0ZvQWNRN3cwZlNaSjROTkZpU2lLNXIySU9LMmZicHJSZjFLTXR6bTVBbFNDVXdXT0M0UzdHM2JsRnJvWk1WNDFJUUt3OVFiazNHcA?oc=5"
-        },
-        {
-          "label": "GNews · BFM — Les deux Français disparus en mer au Maroc ont été retrouvés sains et saufs",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRWhQSFFFeG9FdFBPckJmWk1GbHhONDNBNVVndFFCNXRoeDVkdS1fUVpYSlgzRTk3ck5IcF8xWE96R1RWaFlESDFNakktVU13dFJTamREWTVDaVRVRTFpSmQ4cEJLb2hMcXI5TFJJMWREbjZkSndNMWRhbVQ4WUlmMUV0X2dWaUZJcnliaVctQU51NVVMUGdwY3F5RW5TSkRCUGNEbk0xU0NpSTgtNkNYV1JJMWlsTGlzOVdKNEZSbEJPS2h5QjRRbU9CelRKNzNxSzRqdzJIU1g0V2kyaEM4?oc=5"
-        },
-        {
-          "label": "GNews · Le Monde.fr — EN DIRECT, guerres au Moyen-Orient : au moins 17 morts au Liban jeudi, dont une femme et deux enfants près de Beyrouth ; la Finul déplore une « escalade » des tensions",
-          "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOdnEzMlhsbEtSUVBBb01ZdkVWUGhQQ1hnQXRYODgwX3F1VGFFSnJXMHJJTm5FMUNsTTk3RnRoYmVLakwtRC1iTVFhbWZOSmJOQzlIRDJqNl9takJGcThLT2RXSktUbTlaOEpvN0cxd1hod1lFZ2s2WlRFaV8yYndWbklaTzRoVWsyV05odUJLTzhJNDNjTVFXd0gwcnNuVHNUS3pDeVJnLXdYb1I2aFJ3aFhHN1F0cTRMSEIwZTlGRkJnR0FYaUVhZVBJT0QwYk1ac25RVS1QbGQyQ1JodmdSTG1xVjEwSUdVdFlWTFlPUFczNHkyaXRkZW03Z0hUYWU0c0hQTDZWNjlaWnhGelpZVU1CaFdRY29GVFl5dHh5STVkTUoxMXNNSG1XdUhucFZibm1fUkx6aWVUYldYck14RFZIdE5VbXM2Z3ROeA?oc=5"
-        }
-      ],
-      "discover_category": "/News",
-      "discover_entities": [
-        "Biarritz"
-      ]
-    },
-    {
-      "id": "s15",
-      "rank": 15,
-      "title": "Les psys sont formels : les personnes qui ne publient rien sur les réseaux sociaux possèdent souvent cette qualité rare",
-      "theme": "lifestyle",
-      "score": 27,
-      "tier": "low",
-      "rationale": "Couvert par 4 médias · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "4 médias"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "749+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.2",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "4 médias",
-          "fill": 79
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.9,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 79.2,
-        "msn": 100.0,
-        "x": 0.0,
-        "total": 27.1
-      },
-      "msn_url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/les-psys-sont-formels-les-personnes-qui-ne-publient-rien-sur-les-réseaux-sociaux-possèdent-souvent-cette-qualité-rare/ar-AA23d3Vh?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.53bfc001120e00406bed3520d1832e56&pid=Wdp",
-      "msn_source_name": "grazia",
-      "refs": [
-        {
-          "label": "MSN · grazia — Les psys sont formels : les personnes qui ne publient rien sur les réseaux sociaux possèdent souvent cette qualité rare",
-          "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/les-psys-sont-formels-les-personnes-qui-ne-publient-rien-sur-les-réseaux-sociaux-possèdent-souvent-cette-qualité-rare/ar-AA23d3Vh?ocid=00000000"
-        },
-        {
-          "label": "Discover · X — 🇫🇷 Une représentation de la pièce \"Deuxième partie\", dans laquelle joue Patrick Bruel, a été momentanément perturbée mercredi soir à Paris par des militantes du collectif féministe Nous Toutes qui avaient pris place dans le théâtre Edouard VII, selon des vidéos publiées sur les réseaux sociaux ➡️ u.afp.com/SDTC Voir sur X",
-          "url": "https://x.com/afpfr/status/2059900044837298606"
-        },
-        {
-          "label": "GNews · FootMarseille — Autour de l’OM - L'OM troisième club de Ligue 1 le plus suivi sur les réseaux sociaux",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWjRmSVVhY3E5OFhpRmt0SGdydFNCVy1GLVZSUXVhbTdCQzRSLXhDMm1lZlZyTXlwSzBEQTVGTk00czZqTUNVb0R0Q094Uy12ZEh5Q2ZZS0FUS3JIOUd6cV8zZHN1YTF5ekdaQ0RWUjl3QUY1N1FuNzBZQzJvaHN0UW8yRnZUemJUeXRXVF9zQUdDZjRnQXlvQ29PYXV2OVJGQ1RmVTNxRQ?oc=5"
-        },
-        {
-          "label": "GNews · Konbini — Koh-Lanta, l’équilibre et les colliers : le grand n’importe quoi des réseaux sociaux",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMTlIS09EZS1abWMyRzhNWnUwMkhDTGx6MTk4bGdPQmtsT3hQSnJCbjRTT1pxckxFMEpib2NrRGt1M3BheFA5MDM2M1BBTWVFalN6ZXFPLXMxREs0aVRVUzZUaUxPVXJ3YkNWY1poclR6d2tFcjVyRUdLbFZSZ2VXc3VRejBYbW9mZWJxdWJHQ3o2c245QUN2c3dNMzdZOUxieFdwZW5kcjVTNU40NzNuUHJKdjNCQQ?oc=5"
-        },
-        {
-          "label": "GNews · ladepeche.fr — \"Pierre Niney est coiffeur à Toulouse\", l'incroyable ressemblance entre un coiffeur toulousain et l'acteur star affole les réseaux sociaux",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNeWhwM0VYSFh3MmhlcGhJakh5WGMwVkZ2aDJqRTRkdjgtcklGMVBsU2xNN3psZ3NqeTlnalBGSWVuanM5WEpENy1ZZFVtN1lPekN2QmJFaVkxTzNVdzNkb2pMM01oU25SaUlvbFBKVXgzWS00X251WHRpUGRtS2wzdmdLeTNIOVJqamo3Q3RVb3VBSzRta0M4bDV0MERLLUxDOVNuaUFCaFFTbTc2OUtSSkR5U3M1dVAwM3plajdtcEFTU2hvN2FtQjNvRnUtTFhRTUVGYm4tV1FUN0ZJMkFCSlVCVndpcnZuUmtERVFoMFZMbW5Oc2pweXVPZ1BwOGNlbjBvT214ekNHQmV4RElz?oc=5"
-        }
-      ],
-      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
-      "discover_entities": [
-        "Patrick Bruel"
       ]
     },
     {
@@ -1586,14 +1604,14 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "29+ react."
+          "value": "28+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 11.0",
-          "fill": 42
+          "value": "score 11.3",
+          "fill": 43
         },
         {
           "name": "Google News",
@@ -1617,16 +1635,16 @@
         },
         {
           "name": "MSN engagement",
-          "value": "42/100",
-          "fill": 42
+          "value": "40/100",
+          "fill": 40
         }
       ],
       "score_breakdown": {
-        "discover": 42.1,
+        "discover": 43.0,
         "trends": 0.0,
         "wiki": 0.0,
         "gnews": 35.0,
-        "msn": 42.1,
+        "msn": 40.5,
         "x": 0.0,
         "total": 27.1
       },
@@ -1659,7 +1677,7 @@
       "theme": "finance",
       "score": 27,
       "tier": "low",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (8 médias).",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (9 médias).",
       "signals": [
         {
           "source": "gsc",
@@ -1669,7 +1687,7 @@
         {
           "source": "news",
           "label": "gnews",
-          "value": "8 médias"
+          "value": "9 médias"
         },
         {
           "source": "trends",
@@ -1684,7 +1702,7 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "34+ react."
+          "value": "35+ react."
         }
       ],
       "sources": [
@@ -1695,7 +1713,7 @@
         },
         {
           "name": "Google News",
-          "value": "8 médias",
+          "value": "9 médias",
           "fill": 100
         },
         {
@@ -1706,7 +1724,7 @@
         {
           "name": "Wikimedia",
           "value": "4k vues/h",
-          "fill": 18
+          "fill": 19
         },
         {
           "name": "X velocity",
@@ -1715,18 +1733,18 @@
         },
         {
           "name": "MSN engagement",
-          "value": "56/100",
-          "fill": 55
+          "value": "57/100",
+          "fill": 57
         }
       ],
       "score_breakdown": {
         "discover": 0.5,
         "trends": 2.3,
-        "wiki": 18.9,
+        "wiki": 19.0,
         "gnews": 100.0,
-        "msn": 55.7,
+        "msn": 57.1,
         "x": 0.0,
-        "total": 26.8
+        "total": 27.0
       },
       "msn_url": "https://www.msn.com/fr-fr/finance/economie/aux-etats-unis-une-nuée-de-mauvaises-nouvelles-sur-le-front-économique/ar-AA24isnP?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.9cc28cd606cd1f07c24fe9976f3777b4&pid=Wdp",
@@ -1763,7 +1781,7 @@
       "rank": 18,
       "title": "« La France blanche et chrétienne n’a jamais existé » : les propos de Mathilde Panot suscitent un tollé à droite",
       "theme": "actualite",
-      "score": 27,
+      "score": 26,
       "tier": "low",
       "rationale": "Présent dans le top Wikipedia · couvert par 2 médias · engagement MSN élevé.",
       "signals": [
@@ -1780,12 +1798,12 @@
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "4k vues"
+          "value": "3k vues"
         },
         {
           "source": "news",
           "label": "msn",
-          "value": "528+ react."
+          "value": "525+ react."
         }
       ],
       "sources": [
@@ -1806,8 +1824,8 @@
         },
         {
           "name": "Wikimedia",
-          "value": "4k vues/h",
-          "fill": 19
+          "value": "3k vues/h",
+          "fill": 14
         },
         {
           "name": "X velocity",
@@ -1823,11 +1841,11 @@
       "score_breakdown": {
         "discover": 0.5,
         "trends": 0.0,
-        "wiki": 19.2,
+        "wiki": 14.6,
         "gnews": 57.1,
         "msn": 100.0,
         "x": 0.0,
-        "total": 26.6
+        "total": 25.9
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/la-france-blanche-et-chrétienne-n-a-jamais-existé-les-propos-de-mathilde-panot-suscitent-un-tollé-à-droite/ar-AA24gsnI?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.b67793774fe30baf3d46372541ad7b65&pid=Wdp",
@@ -1858,21 +1876,122 @@
     {
       "id": "s19",
       "rank": 19,
-      "title": "Jordan Bardella : ce que l’exposition de Maria Carolina change dans son image publique",
-      "theme": "divertissement",
+      "title": "Les psys sont formels : les personnes qui ne publient rien sur les réseaux sociaux possèdent souvent cette qualité rare",
+      "theme": "lifestyle",
       "score": 26,
       "tier": "low",
-      "rationale": "Présent dans le top Wikipedia · couvert par 2 médias.",
+      "rationale": "Couvert par 3 médias · engagement MSN élevé.",
       "signals": [
         {
           "source": "gsc",
           "label": "discover",
-          "value": "7.2/65"
+          "value": "présent"
         },
         {
           "source": "news",
           "label": "gnews",
-          "value": "2 médias"
+          "value": "3 médias"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "750+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.2",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "3 médias",
+          "fill": 70
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.9,
+        "trends": 0.0,
+        "wiki": 0.0,
+        "gnews": 70.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 25.7
+      },
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/les-psys-sont-formels-les-personnes-qui-ne-publient-rien-sur-les-réseaux-sociaux-possèdent-souvent-cette-qualité-rare/ar-AA23d3Vh?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.53bfc001120e00406bed3520d1832e56&pid=Wdp",
+      "msn_source_name": "grazia",
+      "refs": [
+        {
+          "label": "MSN · grazia — Les psys sont formels : les personnes qui ne publient rien sur les réseaux sociaux possèdent souvent cette qualité rare",
+          "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/les-psys-sont-formels-les-personnes-qui-ne-publient-rien-sur-les-réseaux-sociaux-possèdent-souvent-cette-qualité-rare/ar-AA23d3Vh?ocid=00000000"
+        },
+        {
+          "label": "Discover · X — 🇫🇷 Une représentation de la pièce \"Deuxième partie\", dans laquelle joue Patrick Bruel, a été momentanément perturbée mercredi soir à Paris par des militantes du collectif féministe Nous Toutes qui avaient pris place dans le théâtre Edouard VII, selon des vidéos publiées sur les réseaux sociaux ➡️ u.afp.com/SDTC Voir sur X",
+          "url": "https://x.com/afpfr/status/2059900044837298606"
+        },
+        {
+          "label": "GNews · Konbini — Koh-Lanta, l’équilibre et les colliers : le grand n’importe quoi des réseaux sociaux",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMTlIS09EZS1abWMyRzhNWnUwMkhDTGx6MTk4bGdPQmtsT3hQSnJCbjRTT1pxckxFMEpib2NrRGt1M3BheFA5MDM2M1BBTWVFalN6ZXFPLXMxREs0aVRVUzZUaUxPVXJ3YkNWY1poclR6d2tFcjVyRUdLbFZSZ2VXc3VRejBYbW9mZWJxdWJHQ3o2c245QUN2c3dNMzdZOUxieFdwZW5kcjVTNU40NzNuUHJKdjNCQQ?oc=5"
+        },
+        {
+          "label": "GNews · ladepeche.fr — \"Pierre Niney est coiffeur à Toulouse\", l'incroyable ressemblance entre un coiffeur toulousain et l'acteur star affole les réseaux sociaux",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNeWhwM0VYSFh3MmhlcGhJakh5WGMwVkZ2aDJqRTRkdjgtcklGMVBsU2xNN3psZ3NqeTlnalBGSWVuanM5WEpENy1ZZFVtN1lPekN2QmJFaVkxTzNVdzNkb2pMM01oU25SaUlvbFBKVXgzWS00X251WHRpUGRtS2wzdmdLeTNIOVJqamo3Q3RVb3VBSzRta0M4bDV0MERLLUxDOVNuaUFCaFFTbTc2OUtSSkR5U3M1dVAwM3plajdtcEFTU2hvN2FtQjNvRnUtTFhRTUVGYm4tV1FUN0ZJMkFCSlVCVndpcnZuUmtERVFoMFZMbW5Oc2pweXVPZ1BwOGNlbjBvT214ekNHQmV4RElz?oc=5"
+        },
+        {
+          "label": "GNews · BFM Bourse — X-fab : Un post sur les réseaux sociaux met le feu aux poudres à l'action du fondeur X-Fab qui a grimpé jusqu'à 76% ce mercredi à la Bourse de Paris",
+          "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQRWc4TlJmbUU0ck5JQU45T1NvMXZvT0FmbFdwdEdFYmlYQ2tfMDQzWnZxcEV4OWhwZUNXeTUwUVdHMXktZFRza04yZEdGakpzQ3llMkJfTWE2VFlhbWZlQXNJU3VJRi1VUlpubmotd2xoWTVuUlNXbFVlRVpmVGE0ckluZWpraVllMG1rc0lsY1RwUUxWQ0Jla24zLTljVlVlTjRlaVRrWkY5dlRSNHM0Ml9kMUI2Y21yQnZzc1Fod2RZQ1NLUk1KM1FiSVBqUjdiWEtxMzI5NEo3R3VKbWZwOGhXZktTSTh1cThCdm1ueVRhQndwTzMza2Y2UlZsajBic1V3R0kxaEM3VU14SU56bDJ5QkZFeGprVFNxSDV0dmROMU90ZlBFOEJkbWhnSmhtaDI2UjlDa21CVEk?oc=5"
+        }
+      ],
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Patrick Bruel"
+      ]
+    },
+    {
+      "id": "s20",
+      "rank": 20,
+      "title": "Soirée sur la plage, paddle matinal : Ivanka Trump dévoile les coulisses des noces de son frère Donald Jr. sur une île privée des Bahamas",
+      "theme": "actualite",
+      "score": 24,
+      "tier": "low",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (10 médias).",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "3.1/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "10 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "2k"
         },
         {
           "source": "wiki",
@@ -1882,29 +2001,29 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "4+ react."
+          "value": "8+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 7.2",
-          "fill": 29
+          "value": "score 3.1",
+          "fill": 13
         },
         {
           "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
+          "value": "10 médias",
+          "fill": 100
         },
         {
           "name": "Google Trends",
-          "value": "—",
-          "fill": 0
+          "value": "2k",
+          "fill": 4
         },
         {
           "name": "Wikimedia",
           "value": "3k vues/h",
-          "fill": 16
+          "fill": 17
         },
         {
           "name": "X velocity",
@@ -1918,44 +2037,47 @@
         }
       ],
       "score_breakdown": {
-        "discover": 29.2,
-        "trends": 0.0,
-        "wiki": 16.5,
-        "gnews": 57.1,
+        "discover": 13.5,
+        "trends": 4.5,
+        "wiki": 17.7,
+        "gnews": 100.0,
         "msn": 15.0,
         "x": 0.0,
-        "total": 25.6
+        "total": 24.2
       },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/actualite/jordan-bardella-ce-que-l-exposition-de-maria-carolina-change-dans-son-image-publique/ar-AA24fudG?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.617595799a181fb106944351b81fa39c&pid=Wdp",
-      "msn_source_name": "So Busy Girls",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/soirée-sur-la-plage-paddle-matinal-ivanka-trump-dévoile-les-coulisses-des-noces-de-son-frère-donald-jr-sur-une-île-privée-des-bahamas/ar-AA247iuC?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.10b03853a1ed81c9f3396130cac7d6e0&pid=Wdp",
+      "msn_source_name": "Le Figaro",
       "refs": [
         {
-          "label": "MSN · So Busy Girls — Jordan Bardella : ce que l’exposition de Maria Carolina change dans son image publique",
-          "url": "https://www.msn.com/fr-fr/divertissement/actualite/jordan-bardella-ce-que-l-exposition-de-maria-carolina-change-dans-son-image-publique/ar-AA24fudG?ocid=00000000"
+          "label": "MSN · Le Figaro — Soirée sur la plage, paddle matinal : Ivanka Trump dévoile les coulisses des noces de son frère Donald Jr. sur une île privée des Bahamas",
+          "url": "https://www.msn.com/fr-fr/actualite/monde/soirée-sur-la-plage-paddle-matinal-ivanka-trump-dévoile-les-coulisses-des-noces-de-son-frère-donald-jr-sur-une-île-privée-des-bahamas/ar-AA247iuC?ocid=00000000"
         },
         {
-          "label": "Discover · Le Figaro — « L’Allemagne de Merz n’est plus celle de Merkel » : Jordan Bardella se rapproche de la droite allemande au détriment de l’AfD",
-          "url": "https://www.lefigaro.fr/politique/l-allemagne-de-merz-n-est-plus-celle-de-merkel-jordan-bardella-se-rapproche-de-la-droite-allemande-au-detriment-de-l-afd-20260528"
+          "label": "Discover · radio6.fr — Berck-sur-mer : la plage évacuée en début de soirée après un isolement par la marée",
+          "url": "https://www.radio6.fr/article-77065-berck-sur-mer-la-plage-evacuee-en-debut-de-soiree-apres-un-isolement-par-la-maree.html"
         },
         {
-          "label": "GNews · Linternaute.com — La mère de Maria Carolina a bien son opinion sur Jordan Bardella et sur le RN",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBdE1IWkdTbmxCZDQ3Tm1hV25EMUpsejBveExJR2NvM2l1aG5lNWtENTVqY0VqY3cyNDMxZ0lXbUhTbm4wb0RkNWU2MmRmemhZOWxwUF9yRWVlUE1KY1lfN0pDTlNOTlptVHNNczMtMXBreVFJTV82RA?oc=5"
+          "label": "GNews · La Croix — Taïwan : Donald Trump est-il tombé dans le piège de Pékin ?",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMTRkeHM1YUtXR19hUnR6RUNSY08zNl9LTWFyMUstLW5xT0JyVVVYaC1wcmVxNW1aaC1MMHRBbFUxOW9BSHNVVUp5OC1iSkpKdWdVUlpEN3lOLU9wSXpRbEsxMDNPZlZJS1RFVUJ3NkkyYS1LbUFuQTFhVlBKWnFtZ3V2bDBIRFlyZEJWbVlPaFJDWmx5S0E4c0ZKYlNwQnl1QmdsRnln?oc=5"
         },
         {
-          "label": "GNews · franceinfo — Jordan Bardella annonce déposer plainte contre le rappeur Soli pour des \"menaces de mort\"",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYjRfdFl3SGJ6UjBmLTM1aUx1NEh2UVVDS0dXbVRlajVoS1JiNjVBVG1ydFRPMEQ3RVZpWTVoSEFqNl9YX3k4MEROOE5UYWdJY01PX3lTUmdaeHItdDh3cW01S19tTEhJOGVXRDlIbDQ0YjFpczVXMk9iZXZfc0xFYWtjR3RsUjdIQUh5R0dqUThKUlZBT19PaWhDVGFjSDJiTDVHTF9MOHIzUHF1cmNKSVdXc2s4aGtFWklGc3p2YVlOS1hlY3BGdDJIOXQzU2VMZ05FZU5RS3FUT3gxNGhoZTNOVU5PUHM?oc=5"
+          "label": "GNews · RFI — Au Bangladesh, un buffle albinos sosie de Donald Trump épargné pour l’Aïd",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVXlYbTlwYW5OcFBSVjRJT3dFZFRlZ2tMNklRMWJ4QThLaVhtemFtemhwSzJtamN3a1VHVEVxZjVXUGVkV3Bsa3U2Wjh4Nnpkemx2QVJWRk55RFppUjlsOGIzRU5UODEwZEl1T3dKUXBuT3hzdlFUYWpPbXVCUGRaWDN3cVhqdUQtbmtFU0pmc3RhSUZNaDhsT0V4WTVmN083QVR6TTF4T3Zub2tPemY2N05uV2xZY3RvYmlHS0F3MThaZmRZSVhGcmRyNUVPUQ?oc=5"
+        },
+        {
+          "label": "GNews · Le Parisien — Des proches de Donald Trump font pression pour imprimer un billet de 250 dollars à son effigie",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQdVd3T3JBcGdkWlNodDREMWNVT1hSQjkzNG9tRXVwVVZRX0ZYbnZ0MlFMcmROX0dsZzJGWkpvd3ZoODMwdGhycjl5NVpqN0htZHF5RklYX1U3dXFLQ3hVbzg3YlQ5UDhZeHNWSFpQdkQ0TThLMXRWSmtOeHVBRFh5dENFVERJd1J5MmdSY3pURmpZU0lSZmloR3VnTUx0b25FR1hQZFVjYVFwa1UtUmFtUGM0RzlCRm9IaVpDLUY3QVJiaXlXbUVDYXJyNmxBbTI0bTZuU2Zyd2lnM05xZTZyR2R0ZFd6M0xmWF9XaFVIUlBtOEl0RGRwT1ZrWEJ2VjVTbG0tOWljelBwUnpINkhYNlpfYWpadw?oc=5"
         }
       ],
-      "discover_category": "/News/Politics",
+      "discover_category": "/News",
       "discover_entities": [
-        "Friedrich Merz",
-        "Jordan Bardella"
+        "Plage de Berck"
       ]
     },
     {
-      "id": "s20",
-      "rank": 20,
+      "id": "s21",
+      "rank": 21,
       "title": "« Ni mariage, ni Pacs, ni concubinage » : à l’Assemblée, le député Alloncle mis hors de cause",
       "theme": "actualite",
       "score": 24,
@@ -1975,7 +2097,7 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "73+ react."
+          "value": "75+ react."
         }
       ],
       "sources": [
@@ -2046,99 +2168,6 @@
       ]
     },
     {
-      "id": "s21",
-      "rank": 21,
-      "title": "Grêle, rafales de vent… Des orages violents frappent la France ce jeudi, les départements en alerte",
-      "theme": "actualite",
-      "score": 24,
-      "tier": "low",
-      "rationale": "Couvert par 2 médias · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "86+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 57.1,
-        "msn": 100.0,
-        "x": 0.0,
-        "total": 23.7
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/grêle-rafales-de-vent-des-orages-violents-frappent-la-france-ce-jeudi-les-départements-en-alerte/ar-AA24fVC8?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.384a867e48e8dd2876db49a0cd2c4718&pid=Wdp",
-      "msn_source_name": "Actu",
-      "refs": [
-        {
-          "label": "MSN · Actu — Grêle, rafales de vent… Des orages violents frappent la France ce jeudi, les départements en alerte",
-          "url": "https://www.msn.com/fr-fr/actualite/france/grêle-rafales-de-vent-des-orages-violents-frappent-la-france-ce-jeudi-les-départements-en-alerte/ar-AA24fVC8?ocid=00000000"
-        },
-        {
-          "label": "Discover · tendanceouest.com — Alerte météo. Vigilance jaune orages en Normandie ce jeudi : où la grêle est-elle annoncée par département ?",
-          "url": "https://www.tendanceouest.com/actualite-439427-alerte-meteo-vigilance-jaune-orages-en-normandie-ce-jeudi-ou-la-grele-est-elle-annoncee-par-departement"
-        },
-        {
-          "label": "GNews · tendanceouest.com — Alerte météo. Vigilance jaune orages en Normandie ce jeudi : où la grêle est-elle annoncée par département ?",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPU0Y4UjJqV0FKemJ3bnFBanh3MHdXSnRHUlp4Y2o0MEtyaWhTUDRralp6eHlvbFN2M0ZfeU5tTDZQT3lrWjdPSHNXOERfT1BwVUgyaUFlV19nWFU2T1E4UHRlMk1wSk5OektpZTJjbUNFQVk4d0VscVotaWd3ZmxZUnp5TzhILXNxTjdidFQ2RUNqRVdGbzBvZTlZQU5oRDh4UGxSYUVBNlNuSldRVkhVQ2x4R3BqS3JScTFPTUxVNWE2UWJUODFSeUllX2l6VURkbW9vb2xlVHZwei1sanlVQW5NZlQ?oc=5"
-        },
-        {
-          "label": "GNews · Ouest-France — Guerre en Ukraine : un drone russe frappe la Roumanie, l’ONU alerte sur une escalade… Le point sur la nuit - Ouest-France",
-          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQLWM4c2c1dV9LVkhKdDU2M2tRdTZwelJUbVpNd3hBREZxOE5ZcmlrcC12NmtvYXZDbXpHU3diTHl2MUZFbVpyamRvZGpzSktsMnhvSHQzRXR2Z0xwRXhyMGY4VTNyY1h5UEd4bFZKem5veGVJUzdQNlJQb1FZcC1SVnVlZS13ejc2ekhtWVRpNGV6YW91SWgwWTQ5Qmwtc19xM19wTVN4QlYxRWhueG5FVjNwemdfVUxnYjlHRlZHcng2bFZGMnpXcHJKTzIzWmR6ekJnQzZROF92R1dQcU1rVzFQSlkzc2JGRHlBOEdpVDVwX2IwOTRKbV9kTUFxOTZRUVJSbHI1c0pqbUVFRXc?oc=5"
-        }
-      ],
-      "discover_category": "/News/Weather",
-      "discover_entities": [
-        "Grêle",
-        "Météo-France"
-      ]
-    },
-    {
       "id": "s22",
       "rank": 22,
       "title": "« C'était la fois de trop »: un enfant retrouvé enfermé dans un placard, la voisine qui a donné l'alerte témoigne",
@@ -2160,7 +2189,7 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "197+ react."
+          "value": "199+ react."
         }
       ],
       "sources": [
@@ -2233,213 +2262,6 @@
     {
       "id": "s23",
       "rank": 23,
-      "title": "Aryna Sabalenka fait sensation à Roland-Garros : la joueuse de tennis brille autant par son jeu que par son collier de diamants",
-      "theme": "divertissement",
-      "score": 22,
-      "tier": "low",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · couvert par 3 médias.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "3 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "500"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "5k vues"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "6+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "3 médias",
-          "fill": 70
-        },
-        {
-          "name": "Google Trends",
-          "value": "500",
-          "fill": 1
-        },
-        {
-          "name": "Wikimedia",
-          "value": "5k vues/h",
-          "fill": 25
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "15/100",
-          "fill": 15
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 1.1,
-        "wiki": 25.4,
-        "gnews": 70.0,
-        "msn": 15.0,
-        "x": 0.0,
-        "total": 21.9
-      },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/aryna-sabalenka-fait-sensation-à-roland-garros-la-joueuse-de-tennis-brille-autant-par-son-jeu-que-par-son-collier-de-diamants/ar-AA24hnNQ?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.6ed292795eed2585739581afcb5ec505&pid=Wdp",
-      "msn_source_name": "Purepeople",
-      "refs": [
-        {
-          "label": "MSN · Purepeople — Aryna Sabalenka fait sensation à Roland-Garros : la joueuse de tennis brille autant par son jeu que par son collier de diamants",
-          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/aryna-sabalenka-fait-sensation-à-roland-garros-la-joueuse-de-tennis-brille-autant-par-son-jeu-que-par-son-collier-de-diamants/ar-AA24hnNQ?ocid=00000000"
-        },
-        {
-          "label": "Discover · Le Monde — EN DIRECT, Roland-Garros 2026 : élimination",
-          "url": "https://www.lemonde.fr/sport/live/2026/05/28/en-direct-roland-garros-2026-elimination-surprise-de-jannik-sinner-des-le-deuxieme-tour-moise-kouame-et-diane-parry-qualifies-cote-francais_6694434_3242.html"
-        },
-        {
-          "label": "GNews · TV Magazine — Ophélie Meunier, Vianney, Géraldine Maillet et Daniel Riolo... Les stars télé à Roland-Garros malgré la canicule",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZ0lmcWFtTzM0MFpxRmdGUHNtMGxtMExZREh4SGtZR3RqaVY0SEhIMjZNQWYtMTRTSXc1R3JqZnNYb0ZfVHRlUnRlQ1duMThIYnBmWXU5aGk3VDZ4bmVQWmFsaWpBLWxCamdwUGo4VmZNU3hkemI5MGVtN0k2Ty1nVGtMajJmRlpqLUQ2SWE4SzdUV01DR3NBQWRkYVZqNi1ueTNhcDNTWVpudjVFdHh3T1dkSWNEN3luX2gwTVJuTmV5LVMxYVJoVTROUVlQWThSbEZ6X1ZhS2FUQ0xROEtoMXNLQW1CS2lfZHd3eWk2TXAyTGdN?oc=5"
-        },
-        {
-          "label": "GNews · franceinfo — Embraser le public, tenir physiquement, gérer mentalement : comment Moïse Kouame a trouvé les ressources pour rallier un 3e tour historique à Roland-Garros",
-          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNNTlPbHJMRXcwS3owbmNuYU5UTWJibGRGQTRXa2tmT2dxNjYyUGVhdXNZc0lXbDVBMDhEdWdBTWFtdE9xRnJuS01zMDZPZERhOVNiWjl3MmFINWhhRmRKOE10VTJnX09MWUxOUzdwdzRtR2N4UHFpblE3bEZBSnVQN3ZXZ3RheXpEUnRpWkVEZlpEX3lJMGdwLThOeFg1R0tsNXNpRmdEdkhmLW1wWEVzY2VnMV81QldfT1hHX2lUSUgwdnNzSWFaUTVhTUFkbWNDeVY5SlVDOVJYV08xYUFNMldDUVBMSlFXbzYtNzMtYk9xcmJzcVVhZjNGaUViLW9ZSGk5TV9LcnpkalRLelNGV3ZPM1lCU0NYSFZlbmpPMlE2b0tDeE5LRVF3dC0?oc=5"
-        },
-        {
-          "label": "GNews · Le Monde.fr — Roland-Garros 2026, les résultats du jeudi 28 mai : Moïse Kouamé et Diane Parry qualifiés pour le troisième tour, élimination surprise du numéro 1 mondial Jannik Sinner",
-          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxORGN2VG9GMUFTUFNVV2VWU3hCS29QYmJyNmxGcmFVM0VhR19BZVhGV2kyOW5hdG14MmdpUkVrQ1pJQkFTMzRDWEo1UFRKUktRZ1JieTZGWFdFRG1KUW5aNTc0MklpX1J0QW1oRThMWXFWeWpjWk53SGdackxPS0hQRS15dGdTLU0xMHRzVC1hTnQtZHJlRXNJUEFFUDY2VnRDUUYxSHNMUlJYY2JfRnlteHJyeTZhdVBnZThWUXhTaDByZ1RKMTJlUjVvNWRaX3VLOUtqdjN6YkVGSlhsV0htRjZnTlZlSWVRQjNqY3B0b3Jfb3pwQmJpWGlzWjMyR252MnlJQkhOVWxCVWRKWHZrRjFlNDFOTGFTbTFNT1lvRHhMM3JmSXNmcTdR?oc=5"
-        }
-      ],
-      "discover_category": "/Sports/Individual Sports/Racquet Sports",
-      "discover_entities": [
-        "Diane Parry",
-        "Jannik Sinner",
-        "Roland-Garros"
-      ]
-    },
-    {
-      "id": "s24",
-      "rank": 24,
-      "title": "Le navire de guerre De Ruyter chassé par l’armée chinoise en mer de Chine méridionale, les Pays-Bas accusés de « violation grave »",
-      "theme": "actualite",
-      "score": 21,
-      "tier": "low",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "500"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "1k vues"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "112+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.0",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "1 média",
-          "fill": 35
-        },
-        {
-          "name": "Google Trends",
-          "value": "500",
-          "fill": 1
-        },
-        {
-          "name": "Wikimedia",
-          "value": "1k vues/h",
-          "fill": 6
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.0,
-        "trends": 1.1,
-        "wiki": 6.6,
-        "gnews": 35.0,
-        "msn": 100.0,
-        "x": 0.0,
-        "total": 21.5
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/le-navire-de-guerre-de-ruyter-chassé-par-l-armée-chinoise-en-mer-de-chine-méridionale-les-pays-bas-accusés-de-violation-grave/ar-AA24fsal?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.6dfe5c869ef2953e3fee3ecbb9214583&pid=Wdp",
-      "msn_source_name": "Le Parisien",
-      "refs": [
-        {
-          "label": "MSN · Le Parisien — Le navire de guerre De Ruyter chassé par l’armée chinoise en mer de Chine méridionale, les Pays-Bas accusés de « violation grave »",
-          "url": "https://www.msn.com/fr-fr/actualite/monde/le-navire-de-guerre-de-ruyter-chassé-par-l-armée-chinoise-en-mer-de-chine-méridionale-les-pays-bas-accusés-de-violation-grave/ar-AA24fsal?ocid=00000000"
-        },
-        {
-          "label": "Discover · Zone Militaire — La Chine dit avoir «chassé» la frégate néerlandaise HNLMS De Ruyter des îles Paracels",
-          "url": "https://www.opex360.com/2026/05/28/la-chine-dit-avoir-chasse-la-fregate-neerlandaise-hnlms-de-ruyter-des-iles-paracels/"
-        },
-        {
-          "label": "GNews · Zone Militaire — La Chine dit avoir «chassé» la frégate néerlandaise HNLMS De Ruyter des îles Paracels",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeWhYUUNlM3o5a1JKRVE2UVhiZ1lXckQxZEdvQmJkbGd1UVF4YjlMRFFJTEh6ZnoyYUVhVnZwSnBqU0duZGhnc01uSHptSFNZWXJiQi1ndEpVNlAyalJIa19pVzFVSTE2OGcyeWEzRzJpR0pMcXdQbXJXWTdOaDdIV0hzc3lac3h6UzNTRWVaLUJ0NXVuVkhqYmw0OWJIcXJBWkptOWx0THhGTGVhLVZzVkxZZUtrS1FuQ2lr?oc=5"
-        }
-      ],
-      "discover_category": "/News",
-      "discover_entities": [
-        "Chine",
-        "Mer de Chine méridionale"
-      ]
-    },
-    {
-      "id": "s25",
-      "rank": 25,
       "title": "Les pyramides n'ont pas été construites par les Égyptiens, selon une nouvelle étude",
       "theme": "actualite",
       "score": 21,
@@ -2534,11 +2356,200 @@
       ]
     },
     {
-      "id": "s26",
-      "rank": 26,
-      "title": "Retraite : j’ai touché le RSA toute ma vie, voici combien je gagne de pension chaque mois en 2026",
+      "id": "s24",
+      "rank": 24,
+      "title": "The Ring à Rome : l'Italie change de cap envers États-Unis et Israël?",
+      "theme": "actualite",
+      "score": 21,
+      "tier": "low",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (9 médias).",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "9 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "1k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "4k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "4+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.1",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "9 médias",
+          "fill": 100
+        },
+        {
+          "name": "Google Trends",
+          "value": "1k",
+          "fill": 2
+        },
+        {
+          "name": "Wikimedia",
+          "value": "4k vues/h",
+          "fill": 19
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "15/100",
+          "fill": 15
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.5,
+        "trends": 2.3,
+        "wiki": 19.0,
+        "gnews": 100.0,
+        "msn": 15.0,
+        "x": 0.0,
+        "total": 20.7
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/the-ring-à-rome-l-italie-change-de-cap-envers-états-unis-et-israël/ar-AA24hBjy?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.c4245c9cf32a4ab8bad9afb8a1c8efcf&pid=Wdp",
+      "msn_source_name": "Euronews (Français)",
+      "refs": [
+        {
+          "label": "MSN · Euronews (Français) — The Ring à Rome : l'Italie change de cap envers États-Unis et Israël?",
+          "url": "https://www.msn.com/fr-fr/actualite/monde/the-ring-à-rome-l-italie-change-de-cap-envers-états-unis-et-israël/ar-AA24hBjy?ocid=00000000"
+        },
+        {
+          "label": "Discover · YouTube — États-Unis: une remise de diplômes sous la pluie fait polémique",
+          "url": "https://www.youtube.com/shorts/-lfmg1pQ-wo"
+        },
+        {
+          "label": "GNews · Les Echos — Guerre Iran-Etats-Unis : la victoire de la stratégie",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWkJ4Ulh4N1gxaDZZUXp3OWYwWm95aU5PSktIOGlhV2lyUDRGd19SWTBIRFNIaDhKYnFTVWc4cnl6NTNSbDY4c2JfMmJ0V2k4OFJ2dVctLW1FaGU0bFhyVllTdHZCbVlRTmVVNERidVRrZGo2Sk1ZT3lYR3FfWlpEX3NZMVU0NlFpQjBLRWJrV216c19VM2RHejhkSlRkOXFPeVRpd2Y2c2VrQnZRd205WQ?oc=5"
+        },
+        {
+          "label": "GNews · Euronews.com — Des artistes boudent un concert pro-Trump des 250 ans des États-Unis",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMm5YUkM4d3pGek9YSHp1MTZFLUVHTXNSZTU2M1RBR0tQZ283bktRV01QbmZmWVR0aWJRY1F4QVNLeE1DWFdnaUJvQkE3UWF2d1pMS0R2UmFmQ0g1MHJJMmlkSGxNRjFCcDlDYzRveWNaQzdjZElNZm5uQV9GME15b0JtRWhMa212NVhMQkRKSlRmd3VXaEFDcnF5Q1dsRUVnSTBKTjVyc1Jxdjd0Uzh6dFV3MUlpT3VBZ1prb2xCT0d3dW0tazd3Qg?oc=5"
+        },
+        {
+          "label": "GNews · 20 Minutes — Malgré les belles paroles de Trump, l’économie des États-Unis est en berne",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNR0ZReGw1c09YZkU4cUZnNW1sRW9fMkd2aEo3alkxVm1KT01MTFRGMHJab0h2WVlxVERibzVldXJ4eDJIMGE2Rlg3UklDM0hpaGR2NTNKMWl0S3dLNlpURWNYZU16Ym8tanFsc2dNb2tZM2VFSUM4N2VndEk1NjJ5WU9yWm9icTdTczBVcWlidF90QjlqY2dyZE9Qcmp6LUo4SVlTM0VMNHFxWkVWeDh0QjB6SmpWNEh5NjBnb1pZMG8?oc=5"
+        }
+      ],
+      "discover_category": "/News",
+      "discover_entities": [
+        "Remise des diplômes"
+      ]
+    },
+    {
+      "id": "s25",
+      "rank": 25,
+      "title": "Obésité : Wegovy et Mounjaro officiellement remboursés en France dans un cadre contrôlé",
       "theme": "lifestyle",
       "score": 21,
+      "tier": "low",
+      "rationale": "Présent sur Google Discover · repris sur Google Actualités.",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "8.9/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 8.9",
+          "fill": 35
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "10/100",
+          "fill": 10
+        }
+      ],
+      "score_breakdown": {
+        "discover": 35.1,
+        "trends": 0.0,
+        "wiki": 0.0,
+        "gnews": 35.0,
+        "msn": 10.0,
+        "x": 0.0,
+        "total": 20.5
+      },
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/bien-etre/obésité-wegovy-et-mounjaro-officiellement-remboursés-en-france-dans-un-cadre-contrôlé/ar-AA24jcdn?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.af22df5296a17280b0e7a80f9dbc26fb&pid=Wdp",
+      "msn_source_name": "Europe 1",
+      "refs": [
+        {
+          "label": "MSN · Europe 1 — Obésité : Wegovy et Mounjaro officiellement remboursés en France dans un cadre contrôlé",
+          "url": "https://www.msn.com/fr-fr/lifestyle/bien-etre/obésité-wegovy-et-mounjaro-officiellement-remboursés-en-france-dans-un-cadre-contrôlé/ar-AA24jcdn?ocid=00000000"
+        },
+        {
+          "label": "Discover · YouTube — Wegovy : qui peut vraiment se faire rembourser ce nouveau médicament anti-obésité ?",
+          "url": "https://www.youtube.com/watch?v=3mCGcfWAjl0"
+        },
+        {
+          "label": "GNews · CNews — Ozempic, Wegovy, Mounjaro... Quels sont les effets secondaires des médicaments anti-obésité bientôt remboursés en France ?",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSktHOGRjSkI4bVFoSG5OQXhZZmlUbUUxN1AxVWtJWF90TENPdnVzX1l0TUNlUnJJNTVia280ZlBSUUpwcHRZUGtJZTdGenhJTl9lM0FqdFRVNjZTM0QtX1NKVllXcFI4c0dfRjJfdC1obTdvWFlTS29OYTI1Y2RGMkFfbXhDaVlweUI3MHJZbkI1RmlVbXFhZ1RyX2J4RWJtRThUSWIxdXBUa1hoRXZYN3Q1enlTNUHSAbwBQVVfeXFMTXF0MzBCMGotX2tldGZYNzBsY2hJRkMxTG9JZUlEclplY1JaSEthemVoVVpvdk5CclVFVWhhenF5bnA3ODRfQi03cnkyUHdrLVpoMElUMjVlUDFXV1FPNmtiYWtOZjN6akNKbU1zQVNGQjBRU0M0alN3cThUYURnUFU1UGg4N2RjdkZfZnZJb2F2TEdXTUNhNU9CRExQZGlORnI4TVMxRXZweURtcURVVkJJNzhaMHNNbTJIbl8?oc=5"
+        }
+      ],
+      "discover_category": "/Health/Health Conditions/Obesity",
+      "discover_entities": [
+        "Obésité"
+      ]
+    },
+    {
+      "id": "s26",
+      "rank": 26,
+      "title": "Grêle, rafales de vent… Des orages violents frappent la France ce jeudi, les départements en alerte",
+      "theme": "actualite",
+      "score": 20,
       "tier": "low",
       "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
       "signals": [
@@ -2555,14 +2566,14 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "1633+ react."
+          "value": "87+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 0.4",
-          "fill": 1
+          "value": "score 0.1",
+          "fill": 0
         },
         {
           "name": "Google News",
@@ -2591,35 +2602,35 @@
         }
       ],
       "score_breakdown": {
-        "discover": 1.8,
+        "discover": 0.5,
         "trends": 0.0,
         "wiki": 0.0,
         "gnews": 35.0,
         "msn": 100.0,
         "x": 0.0,
-        "total": 20.7
+        "total": 20.4
       },
-      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/retraite-j-ai-touché-le-rsa-toute-ma-vie-voici-combien-je-gagne-de-pension-chaque-mois-en-2026/ar-AA1Mhs6n?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.4e08d12996f0830668955654125d4b9d&pid=Wdp",
-      "msn_source_name": "Marie France",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/grêle-rafales-de-vent-des-orages-violents-frappent-la-france-ce-jeudi-les-départements-en-alerte/ar-AA24fVC8?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.384a867e48e8dd2876db49a0cd2c4718&pid=Wdp",
+      "msn_source_name": "Actu",
       "refs": [
         {
-          "label": "MSN · Marie France — Retraite : j’ai touché le RSA toute ma vie, voici combien je gagne de pension chaque mois en 2026",
-          "url": "https://www.msn.com/fr-fr/lifestyle/shopping/retraite-j-ai-touché-le-rsa-toute-ma-vie-voici-combien-je-gagne-de-pension-chaque-mois-en-2026/ar-AA1Mhs6n?ocid=00000000"
+          "label": "MSN · Actu — Grêle, rafales de vent… Des orages violents frappent la France ce jeudi, les départements en alerte",
+          "url": "https://www.msn.com/fr-fr/actualite/france/grêle-rafales-de-vent-des-orages-violents-frappent-la-france-ce-jeudi-les-départements-en-alerte/ar-AA24fVC8?ocid=00000000"
         },
         {
-          "label": "Discover · Actu.fr — Comme chaque année, cette piscine en extérieur de Seine-Maritime va rouvrir ses portes au début du mois de juin",
-          "url": "https://actu.fr/normandie/aumale_76035/comme-chaque-annee-cette-piscine-en-exterieur-de-seine-maritime-va-rouvrir-ses-portes-au-debut-du-mois-de-juin_64322190.html"
+          "label": "Discover · tendanceouest.com — Alerte météo. Vigilance jaune orages en Normandie ce jeudi : où la grêle est-elle annoncée par département ?",
+          "url": "https://www.tendanceouest.com/actualite-439427-alerte-meteo-vigilance-jaune-orages-en-normandie-ce-jeudi-ou-la-grele-est-elle-annoncee-par-departement"
         },
         {
-          "label": "GNews · RMC — Retraite: voici le montant moyen d'une pension en France, gagnez-vous plus?",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORDdsdDkzRlRhdjVEQnN6QXlPQ3ZjZzBLWG5IQTA5eXhHRXpSaTBvRDRrUGJyNVJZMF9ieWZiNXhLQ1lUMHRzLTZ2YnRlSUx4V281TkR6anB1OXB4TFViWk1EX1Jad3JXYTM2OUlGWnNSNHR1V05OR21kSmo4WWt5a2lERVM3MVJJN1NqUDBDNE1mRXdET2pQbWVvODlUaTNDSUllRHZrLVpQQkZtWW5RVVVjazYzc3g2bjdJOE1fREVnOVdrdTU4?oc=5"
+          "label": "GNews · tendanceouest.com — Alerte météo. Vigilance jaune orages en Normandie ce jeudi : où la grêle est-elle annoncée par département ?",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPU0Y4UjJqV0FKemJ3bnFBanh3MHdXSnRHUlp4Y2o0MEtyaWhTUDRralp6eHlvbFN2M0ZfeU5tTDZQT3lrWjdPSHNXOERfT1BwVUgyaUFlV19nWFU2T1E4UHRlMk1wSk5OektpZTJjbUNFQVk4d0VscVotaWd3ZmxZUnp5TzhILXNxTjdidFQ2RUNqRVdGbzBvZTlZQU5oRDh4UGxSYUVBNlNuSldRVkhVQ2x4R3BqS3JScTFPTUxVNWE2UWJUODFSeUllX2l6VURkbW9vb2xlVHZwei1sanlVQW5NZlQ?oc=5"
         }
       ],
-      "discover_category": "/News",
+      "discover_category": "/News/Weather",
       "discover_entities": [
-        "Le Réveil de Neufchâtel",
-        "Seine-Maritime"
+        "Grêle",
+        "Météo-France"
       ]
     },
     {
@@ -2713,11 +2724,96 @@
     {
       "id": "s28",
       "rank": 28,
-      "title": "Coup de tonnerre : Miss France ne fera pas Miss Univers, la société prend une décision radicale après les polémiques",
-      "theme": "actualite",
-      "score": 18,
+      "title": "« Nous allons devoir travailler plus longtemps », Edouard Philippe rappelé à ses propos sur la retraite à 67 ans",
+      "theme": "finance",
+      "score": 17,
       "tier": "low",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (6 médias).",
+      "rationale": "Présent dans le top Wikipedia · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "2k vues"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "139+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.7",
+          "fill": 3
+        },
+        {
+          "name": "Google News",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "2k vues/h",
+          "fill": 11
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "discover": 3.2,
+        "trends": 0.0,
+        "wiki": 11.1,
+        "gnews": 0.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "total": 17.5
+      },
+      "msn_url": "https://www.msn.com/fr-fr/finance/autres/nous-allons-devoir-travailler-plus-longtemps-edouard-philippe-rappelé-à-ses-propos-sur-la-retraite-à-67-ans/ar-AA24gBBv?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.6382f564016e1335f149734236200441&pid=Wdp",
+      "msn_source_name": "Capital France",
+      "refs": [
+        {
+          "label": "MSN · Capital France — « Nous allons devoir travailler plus longtemps », Edouard Philippe rappelé à ses propos sur la retraite à 67 ans",
+          "url": "https://www.msn.com/fr-fr/finance/autres/nous-allons-devoir-travailler-plus-longtemps-edouard-philippe-rappelé-à-ses-propos-sur-la-retraite-à-67-ans/ar-AA24gBBv?ocid=00000000"
+        },
+        {
+          "label": "Discover · YouTube — Comment la bataille entre le RN et Édouard Philippe a fini par se faire sur ses mocassins",
+          "url": "https://www.youtube.com/watch?v=argO1lVMaqY"
+        }
+      ],
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Extrême droite",
+        "Édouard Philippe"
+      ]
+    },
+    {
+      "id": "s29",
+      "rank": 29,
+      "title": "Guerre en Ukraine : un drone russe frappe la Roumanie, l’ONU alerte sur une escalade… Le point sur la nuit",
+      "theme": "actualite",
+      "score": 17,
+      "tier": "low",
+      "rationale": "Forte couverture médiatique (8 médias).",
       "signals": [
         {
           "source": "gsc",
@@ -2727,7 +2823,103 @@
         {
           "source": "news",
           "label": "gnews",
-          "value": "6 médias"
+          "value": "8 médias"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "5+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.1",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "8 médias",
+          "fill": 100
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "15/100",
+          "fill": 15
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.5,
+        "trends": 0.0,
+        "wiki": 0.0,
+        "gnews": 100.0,
+        "msn": 15.0,
+        "x": 0.0,
+        "total": 17.4
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/other/guerre-en-ukraine-un-drone-russe-frappe-la-roumanie-l-onu-alerte-sur-une-escalade-le-point-sur-la-nuit/ar-AA24kgt2?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.3b84a7740da87e907799d9c3353d0ee6&pid=Wdp",
+      "msn_source_name": "Ouest-France",
+      "refs": [
+        {
+          "label": "MSN · Ouest-France — Guerre en Ukraine : un drone russe frappe la Roumanie, l’ONU alerte sur une escalade… Le point sur la nuit",
+          "url": "https://www.msn.com/fr-fr/actualite/other/guerre-en-ukraine-un-drone-russe-frappe-la-roumanie-l-onu-alerte-sur-une-escalade-le-point-sur-la-nuit/ar-AA24kgt2?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le Monde.fr — EN DIRECT, guerre en Ukraine : Un immeuble en Roumanie frappé par un drone russe selon le ministère de l’intérieur",
+          "url": "https://www.lemonde.fr/international/live/2026/05/29/en-direct-guerre-en-ukraine-l-onu-alerte-contre-un-risque-d-escalade-incontrolable_6693162_3210.html"
+        },
+        {
+          "label": "GNews · BFM — Guerre en Ukraine: la Roumanie, membre de l'Otan, annonce qu'un drone russe a frappé un immeuble sur son territoire",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNamFLa25GOGpkUEN3QkdhMmxMWWJzM3Q4TE9QLWZ3T3FNUW5tUV94cVRwMzdJeTh5UTIwd3RINzF1NnNsbXh3SElEdWpReTdCUW5RdTdkbHdVbXVBYjNGZHNBcHo3YUlqR3cwOUxHZmlyZ0tNci0zQmdHSElSNlg1RFJKN0dBdlhDcEJJWHhoR29tazA5Yjh4WEN2X0llUFR2WU5NTHQxOE1LMTUwQWJnVTh5WC1KSjh1bGhQdURYTk1hOXpobDd0OEZ5WENHUlNXVUNmSWpuTjJpNDFaRlcyT3U4VXZfZlN4elg2WEU4dzkwM2RjZ0pUZWYyTzJSb1VBZkNkN0Nqdw?oc=5"
+        },
+        {
+          "label": "GNews · Le Figaro — Guerre en Ukraine : la Roumanie, membre de l'Otan, affirme qu'un drone russe a frappé un immeuble sur son territoire",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbFNkQmY0S3Mta2hUZXhmVm9IMG5sWVRBN1BLZ0lnYVlLcjg1LXF3bzR6dWU4aE5OcGxtUTcyNXVpenVMZkhBckJfWnY0OTA2MVBzLW9wMmxvNjlYdnlfZmFVS2g1UGxCZnA5ZGJ0Sk9kWXd6WkNtelEwV0Q3S19IdDZDUDNQRXpRZDIxY3lfY2Z1WmliQXY0Y05DaTdjLV81SkRtUjVFQUlhZlhlVEFHalBpUzkwcERGUDEyZl9PX0s1eXIwREZHREREQlg5clh5RVZGV0hMOWo?oc=5"
+        },
+        {
+          "label": "GNews · Le Monde.fr — EN DIRECT, guerre en Ukraine : un drone russe « s’est écrasé » sur un immeuble résidentiel en Roumanie, faisant deux blessés légers, annonce le ministère de la défense roumain",
+          "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQX1BfTlB1RFJaOFp5QW1aZEdyVnh4MGtUdFJHOTlmaHkydUE0aF9jeVZ5bDRGM0xPS1BTdVdSVHdXQWViOVBTRGhlZ0FMSVc1UHZ3QzlkQ3BPRXV5a1g2bjF6SEtLdGNTSUVmakhXUTV3WmNnWGQtdHdZNjFuRG40T2Fmd0RhTGt1QXNMV2JKMTI3SVpXUVlieWFiTzFnd1lxcUpfNm8xYjlBa05OVG9Ed2Y3TDZfSEQ1Wkd1M1c0NVQ1SU1MNWNtak9DWW5fTXdhSjdKb3R4dl9rV1J2bGlCekRTaUNQd1ZCNllOd29zYnZFYUcyUnFSRkt6VXJNT2VhS3NmamNMZWZlemJadS1jWlpldkFfUVlWOUQzSFBVUGZIYVVXSUNEaUNIb192ckJNbG0tUThNQmNxNDVXNHZhTTBJOWxYNGZSYTYtbHU1bFhJWlhERVFKZA?oc=5"
+        }
+      ],
+      "discover_category": "/Sensitive Subjects",
+      "discover_entities": [
+        "Oblast de Donetsk"
+      ]
+    },
+    {
+      "id": "s30",
+      "rank": 30,
+      "title": "Coup de tonnerre : Miss France ne fera pas Miss Univers, la société prend une décision radicale après les polémiques",
+      "theme": "actualite",
+      "score": 17,
+      "tier": "low",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (5 médias).",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "5 médias"
         },
         {
           "source": "trends",
@@ -2742,7 +2934,7 @@
         {
           "source": "news",
           "label": "msn",
-          "value": "5+ react."
+          "value": "4+ react."
         }
       ],
       "sources": [
@@ -2753,8 +2945,8 @@
         },
         {
           "name": "Google News",
-          "value": "6 médias",
-          "fill": 92
+          "value": "5 médias",
+          "fill": 86
         },
         {
           "name": "Google Trends",
@@ -2780,11 +2972,11 @@
       "score_breakdown": {
         "discover": 0.9,
         "trends": 4.5,
-        "wiki": 6.3,
-        "gnews": 92.1,
+        "wiki": 6.1,
+        "gnews": 86.3,
         "msn": 15.0,
         "x": 0.0,
-        "total": 18.1
+        "total": 17.2
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/coup-de-tonnerre-miss-france-ne-fera-pas-miss-univers-la-société-prend-une-décision-radicale-après-les-polémiques/ar-AA24gmRa?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.757fb7b71988d4864b2e4735c8270c3b&pid=Wdp",
@@ -2803,12 +2995,12 @@
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWm9BZUEwazVnb0hEMGhka09XdUV0azlyTndMekNuc25sMEdNZmpkY2hzR2loMHQxRWNfay04Q3RvdzhENHQzRUhpdENHV2pKdXZ3Y1pPb3Y3MGs1dUMwdjhqTVFOYTRIMFFKZEk5RnVKcjBtX0dYY3RHWmFnaEEtYmp6aWpTejhkVWViX290emJfdXBrYmpla01pR0dod0oyWU8wcnZFN3NrU2hSOGpvTXk1UjF5b3pUdU0wQ1hvZDlJWDJPbmplaER4S09HM3FxTmlRag?oc=5"
         },
         {
-          "label": "GNews · public.fr — Agathe Lecaron déjà remerciée par France 2 après une seule saison",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVzBqWEFpc3I3dkpJVnZ6TGxlS3BiRi1RZjZHNXd5TkdKSklzNUs3THJvel9uN1ZlX3JoaEpwMDluQkVvdnpIYkZuM0hwWWI2ZVRfUWxxYi1TX1hNaTNwN1JnRk1DenNhUEU4UFR6TFBHVGpUN3NxWm5PMi01RkVDUDRKN2xKOGhnc3FvRFZIc2Y?oc=5"
-        },
-        {
           "label": "GNews · Télérama — France Télévisions étudie trois scénarios de transformation radicale, à la demande du gouvernement",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONUNYZk4tRTlHRE5TTE96SHk3QzJoWXg1dEFIVzhtdm01ZDJIMktuUVEzek1FSzIzYndWMkV0b0tHQ21JWTZkS3dTUG9lUDNDQjF2UnhaNDZrZGNzNXFaa1ZrOXRhZEdfRHYwNDk2ZXFMTTJ1VVRoYXVIWjhaV1RKaXFDS2p0MG1OT0ROMWFScVNWVVloNHJZMFFYalRFdUduY2ZDNGRtNTZtZDhpZVhvOXJyZFBhUUJmUzgtSkdkcktZUFM2UXcwSS1VN25IY1YzRy0tSGdDVHUyRjRx?oc=5"
+        },
+        {
+          "label": "GNews · Le Monde.fr — Après les critiques de Xenia Fedorova sur leurs déplacements à Kiev, ancienne patronne de RT France et proche de Bolloré,",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQalgzWjI1SVd2MF9MbTV1WXI0YUZWZWh2MmFtVVczYmZuOHdCMmo2Uk4xZFRtYWdNc3dsUXpIcUQycHNPelh1cGVLa1VVMVhsNnM0cGVIa1k5ZTRXNEJTWEJVSzZYSXJHT2tOdzdTUU9LOW1YRV9HR3F0UUZjUW1DUEZpZE9obzVYZ1BBa09lUVhuS0huODE3b3k3ZFgxeHgyYkJuakRSV3RNaE9rNXlsa3p0UEZzaEp2TU5VeTRKLUlEM3I0M3ktdWFiUnJxUm9JUVpBbFVZMU01d1R5YndUeFNsRHo4d3FzUkEzc2ZpQnMxcjF6Ql9RRkhBVXhlX2dMTjIyVkF0MnJtY2s0bTBxQ21JdFQwY2FHMjh2WEdoYzNjUXZSUElld3pZY3JaMFRBQzVNN3dLSV9zSVhOam5SYnJ6TUI5VGlCOFdwanJYSll0dw?oc=5"
         }
       ],
       "discover_category": "/Beauty & Fitness/Beauty Pageants",
@@ -2816,225 +3008,32 @@
         "Miss France",
         "Miss Univers"
       ]
-    },
-    {
-      "id": "s29",
-      "rank": 29,
-      "title": "Roland-Garros : l'improbable appel à l'aide de Tiafoe après le vol de sa raquette par un spectateur",
-      "theme": "sport",
-      "score": 18,
-      "tier": "low",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · couvert par 3 médias.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "3 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "5k"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "3k vues"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "4+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "3 médias",
-          "fill": 70
-        },
-        {
-          "name": "Google Trends",
-          "value": "5k",
-          "fill": 11
-        },
-        {
-          "name": "Wikimedia",
-          "value": "3k vues/h",
-          "fill": 16
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "15/100",
-          "fill": 15
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 11.0,
-        "wiki": 16.6,
-        "gnews": 70.0,
-        "msn": 15.0,
-        "x": 0.0,
-        "total": 17.6
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-l-improbable-appel-à-l-aide-de-tiafoe-après-le-vol-de-sa-raquette-par-un-spectateur/ar-AA24izr9?ocid=00000000",
-      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24irNO.img",
-      "msn_source_name": "RMC Sport",
-      "refs": [
-        {
-          "label": "MSN · RMC Sport — Roland-Garros : l'improbable appel à l'aide de Tiafoe après le vol de sa raquette par un spectateur",
-          "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-l-improbable-appel-à-l-aide-de-tiafoe-après-le-vol-de-sa-raquette-par-un-spectateur/ar-AA24izr9?ocid=00000000"
-        },
-        {
-          "label": "Discover · Le Monde — EN DIRECT, Roland-Garros 2026 : élimination",
-          "url": "https://www.lemonde.fr/sport/live/2026/05/28/en-direct-roland-garros-2026-elimination-surprise-de-jannik-sinner-des-le-deuxieme-tour-moise-kouame-et-diane-parry-qualifies-cote-francais_6694434_3242.html"
-        },
-        {
-          "label": "GNews · TV Magazine — Ophélie Meunier, Vianney, Géraldine Maillet et Daniel Riolo... Les stars télé à Roland-Garros malgré la canicule",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZ0lmcWFtTzM0MFpxRmdGUHNtMGxtMExZREh4SGtZR3RqaVY0SEhIMjZNQWYtMTRTSXc1R3JqZnNYb0ZfVHRlUnRlQ1duMThIYnBmWXU5aGk3VDZ4bmVQWmFsaWpBLWxCamdwUGo4VmZNU3hkemI5MGVtN0k2Ty1nVGtMajJmRlpqLUQ2SWE4SzdUV01DR3NBQWRkYVZqNi1ueTNhcDNTWVpudjVFdHh3T1dkSWNEN3luX2gwTVJuTmV5LVMxYVJoVTROUVlQWThSbEZ6X1ZhS2FUQ0xROEtoMXNLQW1CS2lfZHd3eWk2TXAyTGdN?oc=5"
-        },
-        {
-          "label": "GNews · franceinfo — Embraser le public, tenir physiquement, gérer mentalement : comment Moïse Kouame a trouvé les ressources pour rallier un 3e tour historique à Roland-Garros",
-          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNNTlPbHJMRXcwS3owbmNuYU5UTWJibGRGQTRXa2tmT2dxNjYyUGVhdXNZc0lXbDVBMDhEdWdBTWFtdE9xRnJuS01zMDZPZERhOVNiWjl3MmFINWhhRmRKOE10VTJnX09MWUxOUzdwdzRtR2N4UHFpblE3bEZBSnVQN3ZXZ3RheXpEUnRpWkVEZlpEX3lJMGdwLThOeFg1R0tsNXNpRmdEdkhmLW1wWEVzY2VnMV81QldfT1hHX2lUSUgwdnNzSWFaUTVhTUFkbWNDeVY5SlVDOVJYV08xYUFNMldDUVBMSlFXbzYtNzMtYk9xcmJzcVVhZjNGaUViLW9ZSGk5TV9LcnpkalRLelNGV3ZPM1lCU0NYSFZlbmpPMlE2b0tDeE5LRVF3dC0?oc=5"
-        },
-        {
-          "label": "GNews · Le Monde.fr — Roland-Garros 2026, les résultats du jeudi 28 mai : Moïse Kouamé et Diane Parry qualifiés pour le troisième tour, élimination surprise du numéro 1 mondial Jannik Sinner",
-          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxORGN2VG9GMUFTUFNVV2VWU3hCS29QYmJyNmxGcmFVM0VhR19BZVhGV2kyOW5hdG14MmdpUkVrQ1pJQkFTMzRDWEo1UFRKUktRZ1JieTZGWFdFRG1KUW5aNTc0MklpX1J0QW1oRThMWXFWeWpjWk53SGdackxPS0hQRS15dGdTLU0xMHRzVC1hTnQtZHJlRXNJUEFFUDY2VnRDUUYxSHNMUlJYY2JfRnlteHJyeTZhdVBnZThWUXhTaDByZ1RKMTJlUjVvNWRaX3VLOUtqdjN6YkVGSlhsV0htRjZnTlZlSWVRQjNqY3B0b3Jfb3pwQmJpWGlzWjMyR252MnlJQkhOVWxCVWRKWHZrRjFlNDFOTGFTbTFNT1lvRHhMM3JmSXNmcTdR?oc=5"
-        }
-      ],
-      "discover_category": "/Sports/Individual Sports/Racquet Sports",
-      "discover_entities": [
-        "Diane Parry",
-        "Jannik Sinner",
-        "Roland-Garros"
-      ]
-    },
-    {
-      "id": "s30",
-      "rank": 30,
-      "title": "Benedetta : pourquoi Virginie Efira rêvait-elle de jouer dans le film sulfureux de Paul Verhoeven ?",
-      "theme": "divertissement",
-      "score": 17,
-      "tier": "low",
-      "rationale": "Forte audience Wikipedia (50 696 vues/jour).",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "51k vues"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "12+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "51k vues/h",
-          "fill": 100
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "15/100",
-          "fill": 15
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 100.0,
-        "gnews": 0.0,
-        "msn": 15.1,
-        "x": 0.0,
-        "total": 17.4
-      },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/benedetta-pourquoi-virginie-efira-rêvait-elle-de-jouer-dans-le-film-sulfureux-de-paul-verhoeven/ar-AA24cn8h?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.1a30ba96adf867cd69e20ff776c443a1&pid=Wdp",
-      "msn_source_name": "Voici",
-      "refs": [
-        {
-          "label": "MSN · Voici — Benedetta : pourquoi Virginie Efira rêvait-elle de jouer dans le film sulfureux de Paul Verhoeven ?",
-          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/benedetta-pourquoi-virginie-efira-rêvait-elle-de-jouer-dans-le-film-sulfureux-de-paul-verhoeven/ar-AA24cn8h?ocid=00000000"
-        },
-        {
-          "label": "Discover · We Love Tennis — Roland Garros > Novak Djokovic ne veut pas de privilège : \"Si vous fermez un toit, et que tous les autres continuent à jouer, ce n'est pas juste non plus... Pourquoi fermer le court central alors que tous les autres doivent jouer sous la chaleur\"",
-          "url": "https://www.welovetennis.fr/roland-garros/novak-djokovic-ne-veut-pas-de-privilege-si-vous-fermez-un-toit-et-que-tous-les-autres-continuent-a-jouer-ce-nest-pas-juste-non-plus-pourquoi-fermer-le-court-central-alors-que-tous-les-autre"
-        }
-      ],
-      "discover_category": "/Sports/Individual Sports/Racquet Sports",
-      "discover_entities": [
-        "Novak Djokovic",
-        "Sport"
-      ]
     }
   ],
   "categories_trending": [
     {
       "key": "/News/Politics",
       "label": "Politique",
-      "articles_count": 14,
-      "total_score": 77.7,
-      "avg_score": 5.5,
+      "articles_count": 15,
+      "total_score": 80.8,
+      "avg_score": 5.4,
       "top_articles": [
         {
           "title": "Cour des comptes : la nomination de Najat Vallaud-Belkacem attaquée devant le Conseil d’Etat par des députés RN",
           "publisher": "Le Monde.fr",
-          "score": 50.1,
+          "score": 51.7,
           "url": "https://www.lemonde.fr/politique/article/2026/05/28/cour-des-comptes-la-nomination-de-najat-vallaud-belkacem-attaquee-devant-le-conseil-d-etat-par-des-deputes-rn_6694513_823448.html"
         },
         {
           "title": "« L’Allemagne de Merz n’est plus celle de Merkel » : Jordan Bardella se rapproche de la droite allemande au détriment de l’AfD",
           "publisher": "Le Figaro",
-          "score": 7.2,
+          "score": 7.6,
           "url": "https://www.lefigaro.fr/politique/l-allemagne-de-merz-n-est-plus-celle-de-merkel-jordan-bardella-se-rapproche-de-la-droite-allemande-au-detriment-de-l-afd-20260528"
         },
         {
           "title": "Dans une tribune transpartisane, quinze personnalités politiques, dont Aurore Bergé, s'opposent à la GPA",
           "publisher": "Le Figaro",
-          "score": 6.1,
+          "score": 6.2,
           "url": "https://www.lefigaro.fr/actualite-france/dans-une-tribune-transpartisane-quinze-personnalites-politiques-dont-aurore-berge-s-opposent-a-la-gpa-20260528"
         }
       ]
@@ -3043,13 +3042,13 @@
       "key": "/Food & Drink/Food & Grocery Retailers",
       "label": "Distribution alimentaire",
       "articles_count": 12,
-      "total_score": 71.0,
-      "avg_score": 5.9,
+      "total_score": 73.4,
+      "avg_score": 6.1,
       "top_articles": [
         {
           "title": "Ni glaces, ni fruits, ni légumes… Pourquoi certains rayons sont vides ces derniers jours dans les supermarchés ?",
           "publisher": "Actu.fr",
-          "score": 64.4,
+          "score": 66.6,
           "url": "https://actu.fr/economie/ni-glaces-ni-fruits-ni-legumes-pourquoi-certains-rayons-sont-vides-ces-derniers-jours-dans-les-supermarches_64326462.html"
         },
         {
@@ -3059,36 +3058,36 @@
           "url": "https://actu.fr/ile-de-france/sagy_95535/baisse-du-pouvoir-dachat-le-message-dalerte-dun-boucher-en-detresse-dans-le-val-doise_64320116.html"
         },
         {
-          "title": "Gironde : avec 35 000 visiteurs en trois jours, le Marché portugais de Cenon a une nouvelle fois fait le plein",
-          "publisher": "Sud Ouest",
-          "score": 0.5,
-          "url": "https://www.sudouest.fr/gironde/bordeaux/gironde-avec-35-000-visiteurs-en-trois-jours-le-marche-portugais-de-cenon-a-une-nouvelle-fois-fait-le-plein-29249749.php"
+          "title": "« Nous avons su respecter le terroir » : la boucherie Daujat change de main",
+          "publisher": "Le Progrès",
+          "score": 0.6,
+          "url": "https://www.leprogres.fr/economie/2026/05/28/nous-avons-su-respecter-le-terroir-la-boucherie-daujat-change-de-main"
         }
       ]
     },
     {
       "key": "/Arts & Entertainment/Celebrities & Entertainment News",
       "label": "People",
-      "articles_count": 22,
-      "total_score": 62.5,
+      "articles_count": 23,
+      "total_score": 64.5,
       "avg_score": 2.8,
       "top_articles": [
         {
           "title": "« Il y a des juges et des lois » : Le chanteur Aurélien Vivos réagit à l’affaire Patrick Bruel, avec qui il avait chanté en finale de The Voice",
           "publisher": "RTL Info",
-          "score": 32.3,
+          "score": 32.7,
           "url": "https://www.rtl.be/people/rtl-inside/les-invites-de-rtl/il-y-des-juges-et-des-lois-le-chanteur-aurelien-vivos-reagit-laffaire-patrick/2026-05-28/article/789934"
         },
         {
           "title": "L’affaire Patrick Bruel” continue de prendre de l’ampleur",
           "publisher": "YouTube",
-          "score": 10.1,
+          "score": 10.4,
           "url": "https://www.youtube.com/watch?v=hqDAMEIneaA"
         },
         {
           "title": "Suisse. Patrick Bruel « venait rôder, comme un prédateur » : une ex-bénévole des Enfoirés témoigne",
           "publisher": "Le Dauphiné Libéré",
-          "score": 7.8,
+          "score": 8.6,
           "url": "https://www.ledauphine.com/faits-divers-justice/2026/05/28/patrick-bruel-venait-roder-comme-un-predateur-une-ex-benevole-des-enfoires-temoigne"
         }
       ]
@@ -3096,26 +3095,26 @@
     {
       "key": "/News/Weather",
       "label": "Météo",
-      "articles_count": 38,
-      "total_score": 54.2,
-      "avg_score": 1.4,
+      "articles_count": 37,
+      "total_score": 55.7,
+      "avg_score": 1.5,
       "top_articles": [
         {
           "title": "Orages : voici les 12 départements placés en vigilance jaune ce vendredi",
           "publisher": "CNews",
-          "score": 25.5,
+          "score": 26.5,
           "url": "https://www.cnews.fr/france/2026-05-28/orages-voici-les-12-departements-places-en-vigilance-jaune-ce-vendredi-1868708"
         },
         {
           "title": "Changement radical d'ambiance la semaine prochaine",
           "publisher": "La Chaîne Météo",
-          "score": 10.4,
+          "score": 10.7,
           "url": "https://actualite.lachainemeteo.com/actualite-meteo/2026-05-28/changement-radical-d-ambiance-la-semaine-prochaine-88831"
         },
         {
           "title": "Météo. Des orages très localisés vont frapper les Bouches-du-Rhône : les secteurs concernés",
           "publisher": "Actu.fr",
-          "score": 6.8,
+          "score": 7.0,
           "url": "https://actu.fr/meteo/meteo-des-orages-tres-localises-vont-frapper-les-bouches-du-rhone-les-secteurs-concernes_64324093.html"
         }
       ]
@@ -3124,13 +3123,13 @@
       "key": "/Shopping/Apparel/Clothing Accessories",
       "label": "Clothing Accessories",
       "articles_count": 3,
-      "total_score": 41.6,
-      "avg_score": 13.9,
+      "total_score": 43.3,
+      "avg_score": 14.4,
       "top_articles": [
         {
           "title": "Deux semaines après le lancement fou de la Royal Pop: «Nous le répétons depuis le début, ce n’est pas une série limitée",
           "publisher": "Le Temps",
-          "score": 41.6,
+          "score": 43.3,
           "url": "https://www.letemps.ch/economie/horlogerie-joaillerie/deux-semaines-apres-le-lancement-fou-de-la-royal-pop-nous-le-repetons-depuis-le-debut-ce-n-est-pas-une-serie-limitee"
         },
         {
@@ -3151,25 +3150,25 @@
       "key": "/Sensitive Subjects",
       "label": "Sujets sensibles",
       "articles_count": 28,
-      "total_score": 40.4,
-      "avg_score": 1.4,
+      "total_score": 41.0,
+      "avg_score": 1.5,
       "top_articles": [
         {
           "title": "Un élève trouve la mort dans un terrible accident de tronçonneuse",
           "publisher": "20 Minutes",
-          "score": 11.0,
+          "score": 11.3,
           "url": "https://www.20minutes.fr/faits_divers/4225979-20260528-drome-lyceen-trouve-mort-terrible-accident-tronconneuse"
         },
         {
           "title": "Tragique accident de tronçonneuse dans un lycée professionnel : Un élève de 15 ans est mort",
           "publisher": "France 3 Régions",
-          "score": 8.3,
+          "score": 8.4,
           "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/drome/valence/tragique-accident-de-tronconneuse-dans-un-lycee-professionnel-un-eleve-de-15-ans-est-mort-3358876.html"
         },
         {
           "title": "Guerre au Moyen-Orient : Bercy gèle et annule 4 milliards d’euros de crédits pour compenser le coût du conflit",
           "publisher": "Le Monde.fr",
-          "score": 6.0,
+          "score": 6.1,
           "url": "https://www.lemonde.fr/politique/article/2026/05/28/guerre-au-moyen-orient-bercy-gele-et-annule-4-milliards-d-euros-de-credits-pour-compenser-le-cout-du-conflit_6694522_823448.html"
         }
       ]
@@ -3178,13 +3177,13 @@
       "key": "/Sports/Individual Sports/Racquet Sports",
       "label": "Sports de raquette",
       "articles_count": 18,
-      "total_score": 20.5,
-      "avg_score": 1.1,
+      "total_score": 20.8,
+      "avg_score": 1.2,
       "top_articles": [
         {
           "title": "Quand les spectateurs du Simonne-Mathieu informent Francisco Cerundolo de la victoire de son frère contre Jannik Sinner",
           "publisher": "L'Équipe",
-          "score": 8.2,
+          "score": 8.3,
           "url": "https://www.lequipe.fr/Tennis/Actualites/Quand-les-spectateurs-du-simonne-mathieu-informent-francisco-cerundolo-de-la-victoire-de-son-frere-contre-jannik-sinner/1679613"
         },
         {
@@ -3204,14 +3203,14 @@
     {
       "key": "/News/Business News/Company News",
       "label": "Company News",
-      "articles_count": 8,
-      "total_score": 16.4,
-      "avg_score": 2.1,
+      "articles_count": 7,
+      "total_score": 16.7,
+      "avg_score": 2.4,
       "top_articles": [
         {
           "title": "« Il y a du boulot mais on décide quand même de fermer » : Chez Safran, un déménagement qui ne passe pas...",
           "publisher": "Le Parisien",
-          "score": 12.8,
+          "score": 13.3,
           "url": "https://www.leparisien.fr/yvelines-78/il-y-a-du-boulot-mais-on-decide-quand-meme-de-fermer-chez-safran-un-demenagement-qui-ne-passe-pas-28-05-2026-CVPZWXBZ75H4JMJSTGUSORYZ3A.php"
         },
         {
@@ -3238,19 +3237,19 @@
       ],
       "members_count": 2,
       "articles_count": 14,
-      "total_score": 29.1,
+      "total_score": 30.0,
       "avg_score": 2.1,
       "top_articles": [
         {
           "title": "Daniel Vallejo, battu par Moïse Kouame : \"Si on joue ce match dans un autre pays, Kouame le perd à 100%\"",
           "publisher": "Eurosport",
-          "score": 10.2,
+          "score": 11.0,
           "url": "https://www.eurosport.fr/tennis/roland-garros/2026/daniel-vallejo-battu-par-moise-kouame-si-on-joue-ce-match-dans-un-autre-pays-kouame-le-perd-a-100_sto23304229/story.shtml"
         },
         {
           "title": "Quand les spectateurs du Simonne-Mathieu informent Francisco Cerundolo de la victoire de son frère contre Jannik Sinner",
           "publisher": "L'Équipe",
-          "score": 8.2,
+          "score": 8.3,
           "url": "https://www.lequipe.fr/Tennis/Actualites/Quand-les-spectateurs-du-simonne-mathieu-informent-francisco-cerundolo-de-la-victoire-de-son-frere-contre-jannik-sinner/1679613"
         },
         {
@@ -3269,19 +3268,19 @@
       ],
       "members_count": 2,
       "articles_count": 5,
-      "total_score": 20.8,
+      "total_score": 21.2,
       "avg_score": 4.2,
       "top_articles": [
         {
           "title": "Un élève trouve la mort dans un terrible accident de tronçonneuse",
           "publisher": "20 Minutes",
-          "score": 11.0,
+          "score": 11.3,
           "url": "https://www.20minutes.fr/faits_divers/4225979-20260528-drome-lyceen-trouve-mort-terrible-accident-tronconneuse"
         },
         {
           "title": "Tragique accident de tronçonneuse dans un lycée professionnel : Un élève de 15 ans est mort",
           "publisher": "France 3 Régions",
-          "score": 8.3,
+          "score": 8.4,
           "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/drome/valence/tragique-accident-de-tronconneuse-dans-un-lycee-professionnel-un-eleve-de-15-ans-est-mort-3358876.html"
         },
         {
@@ -3316,10 +3315,10 @@
           "url": "https://www.lindependant.fr/2026/05/28/le-grand-narbonne-mise-sur-les-futurs-medecins-avec-une-nouvelle-journee-daccueil-des-internes-13392376.php"
         },
         {
-          "title": "Le nouvel hôpital de Saint-Malo compromis : une lettre cinglante dénonce « les erreurs stratégiques »",
-          "publisher": "Actu.fr",
+          "title": "À Riantec, cet hôpital de jour fragilité vise à prévenir la perte d’autonomie et sécuriser le maintien à domicile",
+          "publisher": "Ouest-France",
           "score": 0.1,
-          "url": "https://actu.fr/bretagne/saint-malo_35288/le-nouvel-hopital-de-saint-malo-compromis-une-lettre-cinglante-denonce-les-erreurs-strategiques_64326978.html"
+          "url": "https://www.ouest-france.fr/bretagne/riantec-56670/a-riantec-cet-hopital-de-jour-fragilite-vise-a-prevenir-la-perte-dautonomie-et-securiser-le-maintien-a-domicile-2fc36b7c-5924-11f1-8481-6f001a76e738"
         }
       ]
     },
@@ -3390,25 +3389,25 @@
     {
       "name": "Patrick Bruel",
       "articles_count": 11,
-      "total_score": 57.7,
-      "avg_score": 5.2,
+      "total_score": 59.2,
+      "avg_score": 5.4,
       "top_articles": [
         {
           "title": "« Il y a des juges et des lois » : Le chanteur Aurélien Vivos réagit à l’affaire Patrick Bruel, avec qui il avait chanté en finale de The Voice",
           "publisher": "RTL Info",
-          "score": 32.3,
+          "score": 32.7,
           "url": "https://www.rtl.be/people/rtl-inside/les-invites-de-rtl/il-y-des-juges-et-des-lois-le-chanteur-aurelien-vivos-reagit-laffaire-patrick/2026-05-28/article/789934"
         },
         {
           "title": "L’affaire Patrick Bruel” continue de prendre de l’ampleur",
           "publisher": "YouTube",
-          "score": 10.1,
+          "score": 10.4,
           "url": "https://www.youtube.com/watch?v=hqDAMEIneaA"
         },
         {
           "title": "Suisse. Patrick Bruel « venait rôder, comme un prédateur » : une ex-bénévole des Enfoirés témoigne",
           "publisher": "Le Dauphiné Libéré",
-          "score": 7.8,
+          "score": 8.6,
           "url": "https://www.ledauphine.com/faits-divers-justice/2026/05/28/patrick-bruel-venait-roder-comme-un-predateur-une-ex-benevole-des-enfoires-temoigne"
         }
       ]
@@ -3416,13 +3415,13 @@
     {
       "name": "Assemblée nationale",
       "articles_count": 3,
-      "total_score": 54.8,
-      "avg_score": 18.3,
+      "total_score": 56.4,
+      "avg_score": 18.8,
       "top_articles": [
         {
           "title": "Cour des comptes : la nomination de Najat Vallaud-Belkacem attaquée devant le Conseil d’Etat par des députés RN",
           "publisher": "Le Monde.fr",
-          "score": 50.1,
+          "score": 51.7,
           "url": "https://www.lemonde.fr/politique/article/2026/05/28/cour-des-comptes-la-nomination-de-najat-vallaud-belkacem-attaquee-devant-le-conseil-d-etat-par-des-deputes-rn_6694513_823448.html"
         },
         {
@@ -3440,41 +3439,15 @@
       ]
     },
     {
-      "name": "Jean Messiha",
-      "articles_count": 3,
-      "total_score": 42.6,
-      "avg_score": 14.2,
-      "top_articles": [
-        {
-          "title": "Jean Messiha a restitué les 42.000 euros de la cagnotte destinée aux veuves des agent pénitentiaires tués lors de l'évasion de Mohamed Amra",
-          "publisher": "BFM",
-          "score": 35.3,
-          "url": "https://www.bfmtv.com/police-justice/jean-messiha-a-restitue-les-42-000-euros-de-la-cagnotte-destinee-aux-veuves-des-agent-penitentiaires-tues-lors-de-l-evasion-de-mohamed-amra_AN-202605280888.html"
-        },
-        {
-          "title": "INFO RTL - Jean Messiha accusé de vol de cagnotte : les 42.000 euros ont été versés jeudi aux veuves des victimes de l’évasion de Mohamed Amra",
-          "publisher": "RTL.fr",
-          "score": 6.9,
-          "url": "https://www.rtl.fr/actu/justice-faits-divers/info-rtl-jean-messiha-accuse-de-vol-de-cagnotte-les-42-000-euros-ont-ete-verses-jeudi-aux-veuves-des-victimes-de-l-evasion-de-mohamed-amra-7900640068"
-        },
-        {
-          "title": "Evasion d'Amra: Jean Messiha restitue les fonds aux veuves, annoncent les avocats des plaignantes",
-          "publisher": "Orange Actualités",
-          "score": 0.4,
-          "url": "https://actu.orange.fr/france/evasion-d-amra-jean-messiha-restitue-les-fonds-aux-veuves-annoncent-les-avocats-des-plaignantes-CNT000002pEdD9.html"
-        }
-      ]
-    },
-    {
       "name": "Horlogerie",
       "articles_count": 3,
-      "total_score": 41.6,
-      "avg_score": 13.9,
+      "total_score": 43.3,
+      "avg_score": 14.4,
       "top_articles": [
         {
           "title": "Deux semaines après le lancement fou de la Royal Pop: «Nous le répétons depuis le début, ce n’est pas une série limitée",
           "publisher": "Le Temps",
-          "score": 41.6,
+          "score": 43.3,
           "url": "https://www.letemps.ch/economie/horlogerie-joaillerie/deux-semaines-apres-le-lancement-fou-de-la-royal-pop-nous-le-repetons-depuis-le-debut-ce-n-est-pas-une-serie-limitee"
         },
         {
@@ -3492,21 +3465,73 @@
       ]
     },
     {
-      "name": "Météo-France",
-      "articles_count": 11,
-      "total_score": 34.4,
-      "avg_score": 3.1,
+      "name": "Jean Messiha",
+      "articles_count": 3,
+      "total_score": 42.8,
+      "avg_score": 14.3,
+      "top_articles": [
+        {
+          "title": "Jean Messiha a restitué les 42.000 euros de la cagnotte destinée aux veuves des agent pénitentiaires tués lors de l'évasion de Mohamed Amra",
+          "publisher": "BFM",
+          "score": 35.5,
+          "url": "https://www.bfmtv.com/police-justice/jean-messiha-a-restitue-les-42-000-euros-de-la-cagnotte-destinee-aux-veuves-des-agent-penitentiaires-tues-lors-de-l-evasion-de-mohamed-amra_AN-202605280888.html"
+        },
+        {
+          "title": "INFO RTL - Jean Messiha accusé de vol de cagnotte : les 42.000 euros ont été versés jeudi aux veuves des victimes de l’évasion de Mohamed Amra",
+          "publisher": "RTL.fr",
+          "score": 6.9,
+          "url": "https://www.rtl.fr/actu/justice-faits-divers/info-rtl-jean-messiha-accuse-de-vol-de-cagnotte-les-42-000-euros-ont-ete-verses-jeudi-aux-veuves-des-victimes-de-l-evasion-de-mohamed-amra-7900640068"
+        },
+        {
+          "title": "Evasion d'Amra: Jean Messiha restitue les fonds aux veuves, annoncent les avocats des plaignantes",
+          "publisher": "Orange Actualités",
+          "score": 0.4,
+          "url": "https://actu.orange.fr/france/evasion-d-amra-jean-messiha-restitue-les-fonds-aux-veuves-annoncent-les-avocats-des-plaignantes-CNT000002pEdD9.html"
+        }
+      ]
+    },
+    {
+      "name": "Orage",
+      "articles_count": 6,
+      "total_score": 35.6,
+      "avg_score": 5.9,
       "top_articles": [
         {
           "title": "Orages : voici les 12 départements placés en vigilance jaune ce vendredi",
           "publisher": "CNews",
-          "score": 25.5,
+          "score": 26.5,
           "url": "https://www.cnews.fr/france/2026-05-28/orages-voici-les-12-departements-places-en-vigilance-jaune-ce-vendredi-1868708"
         },
         {
           "title": "Météo. Des orages très localisés vont frapper les Bouches-du-Rhône : les secteurs concernés",
           "publisher": "Actu.fr",
-          "score": 6.8,
+          "score": 7.0,
+          "url": "https://actu.fr/meteo/meteo-des-orages-tres-localises-vont-frapper-les-bouches-du-rhone-les-secteurs-concernes_64324093.html"
+        },
+        {
+          "title": "Orages : la vigilance jaune activée dans 2 départements en Auvergne-Rhône-Alpes",
+          "publisher": "Radio SCOOP",
+          "score": 1.1,
+          "url": "https://www.radioscoop.com/infos/orages-la-vigilance-jaune-activee-dans-2-departements-en-auvergne-rhone-alpes_356759"
+        }
+      ]
+    },
+    {
+      "name": "Météo-France",
+      "articles_count": 10,
+      "total_score": 35.4,
+      "avg_score": 3.5,
+      "top_articles": [
+        {
+          "title": "Orages : voici les 12 départements placés en vigilance jaune ce vendredi",
+          "publisher": "CNews",
+          "score": 26.5,
+          "url": "https://www.cnews.fr/france/2026-05-28/orages-voici-les-12-departements-places-en-vigilance-jaune-ce-vendredi-1868708"
+        },
+        {
+          "title": "Météo. Des orages très localisés vont frapper les Bouches-du-Rhône : les secteurs concernés",
+          "publisher": "Actu.fr",
+          "score": 7.0,
           "url": "https://actu.fr/meteo/meteo-des-orages-tres-localises-vont-frapper-les-bouches-du-rhone-les-secteurs-concernes_64324093.html"
         },
         {
@@ -3518,41 +3543,15 @@
       ]
     },
     {
-      "name": "Orage",
-      "articles_count": 6,
-      "total_score": 34.2,
-      "avg_score": 5.7,
-      "top_articles": [
-        {
-          "title": "Orages : voici les 12 départements placés en vigilance jaune ce vendredi",
-          "publisher": "CNews",
-          "score": 25.5,
-          "url": "https://www.cnews.fr/france/2026-05-28/orages-voici-les-12-departements-places-en-vigilance-jaune-ce-vendredi-1868708"
-        },
-        {
-          "title": "Météo. Des orages très localisés vont frapper les Bouches-du-Rhône : les secteurs concernés",
-          "publisher": "Actu.fr",
-          "score": 6.8,
-          "url": "https://actu.fr/meteo/meteo-des-orages-tres-localises-vont-frapper-les-bouches-du-rhone-les-secteurs-concernes_64324093.html"
-        },
-        {
-          "title": "Orages : la vigilance jaune activée dans 2 départements en Auvergne-Rhône-Alpes",
-          "publisher": "Radio SCOOP",
-          "score": 1.0,
-          "url": "https://www.radioscoop.com/infos/orages-la-vigilance-jaune-activee-dans-2-departements-en-auvergne-rhone-alpes_356759"
-        }
-      ]
-    },
-    {
       "name": "Intelligence artificielle",
       "articles_count": 6,
-      "total_score": 21.6,
-      "avg_score": 3.6,
+      "total_score": 23.3,
+      "avg_score": 3.9,
       "top_articles": [
         {
           "title": "\"C'est comme faire l'amour et que quelqu'un vous remette directement le bébé\": Amazon lance la production de trois séries pour enfant générées par intelligence artificielle",
           "publisher": "BFM",
-          "score": 18.9,
+          "score": 20.6,
           "url": "https://www.bfmtv.com/tech/intelligence-artificielle/c-est-comme-faire-l-amour-et-que-quelqu-un-vous-remette-directement-le-bebe-amazon-lance-la-production-de-trois-series-pour-enfant-generees-par-intelligence-artificielle_AD-202605280720.html"
         },
         {
@@ -3562,23 +3561,23 @@
           "url": "https://investir.lesechos.fr/actu-des-valeurs/la-vie-des-actions/ia-airbus-et-bmw-sassocient-a-mistral-ai-dans-leurs-processus-de-fabrication-ce-qui-provoque-la-chute-de-leur-partenaire-de-longue-date-dassault-systemes-en-bourse-2233817"
         },
         {
-          "title": "Suède : le fiasco du premier café dirigé par une IA",
-          "publisher": "YouTube",
+          "title": "IA : les 10 générateurs d’images les plus performants en mai 2026",
+          "publisher": "blogdumoderateur.com",
           "score": 0.1,
-          "url": "https://www.youtube.com/watch?v=EMS3KQYJAFY"
+          "url": "https://www.blogdumoderateur.com/ia-10-generateurs-images-performants-mai-2026/"
         }
       ]
     },
     {
       "name": "Iran",
       "articles_count": 3,
-      "total_score": 17.4,
-      "avg_score": 5.8,
+      "total_score": 19.4,
+      "avg_score": 6.5,
       "top_articles": [
         {
           "title": "C'est l'effort à fournir pour compenser le coût de la guerre en Iran : l'Etat gèle et annule 4 milliards d'euros de crédits sur son budget (ils ne seront donc pas dépensés)",
           "publisher": "BFM",
-          "score": 16.8,
+          "score": 18.8,
           "url": "https://www.bfmtv.com/economie/entreprises/c-est-l-effort-a-fournir-pour-compenser-le-cout-de-la-guerre-en-iran-l-etat-gele-et-annule-4-milliards-d-euros-de-credits-sur-son-budget-ils-ne-seront-donc-pas-depenses_AV-202605280856.html"
         },
         {
@@ -3597,20 +3596,20 @@
     },
     {
       "name": "Canicule",
-      "articles_count": 8,
-      "total_score": 12.9,
-      "avg_score": 1.6,
+      "articles_count": 9,
+      "total_score": 13.3,
+      "avg_score": 1.5,
       "top_articles": [
         {
           "title": "Changement radical d'ambiance la semaine prochaine",
           "publisher": "La Chaîne Météo",
-          "score": 10.4,
+          "score": 10.7,
           "url": "https://actualite.lachainemeteo.com/actualite-meteo/2026-05-28/changement-radical-d-ambiance-la-semaine-prochaine-88831"
         },
         {
           "title": "Tendance météo à 4 semaines : après la canicule, un début juin plus océanique avant le retour probable de la chaleur",
           "publisher": "La Chaîne Météo",
-          "score": 1.9,
+          "score": 2.0,
           "url": "https://actualite.lachainemeteo.com/actualite-meteo/2026-01-08/tendance-meteo-a-4-semaines-apres-la-canicule-un-debut-juin-plus-oceanique-avant-le-retour-probable-de-la-chaleur-71369"
         },
         {
@@ -3624,13 +3623,13 @@
     {
       "name": "Météo",
       "articles_count": 5,
-      "total_score": 12.9,
+      "total_score": 13.2,
       "avg_score": 2.6,
       "top_articles": [
         {
           "title": "Changement radical d'ambiance la semaine prochaine",
           "publisher": "La Chaîne Météo",
-          "score": 10.4,
+          "score": 10.7,
           "url": "https://actualite.lachainemeteo.com/actualite-meteo/2026-05-28/changement-radical-d-ambiance-la-semaine-prochaine-88831"
         },
         {
@@ -3650,13 +3649,13 @@
     {
       "name": "Chaleur",
       "articles_count": 18,
-      "total_score": 12.8,
+      "total_score": 13.1,
       "avg_score": 0.7,
       "top_articles": [
         {
           "title": "Changement radical d'ambiance la semaine prochaine",
           "publisher": "La Chaîne Météo",
-          "score": 10.4,
+          "score": 10.7,
           "url": "https://actualite.lachainemeteo.com/actualite-meteo/2026-05-28/changement-radical-d-ambiance-la-semaine-prochaine-88831"
         },
         {
@@ -3676,19 +3675,19 @@
     {
       "name": "Météorologie",
       "articles_count": 5,
-      "total_score": 11.5,
-      "avg_score": 2.3,
+      "total_score": 11.9,
+      "avg_score": 2.4,
       "top_articles": [
         {
           "title": "Changement radical d'ambiance la semaine prochaine",
           "publisher": "La Chaîne Météo",
-          "score": 10.4,
+          "score": 10.7,
           "url": "https://actualite.lachainemeteo.com/actualite-meteo/2026-05-28/changement-radical-d-ambiance-la-semaine-prochaine-88831"
         },
         {
           "title": "Orages : la vigilance jaune activée dans 2 départements en Auvergne-Rhône-Alpes",
           "publisher": "Radio SCOOP",
-          "score": 1.0,
+          "score": 1.1,
           "url": "https://www.radioscoop.com/infos/orages-la-vigilance-jaune-activee-dans-2-departements-en-auvergne-rhone-alpes_356759"
         },
         {
