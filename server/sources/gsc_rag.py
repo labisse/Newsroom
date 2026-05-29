@@ -46,7 +46,12 @@ def slug_to_text(url: str) -> str:
 
     Exemple :
       https://www.parismatch.com/People/isabelle-mergault-avait-adopte-iris-une-deuxieme-petite-fille-266276
-      → "isabelle mergault avait adopte iris une deuxieme petite fille"
+      → "people · isabelle mergault avait adopte iris une deuxieme petite fille"
+
+    Inclut la/les sections de path (ex: "People", "actu/societe") en
+    préfixe : Voyage utilise ce contexte pour distinguer un article
+    People d'un article Sport quand le slug seul est ambigu (ex: les
+    deux contiennent un nom propre).
     """
     parsed = urlparse(url or "")
     path = parsed.path or ""
@@ -60,6 +65,22 @@ def slug_to_text(url: str) -> str:
     slug = _SLUG_TAIL_NUM_RE.sub("", slug)
     # Remplace tirets/underscores par espaces
     text = re.sub(r"[-_]+", " ", slug).strip()
+
+    # Préfixe = segments intermédiaires (sections), ex: "people" ou
+    # "actu societe". On ignore les segments numériques ou la lang ("fr",
+    # "en") et on coupe à 2 segments max.
+    section_parts: list[str] = []
+    for seg in parts[:-1][:2]:
+        seg_clean = re.sub(r"[-_]+", " ", seg).strip().lower()
+        # Skip lang codes & purement numériques
+        if not seg_clean or seg_clean.isdigit():
+            continue
+        if len(seg_clean) == 2 and seg_clean.isalpha():
+            continue  # fr, en, es…
+        section_parts.append(seg_clean)
+
+    if section_parts:
+        return " · ".join(section_parts) + " · " + text
     return text
 
 
