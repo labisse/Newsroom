@@ -1,6 +1,7 @@
 {
   "source": "reddit",
-  "fetched_at": "2026-05-30T14:11:50Z",
+  "fetched_at": "2026-05-30T19:48:00Z",
+  "mode": "rss",
   "subs": [
     "france",
     "actualite",
@@ -16,20 +17,4322 @@
     "europe"
   ],
   "counts_by_sub": {
-    "france": 0,
-    "actualite": 0,
-    "francepolitique": 0,
-    "sciences": 0,
-    "Histoire": 0,
-    "technologie": 0,
-    "jeuxvideo": 0,
-    "cinema_francais": 0,
-    "musique": 0,
-    "Cuisine": 0,
-    "AskFrance": 0,
-    "europe": 0
+    "france": 25,
+    "actualite": 25,
+    "francepolitique": 2,
+    "sciences": 25,
+    "Histoire": 25,
+    "technologie": 25,
+    "jeuxvideo": 25,
+    "cinema_francais": 1,
+    "musique": 25,
+    "Cuisine": 25,
+    "AskFrance": 25,
+    "europe": 25
   },
   "failures": [],
-  "count": 0,
-  "posts": []
+  "count": 253,
+  "posts": [
+    {
+      "title": "Week-end Création - semaine 22",
+      "url": "https://www.reddit.com/r/france/comments/1trqbi0/weekend_création_semaine_22/",
+      "external_url": "https://www.reddit.com/r/france/comments/1trqbi0/weekend_création_semaine_22/",
+      "permalink": "https://www.reddit.com/r/france/comments/1trqbi0/weekend_création_semaine_22/",
+      "subreddit": "france",
+      "rank_in_sub": 1,
+      "published_at": "2026-05-30T05:00:18+00:00",
+      "author": "/u/AutoModerator",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 1
+    },
+    {
+      "title": "Rappel des règles : pas de brigading !",
+      "url": "https://i.redd.it/v2o4muipw3mg1.jpeg",
+      "external_url": "https://i.redd.it/v2o4muipw3mg1.jpeg",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1rgjrb7/rappel_des_règles_pas_de_brigading/",
+      "subreddit": "actualite",
+      "rank_in_sub": 1,
+      "published_at": "2026-02-27T21:38:48+00:00",
+      "author": "/u/Grin-Guy",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 1
+    },
+    {
+      "title": "r/Francepolitique Lounge",
+      "url": "https://www.reddit.com/r/Francepolitique/comments/uz00xx/rfrancepolitique_lounge/",
+      "external_url": "https://www.reddit.com/r/Francepolitique/comments/uz00xx/rfrancepolitique_lounge/",
+      "permalink": "https://www.reddit.com/r/Francepolitique/comments/uz00xx/rfrancepolitique_lounge/",
+      "subreddit": "francepolitique",
+      "rank_in_sub": 1,
+      "published_at": "2022-05-27T14:56:53+00:00",
+      "author": "",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "francepolitique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 1
+    },
+    {
+      "title": "MIT researchers develop a low-cost technique to get lithium out of rocks: « The low-temperature process could unlock cleaner lithium from America’s abundant hard rock while minimizing waste. »",
+      "url": "https://news.mit.edu/2026/mit-researchers-develop-low-cost-technique-lithium-from-rocks-0528",
+      "external_url": "https://news.mit.edu/2026/mit-researchers-develop-low-cost-technique-lithium-from-rocks-0528",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1treeyu/mit_researchers_develop_a_lowcost_technique_to/",
+      "subreddit": "sciences",
+      "rank_in_sub": 1,
+      "published_at": "2026-05-29T20:20:30+00:00",
+      "author": "/u/fchung",
+      "is_self": false,
+      "domain": "news.mit.edu",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 1
+    },
+    {
+      "title": "C'est quoi un fachiste?",
+      "url": "https://www.reddit.com/r/Histoire/comments/1trw90m/cest_quoi_un_fachiste/",
+      "external_url": "https://www.reddit.com/r/Histoire/comments/1trw90m/cest_quoi_un_fachiste/",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1trw90m/cest_quoi_un_fachiste/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 1,
+      "published_at": "2026-05-30T10:28:29+00:00",
+      "author": "/u/sangokuhomer",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 1
+    },
+    {
+      "title": "Willkommen auf r/technologie",
+      "url": "https://www.reddit.com/r/technologie/comments/oq1gja/willkommen_auf_rtechnologie/",
+      "external_url": "https://www.reddit.com/r/technologie/comments/oq1gja/willkommen_auf_rtechnologie/",
+      "permalink": "https://www.reddit.com/r/technologie/comments/oq1gja/willkommen_auf_rtechnologie/",
+      "subreddit": "technologie",
+      "rank_in_sub": 1,
+      "published_at": "2021-07-23T12:34:13+00:00",
+      "author": "/u/Schaukelstuhl7",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 1
+    },
+    {
+      "title": "A propos de l'autopromo des jeux indé",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1k50e99/a_propos_de_lautopromo_des_jeux_indé/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1k50e99/a_propos_de_lautopromo_des_jeux_indé/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1k50e99/a_propos_de_lautopromo_des_jeux_indé/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 1,
+      "published_at": "2025-04-22T07:21:26+00:00",
+      "author": "/u/BobArdKor",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 1
+    },
+    {
+      "title": "Le cinéma en France",
+      "url": "https://www.reddit.com/r/CinemaFrancais/",
+      "external_url": "https://www.reddit.com/r/CinemaFrancais/",
+      "permalink": "https://www.reddit.com/r/CinemaFrancais/",
+      "subreddit": "cinema_francais",
+      "rank_in_sub": 1,
+      "published_at": "",
+      "author": "/u/ILLYAN_",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "cinema_francais"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 1
+    },
+    {
+      "title": "Les sorties de la semaine 29-05-2026",
+      "url": "https://open.spotify.com/embed/playlist/5NTfOAQBiSwOByiTLhcuiQ?utm_source=generator",
+      "external_url": "https://open.spotify.com/embed/playlist/5NTfOAQBiSwOByiTLhcuiQ?utm_source=generator",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tqvypw/les_sorties_de_la_semaine_29052026/",
+      "subreddit": "musique",
+      "rank_in_sub": 1,
+      "published_at": "2026-05-29T09:00:22+00:00",
+      "author": "/u/AutoModerator",
+      "is_self": false,
+      "domain": "open.spotify.com",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 1
+    },
+    {
+      "title": "Repas à thème : Anti-Gaspi Printanier",
+      "url": "https://www.reddit.com/r/cuisine/comments/1trx3h0/repas_à_thème_antigaspi_printanier/",
+      "external_url": "https://www.reddit.com/gallery/1trx3h0",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1trx3h0/repas_à_thème_antigaspi_printanier/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 1,
+      "published_at": "2026-05-30T11:13:35+00:00",
+      "author": "/u/NobanGnap_",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 1
+    },
+    {
+      "title": "Est-ce que je poste au bon endroit sur Reddit ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1merryd/estce_que_je_poste_au_bon_endroit_sur_reddit/",
+      "external_url": "",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1merryd/estce_que_je_poste_au_bon_endroit_sur_reddit/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 1,
+      "published_at": "2025-08-01T09:19:49+00:00",
+      "author": "/u/FrenchSalade",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 1
+    },
+    {
+      "title": "War in Ukraine Megathread LXI (61)",
+      "url": "https://www.reddit.com/r/europe/comments/1sawlv5/war_in_ukraine_megathread_lxi_61/",
+      "external_url": "https://www.reddit.com/r/europe/comments/1sawlv5/war_in_ukraine_megathread_lxi_61/",
+      "permalink": "https://www.reddit.com/r/europe/comments/1sawlv5/war_in_ukraine_megathread_lxi_61/",
+      "subreddit": "europe",
+      "rank_in_sub": 1,
+      "published_at": "2026-04-02T23:00:15+00:00",
+      "author": "/u/BkkGrl",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 1
+    },
+    {
+      "title": "Forum Libre - 2026-05-30",
+      "url": "https://www.reddit.com/r/france/comments/1trnwks/forum_libre_20260530/",
+      "external_url": "https://www.reddit.com/r/france/comments/1trnwks/forum_libre_20260530/",
+      "permalink": "https://www.reddit.com/r/france/comments/1trnwks/forum_libre_20260530/",
+      "subreddit": "france",
+      "rank_in_sub": 2,
+      "published_at": "2026-05-30T03:00:25+00:00",
+      "author": "/u/AutoModerator",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 2
+    },
+    {
+      "title": "Walid Joumblatt, chef historique de la communauté druze libanaise : « Israël a un plan de balkanisation de tout le Moyen-Orient »",
+      "url": "https://www.lemonde.fr/international/article/2026/05/30/walid-joumblatt-israel-a-un-plan-de-balkanisation-de-tout-le-moyen-orient_6695161_3210.html",
+      "external_url": "https://www.lemonde.fr/international/article/2026/05/30/walid-joumblatt-israel-a-un-plan-de-balkanisation-de-tout-le-moyen-orient_6695161_3210.html",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1ts8tzw/walid_joumblatt_chef_historique_de_la_communauté/",
+      "subreddit": "actualite",
+      "rank_in_sub": 2,
+      "published_at": "2026-05-30T19:19:35+00:00",
+      "author": "/u/Alain_Biffletou",
+      "is_self": false,
+      "domain": "lemonde.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 2
+    },
+    {
+      "title": "Andre Bercoff sur “l’affaire” Quatennens",
+      "url": "https://youtu.be/upYRNgTAAp8",
+      "external_url": "https://youtu.be/upYRNgTAAp8",
+      "permalink": "https://www.reddit.com/r/Francepolitique/comments/xklfuq/andre_bercoff_sur_laffaire_quatennens/",
+      "subreddit": "francepolitique",
+      "rank_in_sub": 2,
+      "published_at": "2022-09-22T00:02:17+00:00",
+      "author": "",
+      "is_self": false,
+      "domain": "youtu.be",
+      "cross_subs": [
+        "francepolitique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 2
+    },
+    {
+      "title": "Mosquitoes can become attracted to insect repellant, study suggests. The insect may learn to associate the chemical Deet with a ‘blood meal’, researchers say",
+      "url": "https://www.theguardian.com/environment/2026/may/28/deet-mosquito-spray-attract-insects-study-malaria-zika",
+      "external_url": "https://www.theguardian.com/environment/2026/may/28/deet-mosquito-spray-attract-insects-study-malaria-zika",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1tqadrd/mosquitoes_can_become_attracted_to_insect/",
+      "subreddit": "sciences",
+      "rank_in_sub": 2,
+      "published_at": "2026-05-28T17:31:06+00:00",
+      "author": "/u/FreeHugs23",
+      "is_self": false,
+      "domain": "theguardian.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 2
+    },
+    {
+      "title": "Une « terre ancestrale » lointaine et étrangère ou une « patrie » profondément chère : analyse de l’identité des Chinois d’outre-mer et de leurs relations avec la Chine à la lumière des débats suscités par A Letter to Grandma",
+      "url": "https://www.reddit.com/r/Histoire/comments/1ts9c3m/une_terre_ancestrale_lointaine_et_étrangère_ou/",
+      "external_url": "https://www.reddit.com/gallery/1ts9c3m",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1ts9c3m/une_terre_ancestrale_lointaine_et_étrangère_ou/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 2,
+      "published_at": "2026-05-30T19:39:22+00:00",
+      "author": "/u/Slow-Property5895",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 2
+    },
+    {
+      "title": "Accelerate Tomorrow AI Summit - größte AI Konferenz für Wirtschaftsführer in Deutschland (Berlin, 2.-3. Juni 2026) - Referenten von OpenAI, Microsoft, Meta",
+      "url": "https://www.linkedin.com/posts/timnilsson_the-sales-teams-winning-with-ai-right-now-activity-7460255986524639232-pLGG/",
+      "external_url": "https://www.linkedin.com/posts/timnilsson_the-sales-teams-winning-with-ai-right-now-activity-7460255986524639232-pLGG/",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tqy9g3/accelerate_tomorrow_ai_summit_größte_ai_konferenz/",
+      "subreddit": "technologie",
+      "rank_in_sub": 2,
+      "published_at": "2026-05-29T10:58:50+00:00",
+      "author": "/u/thumbsdrivesmecrazy",
+      "is_self": false,
+      "domain": "linkedin.com",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 2
+    },
+    {
+      "title": "On a sorti sur Steam une démo de notre jeu Cosmo Cargo, un FTL en mode autobattler d'inventaire",
+      "url": "https://v.redd.it/mm3uzruk6a4h1",
+      "external_url": "https://v.redd.it/mm3uzruk6a4h1",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1ts0y2z/on_a_sorti_sur_steam_une_démo_de_notre_jeu_cosmo/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 2,
+      "published_at": "2026-05-30T14:07:41+00:00",
+      "author": "/u/Valryon",
+      "is_self": false,
+      "domain": "v.redd.it",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 2
+    },
+    {
+      "title": "Fil autopromo - Postez ici vos créations",
+      "url": "https://www.reddit.com/r/musique/comments/1t0ktmw/fil_autopromo_postez_ici_vos_créations/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1t0ktmw/fil_autopromo_postez_ici_vos_créations/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1t0ktmw/fil_autopromo_postez_ici_vos_créations/",
+      "subreddit": "musique",
+      "rank_in_sub": 2,
+      "published_at": "2026-05-01T06:00:35+00:00",
+      "author": "/u/AutoModerator",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 2
+    },
+    {
+      "title": "Idées de plats/snacks pouvant rester à température ambiante/chaleur",
+      "url": "https://www.reddit.com/r/cuisine/comments/1ts3nd6/idées_de_platssnacks_pouvant_rester_à_température/",
+      "external_url": "https://www.reddit.com/r/cuisine/comments/1ts3nd6/idées_de_platssnacks_pouvant_rester_à_température/",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1ts3nd6/idées_de_platssnacks_pouvant_rester_à_température/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 2,
+      "published_at": "2026-05-30T15:55:51+00:00",
+      "author": "/u/Ordinary-Ad9549",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 2
+    },
+    {
+      "title": "Quel est cet objet trouvé en creusant dans mon jardin?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1ts19td/quel_est_cet_objet_trouvé_en_creusant_dans_mon/",
+      "external_url": "https://www.reddit.com/gallery/1ts19td",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1ts19td/quel_est_cet_objet_trouvé_en_creusant_dans_mon/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 2,
+      "published_at": "2026-05-30T14:20:54+00:00",
+      "author": "/u/No-Effective8984",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 2
+    },
+    {
+      "title": "US-Iran Megathread, part 2",
+      "url": "https://www.reddit.com/r/europe/comments/1riwbyh/usiran_megathread_part_2/",
+      "external_url": "https://www.reddit.com/r/europe/comments/1riwbyh/usiran_megathread_part_2/",
+      "permalink": "https://www.reddit.com/r/europe/comments/1riwbyh/usiran_megathread_part_2/",
+      "subreddit": "europe",
+      "rank_in_sub": 2,
+      "published_at": "2026-03-02T15:47:19+00:00",
+      "author": "/u/GrumpyFinn",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 2
+    },
+    {
+      "title": "« C’est officiel : Vincent Bolloré m’a licenciée pour des motifs politiques » : mise à pied de Paris Match en 2023, la journaliste Caroline Fontaine gagne son procès contre le milliardaire breton",
+      "url": "https://lesjours.fr/obsessions/l-empire/ep252-caroline-fontaine-prudhommes/",
+      "external_url": "https://lesjours.fr/obsessions/l-empire/ep252-caroline-fontaine-prudhommes/",
+      "permalink": "https://www.reddit.com/r/france/comments/1trxxqy/cest_officiel_vincent_bolloré_ma_licenciée_pour/",
+      "subreddit": "france",
+      "rank_in_sub": 3,
+      "published_at": "2026-05-30T11:55:42+00:00",
+      "author": "/u/Ok_Cobbler_9466",
+      "is_self": false,
+      "domain": "lesjours.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 3
+    },
+    {
+      "title": "Au RN, l’explosion du « dossier inflammable » : Jordan Bardella enterre la réforme des retraites de Marine Le Pen et l’âge légal de départ",
+      "url": "https://www.lemonde.fr/politique/article/2026/05/29/au-rn-l-explosion-du-dossier-inflammable-jordan-bardella-enterre-la-reforme-des-retraites-de-marine-le-pen-et-l-age-legal-de-depart_6694791_823448.html",
+      "external_url": "https://www.lemonde.fr/politique/article/2026/05/29/au-rn-l-explosion-du-dossier-inflammable-jordan-bardella-enterre-la-reforme-des-retraites-de-marine-le-pen-et-l-age-legal-de-depart_6694791_823448.html",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1trc0ew/au_rn_lexplosion_du_dossier_inflammable_jordan/",
+      "subreddit": "actualite",
+      "rank_in_sub": 3,
+      "published_at": "2026-05-29T19:00:01+00:00",
+      "author": "/u/MadMass23",
+      "is_self": false,
+      "domain": "lemonde.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 3
+    },
+    {
+      "title": "New Grant Disruptions at NSF - We Need Your Help to Report – Grant Witness",
+      "url": "https://grant-witness.us/posts/2026-05-27_new-nsf-terminations/",
+      "external_url": "https://grant-witness.us/posts/2026-05-27_new-nsf-terminations/",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1tplbp1/new_grant_disruptions_at_nsf_we_need_your_help_to/",
+      "subreddit": "sciences",
+      "rank_in_sub": 3,
+      "published_at": "2026-05-27T22:48:12+00:00",
+      "author": "/u/AllMusicNut",
+      "is_self": false,
+      "domain": "grant-witness.us",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 3
+    },
+    {
+      "title": "selon vous, quel serait le plus vieux spin-off recensé depuis l'avenement de l'écriture",
+      "url": "https://www.reddit.com/r/Histoire/comments/1trosxu/selon_vous_quel_serait_le_plus_vieux_spinoff/",
+      "external_url": "https://www.reddit.com/r/Histoire/comments/1trosxu/selon_vous_quel_serait_le_plus_vieux_spinoff/",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1trosxu/selon_vous_quel_serait_le_plus_vieux_spinoff/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 3,
+      "published_at": "2026-05-30T03:44:15+00:00",
+      "author": "/u/SkirtImpossible9126",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 3
+    },
+    {
+      "title": "Focused Energy: Hessener Start-up wirbt mehr als 200 Millionen Euro für Kernfusion ein",
+      "url": "https://www.spiegel.de/wirtschaft/focused-energy-hessener-start-up-wirbt-mehr-als-200-millionen-euro-fuer-kernfusion-ein-a-25ccdda7-abef-4f47-b555-10611957c4eb",
+      "external_url": "https://www.spiegel.de/wirtschaft/focused-energy-hessener-start-up-wirbt-mehr-als-200-millionen-euro-fuer-kernfusion-ein-a-25ccdda7-abef-4f47-b555-10611957c4eb",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tpsqxr/focused_energy_hessener_startup_wirbt_mehr_als/",
+      "subreddit": "technologie",
+      "rank_in_sub": 3,
+      "published_at": "2026-05-28T04:15:45+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "spiegel.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 3
+    },
+    {
+      "title": "Quels jeux vous ont le plus marqués par leurs histoires et/ou leurs ambiances ?",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1truz94/quels_jeux_vous_ont_le_plus_marqués_par_leurs/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1truz94/quels_jeux_vous_ont_le_plus_marqués_par_leurs/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1truz94/quels_jeux_vous_ont_le_plus_marqués_par_leurs/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 3,
+      "published_at": "2026-05-30T09:16:17+00:00",
+      "author": "/u/MnkN_",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 3
+    },
+    {
+      "title": "Quel est le meilleur genre de musique à écouter en travaillant ?",
+      "url": "https://www.reddit.com/r/musique/comments/1ts3lmk/quel_est_le_meilleur_genre_de_musique_à_écouter/",
+      "external_url": "",
+      "permalink": "https://www.reddit.com/r/musique/comments/1ts3lmk/quel_est_le_meilleur_genre_de_musique_à_écouter/",
+      "subreddit": "musique",
+      "rank_in_sub": 3,
+      "published_at": "2026-05-30T15:53:52+00:00",
+      "author": "/u/Virtual_Ad6300",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 3
+    },
+    {
+      "title": "Nems au boeuf faits maison",
+      "url": "https://i.redd.it/pbp9d4d7164h1.jpeg",
+      "external_url": "https://i.redd.it/pbp9d4d7164h1.jpeg",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1trk107/nems_au_boeuf_faits_maison/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 3,
+      "published_at": "2026-05-30T00:02:00+00:00",
+      "author": "/u/Doctor_French32",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 3
+    },
+    {
+      "title": "I Loved France, and Now I Have Mixed Feelings About Being Back Home?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1ts43je/i_loved_france_and_now_i_have_mixed_feelings/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1ts43je/i_loved_france_and_now_i_have_mixed_feelings/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1ts43je/i_loved_france_and_now_i_have_mixed_feelings/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 3,
+      "published_at": "2026-05-30T16:13:41+00:00",
+      "author": "/u/IcyObserver",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 3
+    },
+    {
+      "title": "Meet EuroOffice, Europe’s bold alternative to Microsoft 365 promising sovereignty and control",
+      "url": "https://www.windowscentral.com/software-apps/meet-eurooffice-europes-bold-alternative-to-microsoft-365-promising-sovereignty-and-control",
+      "external_url": "https://www.windowscentral.com/software-apps/meet-eurooffice-europes-bold-alternative-to-microsoft-365-promising-sovereignty-and-control",
+      "permalink": "https://www.reddit.com/r/europe/comments/1ts0jps/meet_eurooffice_europes_bold_alternative_to/",
+      "subreddit": "europe",
+      "rank_in_sub": 3,
+      "published_at": "2026-05-30T13:51:23+00:00",
+      "author": "/u/rkhunter_",
+      "is_self": false,
+      "domain": "windowscentral.com",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 3
+    },
+    {
+      "title": "Le prix des couches qui augmente sur l'étiquette électronique parce que l'IA a vu que votre enfant était malade: des élus américains militent pour interdire la tarification dynamique sur les courses",
+      "url": "https://www.bfmtv.com/economie/international/le-prix-des-couches-qui-augmente-sur-l-etiquette-electronique-parce-que-l-ia-a-vu-que-votre-enfant-etait-malade-des-elus-americains-militent-pour-interdire-la-tarification-dynamique-sur-les-courses_AN-202605290077.html",
+      "external_url": "https://www.bfmtv.com/economie/international/le-prix-des-couches-qui-augmente-sur-l-etiquette-electronique-parce-que-l-ia-a-vu-que-votre-enfant-etait-malade-des-elus-americains-militent-pour-interdire-la-tarification-dynamique-sur-les-courses_AN-202605290077.html",
+      "permalink": "https://www.reddit.com/r/france/comments/1trt3f6/le_prix_des_couches_qui_augmente_sur_létiquette/",
+      "subreddit": "france",
+      "rank_in_sub": 4,
+      "published_at": "2026-05-30T07:28:04+00:00",
+      "author": "/u/Andvarey",
+      "is_self": false,
+      "domain": "bfmtv.com",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 4
+    },
+    {
+      "title": "« Ni mariage, ni Pacs, ni concubinage » : à l’Assemblée, le député Alloncle mis hors de cause",
+      "url": "https://www.leparisien.fr/politique/ni-mariage-ni-pacs-ni-concubinage-a-lassemblee-le-depute-alloncle-mis-hors-de-cause-28-05-2026-7EVOE6IT45FFTBRH6ERHFW3F44.php",
+      "external_url": "https://www.leparisien.fr/politique/ni-mariage-ni-pacs-ni-concubinage-a-lassemblee-le-depute-alloncle-mis-hors-de-cause-28-05-2026-7EVOE6IT45FFTBRH6ERHFW3F44.php",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tre2pi/ni_mariage_ni_pacs_ni_concubinage_à_lassemblée_le/",
+      "subreddit": "actualite",
+      "rank_in_sub": 4,
+      "published_at": "2026-05-29T20:08:21+00:00",
+      "author": "/u/OrdinaryMidnight5",
+      "is_self": false,
+      "domain": "leparisien.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 4
+    },
+    {
+      "title": "A vegan Mediterranean diet significantly reduced environmental impacts related to human health (−54.5%), ecosystems (−50.9%), and resource use (−43.4%) compared to a traditional Mediterranean diet, study finds. Retail food cost was also reduced by 16.3%.",
+      "url": "https://link.springer.com/article/10.1007/s00394-026-03939-3",
+      "external_url": "https://link.springer.com/article/10.1007/s00394-026-03939-3",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1to34i8/a_vegan_mediterranean_diet_significantly_reduced/",
+      "subreddit": "sciences",
+      "rank_in_sub": 4,
+      "published_at": "2026-05-26T10:40:07+00:00",
+      "author": "/u/James_Fortis",
+      "is_self": false,
+      "domain": "link.springer.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 4
+    },
+    {
+      "title": "25 mai 1802 : Joseph Ignace choisit la mort plutôt que la reddition face au rétablissement de l’esclavage en Guadeloupe",
+      "url": "https://la1ere.franceinfo.fr/guadeloupe/25-mai-1802-joseph-ignace-choisit-la-mort-plutot-que-la-reddition-face-au-retablissement-de-l-esclavage-en-guadeloupe-1703827.html",
+      "external_url": "https://la1ere.franceinfo.fr/guadeloupe/25-mai-1802-joseph-ignace-choisit-la-mort-plutot-que-la-reddition-face-au-retablissement-de-l-esclavage-en-guadeloupe-1703827.html",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tqddo6/25_mai_1802_joseph_ignace_choisit_la_mort_plutôt/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 4,
+      "published_at": "2026-05-28T19:16:16+00:00",
+      "author": "/u/StrawberryAntique962",
+      "is_self": false,
+      "domain": "la1ere.franceinfo.fr",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 4
+    },
+    {
+      "title": "Cyberabwehr: BSI und Polizei sollen mehr Befugnisse erhalten",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/cyberabwehr-106.html",
+      "external_url": "https://www.tagesschau.de/inland/innenpolitik/cyberabwehr-106.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tpt0l9/cyberabwehr_bsi_und_polizei_sollen_mehr/",
+      "subreddit": "technologie",
+      "rank_in_sub": 4,
+      "published_at": "2026-05-28T04:28:48+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "tagesschau.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 4
+    },
+    {
+      "title": "Cuphead vs EldenRing au global en prenant que les bosses en compte, quel est le jeu le plus dur?",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1ts03s6/cuphead_vs_eldenring_au_global_en_prenant_que_les/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1ts03s6/cuphead_vs_eldenring_au_global_en_prenant_que_les/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1ts03s6/cuphead_vs_eldenring_au_global_en_prenant_que_les/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 4,
+      "published_at": "2026-05-30T13:32:54+00:00",
+      "author": "/u/KokonutnutFR",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 4
+    },
+    {
+      "title": "Es que les Banjo Picks est un bon cadeau pour un guitariste ?",
+      "url": "https://www.reddit.com/r/musique/comments/1ts0tr2/es_que_les_banjo_picks_est_un_bon_cadeau_pour_un/",
+      "external_url": "",
+      "permalink": "https://www.reddit.com/r/musique/comments/1ts0tr2/es_que_les_banjo_picks_est_un_bon_cadeau_pour_un/",
+      "subreddit": "musique",
+      "rank_in_sub": 4,
+      "published_at": "2026-05-30T14:02:47+00:00",
+      "author": "/u/Mister_W038",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 4
+    },
+    {
+      "title": "Abondance de framboises",
+      "url": "https://www.reddit.com/r/cuisine/comments/1tr5f9y/abondance_de_framboises/",
+      "external_url": "https://www.reddit.com/gallery/1tr5f9y",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tr5f9y/abondance_de_framboises/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 4,
+      "published_at": "2026-05-29T15:29:13+00:00",
+      "author": "/u/Agreeable_Share1904",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 4
+    },
+    {
+      "title": "Vos activités atypiques ? Seul",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trw4wj/vos_activités_atypiques_seul/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trw4wj/vos_activités_atypiques_seul/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trw4wj/vos_activités_atypiques_seul/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 4,
+      "published_at": "2026-05-30T10:21:57+00:00",
+      "author": "/u/kinderchocomax",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 4
+    },
+    {
+      "title": "The rise and fall of lung cancer in men (UK, Netherlands, France)",
+      "url": "https://i.redd.it/oukl8xilaa4h1.png",
+      "external_url": "https://i.redd.it/oukl8xilaa4h1.png",
+      "permalink": "https://www.reddit.com/r/europe/comments/1ts1aur/the_rise_and_fall_of_lung_cancer_in_men_uk/",
+      "subreddit": "europe",
+      "rank_in_sub": 4,
+      "published_at": "2026-05-30T14:22:07+00:00",
+      "author": "/u/linknewtab",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 4
+    },
+    {
+      "title": "Comment les sondages manipulent le duel Mélenchon / Bardella pour la présidentielle 2027",
+      "url": "https://www.youtube.com/watch?v=v7wHJ0pB0e8",
+      "external_url": "https://www.youtube.com/watch?v=v7wHJ0pB0e8",
+      "permalink": "https://www.reddit.com/r/france/comments/1ts4apk/comment_les_sondages_manipulent_le_duel_mélenchon/",
+      "subreddit": "france",
+      "rank_in_sub": 5,
+      "published_at": "2026-05-30T16:21:35+00:00",
+      "author": "/u/IndividualNetwork188",
+      "is_self": false,
+      "domain": "youtube.com",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 5
+    },
+    {
+      "title": "La France ouvre une enquête sur le traitement des militants de la flottille pour Gaza",
+      "url": "https://fr.euronews.com/2026/05/29/la-france-ouvre-une-enquete-sur-le-traitement-des-militants-de-la-flottille-pour-gaza?utm_source=reddit&amp;utm_campaign=feeds_europe_news&amp;utm_medium=referral",
+      "external_url": "https://fr.euronews.com/2026/05/29/la-france-ouvre-une-enquete-sur-le-traitement-des-militants-de-la-flottille-pour-gaza?utm_source=reddit&amp;utm_campaign=feeds_europe_news&amp;utm_medium=referral",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1trabrx/la_france_ouvre_une_enquête_sur_le_traitement_des/",
+      "subreddit": "actualite",
+      "rank_in_sub": 5,
+      "published_at": "2026-05-29T18:06:43+00:00",
+      "author": "/u/euronews-news",
+      "is_self": false,
+      "domain": "fr.euronews.com",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 5
+    },
+    {
+      "title": "A Common Vitamin Helps Cancer Defend Itself – But Could Also Let Us Fight It | Cutting off cancer's supply.",
+      "url": "https://www.sciencealert.com/a-common-vitamin-helps-cancer-defend-itself-but-could-also-let-us-fight-it",
+      "external_url": "https://www.sciencealert.com/a-common-vitamin-helps-cancer-defend-itself-but-could-also-let-us-fight-it",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1to32u2/a_common_vitamin_helps_cancer_defend_itself_but/",
+      "subreddit": "sciences",
+      "rank_in_sub": 5,
+      "published_at": "2026-05-26T10:37:47+00:00",
+      "author": "/u/FreeHugs23",
+      "is_self": false,
+      "domain": "sciencealert.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 5
+    },
+    {
+      "title": "Londres, Paris, New York : Le cerveau des Musiciens selon leur ville et leur époque",
+      "url": "https://www.youtube.com/watch?v=Acz49FjOkEA",
+      "external_url": "https://www.youtube.com/watch?v=Acz49FjOkEA",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1trb5z9/londres_paris_new_york_le_cerveau_des_musiciens/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 5,
+      "published_at": "2026-05-29T18:33:06+00:00",
+      "author": "/u/wisi_eu",
+      "is_self": false,
+      "domain": "youtube.com",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 5
+    },
+    {
+      "title": "Digitaler Ausweis kommt 2027 – Mehrheit der Deutschen ahnungslos",
+      "url": "https://www.heise.de/news/EUDI-Wallet-Ausweis-auf-dem-Smartphone-und-kaum-einer-weiss-davon-11254482.html",
+      "external_url": "https://www.heise.de/news/EUDI-Wallet-Ausweis-auf-dem-Smartphone-und-kaum-einer-weiss-davon-11254482.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tpav6t/digitaler_ausweis_kommt_2027_mehrheit_der/",
+      "subreddit": "technologie",
+      "rank_in_sub": 5,
+      "published_at": "2026-05-27T16:34:32+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "heise.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 5
+    },
+    {
+      "title": "Des joueurs de R6 ?",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1trv9z3/des_joueurs_de_r6/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1trv9z3/des_joueurs_de_r6/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1trv9z3/des_joueurs_de_r6/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 5,
+      "published_at": "2026-05-30T09:33:17+00:00",
+      "author": "/u/Alternative-Read-141",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 5
+    },
+    {
+      "title": "Je fais de la musique cool inspirée par AFX",
+      "url": "https://youtu.be/3jRL2q5AjvU?is=kbCZertT_YAB90-h",
+      "external_url": "https://youtu.be/3jRL2q5AjvU?is=kbCZertT_YAB90-h",
+      "permalink": "https://www.reddit.com/r/musique/comments/1ts0rtc/je_fais_de_la_musique_cool_inspirée_par_afx/",
+      "subreddit": "musique",
+      "rank_in_sub": 5,
+      "published_at": "2026-05-30T14:00:43+00:00",
+      "author": "/u/uolcabuolcab2005",
+      "is_self": false,
+      "domain": "youtu.be",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 5
+    },
+    {
+      "title": "Brioche vendéenne qui ne monte pas, besoin d’aide",
+      "url": "https://www.reddit.com/r/cuisine/comments/1trdebm/brioche_vendéenne_qui_ne_monte_pas_besoin_daide/",
+      "external_url": "https://www.reddit.com/gallery/1trdebm",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1trdebm/brioche_vendéenne_qui_ne_monte_pas_besoin_daide/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 5,
+      "published_at": "2026-05-29T19:44:54+00:00",
+      "author": "/u/emeuriz",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 5
+    },
+    {
+      "title": "Clients enfermés après la fermeture : que risque le salarié?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1ts76qp/clients_enfermés_après_la_fermeture_que_risque_le/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1ts76qp/clients_enfermés_après_la_fermeture_que_risque_le/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1ts76qp/clients_enfermés_après_la_fermeture_que_risque_le/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 5,
+      "published_at": "2026-05-30T18:14:47+00:00",
+      "author": "/u/Josy-Pound-5501",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 5
+    },
+    {
+      "title": "Who is behind the sabotage attempts targeting the German navy?",
+      "url": "https://www.euronews.com/my-europe/2026/05/30/who-is-behind-the-suspected-sabotage-attempts-targeting-the-german-navy",
+      "external_url": "https://www.euronews.com/my-europe/2026/05/30/who-is-behind-the-suspected-sabotage-attempts-targeting-the-german-navy",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trvwa8/who_is_behind_the_sabotage_attempts_targeting_the/",
+      "subreddit": "europe",
+      "rank_in_sub": 5,
+      "published_at": "2026-05-30T10:08:40+00:00",
+      "author": "/u/Samski877",
+      "is_self": false,
+      "domain": "euronews.com",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 5
+    },
+    {
+      "title": "« Le départ en vacances est un réflexe conditionné. Moi, je préfère ne pas partir et me consacrer à ce qui me fait vibrer » : pour leurs congés, ils restent à la maison",
+      "url": "https://www.lemonde.fr/intimites/article/2026/05/30/le-depart-en-vacances-est-un-reflexe-conditionne-moi-je-prefere-ne-pas-partir-et-me-consacrer-a-ce-qui-me-fait-vibrer-pour-leurs-conges-ils-restent-a-la-maison_6695126_6190330.html",
+      "external_url": "https://www.lemonde.fr/intimites/article/2026/05/30/le-depart-en-vacances-est-un-reflexe-conditionne-moi-je-prefere-ne-pas-partir-et-me-consacrer-a-ce-qui-me-fait-vibrer-pour-leurs-conges-ils-restent-a-la-maison_6695126_6190330.html",
+      "permalink": "https://www.reddit.com/r/france/comments/1ts4ply/le_départ_en_vacances_est_un_réflexe_conditionné/",
+      "subreddit": "france",
+      "rank_in_sub": 6,
+      "published_at": "2026-05-30T16:38:21+00:00",
+      "author": "/u/DifferentPlankton571",
+      "is_self": false,
+      "domain": "lemonde.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 6
+    },
+    {
+      "title": "Radio Nova, engagée dans une bataille culturelle avec l’extrême droite, fait recette et polémique avec son humour acide",
+      "url": "https://www.reddit.com/r/actualite/comments/1tqt129/radio_nova_engagée_dans_une_bataille_culturelle/",
+      "external_url": "https://www.reddit.com/gallery/1tqt129",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tqt129/radio_nova_engagée_dans_une_bataille_culturelle/",
+      "subreddit": "actualite",
+      "rank_in_sub": 6,
+      "published_at": "2026-05-29T06:18:08+00:00",
+      "author": "/u/Grin-Guy",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 6
+    },
+    {
+      "title": "Scientists create wearable ultrasound to continuously monitor babies in womb | Team hope the UPatch – at present a proof-of-concept device – will aid early detection of complications and prevent stillbirths.",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/may/26/scientists-create-wearable-ultrasound-to-continuously-monitor-babies-in-womb",
+      "external_url": "https://www.theguardian.com/lifeandstyle/2026/may/26/scientists-create-wearable-ultrasound-to-continuously-monitor-babies-in-womb",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1to4y4w/scientists_create_wearable_ultrasound_to/",
+      "subreddit": "sciences",
+      "rank_in_sub": 6,
+      "published_at": "2026-05-26T12:06:21+00:00",
+      "author": "/u/FreeHugs23",
+      "is_self": false,
+      "domain": "theguardian.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 6
+    },
+    {
+      "title": "Il y a 178 ans, l’esclavage était aboli en Guadeloupe",
+      "url": "https://la1ere.franceinfo.fr/guadeloupe/il-y-a-178-ans-l-esclavage-etait-aboli-en-guadeloupe-1704454.html",
+      "external_url": "https://la1ere.franceinfo.fr/guadeloupe/il-y-a-178-ans-l-esclavage-etait-aboli-en-guadeloupe-1704454.html",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tpo4zv/il_y_a_178_ans_lesclavage_était_aboli_en/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 6,
+      "published_at": "2026-05-28T00:46:14+00:00",
+      "author": "/u/StrawberryAntique962",
+      "is_self": false,
+      "domain": "la1ere.franceinfo.fr",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 6
+    },
+    {
+      "title": "Handys: Verzicht auf Smartphone könnte Wohlbefinden von Kindern verbessern",
+      "url": "https://www.spiegel.de/familie/handys-verzicht-auf-smartphone-koennte-wohlbefinden-von-kindern-verbessern-a-cc938cf1-2294-4283-bc7a-ceb610e77c7b",
+      "external_url": "https://www.spiegel.de/familie/handys-verzicht-auf-smartphone-koennte-wohlbefinden-von-kindern-verbessern-a-cc938cf1-2294-4283-bc7a-ceb610e77c7b",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tp9u2b/handys_verzicht_auf_smartphone_könnte/",
+      "subreddit": "technologie",
+      "rank_in_sub": 6,
+      "published_at": "2026-05-27T15:58:53+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "spiegel.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 6
+    },
+    {
+      "title": "Recherche coéquipier pour It Takes Two et Split Fiction",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1tr79um/recherche_coéquipier_pour_it_takes_two_et_split/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1tr79um/recherche_coéquipier_pour_it_takes_two_et_split/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tr79um/recherche_coéquipier_pour_it_takes_two_et_split/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 6,
+      "published_at": "2026-05-29T16:27:49+00:00",
+      "author": "/u/Charlie_Renfrey",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 6
+    },
+    {
+      "title": "LUD - Filtrés",
+      "url": "https://youtu.be/obxGiXGed3o?si=QosYN9wcX_SJBrnz",
+      "external_url": "https://youtu.be/obxGiXGed3o?si=QosYN9wcX_SJBrnz",
+      "permalink": "https://www.reddit.com/r/musique/comments/1try0s5/lud_filtrés/",
+      "subreddit": "musique",
+      "rank_in_sub": 6,
+      "published_at": "2026-05-30T11:59:48+00:00",
+      "author": "/u/LUDProduction",
+      "is_self": false,
+      "domain": "youtu.be",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 6
+    },
+    {
+      "title": "Marlin pico de gallo et riz",
+      "url": "https://i.redd.it/fr308nic124h1.jpeg",
+      "external_url": "https://i.redd.it/fr308nic124h1.jpeg",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tqxsgf/marlin_pico_de_gallo_et_riz/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 6,
+      "published_at": "2026-05-29T10:35:44+00:00",
+      "author": "/u/Sudden_Tumbleweed853",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 6
+    },
+    {
+      "title": "Éteindre chauffe-eau 1 semaine en été dans appart mal isolé... Risque de légionelles ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1ts3vqj/éteindre_chauffeeau_1_semaine_en_été_dans_appart/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1ts3vqj/éteindre_chauffeeau_1_semaine_en_été_dans_appart/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1ts3vqj/éteindre_chauffeeau_1_semaine_en_été_dans_appart/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 6,
+      "published_at": "2026-05-30T16:04:55+00:00",
+      "author": "/u/Ordinary-Ad9549",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 6
+    },
+    {
+      "title": "The European Commission has decided to initiate infringement proceedings against Portugal for failing to adopt European Union (EU) rules on the recognition of professional qualifications for nurses, dentists, and pharmacists.",
+      "url": "https://www.theportugalnews.com/news/2026-05-28/european-commission-sues-portugal/1030041",
+      "external_url": "https://www.theportugalnews.com/news/2026-05-28/european-commission-sues-portugal/1030041",
+      "permalink": "https://www.reddit.com/r/europe/comments/1ts4upk/the_european_commission_has_decided_to_initiate/",
+      "subreddit": "europe",
+      "rank_in_sub": 6,
+      "published_at": "2026-05-30T16:43:57+00:00",
+      "author": "/u/Interesting-Cat7307",
+      "is_self": false,
+      "domain": "theportugalnews.com",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 6
+    },
+    {
+      "title": "\"Je prie intensément\": la Jamaïque salive sur la possible première découverte de pétrole de son histoire (alors qu'elle exhortait le monde en 2024 à éradiquer les énergies fossiles)",
+      "url": "https://www.bfmtv.com/economie/entreprises/energie/je-prie-intensement-la-jamaique-salive-sur-la-possible-premiere-decouverte-de-petrole-de-son-histoire-alors-qu-elle-exhortait-le-monde-en-2024-a-eradiquer-les-energies-fossiles_AN-202605300212.html",
+      "external_url": "https://www.bfmtv.com/economie/entreprises/energie/je-prie-intensement-la-jamaique-salive-sur-la-possible-premiere-decouverte-de-petrole-de-son-histoire-alors-qu-elle-exhortait-le-monde-en-2024-a-eradiquer-les-energies-fossiles_AN-202605300212.html",
+      "permalink": "https://www.reddit.com/r/france/comments/1ts5hvl/je_prie_intensément_la_jamaïque_salive_sur_la/",
+      "subreddit": "france",
+      "rank_in_sub": 7,
+      "published_at": "2026-05-30T17:08:21+00:00",
+      "author": "/u/Andvarey",
+      "is_self": false,
+      "domain": "bfmtv.com",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 7
+    },
+    {
+      "title": "Pour ne pas récompenser une élue LFI, la revue politique « Le Trombinoscope » modifie le vote de son jury",
+      "url": "https://www.mediapart.fr/journal/politique/270526/pour-ne-pas-recompenser-une-elue-lfi-la-revue-politique-le-trombinoscope-modifie-le-vote-de-son-jury",
+      "external_url": "https://www.mediapart.fr/journal/politique/270526/pour-ne-pas-recompenser-une-elue-lfi-la-revue-politique-le-trombinoscope-modifie-le-vote-de-son-jury",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tqtyva/pour_ne_pas_récompenser_une_élue_lfi_la_revue/",
+      "subreddit": "actualite",
+      "rank_in_sub": 7,
+      "published_at": "2026-05-29T07:09:20+00:00",
+      "author": "/u/JetableAuLoinCompte",
+      "is_self": false,
+      "domain": "mediapart.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 7
+    },
+    {
+      "title": "Your Daily Rhythms May Help Slow Biological Aging, Study Suggests | Steady and settled daily rhythms – with regular, consistent time carved out for both rest and activity – might help to slow down this biological aging.",
+      "url": "https://www.sciencealert.com/your-daily-rhythms-may-help-slow-biological-aging-study-suggests",
+      "external_url": "https://www.sciencealert.com/your-daily-rhythms-may-help-slow-biological-aging-study-suggests",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1tit7ex/your_daily_rhythms_may_help_slow_biological_aging/",
+      "subreddit": "sciences",
+      "rank_in_sub": 7,
+      "published_at": "2026-05-20T17:48:32+00:00",
+      "author": "/u/FreeHugs23",
+      "is_self": false,
+      "domain": "sciencealert.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 7
+    },
+    {
+      "title": "Les décisions qui changent le monde passent toujours inaperçues au moment où elles se prennent.",
+      "url": "https://www.reddit.com/r/Histoire/comments/1tp29n2/les_décisions_qui_changent_le_monde_passent/",
+      "external_url": "https://www.reddit.com/r/Histoire/comments/1tp29n2/les_décisions_qui_changent_le_monde_passent/",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tp29n2/les_décisions_qui_changent_le_monde_passent/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 7,
+      "published_at": "2026-05-27T11:05:48+00:00",
+      "author": "/u/Tough_Regular_1069",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 7
+    },
+    {
+      "title": "Börse: Nasdaq 100 überspringt erstmals 30.000-Punkte-Marke",
+      "url": "https://www.spiegel.de/wirtschaft/nasdaq-100-ueberspringt-erstmals-30-000-punkte-marke-a-368ec265-46a4-48dd-87bf-f33e30cf300c",
+      "external_url": "https://www.spiegel.de/wirtschaft/nasdaq-100-ueberspringt-erstmals-30-000-punkte-marke-a-368ec265-46a4-48dd-87bf-f33e30cf300c",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tp9uxg/börse_nasdaq_100_überspringt_erstmals/",
+      "subreddit": "technologie",
+      "rank_in_sub": 7,
+      "published_at": "2026-05-27T15:59:41+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "spiegel.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 7
+    },
+    {
+      "title": "Grand oral",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1tr9ui4/grand_oral/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1tr9ui4/grand_oral/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tr9ui4/grand_oral/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 7,
+      "published_at": "2026-05-29T17:52:02+00:00",
+      "author": "/u/ChomeurKing",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 7
+    },
+    {
+      "title": "LUD - Minuit Sans Toi",
+      "url": "https://youtu.be/XOcyJxpKKBU?si=3JG4-ZTLSOjUFyW1",
+      "external_url": "https://youtu.be/XOcyJxpKKBU?si=3JG4-ZTLSOjUFyW1",
+      "permalink": "https://www.reddit.com/r/musique/comments/1try03z/lud_minuit_sans_toi/",
+      "subreddit": "musique",
+      "rank_in_sub": 7,
+      "published_at": "2026-05-30T11:58:54+00:00",
+      "author": "/u/LUDProduction",
+      "is_self": false,
+      "domain": "youtu.be",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 7
+    },
+    {
+      "title": "Moelleux au chocolat au lait",
+      "url": "https://i.redd.it/llpf3ksfr04h1.jpeg",
+      "external_url": "https://i.redd.it/llpf3ksfr04h1.jpeg",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tqt16l/moelleux_au_chocolat_au_lait/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 7,
+      "published_at": "2026-05-29T06:18:20+00:00",
+      "author": "/u/Inevitable-Meal-5159",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 7
+    },
+    {
+      "title": "Which is more popular in France:America cartoon vs Japanese Anime?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1ts06qo/which_is_more_popular_in_franceamerica_cartoon_vs/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1ts06qo/which_is_more_popular_in_franceamerica_cartoon_vs/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1ts06qo/which_is_more_popular_in_franceamerica_cartoon_vs/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 7,
+      "published_at": "2026-05-30T13:36:15+00:00",
+      "author": "/u/Mysterious-Trip-3632",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 7
+    },
+    {
+      "title": "New Amsterdam-Paris train from €19 will stop in Haarlem, The Hague, Roosendaal and Gent",
+      "url": "https://nltimes.nl/2026/05/30/new-amsterdam-paris-train-eu19-will-stop-haarlem-hague-roosendaal-gent",
+      "external_url": "https://nltimes.nl/2026/05/30/new-amsterdam-paris-train-eu19-will-stop-haarlem-hague-roosendaal-gent",
+      "permalink": "https://www.reddit.com/r/europe/comments/1ts4tur/new_amsterdamparis_train_from_19_will_stop_in/",
+      "subreddit": "europe",
+      "rank_in_sub": 7,
+      "published_at": "2026-05-30T16:42:59+00:00",
+      "author": "/u/goldstarflag",
+      "is_self": false,
+      "domain": "nltimes.nl",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 7
+    },
+    {
+      "title": "\"Nos tenues ne sont toujours pas une invitation\" : le harcèlement de rue en hausse avec la canicule",
+      "url": "https://www.franceinfo.fr/societe/droits-des-femmes/nos-tenues-ne-sont-toujours-pas-une-invitation-le-harcelement-de-rue-en-hausse-avec-la-canicule_8036240.html",
+      "external_url": "https://www.franceinfo.fr/societe/droits-des-femmes/nos-tenues-ne-sont-toujours-pas-une-invitation-le-harcelement-de-rue-en-hausse-avec-la-canicule_8036240.html",
+      "permalink": "https://www.reddit.com/r/france/comments/1trwq7n/nos_tenues_ne_sont_toujours_pas_une_invitation_le/",
+      "subreddit": "france",
+      "rank_in_sub": 8,
+      "published_at": "2026-05-30T10:54:44+00:00",
+      "author": "/u/Andvarey",
+      "is_self": false,
+      "domain": "franceinfo.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 8
+    },
+    {
+      "title": "Les six plus grandes économies de l’UE poussent pour une union des marchés de capitaux",
+      "url": "https://fr.euronews.com/2026/05/29/les-six-plus-grandes-economies-de-lue-poussent-pour-une-union-des-marches-de-capitaux?utm_source=reddit&amp;utm_campaign=feeds_europe_news&amp;utm_medium=referral",
+      "external_url": "https://fr.euronews.com/2026/05/29/les-six-plus-grandes-economies-de-lue-poussent-pour-une-union-des-marches-de-capitaux?utm_source=reddit&amp;utm_campaign=feeds_europe_news&amp;utm_medium=referral",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tr2ymf/les_six_plus_grandes_économies_de_lue_poussent/",
+      "subreddit": "actualite",
+      "rank_in_sub": 8,
+      "published_at": "2026-05-29T14:06:37+00:00",
+      "author": "/u/euronews-news",
+      "is_self": false,
+      "domain": "fr.euronews.com",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 8
+    },
+    {
+      "title": "A conference taught me that scientists and journalists must work together to protect research",
+      "url": "https://www.nature.com/articles/d41586-026-00824-1",
+      "external_url": "https://www.nature.com/articles/d41586-026-00824-1",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1tiohs1/a_conference_taught_me_that_scientists_and/",
+      "subreddit": "sciences",
+      "rank_in_sub": 8,
+      "published_at": "2026-05-20T15:07:12+00:00",
+      "author": "/u/lonnib",
+      "is_self": false,
+      "domain": "nature.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 8
+    },
+    {
+      "title": "Esclavage : peut-on comparer le commerce triangulaire et la traite arabo-musulmane ?",
+      "url": "https://www.radiofrance.fr/franceculture/esclavage-peut-on-comparer-le-commerce-triangulaire-et-la-traite-arabo-musulmane-4154452",
+      "external_url": "https://www.radiofrance.fr/franceculture/esclavage-peut-on-comparer-le-commerce-triangulaire-et-la-traite-arabo-musulmane-4154452",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tor6q6/esclavage_peuton_comparer_le_commerce/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 8,
+      "published_at": "2026-05-27T01:44:00+00:00",
+      "author": "/u/apokrif1",
+      "is_self": false,
+      "domain": "radiofrance.fr",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 8
+    },
+    {
+      "title": "Mercedes-Autos könnten ab 2027 autonom durch deutsche Städte fahren",
+      "url": "https://www.spiegel.de/mobilitaet/auto/autonomes-fahren-mercedes-bietet-ab-2027-drive-pilot-in-deutschland-an-a-11c179d8-6389-4c42-86ed-ec1ac4ee6281",
+      "external_url": "https://www.spiegel.de/mobilitaet/auto/autonomes-fahren-mercedes-bietet-ab-2027-drive-pilot-in-deutschland-an-a-11c179d8-6389-4c42-86ed-ec1ac4ee6281",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1toudfz/mercedesautos_könnten_ab_2027_autonom_durch/",
+      "subreddit": "technologie",
+      "rank_in_sub": 8,
+      "published_at": "2026-05-27T04:06:57+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "spiegel.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 8
+    },
+    {
+      "title": "Aleryos, jeu MMO inspiré ogame",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1trdrr4/aleryos_jeu_mmo_inspiré_ogame/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1trdrr4/aleryos_jeu_mmo_inspiré_ogame/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1trdrr4/aleryos_jeu_mmo_inspiré_ogame/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 8,
+      "published_at": "2026-05-29T19:57:33+00:00",
+      "author": "/u/No_Astronomer_3716",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 8
+    },
+    {
+      "title": "Hal Mingo Project - This Is Your Night",
+      "url": "https://open.spotify.com/track/01If0R3iEdq5SHNcFOa5xR?si=j03PvppoRBSbL4bis2qd8A",
+      "external_url": "https://open.spotify.com/track/01If0R3iEdq5SHNcFOa5xR?si=j03PvppoRBSbL4bis2qd8A",
+      "permalink": "https://www.reddit.com/r/musique/comments/1trv0ry/hal_mingo_project_this_is_your_night/",
+      "subreddit": "musique",
+      "rank_in_sub": 8,
+      "published_at": "2026-05-30T09:18:40+00:00",
+      "author": "/u/FaunoProductions",
+      "is_self": false,
+      "domain": "open.spotify.com",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 8
+    },
+    {
+      "title": "Conseils pour me lancer en cuisine",
+      "url": "https://www.reddit.com/r/cuisine/comments/1trcybw/conseils_pour_me_lancer_en_cuisine/",
+      "external_url": "https://www.reddit.com/r/cuisine/comments/1trcybw/conseils_pour_me_lancer_en_cuisine/",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1trcybw/conseils_pour_me_lancer_en_cuisine/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 8,
+      "published_at": "2026-05-29T19:30:08+00:00",
+      "author": "/u/Dry-Atmosphere7718",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 8
+    },
+    {
+      "title": "Ça coûte combien un mariage ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trv7dd/ça_coûte_combien_un_mariage/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trv7dd/ça_coûte_combien_un_mariage/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trv7dd/ça_coûte_combien_un_mariage/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 8,
+      "published_at": "2026-05-30T09:29:17+00:00",
+      "author": "/u/SnooGoats9933",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 8
+    },
+    {
+      "title": "Kanye West to perform in the Netherlands following UK ban",
+      "url": "https://www.lbc.co.uk/article/kanye-west-netherlands-wireless-concerts-5HjdZt5_2/",
+      "external_url": "https://www.lbc.co.uk/article/kanye-west-netherlands-wireless-concerts-5HjdZt5_2/",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trvbcj/kanye_west_to_perform_in_the_netherlands/",
+      "subreddit": "europe",
+      "rank_in_sub": 8,
+      "published_at": "2026-05-30T09:35:30+00:00",
+      "author": "/u/tylerthe-theatre",
+      "is_self": false,
+      "domain": "lbc.co.uk",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 8
+    },
+    {
+      "title": "Le coût du travail n'est pas particulièrement élevé en France",
+      "url": "https://www.reddit.com/r/france/comments/1ts2pmy/le_coût_du_travail_nest_pas_particulièrement/",
+      "external_url": "https://www.reddit.com/r/france/comments/1ts2pmy/le_coût_du_travail_nest_pas_particulièrement/",
+      "permalink": "https://www.reddit.com/r/france/comments/1ts2pmy/le_coût_du_travail_nest_pas_particulièrement/",
+      "subreddit": "france",
+      "rank_in_sub": 9,
+      "published_at": "2026-05-30T15:18:22+00:00",
+      "author": "/u/Task024",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 9
+    },
+    {
+      "title": "Patrick Balkany condamné à de la prison ferme sans mandat de dépôt pour détournements de fonds publics",
+      "url": "https://www.huffingtonpost.fr/france/article/patrick-balkany-ecope-de-deux-peines-de-prison-ferme-pour-detournements-de-fonds-publics_264202.html",
+      "external_url": "https://www.huffingtonpost.fr/france/article/patrick-balkany-ecope-de-deux-peines-de-prison-ferme-pour-detournements-de-fonds-publics_264202.html",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tqumok/patrick_balkany_condamné_à_de_la_prison_ferme/",
+      "subreddit": "actualite",
+      "rank_in_sub": 9,
+      "published_at": "2026-05-29T07:45:14+00:00",
+      "author": "/u/4restrike9",
+      "is_self": false,
+      "domain": "huffingtonpost.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 9
+    },
+    {
+      "title": "Mathematical question",
+      "url": "https://i.redd.it/6k08oz4k9b2h1.jpeg",
+      "external_url": "https://i.redd.it/6k08oz4k9b2h1.jpeg",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1tip57y/mathematical_question/",
+      "subreddit": "sciences",
+      "rank_in_sub": 9,
+      "published_at": "2026-05-20T15:29:29+00:00",
+      "author": "/u/jafar_jabrava",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 9
+    },
+    {
+      "title": "Mai 67 en Guadeloupe : 59 ans après, une mémoire toujours marquée par la violence et les zones d’ombre",
+      "url": "https://la1ere.franceinfo.fr/guadeloupe/mai-67-en-guadeloupe-59-ans-apres-une-memoire-toujours-marquee-par-la-violence-et-les-zones-d-ombre-1704385.html",
+      "external_url": "https://la1ere.franceinfo.fr/guadeloupe/mai-67-en-guadeloupe-59-ans-apres-une-memoire-toujours-marquee-par-la-violence-et-les-zones-d-ombre-1704385.html",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1toptw6/mai_67_en_guadeloupe_59_ans_après_une_mémoire/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 9,
+      "published_at": "2026-05-27T00:44:25+00:00",
+      "author": "/u/StrawberryAntique962",
+      "is_self": false,
+      "domain": "la1ere.franceinfo.fr",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 9
+    },
+    {
+      "title": "Investitionsquote für Streamingdienste soll deutsche Filmbranche stärken",
+      "url": "https://www.spiegel.de/kultur/tv/netflix-amazon-prime-disney-investitionsquote-soll-deutsche-filmbranche-staerken-a-aa8d90af-e250-4c61-a498-741923d0945a",
+      "external_url": "https://www.spiegel.de/kultur/tv/netflix-amazon-prime-disney-investitionsquote-soll-deutsche-filmbranche-staerken-a-aa8d90af-e250-4c61-a498-741923d0945a",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tp9sfc/investitionsquote_für_streamingdienste_soll/",
+      "subreddit": "technologie",
+      "rank_in_sub": 9,
+      "published_at": "2026-05-27T15:57:21+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "spiegel.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 9
+    },
+    {
+      "title": "L’IA défonce déjà nos portes",
+      "url": "https://i.redd.it/4f0q5ikny94h1.jpeg",
+      "external_url": "https://i.redd.it/4f0q5ikny94h1.jpeg",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1trzph4/lia_défonce_déjà_nos_portes/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 9,
+      "published_at": "2026-05-30T13:16:13+00:00",
+      "author": "/u/Valcane",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 9
+    },
+    {
+      "title": "\"Last Light On\" - A laid-back chillhop live set to help you unwind 🌅",
+      "url": "https://www.youtube.com/watch?v=7jTL6e8qcwk",
+      "external_url": "https://www.youtube.com/watch?v=7jTL6e8qcwk",
+      "permalink": "https://www.reddit.com/r/musique/comments/1trsvke/last_light_on_a_laidback_chillhop_live_set_to/",
+      "subreddit": "musique",
+      "rank_in_sub": 9,
+      "published_at": "2026-05-30T07:15:47+00:00",
+      "author": "/u/annawakrecords",
+      "is_self": false,
+      "domain": "youtube.com",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 9
+    },
+    {
+      "title": "Conseil mixeur",
+      "url": "https://www.reddit.com/r/cuisine/comments/1tr9y2j/conseil_mixeur/",
+      "external_url": "https://www.reddit.com/r/cuisine/comments/1tr9y2j/conseil_mixeur/",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tr9y2j/conseil_mixeur/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 9,
+      "published_at": "2026-05-29T17:55:08+00:00",
+      "author": "/u/AnaDarkBlueMermaid",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 9
+    },
+    {
+      "title": "Pour la déclaration de revenus, doit-on indiquer les indemnités de la sécurité sociale non perçues?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1ts6vcz/pour_la_déclaration_de_revenus_doiton_indiquer/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1ts6vcz/pour_la_déclaration_de_revenus_doiton_indiquer/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1ts6vcz/pour_la_déclaration_de_revenus_doiton_indiquer/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 9,
+      "published_at": "2026-05-30T18:02:22+00:00",
+      "author": "/u/Physical_planning",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 9
+    },
+    {
+      "title": "Serbian citizens removing spiteful anti-opposition billboard that is blocking endangered alpine swifts from feeding their young in their nests",
+      "url": "https://www.reddit.com/r/europe/comments/1ts3wgi/serbian_citizens_removing_spiteful_antiopposition/",
+      "external_url": "https://www.reddit.com/r/serbia/comments/1trzxma/narod_uklanja_krpu/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button",
+      "permalink": "https://www.reddit.com/r/europe/comments/1ts3wgi/serbian_citizens_removing_spiteful_antiopposition/",
+      "subreddit": "europe",
+      "rank_in_sub": 9,
+      "published_at": "2026-05-30T16:05:43+00:00",
+      "author": "/u/Equivalent-Charge478",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 9
+    },
+    {
+      "title": "Vieillicommedulait : Science et vie n°789, Juin 1983",
+      "url": "https://i.redd.it/flx56f6vs84h1.png",
+      "external_url": "https://i.redd.it/flx56f6vs84h1.png",
+      "permalink": "https://www.reddit.com/r/france/comments/1trv2qu/vieillicommedulait_science_et_vie_n789_juin_1983/",
+      "subreddit": "france",
+      "rank_in_sub": 10,
+      "published_at": "2026-05-30T09:21:47+00:00",
+      "author": "/u/BringbackMarchais",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 10
+    },
+    {
+      "title": "Soupçonné de corruption, le sénateur Francis Szpiner perd son immunité parlementaire",
+      "url": "https://www.20minutes.fr/politique/4225972-20260528-soupconne-corruption-senateur-francis-szpiner-perd-immunite-parlementaire?utm_source=yahoo&amp;utm_medium=rss&amp;utm_campaign=news_feed&amp;utm_content=read_more_link%22",
+      "external_url": "https://www.20minutes.fr/politique/4225972-20260528-soupconne-corruption-senateur-francis-szpiner-perd-immunite-parlementaire?utm_source=yahoo&amp;utm_medium=rss&amp;utm_campaign=news_feed&amp;utm_content=read_more_link%22",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tqtbpn/soupçonné_de_corruption_le_sénateur_francis/",
+      "subreddit": "actualite",
+      "rank_in_sub": 10,
+      "published_at": "2026-05-29T06:34:19+00:00",
+      "author": "/u/Negative-Bank-8702",
+      "is_self": false,
+      "domain": "20minutes.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 10
+    },
+    {
+      "title": "Deadly Ebola Outbreak Declared Global Emergency as Cases Spread in Africa | A total of 88 deaths and 336 suspected cases of the highly contagious hemorrhagic fever have so far been reported.",
+      "url": "https://www.sciencealert.com/deadly-ebola-outbreak-declared-global-emergency-as-cases-spread-in-africa",
+      "external_url": "https://www.sciencealert.com/deadly-ebola-outbreak-declared-global-emergency-as-cases-spread-in-africa",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1tgiogs/deadly_ebola_outbreak_declared_global_emergency/",
+      "subreddit": "sciences",
+      "rank_in_sub": 10,
+      "published_at": "2026-05-18T10:38:15+00:00",
+      "author": "/u/FreeHugs23",
+      "is_self": false,
+      "domain": "sciencealert.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 10
+    },
+    {
+      "title": "\"Moulin\", \"La Bataille de Gaulle\", \"Notre salut\" : les films sur la Résistance peuvent-ils être apolitiques ?",
+      "url": "https://www.radiofrance.fr/franceculture/podcasts/questions-du-soir-le-debat/questions-du-soir-le-debat-emission-du-lundi-25-mai-2026-4961740",
+      "external_url": "https://www.radiofrance.fr/franceculture/podcasts/questions-du-soir-le-debat/questions-du-soir-le-debat-emission-du-lundi-25-mai-2026-4961740",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1torf6o/moulin_la_bataille_de_gaulle_notre_salut_les/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 10,
+      "published_at": "2026-05-27T01:54:18+00:00",
+      "author": "/u/apokrif1",
+      "is_self": false,
+      "domain": "radiofrance.fr",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 10
+    },
+    {
+      "title": "Speicherkrise: SK Hynix und Micron jetzt eine Billion US-Dollar wert",
+      "url": "https://www.heise.de/news/Speicherkrise-SK-Hynix-und-Micron-jetzt-eine-Billion-US-Dollar-wert-11307343.html",
+      "external_url": "https://www.heise.de/news/Speicherkrise-SK-Hynix-und-Micron-jetzt-eine-Billion-US-Dollar-wert-11307343.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tp17wq/speicherkrise_sk_hynix_und_micron_jetzt_eine/",
+      "subreddit": "technologie",
+      "rank_in_sub": 10,
+      "published_at": "2026-05-27T10:11:29+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "heise.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 10
+    },
+    {
+      "title": "Les jeux que j'ai terminé depuis le début de l'année 2026",
+      "url": "https://i.redd.it/ittmba5mf84h1.png",
+      "external_url": "https://i.redd.it/ittmba5mf84h1.png",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1trtrat/les_jeux_que_jai_terminé_depuis_le_début_de/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 10,
+      "published_at": "2026-05-30T08:06:19+00:00",
+      "author": "/u/DistributionTop9843",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 10
+    },
+    {
+      "title": "LUD - Minuit Sans Toi",
+      "url": "https://youtu.be/XOcyJxpKKBU?si=SZv_ZPwTKFRHT2AH",
+      "external_url": "https://youtu.be/XOcyJxpKKBU?si=SZv_ZPwTKFRHT2AH",
+      "permalink": "https://www.reddit.com/r/musique/comments/1trd0n5/lud_minuit_sans_toi/",
+      "subreddit": "musique",
+      "rank_in_sub": 10,
+      "published_at": "2026-05-29T19:32:11+00:00",
+      "author": "/u/LUDProduction",
+      "is_self": false,
+      "domain": "youtu.be",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 10
+    },
+    {
+      "title": "Maxi chicken burger",
+      "url": "https://i.redd.it/699pfidryx3h1.jpeg",
+      "external_url": "https://i.redd.it/699pfidryx3h1.jpeg",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tqg5mx/maxi_chicken_burger/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 10,
+      "published_at": "2026-05-28T20:54:02+00:00",
+      "author": "/u/Doctor_French32",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 10
+    },
+    {
+      "title": "C'est quoi le plat français qui a l'air dégueulasse en le regardant mais qui est bon au goût ? (Personnellement langue de bœuf )",
+      "url": "https://i.redd.it/huftkp03g34h1.jpeg",
+      "external_url": "https://i.redd.it/huftkp03g34h1.jpeg",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr54zx/cest_quoi_le_plat_français_qui_a_lair_dégueulasse/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 10,
+      "published_at": "2026-05-29T15:20:02+00:00",
+      "author": "/u/Outrageous-You1617",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 10
+    },
+    {
+      "title": "Bulgaria Stops US Military Aircraft Refuelling After Crossing Swords With US",
+      "url": "https://balkaninsight.com/2026/05/29/bulgaria-stops-us-military-aircraft-refuelling-after-crossing-swords-with-trump/bi/",
+      "external_url": "https://balkaninsight.com/2026/05/29/bulgaria-stops-us-military-aircraft-refuelling-after-crossing-swords-with-trump/bi/",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trx2hg/bulgaria_stops_us_military_aircraft_refuelling/",
+      "subreddit": "europe",
+      "rank_in_sub": 10,
+      "published_at": "2026-05-30T11:12:12+00:00",
+      "author": "/u/Forsaken-Medium-2436",
+      "is_self": false,
+      "domain": "balkaninsight.com",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 10
+    },
+    {
+      "title": "Un doublé pour l'histoire : le PSG vient à bout d'Arsenal aux tirs au but et conserve sa couronne en Ligue des champions",
+      "url": "https://www.lequipe.fr/Football/Actualites/Un-double-pour-l-histoire-le-psg-vient-a-bout-d-arsenal-aux-tirs-au-but-et-conserve-sa-couronne-en-ligue-des-champions/1680371",
+      "external_url": "https://www.lequipe.fr/Football/Actualites/Un-double-pour-l-histoire-le-psg-vient-a-bout-d-arsenal-aux-tirs-au-but-et-conserve-sa-couronne-en-ligue-des-champions/1680371",
+      "permalink": "https://www.reddit.com/r/france/comments/1ts98e5/un_doublé_pour_lhistoire_le_psg_vient_à_bout/",
+      "subreddit": "france",
+      "rank_in_sub": 11,
+      "published_at": "2026-05-30T19:35:19+00:00",
+      "author": "/u/CheesecakePerfect156",
+      "is_self": false,
+      "domain": "lequipe.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 11
+    },
+    {
+      "title": "« Français de l’étranger » et droit bancaire : toujours des problèmes !",
+      "url": "https://www.actu-juridique.fr/affaires/bancaire-credit/francais-de-letranger-et-droit-bancaire-toujours-des-problemes/",
+      "external_url": "https://www.actu-juridique.fr/affaires/bancaire-credit/francais-de-letranger-et-droit-bancaire-toujours-des-problemes/",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tqvwx5/français_de_létranger_et_droit_bancaire_toujours/",
+      "subreddit": "actualite",
+      "rank_in_sub": 11,
+      "published_at": "2026-05-29T08:57:35+00:00",
+      "author": "/u/actu-juridiqueFR",
+      "is_self": false,
+      "domain": "actu-juridique.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 11
+    },
+    {
+      "title": "Garlic Is a Secret Weapon Against Mosquitoes, Study Finds | Some mosquitoes and flies don't mate or lay eggs as much when exposed to a compound found in garlic.",
+      "url": "https://gizmodo.com/garlic-is-a-secret-weapon-against-mosquitoes-study-finds-2000757593",
+      "external_url": "https://gizmodo.com/garlic-is-a-secret-weapon-against-mosquitoes-study-finds-2000757593",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1tgklip/garlic_is_a_secret_weapon_against_mosquitoes/",
+      "subreddit": "sciences",
+      "rank_in_sub": 11,
+      "published_at": "2026-05-18T12:06:21+00:00",
+      "author": "/u/FreeHugs23",
+      "is_self": false,
+      "domain": "gizmodo.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 11
+    },
+    {
+      "title": "Documentaire les Crimes contre l'humanité le procès de Klaus Barbie",
+      "url": "https://youtu.be/MJhXQLc6UF4?is=xH693ZuIZszAiXwl",
+      "external_url": "https://youtu.be/MJhXQLc6UF4?is=xH693ZuIZszAiXwl",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1to5gwe/documentaire_les_crimes_contre_lhumanité_le/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 11,
+      "published_at": "2026-05-26T12:28:27+00:00",
+      "author": "/u/Intelligent_Pie_9102",
+      "is_self": false,
+      "domain": "youtu.be",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 11
+    },
+    {
+      "title": "Quantentechnologie: Die nächste Technikrevolution steht schon vor der Tür",
+      "url": "https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/quantentechnologie-die-naechste-technikrevolution-steht-schon-vor-der-tuer-accg-200864297.html",
+      "external_url": "https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/quantentechnologie-die-naechste-technikrevolution-steht-schon-vor-der-tuer-accg-200864297.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tp0b0q/quantentechnologie_die_nächste_technikrevolution/",
+      "subreddit": "technologie",
+      "rank_in_sub": 11,
+      "published_at": "2026-05-27T09:22:02+00:00",
+      "author": "/u/Dry_Comparison_7487",
+      "is_self": false,
+      "domain": "faz.net",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 11
+    },
+    {
+      "title": "Comment savoir si un jeu PS5 est compatible Dolby Atmos ?",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1tr2isc/comment_savoir_si_un_jeu_ps5_est_compatible_dolby/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1tr2isc/comment_savoir_si_un_jeu_ps5_est_compatible_dolby/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tr2isc/comment_savoir_si_un_jeu_ps5_est_compatible_dolby/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 11,
+      "published_at": "2026-05-29T13:50:47+00:00",
+      "author": "/u/wawack",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 11
+    },
+    {
+      "title": "besoin logiciel",
+      "url": "https://www.reddit.com/r/musique/comments/1traq55/besoin_logiciel/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1traq55/besoin_logiciel/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1traq55/besoin_logiciel/",
+      "subreddit": "musique",
+      "rank_in_sub": 11,
+      "published_at": "2026-05-29T18:19:07+00:00",
+      "author": "/u/SselEman696",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 11
+    },
+    {
+      "title": "Avis sur mes idées + troisième salade ? 🥗",
+      "url": "https://www.reddit.com/r/cuisine/comments/1tq4qcf/avis_sur_mes_idées_troisième_salade/",
+      "external_url": "https://www.reddit.com/gallery/1tq4qcf",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tq4qcf/avis_sur_mes_idées_troisième_salade/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 11,
+      "published_at": "2026-05-28T14:08:25+00:00",
+      "author": "/u/naanabanaana",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 11
+    },
+    {
+      "title": "Est-ce que vous connaissez un fournisseur d'email avec support imap?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1ts5mfu/estce_que_vous_connaissez_un_fournisseur_demail/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1ts5mfu/estce_que_vous_connaissez_un_fournisseur_demail/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1ts5mfu/estce_que_vous_connaissez_un_fournisseur_demail/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 11,
+      "published_at": "2026-05-30T17:13:10+00:00",
+      "author": "/u/neomaniacs",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 11
+    },
+    {
+      "title": "HMS Queen Elizabeth in the North Atlantic",
+      "url": "https://i.redd.it/c3jepv5dy94h1.jpeg",
+      "external_url": "https://i.redd.it/c3jepv5dy94h1.jpeg",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trzmti/hms_queen_elizabeth_in_the_north_atlantic/",
+      "subreddit": "europe",
+      "rank_in_sub": 11,
+      "published_at": "2026-05-30T13:13:12+00:00",
+      "author": "/u/MGC91",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 11
+    },
+    {
+      "title": "« Si t’as rien à cacher, tu donnes ta loc » : la géolocalisation dans le couple, une pratique qui se banalise chez les jeunes",
+      "url": "https://www.lemonde.fr/campus/article/2026/05/30/si-t-as-rien-a-cacher-tu-donnes-ta-loc-la-geolocalisation-dans-le-couple-une-pratique-qui-se-banalise-chez-les-jeunes_6695092_4401467.html",
+      "external_url": "https://www.lemonde.fr/campus/article/2026/05/30/si-t-as-rien-a-cacher-tu-donnes-ta-loc-la-geolocalisation-dans-le-couple-une-pratique-qui-se-banalise-chez-les-jeunes_6695092_4401467.html",
+      "permalink": "https://www.reddit.com/r/france/comments/1trscf0/si_tas_rien_à_cacher_tu_donnes_ta_loc_la/",
+      "subreddit": "france",
+      "rank_in_sub": 12,
+      "published_at": "2026-05-30T06:46:26+00:00",
+      "author": "/u/Rfogj",
+      "is_self": false,
+      "domain": "lemonde.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 12
+    },
+    {
+      "title": "Atari déménage au Luxembourg après 25 ans en France",
+      "url": "https://next.ink/239647/atari-demenage-au-luxembourg-apres-25-ans-en-france/",
+      "external_url": "https://next.ink/239647/atari-demenage-au-luxembourg-apres-25-ans-en-france/",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tquqeo/atari_déménage_au_luxembourg_après_25_ans_en/",
+      "subreddit": "actualite",
+      "rank_in_sub": 12,
+      "published_at": "2026-05-29T07:51:03+00:00",
+      "author": "/u/4restrike9",
+      "is_self": false,
+      "domain": "next.ink",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 12
+    },
+    {
+      "title": "New Species Of Deadly Box Jellyfish Discovered Off Singapore's \"Isle Of Death Behind\"",
+      "url": "https://www.iflscience.com/new-species-of-deadly-box-jellyfish-discovered-off-singapores-isle-of-death-behind-83525",
+      "external_url": "https://www.iflscience.com/new-species-of-deadly-box-jellyfish-discovered-off-singapores-isle-of-death-behind-83525",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1tggx31/new_species_of_deadly_box_jellyfish_discovered/",
+      "subreddit": "sciences",
+      "rank_in_sub": 12,
+      "published_at": "2026-05-18T09:03:13+00:00",
+      "author": "/u/vanzijljc",
+      "is_self": false,
+      "domain": "iflscience.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 12
+    },
+    {
+      "title": "Pourquoi Philippe IV Le Bel a-t-il accusé l'ordre des Templiers d'hérésie ?",
+      "url": "http://Www.chevaliersdeclairvaux.eu",
+      "external_url": "http://Www.chevaliersdeclairvaux.eu",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tnefbz/pourquoi_philippe_iv_le_bel_atil_accusé_lordre/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 12,
+      "published_at": "2026-05-25T16:36:11+00:00",
+      "author": "/u/chevalierclairvaux",
+      "is_self": false,
+      "domain": "Www.chevaliersdeclairvaux.eu",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 12
+    },
+    {
+      "title": "Studie zeigt: Arbeitgeber geben Mitarbeiterdaten für Werbung weiter",
+      "url": "https://www.heise.de/news/Studie-zeigt-Arbeitgeber-geben-Mitarbeiterdaten-fuer-Werbung-weiter-11306897.html",
+      "external_url": "https://www.heise.de/news/Studie-zeigt-Arbeitgeber-geben-Mitarbeiterdaten-fuer-Werbung-weiter-11306897.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tp17gu/studie_zeigt_arbeitgeber_geben_mitarbeiterdaten/",
+      "subreddit": "technologie",
+      "rank_in_sub": 12,
+      "published_at": "2026-05-27T10:10:50+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "heise.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 12
+    },
+    {
+      "title": "Comment jouer à Micro Wars (2014) du Microsoft store (tah l'époque)",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1trff32/comment_jouer_à_micro_wars_2014_du_microsoft/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1trff32/comment_jouer_à_micro_wars_2014_du_microsoft/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1trff32/comment_jouer_à_micro_wars_2014_du_microsoft/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 12,
+      "published_at": "2026-05-29T20:57:00+00:00",
+      "author": "/u/Jaded_Junket_7131",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 12
+    },
+    {
+      "title": "On m'a dit \" Ta voix sur du Jazz/Soul ça donnerait quoi ? \" Un peu près ça du coup lol",
+      "url": "https://v.redd.it/w63ndkkiw34h1",
+      "external_url": "https://v.redd.it/w63ndkkiw34h1",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tr88m5/on_ma_dit_ta_voix_sur_du_jazzsoul_ça_donnerait/",
+      "subreddit": "musique",
+      "rank_in_sub": 12,
+      "published_at": "2026-05-29T16:59:32+00:00",
+      "author": "/u/Mean_Fly7104",
+      "is_self": false,
+      "domain": "v.redd.it",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 12
+    },
+    {
+      "title": "Œufs en meurette",
+      "url": "https://i.redd.it/n1u7a74e6u3h1.jpeg",
+      "external_url": "https://i.redd.it/n1u7a74e6u3h1.jpeg",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tpx4b6/œufs_en_meurette/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 12,
+      "published_at": "2026-05-28T08:09:41+00:00",
+      "author": "/u/NP_106",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 12
+    },
+    {
+      "title": "ou trouver ce genre de clim en france ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trpseo/ou_trouver_ce_genre_de_clim_en_france/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trpseo/ou_trouver_ce_genre_de_clim_en_france/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trpseo/ou_trouver_ce_genre_de_clim_en_france/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 12,
+      "published_at": "2026-05-30T04:33:09+00:00",
+      "author": "/u/eat_sleep_drift",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 12
+    },
+    {
+      "title": "Russian spies are aggressively seeking Western technology as sanctions bite, officials say",
+      "url": "https://apnews.com/article/russia-sanctions-intelligence-economy-defense-10ea5ad20158945f18c718375b84a2f3",
+      "external_url": "https://apnews.com/article/russia-sanctions-intelligence-economy-defense-10ea5ad20158945f18c718375b84a2f3",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trwq00/russian_spies_are_aggressively_seeking_western/",
+      "subreddit": "europe",
+      "rank_in_sub": 12,
+      "published_at": "2026-05-30T10:54:26+00:00",
+      "author": "/u/PjeterPannos",
+      "is_self": false,
+      "domain": "apnews.com",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 12
+    },
+    {
+      "title": "Le prochain G7 à Évian envenime les relations entre la Suisse et la France",
+      "url": "https://www.lemonde.fr/international/article/2026/05/30/le-prochain-g7-a-evian-envenime-les-relations-entre-la-suisse-et-la-france_6695221_3210.html",
+      "external_url": "https://www.lemonde.fr/international/article/2026/05/30/le-prochain-g7-a-evian-envenime-les-relations-entre-la-suisse-et-la-france_6695221_3210.html",
+      "permalink": "https://www.reddit.com/r/france/comments/1ts65uc/le_prochain_g7_à_évian_envenime_les_relations/",
+      "subreddit": "france",
+      "rank_in_sub": 13,
+      "published_at": "2026-05-30T17:34:22+00:00",
+      "author": "/u/t0t0zenerd",
+      "is_self": false,
+      "domain": "lemonde.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 13
+    },
+    {
+      "title": "Enquête pour corruption : le Sénat lève l’immunité parlementaire de Francis Szpiner,",
+      "url": "https://www.publicsenat.fr/actualites/politique/le-bureau-du-senat-leve-limmunite-parlementaire-de-francis-szpiner-vise-par-une-enquete-pour-corruption",
+      "external_url": "https://www.publicsenat.fr/actualites/politique/le-bureau-du-senat-leve-limmunite-parlementaire-de-francis-szpiner-vise-par-une-enquete-pour-corruption",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tqunga/enquête_pour_corruption_le_sénat_lève_limmunité/",
+      "subreddit": "actualite",
+      "rank_in_sub": 13,
+      "published_at": "2026-05-29T07:46:25+00:00",
+      "author": "/u/4restrike9",
+      "is_self": false,
+      "domain": "publicsenat.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 13
+    },
+    {
+      "title": "Only half of the calories produced on croplands are available for human consumption. The calories ‘lost’ to inefficiency (49.9%) is enough to support 7.2 billion people. 39.7% of the lost calories are from beef production, which requires 33 calories of feed for every calorie of boneless meat.",
+      "url": "https://iopscience.iop.org/article/10.1088/2976-601X/ae4f6b",
+      "external_url": "https://iopscience.iop.org/article/10.1088/2976-601X/ae4f6b",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1tdvsjv/only_half_of_the_calories_produced_on_croplands/",
+      "subreddit": "sciences",
+      "rank_in_sub": 13,
+      "published_at": "2026-05-15T13:04:48+00:00",
+      "author": "/u/James_Fortis",
+      "is_self": false,
+      "domain": "iopscience.iop.org",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 13
+    },
+    {
+      "title": "Yahweh n'a pas créé la Torah. C'est la Torah (et ses scribes) qui a créé Yahweh pour survivre à Babylone et à la Grèce.",
+      "url": "https://www.reddit.com/r/Histoire/comments/1tomjb8/yahweh_na_pas_créé_la_torah_cest_la_torah_et_ses/",
+      "external_url": "https://www.reddit.com/r/Histoire/comments/1tomjb8/yahweh_na_pas_créé_la_torah_cest_la_torah_et_ses/",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tomjb8/yahweh_na_pas_créé_la_torah_cest_la_torah_et_ses/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 13,
+      "published_at": "2026-05-26T22:30:38+00:00",
+      "author": "/u/GodIsaFlower",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 13
+    },
+    {
+      "title": "Google: EU soll Millionenstrafe planen",
+      "url": "https://www.spiegel.de/wirtschaft/unternehmen/eu-soll-millionenstrafe-gegen-google-planen-a-d6e6590b-6e69-4657-8574-4cff9b4150fa",
+      "external_url": "https://www.spiegel.de/wirtschaft/unternehmen/eu-soll-millionenstrafe-gegen-google-planen-a-d6e6590b-6e69-4657-8574-4cff9b4150fa",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1toudv0/google_eu_soll_millionenstrafe_planen/",
+      "subreddit": "technologie",
+      "rank_in_sub": 13,
+      "published_at": "2026-05-27T04:07:31+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "spiegel.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 13
+    },
+    {
+      "title": "Le major de CS2 arrive, allez vous le suivre?",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1tqy1qu/le_major_de_cs2_arrive_allez_vous_le_suivre/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1tqy1qu/le_major_de_cs2_arrive_allez_vous_le_suivre/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tqy1qu/le_major_de_cs2_arrive_allez_vous_le_suivre/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 13,
+      "published_at": "2026-05-29T10:48:29+00:00",
+      "author": "/u/ProutPortable",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 13
+    },
+    {
+      "title": "Je cherche une musique.",
+      "url": "https://www.reddit.com/r/musique/comments/1tr4or9/je_cherche_une_musique/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1tr4or9/je_cherche_une_musique/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tr4or9/je_cherche_une_musique/",
+      "subreddit": "musique",
+      "rank_in_sub": 13,
+      "published_at": "2026-05-29T15:05:33+00:00",
+      "author": "/u/some_one_whos_exist",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 13
+    },
+    {
+      "title": "Quelle est votre organisation pour la cuisine ?",
+      "url": "https://www.reddit.com/r/cuisine/comments/1tq61dm/quelle_est_votre_organisation_pour_la_cuisine/",
+      "external_url": "https://www.reddit.com/r/cuisine/comments/1tq61dm/quelle_est_votre_organisation_pour_la_cuisine/",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tq61dm/quelle_est_votre_organisation_pour_la_cuisine/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 13,
+      "published_at": "2026-05-28T14:56:16+00:00",
+      "author": "/u/Dramatic_Sky5342",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 13
+    },
+    {
+      "title": "Que faire de « productifs » quand j’ai rien à faire sur mon téléphone ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trx0vy/que_faire_de_productifs_quand_jai_rien_à_faire/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trx0vy/que_faire_de_productifs_quand_jai_rien_à_faire/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trx0vy/que_faire_de_productifs_quand_jai_rien_à_faire/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 13,
+      "published_at": "2026-05-30T11:09:56+00:00",
+      "author": "/u/BelekKameto",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 13
+    },
+    {
+      "title": "Danish pension fund excludes SpaceX citing governance and valuation",
+      "url": "https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/",
+      "external_url": "https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trs7gd/danish_pension_fund_excludes_spacex_citing/",
+      "subreddit": "europe",
+      "rank_in_sub": 13,
+      "published_at": "2026-05-30T06:38:58+00:00",
+      "author": "/u/_0611",
+      "is_self": false,
+      "domain": "reuters.com",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 13
+    },
+    {
+      "title": "Edgar Morin, sociologue du temps présent et agitateur d’idées, est mort à l’âge de 104 ans",
+      "url": "https://www.lemonde.fr/disparitions/article/2026/05/30/edgar-morin-sociologue-du-temps-present-et-agitateur-d-idees-est-mort-a-l-age-de-104-ans_6695210_3382.html",
+      "external_url": "https://www.lemonde.fr/disparitions/article/2026/05/30/edgar-morin-sociologue-du-temps-present-et-agitateur-d-idees-est-mort-a-l-age-de-104-ans_6695210_3382.html",
+      "permalink": "https://www.reddit.com/r/france/comments/1trt86s/edgar_morin_sociologue_du_temps_présent_et/",
+      "subreddit": "france",
+      "rank_in_sub": 14,
+      "published_at": "2026-05-30T07:35:48+00:00",
+      "author": "/u/Chibrichou",
+      "is_self": false,
+      "domain": "lemonde.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 14
+    },
+    {
+      "title": "Patrick Balkany condamné à des peines de prison ferme dans deux dossiers de détournements de fonds publics",
+      "url": "https://www.lemonde.fr/societe/article/2026/05/28/proces-patrick-balkany-l-ancien-maire-de-levallois-perret-condamne-a-15-mois-et-3-ans-de-prison_6694472_3224.html",
+      "external_url": "https://www.lemonde.fr/societe/article/2026/05/28/proces-patrick-balkany-l-ancien-maire-de-levallois-perret-condamne-a-15-mois-et-3-ans-de-prison_6694472_3224.html",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tqbl6d/patrick_balkany_condamné_à_des_peines_de_prison/",
+      "subreddit": "actualite",
+      "rank_in_sub": 14,
+      "published_at": "2026-05-28T18:13:17+00:00",
+      "author": "/u/MadMass23",
+      "is_self": false,
+      "domain": "lemonde.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 14
+    },
+    {
+      "title": "'Forever Chemicals' have been detected in 98.8 percent of 10,566 blood samples tested in a new US study | \"This large dataset provides a real-world snapshot of how multiple PFAS commonly occur together in people,\" says toxicologist Laura Labay, from NMS Labs.",
+      "url": "https://www.sciencealert.com/forever-chemicals-found-in-98-8-of-human-blood-samples-tested",
+      "external_url": "https://www.sciencealert.com/forever-chemicals-found-in-98-8-of-human-blood-samples-tested",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1tcw338/forever_chemicals_have_been_detected_in_988/",
+      "subreddit": "sciences",
+      "rank_in_sub": 14,
+      "published_at": "2026-05-14T12:02:27+00:00",
+      "author": "/u/FreeHugs23",
+      "is_self": false,
+      "domain": "sciencealert.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 14
+    },
+    {
+      "title": "À quoi pouvait appartenir cette pierre ?",
+      "url": "https://i.redd.it/57uexkefz83h1.jpeg",
+      "external_url": "https://i.redd.it/57uexkefz83h1.jpeg",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tn3csy/à_quoi_pouvait_appartenir_cette_pierre/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 14,
+      "published_at": "2026-05-25T08:53:14+00:00",
+      "author": "/u/Ok-Quote9523",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 14
+    },
+    {
+      "title": "Huawei will ohne westliche Technik Spitzenchips fertigen",
+      "url": "https://www.telepolis.de/article/Huawei-will-ohne-westliche-Technik-Spitzenchips-fertigen-11305548.html",
+      "external_url": "https://www.telepolis.de/article/Huawei-will-ohne-westliche-Technik-Spitzenchips-fertigen-11305548.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tnw6op/huawei_will_ohne_westliche_technik_spitzenchips/",
+      "subreddit": "technologie",
+      "rank_in_sub": 14,
+      "published_at": "2026-05-26T04:28:16+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "telepolis.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 14
+    },
+    {
+      "title": "Billet tournoi counter strike 2026",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1tr6m0n/billet_tournoi_counter_strike_2026/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1tr6m0n/billet_tournoi_counter_strike_2026/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tr6m0n/billet_tournoi_counter_strike_2026/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 14,
+      "published_at": "2026-05-29T16:08:18+00:00",
+      "author": "/u/sas_sas2",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 14
+    },
+    {
+      "title": "[VENTE] We Love Green – Vincennes – 06 & 07 juin",
+      "url": "https://www.reddit.com/r/musique/comments/1tr02f2/vente_we_love_green_vincennes_06_07_juin/",
+      "external_url": "",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tr02f2/vente_we_love_green_vincennes_06_07_juin/",
+      "subreddit": "musique",
+      "rank_in_sub": 14,
+      "published_at": "2026-05-29T12:17:40+00:00",
+      "author": "/u/Dull-Catch7610",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 14
+    },
+    {
+      "title": "Moelleux au chocolat 🍫 au micro ondes",
+      "url": "https://i.redd.it/hdjz9p8b4t3h1.jpeg",
+      "external_url": "https://i.redd.it/hdjz9p8b4t3h1.jpeg",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tpt5yo/moelleux_au_chocolat_au_micro_ondes/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 14,
+      "published_at": "2026-05-28T04:36:15+00:00",
+      "author": "/u/Inevitable-Meal-5159",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 14
+    },
+    {
+      "title": "Vol à l’aéroport ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trwubi/vol_à_laéroport/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trwubi/vol_à_laéroport/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trwubi/vol_à_laéroport/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 14,
+      "published_at": "2026-05-30T11:00:31+00:00",
+      "author": "/u/yesyesyesyes200",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 14
+    },
+    {
+      "title": "Giorgia Meloni’s Italy wants to rename electricity",
+      "url": "https://www.politico.eu/article/melonis-government-wants-to-rename-electricity/",
+      "external_url": "https://www.politico.eu/article/melonis-government-wants-to-rename-electricity/",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trvzmz/giorgia_melonis_italy_wants_to_rename_electricity/",
+      "subreddit": "europe",
+      "rank_in_sub": 14,
+      "published_at": "2026-05-30T10:13:50+00:00",
+      "author": "/u/Bathroom_Spiritual",
+      "is_self": false,
+      "domain": "politico.eu",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 14
+    },
+    {
+      "title": "Présidentielle 2027 : la rivalité entre Edouard Philippe et Gabriel Attal, une « primaire sauvage » à haut risque",
+      "url": "https://www.lemonde.fr/politique/article/2026/05/30/presidentielle-2027-entre-edouard-philippe-et-gabriel-attal-une-primaire-sauvage-a-haut-risque_6695127_823448.html",
+      "external_url": "https://www.lemonde.fr/politique/article/2026/05/30/presidentielle-2027-entre-edouard-philippe-et-gabriel-attal-une-primaire-sauvage-a-haut-risque_6695127_823448.html",
+      "permalink": "https://www.reddit.com/r/france/comments/1ts0byi/présidentielle_2027_la_rivalité_entre_edouard/",
+      "subreddit": "france",
+      "rank_in_sub": 15,
+      "published_at": "2026-05-30T13:42:19+00:00",
+      "author": "/u/IndividualNetwork188",
+      "is_self": false,
+      "domain": "lemonde.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 15
+    },
+    {
+      "title": "[Anglais] 2 blessés après la frappe d'un drone sur un immeuble roumain près de la frontière ukrainienne - BNO News",
+      "url": "https://bnonews.com/index.php/2026/05/2-injured-after-drone-hits-apartment-building-in-romania-near-ukraine-border/",
+      "external_url": "https://bnonews.com/index.php/2026/05/2-injured-after-drone-hits-apartment-building-in-romania-near-ukraine-border/",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tqmgml/anglais_2_blessés_après_la_frappe_dun_drone_sur/",
+      "subreddit": "actualite",
+      "rank_in_sub": 15,
+      "published_at": "2026-05-29T01:07:32+00:00",
+      "author": "/u/Robcomain",
+      "is_self": false,
+      "domain": "bnonews.com",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 15
+    },
+    {
+      "title": "NASA's Next-Gen Mars Helicopter Rotors Have Broken The Sound Barrier in Tests | NASA engineers have pushed the rotors to Mach 1.08, a speed that significantly expands the capabilities of the next helicopter.",
+      "url": "https://www.sciencealert.com/nasas-next-gen-mars-helicopter-rotors-have-broken-the-sound-barrier-in-tests",
+      "external_url": "https://www.sciencealert.com/nasas-next-gen-mars-helicopter-rotors-have-broken-the-sound-barrier-in-tests",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1tbwnvn/nasas_nextgen_mars_helicopter_rotors_have_broken/",
+      "subreddit": "sciences",
+      "rank_in_sub": 15,
+      "published_at": "2026-05-13T11:21:17+00:00",
+      "author": "/u/FreeHugs23",
+      "is_self": false,
+      "domain": "sciencealert.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 15
+    },
+    {
+      "title": "La formule \"le premier à avoir découvert ou inventé\" me gêne, elle postule qu'il n'y a pas de précédents et suppose une origine unique de ce qui est affirmé.",
+      "url": "https://www.reddit.com/r/Histoire/comments/1tmga9u/la_formule_le_premier_à_avoir_découvert_ou/",
+      "external_url": "https://www.reddit.com/r/Histoire/comments/1tmga9u/la_formule_le_premier_à_avoir_découvert_ou/",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tmga9u/la_formule_le_premier_à_avoir_découvert_ou/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 15,
+      "published_at": "2026-05-24T16:06:44+00:00",
+      "author": "/u/Firmament00789",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 15
+    },
+    {
+      "title": "Digitale Rasterfahndung: Wenn Bilder im Netz Leben zerstören",
+      "url": "https://www.heise.de/news/Digitale-Rasterfahndung-Wenn-Bilder-im-Netz-Leben-zerstoeren-11305596.html",
+      "external_url": "https://www.heise.de/news/Digitale-Rasterfahndung-Wenn-Bilder-im-Netz-Leben-zerstoeren-11305596.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tnw5o0/digitale_rasterfahndung_wenn_bilder_im_netz_leben/",
+      "subreddit": "technologie",
+      "rank_in_sub": 15,
+      "published_at": "2026-05-26T04:26:54+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "heise.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 15
+    },
+    {
+      "title": "Les jeux invisibles de Steam : du 18 Mai au 26 Mai",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1tqlrvq/les_jeux_invisibles_de_steam_du_18_mai_au_26_mai/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1tqlrvq/les_jeux_invisibles_de_steam_du_18_mai_au_26_mai/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tqlrvq/les_jeux_invisibles_de_steam_du_18_mai_au_26_mai/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 15,
+      "published_at": "2026-05-29T00:37:01+00:00",
+      "author": "/u/ProutPortable",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 15
+    },
+    {
+      "title": "🎟️ Vente billet We Love Green",
+      "url": "https://www.reddit.com/r/musique/comments/1tqtnij/vente_billet_we_love_green/",
+      "external_url": "",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tqtnij/vente_billet_we_love_green/",
+      "subreddit": "musique",
+      "rank_in_sub": 15,
+      "published_at": "2026-05-29T06:52:34+00:00",
+      "author": "/u/Dull-Catch7610",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 15
+    },
+    {
+      "title": "Plat fait maison. Ingrédients sur la 2ème photo.",
+      "url": "https://www.reddit.com/r/cuisine/comments/1tqx8jq/plat_fait_maison_ingrédients_sur_la_2ème_photo/",
+      "external_url": "https://www.reddit.com/gallery/1tqx8jq",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tqx8jq/plat_fait_maison_ingrédients_sur_la_2ème_photo/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 15,
+      "published_at": "2026-05-29T10:08:48+00:00",
+      "author": "/u/9THINGIHATEABOUTPORN",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 15
+    },
+    {
+      "title": "What’s a great book you read recently?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1ts9du1/whats_a_great_book_you_read_recently/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1ts9du1/whats_a_great_book_you_read_recently/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1ts9du1/whats_a_great_book_you_read_recently/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 15,
+      "published_at": "2026-05-30T19:41:13+00:00",
+      "author": "/u/sebastiandarkee",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 15
+    },
+    {
+      "title": "The architectural layers of Belgrade",
+      "url": "https://i.redd.it/wkdt4tr9va4h1.jpeg",
+      "external_url": "https://i.redd.it/wkdt4tr9va4h1.jpeg",
+      "permalink": "https://www.reddit.com/r/europe/comments/1ts47bo/the_architectural_layers_of_belgrade/",
+      "subreddit": "europe",
+      "rank_in_sub": 15,
+      "published_at": "2026-05-30T16:17:47+00:00",
+      "author": "/u/Porodicnostablo",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 15
+    },
+    {
+      "title": "Procès en appel de Nicolas Sarkozy : le résumé de la onzième semaine - Mediapart",
+      "url": "https://www.youtube.com/watch?v=559oyt3-e8o",
+      "external_url": "https://www.youtube.com/watch?v=559oyt3-e8o",
+      "permalink": "https://www.reddit.com/r/france/comments/1ts06mj/procès_en_appel_de_nicolas_sarkozy_le_résumé_de/",
+      "subreddit": "france",
+      "rank_in_sub": 16,
+      "published_at": "2026-05-30T13:36:07+00:00",
+      "author": "/u/Prosperyouplaboum",
+      "is_self": false,
+      "domain": "youtube.com",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 16
+    },
+    {
+      "title": "Un jeune ouvrier de 19 ans meurt après avoir travaillé sur une toiture sous une chaleur intense",
+      "url": "https://www.midilibre.fr/2026/05/28/un-jeune-ouvrier-de-19-ans-meurt-apres-avoir-travaille-sur-une-toiture-sous-une-chaleur-intense-13392190.php",
+      "external_url": "https://www.midilibre.fr/2026/05/28/un-jeune-ouvrier-de-19-ans-meurt-apres-avoir-travaille-sur-une-toiture-sous-une-chaleur-intense-13392190.php",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tq31t6/un_jeune_ouvrier_de_19_ans_meurt_après_avoir/",
+      "subreddit": "actualite",
+      "rank_in_sub": 16,
+      "published_at": "2026-05-28T13:05:29+00:00",
+      "author": "/u/Negative-Bank-8702",
+      "is_self": false,
+      "domain": "midilibre.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 16
+    },
+    {
+      "title": "Archaeologists Discover Hundreds of Strange, Ancient Mass Graves in The Desert | Using satellite aerial imagery to search for archaeological features in Atbai Desert of Eastern Sudan",
+      "url": "https://www.sciencealert.com/archaeologists-discover-hundreds-of-strange-ancient-mass-graves-in-the-desert",
+      "external_url": "https://www.sciencealert.com/archaeologists-discover-hundreds-of-strange-ancient-mass-graves-in-the-desert",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1tb406t/archaeologists_discover_hundreds_of_strange/",
+      "subreddit": "sciences",
+      "rank_in_sub": 16,
+      "published_at": "2026-05-12T14:53:46+00:00",
+      "author": "/u/FreeHugs23",
+      "is_self": false,
+      "domain": "sciencealert.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 16
+    },
+    {
+      "title": "Le 60e anniversaire de la « Révolution culturelle » : oubli, critique et éloge de cette période historique s’entrecroisent et reflètent les contradictions de la réalité chinoise",
+      "url": "https://i.redd.it/s3o2tnq4cw2h1.jpeg",
+      "external_url": "https://i.redd.it/s3o2tnq4cw2h1.jpeg",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tlhta3/le_60e_anniversaire_de_la_révolution_culturelle/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 16,
+      "published_at": "2026-05-23T14:21:22+00:00",
+      "author": "/u/Slow-Property5895",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 16
+    },
+    {
+      "title": "Trump fördert Quantencomputer: IBM gewinnt Börsenwert von Adidas",
+      "url": "https://de.euronews.com/business/2026/05/22/trump-fordert-quantencomputer-ibm-gewinnt-borsenwert-von-adidas",
+      "external_url": "https://de.euronews.com/business/2026/05/22/trump-fordert-quantencomputer-ibm-gewinnt-borsenwert-von-adidas",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tn40di/trump_fördert_quantencomputer_ibm_gewinnt/",
+      "subreddit": "technologie",
+      "rank_in_sub": 16,
+      "published_at": "2026-05-25T09:29:22+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "de.euronews.com",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 16
+    },
+    {
+      "title": "Quelle est la meilleure posture/position pour jouer ?",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1tqf6og/quelle_est_la_meilleure_postureposition_pour_jouer/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1tqf6og/quelle_est_la_meilleure_postureposition_pour_jouer/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tqf6og/quelle_est_la_meilleure_postureposition_pour_jouer/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 16,
+      "published_at": "2026-05-28T20:19:54+00:00",
+      "author": "/u/Natural_Shape_7665",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 16
+    },
+    {
+      "title": "RÖSËLITÄ",
+      "url": "https://www.reddit.com/r/musique/comments/1tqituo/rösëlitä/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1tqituo/rösëlitä/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tqituo/rösëlitä/",
+      "subreddit": "musique",
+      "rank_in_sub": 16,
+      "published_at": "2026-05-28T22:33:28+00:00",
+      "author": "/u/Efficient-Chain7827",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 16
+    },
+    {
+      "title": "Vous prenez quoi en rando ?",
+      "url": "https://www.reddit.com/r/cuisine/comments/1tpx0hp/vous_prenez_quoi_en_rando/",
+      "external_url": "https://www.reddit.com/r/cuisine/comments/1tpx0hp/vous_prenez_quoi_en_rando/",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tpx0hp/vous_prenez_quoi_en_rando/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 16,
+      "published_at": "2026-05-28T08:03:35+00:00",
+      "author": "/u/Ok-Brother-8295",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 16
+    },
+    {
+      "title": "Pot de moutarde qui ne fait pas \"pop\" à l'ouverture ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1ts9dbg/pot_de_moutarde_qui_ne_fait_pas_pop_à_louverture/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1ts9dbg/pot_de_moutarde_qui_ne_fait_pas_pop_à_louverture/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1ts9dbg/pot_de_moutarde_qui_ne_fait_pas_pop_à_louverture/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 16,
+      "published_at": "2026-05-30T19:40:38+00:00",
+      "author": "/u/tchoupi0",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 16
+    },
+    {
+      "title": "Spain's Sánchez digs in after 8 years as PM, but can he survive wave of scandals?",
+      "url": "https://www.bbc.com/news/articles/c1w21gn340xo",
+      "external_url": "https://www.bbc.com/news/articles/c1w21gn340xo",
+      "permalink": "https://www.reddit.com/r/europe/comments/1ts25cf/spains_sánchez_digs_in_after_8_years_as_pm_but/",
+      "subreddit": "europe",
+      "rank_in_sub": 16,
+      "published_at": "2026-05-30T14:56:14+00:00",
+      "author": "/u/mods4mods",
+      "is_self": false,
+      "domain": "bbc.com",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 16
+    },
+    {
+      "title": "Avec \"Aliens.gov\", la Maison Blanche détourne les révélations autour des extraterrestres pour cibler les sans-papiers",
+      "url": "https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/avec-aliens-gov-la-maison-blanche-detourne-les-revelations-autour-les-extraterrestres-pour-cibler-les-sans-papiers_8035601.html",
+      "external_url": "https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/avec-aliens-gov-la-maison-blanche-detourne-les-revelations-autour-les-extraterrestres-pour-cibler-les-sans-papiers_8035601.html",
+      "permalink": "https://www.reddit.com/r/france/comments/1trwsdl/avec_aliensgov_la_maison_blanche_détourne_les/",
+      "subreddit": "france",
+      "rank_in_sub": 17,
+      "published_at": "2026-05-30T10:57:50+00:00",
+      "author": "/u/Andvarey",
+      "is_self": false,
+      "domain": "franceinfo.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 17
+    },
+    {
+      "title": "Comment la société VFS Global a profité de la privatisation de la gestion des visas, entre « services optionnels facturés » et soupçons de corruption",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/05/28/comment-la-privatisation-de-la-gestion-des-visas-a-profite-a-la-societe-vfs-global-entre-services-optionnels-factures-et-soupcons-de-corruption_6694500_4355770.html",
+      "external_url": "https://www.lemonde.fr/les-decodeurs/article/2026/05/28/comment-la-privatisation-de-la-gestion-des-visas-a-profite-a-la-societe-vfs-global-entre-services-optionnels-factures-et-soupcons-de-corruption_6694500_4355770.html",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tqu48r/comment_la_société_vfs_global_a_profité_de_la/",
+      "subreddit": "actualite",
+      "rank_in_sub": 17,
+      "published_at": "2026-05-29T07:17:20+00:00",
+      "author": "/u/MadMass23",
+      "is_self": false,
+      "domain": "lemonde.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 17
+    },
+    {
+      "title": "Researchers analyzed 7764 participants for a link between coronary heart disease (CHD), diet and genetics. They found that ideal adherence to a healthy plant-based diet was associated with a 20% lower CHD risk among those at low genetic risk and a 44% lower CHD risk among those at high genetic risk.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666776226000311",
+      "external_url": "https://www.sciencedirect.com/science/article/pii/S2666776226000311",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1t5bkud/researchers_analyzed_7764_participants_for_a_link/",
+      "subreddit": "sciences",
+      "rank_in_sub": 17,
+      "published_at": "2026-05-06T12:34:28+00:00",
+      "author": "/u/James_Fortis",
+      "is_self": false,
+      "domain": "sciencedirect.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 17
+    },
+    {
+      "title": "Des fours connectés à l’âge du bronze",
+      "url": "https://lejournal.cnrs.fr/diaporamas/des-fours-connectes-a-lage-du-bronze",
+      "external_url": "https://lejournal.cnrs.fr/diaporamas/des-fours-connectes-a-lage-du-bronze",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tlt4di/des_fours_connectés_à_lâge_du_bronze/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 17,
+      "published_at": "2026-05-23T21:43:56+00:00",
+      "author": "/u/wisi_eu",
+      "is_self": false,
+      "domain": "lejournal.cnrs.fr",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 17
+    },
+    {
+      "title": "AMDs offizieller Mini-PC kostet 3999 US-Dollar",
+      "url": "https://www.heise.de/news/AMDs-offizieller-Mini-PC-kostet-3999-US-Dollar-11302989.html",
+      "external_url": "https://www.heise.de/news/AMDs-offizieller-Mini-PC-kostet-3999-US-Dollar-11302989.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tke0tq/amds_offizieller_minipc_kostet_3999_usdollar/",
+      "subreddit": "technologie",
+      "rank_in_sub": 17,
+      "published_at": "2026-05-22T09:40:02+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "heise.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 17
+    },
+    {
+      "title": "Recherche jeu avec forte composante exploration",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1tq1m8y/recherche_jeu_avec_forte_composante_exploration/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1tq1m8y/recherche_jeu_avec_forte_composante_exploration/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tq1m8y/recherche_jeu_avec_forte_composante_exploration/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 17,
+      "published_at": "2026-05-28T12:05:42+00:00",
+      "author": "/u/ElbioCoco",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 17
+    },
+    {
+      "title": "İ need help finding romantic, old french music. Can yall help me?",
+      "url": "https://www.reddit.com/r/musique/comments/1tqclyg/i_need_help_finding_romantic_old_french_music_can/",
+      "external_url": "",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tqclyg/i_need_help_finding_romantic_old_french_music_can/",
+      "subreddit": "musique",
+      "rank_in_sub": 17,
+      "published_at": "2026-05-28T18:49:23+00:00",
+      "author": "/u/OsmanCuneyd",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 17
+    },
+    {
+      "title": "Confiture - le test de l'assiette froide",
+      "url": "https://www.reddit.com/r/cuisine/comments/1tpuyya/confiture_le_test_de_lassiette_froide/",
+      "external_url": "https://www.reddit.com/r/cuisine/comments/1tpuyya/confiture_le_test_de_lassiette_froide/",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tpuyya/confiture_le_test_de_lassiette_froide/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 17,
+      "published_at": "2026-05-28T06:09:20+00:00",
+      "author": "/u/Tim_Worldsinger",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 17
+    },
+    {
+      "title": "Pourquoi cette différence pour les prévisions météo ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trxqq5/pourquoi_cette_différence_pour_les_prévisions/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trxqq5/pourquoi_cette_différence_pour_les_prévisions/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trxqq5/pourquoi_cette_différence_pour_les_prévisions/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 17,
+      "published_at": "2026-05-30T11:46:07+00:00",
+      "author": "/u/Conscious_Artist9877",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 17
+    },
+    {
+      "title": "The lowest NEET (neither in employment nor in education or training) rates for young people were registered in the Netherlands (5.3%), Sweden (5.9%) and Slovenia (7.6%). In contrast, the highest rates were in Romania (19.2%), Bulgaria (13.8%) and Greece (13.6%).",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260528-2",
+      "external_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260528-2",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trq7no/the_lowest_neet_neither_in_employment_nor_in/",
+      "subreddit": "europe",
+      "rank_in_sub": 17,
+      "published_at": "2026-05-30T04:54:46+00:00",
+      "author": "/u/nimicdoareu",
+      "is_self": false,
+      "domain": "ec.europa.eu",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 17
+    },
+    {
+      "title": "Surpopulation carcérale : au 1ᵉʳ mai, les prisons françaises abritaient 88 654 détenus, un nombre inédit",
+      "url": "https://www.lemonde.fr/societe/article/2026/05/30/surpopulation-carcerale-au-1-mai-les-prisons-francaises-abritaient-88-654-detenus-un-nouveau-record_6695231_3224.html",
+      "external_url": "https://www.lemonde.fr/societe/article/2026/05/30/surpopulation-carcerale-au-1-mai-les-prisons-francaises-abritaient-88-654-detenus-un-nouveau-record_6695231_3224.html",
+      "permalink": "https://www.reddit.com/r/france/comments/1ts1xy6/surpopulation_carcérale_au_1ᵉʳ_mai_les_prisons/",
+      "subreddit": "france",
+      "rank_in_sub": 18,
+      "published_at": "2026-05-30T14:48:00+00:00",
+      "author": "/u/Johannes_P",
+      "is_self": false,
+      "domain": "lemonde.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 18
+    },
+    {
+      "title": "Duralex va demander son placement en redressement judiciaire",
+      "url": "https://www.leparisien.fr/economie/duralex-en-difficulte-malgre-les-millions-deuros-leves-la-verrerie-va-demander-son-placement-en-redressement-judiciaire-27-05-2026-UZLSAUP6BRBM5OYMGNBJCOWKRA.php",
+      "external_url": "https://www.leparisien.fr/economie/duralex-en-difficulte-malgre-les-millions-deuros-leves-la-verrerie-va-demander-son-placement-en-redressement-judiciaire-27-05-2026-UZLSAUP6BRBM5OYMGNBJCOWKRA.php",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tq0apc/duralex_va_demander_son_placement_en_redressement/",
+      "subreddit": "actualite",
+      "rank_in_sub": 18,
+      "published_at": "2026-05-28T11:04:04+00:00",
+      "author": "/u/OrdinaryMidnight5",
+      "is_self": false,
+      "domain": "leparisien.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 18
+    },
+    {
+      "title": "Researchers followed 4,287 Brazilians to monitor lifestyle factors against health outcomes. After an average of 3.6 years, 512 developed metabolic syndrome. A healthy plant-based diet was linked to a 40% lower risk, and a high Brazilian Healthy Index-Revised score was linked to a 36% lower risk.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0939475326000955",
+      "external_url": "https://www.sciencedirect.com/science/article/abs/pii/S0939475326000955",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1t0wnks/researchers_followed_4287_brazilians_to_monitor/",
+      "subreddit": "sciences",
+      "rank_in_sub": 18,
+      "published_at": "2026-05-01T15:28:45+00:00",
+      "author": "/u/James_Fortis",
+      "is_self": false,
+      "domain": "sciencedirect.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 18
+    },
+    {
+      "title": "Christianisme et colonisation en Chine #motivation #citation #duet #chine Dushimimana Dieudonne",
+      "url": "https://youtube.com/shorts/OlxvK7je7ro?si=D392oJjNwRpcrUcj",
+      "external_url": "https://youtube.com/shorts/OlxvK7je7ro?si=D392oJjNwRpcrUcj",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tm0wtr/christianisme_et_colonisation_en_chine_motivation/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 18,
+      "published_at": "2026-05-24T03:38:34+00:00",
+      "author": "/u/777and777",
+      "is_self": false,
+      "domain": "youtube.com",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 18
+    },
+    {
+      "title": "Tech-Branche: USA fördern Quantencomputing mit zwei Milliarden Dollar",
+      "url": "https://www.handelsblatt.com/technik/it-internet/tech-branche-usa-foerdern-quantencomputing-mit-zwei-milliarden-dollar/100226974.html",
+      "external_url": "https://www.handelsblatt.com/technik/it-internet/tech-branche-usa-foerdern-quantencomputing-mit-zwei-milliarden-dollar/100226974.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tk9p2n/techbranche_usa_fördern_quantencomputing_mit_zwei/",
+      "subreddit": "technologie",
+      "rank_in_sub": 18,
+      "published_at": "2026-05-22T05:42:19+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "handelsblatt.com",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 18
+    },
+    {
+      "title": "La console m'a redonné l'envie de jouer",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1tpt7d3/la_console_ma_redonné_lenvie_de_jouer/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1tpt7d3/la_console_ma_redonné_lenvie_de_jouer/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tpt7d3/la_console_ma_redonné_lenvie_de_jouer/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 18,
+      "published_at": "2026-05-28T04:37:57+00:00",
+      "author": "/u/Inevitable_Break_465",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 18
+    },
+    {
+      "title": "Nada Surf - \"Losing\" [Visualizer]",
+      "url": "https://youtu.be/FgTyH7te5sY?si=pUF0txFZ_46dXSjn",
+      "external_url": "https://youtu.be/FgTyH7te5sY?si=pUF0txFZ_46dXSjn",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tqbjm9/nada_surf_losing_visualizer/",
+      "subreddit": "musique",
+      "rank_in_sub": 18,
+      "published_at": "2026-05-28T18:11:45+00:00",
+      "author": "/u/alexddfffff",
+      "is_self": false,
+      "domain": "youtu.be",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 18
+    },
+    {
+      "title": "Quiche lorraine épaisse ?",
+      "url": "https://www.reddit.com/r/cuisine/comments/1tpbk01/quiche_lorraine_épaisse/",
+      "external_url": "https://www.reddit.com/r/cuisine/comments/1tpbk01/quiche_lorraine_épaisse/",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tpbk01/quiche_lorraine_épaisse/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 18,
+      "published_at": "2026-05-27T16:58:03+00:00",
+      "author": "/u/Wolf-M-89",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 18
+    },
+    {
+      "title": "Pourquoi la vie d'un poisson vaut moins que celle d'un autre animal ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trjhoz/pourquoi_la_vie_dun_poisson_vaut_moins_que_celle/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trjhoz/pourquoi_la_vie_dun_poisson_vaut_moins_que_celle/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trjhoz/pourquoi_la_vie_dun_poisson_vaut_moins_que_celle/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 18,
+      "published_at": "2026-05-29T23:39:09+00:00",
+      "author": "/u/rjn2-8",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 18
+    },
+    {
+      "title": "Humbback whale \"Timmy\" beached on Anholt.",
+      "url": "https://nyheder.tv2.dk/samfund/2026-05-30-pukkelhvalen-timmy-er-blevet-bjaerget-paa-anholt",
+      "external_url": "https://nyheder.tv2.dk/samfund/2026-05-30-pukkelhvalen-timmy-er-blevet-bjaerget-paa-anholt",
+      "permalink": "https://www.reddit.com/r/europe/comments/1ts0fv3/humbback_whale_timmy_beached_on_anholt/",
+      "subreddit": "europe",
+      "rank_in_sub": 18,
+      "published_at": "2026-05-30T13:46:54+00:00",
+      "author": "/u/Econ_Orc",
+      "is_self": false,
+      "domain": "nyheder.tv2.dk",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 18
+    },
+    {
+      "title": "Mondelez en roue libre",
+      "url": "https://i.redd.it/op2ic0piob4h1.jpeg",
+      "external_url": "https://i.redd.it/op2ic0piob4h1.jpeg",
+      "permalink": "https://www.reddit.com/r/france/comments/1ts8cup/mondelez_en_roue_libre/",
+      "subreddit": "france",
+      "rank_in_sub": 19,
+      "published_at": "2026-05-30T19:01:39+00:00",
+      "author": "/u/UnlikeSome",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 19
+    },
+    {
+      "title": "Les députés RN, relais dociles de l’agro-industrie à l’Assemblée nationale",
+      "url": "https://reporterre.net/Loi-agricole-quand-la-FNSEA-a-l-oreille-des-deputes-RN",
+      "external_url": "https://reporterre.net/Loi-agricole-quand-la-FNSEA-a-l-oreille-des-deputes-RN",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tq3g4p/les_députés_rn_relais_dociles_de_lagroindustrie_à/",
+      "subreddit": "actualite",
+      "rank_in_sub": 19,
+      "published_at": "2026-05-28T13:20:27+00:00",
+      "author": "/u/4restrike9",
+      "is_self": false,
+      "domain": "reporterre.net",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 19
+    },
+    {
+      "title": "How We Find Earth-Like Planets",
+      "url": "https://v.redd.it/t8vvtg2qdjyg1",
+      "external_url": "https://v.redd.it/t8vvtg2qdjyg1",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1t0v3js/how_we_find_earthlike_planets/",
+      "subreddit": "sciences",
+      "rank_in_sub": 19,
+      "published_at": "2026-05-01T14:31:37+00:00",
+      "author": "/u/TheMuseumOfScience",
+      "is_self": false,
+      "domain": "v.redd.it",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 19
+    },
+    {
+      "title": "L'île pivot",
+      "url": "https://www.reddit.com/r/Histoire/comments/1tkpbz2/lîle_pivot/",
+      "external_url": "https://www.reddit.com/r/Histoire/comments/1tkpbz2/lîle_pivot/",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tkpbz2/lîle_pivot/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 19,
+      "published_at": "2026-05-22T17:13:09+00:00",
+      "author": "/u/Tough_Regular_1069",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 19
+    },
+    {
+      "title": "Deutsche Bahn verweigert Auskunft für Linuxer",
+      "url": "https://www.heise.de/news/Deutsche-Bahn-Keine-Auskunft-unter-Linux-11300742.html",
+      "external_url": "https://www.heise.de/news/Deutsche-Bahn-Keine-Auskunft-unter-Linux-11300742.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tjaho8/deutsche_bahn_verweigert_auskunft_für_linuxer/",
+      "subreddit": "technologie",
+      "rank_in_sub": 19,
+      "published_at": "2026-05-21T05:11:07+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "heise.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 19
+    },
+    {
+      "title": "Notre jeu d'horreur coopératif de pirates a enfin sa démo gratuite sur Steam",
+      "url": "https://v.redd.it/u6clnsj5sw3h1",
+      "external_url": "https://v.redd.it/u6clnsj5sw3h1",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tq9f4y/notre_jeu_dhorreur_coopératif_de_pirates_a_enfin/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 19,
+      "published_at": "2026-05-28T16:58:01+00:00",
+      "author": "/u/yo_mayoo",
+      "is_self": false,
+      "domain": "v.redd.it",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 19
+    },
+    {
+      "title": "Rockabilly Riot — 40 titres remasterisés des années 50. Chuck Berry, Buddy Holly, Jerry Lee Lewis, Gene Vincent, Carl Perkins, Little Richard et bien d'autres. L'âge d'or du Rock'n'Roll, avec un son moderne.",
+      "url": "https://album.link/Rockabilly_Riot",
+      "external_url": "https://album.link/Rockabilly_Riot",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tq1wks/rockabilly_riot_40_titres_remasterisés_des_années/",
+      "subreddit": "musique",
+      "rank_in_sub": 19,
+      "published_at": "2026-05-28T12:18:16+00:00",
+      "author": "/u/Musicproducer67",
+      "is_self": false,
+      "domain": "album.link",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 19
+    },
+    {
+      "title": "Un crime culinaire, édition pâte anti-gaspi",
+      "url": "https://i.redd.it/p7vxb9r38q3h1.jpeg",
+      "external_url": "https://i.redd.it/p7vxb9r38q3h1.jpeg",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tpew8w/un_crime_culinaire_édition_pâte_antigaspi/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 19,
+      "published_at": "2026-05-27T18:52:09+00:00",
+      "author": "/u/BrightAlina",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 19
+    },
+    {
+      "title": "France Travail me verse 70 % de mon ARE à cause de ma déclaration trimestrielle URSSAF : retours d’expérience ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1ts7qii/france_travail_me_verse_70_de_mon_are_à_cause_de/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1ts7qii/france_travail_me_verse_70_de_mon_are_à_cause_de/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1ts7qii/france_travail_me_verse_70_de_mon_are_à_cause_de/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 19,
+      "published_at": "2026-05-30T18:36:42+00:00",
+      "author": "/u/trpjulie",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 19
+    },
+    {
+      "title": "Estonia may have to draft women as male birth rates plummet",
+      "url": "https://tvpworld.com/93517473/falling-male-births-could-force-estonia-to-conscript-women-by-2040",
+      "external_url": "https://tvpworld.com/93517473/falling-male-births-could-force-estonia-to-conscript-women-by-2040",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trdtcl/estonia_may_have_to_draft_women_as_male_birth/",
+      "subreddit": "europe",
+      "rank_in_sub": 19,
+      "published_at": "2026-05-29T19:59:05+00:00",
+      "author": "/u/diacewrb",
+      "is_self": false,
+      "domain": "tvpworld.com",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 19
+    },
+    {
+      "title": "Donald Trump annonce renoncer à contrôler le célèbre Kennedy Center après un revers judiciaire",
+      "url": "https://www.lefigaro.fr/flash-actu/etats-unis-un-juge-federal-ordonne-a-donald-trump-de-retirer-son-nom-du-kennedy-center-20260529",
+      "external_url": "https://www.lefigaro.fr/flash-actu/etats-unis-un-juge-federal-ordonne-a-donald-trump-de-retirer-son-nom-du-kennedy-center-20260529",
+      "permalink": "https://www.reddit.com/r/france/comments/1truckj/donald_trump_annonce_renoncer_à_contrôler_le/",
+      "subreddit": "france",
+      "rank_in_sub": 20,
+      "published_at": "2026-05-30T08:40:16+00:00",
+      "author": "/u/BananaTomboy",
+      "is_self": false,
+      "domain": "lefigaro.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 20
+    },
+    {
+      "title": "Cette mairie d’extrême droite annule la commémoration de l’abolition de l’esclavage",
+      "url": "https://www.huffingtonpost.fr/politique/article/a-vierzon-la-mairie-d-extreme-droite-annule-la-commemoration-de-l-abolition-de-l-esclavage_263567.html",
+      "external_url": "https://www.huffingtonpost.fr/politique/article/a-vierzon-la-mairie-d-extreme-droite-annule-la-commemoration-de-l-abolition-de-l-esclavage_263567.html",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tq0bts/cette_mairie_dextrême_droite_annule_la/",
+      "subreddit": "actualite",
+      "rank_in_sub": 20,
+      "published_at": "2026-05-28T11:05:35+00:00",
+      "author": "/u/Alain_Biffletou",
+      "is_self": false,
+      "domain": "huffingtonpost.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 20
+    },
+    {
+      "title": "Scorpions Are Literally Metal, Study Reveals | Many scorpion species carry zinc and other heavy metals in their pincers and stingers, according to new research.",
+      "url": "https://gizmodo.com/scorpions-are-literally-metal-study-reveals-2000751750",
+      "external_url": "https://gizmodo.com/scorpions-are-literally-metal-study-reveals-2000751750",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1syuinb/scorpions_are_literally_metal_study_reveals_many/",
+      "subreddit": "sciences",
+      "rank_in_sub": 20,
+      "published_at": "2026-04-29T10:09:48+00:00",
+      "author": "/u/Clear_Polish23",
+      "is_self": false,
+      "domain": "gizmodo.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 20
+    },
+    {
+      "title": "ChronoHeroes, découvrez ce que faisaient les grands personnages de l'Histoire à votre âge.",
+      "url": "https://www.reddit.com/r/Histoire/comments/1tiebr7/chronoheroes_découvrez_ce_que_faisaient_les/",
+      "external_url": "https://www.reddit.com/r/Histoire/comments/1tiebr7/chronoheroes_découvrez_ce_que_faisaient_les/",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tiebr7/chronoheroes_découvrez_ce_que_faisaient_les/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 20,
+      "published_at": "2026-05-20T07:27:11+00:00",
+      "author": "/u/edouard40",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 20
+    },
+    {
+      "title": "MMS in Deutschland vor dem Aus",
+      "url": "https://www.heise.de/news/MMS-in-Deutschland-vor-dem-Aus-11301494.html",
+      "external_url": "https://www.heise.de/news/MMS-in-Deutschland-vor-dem-Aus-11301494.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tjah94/mms_in_deutschland_vor_dem_aus/",
+      "subreddit": "technologie",
+      "rank_in_sub": 20,
+      "published_at": "2026-05-21T05:10:34+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "heise.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 20
+    },
+    {
+      "title": "OGame like sur IOs",
+      "url": "https://i.redd.it/x7td3fq84w3h1.jpeg",
+      "external_url": "https://i.redd.it/x7td3fq84w3h1.jpeg",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tq5mpk/ogame_like_sur_ios/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 20,
+      "published_at": "2026-05-28T14:41:11+00:00",
+      "author": "/u/_lambher",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 20
+    },
+    {
+      "title": "Mefjus - beaucoup trop près (remake raté de Kikiz)",
+      "url": "https://www.reddit.com/r/musique/comments/1tpua5y/mefjus_beaucoup_trop_près_remake_raté_de_kikiz/",
+      "external_url": "",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tpua5y/mefjus_beaucoup_trop_près_remake_raté_de_kikiz/",
+      "subreddit": "musique",
+      "rank_in_sub": 20,
+      "published_at": "2026-05-28T05:32:08+00:00",
+      "author": "/u/klexou",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 20
+    },
+    {
+      "title": "Moelleux citron et myrtilles 🍋🫐",
+      "url": "https://www.reddit.com/r/cuisine/comments/1towf4r/moelleux_citron_et_myrtilles/",
+      "external_url": "https://www.reddit.com/r/cuisine/comments/1towf4r/moelleux_citron_et_myrtilles/",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1towf4r/moelleux_citron_et_myrtilles/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 20,
+      "published_at": "2026-05-27T05:47:50+00:00",
+      "author": "/u/Inevitable-Meal-5159",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 20
+    },
+    {
+      "title": "Comment puis-je amplifier le signal du reseau mobile dans un Airbnb en vacances?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1ts5qsq/comment_puisje_amplifier_le_signal_du_reseau/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1ts5qsq/comment_puisje_amplifier_le_signal_du_reseau/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1ts5qsq/comment_puisje_amplifier_le_signal_du_reseau/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 20,
+      "published_at": "2026-05-30T17:17:50+00:00",
+      "author": "/u/Aromatic-Bell-7085",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 20
+    },
+    {
+      "title": "Record-breaking heat and dry spring leave parts of England without water",
+      "url": "https://www.reuters.com/business/environment/record-breaking-heat-dry-spring-leave-parts-england-without-water-2026-05-29/",
+      "external_url": "https://www.reuters.com/business/environment/record-breaking-heat-dry-spring-leave-parts-england-without-water-2026-05-29/",
+      "permalink": "https://www.reddit.com/r/europe/comments/1ts73pi/recordbreaking_heat_and_dry_spring_leave_parts_of/",
+      "subreddit": "europe",
+      "rank_in_sub": 20,
+      "published_at": "2026-05-30T18:11:31+00:00",
+      "author": "/u/ChangeUsername220",
+      "is_self": false,
+      "domain": "reuters.com",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 20
+    },
+    {
+      "title": "TotalEnergies accusé d’avoir mené un lobbying mensonger sur ses objectifs climatiques auprès de Matignon",
+      "url": "https://www.lemonde.fr/planete/article/2026/05/29/totalenergies-accusee-d-avoir-mene-un-lobbying-mensonger-aupres-de-matignon_6694733_3244.html",
+      "external_url": "https://www.lemonde.fr/planete/article/2026/05/29/totalenergies-accusee-d-avoir-mene-un-lobbying-mensonger-aupres-de-matignon_6694733_3244.html",
+      "permalink": "https://www.reddit.com/r/france/comments/1trqii0/totalenergies_accusé_davoir_mené_un_lobbying/",
+      "subreddit": "france",
+      "rank_in_sub": 21,
+      "published_at": "2026-05-30T05:10:13+00:00",
+      "author": "/u/Short-Taste-2950",
+      "is_self": false,
+      "domain": "lemonde.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 21
+    },
+    {
+      "title": "Oui, Patrick Sébastien s’est bien enrichi grâce au service public",
+      "url": "https://www.linforme.com/medias-culture/article/oui-patrick-sebastien-s-est-bien-enrichi-grace-au-service-public_4018.html",
+      "external_url": "https://www.linforme.com/medias-culture/article/oui-patrick-sebastien-s-est-bien-enrichi-grace-au-service-public_4018.html",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tpyvci/oui_patrick_sébastien_sest_bien_enrichi_grâce_au/",
+      "subreddit": "actualite",
+      "rank_in_sub": 21,
+      "published_at": "2026-05-28T09:49:50+00:00",
+      "author": "/u/L_Informe",
+      "is_self": false,
+      "domain": "linforme.com",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 21
+    },
+    {
+      "title": "Clues to Life Found on Asteroids",
+      "url": "https://v.redd.it/0gdx0eis10yg1",
+      "external_url": "https://v.redd.it/0gdx0eis10yg1",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1syeyot/clues_to_life_found_on_asteroids/",
+      "subreddit": "sciences",
+      "rank_in_sub": 21,
+      "published_at": "2026-04-28T21:31:44+00:00",
+      "author": "/u/TheMuseumOfScience",
+      "is_self": false,
+      "domain": "v.redd.it",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 21
+    },
+    {
+      "title": "Thucydide, Sun Tzu et les câbles sous-marins — la guerre sans guerre a toujours existé",
+      "url": "https://www.reddit.com/r/Histoire/comments/1thld6c/thucydide_sun_tzu_et_les_câbles_sousmarins_la/",
+      "external_url": "https://www.reddit.com/r/Histoire/comments/1thld6c/thucydide_sun_tzu_et_les_câbles_sousmarins_la/",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1thld6c/thucydide_sun_tzu_et_les_câbles_sousmarins_la/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 21,
+      "published_at": "2026-05-19T12:24:36+00:00",
+      "author": "/u/Tough_Regular_1069",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 21
+    },
+    {
+      "title": "Nvidia im KI-Rausch: GeForce verschwindet in der Versenkung",
+      "url": "https://www.heise.de/news/Nvidia-Alles-fuer-die-Anleger-Spieler-gehen-unter-11301498.html",
+      "external_url": "https://www.heise.de/news/Nvidia-Alles-fuer-die-Anleger-Spieler-gehen-unter-11301498.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tjajdb/nvidia_im_kirausch_geforce_verschwindet_in_der/",
+      "subreddit": "technologie",
+      "rank_in_sub": 21,
+      "published_at": "2026-05-21T05:13:31+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "heise.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 21
+    },
+    {
+      "title": "J'ai créé la Peel P50 ultime sur FH6. Le rayonnement de la France à travers le monde. 🇫🇷",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1tpblvi/jai_créé_la_peel_p50_ultime_sur_fh6_le/",
+      "external_url": "https://www.reddit.com/gallery/1tpblvi",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tpblvi/jai_créé_la_peel_p50_ultime_sur_fh6_le/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 21,
+      "published_at": "2026-05-27T16:59:52+00:00",
+      "author": "/u/NiktemorNiktamer",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 21
+    },
+    {
+      "title": "Découverte de ouf",
+      "url": "https://www.reddit.com/r/musique/comments/1tpc7kx/découverte_de_ouf/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1tpc7kx/découverte_de_ouf/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tpc7kx/découverte_de_ouf/",
+      "subreddit": "musique",
+      "rank_in_sub": 21,
+      "published_at": "2026-05-27T17:20:41+00:00",
+      "author": "/u/WorldlyWeather6174",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 21
+    },
+    {
+      "title": "Vos recette de la canicule ?",
+      "url": "https://www.reddit.com/r/cuisine/comments/1to74q9/vos_recette_de_la_canicule/",
+      "external_url": "https://www.reddit.com/gallery/1to74q9",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1to74q9/vos_recette_de_la_canicule/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 21,
+      "published_at": "2026-05-26T13:33:55+00:00",
+      "author": "/u/phpckklol",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 21
+    },
+    {
+      "title": "Comment vivent les personnes avec de petites malformations ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1tryd18/comment_vivent_les_personnes_avec_de_petites/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tryd18/comment_vivent_les_personnes_avec_de_petites/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tryd18/comment_vivent_les_personnes_avec_de_petites/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 21,
+      "published_at": "2026-05-30T12:15:55+00:00",
+      "author": "/u/7Greener",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 21
+    },
+    {
+      "title": "Berlin gives the OK for tougher trade action on China",
+      "url": "https://www.politico.eu/article/germany-gives-ok-for-tougher-trade-action-china/",
+      "external_url": "https://www.politico.eu/article/germany-gives-ok-for-tougher-trade-action-china/",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trsrto/berlin_gives_the_ok_for_tougher_trade_action_on/",
+      "subreddit": "europe",
+      "rank_in_sub": 21,
+      "published_at": "2026-05-30T07:09:59+00:00",
+      "author": "/u/Any-Original-6113",
+      "is_self": false,
+      "domain": "politico.eu",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 21
+    },
+    {
+      "title": "Santa Catarina, le fief bolsonariste où on enseigne comment faire des bébés blancs",
+      "url": "https://www.courrierinternational.com/long-format/bresil-santa-catarina-le-fief-bolsonariste-ou-on-enseigne-comment-faire-des-bebes-blancs_242504",
+      "external_url": "https://www.courrierinternational.com/long-format/bresil-santa-catarina-le-fief-bolsonariste-ou-on-enseigne-comment-faire-des-bebes-blancs_242504",
+      "permalink": "https://www.reddit.com/r/france/comments/1tru009/santa_catarina_le_fief_bolsonariste_où_on/",
+      "subreddit": "france",
+      "rank_in_sub": 22,
+      "published_at": "2026-05-30T08:20:00+00:00",
+      "author": "/u/soolrebel",
+      "is_self": false,
+      "domain": "courrierinternational.com",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 22
+    },
+    {
+      "title": "La France s'apprête à abroger le Code Noir, une loi sur l'esclavage jamais abolie",
+      "url": "https://fr.euronews.com/my-europe/2026/05/28/la-france-sapprete-a-abroger-le-code-noir-une-loi-sur-lesclavage-jamais-abolie?utm_campaign=feeds_europe_news&amp;utm_medium=referral&amp;utm_source=reddit",
+      "external_url": "https://fr.euronews.com/my-europe/2026/05/28/la-france-sapprete-a-abroger-le-code-noir-une-loi-sur-lesclavage-jamais-abolie?utm_campaign=feeds_europe_news&amp;utm_medium=referral&amp;utm_source=reddit",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tpy3lk/la_france_sapprête_à_abroger_le_code_noir_une_loi/",
+      "subreddit": "actualite",
+      "rank_in_sub": 22,
+      "published_at": "2026-05-28T09:06:36+00:00",
+      "author": "/u/euronews-news",
+      "is_self": false,
+      "domain": "fr.euronews.com",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 22
+    },
+    {
+      "title": "Even Low Levels of Alcohol Could Damage Your Brain, Study Finds | \"Alcohol consumption considered 'low risk' may have consequences.\"",
+      "url": "https://www.sciencealert.com/even-low-levels-of-alcohol-could-damage-your-brain-study-finds",
+      "external_url": "https://www.sciencealert.com/even-low-levels-of-alcohol-could-damage-your-brain-study-finds",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1swzxe8/even_low_levels_of_alcohol_could_damage_your/",
+      "subreddit": "sciences",
+      "rank_in_sub": 22,
+      "published_at": "2026-04-27T10:41:23+00:00",
+      "author": "/u/Clear_Polish23",
+      "is_self": false,
+      "domain": "sciencealert.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 22
+    },
+    {
+      "title": "Quelles sont les sciences complémentaires ou indispensables à l'histoire selon vous ?",
+      "url": "https://www.reddit.com/r/Histoire/comments/1thcj0n/quelles_sont_les_sciences_complémentaires_ou/",
+      "external_url": "https://www.reddit.com/r/Histoire/comments/1thcj0n/quelles_sont_les_sciences_complémentaires_ou/",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1thcj0n/quelles_sont_les_sciences_complémentaires_ou/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 22,
+      "published_at": "2026-05-19T04:50:49+00:00",
+      "author": "/u/Firmament00789",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 22
+    },
+    {
+      "title": "Brüssel ordnet Algorithmen: EU-Kommission konkretisiert die Hochrisiko-KI",
+      "url": "https://www.heise.de/news/Bruessel-ordnet-Algorithmen-EU-Kommission-konkretisiert-die-Hochrisiko-KI-11301376.html",
+      "external_url": "https://www.heise.de/news/Bruessel-ordnet-Algorithmen-EU-Kommission-konkretisiert-die-Hochrisiko-KI-11301376.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tjaj1v/brüssel_ordnet_algorithmen_eukommission/",
+      "subreddit": "technologie",
+      "rank_in_sub": 22,
+      "published_at": "2026-05-21T05:13:05+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "heise.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 22
+    },
+    {
+      "title": "juste le meilleur jeux qui existe (images innutiles)",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1tq575x/juste_le_meilleur_jeux_qui_existe_images_innutiles/",
+      "external_url": "https://www.reddit.com/gallery/1tq575x",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tq575x/juste_le_meilleur_jeux_qui_existe_images_innutiles/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 22,
+      "published_at": "2026-05-28T14:25:28+00:00",
+      "author": "/u/Low-Holiday3389",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 22
+    },
+    {
+      "title": "Comment faire du heal toe ?",
+      "url": "https://www.reddit.com/r/musique/comments/1tpdf6p/comment_faire_du_heal_toe/",
+      "external_url": "",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tpdf6p/comment_faire_du_heal_toe/",
+      "subreddit": "musique",
+      "rank_in_sub": 22,
+      "published_at": "2026-05-27T18:01:41+00:00",
+      "author": "/u/CAMPERMINATOR",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 22
+    },
+    {
+      "title": "Conservation tomates cerises confites",
+      "url": "https://www.reddit.com/r/cuisine/comments/1tp7chw/conservation_tomates_cerises_confites/",
+      "external_url": "https://www.reddit.com/r/cuisine/comments/1tp7chw/conservation_tomates_cerises_confites/",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tp7chw/conservation_tomates_cerises_confites/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 22,
+      "published_at": "2026-05-27T14:31:47+00:00",
+      "author": "/u/capucine68",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 22
+    },
+    {
+      "title": "Clim dans appart sous les toits, évacuation par trou dans la fenêtre ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trwwdo/clim_dans_appart_sous_les_toits_évacuation_par/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trwwdo/clim_dans_appart_sous_les_toits_évacuation_par/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trwwdo/clim_dans_appart_sous_les_toits_évacuation_par/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 22,
+      "published_at": "2026-05-30T11:03:18+00:00",
+      "author": "/u/haussmannian-devil",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 22
+    },
+    {
+      "title": "Palace was handed Andrew's controversial envoy emails six years ago",
+      "url": "https://www.bbc.com/news/articles/cy02j5pl98no",
+      "external_url": "https://www.bbc.com/news/articles/cy02j5pl98no",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trynde/palace_was_handed_andrews_controversial_envoy/",
+      "subreddit": "europe",
+      "rank_in_sub": 22,
+      "published_at": "2026-05-30T12:29:13+00:00",
+      "author": "/u/jiisow",
+      "is_self": false,
+      "domain": "bbc.com",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 22
+    },
+    {
+      "title": "Après Bolloré, la deuxième mort du « Zapping » : « VU » s'arrêterait le 30 juin 2026 ?",
+      "url": "https://www.reddit.com/r/france/comments/1tr9oss/après_bolloré_la_deuxième_mort_du_zapping_vu/",
+      "external_url": "https://www.reddit.com/r/france/comments/1tr9oss/après_bolloré_la_deuxième_mort_du_zapping_vu/",
+      "permalink": "https://www.reddit.com/r/france/comments/1tr9oss/après_bolloré_la_deuxième_mort_du_zapping_vu/",
+      "subreddit": "france",
+      "rank_in_sub": 23,
+      "published_at": "2026-05-29T17:46:56+00:00",
+      "author": "/u/MaxOfS2D",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 23
+    },
+    {
+      "title": "Valve augmente le prix de la Steam Deck",
+      "url": "https://www.jeux-video.art/valve-augmente-le-prix-de-la-steam-deck/",
+      "external_url": "https://www.jeux-video.art/valve-augmente-le-prix-de-la-steam-deck/",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tq5330/valve_augmente_le_prix_de_la_steam_deck/",
+      "subreddit": "actualite",
+      "rank_in_sub": 23,
+      "published_at": "2026-05-28T14:21:22+00:00",
+      "author": "/u/Delicious-Cell3527",
+      "is_self": false,
+      "domain": "jeux-video.art",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 23
+    },
+    {
+      "title": "DIY Coin Battery: Light an LED",
+      "url": "https://v.redd.it/5q9n4r14brxg1",
+      "external_url": "https://v.redd.it/5q9n4r14brxg1",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1sx85ux/diy_coin_battery_light_an_led/",
+      "subreddit": "sciences",
+      "rank_in_sub": 23,
+      "published_at": "2026-04-27T16:07:20+00:00",
+      "author": "/u/TheMuseumOfScience",
+      "is_self": false,
+      "domain": "v.redd.it",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 23
+    },
+    {
+      "title": "Présentation de l'Association Portraits Anciens",
+      "url": "https://www.reddit.com/r/Histoire/comments/1thi2db/présentation_de_lassociation_portraits_anciens/",
+      "external_url": "",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1thi2db/présentation_de_lassociation_portraits_anciens/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 23,
+      "published_at": "2026-05-19T09:52:04+00:00",
+      "author": "/u/WonderfulMight6538",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 23
+    },
+    {
+      "title": "Medien: Aktionsrat Bildung empfiehlt Altersgrenzen für Social Media",
+      "url": "https://www.zeit.de/news/2026-05/21/aktionsrat-bildung-empfiehlt-altersgrenzen-fuer-social-media",
+      "external_url": "https://www.zeit.de/news/2026-05/21/aktionsrat-bildung-empfiehlt-altersgrenzen-fuer-social-media",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1tj97cn/medien_aktionsrat_bildung_empfiehlt_altersgrenzen/",
+      "subreddit": "technologie",
+      "rank_in_sub": 23,
+      "published_at": "2026-05-21T04:07:10+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "zeit.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 23
+    },
+    {
+      "title": "Des joueurs de counter strike ?",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1tqhvzq/des_joueurs_de_counter_strike/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1tqhvzq/des_joueurs_de_counter_strike/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tqhvzq/des_joueurs_de_counter_strike/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 23,
+      "published_at": "2026-05-28T21:57:20+00:00",
+      "author": "/u/fefe_the_asparagus",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 23
+    },
+    {
+      "title": "L'affiche de la troisième édition du Festival Outsiders (Paris)",
+      "url": "https://www.reddit.com/r/musique/comments/1tp6fe4/laffiche_de_la_troisième_édition_du_festival/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1tp6fe4/laffiche_de_la_troisième_édition_du_festival/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tp6fe4/laffiche_de_la_troisième_édition_du_festival/",
+      "subreddit": "musique",
+      "rank_in_sub": 23,
+      "published_at": "2026-05-27T13:59:40+00:00",
+      "author": "/u/sbo2026",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 23
+    },
+    {
+      "title": "Tout faire au mixeur plongeant ?",
+      "url": "https://www.reddit.com/r/cuisine/comments/1tp3zz2/tout_faire_au_mixeur_plongeant/",
+      "external_url": "https://www.reddit.com/r/cuisine/comments/1tp3zz2/tout_faire_au_mixeur_plongeant/",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tp3zz2/tout_faire_au_mixeur_plongeant/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 23,
+      "published_at": "2026-05-27T12:24:15+00:00",
+      "author": "/u/noisybenfr",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 23
+    },
+    {
+      "title": "Need a Job Referral. Need help from people who are working. Any help is appreciated?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1ts1vli/need_a_job_referral_need_help_from_people_who_are/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1ts1vli/need_a_job_referral_need_help_from_people_who_are/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1ts1vli/need_a_job_referral_need_help_from_people_who_are/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 23,
+      "published_at": "2026-05-30T14:45:24+00:00",
+      "author": "/u/Horror-Breath-3835",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 23
+    },
+    {
+      "title": "​Political Prisoners Are Dying in Russian Jails. These People Are Keeping Their Memory Alive.",
+      "url": "https://www.themoscowtimes.com/2026/05/29/political-prisoners-are-dying-in-russian-jails-these-people-are-keeping-their-memory-alive-a92850",
+      "external_url": "https://www.themoscowtimes.com/2026/05/29/political-prisoners-are-dying-in-russian-jails-these-people-are-keeping-their-memory-alive-a92850",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trstt8/political_prisoners_are_dying_in_russian_jails/",
+      "subreddit": "europe",
+      "rank_in_sub": 23,
+      "published_at": "2026-05-30T07:13:04+00:00",
+      "author": "/u/Gjrts",
+      "is_self": false,
+      "domain": "themoscowtimes.com",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 23
+    },
+    {
+      "title": "La Russie rappelle son ambassadeur en Arménie pour «consultations» en raison des liens d'Erevan avec l'UE",
+      "url": "https://www.lefigaro.fr/flash-actu/la-russie-rappelle-son-ambassadeur-en-armenie-pour-consultations-en-raison-des-liens-d-erevan-avec-l-ue-20260530",
+      "external_url": "https://www.lefigaro.fr/flash-actu/la-russie-rappelle-son-ambassadeur-en-armenie-pour-consultations-en-raison-des-liens-d-erevan-avec-l-ue-20260530",
+      "permalink": "https://www.reddit.com/r/france/comments/1truon8/la_russie_rappelle_son_ambassadeur_en_arménie/",
+      "subreddit": "france",
+      "rank_in_sub": 24,
+      "published_at": "2026-05-30T08:59:46+00:00",
+      "author": "/u/Altruistic_Syrup_364",
+      "is_self": false,
+      "domain": "lefigaro.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 24
+    },
+    {
+      "title": "Procès pour « harcèlement moral : « Emmanuel Pierrat est habité par la violence »",
+      "url": "https://www.actu-juridique.fr/penal/proces-pour-harcelement-moral-emmanuel-pierrat-est-habite-par-la-violence/",
+      "external_url": "https://www.actu-juridique.fr/penal/proces-pour-harcelement-moral-emmanuel-pierrat-est-habite-par-la-violence/",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tpxw1u/procès_pour_harcèlement_moral_emmanuel_pierrat/",
+      "subreddit": "actualite",
+      "rank_in_sub": 24,
+      "published_at": "2026-05-28T08:54:29+00:00",
+      "author": "/u/actu-juridiqueFR",
+      "is_self": false,
+      "domain": "actu-juridique.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 24
+    },
+    {
+      "title": "Trump fires the entire National Science Board | Federal funding for scientific research was already in turmoil.",
+      "url": "https://www.theverge.com/science/918769/trump-fires-the-entire-national-science-board",
+      "external_url": "https://www.theverge.com/science/918769/trump-fires-the-entire-national-science-board",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1swkz1v/trump_fires_the_entire_national_science_board/",
+      "subreddit": "sciences",
+      "rank_in_sub": 24,
+      "published_at": "2026-04-26T22:01:12+00:00",
+      "author": "/u/Clear_Polish23",
+      "is_self": false,
+      "domain": "theverge.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 24
+    },
+    {
+      "title": "Front populaire, une histoire de luttes : un podcast à écouter en ligne",
+      "url": "https://www.radiofrance.fr/franceculture/podcasts/serie-front-populaire-une-histoire-de-luttes",
+      "external_url": "https://www.radiofrance.fr/franceculture/podcasts/serie-front-populaire-une-histoire-de-luttes",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1thbcnu/front_populaire_une_histoire_de_luttes_un_podcast/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 24,
+      "published_at": "2026-05-19T03:55:05+00:00",
+      "author": "/u/apokrif1",
+      "is_self": false,
+      "domain": "radiofrance.fr",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 24
+    },
+    {
+      "title": "Forschung: Deutschland setzt auf milliardenschwere EU-Allianz für Fusionsenergie",
+      "url": "https://www.heise.de/news/Forschung-Deutschland-setzt-auf-milliardenschwere-EU-Allianz-fuer-Fusionsenergie-11297938.html",
+      "external_url": "https://www.heise.de/news/Forschung-Deutschland-setzt-auf-milliardenschwere-EU-Allianz-fuer-Fusionsenergie-11297938.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1thcixb/forschung_deutschland_setzt_auf_milliardenschwere/",
+      "subreddit": "technologie",
+      "rank_in_sub": 24,
+      "published_at": "2026-05-19T04:50:43+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "heise.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 24
+    },
+    {
+      "title": "Où trouver des pin's JV à Paris ?",
+      "url": "https://www.reddit.com/r/jeuxvideo/comments/1tq2g4e/où_trouver_des_pins_jv_à_paris/",
+      "external_url": "https://www.reddit.com/r/jeuxvideo/comments/1tq2g4e/où_trouver_des_pins_jv_à_paris/",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tq2g4e/où_trouver_des_pins_jv_à_paris/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 24,
+      "published_at": "2026-05-28T12:41:39+00:00",
+      "author": "/u/RamaTheVoice",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 24
+    },
+    {
+      "title": "Dans mes nuits – Philonico 🌹",
+      "url": "https://youtube.com/watch?v=8v7jZNzYD6o&amp;si=uXjBYYwNGBVQSJng",
+      "external_url": "https://youtube.com/watch?v=8v7jZNzYD6o&amp;si=uXjBYYwNGBVQSJng",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tp0o6g/dans_mes_nuits_philonico/",
+      "subreddit": "musique",
+      "rank_in_sub": 24,
+      "published_at": "2026-05-27T09:42:11+00:00",
+      "author": "/u/Philokarl",
+      "is_self": false,
+      "domain": "youtube.com",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 24
+    },
+    {
+      "title": "Dessert facile : Panna Cotta au coulis de fraises",
+      "url": "https://i.redd.it/6wlulxnz9j3h1.jpeg",
+      "external_url": "https://i.redd.it/6wlulxnz9j3h1.jpeg",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tohi7s/dessert_facile_panna_cotta_au_coulis_de_fraises/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 24,
+      "published_at": "2026-05-26T19:30:16+00:00",
+      "author": "/u/NobanGnap_",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 24
+    },
+    {
+      "title": "Une imprimante/scan est elle encore rentable en 2026?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trubo6/une_imprimantescan_est_elle_encore_rentable_en/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trubo6/une_imprimantescan_est_elle_encore_rentable_en/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trubo6/une_imprimantescan_est_elle_encore_rentable_en/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 24,
+      "published_at": "2026-05-30T08:38:47+00:00",
+      "author": "/u/Embarrassed_Cry_2655",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 24
+    },
+    {
+      "title": "Hungarian police approve Budapest Pride in break from Orbán era",
+      "url": "https://www.theguardian.com/world/2026/may/29/hungarian-police-approve-budapest-pride-despite-previous-ban",
+      "external_url": "https://www.theguardian.com/world/2026/may/29/hungarian-police-approve-budapest-pride-despite-previous-ban",
+      "permalink": "https://www.reddit.com/r/europe/comments/1tr2z8n/hungarian_police_approve_budapest_pride_in_break/",
+      "subreddit": "europe",
+      "rank_in_sub": 24,
+      "published_at": "2026-05-29T14:07:15+00:00",
+      "author": "/u/Low-Attitude-7100",
+      "is_self": false,
+      "domain": "theguardian.com",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 24
+    },
+    {
+      "title": "Israeli minister confirms goal of large-scale expulsion of Palestinians from Gaza | Gaza",
+      "url": "https://www.theguardian.com/world/2026/may/28/israels-defence-minister-says-large-scale-palestinian-migration-from-gaza-will-go-ahead",
+      "external_url": "https://www.theguardian.com/world/2026/may/28/israels-defence-minister-says-large-scale-palestinian-migration-from-gaza-will-go-ahead",
+      "permalink": "https://www.reddit.com/r/france/comments/1triv1q/israeli_minister_confirms_goal_of_largescale/",
+      "subreddit": "france",
+      "rank_in_sub": 25,
+      "published_at": "2026-05-29T23:12:37+00:00",
+      "author": "/u/Mooulay2",
+      "is_self": false,
+      "domain": "theguardian.com",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 25
+    },
+    {
+      "title": "Bardella ne déclare pas tous ses rendez-vous avec des lobbies",
+      "url": "https://www.off-investigation.fr/parlement-europeen-bardella-ne-declare-pas-tous-ses-rendez-vous-avec-des-lobbies/",
+      "external_url": "https://www.off-investigation.fr/parlement-europeen-bardella-ne-declare-pas-tous-ses-rendez-vous-avec-des-lobbies/",
+      "permalink": "https://www.reddit.com/r/actualite/comments/1tpeevk/bardella_ne_déclare_pas_tous_ses_rendezvous_avec/",
+      "subreddit": "actualite",
+      "rank_in_sub": 25,
+      "published_at": "2026-05-27T18:35:30+00:00",
+      "author": "/u/JetableAuLoinCompte",
+      "is_self": false,
+      "domain": "off-investigation.fr",
+      "cross_subs": [
+        "actualite"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 25
+    },
+    {
+      "title": "40 Years After Chernobyl, Wolves May Be Adapting to Live With Radiation | They could hold clues to fighting cancer.",
+      "url": "https://www.sciencealert.com/40-years-after-chernobyl-wolves-may-be-adapting-to-live-with-radiation",
+      "external_url": "https://www.sciencealert.com/40-years-after-chernobyl-wolves-may-be-adapting-to-live-with-radiation",
+      "permalink": "https://www.reddit.com/r/sciences/comments/1sw69p5/40_years_after_chernobyl_wolves_may_be_adapting/",
+      "subreddit": "sciences",
+      "rank_in_sub": 25,
+      "published_at": "2026-04-26T12:30:00+00:00",
+      "author": "/u/Clear_Polish23",
+      "is_self": false,
+      "domain": "sciencealert.com",
+      "cross_subs": [
+        "sciences"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 25
+    },
+    {
+      "title": "Il faudrait interdire sur ce sub les contenus visuels générés par IA",
+      "url": "https://www.reddit.com/r/Histoire/comments/1tfrdk7/il_faudrait_interdire_sur_ce_sub_les_contenus/",
+      "external_url": "https://www.reddit.com/r/Histoire/comments/1tfrdk7/il_faudrait_interdire_sur_ce_sub_les_contenus/",
+      "permalink": "https://www.reddit.com/r/Histoire/comments/1tfrdk7/il_faudrait_interdire_sur_ce_sub_les_contenus/",
+      "subreddit": "Histoire",
+      "rank_in_sub": 25,
+      "published_at": "2026-05-17T14:39:38+00:00",
+      "author": "/u/Dctreu",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Histoire"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 25
+    },
+    {
+      "title": "\"Claude Mythos\": Neue KI als Cyberwaffe für Kriminelle?",
+      "url": "https://www.zdfheute.de/wirtschaft/anthropic-claude-mythos-software-schwachstellen-100.html",
+      "external_url": "https://www.zdfheute.de/wirtschaft/anthropic-claude-mythos-software-schwachstellen-100.html",
+      "permalink": "https://www.reddit.com/r/technologie/comments/1thc5tf/claude_mythos_neue_ki_als_cyberwaffe_für/",
+      "subreddit": "technologie",
+      "rank_in_sub": 25,
+      "published_at": "2026-05-19T04:32:45+00:00",
+      "author": "/u/donutloop",
+      "is_self": false,
+      "domain": "zdfheute.de",
+      "cross_subs": [
+        "technologie"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 25
+    },
+    {
+      "title": "Salut tout le monde ! J’ai vu que Celeste était dans le PlayStation Plus Extra, il vaut le coup ? Et est-il en français ? Si oui, je me le platinerais bien.",
+      "url": "https://i.redd.it/9y71f1ldqp3h1.jpeg",
+      "external_url": "https://i.redd.it/9y71f1ldqp3h1.jpeg",
+      "permalink": "https://www.reddit.com/r/jeuxvideo/comments/1tpbz78/salut_tout_le_monde_jai_vu_que_celeste_était_dans/",
+      "subreddit": "jeuxvideo",
+      "rank_in_sub": 25,
+      "published_at": "2026-05-27T17:12:47+00:00",
+      "author": "/u/DieAndRetry84",
+      "is_self": false,
+      "domain": "i.redd.it",
+      "cross_subs": [
+        "jeuxvideo"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 25
+    },
+    {
+      "title": "Macnz Ottawa 2026 G2C",
+      "url": "https://youtube.com/shorts/xQKFUsnqIp8?si=vqUfsRbYrevTQLrT",
+      "external_url": "https://youtube.com/shorts/xQKFUsnqIp8?si=vqUfsRbYrevTQLrT",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tolrnj/macnz_ottawa_2026_g2c/",
+      "subreddit": "musique",
+      "rank_in_sub": 25,
+      "published_at": "2026-05-26T22:01:38+00:00",
+      "author": "/u/MACNZ1111",
+      "is_self": false,
+      "domain": "youtube.com",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 25
+    },
+    {
+      "title": "Quel saumon acheter pour les sushis (sur Paris) ?",
+      "url": "https://www.reddit.com/r/cuisine/comments/1tp379h/quel_saumon_acheter_pour_les_sushis_sur_paris/",
+      "external_url": "https://www.reddit.com/r/cuisine/comments/1tp379h/quel_saumon_acheter_pour_les_sushis_sur_paris/",
+      "permalink": "https://www.reddit.com/r/cuisine/comments/1tp379h/quel_saumon_acheter_pour_les_sushis_sur_paris/",
+      "subreddit": "Cuisine",
+      "rank_in_sub": 25,
+      "published_at": "2026-05-27T11:50:21+00:00",
+      "author": "/u/IcyDamage4527",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "Cuisine"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 25
+    },
+    {
+      "title": "Jeux en ligne avec la meilleure communautée ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1ts1hs5/jeux_en_ligne_avec_la_meilleure_communautée/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1ts1hs5/jeux_en_ligne_avec_la_meilleure_communautée/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1ts1hs5/jeux_en_ligne_avec_la_meilleure_communautée/",
+      "subreddit": "AskFrance",
+      "rank_in_sub": 25,
+      "published_at": "2026-05-30T14:29:57+00:00",
+      "author": "/u/kinderchocomax",
+      "is_self": true,
+      "domain": "",
+      "cross_subs": [
+        "AskFrance"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 25
+    },
+    {
+      "title": "Finland is currently evaluating the use of France's nuclear deterrent",
+      "url": "https://www.mtvuutiset.fi/artikkeli/hakkanen-suomi-arvioi-parhaillaan-ranskan-ydinasepelotteen-hyodyntamista/9345380",
+      "external_url": "https://www.mtvuutiset.fi/artikkeli/hakkanen-suomi-arvioi-parhaillaan-ranskan-ydinasepelotteen-hyodyntamista/9345380",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trbx7b/finland_is_currently_evaluating_the_use_of/",
+      "subreddit": "europe",
+      "rank_in_sub": 25,
+      "published_at": "2026-05-29T18:57:17+00:00",
+      "author": "/u/SraminiElMejorBeaver",
+      "is_self": false,
+      "domain": "mtvuutiset.fi",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 25
+    }
+  ]
 }
