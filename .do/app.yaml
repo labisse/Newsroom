@@ -1,0 +1,45 @@
+# DigitalOcean App Platform — spec d'application
+# https://docs.digitalocean.com/products/app-platform/reference/app-spec/
+#
+# Cette spec force DO à traiter le repo comme un site STATIQUE
+# (HTML/CSS/JS), pas comme une app Python.
+# Le code Python du dossier server/ n'est exécuté que via GitHub Actions
+# (cron 4×/jour qui écrit data/ + base PostgreSQL), pas sur DO.
+#
+# Pour appliquer cette spec :
+#   - Lors de la création de l'app sur DO : "Import App Spec" → coller ce YAML
+#   - Sur une app existante : Settings → App Spec → Edit → coller ce YAML
+#   - Ou via doctl CLI : doctl apps update <app-id> --spec .do/app.yaml
+
+name: editorial-signal
+region: fra  # Frankfurt — latence FR optimale (sinon: ams pour Amsterdam)
+
+static_sites:
+- name: front
+  # Branche déployée automatiquement à chaque push
+  github:
+    repo: labisse/Newsroom
+    branch: main
+    deploy_on_push: true
+
+  # Site statique pur : aucun build à faire, on sert les fichiers tels quels.
+  # source_dir = racine du repo (où sont index.html et compagnie).
+  # output_dir = même chose (pas de transformation).
+  source_dir: /
+  output_dir: /
+
+  # Page d'accueil + page d'erreur (404)
+  index_document: index.html
+  error_document: index.html
+
+  # Routes : tout passe par la racine, le routage est géré par les
+  # fichiers .html du repo (index.html, project.html, projects.html,
+  # tendances.html, categories.html)
+  routes:
+  - path: /
+
+# Pour activer un domaine custom plus tard :
+# domains:
+# - domain: newsroom.theblackroom.io
+#   type: PRIMARY
+#   zone: theblackroom.io
