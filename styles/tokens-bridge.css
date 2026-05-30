@@ -1,0 +1,144 @@
+/* ============================================================
+   Bridge tokens — mappe les anciennes variables TBR vers le nouveau
+   système "encre éditoriale" (cockpit-pro). Permet aux CSS pages
+   existants (tendances.css, categories.css, evolution.css, etc.) de
+   parler le nouveau vocabulaire visuel sans réécrire chaque règle.
+
+   À charger APRÈS cockpit-pro.css et AVANT les CSS pages spécifiques.
+   ============================================================ */
+:root {
+  /* Couleurs base */
+  --bg: var(--ink-0);
+  --bg-color: var(--ink-0);
+  --bg-1: var(--ink-0);
+  --card-bg: var(--ink-2);
+  --surface-1: var(--ink-2);
+  --surface-2: var(--ink-3);
+  --surface-3: var(--ink-3);
+  --surface-4: var(--ink-4);
+  --summary-bg: var(--ink-1);
+  --header-bg: var(--ink-1);
+
+  /* Texte */
+  --text-primary: var(--fg);
+  --text-secondary: var(--fg-muted);
+  --text-tertiary: var(--fg-subtle);
+  --text-1: var(--fg-strong);
+  --text-2: var(--fg);
+  --text-3: var(--fg-muted);
+
+  /* Bordures */
+  --border-color: var(--line);
+  --border: var(--line);
+  --border-hover: var(--line-2);
+  --border-strong: var(--line-3);
+
+  /* Accents */
+  --primary-color: var(--brand);
+  --primary-hover: var(--brand-2);
+  --accent: var(--brand);
+  --accent-soft: var(--brand-soft);
+  --accent-tint: var(--brand-soft);
+
+  --success-color: var(--up);
+  --success: var(--up);
+  --success-tint: var(--up-soft);
+  --warning-color: var(--warm);
+  --warning: var(--warm);
+  --warning-tint: var(--warm-soft);
+  --danger-color: var(--hot);
+  --danger: var(--hot);
+  --danger-tint: var(--hot-soft);
+  --info-color: var(--brand);
+
+  /* Glow / shadow */
+  --glow-primary: 0 0 20px rgba(129, 140, 248, 0.3);
+  --glow-primary-strong: 0 0 30px rgba(129, 140, 248, 0.5);
+  --shadow: var(--shadow-card);
+  --shadow-lg: var(--shadow-pop);
+
+  /* Grille décorative dispatchée */
+  --grid-color: rgba(255, 255, 255, 0.03);
+
+  /* Typographie */
+  --font-display: var(--font-sans);
+  --font-body: var(--font-sans);
+  --font-funnel: var(--font-sans);
+  --font-dm: var(--font-sans);
+}
+
+/* Override body fonts : Figtree partout au lieu de DM Sans/Funnel */
+html,
+body {
+  font-family: var(--font-sans) !important;
+}
+
+/* La grille de fond gigantesque héritée de TBR est trop chargée pour
+   le nouveau look. On la neutralise sur les pages qui l'utilisent. */
+body.has-grid-bg::before {
+  background: radial-gradient(120% 80% at 50% -10%, rgba(99, 102, 241, 0.06), transparent 60%) !important;
+}
+
+/* L'ancien header shell-header n'est plus utilisé : on cache au cas où
+   un reste traîne avant le shell-mount. */
+.shell-header:not(:has(.cp-brand)) {
+  display: none;
+}
+
+/* Neutralise la grille décorative ancienne (base.css body::before)
+   pour éviter le double bg avec celle de cockpit-pro. */
+body::before {
+  background: radial-gradient(120% 80% at 50% -10%, rgba(99, 102, 241, 0.06), transparent 60%) !important;
+  background-image: radial-gradient(120% 80% at 50% -10%, rgba(99, 102, 241, 0.06), transparent 60%) !important;
+  background-size: auto !important;
+}
+
+/* Hero blocks des pages tendances/evolution : harmoniser avec le shell
+   pro (suppression du gros grain texturé). */
+.tendances-hero,
+.cat-panel,
+.cockpit-card,
+.source-panel,
+.evo-section,
+.project-detail-hero,
+.project-pending,
+.project-insights__head,
+.project-briefing {
+  border-radius: var(--r-xl, 14px);
+}
+
+/* Tendances + Categories : titres principaux gardent leur style mais
+   passent dans la nouvelle palette. */
+.tendances-hero__title em {
+  color: var(--brand) !important;
+  font-style: italic;
+}
+
+.tendances-hero__eyebrow {
+  color: var(--brand) !important;
+}
+
+/* Compatibilité boutons : les .btn--primary historiques utilisaient le
+   rouge TBR. On les passe en gradient indigo/violet du nouveau design. */
+.btn.btn--primary,
+button.btn--primary {
+  background: var(--brand-grad) !important;
+  border: none !important;
+  color: #fff !important;
+  box-shadow: 0 6px 18px -8px rgba(99, 102, 241, 0.8) !important;
+}
+.btn.btn--primary:hover,
+button.btn--primary:hover {
+  background: var(--brand-grad) !important;
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+/* Auth gate : reprise du shell pro */
+.auth-gate__panel {
+  background: var(--ink-1) !important;
+  border: 1px solid var(--line-2) !important;
+}
+.auth-gate__title {
+  color: var(--fg-strong) !important;
+}

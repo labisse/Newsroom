@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projets · Editorial Signal · The Black Room</title>
     <meta name="description" content="Sites configurés et flux Discover personnalisés" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#0A0B0F" />
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.bunny.net" />
     <link
+      href="https://fonts.bunny.net/css?family=figtree:400,500,600,700,800|jetbrains-mono:400,500,600,700&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap"
     />
     <link rel="stylesheet" href="styles/tokens.css?v=tbr6" />
     <link rel="stylesheet" href="styles/base.css?v=tbr6" />
-    <link rel="stylesheet" href="styles/components.css?v=tbr6" />
-    <link rel="stylesheet" href="styles/projects.css?v=tbr6" />
+    <link rel="stylesheet" href="styles/components.css?v=tbr11" />
+    <link rel="stylesheet" href="styles/cockpit-pro.css?v=tbr1" />
+    <link rel="stylesheet" href="styles/tokens-bridge.css?v=tbr1" />
+    <link rel="stylesheet" href="styles/projects.css?v=tbr11" />
     <!-- Anti-FOUC : si pas de session valide, lock l'HTML avant le rendu -->
     <script>
       (function () {
@@ -63,26 +64,7 @@
       </div>
     </div>
 
-    <header class="shell-header">
-      <a class="brand" href="index.html" aria-label="The Black Room — Editorial Signal">
-        <img class="brand__logo" src="assets/logo-tbr.svg" alt="" />
-        <span class="brand__text">
-          <span class="brand__product">Editorial Signal</span>
-          <span class="brand__byline">The <em>Black</em> Room</span>
-        </span>
-      </a>
-      <nav class="shell-nav" aria-label="Navigation principale">
-        <a class="shell-nav__link" href="index.html">Flux global</a>
-        <a class="shell-nav__link" href="tendances.html">Sources</a>
-        <a class="shell-nav__link" href="categories.html">Catégories</a>
-        <a class="shell-nav__link" href="evolution.html">Évolution</a>
-        <a class="shell-nav__link is-active" href="projects.html">Projets</a>
-      </nav>
-      <div class="shell-user">
-        <span class="shell-user__role">Rédac chef</span>
-        <button class="shell-user__avatar" type="button" data-auth-logout title="Cliquer pour se déconnecter">CP</button>
-      </div>
-    </header>
+    <div id="shell-mount" data-shell-active="projets" data-shell-search="false"></div>
 
     <main class="projects-page content">
       <section class="projects-hero">
@@ -110,6 +92,7 @@
     </main>
 
     <script type="module" src="scripts/auth.js"></script>
-    <script type="module" src="scripts/projects.js"></script>
+    <script type="module" src="scripts/shell-pro.js?v=tbr1"></script>
+    <script type="module" src="scripts/projects.js?v=tbr11"></script>
   </body>
 </html>
