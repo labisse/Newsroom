@@ -1,30 +1,28 @@
 name: Fetch sources & score
 
-# Deux jobs avec des fréquences différentes pour maîtriser le coût SerpAPI.
+# Un seul schedule unifié : toutes les 8 sources rafraîchies 4 fois par
+# jour (00:30, 06:30, 12:30, 18:30 UTC). Couvre la matinale, le midi,
+# le soir et la nuit — les fenêtres éditoriales canoniques.
 #
-# - light : MSN + X Trends + score
-#           horaire, 0 € (pas de SerpAPI)
+# Choix produit : le user a explicitement demandé "tous les canaux
+# d'information toutes les 6h" → un seul mode `full` régulier, pas de
+# split light/full. Plus simple à maintenir, signal homogène entre les
+# pages projet et le flux global.
 #
-# - full  : MSN + X Trends + Google Trends + Wikimedia + score
-#           toutes les 6h, ~12 calls SerpAPI/jour
-#
-# Workflow_dispatch permet aussi de déclencher à la main depuis l'UI
+# Workflow_dispatch reste dispo pour lancer à la main depuis l'UI
 # GitHub (Actions > Fetch sources & score > Run workflow).
+#
+# Coût indicatif :
+#   - SerpAPI (Google Trends) : 3 calls × 4 runs = 12 calls/jour
+#     ≈ 360/mois. Vérifier que le plan couvre (free tier = 100/mois).
+#   - Voyage / Anthropic : 0 (le scoring global n'appelle pas ces APIs).
+#   - YouTube Data : 4 unités/jour (quota gratuit 10k/jour, large).
 
 on:
   schedule:
-    # Toutes les heures à HH:05 — light
-    - cron: "5 * * * *"
-    # Toutes les 6 heures à HH:30 (00:30, 06:30, 12:30, 18:30 UTC) — full
-    - cron: "30 */6 * * *"
-  workflow_dispatch:
-    inputs:
-      mode:
-        description: "Mode de fetch"
-        required: true
-        default: "light"
-        type: choice
-        options: [light, full]
+    # 4 fois par jour à HH:30 UTC pour éviter la congestion top-of-hour
+    - cron: "30 0,6,12,18 * * *"
+  workflow_dispatch: {}
 
 # Le job a besoin d'écrire des commits sur le repo.
 permissions:
@@ -37,7 +35,7 @@ concurrency:
 
 jobs:
   run:
-    name: ${{ github.event.schedule == '30 */6 * * *' && 'full' || (github.event.inputs.mode || 'light') }}
+    name: full-8-sources
     runs-on: ubuntu-latest
 
     steps:
@@ -58,34 +56,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Decide mode
-        id: mode
-        run: |
-          if [[ "${{ github.event.schedule }}" == "30 */6 * * *" ]]; then
-            echo "mode=full" >> "$GITHUB_OUTPUT"
-          elif [[ -n "${{ github.event.inputs.mode }}" ]]; then
-            echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
-          else
-            echo "mode=light" >> "$GITHUB_OUTPUT"
-          fi
-          echo "Mode résolu : $(grep mode= "$GITHUB_OUTPUT" | cut -d= -f2)"
-
-      - name: Fetch sources (light)
-        if: steps.mode.outputs.mode == 'light'
-        env:
-          MSN_API_KEY: ${{ secrets.MSN_API_KEY }}
-          MSN_MARKET: fr-fr
-          X_TRENDS_URL: https://trends24.in/france/
-          DISCOVERSNOOP_EMAIL: ${{ secrets.DISCOVERSNOOP_EMAIL }}
-          DISCOVERSNOOP_PASSWORD: ${{ secrets.DISCOVERSNOOP_PASSWORD }}
-          DISCOVERSNOOP_COUNTRY: FR
-          DISCOVERSNOOP_HOURS: 12
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_REGION: FR
-        run: python -m server.cli fetch msn x_trends discoversnoop google_news reddit youtube_trending
-
-      - name: Fetch sources (full)
-        if: steps.mode.outputs.mode == 'full'
+      - name: Fetch all 8 sources
         env:
           MSN_API_KEY: ${{ secrets.MSN_API_KEY }}
           MSN_MARKET: fr-fr
@@ -103,10 +74,6 @@ jobs:
         run: python -m server.cli fetch-all
 
       - name: Score
-        env:
-          # Le scoring ne fait pas d'appel HTTP, mais on charge .env quand
-          # même au cas où on en aurait besoin pour des futures features.
-          MSN_API_KEY: ${{ secrets.MSN_API_KEY }}
         run: python -m server.cli score
 
       - name: Commit & push snapshots if changed
@@ -122,7 +89,6 @@ jobs:
             exit 0
           fi
 
-          MODE="${{ steps.mode.outputs.mode }}"
           TS="$(date -u +'%Y-%m-%d %H:%M UTC')"
-          git commit -m "chore(data): snapshot ${MODE} — ${TS} [skip ci]"
+          git commit -m "chore(data): snapshot full 8 sources — ${TS} [skip ci]"
           git push
