@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="styles/tokens.css?v=tbr5" />
     <link rel="stylesheet" href="styles/base.css?v=tbr5" />
     <link rel="stylesheet" href="styles/components.css?v=tbr11" />
-    <link rel="stylesheet" href="styles/tendances.css?v=tbr1" />
+    <link rel="stylesheet" href="styles/tendances.css?v=tbr2" />
     <!-- Anti-FOUC : si pas de session valide, lock l'HTML avant le rendu -->
     <script>
       (function () {
@@ -117,6 +117,40 @@
         </div>
       </section>
 
+      <!-- Barre de recherche : filtre les items affichés ET les compteurs
+           d'onglet en temps réel (debounce ~200ms). -->
+      <div class="source-search">
+        <svg
+          class="source-search__icon"
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          aria-hidden="true"
+        >
+          <circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.5" />
+          <path d="M11 11l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+        <input
+          class="source-search__input"
+          type="search"
+          id="tendances-search"
+          placeholder="Filtrer par mot-clé (ex: bardella, climat, roland-garros…)"
+          autocomplete="off"
+          spellcheck="false"
+          aria-label="Rechercher dans les tendances"
+        />
+        <button
+          class="source-search__clear"
+          type="button"
+          id="tendances-search-clear"
+          aria-label="Effacer la recherche"
+          hidden
+        >
+          ✕
+        </button>
+      </div>
+
       <!-- Onglets : un par source -->
       <nav class="source-tabs" role="tablist" aria-label="Sources">
         <button
@@ -177,6 +211,6 @@
     </main>
 
     <script type="module" src="scripts/auth.js?v=tbr5"></script>
-    <script type="module" src="scripts/tendances.js?v=tbr1"></script>
+    <script type="module" src="scripts/tendances.js?v=tbr2"></script>
   </body>
 </html>

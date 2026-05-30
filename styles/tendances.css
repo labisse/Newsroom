@@ -47,6 +47,74 @@
   margin: 0;
 }
 
+/* ---------- Barre de recherche ---------- */
+
+.source-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 0 var(--space-md);
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  transition: border-color 150ms ease;
+}
+
+.source-search:focus-within {
+  border-color: var(--text-primary);
+}
+
+.source-search__icon {
+  position: absolute;
+  left: 14px;
+  pointer-events: none;
+  color: var(--text-secondary);
+}
+
+.source-search__input {
+  appearance: none;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  padding: 14px 44px 14px 42px;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  outline: none;
+}
+
+.source-search__input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
+/* Cache la croix native du type=search (WebKit + Edge) */
+.source-search__input::-webkit-search-cancel-button,
+.source-search__input::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.source-search__clear {
+  appearance: none;
+  position: absolute;
+  right: 10px;
+  width: 26px;
+  height: 26px;
+  border: 0;
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 150ms ease;
+}
+
+.source-search__clear:hover {
+  color: var(--primary-color);
+}
+
 /* ---------- Onglets : un par source ---------- */
 
 .source-tabs {

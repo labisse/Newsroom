@@ -20,6 +20,94 @@ const SOURCES = [
 const state = {
   data: {}, // { sourceKey: parsedJson }
   active: "discover",
+  query: "", // normalisé (lowercase + sans accents)
+};
+
+/* Normalise une string pour la recherche (lowercase + sans diacritiques).
+   "École Élysée" → "ecole elysee" */
+const normalize = (s) =>
+  (s || "")
+    .toString()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "");
+
+/**
+ * Détermine si un item matche la query selon le type de source.
+ * On cherche dans le titre + champs secondaires utiles à l'éditorial
+ * (publisher, channel, subreddit, category…).
+ */
+const matchesQuery = (item, sourceKey, q) => {
+  if (!q) return true;
+  const haystack = [];
+  switch (sourceKey) {
+    case "discover":
+      haystack.push(item.title, item.publisher, item.category);
+      break;
+    case "gnews":
+      haystack.push(item.title, item.source, item.category);
+      break;
+    case "reddit":
+      haystack.push(item.title, item.subreddit, item.domain);
+      if (Array.isArray(item.cross_subs))
+        haystack.push(item.cross_subs.join(" "));
+      break;
+    case "youtube":
+      haystack.push(
+        item.title,
+        item.channel,
+        item.category_label,
+        item.description,
+      );
+      if (Array.isArray(item.tags)) haystack.push(item.tags.join(" "));
+      break;
+    case "trends":
+      haystack.push(item.query);
+      if (Array.isArray(item.categories))
+        haystack.push(item.categories.join(" "));
+      break;
+    case "wiki":
+      haystack.push(item.title_display, item.article);
+      break;
+    case "x":
+      haystack.push(item.query, item.name);
+      break;
+    case "msn":
+      haystack.push(item.title, item.source, item.category);
+      break;
+    default:
+      haystack.push(item.title);
+  }
+  const hay = normalize(haystack.filter(Boolean).join("   "));
+  return hay.includes(q);
+};
+
+/** Filtre une liste d'items selon la query active. */
+const filterItems = (items, sourceKey) =>
+  state.query
+    ? items.filter((i) => matchesQuery(i, sourceKey, state.query))
+    : items;
+
+/** Items "bruts" d'une source (avant tri/filtre) — pour les compteurs. */
+const rawItemsFor = (sourceKey, data) => {
+  if (!data || data.__error) return [];
+  switch (sourceKey) {
+    case "discover":
+    case "gnews":
+    case "wiki":
+    case "msn":
+      return data.articles || [];
+    case "reddit":
+      return data.posts || [];
+    case "youtube":
+      return data.videos || [];
+    case "trends":
+      return ((data.windows && data.windows.current) || {}).trends || [];
+    case "x":
+      return data.trends || [];
+    default:
+      return [];
+  }
 };
 
 /* ----- Helpers ----- */
@@ -90,7 +178,7 @@ const loadSource = async (sourceKey) => {
 };
 
 const updateCounts = async () => {
-  // Charge tous les snapshots en parallèle juste pour les compteurs
+  // Charge tous les snapshots en parallèle puis compte (avec ou sans filtre)
   await Promise.all(
     SOURCES.map(async (s) => {
       const data = await loadSource(s.key);
@@ -101,30 +189,21 @@ const updateCounts = async () => {
   );
 };
 
+/** Recompte les items par source — synchrone, utilise le cache state.data.
+ *  Appelé pendant la frappe de l'utilisateur pour MAJ les onglets. */
+const recomputeCounts = () => {
+  for (const s of SOURCES) {
+    const data = state.data[s.key];
+    const count = countFor(s.key, data);
+    const node = document.querySelector(`[data-count="${s.key}"]`);
+    if (node) node.textContent = count != null ? `${count}` : "—";
+  }
+};
+
 const countFor = (sourceKey, data) => {
   if (!data || data.__error) return null;
-  switch (sourceKey) {
-    case "discover":
-      return (data.articles || []).length;
-    case "gnews":
-      return (data.articles || []).length;
-    case "reddit":
-      return (data.posts || []).length;
-    case "youtube":
-      return (data.videos || []).length;
-    case "trends": {
-      const w = (data.windows && data.windows.current) || {};
-      return (w.trends || []).length;
-    }
-    case "wiki":
-      return (data.articles || []).length;
-    case "x":
-      return (data.trends || []).length;
-    case "msn":
-      return (data.articles || []).length;
-    default:
-      return null;
-  }
+  const raw = rawItemsFor(sourceKey, data);
+  return filterItems(raw, sourceKey).length;
 };
 
 /* ----- Renderers par source ----- */
@@ -157,9 +236,12 @@ const renderMeta = (data, sourceKey) => {
 };
 
 const renderDiscover = (data) => {
-  const articles = [...(data.articles || [])]
-    .sort((a, b) => (Number(b.score) || 0) - (Number(a.score) || 0))
-    .slice(0, 50);
+  const articles = filterItems(
+    [...(data.articles || [])].sort(
+      (a, b) => (Number(b.score) || 0) - (Number(a.score) || 0),
+    ),
+    "discover",
+  ).slice(0, 50);
   return h(
     "div",
     {},
@@ -218,7 +300,7 @@ const renderDiscover = (data) => {
 };
 
 const renderGnews = (data) => {
-  const articles = (data.articles || []).slice(0, 50);
+  const articles = filterItems(data.articles || [], "gnews").slice(0, 50);
   return h(
     "div",
     {},
@@ -271,7 +353,7 @@ const renderGnews = (data) => {
 };
 
 const renderReddit = (data) => {
-  const posts = (data.posts || []).slice(0, 50);
+  const posts = filterItems(data.posts || [], "reddit").slice(0, 50);
   return h(
     "div",
     {},
@@ -332,7 +414,7 @@ const renderReddit = (data) => {
 };
 
 const renderYoutube = (data) => {
-  const videos = (data.videos || []).slice(0, 50);
+  const videos = filterItems(data.videos || [], "youtube").slice(0, 50);
   if (videos.length === 0 && (data.failures || []).length) {
     return h(
       "div",
@@ -409,7 +491,7 @@ const renderYoutube = (data) => {
 
 const renderTrends = (data) => {
   const w = (data.windows && data.windows.current) || {};
-  const trends = (w.trends || []).slice(0, 50);
+  const trends = filterItems(w.trends || [], "trends").slice(0, 50);
   return h(
     "div",
     {},
@@ -462,7 +544,7 @@ const renderTrends = (data) => {
 };
 
 const renderWiki = (data) => {
-  const articles = (data.articles || []).slice(0, 50);
+  const articles = filterItems(data.articles || [], "wiki").slice(0, 50);
   const project = data.project || "fr.wikipedia";
   // L'URL d'un article Wikipedia se construit depuis le slug `article`
   // (fields snapshotés par wikimedia.py). Project domain = fr.wikipedia.org
@@ -523,7 +605,7 @@ const renderWiki = (data) => {
 };
 
 const renderX = (data) => {
-  const trends = (data.trends || []).slice(0, 50);
+  const trends = filterItems(data.trends || [], "x").slice(0, 50);
   return h(
     "div",
     {},
@@ -564,13 +646,14 @@ const renderX = (data) => {
 };
 
 const renderMsn = (data) => {
-  const articles = [...(data.articles || [])]
-    .sort((a, b) => {
+  const articles = filterItems(
+    [...(data.articles || [])].sort((a, b) => {
       const ae = (a.upvotes || 0) + (a.comments || 0) * 2;
       const be = (b.upvotes || 0) + (b.comments || 0) * 2;
       return be - ae;
-    })
-    .slice(0, 50);
+    }),
+    "msn",
+  ).slice(0, 50);
   return h(
     "div",
     {},
@@ -660,7 +743,62 @@ const showSource = async (sourceKey) => {
   }
 
   const renderer = RENDERERS[sourceKey];
-  panel.appendChild(renderer(data));
+  const rendered = renderer(data);
+  panel.appendChild(rendered);
+
+  // Si un filtre est actif mais ne ramène aucun item, complète avec un
+  // message d'orientation (le renderer affiche déjà une liste vide).
+  const list = panel.querySelector(".source-list");
+  if (state.query && list && list.children.length === 0) {
+    panel.appendChild(
+      h(
+        "div",
+        { class: "source-panel__empty" },
+        h("strong", {}, `Aucun match pour "${state.query}"`),
+        h(
+          "p",
+          {},
+          "Essaie un autre mot-clé, change d'onglet (les compteurs ci-dessus indiquent où le terme apparaît), ou efface la recherche.",
+        ),
+      ),
+    );
+  }
+};
+
+/** Câblage de la barre de recherche : debounce 200ms pour éviter le re-render
+ *  à chaque frappe sur les gros snapshots Discover (~1000 items). */
+let _searchDebounce = null;
+const wireSearch = () => {
+  const input = document.querySelector("#tendances-search");
+  const clear = document.querySelector("#tendances-search-clear");
+  if (!input) return;
+
+  const apply = () => {
+    state.query = normalize(input.value.trim());
+    clear.hidden = !input.value;
+    recomputeCounts();
+    // Re-render le panel actif avec le nouveau filtre
+    showSource(state.active);
+  };
+
+  input.addEventListener("input", () => {
+    clearTimeout(_searchDebounce);
+    _searchDebounce = setTimeout(apply, 200);
+  });
+
+  // Esc = effacer
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && input.value) {
+      input.value = "";
+      apply();
+    }
+  });
+
+  clear.addEventListener("click", () => {
+    input.value = "";
+    apply();
+    input.focus();
+  });
 };
 
 /* ----- Mount ----- */
@@ -671,10 +809,13 @@ const mount = async () => {
     tab.addEventListener("click", () => showSource(tab.dataset.source));
   });
 
+  // Câblage de la barre de recherche
+  wireSearch();
+
   // Affiche par défaut Discover (le plus pertinent côté produit)
   await showSource("discover");
 
-  // Récupère les compteurs en arrière-plan
+  // Récupère les compteurs en arrière-plan (tous les onglets en parallèle)
   updateCounts();
 };
 
