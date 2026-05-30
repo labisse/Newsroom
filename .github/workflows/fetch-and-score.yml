@@ -76,6 +76,29 @@ jobs:
       - name: Score
         run: python -m server.cli score
 
+      # Re-génère les insights de chaque projet pour qu'ils restent
+      # alignés sur les sujets du jour. Sans ça, les pages projet
+      # affichent un briefing périmé entre deux runs gsc-daily.
+      # Les insights réutilisent l'index Voyage existant (pas de re-embed),
+      # donc temps cible : ~1-2 min/projet.
+      - name: Regenerate project insights
+        env:
+          VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
+          VOYAGE_MODEL: voyage-3
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: claude-haiku-4-5
+        run: |
+          set -e
+          for slug in parismatch futura-sciences; do
+            # Skip si l'index Voyage n'existe pas (projet pas encore embed)
+            if [ ! -f "data/projects/${slug}/embeddings.npz" ]; then
+              echo "Skip ${slug} : pas d'index Voyage"
+              continue
+            fi
+            echo "→ Insights ${slug}"
+            python -m server.cli gsc-insights --project="${slug}" || echo "WARN: insights ${slug} failed (continue)"
+          done
+
       - name: Commit & push snapshots if changed
         run: |
           git config user.name "github-actions[bot]"
