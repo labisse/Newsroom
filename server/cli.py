@@ -16,7 +16,13 @@ Usage :
     python -m server.cli gsc-scrape-titles --project=<slug> [--limit=N]
     python -m server.cli gsc-disconnect --project=<slug>
 
-Sources : msn, wikimedia, google_trends, x_trends, discoversnoop, google_news
+    # PostgreSQL time-series (DigitalOcean Managed Postgres)
+    python -m server.cli db-init        # crée les tables (1× au début)
+    python -m server.cli db-snapshot    # insère un snapshot après `score`
+    python -m server.cli db-stats       # rows + dates par table
+
+Sources : msn, wikimedia, google_trends, x_trends, discoversnoop, google_news,
+          reddit, youtube_trending
 Sortie  : data/{source}/{YYYY-MM-DD}.json + data/{source}/latest.json
           data/sujets/latest.json (sortie scoring)
           data/projects/{slug}/gsc_tokens.json (OAuth)
@@ -378,6 +384,85 @@ def cmd_gsc_scrape_titles(project_slug: str, limit: int | None) -> int:
         f"Restant : {result['remaining']} · "
         f"({elapsed:.0f}s)"
     )
+    return 0
+
+
+def cmd_db_init() -> int:
+    """Crée les 4 tables time-series + index (idempotent)."""
+    from server.storage import timeseries
+
+    print("Editorial Signal — DB init (PostgreSQL)\n")
+    if not timeseries.is_enabled():
+        print("✗ DATABASE_URL non définie ou psycopg non installé.")
+        print("  → Configure DATABASE_URL dans .env")
+        print("  → pip install -r requirements.txt")
+        return 1
+
+    started = time.perf_counter()
+    try:
+        timeseries.init_schema()
+    except Exception as exc:  # noqa: BLE001
+        print(f"✗ {type(exc).__name__}: {exc}", file=sys.stderr)
+        return 1
+    elapsed = time.perf_counter() - started
+
+    print(f"  ✓ Schéma créé/vérifié ({elapsed:.2f}s)")
+    print("    Tables : sujets_snapshots, topic_pulse, category_pulse, source_pulse")
+    return 0
+
+
+def cmd_db_snapshot() -> int:
+    """Insère un snapshot complet dans les 4 tables time-series.
+
+    Lit data/sujets/latest.json (déjà généré par `score`) et les snapshots
+    sources brutes pour calculer le snapshot par catégorie canonique.
+    """
+    from server.storage import timeseries
+
+    print("Editorial Signal — DB snapshot (PostgreSQL)\n")
+    if not timeseries.is_enabled():
+        print("✗ DATABASE_URL non définie ou psycopg non installé.")
+        return 1
+
+    started = time.perf_counter()
+    try:
+        result = timeseries.snapshot_all()
+    except FileNotFoundError as exc:
+        print(f"✗ {exc}", file=sys.stderr)
+        return 1
+    except Exception as exc:  # noqa: BLE001
+        print(f"✗ {type(exc).__name__}: {exc}", file=sys.stderr)
+        traceback.print_exc()
+        return 1
+    elapsed = time.perf_counter() - started
+
+    print(f"  ✓ Snapshot inséré ({elapsed:.2f}s)")
+    for table, rows in result.items():
+        print(f"    {table:22s} +{rows:>5} lignes")
+    return 0
+
+
+def cmd_db_stats() -> int:
+    """Affiche les stats par table : nb de lignes + premier/dernier snapshot."""
+    from server.storage import timeseries
+
+    print("Editorial Signal — DB stats (PostgreSQL)\n")
+    if not timeseries.is_enabled():
+        print("✗ DATABASE_URL non définie ou psycopg non installé.")
+        return 1
+
+    try:
+        s = timeseries.stats()
+    except Exception as exc:  # noqa: BLE001
+        print(f"✗ {type(exc).__name__}: {exc}", file=sys.stderr)
+        return 1
+
+    for table, info in s.items():
+        print(f"  {table}")
+        print(f"    Lignes        : {info['rows']:>8}")
+        print(f"    1er snapshot  : {info['first_snapshot'] or '—'}")
+        print(f"    Dernier       : {info['last_snapshot'] or '—'}")
+        print()
     return 0
 
 
@@ -826,6 +911,20 @@ def main(argv: list[str] | None = None) -> int:
         help="Boost les contenus déjà performants par clicks historiques",
     )
 
+    # --- PostgreSQL time-series ---
+    sub.add_parser(
+        "db-init",
+        help="Crée les tables time-series PostgreSQL (idempotent)",
+    )
+    sub.add_parser(
+        "db-snapshot",
+        help="Insère un snapshot dans les 4 tables (après `score`)",
+    )
+    sub.add_parser(
+        "db-stats",
+        help="Affiche les stats par table (rows + dates)",
+    )
+
     args = parser.parse_args(argv)
 
     if args.cmd == "fetch-all":
@@ -866,6 +965,12 @@ def main(argv: list[str] | None = None) -> int:
         return cmd_gsc_insights(args.project)
     if args.cmd == "secrets-export":
         return cmd_secrets_export()
+    if args.cmd == "db-init":
+        return cmd_db_init()
+    if args.cmd == "db-snapshot":
+        return cmd_db_snapshot()
+    if args.cmd == "db-stats":
+        return cmd_db_stats()
 
     parser.print_help()
     return 2

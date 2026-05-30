@@ -76,6 +76,20 @@ jobs:
       - name: Score
         run: python -m server.cli score
 
+      # PostgreSQL time-series : insère un snapshot dans les 4 tables
+      # (sujets / topics / catégories cross-source / pulse par source)
+      # pour l'analyse historique et la détection de tendances montantes.
+      # Skip silencieux si DATABASE_URL absent (storage optionnel).
+      - name: DB snapshot (time-series)
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          if [ -z "$DATABASE_URL" ]; then
+            echo "Skip : DATABASE_URL non défini (DB time-series désactivée)"
+          else
+            python -m server.cli db-snapshot
+          fi
+
       # Re-génère les insights de chaque projet pour qu'ils restent
       # alignés sur les sujets du jour. Sans ça, les pages projet
       # affichent un briefing périmé entre deux runs gsc-daily.

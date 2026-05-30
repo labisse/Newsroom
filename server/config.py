@@ -77,5 +77,9 @@ class Settings:
     youtube_api_key: str = _get("YOUTUBE_API_KEY")
     youtube_region: str = _get("YOUTUBE_REGION", "FR")
 
+    # PostgreSQL time-series storage (DigitalOcean Managed Postgres)
+    # Vide = storage désactivé (le pipeline continue sans logger en DB)
+    database_url: str = _get("DATABASE_URL")
+
 
 settings = Settings()
