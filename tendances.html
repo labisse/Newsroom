@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tendances par source · Editorial Signal · The Black Room</title>
+    <meta
+      name="description"
+      content="Sujets qui buzzent sur chaque support — Discover, Google News, Reddit, YouTube, Trends, X, Wikipedia, MSN"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="styles/tokens.css?v=tbr5" />
+    <link rel="stylesheet" href="styles/base.css?v=tbr5" />
+    <link rel="stylesheet" href="styles/components.css?v=tbr11" />
+    <link rel="stylesheet" href="styles/tendances.css?v=tbr1" />
+    <!-- Anti-FOUC : si pas de session valide, lock l'HTML avant le rendu -->
+    <script>
+      (function () {
+        try {
+          var raw = localStorage.getItem("tbr-auth-session");
+          var session = raw ? JSON.parse(raw) : null;
+          if (!session || typeof session.expires !== "number" || Date.now() >= session.expires) {
+            document.documentElement.classList.add("is-locked");
+          }
+        } catch (e) {
+          document.documentElement.classList.add("is-locked");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- Auth modal (cosmetic gate) -->
+    <div class="auth-gate" data-auth-root hidden>
+      <div class="auth-gate__backdrop"></div>
+      <div class="auth-gate__panel" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+        <div class="auth-gate__brand">
+          <img class="auth-gate__brand-logo" src="assets/logo-tbr.svg" alt="" />
+          <div class="auth-gate__brand-text">
+            <span class="auth-gate__brand-product">Editorial Signal</span>
+            <span class="auth-gate__brand-tag">The <em>Black</em> Room</span>
+          </div>
+        </div>
+        <h1 class="auth-gate__title" id="auth-title">Accès restreint</h1>
+        <form class="auth-gate__form" data-auth-form>
+          <label class="auth-gate__field">
+            <span class="auth-gate__label">Email</span>
+            <input
+              class="auth-gate__input"
+              type="email"
+              name="email"
+              required
+              autocomplete="email"
+              placeholder="vous@theblackroom.io"
+            />
+          </label>
+          <label class="auth-gate__field">
+            <span class="auth-gate__label">Mot de passe</span>
+            <input
+              class="auth-gate__input"
+              type="password"
+              name="password"
+              required
+              autocomplete="current-password"
+            />
+          </label>
+          <p class="auth-gate__error" data-auth-error hidden></p>
+          <button class="btn btn--primary auth-gate__submit" type="submit">
+            Accéder au briefing
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <header class="shell-header">
+      <a class="brand" href="index.html" aria-label="The Black Room — Editorial Signal">
+        <img class="brand__logo" src="assets/logo-tbr.svg" alt="" />
+        <span class="brand__text">
+          <span class="brand__product">Editorial Signal</span>
+          <span class="brand__byline">The <em>Black</em> Room</span>
+        </span>
+      </a>
+      <nav class="shell-nav" aria-label="Navigation principale">
+        <a class="shell-nav__link" href="index.html">Flux global</a>
+        <a class="shell-nav__link is-active" href="tendances.html">Tendances par source</a>
+        <a class="shell-nav__link" href="projects.html">Projets</a>
+        <a class="shell-nav__link" href="#">Historique</a>
+      </nav>
+      <div class="shell-user">
+        <span class="shell-user__role">Rédac chef</span>
+        <button
+          class="shell-user__avatar"
+          type="button"
+          data-auth-logout
+          title="Cliquer pour se déconnecter"
+        ></button>
+      </div>
+    </header>
+
+    <main class="tendances">
+      <section class="tendances-hero">
+        <div class="tendances-hero__intro">
+          <p class="tendances-hero__eyebrow">Tendances par source · 30 mai 2026</p>
+          <h1 class="tendances-hero__title">
+            Ce qui buzze <em>par plateforme</em>
+          </h1>
+          <p class="tendances-hero__lede" id="tendances-freshness">
+            Vue brute, signal par signal — pour identifier les angles qui marchent
+            sur chaque support sans passer par le scoring agrégé.
+          </p>
+        </div>
+      </section>
+
+      <!-- Onglets : un par source -->
+      <nav class="source-tabs" role="tablist" aria-label="Sources">
+        <button
+          class="source-tab is-active"
+          role="tab"
+          data-source="discover"
+          aria-selected="true"
+        >
+          <span class="source-tab__dot" data-source-color="discover"></span>
+          <span class="source-tab__name">Discover</span>
+          <span class="source-tab__count" data-count="discover">—</span>
+        </button>
+        <button class="source-tab" role="tab" data-source="gnews" aria-selected="false">
+          <span class="source-tab__dot" data-source-color="gnews"></span>
+          <span class="source-tab__name">Google News</span>
+          <span class="source-tab__count" data-count="gnews">—</span>
+        </button>
+        <button class="source-tab" role="tab" data-source="reddit" aria-selected="false">
+          <span class="source-tab__dot" data-source-color="reddit"></span>
+          <span class="source-tab__name">Reddit</span>
+          <span class="source-tab__count" data-count="reddit">—</span>
+        </button>
+        <button class="source-tab" role="tab" data-source="youtube" aria-selected="false">
+          <span class="source-tab__dot" data-source-color="youtube"></span>
+          <span class="source-tab__name">YouTube</span>
+          <span class="source-tab__count" data-count="youtube">—</span>
+        </button>
+        <button class="source-tab" role="tab" data-source="trends" aria-selected="false">
+          <span class="source-tab__dot" data-source-color="trends"></span>
+          <span class="source-tab__name">Google Trends</span>
+          <span class="source-tab__count" data-count="trends">—</span>
+        </button>
+        <button class="source-tab" role="tab" data-source="wiki" aria-selected="false">
+          <span class="source-tab__dot" data-source-color="wiki"></span>
+          <span class="source-tab__name">Wikipedia</span>
+          <span class="source-tab__count" data-count="wiki">—</span>
+        </button>
+        <button class="source-tab" role="tab" data-source="x" aria-selected="false">
+          <span class="source-tab__dot" data-source-color="x"></span>
+          <span class="source-tab__name">X (Twitter)</span>
+          <span class="source-tab__count" data-count="x">—</span>
+        </button>
+        <button class="source-tab" role="tab" data-source="msn" aria-selected="false">
+          <span class="source-tab__dot" data-source-color="msn"></span>
+          <span class="source-tab__name">MSN</span>
+          <span class="source-tab__count" data-count="msn">—</span>
+        </button>
+      </nav>
+
+      <section
+        class="source-panel"
+        role="tabpanel"
+        id="source-panel"
+        aria-live="polite"
+      >
+        <div class="source-panel__loading">Chargement…</div>
+      </section>
+    </main>
+
+    <script type="module" src="scripts/auth.js?v=tbr5"></script>
+    <script type="module" src="scripts/tendances.js?v=tbr1"></script>
+  </body>
+</html>
