@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="styles/tokens.css?v=tbr5" />
     <link rel="stylesheet" href="styles/base.css?v=tbr5" />
     <link rel="stylesheet" href="styles/components.css?v=tbr11" />
-    <link rel="stylesheet" href="styles/briefing.css?v=tbr5" />
+    <link rel="stylesheet" href="styles/briefing.css?v=tbr11" />
+    <link rel="stylesheet" href="styles/cockpit.css?v=tbr1" />
     <!-- Anti-FOUC : si pas de session valide, lock l'HTML avant le rendu -->
     <script>
       (function () {
@@ -107,62 +108,99 @@
       </div>
     </header>
 
-    <main class="briefing content">
-      <section class="briefing-hero">
-        <div class="briefing-hero__date">
-          <span class="briefing-hero__eyebrow" id="briefing-date">—</span>
-          <h1 class="briefing-hero__title">Flux Discover <em>global</em></h1>
-          <p class="briefing-hero__scope">
-            Vue généraliste · tous médias confondus · aucun filtre.
-            <a href="projects.html">Voir les projets par site →</a>
-          </p>
+    <main class="cockpit">
+      <!-- Bandeau de tête compact : date + pipeline status -->
+      <header class="cockpit-bar">
+        <div class="cockpit-bar__title">
+          <span class="status-dot"></span>
+          <span class="cockpit-bar__date" id="briefing-date">—</span>
+          <span class="cockpit-bar__sep">·</span>
+          <span class="cockpit-bar__freshness" id="briefing-freshness">
+            Pipeline en attente…
+          </span>
         </div>
-        <div class="briefing-hero__meta">
-          <div class="briefing-hero__time">
-            <span class="status-dot"></span>
-            <span id="briefing-freshness">Pipeline en attente…</span>
-          </div>
-          <div class="briefing-hero__counts">
-            <span class="counts-pill">
-              <strong id="count-total">—</strong> sujets
-            </span>
-            <span class="counts-pill counts-pill--success">
-              <strong id="count-high">—</strong> fort
-            </span>
-            <span class="counts-pill counts-pill--warning">
-              <strong id="count-medium">—</strong> moyen
-            </span>
-            <span class="counts-pill counts-pill--danger">
-              <strong id="count-low">—</strong> faible
-            </span>
-          </div>
+        <div class="cockpit-bar__actions">
+          <a class="btn btn--ghost btn--sm" href="evolution.html">Évolution 7j →</a>
         </div>
-        <div class="briefing-hero__actions">
-          <p class="briefing-hero__hint">
-            <strong>Lecture en moins de 5 minutes.</strong> Sujets triés par
-            Signal Score. Clic sur une ligne pour voir les signaux détaillés.
-            Sauvegarde un sujet pour le rattacher à un projet plus tard.
-          </p>
-          <div class="briefing-hero__action-group">
-            <button class="btn btn--ghost">Filtrer</button>
-            <button class="btn btn--primary" id="export-btn">Exporter</button>
-          </div>
+      </header>
+
+      <!-- KPI tiles : 4 chiffres pour décision rapide -->
+      <section class="kpi-grid">
+        <div class="kpi-tile kpi-tile--primary">
+          <span class="kpi-tile__label">Sujets HOT</span>
+          <span class="kpi-tile__value" id="kpi-hot">—</span>
+          <span class="kpi-tile__hint">score ≥ 50</span>
+        </div>
+        <div class="kpi-tile">
+          <span class="kpi-tile__label">Topics montants</span>
+          <span class="kpi-tile__value" id="kpi-rising">—</span>
+          <span class="kpi-tile__hint">Δ 24h &gt; 0</span>
+        </div>
+        <div class="kpi-tile">
+          <span class="kpi-tile__label">Sources actives</span>
+          <span class="kpi-tile__value" id="kpi-sources">—</span>
+          <span class="kpi-tile__hint">sur 8 monitorées</span>
+        </div>
+        <div class="kpi-tile">
+          <span class="kpi-tile__label">Sujets totaux</span>
+          <span class="kpi-tile__value" id="kpi-total">—</span>
+          <span class="kpi-tile__hint">briefing du jour</span>
         </div>
       </section>
 
-      <div id="clusters-mount"></div>
+      <!-- 2 colonnes : main = sujets compacts | sidebar = montants + pulse -->
+      <div class="cockpit-grid">
+        <!-- MAIN : sujets du jour, format compact -->
+        <section class="cockpit-main">
+          <div class="cockpit-card">
+            <header class="cockpit-card__head">
+              <h2 class="cockpit-card__title">Sujets du jour</h2>
+              <span class="cockpit-card__hint">
+                triés par Signal Score · clic pour voir les détails
+              </span>
+            </header>
+            <div class="filter-banner" id="filter-banner"></div>
+            <ul class="sujet-list__items" id="sujet-list"></ul>
+          </div>
+        </section>
 
-      <section class="sujet-list">
-        <div class="sujet-list__head">
-          <h2 class="sujet-list__title">Sujets du jour</h2>
-          <span class="sujet-list__hint">Triés par Signal Score</span>
-        </div>
-        <div class="filter-banner" id="filter-banner"></div>
-        <ul class="sujet-list__items" id="sujet-list"></ul>
-      </section>
+        <!-- SIDEBAR : signaux faibles + pulse temps réel -->
+        <aside class="cockpit-side">
+          <!-- Topics qui montent (depuis evolution.json) -->
+          <div class="cockpit-card">
+            <header class="cockpit-card__head">
+              <h2 class="cockpit-card__title">📈 Topics qui montent</h2>
+              <span class="cockpit-card__hint">delta 24h · candidats anticipation</span>
+            </header>
+            <div class="rising-topics" id="rising-topics">
+              <div class="rising-topics__empty">Calcul en cours…</div>
+            </div>
+          </div>
+
+          <!-- Pulse santé sources (sparklines) -->
+          <div class="cockpit-card">
+            <header class="cockpit-card__head">
+              <h2 class="cockpit-card__title">📊 Pulse 7 jours</h2>
+              <span class="cockpit-card__hint">santé pipeline par source</span>
+            </header>
+            <div class="source-pulse" id="source-pulse">
+              <div class="rising-topics__empty">Calcul en cours…</div>
+            </div>
+          </div>
+
+          <!-- Filtres rapides (univers tendance) -->
+          <div class="cockpit-card cockpit-card--collapsible">
+            <header class="cockpit-card__head">
+              <h2 class="cockpit-card__title">🎯 Filtrer par univers</h2>
+              <span class="cockpit-card__hint">catégories, clusters, topics</span>
+            </header>
+            <div id="clusters-mount"></div>
+          </div>
+        </aside>
+      </div>
     </main>
 
     <script type="module" src="scripts/auth.js?v=tbr5"></script>
-    <script type="module" src="scripts/briefing.js?v=tbr10"></script>
+    <script type="module" src="scripts/briefing.js?v=tbr11"></script>
   </body>
 </html>

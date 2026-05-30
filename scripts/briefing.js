@@ -498,7 +498,7 @@ const refreshList = () => {
   }
 };
 
-const setCounts = (sujets) => {
+const setCounts = (sujets, sourcesUsed) => {
   const counts = sujets.reduce(
     (acc, s) => {
       acc[tierFromScore(s.score)] += 1;
@@ -506,11 +506,160 @@ const setCounts = (sujets) => {
     },
     { high: 0, medium: 0, low: 0 },
   );
-  document.querySelector("#count-total").textContent = String(sujets.length);
-  document.querySelector("#count-high").textContent = String(counts.high);
-  document.querySelector("#count-medium").textContent = String(counts.medium);
-  document.querySelector("#count-low").textContent = String(counts.low);
+  // Anciennes pills (compatibilité si présentes ailleurs)
+  document.querySelector("#count-total")?.textContent &&
+    (document.querySelector("#count-total").textContent = String(sujets.length));
+  document.querySelector("#count-high") &&
+    (document.querySelector("#count-high").textContent = String(counts.high));
+  document.querySelector("#count-medium") &&
+    (document.querySelector("#count-medium").textContent = String(counts.medium));
+  document.querySelector("#count-low") &&
+    (document.querySelector("#count-low").textContent = String(counts.low));
+
+  // KPI tiles cockpit
+  const $hot = document.querySelector("#kpi-hot");
+  const $total = document.querySelector("#kpi-total");
+  const $sources = document.querySelector("#kpi-sources");
+  if ($hot) $hot.textContent = String(counts.high);
+  if ($total) $total.textContent = String(sujets.length);
+  if ($sources && sourcesUsed) {
+    // Une source = "active" si count > 0 dans ce snapshot
+    const active = Object.values(sourcesUsed).filter(
+      (s) => (s?.count ?? 0) > 0,
+    ).length;
+    const total = Object.keys(sourcesUsed).length;
+    $sources.textContent = `${active}/${total}`;
+  }
 };
+
+/* Topics qui montent — depuis data/analytics/evolution.json (peuplé par
+   le pipeline CI toutes les 6h après db-export). */
+const loadEvolution = async () => {
+  try {
+    const r = await fetch("data/analytics/evolution.json", { cache: "no-store" });
+    if (!r.ok) return null;
+    return await r.json();
+  } catch {
+    return null;
+  }
+};
+
+const setRisingTopics = (evolution) => {
+  const container = document.querySelector("#rising-topics");
+  if (!container) return;
+  container.innerHTML = "";
+
+  if (!evolution?.available) {
+    container.innerHTML = `<div class="rising-topics__empty">Pas encore d'historique (1er snapshot DB en attente).</div>`;
+    return;
+  }
+  const topics = (evolution.topics_24h || [])
+    .filter((t) => t.delta > 0 || t.prev_count === 0)
+    .slice(0, 8);
+
+  const $kpiRising = document.querySelector("#kpi-rising");
+  if ($kpiRising) $kpiRising.textContent = String(topics.length);
+
+  if (topics.length === 0) {
+    container.innerHTML = `<div class="rising-topics__empty">Rien ne monte significativement sur les dernières 24h.</div>`;
+    return;
+  }
+
+  const ul = document.createElement("ul");
+  ul.className = "rising-topics__list";
+  for (const t of topics) {
+    const isNew = t.prev_count === 0;
+    const li = document.createElement("li");
+    li.className = "rising-topic" + (isNew ? " rising-topic--new" : "");
+    li.innerHTML = `
+      <span class="rising-topic__kind" data-kind="${t.topic_kind}">${t.topic_kind === "entity" ? "ENT" : t.topic_kind === "cluster" ? "CLU" : "CAT"}</span>
+      <span class="rising-topic__name">${escapeHtml(t.topic_label || t.topic_name)}</span>
+      <span class="rising-topic__delta">${isNew ? "NEW" : "+" + t.delta}</span>
+    `;
+    ul.appendChild(li);
+  }
+  container.appendChild(ul);
+};
+
+const setSourcePulse = (evolution) => {
+  const container = document.querySelector("#source-pulse");
+  if (!container) return;
+  container.innerHTML = "";
+
+  const timeline = evolution?.source_timeline_7d;
+  if (!timeline || Object.keys(timeline).length === 0) {
+    container.innerHTML = `<div class="rising-topics__empty">Sparklines en attente (besoin de 2+ snapshots).</div>`;
+    return;
+  }
+
+  const SOURCE_COLORS = {
+    discover: "#00FF00",
+    discoversnoop: "#00FF00",
+    gnews: "#4285F4",
+    google_news: "#4285F4",
+    reddit: "#FF4500",
+    youtube: "#FF0033",
+    youtube_trending: "#FF0033",
+    trends: "#FBBC04",
+    google_trends: "#FBBC04",
+    wikimedia: "#FFFFFF",
+    x_trends: "#00FFFF",
+    msn: "#00A4EF",
+  };
+  const SOURCE_LABELS = {
+    discoversnoop: "Discover",
+    google_news: "GNews",
+    youtube_trending: "YouTube",
+    google_trends: "Trends",
+    wikimedia: "Wiki",
+    x_trends: "X",
+    msn: "MSN",
+    reddit: "Reddit",
+  };
+
+  for (const src of Object.keys(timeline).sort()) {
+    const points = timeline[src];
+    if (points.length < 1) continue;
+    const latest = points[points.length - 1]?.count ?? 0;
+    const color = SOURCE_COLORS[src] || "#FFF";
+    const label = SOURCE_LABELS[src] || src;
+
+    // Sparkline SVG
+    const w = 70, ht = 20;
+    let line = "";
+    if (points.length >= 2) {
+      const max = Math.max(1, ...points.map((p) => p.count));
+      const min = Math.min(...points.map((p) => p.count));
+      const range = Math.max(1, max - min);
+      const step = w / (points.length - 1);
+      line = points
+        .map((p, i) => {
+          const x = i * step;
+          const y = ht - ((p.count - min) / range) * (ht - 2) - 1;
+          return `${x.toFixed(1)},${y.toFixed(1)}`;
+        })
+        .join(" ");
+    }
+
+    const row = document.createElement("div");
+    row.className = "pulse-row";
+    row.innerHTML = `
+      <span class="pulse-row__name" style="color:${color}">${label}</span>
+      <svg class="pulse-row__spark" viewBox="0 0 ${w} ${ht}" preserveAspectRatio="none">
+        ${line ? `<polyline points="${line}" fill="none" stroke="${color}" stroke-width="1.2"/>` : ""}
+      </svg>
+      <span class="pulse-row__count">${latest}</span>
+    `;
+    container.appendChild(row);
+  }
+};
+
+const escapeHtml = (s) =>
+  String(s ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
 
 const setFreshness = (generatedAt) => {
   const el = document.querySelector("#briefing-freshness");
@@ -545,6 +694,7 @@ const mount = async () => {
   const {
     sujets,
     generatedAt,
+    sources,
     categoriesTrending,
     entityClusters,
     entitiesTrending,
@@ -569,8 +719,14 @@ const mount = async () => {
 
   attachClusterFilters();
   refreshList();
-  setCounts(sujets);
+  setCounts(sujets, sources);
   setFreshness(generatedAt);
+
+  // Cockpit : sidebar live depuis analytics (en parallèle, non bloquant)
+  loadEvolution().then((evo) => {
+    setRisingTopics(evo);
+    setSourcePulse(evo);
+  });
 
   document.querySelector("#export-btn")?.addEventListener("click", () => {
     toast("Briefing exporté (PDF + lien partage)");
