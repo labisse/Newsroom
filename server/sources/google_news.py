@@ -157,11 +157,15 @@ def _fetch_feed(url: str, category: str) -> list[dict[str, Any]]:
     return _parse_feed_xml(response.text, category=category)
 
 
-def fetch() -> dict[str, Any]:
+def fetch(decode_urls: bool = True) -> dict[str, Any]:
     """Récupère tous les feeds, dédup par URL, retourne un payload normalisé.
 
     En cas d'échec sur un feed, on continue les autres et on log la catégorie
     fautive dans les meta. Un feed cassé ne doit pas tuer toute la source.
+
+    Si decode_urls=True, les URLs news.google.com/rss/articles/... sont
+    décodées vers les vraies URLs des publishers (lemonde.fr, bfmtv.com, etc.)
+    via gnews_decoder. Cache local pour éviter de re-décoder à chaque run.
     """
     all_articles: list[dict[str, Any]] = []
     seen_urls: set[str] = set()
@@ -186,6 +190,23 @@ def fetch() -> dict[str, Any]:
             added += 1
         counts_by_cat[category] = added
 
+    # Décodage des URLs Google News vers vraies URLs des publishers.
+    # Le décodeur a son propre cache disque : seules les nouvelles URLs
+    # déclenchent un round-trip HTTP. À ~0.5s/URL, on est tranquilles
+    # à 100-300 URLs (50-150s, OK dans un workflow CI 4×/jour).
+    decoded_count = 0
+    if decode_urls and all_articles:
+        from server.sources import gnews_decoder
+
+        for art in all_articles:
+            original = art["url"]
+            if gnews_decoder.is_google_news_url(original):
+                real = gnews_decoder.decode_url(original)
+                if real and real != original:
+                    art["url_google"] = original  # garder la trace
+                    art["url"] = real
+                    decoded_count += 1
+
     return {
         "source": SOURCE_KEY,
         "fetched_at": now_iso(),
@@ -193,6 +214,7 @@ def fetch() -> dict[str, Any]:
         "counts_by_category": counts_by_cat,
         "failures": failures,
         "count": len(all_articles),
+        "decoded_urls": decoded_count,
         "articles": all_articles,
     }
 
