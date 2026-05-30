@@ -1,6 +1,6 @@
 {
   "source": "reddit",
-  "fetched_at": "2026-05-30T07:12:05Z",
+  "fetched_at": "2026-05-30T07:30:09Z",
   "subs": [
     "france",
     "actualite",
@@ -30,7 +30,7 @@
     "europe": 25
   },
   "failures": [],
-  "count": 250,
+  "count": 251,
   "posts": [
     {
       "title": "Au RN, l’explosion du « dossier inflammable » : Jordan Bardella enterre la réforme des retraites de Marine Le Pen et l’âge légal de départ",
@@ -38,7 +38,7 @@
       "external_url": "https://www.lemonde.fr/politique/article/2026/05/29/au-rn-l-explosion-du-dossier-inflammable-jordan-bardella-enterre-la-reforme-des-retraites-de-marine-le-pen-et-l-age-legal-de-depart_6694791_823448.html",
       "permalink": "https://www.reddit.com/r/france/comments/1tr8h7s/au_rn_lexplosion_du_dossier_inflammable_jordan/",
       "subreddit": "france",
-      "rank_in_sub": 15,
+      "rank_in_sub": 14,
       "published_at": "2026-05-29T17:07:08+00:00",
       "author": "/u/GabGame",
       "is_self": false,
@@ -49,24 +49,6 @@
       ],
       "cross_subs_count": 2,
       "best_rank": 2
-    },
-    {
-      "title": "Americans who get Ebola will go to Europe for treatment, not U.S., officials say",
-      "url": "https://www.nbcnews.com/health/health-news/americans-ebola-go-europe-treatment-not-us-rcna347364",
-      "external_url": "https://www.nbcnews.com/health/health-news/americans-ebola-go-europe-treatment-not-us-rcna347364",
-      "permalink": "https://www.reddit.com/r/france/comments/1tqtfde/americans_who_get_ebola_will_go_to_europe_for/",
-      "subreddit": "france",
-      "rank_in_sub": 24,
-      "published_at": "2026-05-29T06:39:58+00:00",
-      "author": "/u/Hawne",
-      "is_self": false,
-      "domain": "nbcnews.com",
-      "cross_subs": [
-        "france",
-        "europe"
-      ],
-      "cross_subs_count": 2,
-      "best_rank": 24
     },
     {
       "title": "Week-end Création - semaine 22",
@@ -545,16 +527,16 @@
       "best_rank": 3
     },
     {
-      "title": "LUD - Minuit Sans Toi",
-      "url": "https://youtu.be/XOcyJxpKKBU?si=SZv_ZPwTKFRHT2AH",
-      "external_url": "https://youtu.be/XOcyJxpKKBU?si=SZv_ZPwTKFRHT2AH",
-      "permalink": "https://www.reddit.com/r/musique/comments/1trd0n5/lud_minuit_sans_toi/",
+      "title": "\"Last Light On\" - A laid-back chillhop live set to help you unwind 🌅",
+      "url": "https://www.youtube.com/watch?v=7jTL6e8qcwk",
+      "external_url": "https://www.youtube.com/watch?v=7jTL6e8qcwk",
+      "permalink": "https://www.reddit.com/r/musique/comments/1trsvke/last_light_on_a_laidback_chillhop_live_set_to/",
       "subreddit": "musique",
       "rank_in_sub": 3,
-      "published_at": "2026-05-29T19:32:11+00:00",
-      "author": "/u/LUDProduction",
+      "published_at": "2026-05-30T07:15:47+00:00",
+      "author": "/u/annawakrecords",
       "is_self": false,
-      "domain": "youtu.be",
+      "domain": "youtube.com",
       "cross_subs": [
         "musique"
       ],
@@ -596,16 +578,16 @@
       "best_rank": 3
     },
     {
-      "title": "Estonia may have to draft women as male birth rates plummet",
-      "url": "https://tvpworld.com/93517473/falling-male-births-could-force-estonia-to-conscript-women-by-2040",
-      "external_url": "https://tvpworld.com/93517473/falling-male-births-could-force-estonia-to-conscript-women-by-2040",
-      "permalink": "https://www.reddit.com/r/europe/comments/1trdtcl/estonia_may_have_to_draft_women_as_male_birth/",
+      "title": "More than 700 dolphins killed in a single day of Faroe Islands hunts",
+      "url": "https://oceanographicmagazine.com/news/more-than-700-dolphins-killed-in-a-single-day-of-faroe-islands-hunts/",
+      "external_url": "https://oceanographicmagazine.com/news/more-than-700-dolphins-killed-in-a-single-day-of-faroe-islands-hunts/",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trsaeu/more_than_700_dolphins_killed_in_a_single_day_of/",
       "subreddit": "europe",
       "rank_in_sub": 3,
-      "published_at": "2026-05-29T19:59:05+00:00",
-      "author": "/u/diacewrb",
+      "published_at": "2026-05-30T06:43:25+00:00",
+      "author": "/u/rintzscar",
       "is_self": false,
-      "domain": "tvpworld.com",
+      "domain": "oceanographicmagazine.com",
       "cross_subs": [
         "europe"
       ],
@@ -715,16 +697,16 @@
       "best_rank": 4
     },
     {
-      "title": "besoin logiciel",
-      "url": "https://www.reddit.com/r/musique/comments/1traq55/besoin_logiciel/",
-      "external_url": "https://www.reddit.com/r/musique/comments/1traq55/besoin_logiciel/",
-      "permalink": "https://www.reddit.com/r/musique/comments/1traq55/besoin_logiciel/",
+      "title": "LUD - Minuit Sans Toi",
+      "url": "https://youtu.be/XOcyJxpKKBU?si=SZv_ZPwTKFRHT2AH",
+      "external_url": "https://youtu.be/XOcyJxpKKBU?si=SZv_ZPwTKFRHT2AH",
+      "permalink": "https://www.reddit.com/r/musique/comments/1trd0n5/lud_minuit_sans_toi/",
       "subreddit": "musique",
       "rank_in_sub": 4,
-      "published_at": "2026-05-29T18:19:07+00:00",
-      "author": "/u/SselEman696",
-      "is_self": true,
-      "domain": "",
+      "published_at": "2026-05-29T19:32:11+00:00",
+      "author": "/u/LUDProduction",
+      "is_self": false,
+      "domain": "youtu.be",
       "cross_subs": [
         "musique"
       ],
@@ -766,16 +748,16 @@
       "best_rank": 4
     },
     {
-      "title": "More than 700 dolphins killed in a single day of Faroe Islands hunts",
-      "url": "https://oceanographicmagazine.com/news/more-than-700-dolphins-killed-in-a-single-day-of-faroe-islands-hunts/",
-      "external_url": "https://oceanographicmagazine.com/news/more-than-700-dolphins-killed-in-a-single-day-of-faroe-islands-hunts/",
-      "permalink": "https://www.reddit.com/r/europe/comments/1trsaeu/more_than_700_dolphins_killed_in_a_single_day_of/",
+      "title": "Estonia may have to draft women as male birth rates plummet",
+      "url": "https://tvpworld.com/93517473/falling-male-births-could-force-estonia-to-conscript-women-by-2040",
+      "external_url": "https://tvpworld.com/93517473/falling-male-births-could-force-estonia-to-conscript-women-by-2040",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trdtcl/estonia_may_have_to_draft_women_as_male_birth/",
       "subreddit": "europe",
       "rank_in_sub": 4,
-      "published_at": "2026-05-30T06:43:25+00:00",
-      "author": "/u/rintzscar",
+      "published_at": "2026-05-29T19:59:05+00:00",
+      "author": "/u/diacewrb",
       "is_self": false,
-      "domain": "oceanographicmagazine.com",
+      "domain": "tvpworld.com",
       "cross_subs": [
         "europe"
       ],
@@ -783,16 +765,16 @@
       "best_rank": 4
     },
     {
-      "title": "L'esprit critique revient sur les polémiques sur Gilles Lelouche et François Ruffin [L'esprit critique, 29/05/26]",
-      "url": "https://v.redd.it/lykb9begb34h1",
-      "external_url": "https://v.redd.it/lykb9begb34h1",
-      "permalink": "https://www.reddit.com/r/france/comments/1tr4dto/lesprit_critique_revient_sur_les_polémiques_sur/",
+      "title": "« Si t’as rien à cacher, tu donnes ta loc » : la géolocalisation dans le couple, une pratique qui se banalise chez les jeunes",
+      "url": "https://www.lemonde.fr/campus/article/2026/05/30/si-t-as-rien-a-cacher-tu-donnes-ta-loc-la-geolocalisation-dans-le-couple-une-pratique-qui-se-banalise-chez-les-jeunes_6695092_4401467.html",
+      "external_url": "https://www.lemonde.fr/campus/article/2026/05/30/si-t-as-rien-a-cacher-tu-donnes-ta-loc-la-geolocalisation-dans-le-couple-une-pratique-qui-se-banalise-chez-les-jeunes_6695092_4401467.html",
+      "permalink": "https://www.reddit.com/r/france/comments/1trscf0/si_tas_rien_à_cacher_tu_donnes_ta_loc_la/",
       "subreddit": "france",
       "rank_in_sub": 5,
-      "published_at": "2026-05-29T14:55:41+00:00",
-      "author": "/u/ijic",
+      "published_at": "2026-05-30T06:46:26+00:00",
+      "author": "/u/Rfogj",
       "is_self": false,
-      "domain": "v.redd.it",
+      "domain": "lemonde.fr",
       "cross_subs": [
         "france"
       ],
@@ -885,16 +867,16 @@
       "best_rank": 5
     },
     {
-      "title": "On m'a dit \" Ta voix sur du Jazz/Soul ça donnerait quoi ? \" Un peu près ça du coup lol",
-      "url": "https://v.redd.it/w63ndkkiw34h1",
-      "external_url": "https://v.redd.it/w63ndkkiw34h1",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tr88m5/on_ma_dit_ta_voix_sur_du_jazzsoul_ça_donnerait/",
+      "title": "besoin logiciel",
+      "url": "https://www.reddit.com/r/musique/comments/1traq55/besoin_logiciel/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1traq55/besoin_logiciel/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1traq55/besoin_logiciel/",
       "subreddit": "musique",
       "rank_in_sub": 5,
-      "published_at": "2026-05-29T16:59:32+00:00",
-      "author": "/u/Mean_Fly7104",
-      "is_self": false,
-      "domain": "v.redd.it",
+      "published_at": "2026-05-29T18:19:07+00:00",
+      "author": "/u/SselEman696",
+      "is_self": true,
+      "domain": "",
       "cross_subs": [
         "musique"
       ],
@@ -936,16 +918,16 @@
       "best_rank": 5
     },
     {
-      "title": "Hungarian police approve Budapest Pride in break from Orbán era",
-      "url": "https://www.theguardian.com/world/2026/may/29/hungarian-police-approve-budapest-pride-despite-previous-ban",
-      "external_url": "https://www.theguardian.com/world/2026/may/29/hungarian-police-approve-budapest-pride-despite-previous-ban",
-      "permalink": "https://www.reddit.com/r/europe/comments/1tr2z8n/hungarian_police_approve_budapest_pride_in_break/",
+      "title": "Danish pension fund excludes SpaceX citing governance and valuation",
+      "url": "https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/",
+      "external_url": "https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trs7gd/danish_pension_fund_excludes_spacex_citing/",
       "subreddit": "europe",
       "rank_in_sub": 5,
-      "published_at": "2026-05-29T14:07:15+00:00",
-      "author": "/u/Low-Attitude-7100",
+      "published_at": "2026-05-30T06:38:58+00:00",
+      "author": "/u/_0611",
       "is_self": false,
-      "domain": "theguardian.com",
+      "domain": "reuters.com",
       "cross_subs": [
         "europe"
       ],
@@ -953,16 +935,16 @@
       "best_rank": 5
     },
     {
-      "title": "« Si t’as rien à cacher, tu donnes ta loc » : la géolocalisation dans le couple, une pratique qui se banalise chez les jeunes",
-      "url": "https://www.lemonde.fr/campus/article/2026/05/30/si-t-as-rien-a-cacher-tu-donnes-ta-loc-la-geolocalisation-dans-le-couple-une-pratique-qui-se-banalise-chez-les-jeunes_6695092_4401467.html",
-      "external_url": "https://www.lemonde.fr/campus/article/2026/05/30/si-t-as-rien-a-cacher-tu-donnes-ta-loc-la-geolocalisation-dans-le-couple-une-pratique-qui-se-banalise-chez-les-jeunes_6695092_4401467.html",
-      "permalink": "https://www.reddit.com/r/france/comments/1trscf0/si_tas_rien_à_cacher_tu_donnes_ta_loc_la/",
+      "title": "L'esprit critique revient sur les polémiques sur Gilles Lelouche et François Ruffin [L'esprit critique, 29/05/26]",
+      "url": "https://v.redd.it/lykb9begb34h1",
+      "external_url": "https://v.redd.it/lykb9begb34h1",
+      "permalink": "https://www.reddit.com/r/france/comments/1tr4dto/lesprit_critique_revient_sur_les_polémiques_sur/",
       "subreddit": "france",
       "rank_in_sub": 6,
-      "published_at": "2026-05-30T06:46:26+00:00",
-      "author": "/u/Rfogj",
+      "published_at": "2026-05-29T14:55:41+00:00",
+      "author": "/u/ijic",
       "is_self": false,
-      "domain": "lemonde.fr",
+      "domain": "v.redd.it",
       "cross_subs": [
         "france"
       ],
@@ -1055,16 +1037,16 @@
       "best_rank": 6
     },
     {
-      "title": "Je cherche une musique.",
-      "url": "https://www.reddit.com/r/musique/comments/1tr4or9/je_cherche_une_musique/",
-      "external_url": "https://www.reddit.com/r/musique/comments/1tr4or9/je_cherche_une_musique/",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tr4or9/je_cherche_une_musique/",
+      "title": "On m'a dit \" Ta voix sur du Jazz/Soul ça donnerait quoi ? \" Un peu près ça du coup lol",
+      "url": "https://v.redd.it/w63ndkkiw34h1",
+      "external_url": "https://v.redd.it/w63ndkkiw34h1",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tr88m5/on_ma_dit_ta_voix_sur_du_jazzsoul_ça_donnerait/",
       "subreddit": "musique",
       "rank_in_sub": 6,
-      "published_at": "2026-05-29T15:05:33+00:00",
-      "author": "/u/some_one_whos_exist",
-      "is_self": true,
-      "domain": "",
+      "published_at": "2026-05-29T16:59:32+00:00",
+      "author": "/u/Mean_Fly7104",
+      "is_self": false,
+      "domain": "v.redd.it",
       "cross_subs": [
         "musique"
       ],
@@ -1106,16 +1088,16 @@
       "best_rank": 6
     },
     {
-      "title": "NATO ready to defend Romania and ‘every inch’ of allied territory, Rutte says",
-      "url": "https://www.euronews.com/my-europe/2026/05/29/nato-ready-to-defend-romania-and-every-inch-of-allied-territory-rutte-says",
-      "external_url": "https://www.euronews.com/my-europe/2026/05/29/nato-ready-to-defend-romania-and-every-inch-of-allied-territory-rutte-says",
-      "permalink": "https://www.reddit.com/r/europe/comments/1tqwqr1/nato_ready_to_defend_romania_and_every_inch_of/",
+      "title": "Hungarian police approve Budapest Pride in break from Orbán era",
+      "url": "https://www.theguardian.com/world/2026/may/29/hungarian-police-approve-budapest-pride-despite-previous-ban",
+      "external_url": "https://www.theguardian.com/world/2026/may/29/hungarian-police-approve-budapest-pride-despite-previous-ban",
+      "permalink": "https://www.reddit.com/r/europe/comments/1tr2z8n/hungarian_police_approve_budapest_pride_in_break/",
       "subreddit": "europe",
       "rank_in_sub": 6,
-      "published_at": "2026-05-29T09:43:39+00:00",
-      "author": "/u/Illustrious_Diver_37",
+      "published_at": "2026-05-29T14:07:15+00:00",
+      "author": "/u/Low-Attitude-7100",
       "is_self": false,
-      "domain": "euronews.com",
+      "domain": "theguardian.com",
       "cross_subs": [
         "europe"
       ],
@@ -1225,14 +1207,14 @@
       "best_rank": 7
     },
     {
-      "title": "[VENTE] We Love Green – Vincennes – 06 & 07 juin",
-      "url": "https://www.reddit.com/r/musique/comments/1tr02f2/vente_we_love_green_vincennes_06_07_juin/",
-      "external_url": "",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tr02f2/vente_we_love_green_vincennes_06_07_juin/",
+      "title": "Je cherche une musique.",
+      "url": "https://www.reddit.com/r/musique/comments/1tr4or9/je_cherche_une_musique/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1tr4or9/je_cherche_une_musique/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tr4or9/je_cherche_une_musique/",
       "subreddit": "musique",
       "rank_in_sub": 7,
-      "published_at": "2026-05-29T12:17:40+00:00",
-      "author": "/u/Dull-Catch7610",
+      "published_at": "2026-05-29T15:05:33+00:00",
+      "author": "/u/some_one_whos_exist",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -1259,14 +1241,14 @@
       "best_rank": 7
     },
     {
-      "title": "Pourrais-je avoir un forfait gratuit pour mon stage de seconde?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1tramo2/pourraisje_avoir_un_forfait_gratuit_pour_mon/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tramo2/pourraisje_avoir_un_forfait_gratuit_pour_mon/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tramo2/pourraisje_avoir_un_forfait_gratuit_pour_mon/",
+      "title": "Il fait combien de degrés actuellement chez vous ? (dans votre appart / maison)",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trb0kq/il_fait_combien_de_degrés_actuellement_chez_vous/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trb0kq/il_fait_combien_de_degrés_actuellement_chez_vous/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trb0kq/il_fait_combien_de_degrés_actuellement_chez_vous/",
       "subreddit": "AskFrance",
       "rank_in_sub": 7,
-      "published_at": "2026-05-29T18:16:07+00:00",
-      "author": "/u/Ok-Requirement947",
+      "published_at": "2026-05-29T18:28:23+00:00",
+      "author": "/u/No_Construction3197",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -1276,16 +1258,16 @@
       "best_rank": 7
     },
     {
-      "title": "Danish pension fund excludes SpaceX citing governance and valuation",
-      "url": "https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/",
-      "external_url": "https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/",
-      "permalink": "https://www.reddit.com/r/europe/comments/1trs7gd/danish_pension_fund_excludes_spacex_citing/",
+      "title": "NATO ready to defend Romania and ‘every inch’ of allied territory, Rutte says",
+      "url": "https://www.euronews.com/my-europe/2026/05/29/nato-ready-to-defend-romania-and-every-inch-of-allied-territory-rutte-says",
+      "external_url": "https://www.euronews.com/my-europe/2026/05/29/nato-ready-to-defend-romania-and-every-inch-of-allied-territory-rutte-says",
+      "permalink": "https://www.reddit.com/r/europe/comments/1tqwqr1/nato_ready_to_defend_romania_and_every_inch_of/",
       "subreddit": "europe",
       "rank_in_sub": 7,
-      "published_at": "2026-05-30T06:38:58+00:00",
-      "author": "/u/_0611",
+      "published_at": "2026-05-29T09:43:39+00:00",
+      "author": "/u/Illustrious_Diver_37",
       "is_self": false,
-      "domain": "reuters.com",
+      "domain": "euronews.com",
       "cross_subs": [
         "europe"
       ],
@@ -1395,13 +1377,13 @@
       "best_rank": 8
     },
     {
-      "title": "🎟️ Vente billet We Love Green",
-      "url": "https://www.reddit.com/r/musique/comments/1tqtnij/vente_billet_we_love_green/",
+      "title": "[VENTE] We Love Green – Vincennes – 06 & 07 juin",
+      "url": "https://www.reddit.com/r/musique/comments/1tr02f2/vente_we_love_green_vincennes_06_07_juin/",
       "external_url": "",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tqtnij/vente_billet_we_love_green/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tr02f2/vente_we_love_green_vincennes_06_07_juin/",
       "subreddit": "musique",
       "rank_in_sub": 8,
-      "published_at": "2026-05-29T06:52:34+00:00",
+      "published_at": "2026-05-29T12:17:40+00:00",
       "author": "/u/Dull-Catch7610",
       "is_self": true,
       "domain": "",
@@ -1429,14 +1411,14 @@
       "best_rank": 8
     },
     {
-      "title": "Il fait combien de degrés actuellement chez vous ? (dans votre appart / maison)",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1trb0kq/il_fait_combien_de_degrés_actuellement_chez_vous/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trb0kq/il_fait_combien_de_degrés_actuellement_chez_vous/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trb0kq/il_fait_combien_de_degrés_actuellement_chez_vous/",
+      "title": "Pourrais-je avoir un forfait gratuit pour mon stage de seconde?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1tramo2/pourraisje_avoir_un_forfait_gratuit_pour_mon/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tramo2/pourraisje_avoir_un_forfait_gratuit_pour_mon/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tramo2/pourraisje_avoir_un_forfait_gratuit_pour_mon/",
       "subreddit": "AskFrance",
       "rank_in_sub": 8,
-      "published_at": "2026-05-29T18:28:23+00:00",
-      "author": "/u/No_Construction3197",
+      "published_at": "2026-05-29T18:16:07+00:00",
+      "author": "/u/Ok-Requirement947",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -1565,14 +1547,14 @@
       "best_rank": 9
     },
     {
-      "title": "RÖSËLITÄ",
-      "url": "https://www.reddit.com/r/musique/comments/1tqituo/rösëlitä/",
-      "external_url": "https://www.reddit.com/r/musique/comments/1tqituo/rösëlitä/",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tqituo/rösëlitä/",
+      "title": "🎟️ Vente billet We Love Green",
+      "url": "https://www.reddit.com/r/musique/comments/1tqtnij/vente_billet_we_love_green/",
+      "external_url": "",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tqtnij/vente_billet_we_love_green/",
       "subreddit": "musique",
       "rank_in_sub": 9,
-      "published_at": "2026-05-28T22:33:28+00:00",
-      "author": "/u/Efficient-Chain7827",
+      "published_at": "2026-05-29T06:52:34+00:00",
+      "author": "/u/Dull-Catch7610",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -1633,16 +1615,16 @@
       "best_rank": 9
     },
     {
-      "title": "Connaître ses ennemis.",
-      "url": "https://www.reddit.com/r/france/comments/1tqudgt/connaître_ses_ennemis/",
-      "external_url": "https://www.reddit.com/gallery/1tq33h0",
-      "permalink": "https://www.reddit.com/r/france/comments/1tqudgt/connaître_ses_ennemis/",
+      "title": "Israeli minister confirms goal of large-scale expulsion of Palestinians from Gaza | Gaza",
+      "url": "https://www.theguardian.com/world/2026/may/28/israels-defence-minister-says-large-scale-palestinian-migration-from-gaza-will-go-ahead",
+      "external_url": "https://www.theguardian.com/world/2026/may/28/israels-defence-minister-says-large-scale-palestinian-migration-from-gaza-will-go-ahead",
+      "permalink": "https://www.reddit.com/r/france/comments/1triv1q/israeli_minister_confirms_goal_of_largescale/",
       "subreddit": "france",
       "rank_in_sub": 10,
-      "published_at": "2026-05-29T07:30:50+00:00",
-      "author": "/u/Guilamu2",
-      "is_self": true,
-      "domain": "",
+      "published_at": "2026-05-29T23:12:37+00:00",
+      "author": "/u/Mooulay2",
+      "is_self": false,
+      "domain": "theguardian.com",
       "cross_subs": [
         "france"
       ],
@@ -1735,14 +1717,14 @@
       "best_rank": 10
     },
     {
-      "title": "İ need help finding romantic, old french music. Can yall help me?",
-      "url": "https://www.reddit.com/r/musique/comments/1tqclyg/i_need_help_finding_romantic_old_french_music_can/",
-      "external_url": "",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tqclyg/i_need_help_finding_romantic_old_french_music_can/",
+      "title": "RÖSËLITÄ",
+      "url": "https://www.reddit.com/r/musique/comments/1tqituo/rösëlitä/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1tqituo/rösëlitä/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tqituo/rösëlitä/",
       "subreddit": "musique",
       "rank_in_sub": 10,
-      "published_at": "2026-05-28T18:49:23+00:00",
-      "author": "/u/OsmanCuneyd",
+      "published_at": "2026-05-28T22:33:28+00:00",
+      "author": "/u/Efficient-Chain7827",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -1803,16 +1785,16 @@
       "best_rank": 10
     },
     {
-      "title": "Israeli minister confirms goal of large-scale expulsion of Palestinians from Gaza | Gaza",
-      "url": "https://www.theguardian.com/world/2026/may/28/israels-defence-minister-says-large-scale-palestinian-migration-from-gaza-will-go-ahead",
-      "external_url": "https://www.theguardian.com/world/2026/may/28/israels-defence-minister-says-large-scale-palestinian-migration-from-gaza-will-go-ahead",
-      "permalink": "https://www.reddit.com/r/france/comments/1triv1q/israeli_minister_confirms_goal_of_largescale/",
+      "title": "Connaître ses ennemis.",
+      "url": "https://www.reddit.com/r/france/comments/1tqudgt/connaître_ses_ennemis/",
+      "external_url": "https://www.reddit.com/gallery/1tq33h0",
+      "permalink": "https://www.reddit.com/r/france/comments/1tqudgt/connaître_ses_ennemis/",
       "subreddit": "france",
       "rank_in_sub": 11,
-      "published_at": "2026-05-29T23:12:37+00:00",
-      "author": "/u/Mooulay2",
-      "is_self": false,
-      "domain": "theguardian.com",
+      "published_at": "2026-05-29T07:30:50+00:00",
+      "author": "/u/Guilamu2",
+      "is_self": true,
+      "domain": "",
       "cross_subs": [
         "france"
       ],
@@ -1905,16 +1887,16 @@
       "best_rank": 11
     },
     {
-      "title": "Nada Surf - \"Losing\" [Visualizer]",
-      "url": "https://youtu.be/FgTyH7te5sY?si=pUF0txFZ_46dXSjn",
-      "external_url": "https://youtu.be/FgTyH7te5sY?si=pUF0txFZ_46dXSjn",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tqbjm9/nada_surf_losing_visualizer/",
+      "title": "İ need help finding romantic, old french music. Can yall help me?",
+      "url": "https://www.reddit.com/r/musique/comments/1tqclyg/i_need_help_finding_romantic_old_french_music_can/",
+      "external_url": "",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tqclyg/i_need_help_finding_romantic_old_french_music_can/",
       "subreddit": "musique",
       "rank_in_sub": 11,
-      "published_at": "2026-05-28T18:11:45+00:00",
-      "author": "/u/alexddfffff",
-      "is_self": false,
-      "domain": "youtu.be",
+      "published_at": "2026-05-28T18:49:23+00:00",
+      "author": "/u/OsmanCuneyd",
+      "is_self": true,
+      "domain": "",
       "cross_subs": [
         "musique"
       ],
@@ -1939,14 +1921,14 @@
       "best_rank": 11
     },
     {
-      "title": "VMC trop bruyante ?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1trssy5/vmc_trop_bruyante/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trssy5/vmc_trop_bruyante/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trssy5/vmc_trop_bruyante/",
+      "title": "Avis Hello fresh et ses concurrents ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trt3db/avis_hello_fresh_et_ses_concurrents/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trt3db/avis_hello_fresh_et_ses_concurrents/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trt3db/avis_hello_fresh_et_ses_concurrents/",
       "subreddit": "AskFrance",
       "rank_in_sub": 11,
-      "published_at": "2026-05-30T07:11:47+00:00",
-      "author": "/u/Encyklopedi",
+      "published_at": "2026-05-30T07:27:59+00:00",
+      "author": "/u/utea270",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -2075,16 +2057,16 @@
       "best_rank": 12
     },
     {
-      "title": "Rockabilly Riot — 40 titres remasterisés des années 50. Chuck Berry, Buddy Holly, Jerry Lee Lewis, Gene Vincent, Carl Perkins, Little Richard et bien d'autres. L'âge d'or du Rock'n'Roll, avec un son moderne.",
-      "url": "https://album.link/Rockabilly_Riot",
-      "external_url": "https://album.link/Rockabilly_Riot",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tq1wks/rockabilly_riot_40_titres_remasterisés_des_années/",
+      "title": "Nada Surf - \"Losing\" [Visualizer]",
+      "url": "https://youtu.be/FgTyH7te5sY?si=pUF0txFZ_46dXSjn",
+      "external_url": "https://youtu.be/FgTyH7te5sY?si=pUF0txFZ_46dXSjn",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tqbjm9/nada_surf_losing_visualizer/",
       "subreddit": "musique",
       "rank_in_sub": 12,
-      "published_at": "2026-05-28T12:18:16+00:00",
-      "author": "/u/Musicproducer67",
+      "published_at": "2026-05-28T18:11:45+00:00",
+      "author": "/u/alexddfffff",
       "is_self": false,
-      "domain": "album.link",
+      "domain": "youtu.be",
       "cross_subs": [
         "musique"
       ],
@@ -2109,14 +2091,14 @@
       "best_rank": 12
     },
     {
-      "title": "Comment vous avez fait pour vous reconstruire un cercle social après 25 ans ? Je me sens couler.",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1tr35hh/comment_vous_avez_fait_pour_vous_reconstruire_un/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr35hh/comment_vous_avez_fait_pour_vous_reconstruire_un/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr35hh/comment_vous_avez_fait_pour_vous_reconstruire_un/",
+      "title": "VMC trop bruyante ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trssy5/vmc_trop_bruyante/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trssy5/vmc_trop_bruyante/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trssy5/vmc_trop_bruyante/",
       "subreddit": "AskFrance",
       "rank_in_sub": 12,
-      "published_at": "2026-05-29T14:13:13+00:00",
-      "author": "/u/Electric_Seren88",
+      "published_at": "2026-05-30T07:11:47+00:00",
+      "author": "/u/Encyklopedi",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -2245,16 +2227,16 @@
       "best_rank": 13
     },
     {
-      "title": "Mefjus - beaucoup trop près (remake raté de Kikiz)",
-      "url": "https://www.reddit.com/r/musique/comments/1tpua5y/mefjus_beaucoup_trop_près_remake_raté_de_kikiz/",
-      "external_url": "",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tpua5y/mefjus_beaucoup_trop_près_remake_raté_de_kikiz/",
+      "title": "Rockabilly Riot — 40 titres remasterisés des années 50. Chuck Berry, Buddy Holly, Jerry Lee Lewis, Gene Vincent, Carl Perkins, Little Richard et bien d'autres. L'âge d'or du Rock'n'Roll, avec un son moderne.",
+      "url": "https://album.link/Rockabilly_Riot",
+      "external_url": "https://album.link/Rockabilly_Riot",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tq1wks/rockabilly_riot_40_titres_remasterisés_des_années/",
       "subreddit": "musique",
       "rank_in_sub": 13,
-      "published_at": "2026-05-28T05:32:08+00:00",
-      "author": "/u/klexou",
-      "is_self": true,
-      "domain": "",
+      "published_at": "2026-05-28T12:18:16+00:00",
+      "author": "/u/Musicproducer67",
+      "is_self": false,
+      "domain": "album.link",
       "cross_subs": [
         "musique"
       ],
@@ -2279,14 +2261,14 @@
       "best_rank": 13
     },
     {
-      "title": "comment gérer le deuil de ma copine ?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1tqkh94/comment_gérer_le_deuil_de_ma_copine/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tqkh94/comment_gérer_le_deuil_de_ma_copine/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tqkh94/comment_gérer_le_deuil_de_ma_copine/",
+      "title": "Comment vous avez fait pour vous reconstruire un cercle social après 25 ans ? Je me sens couler.",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1tr35hh/comment_vous_avez_fait_pour_vous_reconstruire_un/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr35hh/comment_vous_avez_fait_pour_vous_reconstruire_un/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr35hh/comment_vous_avez_fait_pour_vous_reconstruire_un/",
       "subreddit": "AskFrance",
       "rank_in_sub": 13,
-      "published_at": "2026-05-28T23:41:33+00:00",
-      "author": "/u/nifisnk",
+      "published_at": "2026-05-29T14:13:13+00:00",
+      "author": "/u/Electric_Seren88",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -2311,23 +2293,6 @@
       ],
       "cross_subs_count": 1,
       "best_rank": 13
-    },
-    {
-      "title": "Accusé de viols et d’agressions sexuelles, Patrick Bruel se retire des spectacles des Enfoirés",
-      "url": "https://www.lefigaro.fr/musique/accuse-de-viols-et-d-agressions-sexuelles-patrick-bruel-se-retire-des-spectacles-des-enfoires-20260529",
-      "external_url": "https://www.lefigaro.fr/musique/accuse-de-viols-et-d-agressions-sexuelles-patrick-bruel-se-retire-des-spectacles-des-enfoires-20260529",
-      "permalink": "https://www.reddit.com/r/france/comments/1tqy28p/accusé_de_viols_et_dagressions_sexuelles_patrick/",
-      "subreddit": "france",
-      "rank_in_sub": 14,
-      "published_at": "2026-05-29T10:49:17+00:00",
-      "author": "/u/Andvarey",
-      "is_self": false,
-      "domain": "lefigaro.fr",
-      "cross_subs": [
-        "france"
-      ],
-      "cross_subs_count": 1,
-      "best_rank": 14
     },
     {
       "title": "[Anglais] 2 blessés après la frappe d'un drone sur un immeuble roumain près de la frontière ukrainienne - BNO News",
@@ -2415,14 +2380,14 @@
       "best_rank": 14
     },
     {
-      "title": "Découverte de ouf",
-      "url": "https://www.reddit.com/r/musique/comments/1tpc7kx/découverte_de_ouf/",
-      "external_url": "https://www.reddit.com/r/musique/comments/1tpc7kx/découverte_de_ouf/",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tpc7kx/découverte_de_ouf/",
+      "title": "Mefjus - beaucoup trop près (remake raté de Kikiz)",
+      "url": "https://www.reddit.com/r/musique/comments/1tpua5y/mefjus_beaucoup_trop_près_remake_raté_de_kikiz/",
+      "external_url": "",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tpua5y/mefjus_beaucoup_trop_près_remake_raté_de_kikiz/",
       "subreddit": "musique",
       "rank_in_sub": 14,
-      "published_at": "2026-05-27T17:20:41+00:00",
-      "author": "/u/WorldlyWeather6174",
+      "published_at": "2026-05-28T05:32:08+00:00",
+      "author": "/u/klexou",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -2449,14 +2414,14 @@
       "best_rank": 14
     },
     {
-      "title": "Il y a t'il quelque chose qu'on fait en France en termes d'amour mais que personne ne fait ailleurs ?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1tr51gw/il_y_a_til_quelque_chose_quon_fait_en_france_en/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr51gw/il_y_a_til_quelque_chose_quon_fait_en_france_en/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr51gw/il_y_a_til_quelque_chose_quon_fait_en_france_en/",
+      "title": "comment gérer le deuil de ma copine ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1tqkh94/comment_gérer_le_deuil_de_ma_copine/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tqkh94/comment_gérer_le_deuil_de_ma_copine/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tqkh94/comment_gérer_le_deuil_de_ma_copine/",
       "subreddit": "AskFrance",
       "rank_in_sub": 14,
-      "published_at": "2026-05-29T15:16:50+00:00",
-      "author": "/u/Outrageous-You1617",
+      "published_at": "2026-05-28T23:41:33+00:00",
+      "author": "/u/nifisnk",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -2481,6 +2446,23 @@
       ],
       "cross_subs_count": 1,
       "best_rank": 14
+    },
+    {
+      "title": "Accusé de viols et d’agressions sexuelles, Patrick Bruel se retire des spectacles des Enfoirés",
+      "url": "https://www.lefigaro.fr/musique/accuse-de-viols-et-d-agressions-sexuelles-patrick-bruel-se-retire-des-spectacles-des-enfoires-20260529",
+      "external_url": "https://www.lefigaro.fr/musique/accuse-de-viols-et-d-agressions-sexuelles-patrick-bruel-se-retire-des-spectacles-des-enfoires-20260529",
+      "permalink": "https://www.reddit.com/r/france/comments/1tqy28p/accusé_de_viols_et_dagressions_sexuelles_patrick/",
+      "subreddit": "france",
+      "rank_in_sub": 15,
+      "published_at": "2026-05-29T10:49:17+00:00",
+      "author": "/u/Andvarey",
+      "is_self": false,
+      "domain": "lefigaro.fr",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 15
     },
     {
       "title": "Un jeune ouvrier de 19 ans meurt après avoir travaillé sur une toiture sous une chaleur intense",
@@ -2568,14 +2550,14 @@
       "best_rank": 15
     },
     {
-      "title": "Comment faire du heal toe ?",
-      "url": "https://www.reddit.com/r/musique/comments/1tpdf6p/comment_faire_du_heal_toe/",
-      "external_url": "",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tpdf6p/comment_faire_du_heal_toe/",
+      "title": "Découverte de ouf",
+      "url": "https://www.reddit.com/r/musique/comments/1tpc7kx/découverte_de_ouf/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1tpc7kx/découverte_de_ouf/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tpc7kx/découverte_de_ouf/",
       "subreddit": "musique",
       "rank_in_sub": 15,
-      "published_at": "2026-05-27T18:01:41+00:00",
-      "author": "/u/CAMPERMINATOR",
+      "published_at": "2026-05-27T17:20:41+00:00",
+      "author": "/u/WorldlyWeather6174",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -2602,14 +2584,14 @@
       "best_rank": 15
     },
     {
-      "title": "Peinture cloquée au-dessus de la douche après 6 ans de location : vétusté normale ?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1tr1lrn/peinture_cloquée_audessus_de_la_douche_après_6/",
-      "external_url": "https://www.reddit.com/gallery/1tr1lrn",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr1lrn/peinture_cloquée_audessus_de_la_douche_après_6/",
+      "title": "Il y a t'il quelque chose qu'on fait en France en termes d'amour mais que personne ne fait ailleurs ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1tr51gw/il_y_a_til_quelque_chose_quon_fait_en_france_en/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr51gw/il_y_a_til_quelque_chose_quon_fait_en_france_en/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr51gw/il_y_a_til_quelque_chose_quon_fait_en_france_en/",
       "subreddit": "AskFrance",
       "rank_in_sub": 15,
-      "published_at": "2026-05-29T13:17:09+00:00",
-      "author": "/u/last_cake_piece",
+      "published_at": "2026-05-29T15:16:50+00:00",
+      "author": "/u/Outrageous-You1617",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -2738,14 +2720,14 @@
       "best_rank": 16
     },
     {
-      "title": "L'affiche de la troisième édition du Festival Outsiders (Paris)",
-      "url": "https://www.reddit.com/r/musique/comments/1tp6fe4/laffiche_de_la_troisième_édition_du_festival/",
-      "external_url": "https://www.reddit.com/r/musique/comments/1tp6fe4/laffiche_de_la_troisième_édition_du_festival/",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tp6fe4/laffiche_de_la_troisième_édition_du_festival/",
+      "title": "Comment faire du heal toe ?",
+      "url": "https://www.reddit.com/r/musique/comments/1tpdf6p/comment_faire_du_heal_toe/",
+      "external_url": "",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tpdf6p/comment_faire_du_heal_toe/",
       "subreddit": "musique",
       "rank_in_sub": 16,
-      "published_at": "2026-05-27T13:59:40+00:00",
-      "author": "/u/sbo2026",
+      "published_at": "2026-05-27T18:01:41+00:00",
+      "author": "/u/CAMPERMINATOR",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -2772,14 +2754,14 @@
       "best_rank": 16
     },
     {
-      "title": "Pourquoi on écrit monsieur et que ça ce prononce meusieur ?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1tr3hee/pourquoi_on_écrit_monsieur_et_que_ça_ce_prononce/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr3hee/pourquoi_on_écrit_monsieur_et_que_ça_ce_prononce/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr3hee/pourquoi_on_écrit_monsieur_et_que_ça_ce_prononce/",
+      "title": "Peinture cloquée au-dessus de la douche après 6 ans de location : vétusté normale ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1tr1lrn/peinture_cloquée_audessus_de_la_douche_après_6/",
+      "external_url": "https://www.reddit.com/gallery/1tr1lrn",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr1lrn/peinture_cloquée_audessus_de_la_douche_après_6/",
       "subreddit": "AskFrance",
       "rank_in_sub": 16,
-      "published_at": "2026-05-29T14:24:52+00:00",
-      "author": "/u/Outrageous-You1617",
+      "published_at": "2026-05-29T13:17:09+00:00",
+      "author": "/u/last_cake_piece",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -2908,16 +2890,16 @@
       "best_rank": 17
     },
     {
-      "title": "Dans mes nuits – Philonico 🌹",
-      "url": "https://youtube.com/watch?v=8v7jZNzYD6o&amp;si=uXjBYYwNGBVQSJng",
-      "external_url": "https://youtube.com/watch?v=8v7jZNzYD6o&amp;si=uXjBYYwNGBVQSJng",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tp0o6g/dans_mes_nuits_philonico/",
+      "title": "L'affiche de la troisième édition du Festival Outsiders (Paris)",
+      "url": "https://www.reddit.com/r/musique/comments/1tp6fe4/laffiche_de_la_troisième_édition_du_festival/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1tp6fe4/laffiche_de_la_troisième_édition_du_festival/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tp6fe4/laffiche_de_la_troisième_édition_du_festival/",
       "subreddit": "musique",
       "rank_in_sub": 17,
-      "published_at": "2026-05-27T09:42:11+00:00",
-      "author": "/u/Philokarl",
-      "is_self": false,
-      "domain": "youtube.com",
+      "published_at": "2026-05-27T13:59:40+00:00",
+      "author": "/u/sbo2026",
+      "is_self": true,
+      "domain": "",
       "cross_subs": [
         "musique"
       ],
@@ -2942,14 +2924,14 @@
       "best_rank": 17
     },
     {
-      "title": "Avez-vous déjà réussi à renouer avec un(e) ami(e) d'enfance ?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1trgd0z/avezvous_déjà_réussi_à_renouer_avec_une_amie/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trgd0z/avezvous_déjà_réussi_à_renouer_avec_une_amie/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trgd0z/avezvous_déjà_réussi_à_renouer_avec_une_amie/",
+      "title": "Pourquoi on écrit monsieur et que ça ce prononce meusieur ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1tr3hee/pourquoi_on_écrit_monsieur_et_que_ça_ce_prononce/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr3hee/pourquoi_on_écrit_monsieur_et_que_ça_ce_prononce/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr3hee/pourquoi_on_écrit_monsieur_et_que_ça_ce_prononce/",
       "subreddit": "AskFrance",
       "rank_in_sub": 17,
-      "published_at": "2026-05-29T21:32:23+00:00",
-      "author": "/u/naadsan",
+      "published_at": "2026-05-29T14:24:52+00:00",
+      "author": "/u/Outrageous-You1617",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -2959,16 +2941,16 @@
       "best_rank": 17
     },
     {
-      "title": "EU Says it Needs €120 Billion to Revive Local Chip Production",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-28/eu-says-it-needs-120-billion-to-revive-local-chip-production?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDA1NjYxNCwiZXhwIjoxNzgwNjYxNDE0LCJhcnRpY2xlSWQiOiJURlFaRFNUOTZPU0cwMCIsImJjb25uZWN0SWQiOiIwNzg4NjNDMkY2RjI0REQ4OEQ2QjZGRTIyQ0E1RjJGRiJ9.3eG_Fvni1E0XuD7fndBbUMaqLzEEFyZI0bOAtMU-v24",
-      "external_url": "https://www.bloomberg.com/news/articles/2026-05-28/eu-says-it-needs-120-billion-to-revive-local-chip-production?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDA1NjYxNCwiZXhwIjoxNzgwNjYxNDE0LCJhcnRpY2xlSWQiOiJURlFaRFNUOTZPU0cwMCIsImJjb25uZWN0SWQiOiIwNzg4NjNDMkY2RjI0REQ4OEQ2QjZGRTIyQ0E1RjJGRiJ9.3eG_Fvni1E0XuD7fndBbUMaqLzEEFyZI0bOAtMU-v24",
-      "permalink": "https://www.reddit.com/r/europe/comments/1tqzwdk/eu_says_it_needs_120_billion_to_revive_local_chip/",
+      "title": "Serbia's spiteful anti-opposition billboard blocks endangered t. melba birds from feeding their young in their nests",
+      "url": "https://www.reddit.com/r/europe/comments/1trfopy/serbias_spiteful_antiopposition_billboard_blocks/",
+      "external_url": "https://www.reddit.com/r/serbia/comments/1tr9vkk/bele_%C4%8Diope_o%C4%8Dajni%C4%8Dki_kru%C5%BEe_i_ogla%C5%A1avaju_se_jer_ne/",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trfopy/serbias_spiteful_antiopposition_billboard_blocks/",
       "subreddit": "europe",
       "rank_in_sub": 17,
-      "published_at": "2026-05-29T12:10:43+00:00",
-      "author": "/u/Cao_Ni-Ma",
-      "is_self": false,
-      "domain": "bloomberg.com",
+      "published_at": "2026-05-29T21:07:18+00:00",
+      "author": "/u/kr4ft3r",
+      "is_self": true,
+      "domain": "",
       "cross_subs": [
         "europe"
       ],
@@ -3078,14 +3060,14 @@
       "best_rank": 18
     },
     {
-      "title": "Macnz Ottawa 2026 G2C",
-      "url": "https://youtube.com/shorts/xQKFUsnqIp8?si=vqUfsRbYrevTQLrT",
-      "external_url": "https://youtube.com/shorts/xQKFUsnqIp8?si=vqUfsRbYrevTQLrT",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tolrnj/macnz_ottawa_2026_g2c/",
+      "title": "Dans mes nuits – Philonico 🌹",
+      "url": "https://youtube.com/watch?v=8v7jZNzYD6o&amp;si=uXjBYYwNGBVQSJng",
+      "external_url": "https://youtube.com/watch?v=8v7jZNzYD6o&amp;si=uXjBYYwNGBVQSJng",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tp0o6g/dans_mes_nuits_philonico/",
       "subreddit": "musique",
       "rank_in_sub": 18,
-      "published_at": "2026-05-26T22:01:38+00:00",
-      "author": "/u/MACNZ1111",
+      "published_at": "2026-05-27T09:42:11+00:00",
+      "author": "/u/Philokarl",
       "is_self": false,
       "domain": "youtube.com",
       "cross_subs": [
@@ -3112,14 +3094,14 @@
       "best_rank": 18
     },
     {
-      "title": "Comment faites-vous pour supporter le travail ?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1tr4gi2/comment_faitesvous_pour_supporter_le_travail/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr4gi2/comment_faitesvous_pour_supporter_le_travail/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr4gi2/comment_faitesvous_pour_supporter_le_travail/",
+      "title": "Avez-vous déjà réussi à renouer avec un(e) ami(e) d'enfance ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trgd0z/avezvous_déjà_réussi_à_renouer_avec_une_amie/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trgd0z/avezvous_déjà_réussi_à_renouer_avec_une_amie/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trgd0z/avezvous_déjà_réussi_à_renouer_avec_une_amie/",
       "subreddit": "AskFrance",
       "rank_in_sub": 18,
-      "published_at": "2026-05-29T14:58:03+00:00",
-      "author": "/u/Physical_planning",
+      "published_at": "2026-05-29T21:32:23+00:00",
+      "author": "/u/naadsan",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -3129,16 +3111,16 @@
       "best_rank": 18
     },
     {
-      "title": "Serbia's spiteful anti-opposition billboard blocks endangered t. melba birds from feeding their young in their nests",
-      "url": "https://www.reddit.com/r/europe/comments/1trfopy/serbias_spiteful_antiopposition_billboard_blocks/",
-      "external_url": "https://www.reddit.com/r/serbia/comments/1tr9vkk/bele_%C4%8Diope_o%C4%8Dajni%C4%8Dki_kru%C5%BEe_i_ogla%C5%A1avaju_se_jer_ne/",
-      "permalink": "https://www.reddit.com/r/europe/comments/1trfopy/serbias_spiteful_antiopposition_billboard_blocks/",
+      "title": "EU Says it Needs €120 Billion to Revive Local Chip Production",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-28/eu-says-it-needs-120-billion-to-revive-local-chip-production?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDA1NjYxNCwiZXhwIjoxNzgwNjYxNDE0LCJhcnRpY2xlSWQiOiJURlFaRFNUOTZPU0cwMCIsImJjb25uZWN0SWQiOiIwNzg4NjNDMkY2RjI0REQ4OEQ2QjZGRTIyQ0E1RjJGRiJ9.3eG_Fvni1E0XuD7fndBbUMaqLzEEFyZI0bOAtMU-v24",
+      "external_url": "https://www.bloomberg.com/news/articles/2026-05-28/eu-says-it-needs-120-billion-to-revive-local-chip-production?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MDA1NjYxNCwiZXhwIjoxNzgwNjYxNDE0LCJhcnRpY2xlSWQiOiJURlFaRFNUOTZPU0cwMCIsImJjb25uZWN0SWQiOiIwNzg4NjNDMkY2RjI0REQ4OEQ2QjZGRTIyQ0E1RjJGRiJ9.3eG_Fvni1E0XuD7fndBbUMaqLzEEFyZI0bOAtMU-v24",
+      "permalink": "https://www.reddit.com/r/europe/comments/1tqzwdk/eu_says_it_needs_120_billion_to_revive_local_chip/",
       "subreddit": "europe",
       "rank_in_sub": 18,
-      "published_at": "2026-05-29T21:07:18+00:00",
-      "author": "/u/kr4ft3r",
-      "is_self": true,
-      "domain": "",
+      "published_at": "2026-05-29T12:10:43+00:00",
+      "author": "/u/Cao_Ni-Ma",
+      "is_self": false,
+      "domain": "bloomberg.com",
       "cross_subs": [
         "europe"
       ],
@@ -3248,6 +3230,23 @@
       "best_rank": 19
     },
     {
+      "title": "Macnz Ottawa 2026 G2C",
+      "url": "https://youtube.com/shorts/xQKFUsnqIp8?si=vqUfsRbYrevTQLrT",
+      "external_url": "https://youtube.com/shorts/xQKFUsnqIp8?si=vqUfsRbYrevTQLrT",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tolrnj/macnz_ottawa_2026_g2c/",
+      "subreddit": "musique",
+      "rank_in_sub": 19,
+      "published_at": "2026-05-26T22:01:38+00:00",
+      "author": "/u/MACNZ1111",
+      "is_self": false,
+      "domain": "youtube.com",
+      "cross_subs": [
+        "musique"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 19
+    },
+    {
       "title": "Moelleux citron et myrtilles 🍋🫐",
       "url": "https://www.reddit.com/r/cuisine/comments/1towf4r/moelleux_citron_et_myrtilles/",
       "external_url": "https://www.reddit.com/r/cuisine/comments/1towf4r/moelleux_citron_et_myrtilles/",
@@ -3265,14 +3264,14 @@
       "best_rank": 19
     },
     {
-      "title": "Peut un étranger acheter des lunettes (sans remboursement) en France avec ordonnance hors-EU ?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1trgtp9/peut_un_étranger_acheter_des_lunettes_sans/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trgtp9/peut_un_étranger_acheter_des_lunettes_sans/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trgtp9/peut_un_étranger_acheter_des_lunettes_sans/",
+      "title": "Comment faites-vous pour supporter le travail ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1tr4gi2/comment_faitesvous_pour_supporter_le_travail/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr4gi2/comment_faitesvous_pour_supporter_le_travail/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr4gi2/comment_faitesvous_pour_supporter_le_travail/",
       "subreddit": "AskFrance",
       "rank_in_sub": 19,
-      "published_at": "2026-05-29T21:50:19+00:00",
-      "author": "/u/seb-knight",
+      "published_at": "2026-05-29T14:58:03+00:00",
+      "author": "/u/Physical_planning",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -3401,23 +3400,6 @@
       "best_rank": 20
     },
     {
-      "title": "Places AYA 30/05 STADE DE FRANCE",
-      "url": "https://www.reddit.com/r/musique/comments/1toj1e1/places_aya_3005_stade_de_france/",
-      "external_url": "https://www.reddit.com/r/musique/comments/1toj1e1/places_aya_3005_stade_de_france/",
-      "permalink": "https://www.reddit.com/r/musique/comments/1toj1e1/places_aya_3005_stade_de_france/",
-      "subreddit": "musique",
-      "rank_in_sub": 20,
-      "published_at": "2026-05-26T20:22:51+00:00",
-      "author": "/u/TurnCurrent6952",
-      "is_self": true,
-      "domain": "",
-      "cross_subs": [
-        "musique"
-      ],
-      "cross_subs_count": 1,
-      "best_rank": 20
-    },
-    {
       "title": "Vos recette de la canicule ?",
       "url": "https://www.reddit.com/r/cuisine/comments/1to74q9/vos_recette_de_la_canicule/",
       "external_url": "https://www.reddit.com/gallery/1to74q9",
@@ -3435,14 +3417,14 @@
       "best_rank": 20
     },
     {
-      "title": "Nouveau travail : et vous, vous auriez fait quoi ?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1tr0slo/nouveau_travail_et_vous_vous_auriez_fait_quoi/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr0slo/nouveau_travail_et_vous_vous_auriez_fait_quoi/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr0slo/nouveau_travail_et_vous_vous_auriez_fait_quoi/",
+      "title": "Peut un étranger acheter des lunettes (sans remboursement) en France avec ordonnance hors-EU ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trgtp9/peut_un_étranger_acheter_des_lunettes_sans/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trgtp9/peut_un_étranger_acheter_des_lunettes_sans/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trgtp9/peut_un_étranger_acheter_des_lunettes_sans/",
       "subreddit": "AskFrance",
       "rank_in_sub": 20,
-      "published_at": "2026-05-29T12:46:45+00:00",
-      "author": "/u/chimerebleue",
+      "published_at": "2026-05-29T21:50:19+00:00",
+      "author": "/u/seb-knight",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -3452,16 +3434,16 @@
       "best_rank": 20
     },
     {
-      "title": "“Stripping Zelensky of the Order of the White Eagle.” Nawrocki's proposal.",
-      "url": "https://wydarzenia.interia.pl/kraj/news-odebranie-zelenskiemu-orderu-orla-bialego-propozycja-nawrock,nId,23489320",
-      "external_url": "https://wydarzenia.interia.pl/kraj/news-odebranie-zelenskiemu-orderu-orla-bialego-propozycja-nawrock,nId,23489320",
-      "permalink": "https://www.reddit.com/r/europe/comments/1tqw3ln/stripping_zelensky_of_the_order_of_the_white/",
+      "title": "Voting starts in Malta parliamentary elections, ruling party set to win",
+      "url": "https://www.reuters.com/world/voting-starts-malta-parliamentary-elections-ruling-party-set-win-2026-05-30/",
+      "external_url": "https://www.reuters.com/world/voting-starts-malta-parliamentary-elections-ruling-party-set-win-2026-05-30/",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trrd3h/voting_starts_in_malta_parliamentary_elections/",
       "subreddit": "europe",
       "rank_in_sub": 20,
-      "published_at": "2026-05-29T09:07:41+00:00",
-      "author": "/u/sidorfik",
+      "published_at": "2026-05-30T05:53:37+00:00",
+      "author": "/u/Massimo25ore",
       "is_self": false,
-      "domain": "wydarzenia.interia.pl",
+      "domain": "reuters.com",
       "cross_subs": [
         "europe"
       ],
@@ -3571,14 +3553,14 @@
       "best_rank": 21
     },
     {
-      "title": "Je vends 1 place pour Damso le 30 mai 2026",
-      "url": "https://www.reddit.com/r/musique/comments/1togn3b/je_vends_1_place_pour_damso_le_30_mai_2026/",
-      "external_url": "https://www.reddit.com/r/musique/comments/1togn3b/je_vends_1_place_pour_damso_le_30_mai_2026/",
-      "permalink": "https://www.reddit.com/r/musique/comments/1togn3b/je_vends_1_place_pour_damso_le_30_mai_2026/",
+      "title": "Places AYA 30/05 STADE DE FRANCE",
+      "url": "https://www.reddit.com/r/musique/comments/1toj1e1/places_aya_3005_stade_de_france/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1toj1e1/places_aya_3005_stade_de_france/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1toj1e1/places_aya_3005_stade_de_france/",
       "subreddit": "musique",
       "rank_in_sub": 21,
-      "published_at": "2026-05-26T19:00:39+00:00",
-      "author": "/u/Malo_7002",
+      "published_at": "2026-05-26T20:22:51+00:00",
+      "author": "/u/TurnCurrent6952",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -3605,14 +3587,14 @@
       "best_rank": 21
     },
     {
-      "title": "Luko / Allianz : Ma cuisine est détruite par un incendie et leur IA me raccroche au nez. Quelqu’un a déjà réussi à joindre un humain chez eux ?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1tqy20z/luko_allianz_ma_cuisine_est_détruite_par_un/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tqy20z/luko_allianz_ma_cuisine_est_détruite_par_un/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tqy20z/luko_allianz_ma_cuisine_est_détruite_par_un/",
+      "title": "Nouveau travail : et vous, vous auriez fait quoi ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1tr0slo/nouveau_travail_et_vous_vous_auriez_fait_quoi/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr0slo/nouveau_travail_et_vous_vous_auriez_fait_quoi/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr0slo/nouveau_travail_et_vous_vous_auriez_fait_quoi/",
       "subreddit": "AskFrance",
       "rank_in_sub": 21,
-      "published_at": "2026-05-29T10:48:57+00:00",
-      "author": "/u/hungary70",
+      "published_at": "2026-05-29T12:46:45+00:00",
+      "author": "/u/chimerebleue",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -3622,16 +3604,16 @@
       "best_rank": 21
     },
     {
-      "title": "Voting starts in Malta parliamentary elections, ruling party set to win",
-      "url": "https://www.reuters.com/world/voting-starts-malta-parliamentary-elections-ruling-party-set-win-2026-05-30/",
-      "external_url": "https://www.reuters.com/world/voting-starts-malta-parliamentary-elections-ruling-party-set-win-2026-05-30/",
-      "permalink": "https://www.reddit.com/r/europe/comments/1trrd3h/voting_starts_in_malta_parliamentary_elections/",
+      "title": "“Stripping Zelensky of the Order of the White Eagle.” Nawrocki's proposal.",
+      "url": "https://wydarzenia.interia.pl/kraj/news-odebranie-zelenskiemu-orderu-orla-bialego-propozycja-nawrock,nId,23489320",
+      "external_url": "https://wydarzenia.interia.pl/kraj/news-odebranie-zelenskiemu-orderu-orla-bialego-propozycja-nawrock,nId,23489320",
+      "permalink": "https://www.reddit.com/r/europe/comments/1tqw3ln/stripping_zelensky_of_the_order_of_the_white/",
       "subreddit": "europe",
       "rank_in_sub": 21,
-      "published_at": "2026-05-30T05:53:37+00:00",
-      "author": "/u/Massimo25ore",
+      "published_at": "2026-05-29T09:07:41+00:00",
+      "author": "/u/sidorfik",
       "is_self": false,
-      "domain": "reuters.com",
+      "domain": "wydarzenia.interia.pl",
       "cross_subs": [
         "europe"
       ],
@@ -3741,16 +3723,16 @@
       "best_rank": 22
     },
     {
-      "title": "Diving into some spacey Synthwave & Ambient Beats with the SP-404MKII 🌌",
-      "url": "https://youtu.be/CjCailMDQZM",
-      "external_url": "https://youtu.be/CjCailMDQZM",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tofhhr/diving_into_some_spacey_synthwave_ambient_beats/",
+      "title": "Je vends 1 place pour Damso le 30 mai 2026",
+      "url": "https://www.reddit.com/r/musique/comments/1togn3b/je_vends_1_place_pour_damso_le_30_mai_2026/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1togn3b/je_vends_1_place_pour_damso_le_30_mai_2026/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1togn3b/je_vends_1_place_pour_damso_le_30_mai_2026/",
       "subreddit": "musique",
       "rank_in_sub": 22,
-      "published_at": "2026-05-26T18:21:44+00:00",
-      "author": "/u/annawakrecords",
-      "is_self": false,
-      "domain": "youtu.be",
+      "published_at": "2026-05-26T19:00:39+00:00",
+      "author": "/u/Malo_7002",
+      "is_self": true,
+      "domain": "",
       "cross_subs": [
         "musique"
       ],
@@ -3775,16 +3757,16 @@
       "best_rank": 22
     },
     {
-      "title": "C'est quoi cet insecte ????",
-      "url": "https://i.redd.it/bqouhtpjh44h1.jpeg",
-      "external_url": "https://i.redd.it/bqouhtpjh44h1.jpeg",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trbou9/cest_quoi_cet_insecte/",
+      "title": "Luko / Allianz : Ma cuisine est détruite par un incendie et leur IA me raccroche au nez. Quelqu’un a déjà réussi à joindre un humain chez eux ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1tqy20z/luko_allianz_ma_cuisine_est_détruite_par_un/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tqy20z/luko_allianz_ma_cuisine_est_détruite_par_un/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tqy20z/luko_allianz_ma_cuisine_est_détruite_par_un/",
       "subreddit": "AskFrance",
       "rank_in_sub": 22,
-      "published_at": "2026-05-29T18:50:02+00:00",
-      "author": "/u/Weird_Farmer3372",
-      "is_self": false,
-      "domain": "i.redd.it",
+      "published_at": "2026-05-29T10:48:57+00:00",
+      "author": "/u/hungary70",
+      "is_self": true,
+      "domain": "",
       "cross_subs": [
         "AskFrance"
       ],
@@ -3911,16 +3893,16 @@
       "best_rank": 23
     },
     {
-      "title": "Tremplin Rétro C Trop",
-      "url": "https://www.reddit.com/r/musique/comments/1to362i/tremplin_rétro_c_trop/",
-      "external_url": "https://www.reddit.com/r/musique/comments/1to362i/tremplin_rétro_c_trop/",
-      "permalink": "https://www.reddit.com/r/musique/comments/1to362i/tremplin_rétro_c_trop/",
+      "title": "Diving into some spacey Synthwave & Ambient Beats with the SP-404MKII 🌌",
+      "url": "https://youtu.be/CjCailMDQZM",
+      "external_url": "https://youtu.be/CjCailMDQZM",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tofhhr/diving_into_some_spacey_synthwave_ambient_beats/",
       "subreddit": "musique",
       "rank_in_sub": 23,
-      "published_at": "2026-05-26T10:42:25+00:00",
-      "author": "/u/Strict_Cash5524",
-      "is_self": true,
-      "domain": "",
+      "published_at": "2026-05-26T18:21:44+00:00",
+      "author": "/u/annawakrecords",
+      "is_self": false,
+      "domain": "youtu.be",
       "cross_subs": [
         "musique"
       ],
@@ -3945,16 +3927,16 @@
       "best_rank": 23
     },
     {
-      "title": "For people living in France (locals or expats)Do museums still feel meaningful to you over time, or do they eventually start feeling more like places for tourists?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1tr28yc/for_people_living_in_france_locals_or_expatsdo/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr28yc/for_people_living_in_france_locals_or_expatsdo/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr28yc/for_people_living_in_france_locals_or_expatsdo/",
+      "title": "C'est quoi cet insecte ????",
+      "url": "https://i.redd.it/bqouhtpjh44h1.jpeg",
+      "external_url": "https://i.redd.it/bqouhtpjh44h1.jpeg",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trbou9/cest_quoi_cet_insecte/",
       "subreddit": "AskFrance",
       "rank_in_sub": 23,
-      "published_at": "2026-05-29T13:40:43+00:00",
-      "author": "/u/Academic_Sport9829",
-      "is_self": true,
-      "domain": "",
+      "published_at": "2026-05-29T18:50:02+00:00",
+      "author": "/u/Weird_Farmer3372",
+      "is_self": false,
+      "domain": "i.redd.it",
       "cross_subs": [
         "AskFrance"
       ],
@@ -3977,6 +3959,23 @@
       ],
       "cross_subs_count": 1,
       "best_rank": 23
+    },
+    {
+      "title": "Americans who get Ebola will go to Europe for treatment, not U.S., officials say",
+      "url": "https://www.nbcnews.com/health/health-news/americans-ebola-go-europe-treatment-not-us-rcna347364",
+      "external_url": "https://www.nbcnews.com/health/health-news/americans-ebola-go-europe-treatment-not-us-rcna347364",
+      "permalink": "https://www.reddit.com/r/france/comments/1tqtfde/americans_who_get_ebola_will_go_to_europe_for/",
+      "subreddit": "france",
+      "rank_in_sub": 24,
+      "published_at": "2026-05-29T06:39:58+00:00",
+      "author": "/u/Hawne",
+      "is_self": false,
+      "domain": "nbcnews.com",
+      "cross_subs": [
+        "france"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 24
     },
     {
       "title": "Bardella ne déclare pas tous ses rendez-vous avec des lobbies",
@@ -4064,16 +4063,16 @@
       "best_rank": 24
     },
     {
-      "title": "Nouvelle version de \"Monde Parfait\"",
-      "url": "https://www.youtube.com/watch?v=15C0u6-gMrE",
-      "external_url": "https://www.youtube.com/watch?v=15C0u6-gMrE",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tni4g9/nouvelle_version_de_monde_parfait/",
+      "title": "Tremplin Rétro C Trop",
+      "url": "https://www.reddit.com/r/musique/comments/1to362i/tremplin_rétro_c_trop/",
+      "external_url": "https://www.reddit.com/r/musique/comments/1to362i/tremplin_rétro_c_trop/",
+      "permalink": "https://www.reddit.com/r/musique/comments/1to362i/tremplin_rétro_c_trop/",
       "subreddit": "musique",
       "rank_in_sub": 24,
-      "published_at": "2026-05-25T18:47:17+00:00",
-      "author": "/u/Skoyatt",
-      "is_self": false,
-      "domain": "youtube.com",
+      "published_at": "2026-05-26T10:42:25+00:00",
+      "author": "/u/Strict_Cash5524",
+      "is_self": true,
+      "domain": "",
       "cross_subs": [
         "musique"
       ],
@@ -4098,14 +4097,14 @@
       "best_rank": 24
     },
     {
-      "title": "Offrir un rhum HSE ?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1tr5vsi/offrir_un_rhum_hse/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr5vsi/offrir_un_rhum_hse/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr5vsi/offrir_un_rhum_hse/",
+      "title": "Que pensez-vous de l'expression \"qui ne dit mot consent\" ?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1trb4k9/que_pensezvous_de_lexpression_qui_ne_dit_mot/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1trb4k9/que_pensezvous_de_lexpression_qui_ne_dit_mot/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1trb4k9/que_pensezvous_de_lexpression_qui_ne_dit_mot/",
       "subreddit": "AskFrance",
       "rank_in_sub": 24,
-      "published_at": "2026-05-29T15:44:22+00:00",
-      "author": "/u/-Red_Lightning_",
+      "published_at": "2026-05-29T18:31:47+00:00",
+      "author": "/u/Misdow",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -4115,16 +4114,33 @@
       "best_rank": 24
     },
     {
-      "title": "«Ce genre de match doit être arbitré par un homme» : le dérapage de Vallejo après sa défaite contre Kouame à Roland-Garros",
-      "url": "https://www.lefigaro.fr/sports/tennis/roland-garros/si-nous-avions-joue-dans-une-autre-ville-il-aurait-perdu-vallejo-furieux-contre-l-arbitrage-apres-sa-defaite-contre-kouame-a-roland-garros-20260529",
-      "external_url": "https://www.lefigaro.fr/sports/tennis/roland-garros/si-nous-avions-joue-dans-une-autre-ville-il-aurait-perdu-vallejo-furieux-contre-l-arbitrage-apres-sa-defaite-contre-kouame-a-roland-garros-20260529",
-      "permalink": "https://www.reddit.com/r/france/comments/1tr2587/ce_genre_de_match_doit_être_arbitré_par_un_homme/",
+      "title": "The lowest NEET (neither in employment nor in education or training) rates for young people were registered in the Netherlands (5.3%), Sweden (5.9%) and Slovenia (7.6%). In contrast, the highest rates were in Romania (19.2%), Bulgaria (13.8%) and Greece (13.6%).",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260528-2",
+      "external_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260528-2",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trq7no/the_lowest_neet_neither_in_employment_nor_in/",
+      "subreddit": "europe",
+      "rank_in_sub": 24,
+      "published_at": "2026-05-30T04:54:46+00:00",
+      "author": "/u/nimicdoareu",
+      "is_self": false,
+      "domain": "ec.europa.eu",
+      "cross_subs": [
+        "europe"
+      ],
+      "cross_subs_count": 1,
+      "best_rank": 24
+    },
+    {
+      "title": "La France accélère sur le nucléaire : périlleux ou indispensable ? - Public Sénat",
+      "url": "https://www.publicsenat.fr/emission/sens-public/la-france-accelere-sur-le-nucleaire-perilleux-ou-indispensable-e0?trk=feed_main-feed-card_reshare_feed-article-content",
+      "external_url": "https://www.publicsenat.fr/emission/sens-public/la-france-accelere-sur-le-nucleaire-perilleux-ou-indispensable-e0?trk=feed_main-feed-card_reshare_feed-article-content",
+      "permalink": "https://www.reddit.com/r/france/comments/1tre6w4/la_france_accélère_sur_le_nucléaire_périlleux_ou/",
       "subreddit": "france",
       "rank_in_sub": 25,
-      "published_at": "2026-05-29T13:36:48+00:00",
-      "author": "/u/Dreynard",
+      "published_at": "2026-05-29T20:12:27+00:00",
+      "author": "/u/233C",
       "is_self": false,
-      "domain": "lefigaro.fr",
+      "domain": "publicsenat.fr",
       "cross_subs": [
         "france"
       ],
@@ -4217,16 +4233,16 @@
       "best_rank": 25
     },
     {
-      "title": "Conseil mod incredibox",
-      "url": "https://www.reddit.com/r/musique/comments/1tnkihb/conseil_mod_incredibox/",
-      "external_url": "https://www.reddit.com/r/musique/comments/1tnkihb/conseil_mod_incredibox/",
-      "permalink": "https://www.reddit.com/r/musique/comments/1tnkihb/conseil_mod_incredibox/",
+      "title": "Nouvelle version de \"Monde Parfait\"",
+      "url": "https://www.youtube.com/watch?v=15C0u6-gMrE",
+      "external_url": "https://www.youtube.com/watch?v=15C0u6-gMrE",
+      "permalink": "https://www.reddit.com/r/musique/comments/1tni4g9/nouvelle_version_de_monde_parfait/",
       "subreddit": "musique",
       "rank_in_sub": 25,
-      "published_at": "2026-05-25T20:14:06+00:00",
-      "author": "/u/Extreme_ware",
-      "is_self": true,
-      "domain": "",
+      "published_at": "2026-05-25T18:47:17+00:00",
+      "author": "/u/Skoyatt",
+      "is_self": false,
+      "domain": "youtube.com",
       "cross_subs": [
         "musique"
       ],
@@ -4251,14 +4267,14 @@
       "best_rank": 25
     },
     {
-      "title": "Pour ceux qui sont pile entre deux pointures, vous preferez trop grand ou trop petit?",
-      "url": "https://www.reddit.com/r/AskFrance/comments/1tr37d7/pour_ceux_qui_sont_pile_entre_deux_pointures_vous/",
-      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr37d7/pour_ceux_qui_sont_pile_entre_deux_pointures_vous/",
-      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr37d7/pour_ceux_qui_sont_pile_entre_deux_pointures_vous/",
+      "title": "For people living in France (locals or expats)Do museums still feel meaningful to you over time, or do they eventually start feeling more like places for tourists?",
+      "url": "https://www.reddit.com/r/AskFrance/comments/1tr28yc/for_people_living_in_france_locals_or_expatsdo/",
+      "external_url": "https://www.reddit.com/r/AskFrance/comments/1tr28yc/for_people_living_in_france_locals_or_expatsdo/",
+      "permalink": "https://www.reddit.com/r/AskFrance/comments/1tr28yc/for_people_living_in_france_locals_or_expatsdo/",
       "subreddit": "AskFrance",
       "rank_in_sub": 25,
-      "published_at": "2026-05-29T14:14:59+00:00",
-      "author": "/u/chinchenping",
+      "published_at": "2026-05-29T13:40:43+00:00",
+      "author": "/u/Academic_Sport9829",
       "is_self": true,
       "domain": "",
       "cross_subs": [
@@ -4268,16 +4284,16 @@
       "best_rank": 25
     },
     {
-      "title": "Putin says Armenia’s EU path should serve Armenian interests",
-      "url": "https://armenpress.am/en/article/1251550",
-      "external_url": "https://armenpress.am/en/article/1251550",
-      "permalink": "https://www.reddit.com/r/europe/comments/1trkmm1/putin_says_armenias_eu_path_should_serve_armenian/",
+      "title": "Berlin gives the OK for tougher trade action on China",
+      "url": "https://www.politico.eu/article/germany-gives-ok-for-tougher-trade-action-china/",
+      "external_url": "https://www.politico.eu/article/germany-gives-ok-for-tougher-trade-action-china/",
+      "permalink": "https://www.reddit.com/r/europe/comments/1trsrto/berlin_gives_the_ok_for_tougher_trade_action_on/",
       "subreddit": "europe",
       "rank_in_sub": 25,
-      "published_at": "2026-05-30T00:28:06+00:00",
-      "author": "/u/dssevag",
+      "published_at": "2026-05-30T07:09:59+00:00",
+      "author": "/u/Any-Original-6113",
       "is_self": false,
-      "domain": "armenpress.am",
+      "domain": "politico.eu",
       "cross_subs": [
         "europe"
       ],
