@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T14:11:53Z",
+  "generated_at": "2026-05-30T18:22:17Z",
   "sources_used": {
     "msn": {
       "fetched_at": "2026-05-30T14:11:36Z",
@@ -22,8 +22,8 @@
       "count": 935
     },
     "google_news": {
-      "fetched_at": "2026-05-30T14:11:46Z",
-      "count": 429
+      "fetched_at": "2026-05-30T18:09:18Z",
+      "count": 469
     },
     "reddit": {
       "fetched_at": "2026-05-30T14:11:50Z",
@@ -49,8 +49,8 @@
     "kept": 30,
     "by_tier": {
       "high": 6,
-      "medium": 11,
-      "low": 13
+      "medium": 10,
+      "low": 14
     }
   },
   "sujets": [
@@ -59,9 +59,9 @@
       "rank": 1,
       "title": "Moïse Kouamé : coup de théâtre à Roland-Garros, son adversaire condamné pour sexisme",
       "theme": "sport",
-      "score": 65,
+      "score": 66,
       "tier": "high",
-      "rationale": "Pic Google Trends (100 000 recherches) · forte audience Wikipedia (79 632 vues/jour) · forte couverture médiatique (5 médias) · mentionné sur X.",
+      "rationale": "Pic Google Trends (100 000 recherches) · forte audience Wikipedia (79 632 vues/jour) · forte couverture médiatique (7 médias) · mentionné sur X.",
       "signals": [
         {
           "source": "discover",
@@ -71,7 +71,7 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "5 médias"
+          "value": "7 médias"
         },
         {
           "source": "trends",
@@ -102,8 +102,8 @@
         },
         {
           "name": "Google News",
-          "value": "5 médias",
-          "fill": 86
+          "value": "7 médias",
+          "fill": 96
         },
         {
           "name": "Google Trends",
@@ -140,12 +140,12 @@
         "discover": 0.0,
         "trends": 100.0,
         "wiki": 100.0,
-        "gnews": 86.3,
+        "gnews": 97.0,
         "msn": 55.7,
         "x": 20.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 64.7
+        "total": 66.2
       },
       "msn_url": "https://www.msn.com/fr-fr/sport/tennis/moïse-kouamé-coup-de-théâtre-à-roland-garros-son-adversaire-condamné-pour-sexisme/ar-AA24niLU?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.19ccbbc0e94cf556ad41a436a4ee3feb&pid=Wdp",
@@ -160,16 +160,16 @@
           "url": "https://www.huffingtonpost.fr/sport/article/a-roland-garros-l-adversaire-de-moise-kouame-sanctionne-apres-une-remarque-sexiste_264250.html"
         },
         {
-          "label": "GNews · 20 Minutes — EN DIRECT Roland-Garros 2026 : Kouame avec un maillot du PSG... Cobolli veu…",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWHg3NUhIQWtQR0hkY01wR2xQTWtBRDRmczY1R3d0cWdTOGRCWUJBa1BSd0VrWllSLXhxTnNoUmY0MUQ0VkdPS2FWTzlMVDYwd1NjX1FVdkhnQkQ5SVk1TWJVMDBiSVNnNUloakV3R2NNd0hrX2p6Q2lQYnRGOEQ3cDhCcVI0a3ZncUZwa0tBN2V4VTA3WU9wVVlWQWY4UWMxNWpPcU8xNlB2OC1WZUZsS3V5bUZtMDR2S21Vcnlpd0NFZG16cHhIZl9EMDRXeUZyeVRUZDBmcXZQM2hhLU53VXFacjBSRWN0ZGxNMEhqWm5DUQ?oc=5"
+          "label": "GNews · franceinfo — Diane Parry en route pour un coup d'éclat à Roland-Garros ?",
+          "url": "https://www.franceinfo.fr/roland-garros/roland-garros-2026-diane-parry-prete-pour-un-coup-d-eclat_8035436.html"
         },
         {
-          "label": "GNews · franceinfo — DIRECT. Moïse Kouame-Alejandro Tabilo : le prodige français vise un nouvel exploit pour atteindre les 8es de finale de Roland-Garros... Suivez le match avec nous",
-          "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOTEg5T2dNRmJPQlFxMXdKM1ZrNnU4LWl4VXVsUklfVnNnVWVFYmU2bHY3TVFRTWt3LXU3THhEelhLc3EtY2FibFlLYUltaElvQWUxRnUwb2c4VTlfakdxVUI3NzVHVG9ucV9BTHlHOW4xd0kxMThKaUp5RkZrTEE5R0NaWTdjR2ZfeUZRYW5WM2hFeVJzWHBFRTk3azdjUkdSdUpFajM0V1RubmFiVWZvaFJ0YS11Qzk4RUI4LWJMWDA3UGRTZF9iR2ZLaVFzenBFSmRwZmltUkhJMGxraWlnV1o1SGdOdzFsbmxZLVV1bElRWGxUWWQ4bmZIQkpYWDFJY0MxVXVjdC0tZ2V5VzlEcXpXVExOQks2MThCUlVFc3pDblBJTGVLV0t5czlrTDV5Vkt0czU2MlN5WXAw?oc=5"
+          "label": "GNews · Le Monde.fr — EN DIRECT, Roland-Garros 2026 : Moïse Kouamé mené 2 sets à 1 par Alejandro Tabilo ; Diane Parry écarte la 6ᵉ mondiale et se qualifie pour les 8ᵉˢ",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOZk5KWGhHaW9pcjh4UTFQNTNqbUtYbDh4YVNmTk1EWHVIRk1UU3VYa0VYRENtUUFCQXEycWoxNmZqR1lXdUtQaEVjYjVwMmtOMzNvVlpmMUFEUVB2aUNoeUwtSnNEaU5KemN1XzZuanRaNU41dlJqNGR1N1MxZ2lZSjh4UUtteXNTTk1jMFo5c2pEV3dscmlJUzNHTEkzdG9GRGtPY3NsRlB6NW5QaHF2Tlp4Q0hHZk5nWkJEUnk5TEtZa2FOZVNGaXp5NHNqTjg2alRNRmZHV1Z2am9WVUJxMFpiYTFENGlBbHV0RW1n?oc=5"
         },
         {
-          "label": "GNews · Roland-Garros 2026 — Troisième tour : le récap’ du vendredi 29 mai - Roland-Garros 2026",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdENBcGlHQzR5Wk9LWU9KZnlKWG9sdWY5Y25CV2tNeGxhRXd5bGo0eWktLVZzcUhyRnQ3SUpGX2Z6N1llbFItbmh0VEw0cWdlbDkyekx0VHFsM3Q4aXdQSUpZcFZocFlVQjQ0enF3M3lRVlBDTXIzdDMtb1VPWHRveTJLS0N0c1hDc3d3bm4xWEVCQzRSTHczS2ZvTmlCelRlWGhfbGVfdzQ4SDJiUllWTjZMLXc?oc=5"
+          "label": "GNews · franceinfo — DIRECT. Roland-Garros 2026 : Moïse Kouame perd d'entrée son service au début du 4e set face à Alejandro Tabilo... Suivez le match du 3e tour avec nous",
+          "url": "https://www.franceinfo.fr/roland-garros/directs/direct-moise-kouame-alejandro-tabilo-le-prodige-francais-vise-un-nouvel-exploit-pour-atteindre-les-8es-de-finale-de-roland-garros-suivez-le-match-avec-nous_8037029.html"
         }
       ],
       "discover_category": "/Sports/Individual Sports/Racquet Sports",
@@ -184,9 +184,9 @@
       "rank": 2,
       "title": "Roland-Garros 2026 : on sait pourquoi Jannik Sinner a joué à midi en plein soleil (et ça va faire rager les Italiens)",
       "theme": "sport",
-      "score": 56,
+      "score": 58,
       "tier": "high",
-      "rationale": "Pic Google Trends (100 000 recherches) · présent dans le top Wikipedia · forte couverture médiatique (5 médias) · mentionné sur X.",
+      "rationale": "Pic Google Trends (100 000 recherches) · présent dans le top Wikipedia · forte couverture médiatique (8 médias) · mentionné sur X.",
       "signals": [
         {
           "source": "discover",
@@ -196,7 +196,7 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "5 médias"
+          "value": "8 médias"
         },
         {
           "source": "trends",
@@ -227,8 +227,8 @@
         },
         {
           "name": "Google News",
-          "value": "5 médias",
-          "fill": 86
+          "value": "8 médias",
+          "fill": 100
         },
         {
           "name": "Google Trends",
@@ -265,12 +265,12 @@
         "discover": 0.5,
         "trends": 100.0,
         "wiki": 57.3,
-        "gnews": 86.3,
+        "gnews": 100.0,
         "msn": 28.5,
         "x": 20.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 56.2
+        "total": 58.1
       },
       "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-2026-on-sait-pourquoi-jannik-sinner-a-joué-à-midi-en-plein-soleil-et-ça-va-faire-rager-les-italiens/ar-AA24meoJ?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.75b394432fcb8b9f71ed4efa4b5009e8&pid=Wdp",
@@ -285,16 +285,16 @@
           "url": "https://www.welovetennis.fr/roland-garros/justine-henin-apres-la-defaite-de-jannik-sinner-il-avait-dit-quon-verrait-a-paris-si-sa-planification-etait-bonne-il-nest-pas-arrive-totalement-frais"
         },
         {
-          "label": "GNews · 20 Minutes — EN DIRECT Roland-Garros 2026 : Kouame avec un maillot du PSG... Cobolli veu…",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWHg3NUhIQWtQR0hkY01wR2xQTWtBRDRmczY1R3d0cWdTOGRCWUJBa1BSd0VrWllSLXhxTnNoUmY0MUQ0VkdPS2FWTzlMVDYwd1NjX1FVdkhnQkQ5SVk1TWJVMDBiSVNnNUloakV3R2NNd0hrX2p6Q2lQYnRGOEQ3cDhCcVI0a3ZncUZwa0tBN2V4VTA3WU9wVVlWQWY4UWMxNWpPcU8xNlB2OC1WZUZsS3V5bUZtMDR2S21Vcnlpd0NFZG16cHhIZl9EMDRXeUZyeVRUZDBmcXZQM2hhLU53VXFacjBSRWN0ZGxNMEhqWm5DUQ?oc=5"
+          "label": "GNews · franceinfo — Diane Parry en route pour un coup d'éclat à Roland-Garros ?",
+          "url": "https://www.franceinfo.fr/roland-garros/roland-garros-2026-diane-parry-prete-pour-un-coup-d-eclat_8035436.html"
         },
         {
-          "label": "GNews · Roland-Garros 2026 — Troisième tour : le récap’ du vendredi 29 mai - Roland-Garros 2026",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdENBcGlHQzR5Wk9LWU9KZnlKWG9sdWY5Y25CV2tNeGxhRXd5bGo0eWktLVZzcUhyRnQ3SUpGX2Z6N1llbFItbmh0VEw0cWdlbDkyekx0VHFsM3Q4aXdQSUpZcFZocFlVQjQ0enF3M3lRVlBDTXIzdDMtb1VPWHRveTJLS0N0c1hDc3d3bm4xWEVCQzRSTHczS2ZvTmlCelRlWGhfbGVfdzQ4SDJiUllWTjZMLXc?oc=5"
+          "label": "GNews · Ecran Large — Le problème Yoda : pourquoi ça résume bien tout ce qui a déraillé dans la saga Star Wars",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBnR3Azc3AtTlJ1UG1qS1VEQjIxMzFzbjRRekg3RHp3QWdiaF9yZ2dZbXZiSEdDSkJ0ak5MNWdlSG0zbTdfYVkxbUxyWUNvY1JabTEtU0llM2lhc0p0bU9tWGk5R19wRUZHOGZfNjhFTlc2VTVZcEptWndwcFJHQQ?oc=5"
         },
         {
-          "label": "GNews · purepeople.com — A Roland-Garros, Vianney a fait la promotion de son business très stylé et éloigné de la musique",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZEhyLWhMdVlNTEdPb1NxWjljZktudUNfdEFFamJnVG1QMzFmb1V6dnlpeGVFMjVHVV9saWJJX1c4YklwMXh1clppd3RIdl9reWJiVktNczlmQm9UcGNiNDRJT2tuU0t4WnFBZ1BVYUp5TnBYWXFLLVJYUlU5VjZJT2JyX0RCV2hNMkhPM1Y0RlZtN29pcmx0WUNLdkVKRHNueUxsT2dTSmtKdU54S3lHZzJXbzV6emlEbFU3dnNHVjFJenoxb3RGTmpreFB3VGxXQm1JeWlDRQ?oc=5"
+          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPd25KXzNXYmd5SkY0UGhjMU8xN1pnSWl4bHRSTTJranVjdjJHNHp2QnItUWhhMi1UYnByZE5MMkNZeF96WFRoWnFjYThlYVJGcFF2djBxaGVkYnVMdURNdGY0VDVzTHQtOWZBbS14a2hRc1BLUU5lUHBISkJvaE9Vd01zLW5hQ3lOXzdveTU0SzlVOGNHYmMxVEdJU3J6OTByUE1KelE3R2gzLWcyZEZwWENDd1hCekFMaFh4QlBzbG5vWVh4V3FEMnFXSjA3R1NIVURCMjNla1ItVTAzMDA5dVpMZDhYSTA?oc=5"
         }
       ],
       "discover_category": "/Sports/Individual Sports/Racquet Sports",
@@ -311,9 +311,9 @@
       "rank": 3,
       "title": "« Il y a des moments, je pouvais à peine tenir sur mes jambes » : pourquoi Djokovic a chuté dès le 3e tour à Roland-Garros",
       "theme": "sport",
-      "score": 55,
+      "score": 56,
       "tier": "high",
-      "rationale": "Pic Google Trends (100 000 recherches) · présent dans le top Wikipedia · forte couverture médiatique (5 médias) · mentionné sur X.",
+      "rationale": "Pic Google Trends (100 000 recherches) · présent dans le top Wikipedia · forte couverture médiatique (6 médias) · mentionné sur X.",
       "signals": [
         {
           "source": "discover",
@@ -323,7 +323,7 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "5 médias"
+          "value": "6 médias"
         },
         {
           "source": "trends",
@@ -354,8 +354,8 @@
         },
         {
           "name": "Google News",
-          "value": "5 médias",
-          "fill": 86
+          "value": "6 médias",
+          "fill": 92
         },
         {
           "name": "Google Trends",
@@ -392,12 +392,12 @@
         "discover": 0.0,
         "trends": 100.0,
         "wiki": 29.8,
-        "gnews": 86.3,
+        "gnews": 92.1,
         "msn": 43.7,
         "x": 20.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 54.7
+        "total": 55.6
       },
       "msn_url": "https://www.msn.com/fr-fr/sport/tennis/il-y-a-des-moments-je-pouvais-à-peine-tenir-sur-mes-jambes-pourquoi-djokovic-a-chuté-dès-le-3e-tour-à-roland-garros/ar-AA24opYT?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.10cf32617d31dbe6900302e0f6d8f040&pid=Wdp",
@@ -412,16 +412,16 @@
           "url": "https://www.sports.fr/tennis/roland-garros/moise-kouame-la-tuile-avant-son-3e-tour-1017290.html"
         },
         {
-          "label": "GNews · Roland-Garros 2026 — Troisième tour : le récap’ du vendredi 29 mai - Roland-Garros 2026",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdENBcGlHQzR5Wk9LWU9KZnlKWG9sdWY5Y25CV2tNeGxhRXd5bGo0eWktLVZzcUhyRnQ3SUpGX2Z6N1llbFItbmh0VEw0cWdlbDkyekx0VHFsM3Q4aXdQSUpZcFZocFlVQjQ0enF3M3lRVlBDTXIzdDMtb1VPWHRveTJLS0N0c1hDc3d3bm4xWEVCQzRSTHczS2ZvTmlCelRlWGhfbGVfdzQ4SDJiUllWTjZMLXc?oc=5"
+          "label": "GNews · franceinfo — DIRECT. Roland-Garros 2026 : Moïse Kouame perd d'entrée son service au début du 4e set face à Alejandro Tabilo... Suivez le match du 3e tour avec nous",
+          "url": "https://www.franceinfo.fr/roland-garros/directs/direct-moise-kouame-alejandro-tabilo-le-prodige-francais-vise-un-nouvel-exploit-pour-atteindre-les-8es-de-finale-de-roland-garros-suivez-le-match-avec-nous_8037029.html"
         },
         {
-          "label": "GNews · 20 Minutes — EN DIRECT Roland-Garros 2026 : Kouame avec un maillot du PSG... Cobolli veu…",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWHg3NUhIQWtQR0hkY01wR2xQTWtBRDRmczY1R3d0cWdTOGRCWUJBa1BSd0VrWllSLXhxTnNoUmY0MUQ0VkdPS2FWTzlMVDYwd1NjX1FVdkhnQkQ5SVk1TWJVMDBiSVNnNUloakV3R2NNd0hrX2p6Q2lQYnRGOEQ3cDhCcVI0a3ZncUZwa0tBN2V4VTA3WU9wVVlWQWY4UWMxNWpPcU8xNlB2OC1WZUZsS3V5bUZtMDR2S21Vcnlpd0NFZG16cHhIZl9EMDRXeUZyeVRUZDBmcXZQM2hhLU53VXFacjBSRWN0ZGxNMEhqWm5DUQ?oc=5"
+          "label": "GNews · franceinfo — Diane Parry en route pour un coup d'éclat à Roland-Garros ?",
+          "url": "https://www.franceinfo.fr/roland-garros/roland-garros-2026-diane-parry-prete-pour-un-coup-d-eclat_8035436.html"
         },
         {
-          "label": "GNews · purepeople.com — A Roland-Garros, Vianney a fait la promotion de son business très stylé et éloigné de la musique",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZEhyLWhMdVlNTEdPb1NxWjljZktudUNfdEFFamJnVG1QMzFmb1V6dnlpeGVFMjVHVV9saWJJX1c4YklwMXh1clppd3RIdl9reWJiVktNczlmQm9UcGNiNDRJT2tuU0t4WnFBZ1BVYUp5TnBYWXFLLVJYUlU5VjZJT2JyX0RCV2hNMkhPM1Y0RlZtN29pcmx0WUNLdkVKRHNueUxsT2dTSmtKdU54S3lHZzJXbzV6emlEbFU3dnNHVjFJenoxb3RGTmpreFB3VGxXQm1JeWlDRQ?oc=5"
+          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPd25KXzNXYmd5SkY0UGhjMU8xN1pnSWl4bHRSTTJranVjdjJHNHp2QnItUWhhMi1UYnByZE5MMkNZeF96WFRoWnFjYThlYVJGcFF2djBxaGVkYnVMdURNdGY0VDVzTHQtOWZBbS14a2hRc1BLUU5lUHBISkJvaE9Vd01zLW5hQ3lOXzdveTU0SzlVOGNHYmMxVEdJU3J6OTByUE1KelE3R2gzLWcyZEZwWENDd1hCekFMaFh4QlBzbG5vWVh4V3FEMnFXSjA3R1NIVURCMjNla1ItVTAzMDA5dVpMZDhYSTA?oc=5"
         }
       ],
       "discover_category": "/Sports/Individual Sports/Racquet Sports",
@@ -434,261 +434,11 @@
     {
       "id": "s04",
       "rank": 4,
-      "title": "Roland-Garros, le beau geste d’une joueuse envers un ramasseur (vidéo)",
-      "theme": "sport",
-      "score": 52,
-      "tier": "high",
-      "rationale": "Pic Google Trends (100 000 recherches) · présent dans le top Wikipedia · forte couverture médiatique (5 médias) · mentionné sur X.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "5 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "100k"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "6k vues"
-        },
-        {
-          "source": "x",
-          "label": "x",
-          "value": "#143"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "11+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "5 médias",
-          "fill": 86
-        },
-        {
-          "name": "Google Trends",
-          "value": "100k",
-          "fill": 100
-        },
-        {
-          "name": "Wikimedia",
-          "value": "6k vues/h",
-          "fill": 29
-        },
-        {
-          "name": "X velocity",
-          "value": "rang #143",
-          "fill": 20
-        },
-        {
-          "name": "MSN engagement",
-          "value": "23/100",
-          "fill": 22
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 100.0,
-        "wiki": 29.8,
-        "gnews": 86.3,
-        "msn": 23.0,
-        "x": 20.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 52.1
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-le-beau-geste-d-une-joueuse-envers-un-ramasseur-vidéo/ar-AA24q9dO?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.b9f3948ee52898a557cff1b147b3c82d&pid=Wdp",
-      "msn_source_name": "Sports.fr",
-      "refs": [
-        {
-          "label": "MSN · Sports.fr — Roland-Garros, le beau geste d’une joueuse envers un ramasseur (vidéo)",
-          "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-le-beau-geste-d-une-joueuse-envers-un-ramasseur-vidéo/ar-AA24q9dO?ocid=00000000"
-        },
-        {
-          "label": "Discover · YouTube — Roland-Garros : le marqueur de points, notre feuilleton",
-          "url": "https://www.youtube.com/watch?v=L6x2D3y1eAo"
-        },
-        {
-          "label": "GNews · 20 Minutes — EN DIRECT Roland-Garros 2026 : Kouame avec un maillot du PSG... Cobolli veu…",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWHg3NUhIQWtQR0hkY01wR2xQTWtBRDRmczY1R3d0cWdTOGRCWUJBa1BSd0VrWllSLXhxTnNoUmY0MUQ0VkdPS2FWTzlMVDYwd1NjX1FVdkhnQkQ5SVk1TWJVMDBiSVNnNUloakV3R2NNd0hrX2p6Q2lQYnRGOEQ3cDhCcVI0a3ZncUZwa0tBN2V4VTA3WU9wVVlWQWY4UWMxNWpPcU8xNlB2OC1WZUZsS3V5bUZtMDR2S21Vcnlpd0NFZG16cHhIZl9EMDRXeUZyeVRUZDBmcXZQM2hhLU53VXFacjBSRWN0ZGxNMEhqWm5DUQ?oc=5"
-        },
-        {
-          "label": "GNews · Roland-Garros 2026 — Troisième tour : le récap’ du vendredi 29 mai - Roland-Garros 2026",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdENBcGlHQzR5Wk9LWU9KZnlKWG9sdWY5Y25CV2tNeGxhRXd5bGo0eWktLVZzcUhyRnQ3SUpGX2Z6N1llbFItbmh0VEw0cWdlbDkyekx0VHFsM3Q4aXdQSUpZcFZocFlVQjQ0enF3M3lRVlBDTXIzdDMtb1VPWHRveTJLS0N0c1hDc3d3bm4xWEVCQzRSTHczS2ZvTmlCelRlWGhfbGVfdzQ4SDJiUllWTjZMLXc?oc=5"
-        },
-        {
-          "label": "GNews · purepeople.com — A Roland-Garros, Vianney a fait la promotion de son business très stylé et éloigné de la musique",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZEhyLWhMdVlNTEdPb1NxWjljZktudUNfdEFFamJnVG1QMzFmb1V6dnlpeGVFMjVHVV9saWJJX1c4YklwMXh1clppd3RIdl9reWJiVktNczlmQm9UcGNiNDRJT2tuU0t4WnFBZ1BVYUp5TnBYWXFLLVJYUlU5VjZJT2JyX0RCV2hNMkhPM1Y0RlZtN29pcmx0WUNLdkVKRHNueUxsT2dTSmtKdU54S3lHZzJXbzV6emlEbFU3dnNHVjFJenoxb3RGTmpreFB3VGxXQm1JeWlDRQ?oc=5"
-        }
-      ],
-      "discover_category": "/Sports/International Sports Competitions",
-      "discover_entities": [
-        "Roland-Garros",
-        "Sport",
-        "Tennis"
-      ]
-    },
-    {
-      "id": "s05",
-      "rank": 5,
-      "title": "La Turque Zeynep Sönmez abandonne en double à Roland-Garros après s'être pris un panneau publicitaire",
-      "theme": "sport",
-      "score": 52,
-      "tier": "high",
-      "rationale": "Pic Google Trends (100 000 recherches) · présent dans le top Wikipedia · forte couverture médiatique (6 médias) · mentionné sur X.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "6 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "100k"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "6k vues"
-        },
-        {
-          "source": "x",
-          "label": "x",
-          "value": "#143"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "34+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.0",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "6 médias",
-          "fill": 92
-        },
-        {
-          "name": "Google Trends",
-          "value": "100k",
-          "fill": 100
-        },
-        {
-          "name": "Wikimedia",
-          "value": "6k vues/h",
-          "fill": 29
-        },
-        {
-          "name": "X velocity",
-          "value": "rang #143",
-          "fill": 20
-        },
-        {
-          "name": "MSN engagement",
-          "value": "15/100",
-          "fill": 15
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.0,
-        "trends": 100.0,
-        "wiki": 29.8,
-        "gnews": 92.1,
-        "msn": 15.0,
-        "x": 20.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 51.8
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/la-turque-zeynep-sönmez-abandonne-en-double-à-roland-garros-après-s-être-pris-un-panneau-publicitaire/vi-AA24ocR3?ocid=00000000",
-      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24ofpj.img",
-      "msn_source_name": "L'Equipe",
-      "refs": [
-        {
-          "label": "MSN · L'Equipe — La Turque Zeynep Sönmez abandonne en double à Roland-Garros après s'être pris un panneau publicitaire",
-          "url": "https://www.msn.com/fr-fr/sport/tennis/la-turque-zeynep-sönmez-abandonne-en-double-à-roland-garros-après-s-être-pris-un-panneau-publicitaire/vi-AA24ocR3?ocid=00000000"
-        },
-        {
-          "label": "Discover · Le HuffPost — Après une remarque sexiste, l’adversaire de Moïse Kouamé sanctionné par Roland-Garros",
-          "url": "https://www.huffingtonpost.fr/sport/article/a-roland-garros-l-adversaire-de-moise-kouame-sanctionne-apres-une-remarque-sexiste_264250.html"
-        },
-        {
-          "label": "GNews · franceinfo — Roland-Garros 2026 : le Paraguayen Daniel Vallejo s'excuse après ses propos sexistes à l'encontre d'une arbitre",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNTkMxZDdnTXgxSEJmVVY3UG5tdmJIWjVHcTV2TVNQMXNZRHpMbkRMT2l1ZVBDMFQyM01EaHh2RmI5YVJzcjdMeVVaNW9yYVZMbkNoeWdXUml6X0J1NTlMcXVjOFljV013Y3VDYVVrSGFyckpqX25nbmlOcGFWWGpudmQ1NDlMc2Z2R1lYb2dSOWtpdHozUm5aWkVYczEzOWVrbG9WNGlZYnMyN191bS13amdNZlJ6MEFFSUFLUlJxQjV2cGFvNURqYUU3ZTlrWk9sZ0J3WmxUX0Q3c3E5RWs4VjFnMnVvWGloQXp1SUdDOTcxZXhO?oc=5"
-        },
-        {
-          "label": "GNews · 20 Minutes — EN DIRECT Roland-Garros 2026 : Kouame avec un maillot du PSG... Cobolli veu…",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWHg3NUhIQWtQR0hkY01wR2xQTWtBRDRmczY1R3d0cWdTOGRCWUJBa1BSd0VrWllSLXhxTnNoUmY0MUQ0VkdPS2FWTzlMVDYwd1NjX1FVdkhnQkQ5SVk1TWJVMDBiSVNnNUloakV3R2NNd0hrX2p6Q2lQYnRGOEQ3cDhCcVI0a3ZncUZwa0tBN2V4VTA3WU9wVVlWQWY4UWMxNWpPcU8xNlB2OC1WZUZsS3V5bUZtMDR2S21Vcnlpd0NFZG16cHhIZl9EMDRXeUZyeVRUZDBmcXZQM2hhLU53VXFacjBSRWN0ZGxNMEhqWm5DUQ?oc=5"
-        },
-        {
-          "label": "GNews · Roland-Garros 2026 — Troisième tour : le récap’ du vendredi 29 mai - Roland-Garros 2026",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdENBcGlHQzR5Wk9LWU9KZnlKWG9sdWY5Y25CV2tNeGxhRXd5bGo0eWktLVZzcUhyRnQ3SUpGX2Z6N1llbFItbmh0VEw0cWdlbDkyekx0VHFsM3Q4aXdQSUpZcFZocFlVQjQ0enF3M3lRVlBDTXIzdDMtb1VPWHRveTJLS0N0c1hDc3d3bm4xWEVCQzRSTHczS2ZvTmlCelRlWGhfbGVfdzQ4SDJiUllWTjZMLXc?oc=5"
-        }
-      ],
-      "discover_category": "/Sports/Individual Sports/Racquet Sports",
-      "discover_entities": [
-        "Joueur de tennis",
-        "Roland-Garros",
-        "Tennis féminin"
-      ]
-    },
-    {
-      "id": "s06",
-      "rank": 6,
       "title": "Aya Nakamura « brûle » une banderole raciste d’un groupuscule d’extrême droite pour l’ouverture de son premier concert au Stade de France",
       "theme": "divertissement",
-      "score": 51,
+      "score": 54,
       "tier": "high",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · couvert par 2 médias · trending sur X · engagement MSN élevé.",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · couvert par 4 médias · trending sur X · engagement MSN élevé.",
       "signals": [
         {
           "source": "discover",
@@ -698,7 +448,7 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "2 médias"
+          "value": "4 médias"
         },
         {
           "source": "trends",
@@ -729,8 +479,8 @@
         },
         {
           "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
+          "value": "4 médias",
+          "fill": 79
         },
         {
           "name": "Google Trends",
@@ -767,12 +517,12 @@
         "discover": 24.1,
         "trends": 11.0,
         "wiki": 27.1,
-        "gnews": 57.1,
+        "gnews": 79.2,
         "msn": 100.0,
         "x": 60.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 50.6
+        "total": 53.7
       },
       "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/aya-nakamura-brûle-une-banderole-raciste-d-un-groupuscule-d-extrême-droite-pour-l-ouverture-de-son-premier-concert-au-stade-de-france/ar-AA24pOzQ?ocid=00000000",
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24pTGH.img",
@@ -787,12 +537,16 @@
           "url": "https://www.lefigaro.fr/musique/aya-nakamura-au-stade-de-france-peut-mieux-faire-20260530"
         },
         {
-          "label": "GNews · ladepeche.fr — Aya Nakamura répond aux racistes et brûle au lance-flammes, au Stade de France, une banderole déployée contre elle avant les JO de Paris 2024",
-          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQbFlKUlItRm1scUxVckdUV200dEI4aXphSHNRNjYzWXVNelFHZmRsNmJHY1d1bURvVm9DY0tUd1hmUEJHdnFKOVVaTFhHYTFzTUJVVVAzbEs5SFBlZ1ZWNHJ1VWMxODFNYm5EZDE4b1dYU2hZTzdGdy11ZzFITUVaMEFYSDdSOGJUd2lfUEpJRkRBNm1SZnBlaXZ5UGNPSW02RUwzSTBlV09vbnBKMlJ1M1A4VzAzN2FzalVzdWNaZDhLb1dwb2pvQUlsUW02RUdKWGJSLUEzUXpadzktOGpodkJzeUVxQ3ZwNWUwR2JYV2p0aXM0eWl4enpPNHFSdGFEVGxNZjZSUm96TjhNWkJNLWJONFdVdUk?oc=5"
+          "label": "GNews · Orange Actualités — \"C'est chaud là\": Aya Nakamura démarre sa série de trois concerts au Stade de France",
+          "url": "https://actu.orange.fr/societe/people/quot-c-est-chaud-la-quot-aya-nakamura-demarre-sa-serie-de-trois-concerts-au-stade-de-france-CNT000002pFe4T.html"
         },
         {
-          "label": "GNews · Le Figaro — Aya Nakamura au Stade de France : trois concerts géants pour entrer dans l’histoire",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONkpHOVJKTXl3eTdjbEt1YjVrdENqeTNaUGNYSVZ5SUNUeFJvdWJLdkJWdUUxX05YSlFyQlJOMExmLWV1TzBlNDNPdjhDNDI3UF9SRmI3UXZ2X0hjbWp4bVQ3MjFvaXhMWjJCSmdRc1ZOSkRBeTRCT0hqYXIxQmdkMHFpMUxmb3R2eG5YSW4zS0M0Y2czSHJJVzc2ZGJlNmVjWVU4SDRsMDdGU3VDZGxsRThnTnBhdw?oc=5"
+          "label": "GNews · Le Tribunal du Net — « Une vieille nymphomane » : les propos glaçants de Booba sur Aya Nakamura choquent la toile",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb1haMHY0bTQtWURXb3pueFA1OGVYaWZocnEzV1otM1U4MVBSWUc4VDJURVBsTG5CR05laUl5SXJjQkZGQWZ3ekJkN3R6YjdvUTdEMzlNbUNfWHp0MjF2OUdISkFYYW0td0hyUEMyYjI1MjBMLThpZG1nQlRsbDlGZEpQeHZFTVY1Vmg4Z3dtUDBQand2Tm5qcw?oc=5"
+        },
+        {
+          "label": "GNews · Le Monde.fr — Gabriel Attal, lors de son premier discours de candidat à la présidentielle : « Mes adversaires, c’est La France insoumise et le Rassemblement national »",
+          "url": "https://www.lemonde.fr/politique/article/2026/05/30/gabriel-attal-lors-de-son-premier-discours-de-candidat-a-la-presidentielle-mes-adversaires-c-est-la-france-insoumise-et-le-rassemblement-national_6695266_823448.html"
         }
       ],
       "discover_category": "/Arts & Entertainment/Events & Listings/Concerts & Music Festivals",
@@ -800,6 +554,256 @@
         "Aya Nakamura",
         "Musique",
         "Stade de France"
+      ]
+    },
+    {
+      "id": "s05",
+      "rank": 5,
+      "title": "Roland-Garros, le beau geste d’une joueuse envers un ramasseur (vidéo)",
+      "theme": "sport",
+      "score": 53,
+      "tier": "high",
+      "rationale": "Pic Google Trends (100 000 recherches) · présent dans le top Wikipedia · forte couverture médiatique (6 médias) · mentionné sur X.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "6 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "100k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "6k vues"
+        },
+        {
+          "source": "x",
+          "label": "x",
+          "value": "#143"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "11+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.1",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "6 médias",
+          "fill": 92
+        },
+        {
+          "name": "Google Trends",
+          "value": "100k",
+          "fill": 100
+        },
+        {
+          "name": "Wikimedia",
+          "value": "6k vues/h",
+          "fill": 29
+        },
+        {
+          "name": "X velocity",
+          "value": "rang #143",
+          "fill": 20
+        },
+        {
+          "name": "MSN engagement",
+          "value": "23/100",
+          "fill": 22
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.5,
+        "trends": 100.0,
+        "wiki": 29.8,
+        "gnews": 92.1,
+        "msn": 23.0,
+        "x": 20.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 53.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-le-beau-geste-d-une-joueuse-envers-un-ramasseur-vidéo/ar-AA24q9dO?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.b9f3948ee52898a557cff1b147b3c82d&pid=Wdp",
+      "msn_source_name": "Sports.fr",
+      "refs": [
+        {
+          "label": "MSN · Sports.fr — Roland-Garros, le beau geste d’une joueuse envers un ramasseur (vidéo)",
+          "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-le-beau-geste-d-une-joueuse-envers-un-ramasseur-vidéo/ar-AA24q9dO?ocid=00000000"
+        },
+        {
+          "label": "Discover · YouTube — Roland-Garros : le marqueur de points, notre feuilleton",
+          "url": "https://www.youtube.com/watch?v=L6x2D3y1eAo"
+        },
+        {
+          "label": "GNews · franceinfo — Diane Parry en route pour un coup d'éclat à Roland-Garros ?",
+          "url": "https://www.franceinfo.fr/roland-garros/roland-garros-2026-diane-parry-prete-pour-un-coup-d-eclat_8035436.html"
+        },
+        {
+          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPd25KXzNXYmd5SkY0UGhjMU8xN1pnSWl4bHRSTTJranVjdjJHNHp2QnItUWhhMi1UYnByZE5MMkNZeF96WFRoWnFjYThlYVJGcFF2djBxaGVkYnVMdURNdGY0VDVzTHQtOWZBbS14a2hRc1BLUU5lUHBISkJvaE9Vd01zLW5hQ3lOXzdveTU0SzlVOGNHYmMxVEdJU3J6OTByUE1KelE3R2gzLWcyZEZwWENDd1hCekFMaFh4QlBzbG5vWVh4V3FEMnFXSjA3R1NIVURCMjNla1ItVTAzMDA5dVpMZDhYSTA?oc=5"
+        },
+        {
+          "label": "GNews · purepeople.com — Nolwenn Leroy aperçue à Roland-Garros : la compagne d’Arnaud Clément fait sensation dans une tenue parfaite pour l'événement",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQ0MtR2VJb3NDaTBRS2hWOVRldk5Nc1hxQ1VtT043bk9XM1AzemNfQWtJVjh4ci16Qm5FbFlQMldrcGZJRHhxb0Fqa2Nud3NBUUFGQVlBdFRZWkxqTDl1V1BGeDRtNTF2VjVWc2tieHFIRmc1S0I3YzhpWHEyU1c4UFg1OERKWmxmdjZUTWlWb0pGcURrUjQ2cUE0Y25MODZUYU1FeHplQ1hJS2t4dklWczNxMlpQT1RrOHl5WkY0ZlBMSmFxaTFYck1jRllmY3pMaXpacURzY3pWSXFsb01WOUNaWVpVM19MU0YzZmtGSFBfOGIydWsyUA?oc=5"
+        }
+      ],
+      "discover_category": "/Sports/International Sports Competitions",
+      "discover_entities": [
+        "Roland-Garros",
+        "Sport",
+        "Tennis"
+      ]
+    },
+    {
+      "id": "s06",
+      "rank": 6,
+      "title": "La Turque Zeynep Sönmez abandonne en double à Roland-Garros après s'être pris un panneau publicitaire",
+      "theme": "sport",
+      "score": 53,
+      "tier": "high",
+      "rationale": "Pic Google Trends (100 000 recherches) · présent dans le top Wikipedia · forte couverture médiatique (8 médias) · mentionné sur X.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "8 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "100k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "6k vues"
+        },
+        {
+          "source": "x",
+          "label": "x",
+          "value": "#143"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "34+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.0",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "8 médias",
+          "fill": 100
+        },
+        {
+          "name": "Google Trends",
+          "value": "100k",
+          "fill": 100
+        },
+        {
+          "name": "Wikimedia",
+          "value": "6k vues/h",
+          "fill": 29
+        },
+        {
+          "name": "X velocity",
+          "value": "rang #143",
+          "fill": 20
+        },
+        {
+          "name": "MSN engagement",
+          "value": "15/100",
+          "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 100.0,
+        "wiki": 29.8,
+        "gnews": 100.0,
+        "msn": 15.0,
+        "x": 20.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 52.9
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/la-turque-zeynep-sönmez-abandonne-en-double-à-roland-garros-après-s-être-pris-un-panneau-publicitaire/vi-AA24ocR3?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24ofpj.img",
+      "msn_source_name": "L'Equipe",
+      "refs": [
+        {
+          "label": "MSN · L'Equipe — La Turque Zeynep Sönmez abandonne en double à Roland-Garros après s'être pris un panneau publicitaire",
+          "url": "https://www.msn.com/fr-fr/sport/tennis/la-turque-zeynep-sönmez-abandonne-en-double-à-roland-garros-après-s-être-pris-un-panneau-publicitaire/vi-AA24ocR3?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le HuffPost — Après une remarque sexiste, l’adversaire de Moïse Kouamé sanctionné par Roland-Garros",
+          "url": "https://www.huffingtonpost.fr/sport/article/a-roland-garros-l-adversaire-de-moise-kouame-sanctionne-apres-une-remarque-sexiste_264250.html"
+        },
+        {
+          "label": "GNews · franceinfo — Diane Parry en route pour un coup d'éclat à Roland-Garros ?",
+          "url": "https://www.franceinfo.fr/roland-garros/roland-garros-2026-diane-parry-prete-pour-un-coup-d-eclat_8035436.html"
+        },
+        {
+          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPd25KXzNXYmd5SkY0UGhjMU8xN1pnSWl4bHRSTTJranVjdjJHNHp2QnItUWhhMi1UYnByZE5MMkNZeF96WFRoWnFjYThlYVJGcFF2djBxaGVkYnVMdURNdGY0VDVzTHQtOWZBbS14a2hRc1BLUU5lUHBISkJvaE9Vd01zLW5hQ3lOXzdveTU0SzlVOGNHYmMxVEdJU3J6OTByUE1KelE3R2gzLWcyZEZwWENDd1hCekFMaFh4QlBzbG5vWVh4V3FEMnFXSjA3R1NIVURCMjNla1ItVTAzMDA5dVpMZDhYSTA?oc=5"
+        },
+        {
+          "label": "GNews · purepeople.com — Nolwenn Leroy aperçue à Roland-Garros : la compagne d’Arnaud Clément fait sensation dans une tenue parfaite pour l'événement",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQ0MtR2VJb3NDaTBRS2hWOVRldk5Nc1hxQ1VtT043bk9XM1AzemNfQWtJVjh4ci16Qm5FbFlQMldrcGZJRHhxb0Fqa2Nud3NBUUFGQVlBdFRZWkxqTDl1V1BGeDRtNTF2VjVWc2tieHFIRmc1S0I3YzhpWHEyU1c4UFg1OERKWmxmdjZUTWlWb0pGcURrUjQ2cUE0Y25MODZUYU1FeHplQ1hJS2t4dklWczNxMlpQT1RrOHl5WkY0ZlBMSmFxaTFYck1jRllmY3pMaXpacURzY3pWSXFsb01WOUNaWVpVM19MU0YzZmtGSFBfOGIydWsyUA?oc=5"
+        }
+      ],
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
+      "discover_entities": [
+        "Joueur de tennis",
+        "Roland-Garros",
+        "Tennis féminin"
       ]
     },
     {
@@ -907,8 +911,8 @@
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYl91MlJmLXJMUXF5M1MtaVRuN1lhQXRuc1hENGZyclVGUXpkRkY1YlZrclFmX1U2OG03aU04SjJBX1dYVTlJbWtYcUtsR2lSd1BpbzJJSXNlZC1MUngtVU1UTG1VQTlFN2JFeFdCUnNKVG1ObGlYSjFhNFNZV09pem1qOUlWQjlscWM0YzE4QXM1UzVldk9CTTdQNGF6TzdaSTdydnNjT2tiQWpySmtsTG9n?oc=5"
         },
         {
-          "label": "GNews · 20 Minutes — Résistant, célèbre sociologue… Edgar Morin est décédé à l’âge de 104 ans",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSFVjbzJqb2Y2c1NOUUpCcWllYmE5V3JUeGNVaHB2MmxVcjduREh4X3BYRVpWbEl0aW0yMk45N0RqZ2VWVjhrdU9fTkVjVHE1NEp4VXRzcHI1cUNIV2hUUmVEYkotY0RLeGR4VFlEaEtVQ083YVFFU1lxcnA5RkhzT2JxTTlqVkRzdXhBblNoSXVnRS1XVS1ta0J1ZU53elk2RXJOTXp1OE01anpxbkE?oc=5"
+          "label": "GNews · Le HuffPost — Mort d’Edgar Morin, philosophe, sociologue et résistant français, à l’âge de 104 ans",
+          "url": "https://www.huffingtonpost.fr/france/article/mort-d-edgar-morin-philosophe-sociologue-et-resistant-francais-a-l-age-de-104-ans_264253.html"
         }
       ],
       "discover_category": "/Sensitive Subjects",
@@ -1018,16 +1022,16 @@
           "url": "https://www.eurosport.fr/football/ligue-des-champions/2025-2026/live-paris-saint-germain-arsenal_mtc1601230/live-commentary.shtml"
         },
         {
-          "label": "GNews · Foot01 — PSG-Arsenal : Hakimi remplaçant, la bombe venue de Budapest",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZC1UQlN1WTVjNHM2elo3R1NUVTVHVy1JQkVNcVRIM0p3VzZPb0Y3SDhzcGkyWkNZSmRGNDJHQkJ2UHRiQUNZZHhKOWZoanJjRWF2UUZ6NVJHUU9UdVV2SEdKYWQzeGp2eWNPVHk2ME9IZVU4Y2xvYkt6V2lGN0w5Y2N4OE1VN1FRV2gxbFdR?oc=5"
+          "label": "GNews · Foot01 — PSG-Arsenal : La grosse hésitation de Luis Enrique",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd2tnZGlCZHJWTTNZOVJadmhYQV9QcFhESEdjbE5QNVBMbXZTZjF1THk5MnRVZ1VxZmo5d3RHTDJONW1TTERXT1MzZ2szRnhXSUQzUHh2d0twQUFYYjBET205MWJIbDB1c05LU3hGRUEwUnVWcEJjVWNCNzlxM1dYNE1ZYw?oc=5"
         },
         {
-          "label": "GNews · Maxifoot — PSG : Luis Enrique pas surpris par Arsenal",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUmkxQkg5ajduVDR5azBvOXFISW9VNGRhYldwY3hEMndkRkphQUUwUXpyS1dBd0dCNWtFQnZTQS1LdGtOM205ZFFpYzVHV1NQS2c2TmVNRWx1S2o1WDdYekZCQjZwUVJqRVduRHBHcUtsNHY0TVNTdld4NW5nR0p3czBfRmrSAYcBQVVfeXFMUEE1clJuWDJRYVpNX2tKLUZjUXdZYk9BY1VZM3NDaGRGRWFhcHpYeEQ2SnBPV0tVWTRad3hJNU4wdTV0NklJR0t1amRFMmtGZzBmeDk4cWl3ZndlR3F4WTgyeEtkV0lPT3JIUk9Ka2dqWkhFZGxpY0dLeFBhRWl3cl83LXZSSnBJ?oc=5"
+          "label": "GNews · TF1 Info — EN DIRECT - PSG-Arsenal (0-1) : rapidement mené, Paris peine à trouver la faille",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNmV1UUIwMVRrXzlpUnVBS3JUZzc4VDdoY1I3MU05bWlnZHgxU2l3ZXJqVURDZW1GQXo4ZmNWV05iRWNuWHYtcVVrU0VKN2dNX093SzBibkJESXdJVlduLWZlNHM3dExEbE5vM1pWMXhwbUx5Ym5ZVzFSMjFtUmVFZXhqNWVtejhSeXhJeEZYck9CbTJ4QVlzb0UxcG8xUjc4a1V2SmFRODRZTGNmU1k2Mm1vR3BIWm9sMTV1Y0M5Nmhxc1ZEUkpDWDcyUjBkRUNMY1M0Q0hxbw?oc=5"
         },
         {
-          "label": "GNews · But! Football Club — PSG - Arsenal : une statistique inquiétante tombe avant la finale",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbXR1QmZZZEdHWVpDeFNSTEhjV0g5RXY3bWlCeDQ3bmVHdW5FMHdLblNxMkNidTlJYzZ1bGVtc2VIZTBOR3dSc3lYdnd3NFk3Q1Y2cnFxeTkyUktVSkgwZlJDVlFFLXl6bnJvSGpYNnEtLWkyWEt4UGpWSkRSNGdzZXdndzlWay1sWXI3d1pKMDNjbUxYdmFwYm9R?oc=5"
+          "label": "GNews · Le Parisien — PSG-Arsenal : pourquoi l’arbitre n’a pas sifflé pénalty sur la main évidente de Saka",
+          "url": "https://www.leparisien.fr/sports/football/ligue-des-champions/psg-arsenal-pourquoi-larbitre-na-pas-siffle-penalty-sur-la-main-evidente-de-saka-30-05-2026-VU5HIFTEJZF6FAPI2NAM6YLGKQ.php"
         }
       ],
       "discover_category": "/Sports/Team Sports/Soccer",
@@ -1042,9 +1046,9 @@
       "rank": 9,
       "title": "Roland-Garros 2026 : des images de Jodar bousculant une jeune ramasseuse de balles font polémique",
       "theme": "sport",
-      "score": 38,
+      "score": 39,
       "tier": "medium",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (5 médias) · mentionné sur X.",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (6 médias) · mentionné sur X.",
       "signals": [
         {
           "source": "discover",
@@ -1054,7 +1058,7 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "5 médias"
+          "value": "6 médias"
         },
         {
           "source": "trends",
@@ -1085,8 +1089,8 @@
         },
         {
           "name": "Google News",
-          "value": "5 médias",
-          "fill": 86
+          "value": "6 médias",
+          "fill": 92
         },
         {
           "name": "Google Trends",
@@ -1123,12 +1127,12 @@
         "discover": 0.5,
         "trends": 21.0,
         "wiki": 29.8,
-        "gnews": 86.3,
+        "gnews": 92.1,
         "msn": 15.0,
         "x": 20.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 37.7
+        "total": 38.5
       },
       "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-2026-des-images-de-jodar-bousculant-une-jeune-ramasseuse-de-balles-font-polémique/ar-AA24nPs1?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.e76f9d6b58912786a3ab2ec0ba6c5359&pid=Wdp",
@@ -1143,16 +1147,16 @@
           "url": "https://www.ouest-france.fr/sport/tennis/roland-garros/roland-garros-des-ajustements-sont-en-cours-apres-la-polemique-autour-des-baches-le-tournoi-va-intervenir-13a660fc-5ba4-11f1-b2c7-21f7efea5d61"
         },
         {
-          "label": "GNews · 20 Minutes — EN DIRECT Roland-Garros 2026 : Kouame avec un maillot du PSG... Cobolli veu…",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWHg3NUhIQWtQR0hkY01wR2xQTWtBRDRmczY1R3d0cWdTOGRCWUJBa1BSd0VrWllSLXhxTnNoUmY0MUQ0VkdPS2FWTzlMVDYwd1NjX1FVdkhnQkQ5SVk1TWJVMDBiSVNnNUloakV3R2NNd0hrX2p6Q2lQYnRGOEQ3cDhCcVI0a3ZncUZwa0tBN2V4VTA3WU9wVVlWQWY4UWMxNWpPcU8xNlB2OC1WZUZsS3V5bUZtMDR2S21Vcnlpd0NFZG16cHhIZl9EMDRXeUZyeVRUZDBmcXZQM2hhLU53VXFacjBSRWN0ZGxNMEhqWm5DUQ?oc=5"
+          "label": "GNews · franceinfo — Diane Parry en route pour un coup d'éclat à Roland-Garros ?",
+          "url": "https://www.franceinfo.fr/roland-garros/roland-garros-2026-diane-parry-prete-pour-un-coup-d-eclat_8035436.html"
         },
         {
-          "label": "GNews · Roland-Garros 2026 — Troisième tour : le récap’ du vendredi 29 mai - Roland-Garros 2026",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdENBcGlHQzR5Wk9LWU9KZnlKWG9sdWY5Y25CV2tNeGxhRXd5bGo0eWktLVZzcUhyRnQ3SUpGX2Z6N1llbFItbmh0VEw0cWdlbDkyekx0VHFsM3Q4aXdQSUpZcFZocFlVQjQ0enF3M3lRVlBDTXIzdDMtb1VPWHRveTJLS0N0c1hDc3d3bm4xWEVCQzRSTHczS2ZvTmlCelRlWGhfbGVfdzQ4SDJiUllWTjZMLXc?oc=5"
+          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPd25KXzNXYmd5SkY0UGhjMU8xN1pnSWl4bHRSTTJranVjdjJHNHp2QnItUWhhMi1UYnByZE5MMkNZeF96WFRoWnFjYThlYVJGcFF2djBxaGVkYnVMdURNdGY0VDVzTHQtOWZBbS14a2hRc1BLUU5lUHBISkJvaE9Vd01zLW5hQ3lOXzdveTU0SzlVOGNHYmMxVEdJU3J6OTByUE1KelE3R2gzLWcyZEZwWENDd1hCekFMaFh4QlBzbG5vWVh4V3FEMnFXSjA3R1NIVURCMjNla1ItVTAzMDA5dVpMZDhYSTA?oc=5"
         },
         {
-          "label": "GNews · purepeople.com — A Roland-Garros, Vianney a fait la promotion de son business très stylé et éloigné de la musique",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZEhyLWhMdVlNTEdPb1NxWjljZktudUNfdEFFamJnVG1QMzFmb1V6dnlpeGVFMjVHVV9saWJJX1c4YklwMXh1clppd3RIdl9reWJiVktNczlmQm9UcGNiNDRJT2tuU0t4WnFBZ1BVYUp5TnBYWXFLLVJYUlU5VjZJT2JyX0RCV2hNMkhPM1Y0RlZtN29pcmx0WUNLdkVKRHNueUxsT2dTSmtKdU54S3lHZzJXbzV6emlEbFU3dnNHVjFJenoxb3RGTmpreFB3VGxXQm1JeWlDRQ?oc=5"
+          "label": "GNews · purepeople.com — Nolwenn Leroy aperçue à Roland-Garros : la compagne d’Arnaud Clément fait sensation dans une tenue parfaite pour l'événement",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQ0MtR2VJb3NDaTBRS2hWOVRldk5Nc1hxQ1VtT043bk9XM1AzemNfQWtJVjh4ci16Qm5FbFlQMldrcGZJRHhxb0Fqa2Nud3NBUUFGQVlBdFRZWkxqTDl1V1BGeDRtNTF2VjVWc2tieHFIRmc1S0I3YzhpWHEyU1c4UFg1OERKWmxmdjZUTWlWb0pGcURrUjQ2cUE0Y25MODZUYU1FeHplQ1hJS2t4dklWczNxMlpQT1RrOHl5WkY0ZlBMSmFxaTFYck1jRllmY3pMaXpacURzY3pWSXFsb01WOUNaWVpVM19MU0YzZmtGSFBfOGIydWsyUA?oc=5"
         }
       ],
       "discover_category": "/Sports/Individual Sports/Racquet Sports",
@@ -1258,16 +1262,16 @@
           "url": "https://www.youtube.com/watch?v=FhT4A2p4E04"
         },
         {
+          "label": "GNews · telerama.fr — Patrick Bruel annule concerts et festivals cet été : le point sur une affaire hors norme",
+          "url": "https://www.telerama.fr/debats-reportages/patrick-bruel-annule-concerts-et-festivals-cet-ete-le-point-sur-une-affaire-hors-norme-5517-7031355.php"
+        },
+        {
           "label": "GNews · Le Figaro — «Ce sera notre secret» : dans l’affaire Patrick Bruel, autopsie de la procédure des «masseuses», qui rattrape le chanteur",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSUZKSWxrQVR3empGcjFKanZNMFpDVUxMVlN3VURNSEgzSjVmczBnNDVyZUc5Y29USnpjQlZqa1F0Wk9rTzJEa25xdDdLczI3NXVHMVFYRlNERUtETUZjbEk4bUc1QzR2R1pZNmI1eVZfMHZaZ3VKWWlKSGVKWE0tbUJ3YlNnUWxmVnl1Y2hMYWVQbWhldnRNVVpZX0VTdHlyUTNHZ3FEZ0NkS0JoUVMyOEUtMWR3NzVxQnExWl8yR2ZtMWJHbkoxX2Z2U3lVUWhGSGdnNXlIeFlaZXJ1MnVaeTNsbExha3pmS25fLVJYZko?oc=5"
         },
         {
-          "label": "GNews · franceinfo — Annulation des concerts de Patrick Bruel : le directeur du festival Grandes Marées, en Normandie, fait état d'un \"grand soulagement\"",
-          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVGJJWDJVQTh1NHlaS2xkV29uQkJVYTBkbHJ6ejFoX3pMTGtWSXN0eDFyVkk5ZGNPU3gyN0ZnMDFXaU5TUHo2ampycWw2azZ5OGpQX0xoOWRWUzdyQ0N2Z3lPbU1zZ0s4NmhXeHNaM2hTaEJTUnA0SFlGSFRIOFBJTGQtdzExYWhLNlBwcDZHODNrTEJaZDBkUWhMa0I5NDFtMkF0NVpMbmNkQmd4a2h4UUd0aXNuVDlmdDBKQzBGdTVkQjE0T3Mtd3Vsdk9KN2lXelUwS2w4MzkzcGVaVTREbjc3dEkxczZRSWZmN3ZFZlVkckdBcWN3NmpVZDNNakpBMGFkUmxMU0JQOWtWREFjeVVUS0k1RjNGZFpXRmRwa1MtX0stQl9aS1B3QWFfc01UaElkM1FUdEtJdkY5ZHNnTlBlQmpQWEVjS0E?oc=5"
-        },
-        {
-          "label": "GNews · public.fr — Flavie Flament : \"épuisée\" par son \"combat\" contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOVd3SjdNa19QX0ZERVByanBhUmNLQ1pvVWp6MENYQ3pLY1JaM2VGbS1aWGlGSEJoRDROV3ZOV0JMdF9XbV9fYzJQVDVUbmZVZGdCaVhEdk9uenE0RUZyMWxGVG56b05UWW4yRHBRb2lIWjVoOTUxb0tyMFZwWFZfcktjemZkNzFoRk04QUJuNXRacDRGMFBkc2dpSlluTzV2aDlUN1pCeUhkdjlxY29uUkpGaHZpNjFmU3dFMlBmanR0MHgxUUZjTEloY2JsdVk?oc=5"
+          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHV5MXBWYVBwai1HRFBTMURfZ2NBYTBLYnhrcTVKQTVyVDlobHl1dnNiVGx3d2NaU0RFNUUwalVqbUVxdWR2NXdUa0UtYzlKbW9DdElpelVuRUt5OHFiaUVCMDFZeVBPNWVBN25abkNBUmluM1lSZFNyWjJLeG5YMDE0YkJYUWVJLWc5WEQ0Z0FCOFN5N2JRbFhULUhDUzBPM1lsNm14N05SVlJhbEZhRlZXMVF4SDFNUDk1TzRYNDJnNHc?oc=5"
         }
       ],
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
@@ -1372,16 +1376,16 @@
           "url": "https://www.youtube.com/watch?v=FhT4A2p4E04"
         },
         {
+          "label": "GNews · telerama.fr — Patrick Bruel annule concerts et festivals cet été : le point sur une affaire hors norme",
+          "url": "https://www.telerama.fr/debats-reportages/patrick-bruel-annule-concerts-et-festivals-cet-ete-le-point-sur-une-affaire-hors-norme-5517-7031355.php"
+        },
+        {
           "label": "GNews · Le Figaro — «Ce sera notre secret» : dans l’affaire Patrick Bruel, autopsie de la procédure des «masseuses», qui rattrape le chanteur",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSUZKSWxrQVR3empGcjFKanZNMFpDVUxMVlN3VURNSEgzSjVmczBnNDVyZUc5Y29USnpjQlZqa1F0Wk9rTzJEa25xdDdLczI3NXVHMVFYRlNERUtETUZjbEk4bUc1QzR2R1pZNmI1eVZfMHZaZ3VKWWlKSGVKWE0tbUJ3YlNnUWxmVnl1Y2hMYWVQbWhldnRNVVpZX0VTdHlyUTNHZ3FEZ0NkS0JoUVMyOEUtMWR3NzVxQnExWl8yR2ZtMWJHbkoxX2Z2U3lVUWhGSGdnNXlIeFlaZXJ1MnVaeTNsbExha3pmS25fLVJYZko?oc=5"
         },
         {
-          "label": "GNews · franceinfo — Annulation des concerts de Patrick Bruel : le directeur du festival Grandes Marées, en Normandie, fait état d'un \"grand soulagement\"",
-          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVGJJWDJVQTh1NHlaS2xkV29uQkJVYTBkbHJ6ejFoX3pMTGtWSXN0eDFyVkk5ZGNPU3gyN0ZnMDFXaU5TUHo2ampycWw2azZ5OGpQX0xoOWRWUzdyQ0N2Z3lPbU1zZ0s4NmhXeHNaM2hTaEJTUnA0SFlGSFRIOFBJTGQtdzExYWhLNlBwcDZHODNrTEJaZDBkUWhMa0I5NDFtMkF0NVpMbmNkQmd4a2h4UUd0aXNuVDlmdDBKQzBGdTVkQjE0T3Mtd3Vsdk9KN2lXelUwS2w4MzkzcGVaVTREbjc3dEkxczZRSWZmN3ZFZlVkckdBcWN3NmpVZDNNakpBMGFkUmxMU0JQOWtWREFjeVVUS0k1RjNGZFpXRmRwa1MtX0stQl9aS1B3QWFfc01UaElkM1FUdEtJdkY5ZHNnTlBlQmpQWEVjS0E?oc=5"
-        },
-        {
-          "label": "GNews · public.fr — Flavie Flament : \"épuisée\" par son \"combat\" contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOVd3SjdNa19QX0ZERVByanBhUmNLQ1pvVWp6MENYQ3pLY1JaM2VGbS1aWGlGSEJoRDROV3ZOV0JMdF9XbV9fYzJQVDVUbmZVZGdCaVhEdk9uenE0RUZyMWxGVG56b05UWW4yRHBRb2lIWjVoOTUxb0tyMFZwWFZfcktjemZkNzFoRk04QUJuNXRacDRGMFBkc2dpSlluTzV2aDlUN1pCeUhkdjlxY29uUkpGaHZpNjFmU3dFMlBmanR0MHgxUUZjTEloY2JsdVk?oc=5"
+          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHV5MXBWYVBwai1HRFBTMURfZ2NBYTBLYnhrcTVKQTVyVDlobHl1dnNiVGx3d2NaU0RFNUUwalVqbUVxdWR2NXdUa0UtYzlKbW9DdElpelVuRUt5OHFiaUVCMDFZeVBPNWVBN25abkNBUmluM1lSZFNyWjJLeG5YMDE0YkJYUWVJLWc5WEQ0Z0FCOFN5N2JRbFhULUhDUzBPM1lsNm14N05SVlJhbEZhRlZXMVF4SDFNUDk1TzRYNDJnNHc?oc=5"
         }
       ],
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
@@ -1486,16 +1490,16 @@
           "url": "https://www.youtube.com/watch?v=FhT4A2p4E04"
         },
         {
+          "label": "GNews · telerama.fr — Patrick Bruel annule concerts et festivals cet été : le point sur une affaire hors norme",
+          "url": "https://www.telerama.fr/debats-reportages/patrick-bruel-annule-concerts-et-festivals-cet-ete-le-point-sur-une-affaire-hors-norme-5517-7031355.php"
+        },
+        {
           "label": "GNews · Le Figaro — «Ce sera notre secret» : dans l’affaire Patrick Bruel, autopsie de la procédure des «masseuses», qui rattrape le chanteur",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSUZKSWxrQVR3empGcjFKanZNMFpDVUxMVlN3VURNSEgzSjVmczBnNDVyZUc5Y29USnpjQlZqa1F0Wk9rTzJEa25xdDdLczI3NXVHMVFYRlNERUtETUZjbEk4bUc1QzR2R1pZNmI1eVZfMHZaZ3VKWWlKSGVKWE0tbUJ3YlNnUWxmVnl1Y2hMYWVQbWhldnRNVVpZX0VTdHlyUTNHZ3FEZ0NkS0JoUVMyOEUtMWR3NzVxQnExWl8yR2ZtMWJHbkoxX2Z2U3lVUWhGSGdnNXlIeFlaZXJ1MnVaeTNsbExha3pmS25fLVJYZko?oc=5"
         },
         {
-          "label": "GNews · franceinfo — Annulation des concerts de Patrick Bruel : le directeur du festival Grandes Marées, en Normandie, fait état d'un \"grand soulagement\"",
-          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVGJJWDJVQTh1NHlaS2xkV29uQkJVYTBkbHJ6ejFoX3pMTGtWSXN0eDFyVkk5ZGNPU3gyN0ZnMDFXaU5TUHo2ampycWw2azZ5OGpQX0xoOWRWUzdyQ0N2Z3lPbU1zZ0s4NmhXeHNaM2hTaEJTUnA0SFlGSFRIOFBJTGQtdzExYWhLNlBwcDZHODNrTEJaZDBkUWhMa0I5NDFtMkF0NVpMbmNkQmd4a2h4UUd0aXNuVDlmdDBKQzBGdTVkQjE0T3Mtd3Vsdk9KN2lXelUwS2w4MzkzcGVaVTREbjc3dEkxczZRSWZmN3ZFZlVkckdBcWN3NmpVZDNNakpBMGFkUmxMU0JQOWtWREFjeVVUS0k1RjNGZFpXRmRwa1MtX0stQl9aS1B3QWFfc01UaElkM1FUdEtJdkY5ZHNnTlBlQmpQWEVjS0E?oc=5"
-        },
-        {
-          "label": "GNews · public.fr — Flavie Flament : \"épuisée\" par son \"combat\" contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOVd3SjdNa19QX0ZERVByanBhUmNLQ1pvVWp6MENYQ3pLY1JaM2VGbS1aWGlGSEJoRDROV3ZOV0JMdF9XbV9fYzJQVDVUbmZVZGdCaVhEdk9uenE0RUZyMWxGVG56b05UWW4yRHBRb2lIWjVoOTUxb0tyMFZwWFZfcktjemZkNzFoRk04QUJuNXRacDRGMFBkc2dpSlluTzV2aDlUN1pCeUhkdjlxY29uUkpGaHZpNjFmU3dFMlBmanR0MHgxUUZjTEloY2JsdVk?oc=5"
+          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHV5MXBWYVBwai1HRFBTMURfZ2NBYTBLYnhrcTVKQTVyVDlobHl1dnNiVGx3d2NaU0RFNUUwalVqbUVxdWR2NXdUa0UtYzlKbW9DdElpelVuRUt5OHFiaUVCMDFZeVBPNWVBN25abkNBUmluM1lSZFNyWjJLeG5YMDE0YkJYUWVJLWc5WEQ0Z0FCOFN5N2JRbFhULUhDUzBPM1lsNm14N05SVlJhbEZhRlZXMVF4SDFNUDk1TzRYNDJnNHc?oc=5"
         }
       ],
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
@@ -1507,11 +1511,11 @@
     {
       "id": "s13",
       "rank": 13,
-      "title": "« J'ai sept enfants avec trois épouses différentes » : Daniel Guichard se confie comme rarement sur sa vie de famille",
-      "theme": "divertissement",
+      "title": "Sur les retraites, le Rassemblement national sort les rames depuis l’embardée de Jordan Bardella",
+      "theme": "actualite",
       "score": 33,
       "tier": "medium",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · couvert par 2 médias.",
+      "rationale": "Présent dans le top Wikipedia · couvert par 4 médias · engagement MSN élevé.",
       "signals": [
         {
           "source": "discover",
@@ -1521,44 +1525,39 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "20k"
+          "value": "4 médias"
         },
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "11k vues"
+          "value": "6k vues"
         },
         {
           "source": "msn",
           "label": "msn",
-          "value": "22+ react."
+          "value": "136+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 0.0",
-          "fill": 0
+          "value": "score 0.4",
+          "fill": 1
         },
         {
           "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
+          "value": "4 médias",
+          "fill": 79
         },
         {
           "name": "Google Trends",
-          "value": "20k",
-          "fill": 38
+          "value": "—",
+          "fill": 0
         },
         {
           "name": "Wikimedia",
-          "value": "11k vues/h",
-          "fill": 52
+          "value": "6k vues/h",
+          "fill": 32
         },
         {
           "name": "X velocity",
@@ -1567,8 +1566,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "17/100",
-          "fill": 17
+          "value": "100/100",
+          "fill": 100
         },
         {
           "name": "Reddit FR",
@@ -1582,40 +1581,44 @@
         }
       ],
       "score_breakdown": {
-        "discover": 0.0,
-        "trends": 38.8,
-        "wiki": 52.3,
-        "gnews": 57.1,
-        "msn": 17.1,
+        "discover": 1.8,
+        "trends": 0.0,
+        "wiki": 32.0,
+        "gnews": 79.2,
+        "msn": 100.0,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 33.1
+        "total": 33.3
       },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/j-ai-sept-enfants-avec-trois-épouses-différentes-daniel-guichard-se-confie-comme-rarement-sur-sa-vie-de-famille/ar-AA24np2i?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.0aef8606c3ea6707ec50258eff8946a1&pid=Wdp",
-      "msn_source_name": "Télé Loisirs",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/sur-les-retraites-le-rassemblement-national-sort-les-rames-depuis-l-embardée-de-jordan-bardella/ar-AA24pNG0?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24prlr.img",
+      "msn_source_name": "Le HuffPost",
       "refs": [
         {
-          "label": "MSN · Télé Loisirs — « J'ai sept enfants avec trois épouses différentes » : Daniel Guichard se confie comme rarement sur sa vie de famille",
-          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/j-ai-sept-enfants-avec-trois-épouses-différentes-daniel-guichard-se-confie-comme-rarement-sur-sa-vie-de-famille/ar-AA24np2i?ocid=00000000"
+          "label": "MSN · Le HuffPost — Sur les retraites, le Rassemblement national sort les rames depuis l’embardée de Jordan Bardella",
+          "url": "https://www.msn.com/fr-fr/actualite/france/sur-les-retraites-le-rassemblement-national-sort-les-rames-depuis-l-embardée-de-jordan-bardella/ar-AA24pNG0?ocid=00000000"
         },
         {
-          "label": "Discover · Ouest-France — Les enfants abandonnés au Portugal confiés à des membres de leur famille en France",
-          "url": "https://www.ouest-france.fr/societe/faits-divers/les-enfants-abandonnes-au-portugal-confies-a-des-membres-de-leur-famille-en-france-f5d5cb52-5bf4-11f1-b2c7-21f7efea5d61"
+          "label": "Discover · Nice-Matin — Un cadre du Rassemblement national dans le Var nommé à la tête du cabinet de la maire de Signes",
+          "url": "https://www.nicematin.com/societe/politique/un-cadre-du-rassemblement-national-dans-le-var-nomme-a-la-tete-du-cabinet-de-la-maire-de-signes-10682565"
         },
         {
-          "label": "GNews · Ouest-France — Les enfants abandonnés au Portugal confiés à des membres de leur famille en France - Ouest-France",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQT2dpRENUdmdINF9SSllMVVZ5VUZYdVB1WjdRRXpaaTdWUnRpM2xsSlBTc3p0MU82dzlxUmJHa2pHbm1naTd4NzdGWXBaaHRnZXE4ZEhlS1V0VVFpSW90RWdobTd2VnoyM2lhSnRrbEo5WkgweXItcklBOXREU0lIeS1SVWk1TVh4dmRYN3ZGT3ZSMGlsNGp4eHhtU0xzYjlfc1RNX2g3OTBZOWcydnY0S2k3X1NmbEJCanFhMVlma3VLa2JvMXZOQmdaM3N4YjhhZGJ1WlRMc2x6VHRmWXcyY1doTnRFNzVHTU1sVzBUNU5iTEJJaTNKRkREcnQ?oc=5"
+          "label": "GNews · Le Monde.fr — Jordan Bardella rompt avec la réforme des retraites de Marine Le Pen et l’âge légal de départ : « C’est le dossier inflammable au parti »",
+          "url": "https://www.lemonde.fr/politique/article/2026/05/29/au-rn-l-explosion-du-dossier-inflammable-jordan-bardella-enterre-la-reforme-des-retraites-de-marine-le-pen-et-l-age-legal-de-depart_6694791_823448.html"
         },
         {
-          "label": "GNews · Le Monde.fr — Les enfants français abandonnés au Portugal ont été confiés à des membres de leur famille en France",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQTkZlV3R3Wk0td25GQkZaR1NmYzZUblhiZHpnYV9FbU1TYXhteFU1a2swZVVTSDRuOF9SUEotSWdkSHM1d2RCMFZkQWlReTk0bEZ5ajJ0S0U4T0dpVmRsbHJMUFJfUUIwUFNnb2o2WGp0ekxveC1JREI1LTFiVk1raDNYMTVZWllnaS1oWG1ZVGQxRWF2ai1Id0o2R0ExaHdweF9EazZOdy1zS19XYXdqR2hXOFJJeUMwdkdIR2d0YVVDamVQSXFGUFJVTExfcEJQQlJVMjlfWmJuOG9YSXJNMDJVcmZvaWhkV1hZOVVzaXRNQmRhalEwVGxaVQ?oc=5"
+          "label": "GNews · Madame Figaro — «Je l’aime» : Jordan Bardella déclare sa flamme à la princesse Maria Carolina en plein direct à la télévision",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMnY0ME1yVVZ5ZUVvamFvVTVNRFpOX2FoUDFaeDZwRFlIVUdMR3dWdnRZeTZvd0VPQy1FXzI1Zl96TXhGYVZWSXhzVW9zMEUxTFktYUc5V0xDWm1mbTZTbEpKMmJaa2VnenZvNVkwX0tnVlNXSlVTYUJidUE1dWl4YkpTWXZaaEk3Q2sxX1ZOclc0OEh1Q2p5RDRZMkFJaExOd2RjbHA0SE1WY0VSXzF5UFktd2FmYUk5TDRuQ1pneS1nS3otWFR1cnhOVTdtS0JtWmozQ3pzU3NlVXpBQjFQa1N4Q2g0dHM1TTJmT2hYaUlUQXhJTVpF?oc=5"
+        },
+        {
+          "label": "GNews · Yahoo Actualités — INFO BFMTV. Youtube ne retirera pas le clip \"Un facho K.O\" du rappeur Soli, visé par une plainte de Jordan Bardella",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QWXNiTFozcTBWSlF6ZE1MZUdYYXh4M0xPazdpSWZYMDg1elZkbFVJWjhzUFQtbXlYNkoyRUJCNUViekZqZnFETTdFWUJEVDFaM0VqUE9UbHRfMWVRdGdYdVJaZXZLVjdNRVFZdzhFeGpDSngwNFluMExfNA?oc=5"
         }
       ],
-      "discover_category": "/News",
+      "discover_category": "/News/Politics",
       "discover_entities": [
-        "Portugal"
+        "Maire"
       ]
     },
     {
@@ -1718,12 +1721,12 @@
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOVd3SjdNa19QX0ZERVByanBhUmNLQ1pvVWp6MENYQ3pLY1JaM2VGbS1aWGlGSEJoRDROV3ZOV0JMdF9XbV9fYzJQVDVUbmZVZGdCaVhEdk9uenE0RUZyMWxGVG56b05UWW4yRHBRb2lIWjVoOTUxb0tyMFZwWFZfcktjemZkNzFoRk04QUJuNXRacDRGMFBkc2dpSlluTzV2aDlUN1pCeUhkdjlxY29uUkpGaHZpNjFmU3dFMlBmanR0MHgxUUZjTEloY2JsdVk?oc=5"
         },
         {
-          "label": "GNews · Le Figaro — «Ce sera notre secret» : dans l’affaire Patrick Bruel, autopsie de la procédure des «masseuses», qui rattrape le chanteur",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSUZKSWxrQVR3empGcjFKanZNMFpDVUxMVlN3VURNSEgzSjVmczBnNDVyZUc5Y29USnpjQlZqa1F0Wk9rTzJEa25xdDdLczI3NXVHMVFYRlNERUtETUZjbEk4bUc1QzR2R1pZNmI1eVZfMHZaZ3VKWWlKSGVKWE0tbUJ3YlNnUWxmVnl1Y2hMYWVQbWhldnRNVVpZX0VTdHlyUTNHZ3FEZ0NkS0JoUVMyOEUtMWR3NzVxQnExWl8yR2ZtMWJHbkoxX2Z2U3lVUWhGSGdnNXlIeFlaZXJ1MnVaeTNsbExha3pmS25fLVJYZko?oc=5"
+          "label": "GNews · telerama.fr — Patrick Bruel annule concerts et festivals cet été : le point sur une affaire hors norme",
+          "url": "https://www.telerama.fr/debats-reportages/patrick-bruel-annule-concerts-et-festivals-cet-ete-le-point-sur-une-affaire-hors-norme-5517-7031355.php"
         },
         {
-          "label": "GNews · franceinfo — Annulation des concerts de Patrick Bruel : le directeur du festival Grandes Marées, en Normandie, fait état d'un \"grand soulagement\"",
-          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVGJJWDJVQTh1NHlaS2xkV29uQkJVYTBkbHJ6ejFoX3pMTGtWSXN0eDFyVkk5ZGNPU3gyN0ZnMDFXaU5TUHo2ampycWw2azZ5OGpQX0xoOWRWUzdyQ0N2Z3lPbU1zZ0s4NmhXeHNaM2hTaEJTUnA0SFlGSFRIOFBJTGQtdzExYWhLNlBwcDZHODNrTEJaZDBkUWhMa0I5NDFtMkF0NVpMbmNkQmd4a2h4UUd0aXNuVDlmdDBKQzBGdTVkQjE0T3Mtd3Vsdk9KN2lXelUwS2w4MzkzcGVaVTREbjc3dEkxczZRSWZmN3ZFZlVkckdBcWN3NmpVZDNNakpBMGFkUmxMU0JQOWtWREFjeVVUS0k1RjNGZFpXRmRwa1MtX0stQl9aS1B3QWFfc01UaElkM1FUdEtJdkY5ZHNnTlBlQmpQWEVjS0E?oc=5"
+          "label": "GNews · Le Figaro — «Ce sera notre secret» : dans l’affaire Patrick Bruel, autopsie de la procédure des «masseuses», qui rattrape le chanteur",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSUZKSWxrQVR3empGcjFKanZNMFpDVUxMVlN3VURNSEgzSjVmczBnNDVyZUc5Y29USnpjQlZqa1F0Wk9rTzJEa25xdDdLczI3NXVHMVFYRlNERUtETUZjbEk4bUc1QzR2R1pZNmI1eVZfMHZaZ3VKWWlKSGVKWE0tbUJ3YlNnUWxmVnl1Y2hMYWVQbWhldnRNVVpZX0VTdHlyUTNHZ3FEZ0NkS0JoUVMyOEUtMWR3NzVxQnExWl8yR2ZtMWJHbkoxX2Z2U3lVUWhGSGdnNXlIeFlaZXJ1MnVaeTNsbExha3pmS25fLVJYZko?oc=5"
         }
       ],
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
@@ -1735,128 +1738,6 @@
     {
       "id": "s15",
       "rank": 15,
-      "title": "Fisc, Kennedy Center et « caisse noire » : trois revers judiciaires en 24h pour Donald Trump",
-      "theme": "actualite",
-      "score": 30,
-      "tier": "medium",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (6 médias) · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "6 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "5k"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "3k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "77+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.6",
-          "fill": 2
-        },
-        {
-          "name": "Google News",
-          "value": "6 médias",
-          "fill": 92
-        },
-        {
-          "name": "Google Trends",
-          "value": "5k",
-          "fill": 11
-        },
-        {
-          "name": "Wikimedia",
-          "value": "3k vues/h",
-          "fill": 15
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 2.7,
-        "trends": 11.0,
-        "wiki": 15.8,
-        "gnews": 92.1,
-        "msn": 100.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 30.3
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/fisc-kennedy-center-et-caisse-noire-trois-revers-judiciaires-en-24h-pour-donald-trump/ar-AA24pomr?ocid=00000000",
-      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24pcqR.img",
-      "msn_source_name": "RFI",
-      "refs": [
-        {
-          "label": "MSN · RFI — Fisc, Kennedy Center et « caisse noire » : trois revers judiciaires en 24h pour Donald Trump",
-          "url": "https://www.msn.com/fr-fr/actualite/france/fisc-kennedy-center-et-caisse-noire-trois-revers-judiciaires-en-24h-pour-donald-trump/ar-AA24pomr?ocid=00000000"
-        },
-        {
-          "label": "Discover · Ouest-France — Un juge ordonne à Donald Trump de retirer son nom du Kennedy Center",
-          "url": "https://www.ouest-france.fr/monde/etats-unis/donald-trump/un-juge-ordonne-a-donald-trump-de-retirer-son-nom-du-kennedy-center-6d446090-5b9b-11f1-b3f0-aacb0ffa8bfb"
-        },
-        {
-          "label": "GNews · RFI — Fisc, Kennedy Center et «caisse noire»: trois revers judiciaires en 24h pour Donald Trump",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVDRZQ0s4S2pTaU1FWk15OEpQX211ejRpemgzOXRGeEZKNHdDcHFWcUt3SnFMUU9wM3VWVU11VEtZcjZXZzI2WVdvMjdEUGpFclE1RUphamtzVjBhWC1qMWJkTHNjRFBHRnQ4aWJNZWcyQ0YxeTg1SlRBUGJvVzRUdFJRRlZxdEt6MW5fM1ZUNkRhNVhhYzVoTXlVMHhSaTBKWVAyZ24ySDIwek9xamlWTGc0bjFfdnFBQ29tQ2FSeDBZbEtqekRWb3hQb0haOHAxRXc?oc=5"
-        },
-        {
-          "label": "GNews · Le Monde.fr — Nouveau revers judiciaire pour Donald Trump : un juge fédéral gèle le fonds créé pour indemniser ses partisans poursuivis en justice sous Joe Biden",
-          "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOU05veHhEWU9GTWFoM3BBN0tGQlpuY3pqUXRIUTV4Um02RUZsZzFZdDRZUW5pZHFMRzZzUDFsdHhUX3FtVWtUeXh4Y2tmT2FCcWwyNU55b0NVaHhGRTRWbHV3bW9uNzRjX2Z2TU1kbmlpWEo3S3hXS20wUWlYakd4d1NGX0xpUmNETTNsMlE1S0VQMGNSV1pmZ3JEOUxnejdrWG1FVkppcGFrNU83M0d4NUMySGdYR0YycHdSdnhmWkNEWnR0bE9JSXg5UHhRQklrOGZLSEdKREo2YjE3dzRnYjdYS0M2WHpuSXJzMkJBelhYZGlpN1BlQ2t6NGhOc0lyXzltbGMyUi1uZzhtS3U4MjJpd1RMaFpoWDBhZTBrV3k5ZkhCQjBuQVhVT04xYk4zZkt0Z2xmS21JM1JHVGJrUWVKaFBMdw?oc=5"
-        },
-        {
-          "label": "GNews · Le Temps — «J’en ai marre de la bêtise»: ces républicains qui défient Donald Trump au Congrès",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMWQ3RUIwMUNQc1dIM0FFQ1BYYldQeHpEdnZvWkRtSTJXSDQtX19SRmR1MGZweXoyZjRieXRhWDM0cnFLOWN3bVo2LTRQOVVIeUxsSl9FTUlobEd1aWlUcjNQVlJVVDNoY2pYa0xVbmg0M3BqbmlBMjJWYXZSdEhLLUNrdS00bk1pT2tkNW53S2tWaUhnOTJ3QV90NjJPcktQdUpfQmF5aEk2WGwy?oc=5"
-        }
-      ],
-      "discover_category": "/News/Politics",
-      "discover_entities": [
-        "Donald Trump",
-        "Juge fédéral des États-Unis",
-        "Kennedy Center",
-        "Maison Blanche",
-        "Parti républicain"
-      ]
-    },
-    {
-      "id": "s16",
-      "rank": 16,
       "title": "Novak Djokovic, battu par Joao Fonseca : « Lors de notre poignée de main au filet, je lui ai dit ces trois choses »",
       "theme": "sport",
       "score": 30,
@@ -1959,13 +1840,13 @@
       ]
     },
     {
-      "id": "s17",
-      "rank": 17,
-      "title": "Sur les retraites, le Rassemblement national sort les rames depuis l’embardée de Jordan Bardella",
-      "theme": "actualite",
+      "id": "s16",
+      "rank": 16,
+      "title": "« J'ai sept enfants avec trois épouses différentes » : Daniel Guichard se confie comme rarement sur sa vie de famille",
+      "theme": "divertissement",
       "score": 30,
       "tier": "medium",
-      "rationale": "Présent dans le top Wikipedia · couvert par 2 médias · engagement MSN élevé.",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités.",
       "signals": [
         {
           "source": "discover",
@@ -1975,39 +1856,154 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "2 médias"
+          "value": "1 média"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "20k"
         },
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "6k vues"
+          "value": "11k vues"
         },
         {
           "source": "msn",
           "label": "msn",
-          "value": "136+ react."
+          "value": "22+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 0.4",
-          "fill": 1
+          "value": "score 0.0",
+          "fill": 0
         },
         {
           "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
+          "value": "1 média",
+          "fill": 35
         },
         {
           "name": "Google Trends",
+          "value": "20k",
+          "fill": 38
+        },
+        {
+          "name": "Wikimedia",
+          "value": "11k vues/h",
+          "fill": 52
+        },
+        {
+          "name": "X velocity",
           "value": "—",
           "fill": 0
         },
         {
+          "name": "MSN engagement",
+          "value": "17/100",
+          "fill": 17
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 38.8,
+        "wiki": 52.3,
+        "gnews": 35.0,
+        "msn": 17.1,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 30.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/j-ai-sept-enfants-avec-trois-épouses-différentes-daniel-guichard-se-confie-comme-rarement-sur-sa-vie-de-famille/ar-AA24np2i?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.0aef8606c3ea6707ec50258eff8946a1&pid=Wdp",
+      "msn_source_name": "Télé Loisirs",
+      "refs": [
+        {
+          "label": "MSN · Télé Loisirs — « J'ai sept enfants avec trois épouses différentes » : Daniel Guichard se confie comme rarement sur sa vie de famille",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/j-ai-sept-enfants-avec-trois-épouses-différentes-daniel-guichard-se-confie-comme-rarement-sur-sa-vie-de-famille/ar-AA24np2i?ocid=00000000"
+        },
+        {
+          "label": "Discover · Ouest-France — Les enfants abandonnés au Portugal confiés à des membres de leur famille en France",
+          "url": "https://www.ouest-france.fr/societe/faits-divers/les-enfants-abandonnes-au-portugal-confies-a-des-membres-de-leur-famille-en-france-f5d5cb52-5bf4-11f1-b2c7-21f7efea5d61"
+        },
+        {
+          "label": "GNews · parismatch.com — Enfants abandonnés au Portugal : les deux frères confiés à des membres de leur famille en France",
+          "url": "https://www.parismatch.com/actu/faits-divers/enfants-abandonnes-au-portugal-les-deux-freres-confies-a-des-membres-de-leur-famille-en-france-269923"
+        }
+      ],
+      "discover_category": "/News",
+      "discover_entities": [
+        "Portugal"
+      ]
+    },
+    {
+      "id": "s17",
+      "rank": 17,
+      "title": "Fisc, Kennedy Center et « caisse noire » : trois revers judiciaires en 24h pour Donald Trump",
+      "theme": "actualite",
+      "score": 29,
+      "tier": "low",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (5 médias) · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "5 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "5k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "77+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.6",
+          "fill": 2
+        },
+        {
+          "name": "Google News",
+          "value": "5 médias",
+          "fill": 86
+        },
+        {
+          "name": "Google Trends",
+          "value": "5k",
+          "fill": 11
+        },
+        {
           "name": "Wikimedia",
-          "value": "6k vues/h",
-          "fill": 32
+          "value": "3k vues/h",
+          "fill": 15
         },
         {
           "name": "X velocity",
@@ -2031,40 +2027,48 @@
         }
       ],
       "score_breakdown": {
-        "discover": 1.8,
-        "trends": 0.0,
-        "wiki": 32.0,
-        "gnews": 57.1,
+        "discover": 2.7,
+        "trends": 11.0,
+        "wiki": 15.8,
+        "gnews": 86.3,
         "msn": 100.0,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 30.2
+        "total": 29.5
       },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/sur-les-retraites-le-rassemblement-national-sort-les-rames-depuis-l-embardée-de-jordan-bardella/ar-AA24pNG0?ocid=00000000",
-      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24prlr.img",
-      "msn_source_name": "Le HuffPost",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/fisc-kennedy-center-et-caisse-noire-trois-revers-judiciaires-en-24h-pour-donald-trump/ar-AA24pomr?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24pcqR.img",
+      "msn_source_name": "RFI",
       "refs": [
         {
-          "label": "MSN · Le HuffPost — Sur les retraites, le Rassemblement national sort les rames depuis l’embardée de Jordan Bardella",
-          "url": "https://www.msn.com/fr-fr/actualite/france/sur-les-retraites-le-rassemblement-national-sort-les-rames-depuis-l-embardée-de-jordan-bardella/ar-AA24pNG0?ocid=00000000"
+          "label": "MSN · RFI — Fisc, Kennedy Center et « caisse noire » : trois revers judiciaires en 24h pour Donald Trump",
+          "url": "https://www.msn.com/fr-fr/actualite/france/fisc-kennedy-center-et-caisse-noire-trois-revers-judiciaires-en-24h-pour-donald-trump/ar-AA24pomr?ocid=00000000"
         },
         {
-          "label": "Discover · Nice-Matin — Un cadre du Rassemblement national dans le Var nommé à la tête du cabinet de la maire de Signes",
-          "url": "https://www.nicematin.com/societe/politique/un-cadre-du-rassemblement-national-dans-le-var-nomme-a-la-tete-du-cabinet-de-la-maire-de-signes-10682565"
+          "label": "Discover · Ouest-France — Un juge ordonne à Donald Trump de retirer son nom du Kennedy Center",
+          "url": "https://www.ouest-france.fr/monde/etats-unis/donald-trump/un-juge-ordonne-a-donald-trump-de-retirer-son-nom-du-kennedy-center-6d446090-5b9b-11f1-b3f0-aacb0ffa8bfb"
         },
         {
-          "label": "GNews · Le Monde.fr — Jordan Bardella rompt avec la réforme des retraites de Marine Le Pen et l’âge légal de départ : « C’est le dossier inflammable au parti »",
-          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNVUpHMGwtcUdGYzZ0WTlsdFlnWEpHOTVlTkpuNTg4UkxVZjBXYTdkS3paTlpwYVVJSkxueHRrREtyMGlzaVROQzhwb2VmVld5N2FGUkhITVZuQ1RBS3ZzLTg5YWJOSVdMRkNlVnFFdHMzZ2NRcUhpRFVRbm1PdmdidkZtVEVuUnpKWUt0SENZZURkSE13Q0YxQ09YdmdRMFQ5Z1htOTlUMFozb2w4TzkyVmZ1UUpqTTN2TnVYVnREaU5ZNnJVeHd4ckVkY0R4OWxFWXVGVUduTXNnTUwzbW92TDU2czRmRzg3TUhuYU9BWE5IYk90ZE1VSjVROVNmMC1fdmJzSHY3Y05BbGpMS19Lcy10OVhpTXpad0pSUlIydWRwUmN3QUpNY1MxMA?oc=5"
+          "label": "GNews · RFI — Fisc, Kennedy Center et «caisse noire»: trois revers judiciaires en 24h pour Donald Trump",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260530-fisc-centre-john-kennedy-et-caisse-noire-trois-revers-judiciaires-en-24h-pour-donald-trump"
         },
         {
-          "label": "GNews · Madame Figaro — «Je l’aime» : Jordan Bardella déclare sa flamme à la princesse Maria Carolina en plein direct à la télévision",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMnY0ME1yVVZ5ZUVvamFvVTVNRFpOX2FoUDFaeDZwRFlIVUdMR3dWdnRZeTZvd0VPQy1FXzI1Zl96TXhGYVZWSXhzVW9zMEUxTFktYUc5V0xDWm1mbTZTbEpKMmJaa2VnenZvNVkwX0tnVlNXSlVTYUJidUE1dWl4YkpTWXZaaEk3Q2sxX1ZOclc0OEh1Q2p5RDRZMkFJaExOd2RjbHA0SE1WY0VSXzF5UFktd2FmYUk5TDRuQ1pneS1nS3otWFR1cnhOVTdtS0JtWmozQ3pzU3NlVXpBQjFQa1N4Q2g0dHM1TTJmT2hYaUlUQXhJTVpF?oc=5"
+          "label": "GNews · Le Temps — «J’en ai marre de la bêtise»: ces républicains qui défient Donald Trump au Congrès",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMWQ3RUIwMUNQc1dIM0FFQ1BYYldQeHpEdnZvWkRtSTJXSDQtX19SRmR1MGZweXoyZjRieXRhWDM0cnFLOWN3bVo2LTRQOVVIeUxsSl9FTUlobEd1aWlUcjNQVlJVVDNoY2pYa0xVbmg0M3BqbmlBMjJWYXZSdEhLLUNrdS00bk1pT2tkNW53S2tWaUhnOTJ3QV90NjJPcktQdUpfQmF5aEk2WGwy?oc=5"
+        },
+        {
+          "label": "GNews · parismatch.com — « Une augmentation de l’activité physique et une perte de poids » : les conseil des médecins à Donald Trump",
+          "url": "https://www.parismatch.com/actu/international/une-augmentation-de-lactivite-physique-et-une-perte-de-poids-les-conseil-des-medecins-a-donald-trump-269917"
         }
       ],
       "discover_category": "/News/Politics",
       "discover_entities": [
-        "Maire"
+        "Donald Trump",
+        "Juge fédéral des États-Unis",
+        "Kennedy Center",
+        "Maison Blanche",
+        "Parti républicain"
       ]
     },
     {
@@ -2072,9 +2076,9 @@
       "rank": 18,
       "title": "Nagui porte plainte contre Cyril Hanouna et Charles Alloncle : voici ce que l'animateur leur reproche",
       "theme": "actualite",
-      "score": 26,
+      "score": 27,
       "tier": "low",
-      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (5 médias) · engagement MSN élevé.",
+      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (6 médias) · engagement MSN élevé.",
       "signals": [
         {
           "source": "discover",
@@ -2084,7 +2088,7 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "5 médias"
+          "value": "6 médias"
         },
         {
           "source": "wiki",
@@ -2105,8 +2109,8 @@
         },
         {
           "name": "Google News",
-          "value": "5 médias",
-          "fill": 86
+          "value": "6 médias",
+          "fill": 92
         },
         {
           "name": "Google Trends",
@@ -2143,12 +2147,12 @@
         "discover": 0.0,
         "trends": 0.0,
         "wiki": 9.1,
-        "gnews": 86.3,
+        "gnews": 92.1,
         "msn": 100.0,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 26.2
+        "total": 27.0
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/nagui-porte-plainte-contre-cyril-hanouna-et-charles-alloncle-voici-ce-que-l-animateur-leur-reproche/ar-AA24iNtK?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.39923a1c48b5723732830b5165641708&pid=Wdp",
@@ -2164,15 +2168,15 @@
         },
         {
           "label": "GNews · Jean-Marc Morandini — Nagui va porter plainte également contre le député Charles Alloncle en plus de la plainte contre Cyril H... - Jean-Marc Morandini",
-          "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOVEx0cXh5YkVLQUx6elZ2dlJwRXpDdkYxZm5Za0drbWl4VFp6UkpxVHZxQUljblZURERJcDZhUTQwczgxTUwzMUtScW9NUGZkdDc0SnJlaEhseE5lN19uQk1WbVZhWERBSmY3cHlVQWVjdXB3dTJYc2dzQ0x3QnEwcVpKNEhjNEpPTGtUOUE3blQySTV2amRBV2hVX3hYODBEQjJlRHo3aHRsVHh3Y3h1MV9iUnFZTmhyZEJsNkhCRDNjcGZ1UVRNaFpaODU5NmIxMDNsWDdMR1p3Qkhra3A0U25ESUEwVjlsa3dhSWV2WmFJemlMT2ZVMHVsUGswOVV4dlZrSTR6aHF1RVVaUms2NW1FRUVTYkZZZW42Vmo4MWlzZWvSAagCQVVfeXFMUHk2bmFVZmJ2Q2JvSE0xQjEtU3NqVDZPQzVTaDVpT2cxT0lScVZRQzJCTVFpQXk2Y01KOWhGYVhhc3k3VXNpOUdENzF3cGRPRUNoTGRJSzZpU2d6X3hNMV8wWDlxVWdkMk9WVDRLTVZpUmZyV0RBdGNlSUZmSmVFUk4tc0VxbGNLc1c5OHZvTVpYRzROa3JBY2tGeE9NbWNnWnU0bmV6WnR4ZkZYanRFLUxLcE9mUjhPa3puMXdxaG9yVDdMU1lXVmJLUXFRM0htenA4QjV3M2F4NGQzdmdMaWh3eVZfTDJwX1VlZVlmN0ZXN3QzS1RvMG53R1BDeGlBRmpNQkpGRmhYZ1I2RFA3RmpmSktIRXFSQndKVG83VzFYM2ZjbnlVU2c?oc=5"
+          "url": "https://www.jeanmarcmorandini.com/article-642379-nagui-va-porter-plainte-egalement-contre-le-depute-charles-alloncle-en-plus-de-la-plainte-contre-cyril-hanouna-dont-nous-vous-parlions-ce-matin.html"
         },
         {
           "label": "GNews · puremedias — \"Vous croyez que je vais prendre 5 ans de prison ?\": Cyril Hanouna se moque de la plainte déposée contre lui par Nagui",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQei1ZM18ycm1XZzlSMVZKMWk4YVQ0d3NTVmlCNlA2VTQ2VVFQbG1sT0RYeFh5WUVSZHlrNHExNGNobjNIaEh4TDRTcjdnUm1hQ2Zfb3BIWVNPdTRSZlVxdy1uYVAxS1Z4Q3dCcGQ5d2R3UnRzN2dyeHVFWGFLREQ4WUdyeTlZdmlyUk9HYkdTTkNlbTJYa24wb1NROXdESnpudnMtLWlQdVg1SWM3VnpSajB5SnMxRTRxTG5XeWdLbjJudG9OTVhWdzczeUpIR0RQWTJyVlNrUk5YQ090QmZV?oc=5"
         },
         {
-          "label": "GNews · Libération — Charles Alloncle en photo avec sa collaboratrice : le déontologue de l’Assemblée conclut à l’absence de manquement",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNVmVvd3NHRUphRkQ4XzdObDlBenVNZWk0YUpfbTVacDhmS0VrQmtSVjF5d1hBdlBrNXRtNHZpTDlwTDV6bTJXU3g4MXJETHBadllPaFdsdHRhS1RLcFRuUENKTG1teHoxcjhWOFpPcG1NRGVIbnRHWUo1aEdOSmxraEg1RUNfbkFfY3VtLUNPYWtxYWRMZ0ZsbTQtZ04yT0NFckEyazRiU1hIcXZmX0l1a1BYM0J4dmk5WmVoYzJ1cmxTZjY4VHpTUkNvRlg3YzJ0Y3JuSXJDTkM5ZlVUTjJDRzh0Zm13cmtJd0hZdDBncUs2M0xUS2tZeTZzc3poVExSTzBIU0VjNFI4ZFFXeWthTg?oc=5"
+          "label": "GNews · Le Parisien — Trois mois de géolocalisation « sans justification » : l’eurodéputée Rima Hassan porte plainte",
+          "url": "https://www.leparisien.fr/faits-divers/trois-mois-de-geolocalisation-sans-justification-leurodeputee-rima-hassan-porte-plainte-28-05-2026-JEWE6YSHMFHW3IPQXIXOBEHZUA.php"
         }
       ],
       "discover_category": "/Sports/Team Sports/Soccer",
@@ -2185,6 +2189,119 @@
     {
       "id": "s19",
       "rank": 19,
+      "title": "Maria Carolina dans la tourmente : pourquoi la compagne de Jordan Bardella se défend après de lourdes accusations",
+      "theme": "divertissement",
+      "score": 24,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · couvert par 4 médias.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "4 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "6k vues"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "28+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.0",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "4 médias",
+          "fill": 79
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "6k vues/h",
+          "fill": 32
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "30/100",
+          "fill": 30
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 0.0,
+        "wiki": 32.0,
+        "gnews": 79.2,
+        "msn": 30.3,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 23.9
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/actualite/maria-carolina-dans-la-tourmente-pourquoi-la-compagne-de-jordan-bardella-se-défend-après-de-lourdes-accusations/ar-AA24pmGV?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.571e74bca0f9d7b45c1a989fabc5c63e&pid=Wdp",
+      "msn_source_name": "So Busy Girls",
+      "refs": [
+        {
+          "label": "MSN · So Busy Girls — Maria Carolina dans la tourmente : pourquoi la compagne de Jordan Bardella se défend après de lourdes accusations",
+          "url": "https://www.msn.com/fr-fr/divertissement/actualite/maria-carolina-dans-la-tourmente-pourquoi-la-compagne-de-jordan-bardella-se-défend-après-de-lourdes-accusations/ar-AA24pmGV?ocid=00000000"
+        },
+        {
+          "label": "Discover · France Bleu — Après les accusations de tromperie sur le \"made in France\", une perquisition chez Vulli, fabricant de Sophie la girafe",
+          "url": "https://www.ici.fr/auvergne-rhone-alpes/haute-savoie-74/rumilly/rumilly-perquisition-chez-vulli-le-fabricant-de-sophie-la-girafe-9978250"
+        },
+        {
+          "label": "GNews · Madame Figaro — «Je l’aime» : Jordan Bardella déclare sa flamme à la princesse Maria Carolina en plein direct à la télévision",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMnY0ME1yVVZ5ZUVvamFvVTVNRFpOX2FoUDFaeDZwRFlIVUdMR3dWdnRZeTZvd0VPQy1FXzI1Zl96TXhGYVZWSXhzVW9zMEUxTFktYUc5V0xDWm1mbTZTbEpKMmJaa2VnenZvNVkwX0tnVlNXSlVTYUJidUE1dWl4YkpTWXZaaEk3Q2sxX1ZOclc0OEh1Q2p5RDRZMkFJaExOd2RjbHA0SE1WY0VSXzF5UFktd2FmYUk5TDRuQ1pneS1nS3otWFR1cnhOVTdtS0JtWmozQ3pzU3NlVXpBQjFQa1N4Q2g0dHM1TTJmT2hYaUlUQXhJTVpF?oc=5"
+        },
+        {
+          "label": "GNews · Yahoo Actualités — INFO BFMTV. Youtube ne retirera pas le clip \"Un facho K.O\" du rappeur Soli, visé par une plainte de Jordan Bardella",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QWXNiTFozcTBWSlF6ZE1MZUdYYXh4M0xPazdpSWZYMDg1elZkbFVJWjhzUFQtbXlYNkoyRUJCNUViekZqZnFETTdFWUJEVDFaM0VqUE9UbHRfMWVRdGdYdVJaZXZLVjdNRVFZdzhFeGpDSngwNFluMExfNA?oc=5"
+        },
+        {
+          "label": "GNews · Le Monde.fr — Jordan Bardella rompt avec la réforme des retraites de Marine Le Pen et l’âge légal de départ : « C’est le dossier inflammable au parti »",
+          "url": "https://www.lemonde.fr/politique/article/2026/05/29/au-rn-l-explosion-du-dossier-inflammable-jordan-bardella-enterre-la-reforme-des-retraites-de-marine-le-pen-et-l-age-legal-de-depart_6694791_823448.html"
+        }
+      ],
+      "discover_category": "/News",
+      "discover_entities": [
+        "Sophie la girafe"
+      ]
+    },
+    {
+      "id": "s20",
+      "rank": 20,
       "title": "Guerre en Ukraine : Un pétrolier et un dépôt touchés dans le sud de la Russie",
       "theme": "actualite",
       "score": 24,
@@ -2273,16 +2390,16 @@
           "url": "https://www.capital.fr/economie-politique/guerre-en-ukraine-la-russie-deploie-le-zak-30-citadel-pour-proteger-ses-raffineries-des-drones-1527089"
         },
         {
-          "label": "GNews · CNews — Guerre en Ukraine : la Russie «n'a jamais menacé et ne menace pas les pays européens», affirme Vladimir Poutine",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaU1jcGM2VjNqTFZsNk9sdS1YanVNdlJBaWk4cmNMZUV6VkxKTFhIcjJFQkJ4S0ZrTkxxVVpweDBWSnVKNFhZQ0RlU2ZnNkpuenh5V2hrY2RuRkVfUld6MzhTdXZ4MTdMbkZYQkpYTWJ5cnQ0aXpiSkpNcFJOMUkyMHlVZG9uX2lvOW9NSWZyNVRZNEF4dEJqR3B1V1ZjUzhZSGhJeW5qcC1OUlIzM05Ha1RqVjRkQ0x1dmfSAb8BQVVfeXFMTmRyeU5oM2hnWUx4b0hORDd6dUtJQ2hoUEdkMXkwZk9PZ2dwQ3daQ3FCNXF0U2V0eV9ZeXBmTE9iRjhwNmUxNkRsWEdNTTBzSkkxZXhUWWwxVGdlUTZhaW5QVFNnNzlpRjNFWGtwTTFqRnVxTzUxeHl0SHk2b0ViNHl3LVl1QW5iUFRSc2lBRXQyeHd2VW0yMXU0bm5EQ2FOeG40S0JhMDExR1pFMVBVNDBPUkFpcGtLRjVvQnlOMzA?oc=5"
-        },
-        {
-          "label": "GNews · ladepeche.fr — REPORTAGE. Guerre en Ukraine : \"Les Moscovites ont compris que ce n’était pas une opération militaire spéciale mais que la guerre était arrivée jusqu’en Russie\"",
-          "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPdHY4dmVFZjUzaHNkTlBRbkFxdmpOV3FNSkFoTFBaV1VtdUhtaU1wWUx1Z1k2Ynl4ckRMTlpGVnBZSXRpZ3dpazZUNkdycXRKNE5iMGVUa0JXTXUzRTJLaWNtWGJzQ3NlZUJwQVdPQVFlV0pyajFmY2diMGJ3UmFCY0ItSkt5WFJKZWVlT1RsMHk4TVR4dVFtVGR0dVBPU1ZyZkxndGZkbXhGN2NJNzNRSFJpNno1M2dfOHZrNm5DcldxcC1jQmp1b21OSW5tUk1DNnVKN2hNNm9qNEdua0FtdWxpTUhIbDFXU3ZWQ0JLa1RPVHBjMWdvT1RDNDZRRDFWQnhQVTR4S0lFaE5STmw2bFdHQ3FpWlZZM0Y2Y1ZpWWU?oc=5"
-        },
-        {
           "label": "GNews · Le Parisien — Guerre en Ukraine : la Russie renforce sa défense aérienne en plaçant des Pantsir-SMD-E sur des toits d’immeubles à Moscou",
           "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNYzhfamF1RVZGTFJWWl9wbGR6T3dTMFp2TVRUQ1NTdk44THdKUjNEN2ZVR3RNQ0RrOVZ3ZlJMRkZfMzNPenR2V19idVhSanlkbi15aUUzenZ3LTV4RFpnZllRTXAzZEVhOC1saGI1bXFOSWJ2ZEVWNzlFYkZKT3o0VlJuWXkxM2Qwc19HY3FXUS1PUEk2cU11TUk1eDVqT0tLSzVtdnhqZjh2UzIyU2xwd0JLTGFTd2FnQ2lVYXE0elVZNjhUdXRkX0t5dHJQNzNPTUJtWXFEZS1KVWEwZnJmQm8wV21rVUV5bVM0RHFSVExlMGxidFFVS0JDakFDV0ZXSWhfSDVrY1dVZnRzN0V4Q1VNR0k0U0hweDNPTC1QT3lWNXh0THE2aElXWEZjVjNiTUZJ?oc=5"
+        },
+        {
+          "label": "GNews · Le Grand Continent — La Biélorussie pourrait-elle entrer en guerre contre l'Ukraine ?",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeVo4aVlza2lXMEExa0hveVNzVHdPZFVUN1V2TVM5b21OOGtGVVJaZU1rQU95ZFFORmwxamVrdl9zRXpzT19sMWptQjB3Qk1wTlgtNC1NcDY0MU5UMHJhTWFJRGxnWGw2S2R1clBvZTdkREg2cnJHNk5qSjB0cGpyY3drbzZZRnQ2RVpiMnhBclo3NDlBYUxsaWoxdmFwU0N5S3JDbExRQ0psSE1ISDBDQQ?oc=5"
+        },
+        {
+          "label": "GNews · Le Figaro Bourse — En Bourse, quels sont les secteurs les plus touchés par la guerre en Iran?",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZGJ5X0Rfb1NRUDZXa1ZXTVYwSXFvcURCTjNpNW4zd2dYM09LUnR6b0NPenV6RGlEU3dDcDBUcmVsb0dHdmpQeXJuWGNLZ2ZsX1lLM1d2Y3FxaGc0ZFRBN09vSGVZdWpHR1J0SF9hUHlOWlZPalNzMy04Y0wyRVFud29vTzUxSVlnd0hYRGFSQjNpd0paMUgwZ2dfNXhBMW5NME8yOFQyakVhb0YwRE82dVhVb2tRcF9zRUNCZ0RWSQ?oc=5"
         }
       ],
       "discover_category": "/Sensitive Subjects",
@@ -2291,8 +2408,116 @@
       ]
     },
     {
-      "id": "s20",
-      "rank": 20,
+      "id": "s21",
+      "rank": 21,
+      "title": "Gilbert Collard s’insurge contre France 2 : la statue floutée du 20h prend une tournure politique",
+      "theme": "divertissement",
+      "score": 23,
+      "tier": "low",
+      "rationale": "Couvert par 3 médias · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "85+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.1",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "3 médias",
+          "fill": 70
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.5,
+        "trends": 0.0,
+        "wiki": 0.0,
+        "gnews": 70.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 22.9
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/tv/gilbert-collard-s-insurge-contre-france-2-la-statue-floutée-du-20h-prend-une-tournure-politique/ar-AA24nTrZ?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.aeb4c0162f910aa2ce3057ee2f7ff57b&pid=Wdp",
+      "msn_source_name": "So Busy Girls",
+      "refs": [
+        {
+          "label": "MSN · So Busy Girls — Gilbert Collard s’insurge contre France 2 : la statue floutée du 20h prend une tournure politique",
+          "url": "https://www.msn.com/fr-fr/divertissement/tv/gilbert-collard-s-insurge-contre-france-2-la-statue-floutée-du-20h-prend-une-tournure-politique/ar-AA24nTrZ?ocid=00000000"
+        },
+        {
+          "label": "Discover · Actu.fr — Grand format Le chantier de rénovation de sa maison stoppé, un propriétaire part en guerre contre les Bâtiments de France",
+          "url": "https://actu.fr/normandie/bernay_27056/le-chantier-de-renovation-de-sa-maison-stoppe-un-proprietaire-part-en-guerre-contre-les-batiments-de-france_64316579.html"
+        },
+        {
+          "label": "GNews · Le Figaro — L’Église de France s’insurge contre une proposition de loi qui entend supprimer le secret de la confession",
+          "url": "https://www.lefigaro.fr/actualite-france/l-eglise-de-france-s-insurge-contre-une-proposition-de-loi-qui-entend-supprimer-le-secret-de-la-confession-20260529"
+        },
+        {
+          "label": "GNews · public.fr — Flavie Flament : \"épuisée\" par son \"combat\" contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOVd3SjdNa19QX0ZERVByanBhUmNLQ1pvVWp6MENYQ3pLY1JaM2VGbS1aWGlGSEJoRDROV3ZOV0JMdF9XbV9fYzJQVDVUbmZVZGdCaVhEdk9uenE0RUZyMWxGVG56b05UWW4yRHBRb2lIWjVoOTUxb0tyMFZwWFZfcktjemZkNzFoRk04QUJuNXRacDRGMFBkc2dpSlluTzV2aDlUN1pCeUhkdjlxY29uUkpGaHZpNjFmU3dFMlBmanR0MHgxUUZjTEloY2JsdVk?oc=5"
+        },
+        {
+          "label": "GNews · puremedias — Audiences access 20h: Léa Salamé en hausse sur France 2, Cyril Hanouna frôle son record d'audience",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNb1YxSU4tSTEtMzhhTXk1RkxWNkd3OWFrQmRweFV4djBsWVVQaU8yY01iMkVOdTdsSmlxcWRfTWY1dzNPOVdTdUxIVTVkNUhWbl9WYmU0S3BneDIzaFJoVmw5RFlTZXpGYTZSNnU4WUVBWHNkWWE0OFpKLThfSVcycFNUU2RXVUpUekNvQmF0ZnRaSjg4enNtdUY0X2lqcmJadlNBbk9nQThpYmhBWWhsV3Zhc0ItaENzTWRHOFRWTTI1SWduV21J?oc=5"
+        }
+      ],
+      "discover_category": "/News",
+      "discover_entities": [
+        "Façade"
+      ]
+    },
+    {
+      "id": "s22",
+      "rank": 22,
       "title": "Ce que dit l'ex de Patrick Bruel Nathalie Marquay sur Flavie Flament : cette phrase très forte dans l’affaire Bruel",
       "theme": "divertissement",
       "score": 23,
@@ -2390,12 +2615,12 @@
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOVd3SjdNa19QX0ZERVByanBhUmNLQ1pvVWp6MENYQ3pLY1JaM2VGbS1aWGlGSEJoRDROV3ZOV0JMdF9XbV9fYzJQVDVUbmZVZGdCaVhEdk9uenE0RUZyMWxGVG56b05UWW4yRHBRb2lIWjVoOTUxb0tyMFZwWFZfcktjemZkNzFoRk04QUJuNXRacDRGMFBkc2dpSlluTzV2aDlUN1pCeUhkdjlxY29uUkpGaHZpNjFmU3dFMlBmanR0MHgxUUZjTEloY2JsdVk?oc=5"
         },
         {
-          "label": "GNews · Le Figaro — «Ce sera notre secret» : dans l’affaire Patrick Bruel, autopsie de la procédure des «masseuses», qui rattrape le chanteur",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSUZKSWxrQVR3empGcjFKanZNMFpDVUxMVlN3VURNSEgzSjVmczBnNDVyZUc5Y29USnpjQlZqa1F0Wk9rTzJEa25xdDdLczI3NXVHMVFYRlNERUtETUZjbEk4bUc1QzR2R1pZNmI1eVZfMHZaZ3VKWWlKSGVKWE0tbUJ3YlNnUWxmVnl1Y2hMYWVQbWhldnRNVVpZX0VTdHlyUTNHZ3FEZ0NkS0JoUVMyOEUtMWR3NzVxQnExWl8yR2ZtMWJHbkoxX2Z2U3lVUWhGSGdnNXlIeFlaZXJ1MnVaeTNsbExha3pmS25fLVJYZko?oc=5"
+          "label": "GNews · telerama.fr — Patrick Bruel annule concerts et festivals cet été : le point sur une affaire hors norme",
+          "url": "https://www.telerama.fr/debats-reportages/patrick-bruel-annule-concerts-et-festivals-cet-ete-le-point-sur-une-affaire-hors-norme-5517-7031355.php"
         },
         {
-          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHV5MXBWYVBwai1HRFBTMURfZ2NBYTBLYnhrcTVKQTVyVDlobHl1dnNiVGx3d2NaU0RFNUUwalVqbUVxdWR2NXdUa0UtYzlKbW9DdElpelVuRUt5OHFiaUVCMDFZeVBPNWVBN25abkNBUmluM1lSZFNyWjJLeG5YMDE0YkJYUWVJLWc5WEQ0Z0FCOFN5N2JRbFhULUhDUzBPM1lsNm14N05SVlJhbEZhRlZXMVF4SDFNUDk1TzRYNDJnNHc?oc=5"
+          "label": "GNews · Le Figaro — «Ce sera notre secret» : dans l’affaire Patrick Bruel, autopsie de la procédure des «masseuses», qui rattrape le chanteur",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSUZKSWxrQVR3empGcjFKanZNMFpDVUxMVlN3VURNSEgzSjVmczBnNDVyZUc5Y29USnpjQlZqa1F0Wk9rTzJEa25xdDdLczI3NXVHMVFYRlNERUtETUZjbEk4bUc1QzR2R1pZNmI1eVZfMHZaZ3VKWWlKSGVKWE0tbUJ3YlNnUWxmVnl1Y2hMYWVQbWhldnRNVVpZX0VTdHlyUTNHZ3FEZ0NkS0JoUVMyOEUtMWR3NzVxQnExWl8yR2ZtMWJHbkoxX2Z2U3lVUWhGSGdnNXlIeFlaZXJ1MnVaeTNsbExha3pmS25fLVJYZko?oc=5"
         }
       ],
       "discover_category": "/Sensitive Subjects",
@@ -2404,121 +2629,8 @@
       ]
     },
     {
-      "id": "s21",
-      "rank": 21,
-      "title": "Maria Carolina dans la tourmente : pourquoi la compagne de Jordan Bardella se défend après de lourdes accusations",
-      "theme": "divertissement",
-      "score": 23,
-      "tier": "low",
-      "rationale": "Présent dans le top Wikipedia · couvert par 3 médias.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "3 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "6k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "28+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.0",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "3 médias",
-          "fill": 70
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "6k vues/h",
-          "fill": 32
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "30/100",
-          "fill": 30
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.0,
-        "trends": 0.0,
-        "wiki": 32.0,
-        "gnews": 70.0,
-        "msn": 30.3,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 22.6
-      },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/actualite/maria-carolina-dans-la-tourmente-pourquoi-la-compagne-de-jordan-bardella-se-défend-après-de-lourdes-accusations/ar-AA24pmGV?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.571e74bca0f9d7b45c1a989fabc5c63e&pid=Wdp",
-      "msn_source_name": "So Busy Girls",
-      "refs": [
-        {
-          "label": "MSN · So Busy Girls — Maria Carolina dans la tourmente : pourquoi la compagne de Jordan Bardella se défend après de lourdes accusations",
-          "url": "https://www.msn.com/fr-fr/divertissement/actualite/maria-carolina-dans-la-tourmente-pourquoi-la-compagne-de-jordan-bardella-se-défend-après-de-lourdes-accusations/ar-AA24pmGV?ocid=00000000"
-        },
-        {
-          "label": "Discover · France Bleu — Après les accusations de tromperie sur le \"made in France\", une perquisition chez Vulli, fabricant de Sophie la girafe",
-          "url": "https://www.ici.fr/auvergne-rhone-alpes/haute-savoie-74/rumilly/rumilly-perquisition-chez-vulli-le-fabricant-de-sophie-la-girafe-9978250"
-        },
-        {
-          "label": "GNews · Madame Figaro — «Je l’aime» : Jordan Bardella déclare sa flamme à la princesse Maria Carolina en plein direct à la télévision",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMnY0ME1yVVZ5ZUVvamFvVTVNRFpOX2FoUDFaeDZwRFlIVUdMR3dWdnRZeTZvd0VPQy1FXzI1Zl96TXhGYVZWSXhzVW9zMEUxTFktYUc5V0xDWm1mbTZTbEpKMmJaa2VnenZvNVkwX0tnVlNXSlVTYUJidUE1dWl4YkpTWXZaaEk3Q2sxX1ZOclc0OEh1Q2p5RDRZMkFJaExOd2RjbHA0SE1WY0VSXzF5UFktd2FmYUk5TDRuQ1pneS1nS3otWFR1cnhOVTdtS0JtWmozQ3pzU3NlVXpBQjFQa1N4Q2g0dHM1TTJmT2hYaUlUQXhJTVpF?oc=5"
-        },
-        {
-          "label": "GNews · Le Monde.fr — Jordan Bardella rompt avec la réforme des retraites de Marine Le Pen et l’âge légal de départ : « C’est le dossier inflammable au parti »",
-          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNVUpHMGwtcUdGYzZ0WTlsdFlnWEpHOTVlTkpuNTg4UkxVZjBXYTdkS3paTlpwYVVJSkxueHRrREtyMGlzaVROQzhwb2VmVld5N2FGUkhITVZuQ1RBS3ZzLTg5YWJOSVdMRkNlVnFFdHMzZ2NRcUhpRFVRbm1PdmdidkZtVEVuUnpKWUt0SENZZURkSE13Q0YxQ09YdmdRMFQ5Z1htOTlUMFozb2w4TzkyVmZ1UUpqTTN2TnVYVnREaU5ZNnJVeHd4ckVkY0R4OWxFWXVGVUduTXNnTUwzbW92TDU2czRmRzg3TUhuYU9BWE5IYk90ZE1VSjVROVNmMC1fdmJzSHY3Y05BbGpMS19Lcy10OVhpTXpad0pSUlIydWRwUmN3QUpNY1MxMA?oc=5"
-        },
-        {
-          "label": "GNews · Outre-mer La 1ère — SMGEAG : après avoir été écarté par la commission permanente, Ferdy Louisy défend le bilan de son passage à la tête de la structure - Outre-mer La 1ère",
-          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOWmlsUnBoSmk5WlR3Y21ydnFXdzk0dWpDSXNSQ05Vdkk3bzdUQ3pucWtmYTctQXdVaGVwaVl0RWhUaXg1VXJXS251S1BYR2ktaUdKbDBIVTl5allvTDliY1BhMEF6eEdWeXdjN3RLOHVQOUZtUmtRLXU0djhlNFBIek1IbHJGOFlHXzFzRVJHdkgxRzVleXAyckp0LW9Cd3A5a3RJbVAydW5rdTNCWWp3cjVEeXhVdGJXZ0dOSG15UzMtYm9FcTEzQjM0cVJWcmRuMXlyWl9CZG5qWi1TU3k4ZUk1NXlJdnFrTmlIM2ZINWZvUXlScjdsZ1BFSFBTX3pUSDVQeUp5MTFQRGNHVHc?oc=5"
-        }
-      ],
-      "discover_category": "/News",
-      "discover_entities": [
-        "Sophie la girafe"
-      ]
-    },
-    {
-      "id": "s22",
-      "rank": 22,
+      "id": "s23",
+      "rank": 23,
       "title": "Avec sa lettre à Emmanuel Macron, un lycéen de 17 ans fait annuler les épreuves du bac au Moyen-Orient",
       "theme": "actualite",
       "score": 22,
@@ -2618,15 +2730,15 @@
         },
         {
           "label": "GNews · Le Parisien — Un lycéen de 17 ans écrit une lettre à Emmanuel Macron et fait annuler les épreuves du bac au Moyen-Orient",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOX080MWhoNWNKVTNMeEg3WmI1QzhqN0VBZ2dVT003S2s3Ukl4REVtSlFoc2IyRkRiS09lazl6eVY4dDExaHlwX3QwOVRleWM5MTdyNnFxVmNaazNMc2ZCcUI2eDd1TUljRUZTRGk0MnpZTXFuN01BWjdDWUItMG1QWm93TEN5WG0wWXpSVFBTUVl2ZU1vRjdIczFUa0c5emlXdXdGbzE5UDNoYWZTSlZZNkoxYnEzRUZ5ZVZ0UERqcTBVNnBTb0dERzQ4SGtIM21XQW0wdk5BeUV5OWJ2Mk5DU1huZ2ZnLW9UT2dSMXh0WTA4elBWRUZSMmZLS1BJQmE2MWdUenJFeWZKT3Vrb1JWUzVQVzlUQQ?oc=5"
+          "url": "https://www.leparisien.fr/faits-divers/un-lyceen-de-17-ans-ecrit-une-lettre-a-emmanuel-macron-et-fait-annuler-les-epreuves-du-bac-au-moyen-orient-30-05-2026-RY2LX2E2JZC7HGC4ILIEG3HYXA.php"
         },
         {
           "label": "GNews · Le Monde.fr — Frédéric Rose nommé directeur du cabinet d’Emmanuel Macron",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcmNKclhma01KRzVtOGl3cFFfdlBzaXZSV0ZCMnY0X1FJN29vU2RmWXNOYjZONENPTWdTQVVsVHFGNnFEWGZaMEZiMUM3OHNPd01YemlrYkZqUGtzY3l2b0thN3lnMHBBSkt5Z1NvYkdBWUtOOUJWUExWRmYtV0Q2Uml3OVNWc2xkM1dxTmxrdURWOGxMX1IwYXZCcXlfb3lQa0ExRHJfZGhjS1BmbnI2bUZsdUxCazlXY1VTRmw2RzNSUXQ2bFNVN2ZR?oc=5"
+          "url": "https://www.lemonde.fr/politique/article/2026/05/30/frederic-rose-nomme-directeur-de-cabinet-d-emmanuel-macron_6695128_823448.html"
         },
         {
-          "label": "GNews · 20 Minutes — EN DIRECT Guerre au Moyen-Orient : Deux soldats libanais gravement blessés …",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNeWNDc1cyTHh6RlIzRzk3SGhMVUhKXzhOZzRYNEhYcU1EcUJwOXRaT1Item5oWUJaVzlFVTN6UkNjQlZLWkVZbENZX210bFZ6V1NOVUoxNWZ3Qmg0eTVVaExFLURLcUJoWWN5TE1KTDI0ZXF2TTRIclktS28zeEtsU09vYThqYlc4NjBUVFJZVVdGRVhUMXNSUFUxdVFsc0Z5Yk1LTmpja1V3ei1objBVblhXUlFLRm9fSmtyZ3NkMTNUM0o4dGVPRjVHd3AwaGdGeEZnN3FDWnVpbTFnb3pSZzdhbUpRa3hQMjBOWkJ5NXVUMU91TlJZ?oc=5"
+          "label": "GNews · BFM — Élysée: Frédéric Rose nommé directeur de cabinet d'Emmanuel Macron",
+          "url": "https://www.bfmtv.com/politique/elysee/elysee-frederic-rose-nomme-directeur-de-cabinet-d-emmanuel-macron_AD-202605300091.html"
         }
       ],
       "discover_category": "/Jobs & Education/Education/Standardized & Admissions Tests",
@@ -2638,8 +2750,8 @@
       ]
     },
     {
-      "id": "s23",
-      "rank": 23,
+      "id": "s24",
+      "rank": 24,
       "title": "Daniel Guichard : Marié à trois reprises, qui est Christine son épouse depuis 35 ans ?",
       "theme": "divertissement",
       "score": 22,
@@ -2728,314 +2840,13 @@
       "discover_entities": []
     },
     {
-      "id": "s24",
-      "rank": 24,
-      "title": "Gilbert Collard s’insurge contre France 2 : la statue floutée du 20h prend une tournure politique",
-      "theme": "divertissement",
-      "score": 21,
-      "tier": "low",
-      "rationale": "Couvert par 2 médias · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "85+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 57.1,
-        "msn": 100.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 21.1
-      },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/tv/gilbert-collard-s-insurge-contre-france-2-la-statue-floutée-du-20h-prend-une-tournure-politique/ar-AA24nTrZ?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.aeb4c0162f910aa2ce3057ee2f7ff57b&pid=Wdp",
-      "msn_source_name": "So Busy Girls",
-      "refs": [
-        {
-          "label": "MSN · So Busy Girls — Gilbert Collard s’insurge contre France 2 : la statue floutée du 20h prend une tournure politique",
-          "url": "https://www.msn.com/fr-fr/divertissement/tv/gilbert-collard-s-insurge-contre-france-2-la-statue-floutée-du-20h-prend-une-tournure-politique/ar-AA24nTrZ?ocid=00000000"
-        },
-        {
-          "label": "Discover · Actu.fr — Grand format Le chantier de rénovation de sa maison stoppé, un propriétaire part en guerre contre les Bâtiments de France",
-          "url": "https://actu.fr/normandie/bernay_27056/le-chantier-de-renovation-de-sa-maison-stoppe-un-proprietaire-part-en-guerre-contre-les-batiments-de-france_64316579.html"
-        },
-        {
-          "label": "GNews · public.fr — Flavie Flament : \"épuisée\" par son \"combat\" contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOVd3SjdNa19QX0ZERVByanBhUmNLQ1pvVWp6MENYQ3pLY1JaM2VGbS1aWGlGSEJoRDROV3ZOV0JMdF9XbV9fYzJQVDVUbmZVZGdCaVhEdk9uenE0RUZyMWxGVG56b05UWW4yRHBRb2lIWjVoOTUxb0tyMFZwWFZfcktjemZkNzFoRk04QUJuNXRacDRGMFBkc2dpSlluTzV2aDlUN1pCeUhkdjlxY29uUkpGaHZpNjFmU3dFMlBmanR0MHgxUUZjTEloY2JsdVk?oc=5"
-        },
-        {
-          "label": "GNews · ladepeche.fr — Aya Nakamura répond aux racistes et brûle au lance-flammes, au Stade de France, une banderole déployée contre elle avant les JO de Paris 2024",
-          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQbFlKUlItRm1scUxVckdUV200dEI4aXphSHNRNjYzWXVNelFHZmRsNmJHY1d1bURvVm9DY0tUd1hmUEJHdnFKOVVaTFhHYTFzTUJVVVAzbEs5SFBlZ1ZWNHJ1VWMxODFNYm5EZDE4b1dYU2hZTzdGdy11ZzFITUVaMEFYSDdSOGJUd2lfUEpJRkRBNm1SZnBlaXZ5UGNPSW02RUwzSTBlV09vbnBKMlJ1M1A4VzAzN2FzalVzdWNaZDhLb1dwb2pvQUlsUW02RUdKWGJSLUEzUXpadzktOGpodkJzeUVxQ3ZwNWUwR2JYV2p0aXM0eWl4enpPNHFSdGFEVGxNZjZSUm96TjhNWkJNLWJONFdVdUk?oc=5"
-        }
-      ],
-      "discover_category": "/News",
-      "discover_entities": [
-        "Façade"
-      ]
-    },
-    {
       "id": "s25",
       "rank": 25,
-      "title": "« Ce n’est pas un luxe, c’est vital » : voici le budget que les retraités doivent toucher pour vivre dignement en France en mai 2026",
-      "theme": "lifestyle",
-      "score": 21,
-      "tier": "low",
-      "rationale": "Couvert par 2 médias · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "1732+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.0",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.0,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 57.1,
-        "msn": 100.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 21.0
-      },
-      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/ce-n-est-pas-un-luxe-c-est-vital-voici-le-budget-que-les-retraités-doivent-toucher-pour-vivre-dignement-en-france-en-mai-2026/ar-AA1S4370?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.f0fc20a140ef6e5a8ffc2d197f624072&pid=Wdp",
-      "msn_source_name": "Marie France",
-      "refs": [
-        {
-          "label": "MSN · Marie France — « Ce n’est pas un luxe, c’est vital » : voici le budget que les retraités doivent toucher pour vivre dignement en France en mai 2026",
-          "url": "https://www.msn.com/fr-fr/lifestyle/shopping/ce-n-est-pas-un-luxe-c-est-vital-voici-le-budget-que-les-retraités-doivent-toucher-pour-vivre-dignement-en-france-en-mai-2026/ar-AA1S4370?ocid=00000000"
-        },
-        {
-          "label": "Discover · Le Figaro — Prisons : nouveau record de détenus en France au 1er mai",
-          "url": "https://www.lefigaro.fr/actualite-france/prisons-nouveau-record-de-detenus-en-france-au-1er-mai-20260530"
-        },
-        {
-          "label": "GNews · Le Figaro — Prisons : nouveau record de détenus en France au 1er mai",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVnpqS1BMTExFejVEcUhVMmI3ZDNURGhHczA5RmZscWFpWGxUWWRFdC1ET0hZZWFBTUNmd0MwMWFXMVlTSlNvb2RLb0ZObUZ6dzlhWk5lTldQWVY0eFptVGxmLVNkV2R0M0NQM0FieUszOWkzUHAxdkpXZVE0VGI5aDZnb2ZjNHYyOEVTc2tTczJSM3dPZTZDSkZhRncyWG9vYWUwTEhQSQ?oc=5"
-        },
-        {
-          "label": "GNews · Ouest-France — Aide carburant : les retraités peuvent-ils prétendre à l’indemnité de 100 € pour les gros rouleurs ? - Ouest-France",
-          "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQTF81NHVuME9RdTVXNThacTBNcC1nVUxXWkZfRDVEakNqczN5VnZkcmJ1WS1SWkJCZXlHMEg0RjdKVnpQMHVXVngweU1pa3A4cHY5X1BDSmtCQV9HNGJOakp6UW9XWVRwdktJV0ctOE9rZWZxM0R3Z0I1UVdicUk1YVQzXzZob0M4ZUxaN1F0SC14aUNMOVFVb2l5WnJnNzI4TzN0TzVYYjlyYlZhbE4tbTNGbW43aDExZzdyNWZoX0c4cXo1Z2M3WW00OThaSFdTOXJ4SFFiVkpUcmFQZGQxeDkzRnNXXzVjRnVRMmdrM1VTNnJBVjRWLXItc3h4WGxpZ2JQYjVtYXZma3F3dTRhUzBmU2VJRS11UEFOWG16R1ZlbURDYmJnb1c5U19VcUxaYmZCWg?oc=5"
-        }
-      ],
-      "discover_category": "/Law & Government/Public Safety/Crime & Justice",
-      "discover_entities": [
-        "Prison en France"
-      ]
-    },
-    {
-      "id": "s26",
-      "rank": 26,
-      "title": "Votre nombre d’amis est un indicateur fiable de votre niveau d’intelligence, selon une étude",
-      "theme": "lifestyle",
-      "score": 21,
-      "tier": "low",
-      "rationale": "Couvert par 2 médias · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "327+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.0,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 57.1,
-        "msn": 100.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 21.0
-      },
-      "msn_url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/votre-nombre-d-amis-est-un-indicateur-fiable-de-votre-niveau-d-intelligence-selon-une-étude/ar-AA1DM6Zk?ocid=00000000",
-      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1RM2BL.img",
-      "msn_source_name": "psychologies",
-      "refs": [
-        {
-          "label": "MSN · psychologies — Votre nombre d’amis est un indicateur fiable de votre niveau d’intelligence, selon une étude",
-          "url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/votre-nombre-d-amis-est-un-indicateur-fiable-de-votre-niveau-d-intelligence-selon-une-étude/ar-AA1DM6Zk?ocid=00000000"
-        },
-        {
-          "label": "GNews · Génération NT — La moitié de la population mondiale pourrait disparaître d'ici 2064, selon une nouvelle étude",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV1hsRm8yMTl5ZU1RWm5KRk43RDNmY01fVExPc3NlbkRrQ0xZMVVZRjJ3VGdvTmhHeWFuMkZtd3Y4RVdyRzJKT2tJc2JrT0J5czFJNUo0Y2xEUkdWemF4X2drdkVFVHBacS0tRzJfYWhvWldSRlllWmlTQ0Vnc3BGZUw0SjRNNUh1YnZESk5kR19oYk9XS3fSAZsBQVVfeXFMUGR5ckFvTFYyV0RMdnpLVjk5M0NsN2ljU1pNaEU4NXp5azJJZlpMdm1uSlRfc2Z4ZUJyckRVb09KTDVWeEs1cEt1R0QyUlpzQk1pNUhhUzhIcnVrX2tna1hhT0JlcmUwNjBFcUwyLXpvRW1aR28tX0hfUFRWNU9Ub3pwMWdwQXRSbTlYT1hWYjdxakNKWlFNTUFtZ1U?oc=5"
-        },
-        {
-          "label": "GNews · parisbasketball.paris — Une activité physique régulière réduit de 30 % le risque dʼattraper la grippe — selon une étude",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcDE4WXBKeUhIV1lISW85SGd2TERZX0FfRUFIMll0Vy1TVk93M0NfSEhRT1pCQW53UGV6MW1Wa09aUHRsbTBaNWROUFM0d21RM195ZzJ1cGN0NFFPVzBkbXZLbnUwSWdNUjZSSEJ3MWg1NTBmUXFIQXhTcmFfUUFxLW5OY2xTNkI2TndicjRMN3B4SWZMS2g1aDFVTlVsOXpXZWNkSmdUTFJ3R1k0TllJRVU3Y19palpqcU1DR3g1YmhLY3VyRUE?oc=5"
-        }
-      ],
-      "discover_category": null,
-      "discover_entities": []
-    },
-    {
-      "id": "s27",
-      "rank": 27,
       "title": "JO 2030. Éric Ciotti enrage après le retrait des épreuves de glace à Nice : « Un choix politicien »",
       "theme": "actualite",
-      "score": 20,
+      "score": 22,
       "tier": "low",
-      "rationale": "Couvert par 3 médias · engagement MSN élevé.",
+      "rationale": "Couvert par 4 médias · engagement MSN élevé.",
       "signals": [
         {
           "source": "discover",
@@ -3045,7 +2856,7 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "3 médias"
+          "value": "4 médias"
         },
         {
           "source": "msn",
@@ -3061,8 +2872,8 @@
         },
         {
           "name": "Google News",
-          "value": "3 médias",
-          "fill": 70
+          "value": "4 médias",
+          "fill": 79
         },
         {
           "name": "Google Trends",
@@ -3099,12 +2910,12 @@
         "discover": 0.5,
         "trends": 0.0,
         "wiki": 0.0,
-        "gnews": 70.0,
+        "gnews": 79.2,
         "msn": 80.0,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 20.3
+        "total": 21.6
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/other/jo-2030-éric-ciotti-enrage-après-le-retrait-des-épreuves-de-glace-à-nice-un-choix-politicien/ar-AA24nVBk?ocid=00000000",
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24nBVG.img",
@@ -3119,16 +2930,16 @@
           "url": "https://www.ouest-france.fr/jeux-olympiques/jo-2030-eric-ciotti-enrage-apres-le-retrait-des-epreuves-de-glace-a-nice-un-choix-politicien-6c0d3d66-5b9e-11f1-b3f0-aacb0ffa8bfb"
         },
         {
-          "label": "GNews · Nice-Matin — « Entre 800 millions et 1,1 milliard d’euros » : Renaud Muselier présente la facture de la perte des jeux pour Nice à Éric Ciotti - Nice-Matin",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNdEdzWlZTS056WVBEMmVjWV9xSjZCdnNpZWhuTWdFZUZtMlFvcjBIOFJFdlZvT0xEckRveGV2OHg4dWhUcVVzUE9IWGwzTlpyVlhsUE51ZlpuOWktOXVpWTA2X3FaRTNYdHNBdVFtVVpMLUphQ3JDVkpFcmcybkVrN25YdlFBdmdaRExzcjNGR0xlQnRNWW5nbkdMU2staWc2YW5RVGV3NkdPeGpJT1l4Nmcxa3FNVWNvb055U0FsdGJZb3p0UGdMMG5sWmdhdUdpYVh6YWJTRTZneXo2RDhkaXczbFlROS11cDhSRExJTGx2NUdaMWh2MGNnU1JfUS1TV2Q3STV2SQ?oc=5"
+          "label": "GNews · Nice-Matin — « Entre 800 millions et 1,1 milliard d’euros » : Renaud Muselier présente la facture de la perte des JO de 2030 pour Nice à Éric Ciotti - Nice-Matin",
+          "url": "https://www.nicematin.com/societe/politique/entre-800-millions-et-1-1-milliard-d-euros-renaud-muselier-presente-la-facture-de-la-perte-des-jeux-pour-nice-a-eric-ciotti-10682711"
+        },
+        {
+          "label": "GNews · Closer — \"Scandaleux\" : Eric Ciotti sans filtre face à la publication des photos de Charles Alloncle et son assistante parlementaire",
+          "url": "https://www.closermag.fr/politique/scandaleux-eric-ciotti-sans-filtre-face-a-la-publication-des-photos-de-charles-alloncle-et-son-assistante-parlementaire-3638844"
         },
         {
           "label": "GNews · Nice-Matin — En pleine canicule, un ouvrier de 19 ans meurt après avoir travaillé toute la journée sur une toiture - Nice-Matin",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNd0VhR1I3UmZCOEN1RmNvNjA4czlWXzEtMmRPcE5JRWpRdWdqT1htN0VidC1QQ1R6a0lYaGhzNEVFWjkzaXczTnRWMTNKaVJwNHBXbXF5QzZrb1JoUTRyR2JYWVJiOEJlMTBEaFoyUWpjZzNLQ2wxZ1phYk5JY3FiT2RXSHE3SHpCWGFVRUEtZnYzajctY0FQY2hZYUdCbEk3d3gtVG8xcUQ4aGVoenZCQllFT2s1X1A0MnNPemtWTmVtZ2ZDeWx0SHVYd1FjRHkxSVhZZm9qdzVPXzgteWhaYWNB?oc=5"
-        },
-        {
-          "label": "GNews · MadeInFOOT — ASSE - Les banderoles incisives déployées par les supporters de l'ASSE après la défaite contre l'OGC Nice en barrage",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUEtxVXo3VUFQRDNMNnNYd2F3TFhSeGxHSlVZcmUwd2x3d0RtLUcxZmxwdVh5X3FfS1plaHBERlRSY2hUOEc2RXFxXzg3U0lwaGdPOUJPZERyb1hfSC1IM2lHR1E0d3FEdURHVEtXbU1WWjZDS2NCNnZjYmRkWjhBcmtCWG1aQ2xfMDZNV0dUaWc4U3ROWHFjRXU0b0Iyd29HQmxjMWxxdTdxUFpJeFVRWV9YVWx4UzdvRHVQYUVQeVBUa2x6V0Zwb0xFN0NjdHJ5OGw1VUN3ODhVQlBSdFlwQVh4eEh3eWpuUTRFanBFdHZ5WFhMNnk3bmZnZUo1eGtfWkViRExn?oc=5"
+          "url": "https://www.nicematin.com/faits-divers/en-pleine-canicule-un-ouvrier-de-19-ans-meurt-apres-avoir-travaille-toute-la-journee-sur-une-toiture-10682582"
         }
       ],
       "discover_category": "/Sports/International Sports Competitions/Olympics",
@@ -3139,112 +2950,8 @@
       ]
     },
     {
-      "id": "s28",
-      "rank": 28,
-      "title": "Sans le savoir, il double deux motards de la gendarmerie par la droite à Dijon",
-      "theme": "actualite",
-      "score": 20,
-      "tier": "low",
-      "rationale": "Couvert par 2 médias · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "61+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "92/100",
-          "fill": 92
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 57.1,
-        "msn": 92.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 20.1
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/sans-le-savoir-il-double-deux-motards-de-la-gendarmerie-par-la-droite-à-dijon/ar-AA24nsGK?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.79fa9df0bb06a697136da37ecb43b0ab&pid=Wdp",
-      "msn_source_name": "L'auto-journal",
-      "refs": [
-        {
-          "label": "MSN · L'auto-journal — Sans le savoir, il double deux motards de la gendarmerie par la droite à Dijon",
-          "url": "https://www.msn.com/fr-fr/actualite/france/sans-le-savoir-il-double-deux-motards-de-la-gendarmerie-par-la-droite-à-dijon/ar-AA24nsGK?ocid=00000000"
-        },
-        {
-          "label": "Discover · Le Progrès — « On est dans une situation chaotique » : partis de Lyon, deux TGV bloqués pendant 12 heures vers Dijon",
-          "url": "https://www.leprogres.fr/faits-divers-justice/2026/05/30/on-est-dans-une-situation-chaotique-partis-de-lyon-deux-tgv-bloques-pendant-12-heures-vers-dijon"
-        },
-        {
-          "label": "GNews · Le Progrès — « On est dans une situation chaotique » : partis de Lyon, deux TGV bloqués pendant 12 heures vers Dijon",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRXN3NFhlSGU0dzhMdXpiWEh0NXFxYmprWERHUE5HaW9BX21DcXpJYXJjc3lSZ1BSNG5ZMzFwa1NCOG01d2M5c1NKRVRKTEJkak1MYllzRkhmOGJvQTlvZFpnRVdXUnQ1Mi1YNE85U3B4RnI3T3VhWXRMMnJwcjJaanBTWGV4bXhHU0JCOUUwUHdXVXRPUjRYNnFQaXdJODNGeF9ydTNiTV9waWlydWEtWUtjUWpGcVB2WWotTk9uNm1fT2gwWmlhbHpndUlKOGdaNHUxQ2x5bnVYS29nV210U0xFRlZyRWlp?oc=5"
-        },
-        {
-          "label": "GNews · Le Progrès — Métropole de Lyon. Des drones ont survolé deux fois les abords de la caserne de gendarmerie de Sathonay-Camp",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTGVLSHdyVEFOeFl3RzJxOEREdEVBd0hkUDJwRjgwaU1rTVlMd2JBODJYSGlWMTJLM0RGMG1GaHp0b1RlZHFfcDViNEdMVDZwa0NKbnp6dk5VR090SXFZMHFpbzdCSk53MHpkZUd2Mmo0UWFjMEI1cFY0UlBQT3FEdElZdjRfMi1nWWpTS3FGTFhMcmExa3dHQ3lYOXl0OEpDemdTU0NuZXlWRGJLTHNZQXZrREN6TnBNYVVudXI3d3Ywa3FzMEFCcFVrWFRtT3FLaHdibDUzbjQ2OWM?oc=5"
-        }
-      ],
-      "discover_category": "/News",
-      "discover_entities": [
-        "TGV"
-      ]
-    },
-    {
-      "id": "s29",
-      "rank": 29,
+      "id": "s26",
+      "rank": 26,
       "title": "« Je tapisse ça entre mes tomates » : le conseil d’un ancien pour un été sans mauvaises herbes et deux fois moins d’arrosage",
       "theme": "lifestyle",
       "score": 19,
@@ -3333,16 +3040,16 @@
           "url": "https://media24.fr/2026/05/30/grand-chacun-comme-35-fois-paris-les-deux-plus-grands-icebergs-du-monde-gardaient-une-mauvaises-surprise-en-reserve-aux-scientifiques/"
         },
         {
-          "label": "GNews · Media24.fr — Grand chacun comme 35 fois Paris, les deux plus grands icebergs du monde gardaient une mauvaises surprise en réserve aux scientifiques",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPeDhfT2VGNE9TMnp5RkZKc0JKejQ2TDZ3NWZxcW16cDlnY0ZQZ2ZoZjRjTHliNzlHcnlPRkh6YVJycnRPY3NNUFdZSnY4ems4MWp3QldjeDhQMzc5ZEcwWGJ1SHl6X2hQMFJuMFlWZVNjUHp6VS1tSy00OGFYREsyNzZtOFB1ZGtPazdEb2hOT0NKZ0doSzY0cVJjTk5uTEVDX1FleHp2YWg5d0t6R0RseE1BYTRHei1kUlNKekRiMy1sQWV5bXVfajNOZkpzSDNYT3ZsYzB0aC1BSDhMNDNsUVpLNXdSSWxkX3huN01QczBDcDgxTWgw?oc=5"
-        },
-        {
           "label": "GNews · Le Progrès — Métropole de Lyon. Des drones ont survolé deux fois les abords de la caserne de gendarmerie de Sathonay-Camp",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTGVLSHdyVEFOeFl3RzJxOEREdEVBd0hkUDJwRjgwaU1rTVlMd2JBODJYSGlWMTJLM0RGMG1GaHp0b1RlZHFfcDViNEdMVDZwa0NKbnp6dk5VR090SXFZMHFpbzdCSk53MHpkZUd2Mmo0UWFjMEI1cFY0UlBQT3FEdElZdjRfMi1nWWpTS3FGTFhMcmExa3dHQ3lYOXl0OEpDemdTU0NuZXlWRGJLTHNZQXZrREN6TnBNYVVudXI3d3Ywa3FzMEFCcFVrWFRtT3FLaHdibDUzbjQ2OWM?oc=5"
         },
         {
           "label": "GNews · Sud Ouest — Les deux Français disparus en mer depuis dimanche au large du Maroc ont été retrouvés sains et saufs",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNYUZ5bndVd0RGZ1h2QXpSczdXWFFGYnFiSWFpb3pNNHFQNDdnRTlvSV9NeWh3ZWlYYm1rTlJzVXloek4xT2QyYkpwcDZ6OFJEZUFkOF96QVdhVDZuUWQxbFI3LXllZXRJWEZ6azkxV0lMY0g1dVFsSGc0bDJLSEhCaVV6NkxJcE8ycWNGRzJ3cGhhMFhoX01Ob2UzaVBfeXFkQkFHNkZtSk5MbEYtRFNwT3Fhc1JvQTY5dGJQTmcyeW16Mlgyd1Zwem5oRjdQY29aUjhqMVV2WW1iX3J0SWFDYnd4SDFLT1M3U0loMTZpOTlHZ3lDX0lId1A2R3l4bjMx?oc=5"
+          "url": "https://www.sudouest.fr/environnement/mer/vigilance-ocean/les-deux-francais-disparus-en-mer-depuis-dimanche-au-large-du-maroc-ont-ete-retrouves-sains-et-saufs-29268910.php"
+        },
+        {
+          "label": "GNews · Ouest-France — Une jeune fille de 10 ans a été retrouvée en vie à La Courneuve, près de deux semaines après avoir disparu - Ouest-France",
+          "url": "https://www.ouest-france.fr/faits-divers/disparition/une-jeune-fille-de-10-ans-a-ete-retrouvee-en-vie-a-la-courneuve-pres-de-deux-semaines-apres-avoir-disparu-603cb4f6-5b5f-11f1-b3f0-aacb0ffa8bfb"
         }
       ],
       "discover_category": "/Science/Ecology & Environment/Climate Change & Global Warming",
@@ -3351,8 +3058,109 @@
       ]
     },
     {
-      "id": "s30",
-      "rank": 30,
+      "id": "s27",
+      "rank": 27,
+      "title": "Les commissaires européens en ont marre de rouler en voiture électrique entre Bruxelles et Strasbourg",
+      "theme": "finance",
+      "score": 19,
+      "tier": "low",
+      "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "1.2/65"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "118+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 1.2",
+          "fill": 5
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 5.4,
+        "trends": 0.0,
+        "wiki": 0.0,
+        "gnews": 35.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 19.1
+      },
+      "msn_url": "https://www.msn.com/fr-fr/finance/autres/les-commissaires-européens-en-ont-marre-de-rouler-en-voiture-électrique-entre-bruxelles-et-strasbourg/ar-AA24mIxF?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.884fe31bb783ade5c2df50ce9636324c&pid=Wdp",
+      "msn_source_name": "Clubic",
+      "refs": [
+        {
+          "label": "MSN · Clubic — Les commissaires européens en ont marre de rouler en voiture électrique entre Bruxelles et Strasbourg",
+          "url": "https://www.msn.com/fr-fr/finance/autres/les-commissaires-européens-en-ont-marre-de-rouler-en-voiture-électrique-entre-bruxelles-et-strasbourg/ar-AA24mIxF?ocid=00000000"
+        },
+        {
+          "label": "Discover · Caradisiac — Des responsables européens se plaignent de devoir s’arrêter pour recharger en voiture électrique",
+          "url": "https://www.caradisiac.com/des-deputes-europeens-se-plaignent-de-devoir-s-arreter-pour-recharger-en-voiture-electrique-222296.htm"
+        },
+        {
+          "label": "GNews · Automobile Propre — Ferrari Luce : on a testé le configurateur en ligne de sa première voiture électrique et... c'est un sacré bazar !",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNM245WmlPbDN5WFBVM3FMUV8wOC0zSzNmSXhVeUw5NkVCUXF0bkZacUR0ak9nU2VmeU1lWS1mMF9yM1d3OUc5Wi1TZ3l4T3ZPc3dWc0lqeE5SbGFYaVFWaERYNVBFVVo2LW9jR0lwaE5jWmJrYVAwU1pDeTFYLWpqRnROYy00Rk5YemM5a0p0RmZSUmNHWUhUSnhYUVFNaTB3N29pOTZTODY5VVJ0X1ZIWTJ4QW1WOVFXcmFmbGQ1RlpfakE4RDMtaEZZS1JIb2FTS2xTTWx4LW1ZaGRSdm9sZg?oc=5"
+        }
+      ],
+      "discover_category": "/Autos & Vehicles/Motor Vehicles (By Type)/Hybrid & Alternative Vehicles",
+      "discover_entities": [
+        "Automobile",
+        "Véhicule électrique"
+      ]
+    },
+    {
+      "id": "s28",
+      "rank": 28,
       "title": "« Votre Sainteté, est-ce vraiment vous ? » : en plein discours, Léon XIV se précipite aux côtés d’un prêtre victime d’un malaise",
       "theme": "actualite",
       "score": 19,
@@ -3460,6 +3268,227 @@
         "Prière",
         "Église catholique"
       ]
+    },
+    {
+      "id": "s29",
+      "rank": 29,
+      "title": "« Ça ne l’a pas fait rire » : après Yoko Ono, la chanteuse Mireille Mathieu attaque à son tour un brasseur breton",
+      "theme": "divertissement",
+      "score": 18,
+      "tier": "low",
+      "rationale": "Couvert par 3 médias · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "49+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.2",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "3 médias",
+          "fill": 70
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "65/100",
+          "fill": 65
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.9,
+        "trends": 0.0,
+        "wiki": 0.0,
+        "gnews": 70.0,
+        "msn": 65.2,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 18.5
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/ça-ne-l-a-pas-fait-rire-après-yoko-ono-la-chanteuse-mireille-mathieu-attaque-à-son-tour-un-brasseur-breton/ar-AA24gEfo?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.6043a7dba74793f941aa750c9980a0fa&pid=Wdp",
+      "msn_source_name": "Voici",
+      "refs": [
+        {
+          "label": "MSN · Voici — « Ça ne l’a pas fait rire » : après Yoko Ono, la chanteuse Mireille Mathieu attaque à son tour un brasseur breton",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/ça-ne-l-a-pas-fait-rire-après-yoko-ono-la-chanteuse-mireille-mathieu-attaque-à-son-tour-un-brasseur-breton/ar-AA24gEfo?ocid=00000000"
+        },
+        {
+          "label": "Discover · L'Est Républicain — Verdun. Après Paris, Jarville ou Charny, l’artiste Elka s’attaque au skatepark des remparts Saint-Victor",
+          "url": "https://www.estrepublicain.fr/sport/2026/05/29/apres-paris-jarville-ou-charny-l-artiste-elka-s-attaque-au-skatepark-des-remparts-saint-victor"
+        },
+        {
+          "label": "GNews · franceinfo — La Turquie appelle à éviter toute \"escalade incontrôlée\" après l'attaque d'un cargo turc en mer Noire",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcHYtQl8zcTFKZDJVZ2FzOE9fcnc0eEktOXYxSnotV0tRMF94Q1RqY2lOU2Jod1FkbDBidWZaVmVwM0lrVTFGeGF3bzNXaTc0bk8ta19sNDcydERHdjdLVEFNajgyay1VLWViU050Vy1JWmhpSXFCRFBQQUlPVE5pNHBWY2dQcTRZSVJKdy0zS09MWXJIOHJsUFBaYjdYaV9jam43ZV82bEhMcW5TekdScXR5c0NDaGdVYzZ3aXFPTjM0MEVPUThLbEdmeTZQUnB3UVFkRFFCdFlzbjNVMW9sc002c2tfZ1k?oc=5"
+        },
+        {
+          "label": "GNews · Midi Libre — Le chien l’a attaqué au niveau de la tête : un nourrisson âgé de 28 jours gravement blessé après avoir été mordu par un berger suisse",
+          "url": "https://www.midilibre.fr/2026/05/30/le-chien-la-attaque-au-niveau-de-la-tete-un-nourrisson-age-de-28-jours-gravement-blesse-apres-avoir-ete-mordu-par-un-berger-suisse-13395199.php"
+        },
+        {
+          "label": "GNews · puremedias — \"La tribune anti-Bolloré est maladroite\" : Après Jean-Pascal Zadi, Juliette Binoche retropédale à son tour après les menaces de Canal+",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNMVp6U084Ujl3Y1hZWG1OQy1tY0dWLXpveThKb1hVQ2tJa283VkRXR2o2Q2tjT2M0SW85UlNJY3FZMlVQdWVtWVFiWjRmV2N1U2c3MjZfLTF1b1JrN0ZORGxTSGNFYlFvOTRSNklGdl9CMy1pVGsyNERnS3lYbDhwQ1Y5dmNGUW1pOE9jcEpkUGJpWU9mSG5nWk5TMGJVMWxJNWU1TmFVTGF6Mjlzb3hJTThDdGU1dFFka2NKbkVfQ0JXSmxvcjJDT0RINEdUUWQtM0JGSVFENDhfU3hZWHlycGNRc0hXU2xKbVluUFhwUjdvZzQ?oc=5"
+        }
+      ],
+      "discover_category": "/Sports/Individual Sports/Skate Sports",
+      "discover_entities": [
+        "Skatepark"
+      ]
+    },
+    {
+      "id": "s30",
+      "rank": 30,
+      "title": "Donald Trump hospitalisé en urgence ? Ce que révèle vraiment la Maison-Blanche sur son état de santé",
+      "theme": "actualite",
+      "score": 18,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (7 médias).",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "1.0/65"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "7 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "17+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 1.0",
+          "fill": 4
+        },
+        {
+          "name": "Google News",
+          "value": "7 médias",
+          "fill": 96
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "3k vues/h",
+          "fill": 15
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "15/100",
+          "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 4.5,
+        "trends": 0.0,
+        "wiki": 15.8,
+        "gnews": 97.0,
+        "msn": 15.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 18.4
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/donald-trump-hospitalisé-en-urgence-ce-que-révèle-vraiment-la-maison-blanche-sur-son-état-de-santé/ar-AA24pBEr?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.8893570f8afdd513386bb526037962ad&pid=Wdp",
+      "msn_source_name": "So Busy Girls",
+      "refs": [
+        {
+          "label": "MSN · So Busy Girls — Donald Trump hospitalisé en urgence ? Ce que révèle vraiment la Maison-Blanche sur son état de santé",
+          "url": "https://www.msn.com/fr-fr/actualite/monde/donald-trump-hospitalisé-en-urgence-ce-que-révèle-vraiment-la-maison-blanche-sur-son-état-de-santé/ar-AA24pBEr?ocid=00000000"
+        },
+        {
+          "label": "Discover · BFM — Malgré \"son excellente santé\", Donald Trump se voit conseiller \"la poursuite de la perte de poids\" par son médecin",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/malgre-son-excellente-sante-donald-trump-se-voit-conseiller-la-poursuite-de-la-perte-de-poids-par-son-medecin_AD-202605300083.html"
+        },
+        {
+          "label": "GNews · Le Temps — «J’en ai marre de la bêtise»: ces républicains qui défient Donald Trump au Congrès",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMWQ3RUIwMUNQc1dIM0FFQ1BYYldQeHpEdnZvWkRtSTJXSDQtX19SRmR1MGZweXoyZjRieXRhWDM0cnFLOWN3bVo2LTRQOVVIeUxsSl9FTUlobEd1aWlUcjNQVlJVVDNoY2pYa0xVbmg0M3BqbmlBMjJWYXZSdEhLLUNrdS00bk1pT2tkNW53S2tWaUhnOTJ3QV90NjJPcktQdUpfQmF5aEk2WGwy?oc=5"
+        },
+        {
+          "label": "GNews · Futura, le média qui explore le monde — Enceintes connectées : vos conversations sont-elles vraiment protégées à la maison ?",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVDFrTUZmLWV6VjlYeFBENGdkQ1cya1hqNjQ5MnVWWkJrSDhkSU1SWkM3MTU5QlJpQzJSV2w4a3J3R0w5bTNhLTFkZEhqaGs4bTJxTDVkUmkyQlhMYWtRUWY4V0hjSUFrRkJVS1RyTS1Ld2hiN2FJU2NTdVBjUVpHMWsxdVpYWVhPZ3pQdWxCS1M2c2MyQi1HS19leUVabExjeXo2UDhJMW01M3dPZU1zX3B6aXVYQ2RpOENpNWRxcGFlZmxGTXFLMDluLXBhNS1rN2RncXZFNzFDNkFGMW9KNC1JRndzV2tlNmlNT3RIZk5TUQ?oc=5"
+        },
+        {
+          "label": "GNews · ma-sante.news — Cette tache blanche sur la langue n’est peut-être pas un simple aphte - ma-sante.news",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Fa3AzaXVzMTlMYWdHcEd4WGhLak9CeGhaYnV3N1ZrSzJjcE80RXM1bkFyUnk4LWxrUHJ2R2NKM0VUUWkzVFRCQXhFb0FFUEtsQWs0TlJiVUtfUXpVNEliZzhsQVdqQzNhMHVlaEtaQUNCUXUyOFI2S1RSV3A?oc=5"
+        }
+      ],
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Donald Trump"
+      ]
     }
   ],
   "categories_trending": [
@@ -3549,7 +3578,7 @@
       "label": "Voyage",
       "articles_count": 6,
       "total_score": 23.1,
-      "avg_score": 3.8,
+      "avg_score": 3.9,
       "top_articles": [
         {
           "title": "« Le départ en vacances est un réflexe conditionné. Moi, je préfère ne pas partir et me consacrer à ce qui me fait vibrer » : pour leurs congés, ils restent à la maison",
@@ -3603,7 +3632,7 @@
       "label": "Sports de raquette",
       "articles_count": 18,
       "total_score": 15.3,
-      "avg_score": 0.9,
+      "avg_score": 0.8,
       "top_articles": [
         {
           "title": "Roland-Garros - Renversé par João Fonseca au troisième tour, Novak Djokovic a-t-il fait un pas de plus vers la retraite",
@@ -3753,7 +3782,7 @@
       "members_count": 3,
       "articles_count": 8,
       "total_score": 8.4,
-      "avg_score": 1.1,
+      "avg_score": 1.0,
       "top_articles": [
         {
           "title": "Deux trains Trenitalia bloqués toute la nuit en pleine voie en Bourgogne",

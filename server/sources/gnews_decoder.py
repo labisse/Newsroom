@@ -35,7 +35,7 @@ from server.sources._common import now_iso
 
 CACHE_PATH = DATA_DIR / "gnews_url_cache.json"
 TIMEOUT_S = 12
-SLEEP_BETWEEN_S = 0.4  # politesse
+SLEEP_BETWEEN_S = 1.0  # politesse — Google rate-limit en 429 si trop rapide
 BATCHEXECUTE_URL = (
     "https://news.google.com/_/DotsSplashUi/data/batchexecute"
 )
@@ -123,24 +123,32 @@ def _extract_b64_id(url: str) -> str | None:
 # ---------------------------------------------------------------
 
 
+class RateLimitedError(Exception):
+    """Google a renvoyé 429 ou nous a redirigé vers /sorry/."""
+
+
 def _fetch_signature(
     session: requests.Session, b64_id: str
 ) -> tuple[str, str, str] | None:
     """GET la page article, extrait (id, timestamp, signature).
 
-    Nécessaire pour appeler le endpoint batchexecute qui retourne l'URL
-    décodée. Les 3 tokens sont posés par Google sur le <c-wiz> principal
-    de la page article (attributs data-n-a-id / data-n-a-ts / data-n-a-sg).
+    Raise RateLimitedError si Google nous bloque (429 ou redirect vers
+    /sorry/). On distingue ça d'un vrai échec pour pouvoir retenter au
+    prochain run sans polluer le cache d'échecs définitifs.
     """
     article_url = f"https://news.google.com/articles/{b64_id}"
     try:
         r = session.get(article_url, timeout=TIMEOUT_S)
-        if r.status_code != 200:
-            return None
-        html = r.text
     except requests.RequestException:
         return None
 
+    # Rate limit / sorry page
+    if r.status_code == 429 or "/sorry/" in r.url:
+        raise RateLimitedError(f"Google rate-limit ({r.status_code})")
+    if r.status_code != 200:
+        return None
+
+    html = r.text
     m_id = re.search(r'data-n-a-id="([^"]+)"', html)
     m_ts = re.search(r'data-n-a-ts="([^"]+)"', html)
     m_sg = re.search(r'data-n-a-sg="([^"]+)"', html)
@@ -240,8 +248,15 @@ def decode_url(google_news_url: str, *, use_cache: bool = True) -> str:
         return google_news_url
 
     session = _new_session()
-    signature = _fetch_signature(session, b64_id)
+    try:
+        signature = _fetch_signature(session, b64_id)
+    except RateLimitedError:
+        # On NE cache pas : on retentera au prochain run
+        return google_news_url
+
     if not signature:
+        # Vrai échec (HTML changé, pas de tokens) → on cache pour ne pas
+        # retenter à chaque run
         cache[key] = {
             "google_url": google_news_url,
             "real_url": None,
