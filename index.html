@@ -3,21 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Editorial Signal · The Black Room</title>
-    <meta name="description" content="Briefing éditorial quotidien — The Black Room" />
-    <meta name="theme-color" content="#000000" />
+    <title>Editorial Signal — Flux global · The Black Room</title>
+    <meta name="description" content="Briefing éditorial du jour — The Black Room" />
+    <meta name="theme-color" content="#0A0B0F" />
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.bunny.net" />
     <link
+      href="https://fonts.bunny.net/css?family=figtree:400,500,600,700,800|jetbrains-mono:400,500,600,700&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap"
     />
+
+    <!-- Auth gate uses existing tokens for the cosmetic login -->
     <link rel="stylesheet" href="styles/tokens.css?v=tbr5" />
     <link rel="stylesheet" href="styles/base.css?v=tbr5" />
     <link rel="stylesheet" href="styles/components.css?v=tbr11" />
-    <link rel="stylesheet" href="styles/briefing.css?v=tbr11" />
-    <link rel="stylesheet" href="styles/cockpit.css?v=tbr1" />
+    <!-- Cockpit Pro stylesheet (design Claude Design) -->
+    <link rel="stylesheet" href="styles/cockpit-pro.css?v=tbr1" />
+
     <!-- Anti-FOUC : si pas de session valide, lock l'HTML avant le rendu -->
     <script>
       (function () {
@@ -34,9 +37,10 @@
     </script>
   </head>
   <body>
-    <!-- Auth gate — modal de connexion (cf scripts/auth.js) -->
-    <div class="auth-gate" id="auth-gate" role="dialog" aria-modal="true" aria-labelledby="auth-title">
-      <div class="auth-gate__card">
+    <!-- Auth modal (cosmetic gate, identique aux autres pages) -->
+    <div class="auth-gate" data-auth-root hidden>
+      <div class="auth-gate__backdrop"></div>
+      <div class="auth-gate__panel" role="dialog" aria-modal="true" aria-labelledby="auth-title">
         <div class="auth-gate__brand">
           <img class="auth-gate__brand-logo" src="assets/logo-tbr.svg" alt="" />
           <div class="auth-gate__brand-text">
@@ -44,163 +48,33 @@
             <span class="auth-gate__brand-tag">The <em>Black</em> Room</span>
           </div>
         </div>
-        <h2 class="auth-gate__title" id="auth-title">Accès restreint</h2>
-        <p class="auth-gate__deck">
-          POC en cours · accès réservé à l'équipe et aux testeurs validés.
-        </p>
-        <form class="auth-gate__form" id="auth-form" novalidate autocomplete="off">
-          <div class="auth-gate__field">
-            <label class="auth-gate__label" for="auth-email">Email</label>
+        <h1 class="auth-gate__title" id="auth-title">Accès restreint</h1>
+        <form class="auth-gate__form" data-auth-form>
+          <label class="auth-gate__field">
+            <span class="auth-gate__label">Email</span>
             <input
               class="auth-gate__input"
               type="email"
-              id="auth-email"
               name="email"
-              placeholder="contact@…"
+              required
               autocomplete="email"
-              required
+              placeholder="vous@theblackroom.io"
             />
-          </div>
-          <div class="auth-gate__field">
-            <label class="auth-gate__label" for="auth-password">Mot de passe</label>
-            <input
-              class="auth-gate__input"
-              type="password"
-              id="auth-password"
-              name="password"
-              placeholder="••••••••"
-              autocomplete="current-password"
-              required
-            />
-          </div>
-          <div class="auth-gate__error" id="auth-error" role="alert"></div>
-          <button class="btn btn--primary auth-gate__submit" type="submit">Accéder</button>
+          </label>
+          <label class="auth-gate__field">
+            <span class="auth-gate__label">Mot de passe</span>
+            <input class="auth-gate__input" type="password" name="password" required autocomplete="current-password" />
+          </label>
+          <p class="auth-gate__error" data-auth-error hidden></p>
+          <button class="btn btn--primary auth-gate__submit" type="submit">Accéder au briefing</button>
         </form>
-        <p class="auth-gate__footer">
-          Session conservée 7 jours sur ce navigateur.
-        </p>
       </div>
     </div>
 
-    <header class="shell-header">
-      <a class="brand" href="index.html" aria-label="The Black Room — Editorial Signal">
-        <img class="brand__logo" src="assets/logo-tbr.svg" alt="" />
-        <span class="brand__text">
-          <span class="brand__product">Editorial Signal</span>
-          <span class="brand__byline">The <em>Black</em> Room</span>
-        </span>
-      </a>
-      <nav class="shell-nav" aria-label="Navigation principale">
-        <a class="shell-nav__link is-active" href="index.html">Flux global</a>
-        <a class="shell-nav__link" href="tendances.html">Sources</a>
-        <a class="shell-nav__link" href="categories.html">Catégories</a>
-        <a class="shell-nav__link" href="evolution.html">Évolution</a>
-        <a class="shell-nav__link" href="projects.html">Projets</a>
-      </nav>
-      <div class="shell-user">
-        <span class="shell-user__role">Rédac chef</span>
-        <button
-          class="shell-user__avatar"
-          type="button"
-          data-auth-logout
-          title="Cliquer pour se déconnecter"
-        >CP</button>
-      </div>
-    </header>
-
-    <main class="cockpit">
-      <!-- Bandeau de tête compact : date + pipeline status -->
-      <header class="cockpit-bar">
-        <div class="cockpit-bar__title">
-          <span class="status-dot"></span>
-          <span class="cockpit-bar__date" id="briefing-date">—</span>
-          <span class="cockpit-bar__sep">·</span>
-          <span class="cockpit-bar__freshness" id="briefing-freshness">
-            Pipeline en attente…
-          </span>
-        </div>
-        <div class="cockpit-bar__actions">
-          <a class="btn btn--ghost btn--sm" href="evolution.html">Évolution 7j →</a>
-        </div>
-      </header>
-
-      <!-- KPI tiles : 4 chiffres pour décision rapide -->
-      <section class="kpi-grid">
-        <div class="kpi-tile kpi-tile--primary">
-          <span class="kpi-tile__label">Sujets HOT</span>
-          <span class="kpi-tile__value" id="kpi-hot">—</span>
-          <span class="kpi-tile__hint">score ≥ 50</span>
-        </div>
-        <div class="kpi-tile">
-          <span class="kpi-tile__label">Topics montants</span>
-          <span class="kpi-tile__value" id="kpi-rising">—</span>
-          <span class="kpi-tile__hint">Δ 24h &gt; 0</span>
-        </div>
-        <div class="kpi-tile">
-          <span class="kpi-tile__label">Sources actives</span>
-          <span class="kpi-tile__value" id="kpi-sources">—</span>
-          <span class="kpi-tile__hint">sur 8 monitorées</span>
-        </div>
-        <div class="kpi-tile">
-          <span class="kpi-tile__label">Sujets totaux</span>
-          <span class="kpi-tile__value" id="kpi-total">—</span>
-          <span class="kpi-tile__hint">briefing du jour</span>
-        </div>
-      </section>
-
-      <!-- 2 colonnes : main = sujets compacts | sidebar = montants + pulse -->
-      <div class="cockpit-grid">
-        <!-- MAIN : sujets du jour, format compact -->
-        <section class="cockpit-main">
-          <div class="cockpit-card">
-            <header class="cockpit-card__head">
-              <h2 class="cockpit-card__title">Sujets du jour</h2>
-              <span class="cockpit-card__hint">
-                triés par Signal Score · clic pour voir les détails
-              </span>
-            </header>
-            <div class="filter-banner" id="filter-banner"></div>
-            <ul class="sujet-list__items" id="sujet-list"></ul>
-          </div>
-        </section>
-
-        <!-- SIDEBAR : signaux faibles + pulse temps réel -->
-        <aside class="cockpit-side">
-          <!-- Topics qui montent (depuis evolution.json) -->
-          <div class="cockpit-card">
-            <header class="cockpit-card__head">
-              <h2 class="cockpit-card__title">📈 Topics qui montent</h2>
-              <span class="cockpit-card__hint">delta 24h · candidats anticipation</span>
-            </header>
-            <div class="rising-topics" id="rising-topics">
-              <div class="rising-topics__empty">Calcul en cours…</div>
-            </div>
-          </div>
-
-          <!-- Pulse santé sources (sparklines) -->
-          <div class="cockpit-card">
-            <header class="cockpit-card__head">
-              <h2 class="cockpit-card__title">📊 Pulse 7 jours</h2>
-              <span class="cockpit-card__hint">santé pipeline par source</span>
-            </header>
-            <div class="source-pulse" id="source-pulse">
-              <div class="rising-topics__empty">Calcul en cours…</div>
-            </div>
-          </div>
-
-          <!-- Filtres rapides (univers tendance) -->
-          <div class="cockpit-card cockpit-card--collapsible">
-            <header class="cockpit-card__head">
-              <h2 class="cockpit-card__title">🎯 Filtrer par univers</h2>
-              <span class="cockpit-card__hint">catégories, clusters, topics</span>
-            </header>
-            <div id="clusters-mount"></div>
-          </div>
-        </aside>
-      </div>
-    </main>
+    <!-- Shell rendered dynamically by scripts/cockpit-pro.js -->
+    <div id="cp-root"></div>
 
     <script type="module" src="scripts/auth.js?v=tbr5"></script>
-    <script type="module" src="scripts/briefing.js?v=tbr11"></script>
+    <script type="module" src="scripts/cockpit-pro.js?v=tbr1"></script>
   </body>
 </html>
