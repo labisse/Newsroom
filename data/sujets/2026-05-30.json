@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T07:30:26Z",
+  "generated_at": "2026-05-30T07:35:55Z",
   "sources_used": {
     "msn": {
       "fetched_at": "2026-05-30T07:29:40Z",
@@ -64,12 +64,12 @@
       "rationale": "Présent sur Google Discover · pic Google Trends (100 000 recherches) · présent dans le top Wikipedia · forte couverture médiatique (7 médias) · mentionné sur X · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "19/65"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "7 médias"
         },
@@ -89,12 +89,12 @@
           "value": "#89"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "30+ react."
         }
@@ -201,12 +201,12 @@
       "rationale": "Pic Google Trends (100 000 recherches) · forte audience Wikipedia (79 632 vues/jour) · forte couverture médiatique (7 médias) · mentionné sur X · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "7 médias"
         },
@@ -226,12 +226,12 @@
           "value": "#89"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "36+ react."
         }
@@ -335,12 +335,12 @@
       "rationale": "Présent sur Google Discover · présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (6 médias) · mentionné sur X · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "19/65"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "6 médias"
         },
@@ -360,12 +360,12 @@
           "value": "#89"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "13+ react."
         }
@@ -472,12 +472,12 @@
       "rationale": "Présent sur Google Trends · forte audience Wikipedia (40 796 vues/jour) · forte couverture médiatique (6 médias) · repris sur Reddit FR · engagement MSN élevé.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "6 médias"
         },
@@ -492,12 +492,12 @@
           "value": "41k vues"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "155+ react."
         }
@@ -599,12 +599,12 @@
       "rationale": "Présent sur Google Trends · forte audience Wikipedia (40 796 vues/jour) · forte couverture médiatique (7 médias) · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "7 médias"
         },
@@ -619,12 +619,12 @@
           "value": "41k vues"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "34+ react."
         }
@@ -727,12 +727,12 @@
       "rationale": "Présent sur Google Trends · forte audience Wikipedia (40 796 vues/jour) · forte couverture médiatique (9 médias) · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "9 médias"
         },
@@ -747,12 +747,12 @@
           "value": "41k vues"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "34+ react."
         }
@@ -855,12 +855,12 @@
       "rationale": "Présent sur Google Trends · forte audience Wikipedia (40 796 vues/jour) · forte couverture médiatique (6 médias) · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "6 médias"
         },
@@ -875,12 +875,12 @@
           "value": "41k vues"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "42+ react."
         }
@@ -983,17 +983,17 @@
       "rationale": "Présent sur Google Discover · forte couverture médiatique (5 médias) · engagement MSN élevé.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "16/65"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "5 médias"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "202+ react."
         }
@@ -1093,12 +1093,12 @@
       "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (8 médias) · mentionné sur X · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "8 médias"
         },
@@ -1118,12 +1118,12 @@
           "value": "#89"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "14+ react."
         }
@@ -1229,12 +1229,12 @@
       "rationale": "Présent sur Google Trends · forte audience Wikipedia (40 796 vues/jour) · forte couverture médiatique (6 médias) · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "6 médias"
         },
@@ -1249,12 +1249,12 @@
           "value": "41k vues"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "9+ react."
         }
@@ -1356,17 +1356,17 @@
       "rationale": "Présent sur Google Discover · couvert par 4 médias · engagement MSN élevé.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "16/65"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "4 médias"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "128+ react."
         }
@@ -1466,12 +1466,12 @@
       "rationale": "Présent sur Google Discover · présent dans le top Wikipedia · couvert par 2 médias · engagement MSN élevé.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "9.0/65"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "2 médias"
         },
@@ -1481,7 +1481,7 @@
           "value": "4k vues"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "112+ react."
         }
@@ -1577,12 +1577,12 @@
       "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "5.5/65"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "1 média"
         },
@@ -1597,7 +1597,7 @@
           "value": "11k vues"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "9+ react."
         }
@@ -1687,12 +1687,12 @@
       "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "1 média"
         },
@@ -1707,7 +1707,7 @@
           "value": "11k vues"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "53+ react."
         }
@@ -1797,12 +1797,12 @@
       "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (6 médias) · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "6 médias"
         },
@@ -1817,12 +1817,12 @@
           "value": "4k vues"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "35+ react."
         }
@@ -1924,12 +1924,12 @@
       "rationale": "Pic Google Trends (50 000 recherches) · présent dans le top Wikipedia · couvert par 3 médias.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "3 médias"
         },
@@ -1944,7 +1944,7 @@
           "value": "1k vues"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "14+ react."
         }
@@ -2044,12 +2044,12 @@
       "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (6 médias) · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "6 médias"
         },
@@ -2064,12 +2064,12 @@
           "value": "4k vues"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "8+ react."
         }
@@ -2171,22 +2171,22 @@
       "rationale": "Présent sur Google Discover · repris sur Google Actualités · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "16/65"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "1 média"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "2+ react."
         }
@@ -2282,12 +2282,12 @@
       "rationale": "Présent dans le top Wikipedia · repris sur Google Actualités · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "1 média"
         },
@@ -2297,12 +2297,12 @@
           "value": "10k vues"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "69+ react."
         }
@@ -2398,12 +2398,12 @@
       "rationale": "Pic Google Trends (50 000 recherches) · couvert par 3 médias.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "3 médias"
         },
@@ -2413,7 +2413,7 @@
           "value": "50k"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "12+ react."
         }
@@ -2513,12 +2513,12 @@
       "rationale": "Présent sur Google Trends · repris sur Google Actualités · trending sur X.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "1 média"
         },
@@ -2533,7 +2533,7 @@
           "value": "#1"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "10+ react."
         }
@@ -2621,12 +2621,12 @@
       "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (5 médias) · présent sur 2 subs Reddit.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "5 médias"
         },
@@ -2636,12 +2636,12 @@
           "value": "3k vues"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "2 subs"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "23+ react."
         }
@@ -2741,17 +2741,17 @@
       "rationale": "Forte couverture médiatique (5 médias) · engagement MSN élevé.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "2.6/65"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "5 médias"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "115+ react."
         }
@@ -2852,22 +2852,22 @@
       "rationale": "Couvert par 2 médias · repris sur Reddit FR · engagement MSN élevé.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "2 médias"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "49+ react."
         }
@@ -2969,12 +2969,12 @@
       "rationale": "Présent dans le top Wikipedia · couvert par 4 médias · engagement MSN élevé.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "4 médias"
         },
@@ -2984,7 +2984,7 @@
           "value": "2k vues"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "90+ react."
         }
@@ -3084,17 +3084,17 @@
       "rationale": "Couvert par 3 médias · engagement MSN élevé.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "1.8/65"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "3 médias"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "57+ react."
         }
@@ -3192,7 +3192,7 @@
       "rationale": "Pic Google Trends (200 000 recherches) · présent dans le top Wikipedia.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
@@ -3207,7 +3207,7 @@
           "value": "2k vues"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "6+ react."
         }
@@ -3295,12 +3295,12 @@
       "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (8 médias).",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "1.4/65"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "8 médias"
         },
@@ -3310,7 +3310,7 @@
           "value": "3k vues"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "10+ react."
         }
@@ -3410,22 +3410,22 @@
       "rationale": "Couvert par 3 médias · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "3 médias"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "9+ react."
         }
@@ -3528,12 +3528,12 @@
       "rationale": "Présent sur Google Trends · couvert par 2 médias · repris sur Reddit FR.",
       "signals": [
         {
-          "source": "gsc",
+          "source": "discover",
           "label": "discover",
           "value": "présent"
         },
         {
-          "source": "news",
+          "source": "gnews",
           "label": "gnews",
           "value": "2 médias"
         },
@@ -3543,12 +3543,12 @@
           "value": "200"
         },
         {
-          "source": "news",
+          "source": "reddit",
           "label": "reddit",
           "value": "1 sub FR"
         },
         {
-          "source": "news",
+          "source": "msn",
           "label": "msn",
           "value": "73+ react."
         }

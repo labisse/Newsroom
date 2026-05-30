@@ -246,9 +246,14 @@ def _build_signals(
             value = f"{score:.1f}/65"
         else:
             value = "présent"
+        # `source` = identifiant unique de la source utilisé côté front
+        # comme sélecteur CSS `data-source="..."`. On garde un identifiant
+        # par origine (discover, gnews, reddit, msn, youtube, trends, wiki, x)
+        # pour pouvoir colorer chaque pastille avec les couleurs de marque
+        # iconiques de la source.
         signals.append(
             {
-                "source": "gsc",  # On réutilise la pastille verte "gsc" du front
+                "source": "discover",
                 "label": "discover",
                 "value": value,
             }
@@ -257,7 +262,7 @@ def _build_signals(
     if gnews_count > 0:
         signals.append(
             {
-                "source": "news",
+                "source": "gnews",
                 "label": "gnews",
                 "value": f"{gnews_count} média{'s' if gnews_count > 1 else ''}",
             }
@@ -296,7 +301,7 @@ def _build_signals(
     if reddit_cross > 0:
         signals.append(
             {
-                "source": "news",
+                "source": "reddit",
                 "label": "reddit",
                 "value": (
                     f"{reddit_cross} subs"
@@ -310,7 +315,7 @@ def _build_signals(
         velocity = int(youtube_match.target.get("velocity_views_per_hour") or 0)
         signals.append(
             {
-                "source": "trends",
+                "source": "youtube",
                 "label": "youtube",
                 "value": _format_volume(velocity, suffix="/h"),
             }
@@ -323,7 +328,7 @@ def _build_signals(
     if engagement > 0:
         signals.append(
             {
-                "source": "news",
+                "source": "msn",
                 "label": "msn",
                 "value": f"{engagement}+ react.",
             }

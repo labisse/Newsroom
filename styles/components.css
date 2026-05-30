@@ -138,33 +138,95 @@
   color: var(--text-primary);
 }
 
-/* Variantes par source — accents néon */
+/* ===================================================================
+   Variantes par source — couleurs iconiques de marque pour que le
+   rédacteur identifie d'un coup d'œil l'origine du signal :
 
-.signal[data-source="gsc"] {  /* Utilisé pour Discover */
+     discover  → vert (signal éditorial validé)
+     gnews     → bleu Google #4285F4
+     reddit    → orange Reddit #FF4500
+     msn       → cyan Microsoft #00A4EF
+     youtube   → rouge YouTube #FF0033
+     trends    → jaune Google Trends #FBBC04
+     wiki      → blanc neutre
+     x         → cyan néon
+   =================================================================== */
+
+/* DISCOVER — vert success (signal Discover = objectif final du produit) */
+.signal[data-source="discover"],
+.signal[data-source="gsc"] {  /* fallback ancien snapshot */
   background: rgba(0, 255, 0, 0.08);
   border-color: var(--success-color);
   color: var(--success-color);
 }
+.signal[data-source="discover"] .signal__dot,
+.signal[data-source="discover"] .signal__label,
+.signal[data-source="discover"] .signal__value,
 .signal[data-source="gsc"] .signal__dot,
 .signal[data-source="gsc"] .signal__label,
 .signal[data-source="gsc"] .signal__value { color: var(--success-color); }
+.signal[data-source="discover"] .signal__dot,
 .signal[data-source="gsc"] .signal__dot { background: var(--success-color); }
 
+/* GOOGLE NEWS — bleu Google #4285F4 */
+.signal[data-source="gnews"] {
+  background: rgba(66, 133, 244, 0.10);
+  border-color: #4285F4;
+  color: #5C9CFF;
+}
+.signal[data-source="gnews"] .signal__label,
+.signal[data-source="gnews"] .signal__value { color: #5C9CFF; }
+.signal[data-source="gnews"] .signal__dot { background: #4285F4; }
+
+/* REDDIT — orange Reddit officiel #FF4500 */
+.signal[data-source="reddit"] {
+  background: rgba(255, 69, 0, 0.10);
+  border-color: #FF4500;
+  color: #FF7849;
+}
+.signal[data-source="reddit"] .signal__label,
+.signal[data-source="reddit"] .signal__value { color: #FF7849; }
+.signal[data-source="reddit"] .signal__dot { background: #FF4500; }
+
+/* MSN — cyan Microsoft #00A4EF */
+.signal[data-source="msn"] {
+  background: rgba(0, 164, 239, 0.08);
+  border-color: #00A4EF;
+  color: #4DC3FF;
+}
+.signal[data-source="msn"] .signal__label,
+.signal[data-source="msn"] .signal__value { color: #4DC3FF; }
+.signal[data-source="msn"] .signal__dot { background: #00A4EF; }
+
+/* YOUTUBE — rouge YouTube #FF0033 (légèrement décalé du primary TBR pour
+   éviter la confusion avec Trends/accent général) */
+.signal[data-source="youtube"] {
+  background: rgba(255, 0, 51, 0.08);
+  border-color: #FF0033;
+  color: #FF4D6E;
+}
+.signal[data-source="youtube"] .signal__label,
+.signal[data-source="youtube"] .signal__value { color: #FF4D6E; }
+.signal[data-source="youtube"] .signal__dot { background: #FF0033; }
+
+/* GOOGLE TRENDS — jaune Google Trends #FBBC04 */
 .signal[data-source="trends"] {
-  background: rgba(245, 0, 0, 0.06);
-  border-color: rgba(245, 0, 0, 0.5);
-  color: var(--primary-color);
+  background: rgba(251, 188, 4, 0.08);
+  border-color: #FBBC04;
+  color: #FFD24F;
 }
 .signal[data-source="trends"] .signal__label,
-.signal[data-source="trends"] .signal__value { color: var(--primary-color); }
-.signal[data-source="trends"] .signal__dot { background: var(--primary-color); }
+.signal[data-source="trends"] .signal__value { color: #FFD24F; }
+.signal[data-source="trends"] .signal__dot { background: #FBBC04; }
 
+/* WIKIMEDIA — blanc neutre */
 .signal[data-source="wiki"] {
   background: rgba(255, 255, 255, 0.04);
   border-color: var(--border-strong);
 }
 .signal[data-source="wiki"] .signal__dot { background: var(--text-primary); }
 
+/* X (ex-Twitter) — cyan néon */
 .signal[data-source="x"] {
   background: rgba(0, 255, 255, 0.06);
   border-color: var(--info-color);
@@ -174,6 +236,7 @@
 .signal[data-source="x"] .signal__value { color: var(--info-color); }
 .signal[data-source="x"] .signal__dot { background: var(--info-color); }
 
+/* NEWS (fallback ancien) — orange neutre */
 .signal[data-source="news"] {
   background: rgba(255, 170, 0, 0.08);
   border-color: var(--warning-color);
