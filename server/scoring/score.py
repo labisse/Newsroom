@@ -1,23 +1,25 @@
 """Barèmes par signal + pondération finale.
 
-6 sources actives pour le POC (CdC mentionne 5 mais on a ajouté
-Discover en plus, qui est le signal le plus pertinent puisque c'est
-l'objectif final du produit) :
+8 sources actives pour le POC :
 
   - Discoversnoop     ← visibilité Discover directe (= objectif final)
-  - Google Trends     ← signal de recherche
-  - Wikimedia         ← audience encyclopédique
+  - Google Trends     ← signal de recherche (intention d'achat)
+  - Wikimedia         ← audience encyclopédique (validation savoir)
   - Google News       ← couverture médiatique (combien de médias couvrent)
   - MSN engagement    ← attention média sur agrégateur (votes/comments)
   - X Trends          ← signal conversationnel (présence)
+  - Reddit            ← anticipateur Discover (présence cross-subs FR)
+  - YouTube Trending  ← anticipateur visuel (velocity vues/h)
 
 Pondération POC :
-  - Discoversnoop    : 25%
-  - Google Trends    : 20%
-  - Wikimedia        : 15%
-  - Google News      : 15%  (nouveau — couverture médiatique)
-  - MSN engagement   : 15%
-  - X Trends         : 10%
+  - Discoversnoop    : 22%
+  - Google Trends    : 17%
+  - Google News      : 14%
+  - MSN engagement   : 13%
+  - Wikimedia        : 12%
+  - Reddit           : 8%   (nouveau, anticipateur)
+  - YouTube Trending : 7%   (nouveau, anticipateur visuel)
+  - X Trends         : 7%
   ────────────────────
   Total              : 100%
 
@@ -35,12 +37,14 @@ from dataclasses import dataclass
 # ---------------------------------------------------------------
 
 WEIGHTS = {
-    "discover": 0.25,
-    "trends": 0.20,
-    "wiki": 0.15,
-    "gnews": 0.15,
-    "msn": 0.15,
-    "x": 0.10,
+    "discover": 0.22,
+    "trends": 0.17,
+    "gnews": 0.14,
+    "msn": 0.13,
+    "wiki": 0.12,
+    "reddit": 0.08,
+    "youtube": 0.07,
+    "x": 0.07,
 }
 
 # ---------------------------------------------------------------
@@ -150,6 +154,55 @@ def discover_score(raw_score: float | None) -> float:
     return _log_saturate(float(raw_score), anchor=25)
 
 
+def reddit_score(cross_subs_count: int, best_rank: int | None = None) -> float:
+    """Score Reddit basé sur la viralité cross-sub + rang dans le feed hot.
+
+    Sémantique : un sujet posté dans plusieurs subs FR à la fois est un
+    signal d'intérêt cross-communautaire — souvent prédicteur Discover
+    24-48h plus tard (Google indexe Reddit).
+
+    Composantes :
+      - cross_subs_count : nb de subs où le post apparaît (saturation log)
+        1 sub  → 30 pts (présence simple)
+        2 subs → 60 pts (viralité)
+        3 subs → 80 pts
+        4+ subs → 90+
+      - best_rank dans le sub : bonus si tête de hot (rank 1-5 → +10)
+    """
+    if not cross_subs_count or cross_subs_count <= 0:
+        return 0.0
+    # Log saturé : 1 sub → 30, 2 → 60, 3 → 80, 5+ → ~95
+    base = 30.0 * math.log2(1 + cross_subs_count)
+    bonus = 0.0
+    if best_rank is not None and best_rank >= 1:
+        if best_rank <= 3:
+            bonus = 12.0
+        elif best_rank <= 10:
+            bonus = 6.0
+        elif best_rank <= 25:
+            bonus = 3.0
+    return min(100.0, base + bonus)
+
+
+def youtube_score(velocity_views_per_hour: int | float) -> float:
+    """Score YouTube Trending basé sur la velocity (vues/heure).
+
+    Sémantique : une vidéo qui explose en vues/h sur YouTube FR
+    (typiquement BFM, Brut, Konbini, Hugo Décrypte) reflète un sujet
+    qui va sortir sur Discover dans les heures qui suivent.
+
+    Barème :
+      - 1k vues/h  →  ~30
+      - 10k vues/h →  ~60
+      - 50k vues/h →  ~80
+      - 200k vues/h → ~95
+      - 1M vues/h  →  100
+    """
+    if not velocity_views_per_hour or velocity_views_per_hour <= 0:
+        return 0.0
+    return _log_saturate(float(velocity_views_per_hour), anchor=10_000)
+
+
 def msn_score(article: dict) -> float:
     """Score d'engagement MSN — proxy d'attention médiatique.
 
@@ -187,6 +240,8 @@ class ScoreBreakdown:
     gnews: float
     msn: float
     x: float
+    reddit: float
+    youtube: float
     total: float
 
     def as_dict(self) -> dict:
@@ -197,6 +252,8 @@ class ScoreBreakdown:
             "gnews": round(self.gnews, 1),
             "msn": round(self.msn, 1),
             "x": round(self.x, 1),
+            "reddit": round(self.reddit, 1),
+            "youtube": round(self.youtube, 1),
             "total": round(self.total, 1),
         }
 
@@ -236,8 +293,10 @@ def composite_score(
     gnews: float = 0.0,
     msn: float = 0.0,
     x: float = 0.0,
+    reddit: float = 0.0,
+    youtube: float = 0.0,
 ) -> ScoreBreakdown:
-    """Combine les 6 sous-scores selon les pondérations + bonus convergence."""
+    """Combine les 8 sous-scores selon les pondérations + bonus convergence."""
     weighted = (
         WEIGHTS["discover"] * discover
         + WEIGHTS["trends"] * trends
@@ -245,9 +304,12 @@ def composite_score(
         + WEIGHTS["gnews"] * gnews
         + WEIGHTS["msn"] * msn
         + WEIGHTS["x"] * x
+        + WEIGHTS["reddit"] * reddit
+        + WEIGHTS["youtube"] * youtube
     )
-    # Le bonus s'applique aux signaux externes uniquement (pas MSN)
-    bonus = _convergence_bonus(discover, trends, wiki, gnews, x)
+    # Le bonus s'applique aux signaux externes uniquement (pas MSN qui
+    # est notre base). Reddit + YouTube sont externes par nature.
+    bonus = _convergence_bonus(discover, trends, wiki, gnews, x, reddit, youtube)
     total = min(100.0, weighted + bonus)
     return ScoreBreakdown(
         discover=discover,
@@ -256,6 +318,8 @@ def composite_score(
         gnews=gnews,
         msn=msn,
         x=x,
+        reddit=reddit,
+        youtube=youtube,
         total=total,
     )
 

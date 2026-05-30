@@ -43,6 +43,19 @@ def _load(source: str) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def _load_optional(source: str) -> dict[str, Any]:
+    """Comme _load, mais renvoie {} si le snapshot manque. Pour les
+    sources récentes (Reddit, YouTube) qui peuvent ne pas être présentes
+    au premier run et ne doivent pas casser le pipeline."""
+    path = DATA_DIR / source / "latest.json"
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+
 # ---------------------------------------------------------------
 # Préparation des candidats pour matching
 # ---------------------------------------------------------------
@@ -78,6 +91,20 @@ def _prepare_discover(payload: dict) -> list[dict]:
 def _prepare_gnews(payload: dict) -> list[dict]:
     """Google News : articles RSS dédupliqués, on les retourne tels quels."""
     return payload.get("articles", [])
+
+
+def _prepare_reddit(payload: dict) -> list[dict]:
+    """Reddit : posts dédupliqués cross-subs.
+
+    Le `cross_subs_count` est porté par le post lui-même (cf reddit.py),
+    on l'utilise comme proxy de viralité au moment du matching.
+    """
+    return payload.get("posts", []) if payload else []
+
+
+def _prepare_youtube(payload: dict) -> list[dict]:
+    """YouTube Trending : vidéos déjà triées par velocity."""
+    return payload.get("videos", []) if payload else []
 
 
 def _count_matches(
@@ -126,6 +153,8 @@ def _rationale(
     wiki_match: Match | None,
     gnews_count: int,
     x_match: Match | None,
+    reddit_cross: int,
+    youtube_match: Match | None,
     breakdown: scoring.ScoreBreakdown,
 ) -> str:
     """Phrase explicative générée pour le rédac chef."""
@@ -163,6 +192,21 @@ def _rationale(
     elif x_match:
         parts.append("mentionné sur X")
 
+    if reddit_cross >= 3:
+        parts.append(f"viral sur Reddit ({reddit_cross} subs FR)")
+    elif reddit_cross >= 2:
+        parts.append(f"présent sur {reddit_cross} subs Reddit")
+    elif reddit_cross == 1:
+        parts.append("repris sur Reddit FR")
+
+    if youtube_match and breakdown.youtube >= 60:
+        velocity = youtube_match.target.get("velocity_views_per_hour", 0)
+        parts.append(
+            f"vidéo YouTube en explosion ({velocity:,}/h vues)".replace(",", " ")
+        )
+    elif youtube_match:
+        parts.append("présent dans YouTube Trending FR")
+
     if breakdown.msn >= 60:
         parts.append("engagement MSN élevé")
 
@@ -185,6 +229,8 @@ def _build_signals(
     wiki_match: Match | None,
     gnews_count: int,
     x_match: Match | None,
+    reddit_cross: int,
+    youtube_match: Match | None,
     msn_article: dict,
 ) -> list[dict[str, Any]]:
     """Construit la liste de signal pills affichée dans le front."""
@@ -247,6 +293,29 @@ def _build_signals(
             }
         )
 
+    if reddit_cross > 0:
+        signals.append(
+            {
+                "source": "news",
+                "label": "reddit",
+                "value": (
+                    f"{reddit_cross} subs"
+                    if reddit_cross > 1
+                    else "1 sub FR"
+                ),
+            }
+        )
+
+    if youtube_match:
+        velocity = int(youtube_match.target.get("velocity_views_per_hour") or 0)
+        signals.append(
+            {
+                "source": "trends",
+                "label": "youtube",
+                "value": _format_volume(velocity, suffix="/h"),
+            }
+        )
+
     # Toujours indiquer MSN puisque c'est la base
     engagement = (msn_article.get("upvotes", 0) or 0) + (
         msn_article.get("comments", 0) or 0
@@ -280,6 +349,8 @@ def _build_sources_detail(
     wiki_match: Match | None,
     gnews_count: int,
     x_match: Match | None,
+    reddit_cross: int,
+    youtube_match: Match | None,
     breakdown: scoring.ScoreBreakdown,
 ) -> list[dict[str, Any]]:
     """Détail par source pour l'expand row du front (bars de progression)."""
@@ -334,7 +405,66 @@ def _build_sources_detail(
             "value": f"{breakdown.msn:.0f}/100",
             "fill": int(breakdown.msn),
         },
+        {
+            "name": "Reddit FR",
+            "value": (
+                f"{reddit_cross} sub{'s' if reddit_cross > 1 else ''}"
+                if reddit_cross > 0
+                else "—"
+            ),
+            "fill": int(breakdown.reddit),
+        },
+        {
+            "name": "YouTube velocity",
+            "value": (
+                _format_volume(
+                    int(youtube_match.target.get("velocity_views_per_hour") or 0),
+                    suffix="/h",
+                )
+                if youtube_match
+                else "—"
+            ),
+            "fill": int(breakdown.youtube),
+        },
     ]
+
+
+def _best_reddit_match(
+    src_tokens: set,
+    reddit_candidates: list[dict],
+) -> tuple[int, int | None, list[dict]]:
+    """Pour un sujet MSN, cherche les posts Reddit qui le couvrent.
+
+    Retourne (max_cross_subs, best_rank, top_matches).
+      - max_cross_subs : viralité max parmi les matches (= meilleur post,
+        celui qui apparaît dans le plus de subs)
+      - best_rank : meilleur rang Reddit parmi les matches (1 = très hot)
+      - top_matches : 3 meilleurs posts matchés
+
+    Si aucun match : (0, None, []).
+    """
+    from server.scoring.matcher import jaccard
+    from server.scoring.normalize import token_set
+
+    matched: list[tuple[float, dict]] = []
+    for post in reddit_candidates:
+        title = post.get("title") or ""
+        cand_tokens = token_set(title)
+        if not cand_tokens:
+            continue
+        common = src_tokens & cand_tokens
+        score = jaccard(src_tokens, cand_tokens)
+        # Reddit titres souvent courts/typés : seuil un peu plus lâche
+        if score >= 0.25 or len(common) >= 2:
+            matched.append((score, post))
+
+    if not matched:
+        return 0, None, []
+
+    matched.sort(key=lambda x: x[0], reverse=True)
+    max_cross = max(int(p.get("cross_subs_count") or 1) for _, p in matched)
+    best_rank = min(int(p.get("best_rank") or 99) for _, p in matched)
+    return max_cross, best_rank, [p for _, p in matched[:3]]
 
 
 def _score_article(
@@ -345,6 +475,8 @@ def _score_article(
     wiki_candidates: list[dict],
     gnews_candidates: list[dict],
     x_candidates: list[dict],
+    reddit_candidates: list[dict],
+    youtube_candidates: list[dict],
 ) -> dict[str, Any] | None:
     """Score un article MSN. Retourne None si titre vide."""
     title = msn_article.get("title", "")
@@ -373,6 +505,14 @@ def _score_article(
         jaccard_threshold=0.30,
     )
 
+    # Reddit : virality cross-subs + best rank parmi les matches
+    reddit_cross, reddit_best_rank, reddit_top = _best_reddit_match(
+        src_tokens, reddit_candidates
+    )
+
+    # YouTube : best_match comme Wiki / Trends, on récupère sa velocity
+    youtube_match = best_match(src_tokens, youtube_candidates, title_key="title")
+
     breakdown = scoring.composite_score(
         discover=(
             scoring.discover_score(discover_match.target.get("score"))
@@ -395,6 +535,14 @@ def _score_article(
         gnews=scoring.gnews_score(gnews_count),
         msn=scoring.msn_score(msn_article),
         x=(scoring.x_score(x_match.target.get("rank")) if x_match else 0.0),
+        reddit=scoring.reddit_score(reddit_cross, reddit_best_rank),
+        youtube=(
+            scoring.youtube_score(
+                youtube_match.target.get("velocity_views_per_hour", 0)
+            )
+            if youtube_match
+            else 0.0
+        ),
     )
 
     return {
@@ -405,6 +553,10 @@ def _score_article(
         "gnews_count": gnews_count,
         "gnews_top_matches": gnews_top_matches,
         "x_match": x_match,
+        "reddit_cross": reddit_cross,
+        "reddit_best_rank": reddit_best_rank,
+        "reddit_top": reddit_top,
+        "youtube_match": youtube_match,
         "breakdown": breakdown,
     }
 
@@ -414,6 +566,8 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
     article = scored["msn_article"]
     breakdown: scoring.ScoreBreakdown = scored["breakdown"]
     gnews_count = scored.get("gnews_count", 0)
+    reddit_cross = scored.get("reddit_cross", 0)
+    youtube_match = scored.get("youtube_match")
 
     rationale = _rationale(
         article,
@@ -422,6 +576,8 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
         scored["wiki_match"],
         gnews_count,
         scored["x_match"],
+        reddit_cross,
+        youtube_match,
         breakdown,
     )
 
@@ -431,6 +587,8 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
         scored["wiki_match"],
         gnews_count,
         scored["x_match"],
+        reddit_cross,
+        youtube_match,
         article,
     )
 
@@ -440,6 +598,8 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
         scored["wiki_match"],
         gnews_count,
         scored["x_match"],
+        reddit_cross,
+        youtube_match,
         breakdown,
     )
 
@@ -488,6 +648,36 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
                 }
             )
 
+    # Top 2 posts Reddit matchés (lecteur de tonalité communautaire)
+    for rd in (scored.get("reddit_top") or [])[:2]:
+        rd_sub = rd.get("subreddit") or ""
+        rd_title = rd.get("title") or ""
+        # Permalink Reddit (toujours), sinon URL externe
+        rd_url = rd.get("permalink") or rd.get("url") or ""
+        if rd_title and rd_url:
+            refs.append(
+                {
+                    "label": f"Reddit · r/{rd_sub} — {rd_title}",
+                    "url": rd_url,
+                }
+            )
+
+    # Vidéo YouTube matchée si présente (souvent un format vidéo de
+    # référence pour le sujet — utile au rédac chef pour le ton)
+    yt_match = scored.get("youtube_match")
+    if yt_match:
+        yt_target = yt_match.target
+        yt_title = yt_target.get("title") or ""
+        yt_url = yt_target.get("url") or ""
+        yt_channel = yt_target.get("channel") or ""
+        if yt_title and yt_url:
+            refs.append(
+                {
+                    "label": f"YouTube · {yt_channel} — {yt_title}",
+                    "url": yt_url,
+                }
+            )
+
     rounded = int(round(breakdown.total))
     return {
         "id": f"s{rank:02d}",
@@ -525,11 +715,17 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
     x = _load("x_trends")
     discover = _load("discoversnoop")
     gnews = _load("google_news")
+    # Sources anticipatrices (snapshots optionnels — un premier run sans
+    # ces fetchers ne doit pas casser le pipeline)
+    reddit = _load_optional("reddit")
+    youtube = _load_optional("youtube_trending")
 
     gt_candidates, x_candidates = _prepare_trends(gt, x)
     wiki_candidates = _prepare_wiki(wikimedia)
     discover_candidates = _prepare_discover(discover)
     gnews_candidates = _prepare_gnews(gnews)
+    reddit_candidates = _prepare_reddit(reddit)
+    youtube_candidates = _prepare_youtube(youtube)
 
     # Clusters Discover (catégories + entités) — vue "univers éditorial"
     discover_articles = discover.get("articles", [])
@@ -554,6 +750,8 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
             wiki_candidates=wiki_candidates,
             gnews_candidates=gnews_candidates,
             x_candidates=x_candidates,
+            reddit_candidates=reddit_candidates,
+            youtube_candidates=youtube_candidates,
         )
         if result is not None:
             scored.append(result)
@@ -589,6 +787,14 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
             "google_news": {
                 "fetched_at": gnews.get("fetched_at"),
                 "count": gnews.get("count"),
+            },
+            "reddit": {
+                "fetched_at": reddit.get("fetched_at") if reddit else None,
+                "count": reddit.get("count") if reddit else 0,
+            },
+            "youtube_trending": {
+                "fetched_at": youtube.get("fetched_at") if youtube else None,
+                "count": youtube.get("count") if youtube else 0,
             },
         },
         "weights": scoring.WEIGHTS,

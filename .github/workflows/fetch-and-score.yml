@@ -80,7 +80,9 @@ jobs:
           DISCOVERSNOOP_PASSWORD: ${{ secrets.DISCOVERSNOOP_PASSWORD }}
           DISCOVERSNOOP_COUNTRY: FR
           DISCOVERSNOOP_HOURS: 12
-        run: python -m server.cli fetch msn x_trends discoversnoop google_news
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_REGION: FR
+        run: python -m server.cli fetch msn x_trends discoversnoop google_news reddit youtube_trending
 
       - name: Fetch sources (full)
         if: steps.mode.outputs.mode == 'full'
@@ -96,6 +98,8 @@ jobs:
           DISCOVERSNOOP_PASSWORD: ${{ secrets.DISCOVERSNOOP_PASSWORD }}
           DISCOVERSNOOP_COUNTRY: FR
           DISCOVERSNOOP_HOURS: 12
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_REGION: FR
         run: python -m server.cli fetch-all
 
       - name: Score

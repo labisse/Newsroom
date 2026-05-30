@@ -39,8 +39,10 @@ from server.sources import (
     google_news,
     google_trends,
     msn,
+    reddit,
     wikimedia,
     x_trends,
+    youtube_trending,
 )
 from server.sources import gsc as gsc_mod
 from server.sources import (
@@ -58,6 +60,8 @@ SOURCES: dict[str, Callable[[], dict[str, Any]]] = {
     "x_trends": x_trends.run,
     "discoversnoop": discoversnoop.run,
     "google_news": google_news.run,
+    "reddit": reddit.run,
+    "youtube_trending": youtube_trending.run,
 }
 
 

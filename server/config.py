@@ -73,5 +73,9 @@ class Settings:
     anthropic_api_key: str = _get("ANTHROPIC_API_KEY")
     anthropic_model: str = _get("ANTHROPIC_MODEL", "claude-haiku-4-5")
 
+    # YouTube Data API v3 — trending FR
+    youtube_api_key: str = _get("YOUTUBE_API_KEY")
+    youtube_region: str = _get("YOUTUBE_REGION", "FR")
+
 
 settings = Settings()

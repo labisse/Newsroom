@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T04:32:23Z",
+  "generated_at": "2026-05-30T07:12:15Z",
   "sources_used": {
     "msn": {
       "fetched_at": "2026-05-30T04:32:07Z",
@@ -24,23 +24,33 @@
     "google_news": {
       "fetched_at": "2026-05-30T04:32:19Z",
       "count": 382
+    },
+    "reddit": {
+      "fetched_at": "2026-05-30T07:12:05Z",
+      "count": 250
+    },
+    "youtube_trending": {
+      "fetched_at": null,
+      "count": 0
     }
   },
   "weights": {
-    "discover": 0.25,
-    "trends": 0.2,
-    "wiki": 0.15,
-    "gnews": 0.15,
-    "msn": 0.15,
-    "x": 0.1
+    "discover": 0.22,
+    "trends": 0.17,
+    "gnews": 0.14,
+    "msn": 0.13,
+    "wiki": 0.12,
+    "reddit": 0.08,
+    "youtube": 0.07,
+    "x": 0.07
   },
   "totals": {
     "candidates_scored": 100,
     "kept": 30,
     "by_tier": {
       "high": 4,
-      "medium": 15,
-      "low": 11
+      "medium": 14,
+      "low": 12
     }
   },
   "sujets": [
@@ -49,9 +59,9 @@
       "rank": 1,
       "title": "Moïse Kouamé : coup de théâtre à Roland-Garros, son adversaire condamné pour sexisme",
       "theme": "sport",
-      "score": 73,
+      "score": 72,
       "tier": "high",
-      "rationale": "Pic Google Trends (100 000 recherches) · forte audience Wikipedia (79 632 vues/jour) · forte couverture médiatique (6 médias) · mentionné sur X.",
+      "rationale": "Pic Google Trends (100 000 recherches) · forte audience Wikipedia (79 632 vues/jour) · forte couverture médiatique (6 médias) · mentionné sur X · repris sur Reddit FR.",
       "signals": [
         {
           "source": "gsc",
@@ -77,6 +87,11 @@
           "source": "x",
           "label": "x",
           "value": "#76"
+        },
+        {
+          "source": "news",
+          "label": "reddit",
+          "value": "1 sub FR"
         },
         {
           "source": "news",
@@ -114,6 +129,16 @@
           "name": "MSN engagement",
           "value": "30/100",
           "fill": 30
+        },
+        {
+          "name": "Reddit FR",
+          "value": "1 sub",
+          "fill": 33
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -123,7 +148,9 @@
         "gnews": 92.1,
         "msn": 30.3,
         "x": 40.0,
-        "total": 72.8
+        "reddit": 33.0,
+        "youtube": 0.0,
+        "total": 71.7
       },
       "msn_url": "https://www.msn.com/fr-fr/sport/tennis/moïse-kouamé-coup-de-théâtre-à-roland-garros-son-adversaire-condamné-pour-sexisme/ar-AA24niLU?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.19ccbbc0e94cf556ad41a436a4ee3feb&pid=Wdp",
@@ -148,6 +175,14 @@
         {
           "label": "GNews · franceinfo — Revivez la défaite de Quentin Halys contre le numéro 3 mondial Alexander Zverev au troisième tour de Roland-Garros",
           "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOOW05ZEtMeWZhU3BNcXFtVkdTTm9XdUpmSnpfMFR1SEZaVGVFc2tndWFMaWVzTW1SbTFfbU12VVM5R3JaWXpYQ1ZudGZlVFRERG5MMG9zZmRNWENsM3FTU2g0TWJGQ09VM0dIRHZKb3RkenlYeVRwNXBFaVc3ekc3Z1kyQmM1UmhPV2l6Qk5la1BzeHlsdEZBT1B3Y2JaZEZsN1dhQXFpTEx1Q01UUnhaaUpSVWEwcU1PaHRIVUZ3WXBqazUzbk1TQmVvamIxU2xiVkw0VnpVN2g1Q2NtaFRBdXF2TWZhdXYtZ3pzcVlFTUwzeFVqQzJiQnc0UGRvYzEzOWlUZVlnRDNnMjhoemNJRG1kT2ZOX2ZiZ0ZOWTlKTXp3YXhXMkJlZExUR0RfRGRlR3VB?oc=5"
+        },
+        {
+          "label": "Reddit · r/france — «Ce genre de match doit être arbitré par un homme» : le dérapage de Vallejo après sa défaite contre Kouame à Roland-Garros",
+          "url": "https://www.reddit.com/r/france/comments/1tr2587/ce_genre_de_match_doit_être_arbitré_par_un_homme/"
+        },
+        {
+          "label": "Reddit · r/actualite — Roland-Garros : chaleur et fatigue terrassent Jannik Sinner, victime d’un malaise",
+          "url": "https://www.reddit.com/r/actualite/comments/1tq7zqw/rolandgarros_chaleur_et_fatigue_terrassent_jannik/"
         }
       ],
       "discover_category": "/Sports/Individual Sports/Racquet Sports",
@@ -162,9 +197,9 @@
       "rank": 2,
       "title": "« Incroyable de vivre cette expérience » : Joao Fonseca, l’acte de naissance d’un crack à Roland-Garros",
       "theme": "sport",
-      "score": 70,
+      "score": 69,
       "tier": "high",
-      "rationale": "Pic Google Trends (100 000 recherches) · forte audience Wikipedia (73 843 vues/jour) · forte couverture médiatique (6 médias) · mentionné sur X.",
+      "rationale": "Pic Google Trends (100 000 recherches) · forte audience Wikipedia (73 843 vues/jour) · forte couverture médiatique (6 médias) · mentionné sur X · repris sur Reddit FR.",
       "signals": [
         {
           "source": "gsc",
@@ -190,6 +225,11 @@
           "source": "x",
           "label": "x",
           "value": "#76"
+        },
+        {
+          "source": "news",
+          "label": "reddit",
+          "value": "1 sub FR"
         }
       ],
       "sources": [
@@ -222,6 +262,16 @@
           "name": "MSN engagement",
           "value": "10/100",
           "fill": 10
+        },
+        {
+          "name": "Reddit FR",
+          "value": "1 sub",
+          "fill": 33
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -231,7 +281,9 @@
         "gnews": 92.1,
         "msn": 10.0,
         "x": 40.0,
-        "total": 69.9
+        "reddit": 33.0,
+        "youtube": 0.0,
+        "total": 69.1
       },
       "msn_url": "https://www.msn.com/fr-fr/sport/tennis/incroyable-de-vivre-cette-expérience-joao-fonseca-l-acte-de-naissance-d-un-crack-à-roland-garros/ar-AA24odrj?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.60246faf6a7a1be0eafe4a6444b27267&pid=Wdp",
@@ -256,6 +308,14 @@
         {
           "label": "GNews · FFL — Voici la probabilité de voir Kouamé gagner Roland-Garros selon les bookmakers, et c'est déroutant",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTXRhdWhJd2V6ZzRZNzRiWWNuWm1BeWp6VzJaajNEVUltQWNpQkNlaDN5YXU3NU8wc2YxVmRzRjZMTXVPbGN6NEZvcS1LeDBPMUM2WkVFQ2pENk1OOGRQTWNxZl9SbmFuLWNnOHE2aFFKU2lEb2s4c3pqSkpZb0dwcXpkWU1QQjNSaHBYQWR3MEc2V1ZvUGc0dF9lRWtQSkNDeTBoWGUtZ2R4aUhQa2dEa3ItN0pFdw?oc=5"
+        },
+        {
+          "label": "Reddit · r/actualite — Roland-Garros : chaleur et fatigue terrassent Jannik Sinner, victime d’un malaise",
+          "url": "https://www.reddit.com/r/actualite/comments/1tq7zqw/rolandgarros_chaleur_et_fatigue_terrassent_jannik/"
+        },
+        {
+          "label": "Reddit · r/france — «Ce genre de match doit être arbitré par un homme» : le dérapage de Vallejo après sa défaite contre Kouame à Roland-Garros",
+          "url": "https://www.reddit.com/r/france/comments/1tr2587/ce_genre_de_match_doit_être_arbitré_par_un_homme/"
         }
       ],
       "discover_category": "/Sports/Individual Sports/Racquet Sports",
@@ -269,11 +329,135 @@
     {
       "id": "s03",
       "rank": 3,
+      "title": "« Elle a tout de suite été séduite » : voici comment Jordan Bardella a fait succomber la princesse Maria Carolina",
+      "theme": "lifestyle",
+      "score": 59,
+      "tier": "high",
+      "rationale": "Forte visibilité Discover (score 39) · présent sur Google Trends · présent dans le top Wikipedia · couvert par 3 médias · présent sur 2 subs Reddit.",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "39/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "5k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "6k vues"
+        },
+        {
+          "source": "news",
+          "label": "reddit",
+          "value": "2 subs"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 39.3",
+          "fill": 100
+        },
+        {
+          "name": "Google News",
+          "value": "3 médias",
+          "fill": 70
+        },
+        {
+          "name": "Google Trends",
+          "value": "5k",
+          "fill": 11
+        },
+        {
+          "name": "Wikimedia",
+          "value": "6k vues/h",
+          "fill": 32
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "10/100",
+          "fill": 10
+        },
+        {
+          "name": "Reddit FR",
+          "value": "2 subs",
+          "fill": 59
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 100.0,
+        "trends": 11.0,
+        "wiki": 32.0,
+        "gnews": 70.0,
+        "msn": 10.0,
+        "x": 0.0,
+        "reddit": 59.5,
+        "youtube": 0.0,
+        "total": 58.6
+      },
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/elle-a-tout-de-suite-été-séduite-voici-comment-jordan-bardella-a-fait-succomber-la-princesse-maria-carolina/ar-AA24of2Z?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.ebf6984e12750e93dd20b6953fb7fc2e&pid=Wdp",
+      "msn_source_name": "Marie France",
+      "refs": [
+        {
+          "label": "MSN · Marie France — « Elle a tout de suite été séduite » : voici comment Jordan Bardella a fait succomber la princesse Maria Carolina",
+          "url": "https://www.msn.com/fr-fr/lifestyle/shopping/elle-a-tout-de-suite-été-séduite-voici-comment-jordan-bardella-a-fait-succomber-la-princesse-maria-carolina/ar-AA24of2Z?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le Monde.fr — Au RN, l’explosion du « dossier inflammable » : Jordan Bardella enterre la réforme des retraites de Marine Le Pen et l’âge légal de départ",
+          "url": "https://www.lemonde.fr/politique/article/2026/05/29/au-rn-l-explosion-du-dossier-inflammable-jordan-bardella-enterre-la-reforme-des-retraites-de-marine-le-pen-et-l-age-legal-de-depart_6694791_823448.html"
+        },
+        {
+          "label": "GNews · Madame Figaro — «Je l’aime» : Jordan Bardella déclare sa flamme à la princesse Maria Carolina en plein direct à la télévision",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMnY0ME1yVVZ5ZUVvamFvVTVNRFpOX2FoUDFaeDZwRFlIVUdMR3dWdnRZeTZvd0VPQy1FXzI1Zl96TXhGYVZWSXhzVW9zMEUxTFktYUc5V0xDWm1mbTZTbEpKMmJaa2VnenZvNVkwX0tnVlNXSlVTYUJidUE1dWl4YkpTWXZaaEk3Q2sxX1ZOclc0OEh1Q2p5RDRZMkFJaExOd2RjbHA0SE1WY0VSXzF5UFktd2FmYUk5TDRuQ1pneS1nS3otWFR1cnhOVTdtS0JtWmozQ3pzU3NlVXpBQjFQa1N4Q2g0dHM1TTJmT2hYaUlUQXhJTVpF?oc=5"
+        },
+        {
+          "label": "GNews · Sciencepost — Votre cerveau a été « configuré » à 3 ans : comment la voix de votre mère a dessiné votre santé à vie",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOblFHNXcyU0ZpdUVlTkVCRDN6NVRyRmNaTkNTREpvWXJ3NGhxUTRmVlVmS2Nja0pqQnN4Zkx4aFhMNXpIUm82ZG9tQzA5S010S04tX2VSX294THA1MlRaZWVMZXNFSlVJOGFjNnF4OUV6VUdad3RucW9oZG5VQUp5SG5uSEZoOFVkQzQ4X3dYclVwRkgzSENrLTBDZDcxNTQ5N0FfLUFvTWFpdUh2Wk9HRFo3ZnNCMFlqSi1B?oc=5"
+        },
+        {
+          "label": "GNews · Le Monde.fr — Au RN, l’explosion du « dossier inflammable » : Jordan Bardella enterre la réforme des retraites de Marine Le Pen et l’âge légal de départ",
+          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNVUpHMGwtcUdGYzZ0WTlsdFlnWEpHOTVlTkpuNTg4UkxVZjBXYTdkS3paTlpwYVVJSkxueHRrREtyMGlzaVROQzhwb2VmVld5N2FGUkhITVZuQ1RBS3ZzLTg5YWJOSVdMRkNlVnFFdHMzZ2NRcUhpRFVRbm1PdmdidkZtVEVuUnpKWUt0SENZZURkSE13Q0YxQ09YdmdRMFQ5Z1htOTlUMFozb2w4TzkyVmZ1UUpqTTN2TnVYVnREaU5ZNnJVeHd4ckVkY0R4OWxFWXVGVUduTXNnTUwzbW92TDU2czRmRzg3TUhuYU9BWE5IYk90ZE1VSjVROVNmMC1fdmJzSHY3Y05BbGpMS19Lcy10OVhpTXpad0pSUlIydWRwUmN3QUpNY1MxMA?oc=5"
+        },
+        {
+          "label": "Reddit · r/france — Au RN, l’explosion du « dossier inflammable » : Jordan Bardella enterre la réforme des retraites de Marine Le Pen et l’âge légal de départ",
+          "url": "https://www.reddit.com/r/france/comments/1tr8h7s/au_rn_lexplosion_du_dossier_inflammable_jordan/"
+        }
+      ],
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Extrême droite",
+        "Jordan Bardella",
+        "Marine Le Pen"
+      ]
+    },
+    {
+      "id": "s04",
+      "rank": 4,
       "title": "La Turque Zeynep Sönmez abandonne en double à Roland-Garros après s'être pris un panneau publicitaire",
       "theme": "sport",
-      "score": 56,
+      "score": 58,
       "tier": "high",
-      "rationale": "Présent sur Google Discover · présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (6 médias) · mentionné sur X.",
+      "rationale": "Présent sur Google Discover · présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (6 médias) · mentionné sur X · repris sur Reddit FR.",
       "signals": [
         {
           "source": "gsc",
@@ -299,6 +483,11 @@
           "source": "x",
           "label": "x",
           "value": "#76"
+        },
+        {
+          "source": "news",
+          "label": "reddit",
+          "value": "1 sub FR"
         },
         {
           "source": "news",
@@ -336,6 +525,16 @@
           "name": "MSN engagement",
           "value": "15/100",
           "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "1 sub",
+          "fill": 33
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -345,7 +544,9 @@
         "gnews": 92.1,
         "msn": 15.0,
         "x": 40.0,
-        "total": 55.9
+        "reddit": 33.0,
+        "youtube": 0.0,
+        "total": 58.2
       },
       "msn_url": "https://www.msn.com/fr-fr/sport/tennis/la-turque-zeynep-sönmez-abandonne-en-double-à-roland-garros-après-s-être-pris-un-panneau-publicitaire/vi-AA24ocR3?ocid=00000000",
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24ofpj.img",
@@ -370,6 +571,14 @@
         {
           "label": "GNews · franceinfo — Revivez la défaite de Quentin Halys contre le numéro 3 mondial Alexander Zverev au troisième tour de Roland-Garros",
           "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOOW05ZEtMeWZhU3BNcXFtVkdTTm9XdUpmSnpfMFR1SEZaVGVFc2tndWFMaWVzTW1SbTFfbU12VVM5R3JaWXpYQ1ZudGZlVFRERG5MMG9zZmRNWENsM3FTU2g0TWJGQ09VM0dIRHZKb3RkenlYeVRwNXBFaVc3ekc3Z1kyQmM1UmhPV2l6Qk5la1BzeHlsdEZBT1B3Y2JaZEZsN1dhQXFpTEx1Q01UUnhaaUpSVWEwcU1PaHRIVUZ3WXBqazUzbk1TQmVvamIxU2xiVkw0VnpVN2g1Q2NtaFRBdXF2TWZhdXYtZ3pzcVlFTUwzeFVqQzJiQnc0UGRvYzEzOWlUZVlnRDNnMjhoemNJRG1kT2ZOX2ZiZ0ZOWTlKTXp3YXhXMkJlZExUR0RfRGRlR3VB?oc=5"
+        },
+        {
+          "label": "Reddit · r/france — «Ce genre de match doit être arbitré par un homme» : le dérapage de Vallejo après sa défaite contre Kouame à Roland-Garros",
+          "url": "https://www.reddit.com/r/france/comments/1tr2587/ce_genre_de_match_doit_être_arbitré_par_un_homme/"
+        },
+        {
+          "label": "Reddit · r/actualite — Roland-Garros : chaleur et fatigue terrassent Jannik Sinner, victime d’un malaise",
+          "url": "https://www.reddit.com/r/actualite/comments/1tq7zqw/rolandgarros_chaleur_et_fatigue_terrassent_jannik/"
         }
       ],
       "discover_category": "/Sports/Individual Sports/Racquet Sports",
@@ -381,18 +590,18 @@
       ]
     },
     {
-      "id": "s04",
-      "rank": 4,
-      "title": "« Elle a tout de suite été séduite » : voici comment Jordan Bardella a fait succomber la princesse Maria Carolina",
-      "theme": "lifestyle",
-      "score": 54,
-      "tier": "high",
-      "rationale": "Forte visibilité Discover (score 39) · présent sur Google Trends · présent dans le top Wikipedia · couvert par 3 médias.",
+      "id": "s05",
+      "rank": 5,
+      "title": "Ça m'a gelé le sang : une bénévole des Enfoirés raconte sa rencontre choquante avec Patrick Bruel",
+      "theme": "divertissement",
+      "score": 47,
+      "tier": "medium",
+      "rationale": "Forte audience Wikipedia (40 796 vues/jour) · couvert par 3 médias · repris sur Reddit FR · engagement MSN élevé.",
       "signals": [
         {
           "source": "gsc",
           "label": "discover",
-          "value": "39/65"
+          "value": "présent"
         },
         {
           "source": "news",
@@ -400,21 +609,26 @@
           "value": "3 médias"
         },
         {
-          "source": "trends",
-          "label": "trends",
-          "value": "5k"
-        },
-        {
           "source": "wiki",
           "label": "wiki",
-          "value": "6k vues"
+          "value": "41k vues"
+        },
+        {
+          "source": "news",
+          "label": "reddit",
+          "value": "1 sub FR"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "120+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 39.3",
-          "fill": 100
+          "value": "score 0.3",
+          "fill": 1
         },
         {
           "name": "Google News",
@@ -423,13 +637,13 @@
         },
         {
           "name": "Google Trends",
-          "value": "5k",
-          "fill": 11
+          "value": "—",
+          "fill": 0
         },
         {
           "name": "Wikimedia",
-          "value": "6k vues/h",
-          "fill": 32
+          "value": "41k vues/h",
+          "fill": 100
         },
         {
           "name": "X velocity",
@@ -438,57 +652,193 @@
         },
         {
           "name": "MSN engagement",
-          "value": "10/100",
-          "fill": 10
+          "value": "93/100",
+          "fill": 93
+        },
+        {
+          "name": "Reddit FR",
+          "value": "1 sub",
+          "fill": 33
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
-        "discover": 100.0,
-        "trends": 11.0,
-        "wiki": 32.0,
+        "discover": 1.4,
+        "trends": 0.0,
+        "wiki": 100.0,
         "gnews": 70.0,
-        "msn": 10.0,
+        "msn": 93.1,
         "x": 0.0,
-        "total": 54.0
+        "reddit": 33.0,
+        "youtube": 0.0,
+        "total": 46.8
       },
-      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/elle-a-tout-de-suite-été-séduite-voici-comment-jordan-bardella-a-fait-succomber-la-princesse-maria-carolina/ar-AA24of2Z?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.ebf6984e12750e93dd20b6953fb7fc2e&pid=Wdp",
-      "msn_source_name": "Marie France",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/ça-m-a-gelé-le-sang-une-bénévole-des-enfoirés-raconte-sa-rencontre-choquante-avec-patrick-bruel/ar-AA24lWqU?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.b88a01bdfe873aa1e94ae87317d8341d&pid=Wdp",
+      "msn_source_name": "Cosmopolitan France",
       "refs": [
         {
-          "label": "MSN · Marie France — « Elle a tout de suite été séduite » : voici comment Jordan Bardella a fait succomber la princesse Maria Carolina",
-          "url": "https://www.msn.com/fr-fr/lifestyle/shopping/elle-a-tout-de-suite-été-séduite-voici-comment-jordan-bardella-a-fait-succomber-la-princesse-maria-carolina/ar-AA24of2Z?ocid=00000000"
+          "label": "MSN · Cosmopolitan France — Ça m'a gelé le sang : une bénévole des Enfoirés raconte sa rencontre choquante avec Patrick Bruel",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/ça-m-a-gelé-le-sang-une-bénévole-des-enfoirés-raconte-sa-rencontre-choquante-avec-patrick-bruel/ar-AA24lWqU?ocid=00000000"
         },
         {
-          "label": "Discover · Le Monde.fr — Au RN, l’explosion du « dossier inflammable » : Jordan Bardella enterre la réforme des retraites de Marine Le Pen et l’âge légal de départ",
-          "url": "https://www.lemonde.fr/politique/article/2026/05/29/au-rn-l-explosion-du-dossier-inflammable-jordan-bardella-enterre-la-reforme-des-retraites-de-marine-le-pen-et-l-age-legal-de-depart_6694791_823448.html"
+          "label": "Discover · Gala — Affaire Patrick Bruel, une ex-bénévole des Enfoirés se souvient : “Il venait rôder comme un prédateur”",
+          "url": "https://www.gala.fr/l_actu/news_de_stars/affaire-patrick-bruel-une-ex-benevole-des-enfoires-se-souvient-il-venait-roder-comme-un-predateur-20260529"
         },
         {
-          "label": "GNews · Madame Figaro — «Je l’aime» : Jordan Bardella déclare sa flamme à la princesse Maria Carolina en plein direct à la télévision",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMnY0ME1yVVZ5ZUVvamFvVTVNRFpOX2FoUDFaeDZwRFlIVUdMR3dWdnRZeTZvd0VPQy1FXzI1Zl96TXhGYVZWSXhzVW9zMEUxTFktYUc5V0xDWm1mbTZTbEpKMmJaa2VnenZvNVkwX0tnVlNXSlVTYUJidUE1dWl4YkpTWXZaaEk3Q2sxX1ZOclc0OEh1Q2p5RDRZMkFJaExOd2RjbHA0SE1WY0VSXzF5UFktd2FmYUk5TDRuQ1pneS1nS3otWFR1cnhOVTdtS0JtWmozQ3pzU3NlVXpBQjFQa1N4Q2g0dHM1TTJmT2hYaUlUQXhJTVpF?oc=5"
+          "label": "GNews · Libération — Affaire Patrick Bruel : Sony, Nagui et RFM coupent les ponts avec le chanteur, qui quitte «les Enfoirés",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOLXpOYnZCanI5a05UMDBKV19xSFhKQjN6Ulhfb2MtT251ODFzc3JHRlFRUFpObV9kemNrc245aGl6MVpfVXNSR29kU0pPS1ExY2tLYVVsYi15aTlNcS1BQVd1MUxkdmQ2alU4SzJKdVdENmR6a2dHTndQWk5oa2xldlQ1QWpwdkdJcmxVX3U0aS05UXIwRWd6bjcwYy1TVFNKcGRGQzJWSkZ1c3RRNmFHeUF3QnV4STVNY21QVVBfeHVmWWRFeEJKWktrSTVrd1puY2JZQ215X3pDczVEenE4TUdnbWs2dXFpQnY0cmh1Nno2bi1oWFFiNS1nNlBGRmNxM3dvNFdsZmVqaEVEOTFNeQ?oc=5"
         },
         {
-          "label": "GNews · Sciencepost — Votre cerveau a été « configuré » à 3 ans : comment la voix de votre mère a dessiné votre santé à vie",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOblFHNXcyU0ZpdUVlTkVCRDN6NVRyRmNaTkNTREpvWXJ3NGhxUTRmVlVmS2Nja0pqQnN4Zkx4aFhMNXpIUm82ZG9tQzA5S010S04tX2VSX294THA1MlRaZWVMZXNFSlVJOGFjNnF4OUV6VUdad3RucW9oZG5VQUp5SG5uSEZoOFVkQzQ4X3dYclVwRkgzSENrLTBDZDcxNTQ5N0FfLUFvTWFpdUh2Wk9HRFo3ZnNCMFlqSi1B?oc=5"
+          "label": "GNews · franceinfo — Annulation des concerts de Patrick Bruel : le directeur du festival Grandes Marées, en Normandie, fait état d'un \"grand soulagement\"",
+          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVGJJWDJVQTh1NHlaS2xkV29uQkJVYTBkbHJ6ejFoX3pMTGtWSXN0eDFyVkk5ZGNPU3gyN0ZnMDFXaU5TUHo2ampycWw2azZ5OGpQX0xoOWRWUzdyQ0N2Z3lPbU1zZ0s4NmhXeHNaM2hTaEJTUnA0SFlGSFRIOFBJTGQtdzExYWhLNlBwcDZHODNrTEJaZDBkUWhMa0I5NDFtMkF0NVpMbmNkQmd4a2h4UUd0aXNuVDlmdDBKQzBGdTVkQjE0T3Mtd3Vsdk9KN2lXelUwS2w4MzkzcGVaVTREbjc3dEkxczZRSWZmN3ZFZlVkckdBcWN3NmpVZDNNakpBMGFkUmxMU0JQOWtWREFjeVVUS0k1RjNGZFpXRmRwa1MtX0stQl9aS1B3QWFfc01UaElkM1FUdEtJdkY5ZHNnTlBlQmpQWEVjS0E?oc=5"
         },
         {
-          "label": "GNews · Le Monde.fr — Au RN, l’explosion du « dossier inflammable » : Jordan Bardella enterre la réforme des retraites de Marine Le Pen et l’âge légal de départ",
-          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNVUpHMGwtcUdGYzZ0WTlsdFlnWEpHOTVlTkpuNTg4UkxVZjBXYTdkS3paTlpwYVVJSkxueHRrREtyMGlzaVROQzhwb2VmVld5N2FGUkhITVZuQ1RBS3ZzLTg5YWJOSVdMRkNlVnFFdHMzZ2NRcUhpRFVRbm1PdmdidkZtVEVuUnpKWUt0SENZZURkSE13Q0YxQ09YdmdRMFQ5Z1htOTlUMFozb2w4TzkyVmZ1UUpqTTN2TnVYVnREaU5ZNnJVeHd4ckVkY0R4OWxFWXVGVUduTXNnTUwzbW92TDU2czRmRzg3TUhuYU9BWE5IYk90ZE1VSjVROVNmMC1fdmJzSHY3Y05BbGpMS19Lcy10OVhpTXpad0pSUlIydWRwUmN3QUpNY1MxMA?oc=5"
+          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHV5MXBWYVBwai1HRFBTMURfZ2NBYTBLYnhrcTVKQTVyVDlobHl1dnNiVGx3d2NaU0RFNUUwalVqbUVxdWR2NXdUa0UtYzlKbW9DdElpelVuRUt5OHFiaUVCMDFZeVBPNWVBN25abkNBUmluM1lSZFNyWjJLeG5YMDE0YkJYUWVJLWc5WEQ0Z0FCOFN5N2JRbFhULUhDUzBPM1lsNm14N05SVlJhbEZhRlZXMVF4SDFNUDk1TzRYNDJnNHc?oc=5"
+        },
+        {
+          "label": "Reddit · r/france — Accusé de viols et d’agressions sexuelles, Patrick Bruel se retire des spectacles des Enfoirés",
+          "url": "https://www.reddit.com/r/france/comments/1tqy28p/accusé_de_viols_et_dagressions_sexuelles_patrick/"
         }
       ],
-      "discover_category": "/News/Politics",
+      "discover_category": "/Sensitive Subjects",
       "discover_entities": [
-        "Extrême droite",
-        "Jordan Bardella",
-        "Marine Le Pen"
+        "Patrick Bruel"
       ]
     },
     {
-      "id": "s05",
-      "rank": 5,
+      "id": "s06",
+      "rank": 6,
+      "title": "Jean-Louis Aubert réagit à la polémique Patrick Bruel : une prise de position nuancée",
+      "theme": "divertissement",
+      "score": 43,
+      "tier": "medium",
+      "rationale": "Forte audience Wikipedia (40 796 vues/jour) · couvert par 3 médias · repris sur Reddit FR · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "41k vues"
+        },
+        {
+          "source": "news",
+          "label": "reddit",
+          "value": "1 sub FR"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "40+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.2",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "3 médias",
+          "fill": 70
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "41k vues/h",
+          "fill": 100
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "61/100",
+          "fill": 61
+        },
+        {
+          "name": "Reddit FR",
+          "value": "1 sub",
+          "fill": 33
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.9,
+        "trends": 0.0,
+        "wiki": 100.0,
+        "gnews": 70.0,
+        "msn": 61.2,
+        "x": 0.0,
+        "reddit": 33.0,
+        "youtube": 0.0,
+        "total": 42.6
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/jean-louis-aubert-réagit-à-la-polémique-patrick-bruel-une-prise-de-position-nuancée/ar-AA244rOD?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.751ef937ad7205e24c9a51f3e2fbf331&pid=Wdp",
+      "msn_source_name": "Ohmymag FR",
+      "refs": [
+        {
+          "label": "MSN · Ohmymag FR — Jean-Louis Aubert réagit à la polémique Patrick Bruel : une prise de position nuancée",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/jean-louis-aubert-réagit-à-la-polémique-patrick-bruel-une-prise-de-position-nuancée/ar-AA244rOD?ocid=00000000"
+        },
+        {
+          "label": "Discover · YouTube — Affaire Patrick Bruel: le chanteur ne participera pas à la prochaine édition des Enfoirés en 2027",
+          "url": "https://www.youtube.com/watch?v=m4waSF49Ss4"
+        },
+        {
+          "label": "GNews · Libération — Affaire Patrick Bruel : Sony, Nagui et RFM coupent les ponts avec le chanteur, qui quitte «les Enfoirés",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOLXpOYnZCanI5a05UMDBKV19xSFhKQjN6Ulhfb2MtT251ODFzc3JHRlFRUFpObV9kemNrc245aGl6MVpfVXNSR29kU0pPS1ExY2tLYVVsYi15aTlNcS1BQVd1MUxkdmQ2alU4SzJKdVdENmR6a2dHTndQWk5oa2xldlQ1QWpwdkdJcmxVX3U0aS05UXIwRWd6bjcwYy1TVFNKcGRGQzJWSkZ1c3RRNmFHeUF3QnV4STVNY21QVVBfeHVmWWRFeEJKWktrSTVrd1puY2JZQ215X3pDczVEenE4TUdnbWs2dXFpQnY0cmh1Nno2bi1oWFFiNS1nNlBGRmNxM3dvNFdsZmVqaEVEOTFNeQ?oc=5"
+        },
+        {
+          "label": "GNews · franceinfo — Annulation des concerts de Patrick Bruel : le directeur du festival Grandes Marées, en Normandie, fait état d'un \"grand soulagement\"",
+          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVGJJWDJVQTh1NHlaS2xkV29uQkJVYTBkbHJ6ejFoX3pMTGtWSXN0eDFyVkk5ZGNPU3gyN0ZnMDFXaU5TUHo2ampycWw2azZ5OGpQX0xoOWRWUzdyQ0N2Z3lPbU1zZ0s4NmhXeHNaM2hTaEJTUnA0SFlGSFRIOFBJTGQtdzExYWhLNlBwcDZHODNrTEJaZDBkUWhMa0I5NDFtMkF0NVpMbmNkQmd4a2h4UUd0aXNuVDlmdDBKQzBGdTVkQjE0T3Mtd3Vsdk9KN2lXelUwS2w4MzkzcGVaVTREbjc3dEkxczZRSWZmN3ZFZlVkckdBcWN3NmpVZDNNakpBMGFkUmxMU0JQOWtWREFjeVVUS0k1RjNGZFpXRmRwa1MtX0stQl9aS1B3QWFfc01UaElkM1FUdEtJdkY5ZHNnTlBlQmpQWEVjS0E?oc=5"
+        },
+        {
+          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHV5MXBWYVBwai1HRFBTMURfZ2NBYTBLYnhrcTVKQTVyVDlobHl1dnNiVGx3d2NaU0RFNUUwalVqbUVxdWR2NXdUa0UtYzlKbW9DdElpelVuRUt5OHFiaUVCMDFZeVBPNWVBN25abkNBUmluM1lSZFNyWjJLeG5YMDE0YkJYUWVJLWc5WEQ0Z0FCOFN5N2JRbFhULUhDUzBPM1lsNm14N05SVlJhbEZhRlZXMVF4SDFNUDk1TzRYNDJnNHc?oc=5"
+        },
+        {
+          "label": "Reddit · r/france — Accusé de viols et d’agressions sexuelles, Patrick Bruel se retire des spectacles des Enfoirés",
+          "url": "https://www.reddit.com/r/france/comments/1tqy28p/accusé_de_viols_et_dagressions_sexuelles_patrick/"
+        }
+      ],
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Patrick Bruel"
+      ]
+    },
+    {
+      "id": "s07",
+      "rank": 7,
       "title": "Canicule samedi 30 mai : voici les 34 départements placés en vigilance jaune",
       "theme": "actualite",
-      "score": 45,
+      "score": 41,
       "tier": "medium",
       "rationale": "Forte visibilité Discover (score 40) · forte couverture médiatique (5 médias).",
       "signals": [
@@ -538,6 +888,16 @@
           "name": "MSN engagement",
           "value": "15/100",
           "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -547,7 +907,9 @@
         "gnews": 86.3,
         "msn": 15.1,
         "x": 0.0,
-        "total": 45.2
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 41.0
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/canicule-samedi-30-mai-voici-les-34-départements-placés-en-vigilance-jaune/ar-AA24mj4I?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.81969c7bce9f8595e5f90e555952c6d9&pid=Wdp",
@@ -582,13 +944,13 @@
       ]
     },
     {
-      "id": "s06",
-      "rank": 6,
-      "title": "Ça m'a gelé le sang : une bénévole des Enfoirés raconte sa rencontre choquante avec Patrick Bruel",
+      "id": "s08",
+      "rank": 8,
+      "title": "Flavie Flament : « épuisée » par son « combat » contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
       "theme": "divertissement",
-      "score": 45,
+      "score": 41,
       "tier": "medium",
-      "rationale": "Forte audience Wikipedia (40 796 vues/jour) · couvert par 3 médias · engagement MSN élevé.",
+      "rationale": "Forte audience Wikipedia (40 796 vues/jour) · couvert par 4 médias · repris sur Reddit FR.",
       "signals": [
         {
           "source": "gsc",
@@ -598,7 +960,7 @@
         {
           "source": "news",
           "label": "gnews",
-          "value": "3 médias"
+          "value": "4 médias"
         },
         {
           "source": "wiki",
@@ -607,20 +969,25 @@
         },
         {
           "source": "news",
+          "label": "reddit",
+          "value": "1 sub FR"
+        },
+        {
+          "source": "news",
           "label": "msn",
-          "value": "120+ react."
+          "value": "21+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 0.3",
-          "fill": 1
+          "value": "score 0.1",
+          "fill": 0
         },
         {
           "name": "Google News",
-          "value": "3 médias",
-          "fill": 70
+          "value": "4 médias",
+          "fill": 79
         },
         {
           "name": "Google Trends",
@@ -639,30 +1006,46 @@
         },
         {
           "name": "MSN engagement",
-          "value": "93/100",
-          "fill": 93
+          "value": "39/100",
+          "fill": 38
+        },
+        {
+          "name": "Reddit FR",
+          "value": "1 sub",
+          "fill": 33
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
-        "discover": 1.4,
+        "discover": 0.5,
         "trends": 0.0,
         "wiki": 100.0,
-        "gnews": 70.0,
-        "msn": 93.1,
+        "gnews": 79.2,
+        "msn": 38.8,
         "x": 0.0,
-        "total": 44.8
+        "reddit": 33.0,
+        "youtube": 0.0,
+        "total": 40.9
       },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/ça-m-a-gelé-le-sang-une-bénévole-des-enfoirés-raconte-sa-rencontre-choquante-avec-patrick-bruel/ar-AA24lWqU?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.b88a01bdfe873aa1e94ae87317d8341d&pid=Wdp",
-      "msn_source_name": "Cosmopolitan France",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/flavie-flament-épuisée-par-son-combat-contre-patrick-bruel-l-animatrice-prend-une-décision-radicale-pour-sa-santé/ar-AA24mG7m?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24mDwa.img",
+      "msn_source_name": "Public : Actu People en continu",
       "refs": [
         {
-          "label": "MSN · Cosmopolitan France — Ça m'a gelé le sang : une bénévole des Enfoirés raconte sa rencontre choquante avec Patrick Bruel",
-          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/ça-m-a-gelé-le-sang-une-bénévole-des-enfoirés-raconte-sa-rencontre-choquante-avec-patrick-bruel/ar-AA24lWqU?ocid=00000000"
+          "label": "MSN · Public : Actu People en continu — Flavie Flament : « épuisée » par son « combat » contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/flavie-flament-épuisée-par-son-combat-contre-patrick-bruel-l-animatrice-prend-une-décision-radicale-pour-sa-santé/ar-AA24mG7m?ocid=00000000"
         },
         {
-          "label": "Discover · Gala — Affaire Patrick Bruel, une ex-bénévole des Enfoirés se souvient : “Il venait rôder comme un prédateur”",
-          "url": "https://www.gala.fr/l_actu/news_de_stars/affaire-patrick-bruel-une-ex-benevole-des-enfoires-se-souvient-il-venait-roder-comme-un-predateur-20260529"
+          "label": "Discover · Melty — Benjamin Castaldi brise le silence sur Flavie Flament après les accusations contre Patrick Bruel, ses révélations font réagir",
+          "url": "https://www.melty.fr/people/benjamin-castaldi-brise-le-silence-sur-flavie-flament-apres-les-accusations-contre-patrick-bruel-ses-revelations-font-reagir-2320337.html"
+        },
+        {
+          "label": "GNews · ma-sante.news — Cancer : ce médicament contre l’asthme pourrait aider à détruire les tumeurs - ma-sante.news",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xTlZ1TmlabWJGZ1BKTzJKOEpFOUNkMHFYNThUcmIyTEZpTmlaNDNmMTlMc296ZzBja2FvRkJ2TWhrUEM0TmhfSkVjNlRMdEdnRXE4dkQ5cHVqOEpHeThET0ZqVG41VkRPY1lWb0xUdFpPQk1IRXc?oc=5"
         },
         {
           "label": "GNews · Libération — Affaire Patrick Bruel : Sony, Nagui et RFM coupent les ponts avec le chanteur, qui quitte «les Enfoirés",
@@ -673,21 +1056,145 @@
           "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVGJJWDJVQTh1NHlaS2xkV29uQkJVYTBkbHJ6ejFoX3pMTGtWSXN0eDFyVkk5ZGNPU3gyN0ZnMDFXaU5TUHo2ampycWw2azZ5OGpQX0xoOWRWUzdyQ0N2Z3lPbU1zZ0s4NmhXeHNaM2hTaEJTUnA0SFlGSFRIOFBJTGQtdzExYWhLNlBwcDZHODNrTEJaZDBkUWhMa0I5NDFtMkF0NVpMbmNkQmd4a2h4UUd0aXNuVDlmdDBKQzBGdTVkQjE0T3Mtd3Vsdk9KN2lXelUwS2w4MzkzcGVaVTREbjc3dEkxczZRSWZmN3ZFZlVkckdBcWN3NmpVZDNNakpBMGFkUmxMU0JQOWtWREFjeVVUS0k1RjNGZFpXRmRwa1MtX0stQl9aS1B3QWFfc01UaElkM1FUdEtJdkY5ZHNnTlBlQmpQWEVjS0E?oc=5"
         },
         {
-          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHV5MXBWYVBwai1HRFBTMURfZ2NBYTBLYnhrcTVKQTVyVDlobHl1dnNiVGx3d2NaU0RFNUUwalVqbUVxdWR2NXdUa0UtYzlKbW9DdElpelVuRUt5OHFiaUVCMDFZeVBPNWVBN25abkNBUmluM1lSZFNyWjJLeG5YMDE0YkJYUWVJLWc5WEQ0Z0FCOFN5N2JRbFhULUhDUzBPM1lsNm14N05SVlJhbEZhRlZXMVF4SDFNUDk1TzRYNDJnNHc?oc=5"
+          "label": "Reddit · r/france — Accusé de viols et d’agressions sexuelles, Patrick Bruel se retire des spectacles des Enfoirés",
+          "url": "https://www.reddit.com/r/france/comments/1tqy28p/accusé_de_viols_et_dagressions_sexuelles_patrick/"
         }
       ],
-      "discover_category": "/Sensitive Subjects",
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
+        "Flavie Flament",
         "Patrick Bruel"
       ]
     },
     {
-      "id": "s07",
-      "rank": 7,
+      "id": "s09",
+      "rank": 9,
+      "title": "Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
+      "theme": "actualite",
+      "score": 40,
+      "tier": "medium",
+      "rationale": "Forte audience Wikipedia (40 796 vues/jour) · couvert par 4 médias · repris sur Reddit FR.",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "4 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "41k vues"
+        },
+        {
+          "source": "news",
+          "label": "reddit",
+          "value": "1 sub FR"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "23+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.1",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "4 médias",
+          "fill": 79
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "41k vues/h",
+          "fill": 100
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "34/100",
+          "fill": 33
+        },
+        {
+          "name": "Reddit FR",
+          "value": "1 sub",
+          "fill": 33
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.5,
+        "trends": 0.0,
+        "wiki": 100.0,
+        "gnews": 79.2,
+        "msn": 33.8,
+        "x": 0.0,
+        "reddit": 33.0,
+        "youtube": 0.0,
+        "total": 40.2
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-après-andréa-bescond-alexandra-lamy-sort-du-silence-et-prend-position/ar-AA24luej?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.d4e4a222e38e383f884f0dd9ff242a67&pid=Wdp",
+      "msn_source_name": "So Busy Girls",
+      "refs": [
+        {
+          "label": "MSN · So Busy Girls — Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
+          "url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-après-andréa-bescond-alexandra-lamy-sort-du-silence-et-prend-position/ar-AA24luej?ocid=00000000"
+        },
+        {
+          "label": "Discover · Melty — Benjamin Castaldi brise le silence sur Flavie Flament après les accusations contre Patrick Bruel, ses révélations font réagir",
+          "url": "https://www.melty.fr/people/benjamin-castaldi-brise-le-silence-sur-flavie-flament-apres-les-accusations-contre-patrick-bruel-ses-revelations-font-reagir-2320337.html"
+        },
+        {
+          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHV5MXBWYVBwai1HRFBTMURfZ2NBYTBLYnhrcTVKQTVyVDlobHl1dnNiVGx3d2NaU0RFNUUwalVqbUVxdWR2NXdUa0UtYzlKbW9DdElpelVuRUt5OHFiaUVCMDFZeVBPNWVBN25abkNBUmluM1lSZFNyWjJLeG5YMDE0YkJYUWVJLWc5WEQ0Z0FCOFN5N2JRbFhULUhDUzBPM1lsNm14N05SVlJhbEZhRlZXMVF4SDFNUDk1TzRYNDJnNHc?oc=5"
+        },
+        {
+          "label": "GNews · Le Monde.fr — Polymarket : un ingénieur de Google accusé de délit d’initié après avoir gagné 1,2 million de dollars",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZ1JOQjloanhkV29jZllWTlFWSGNpSlVScHphUTVqakdUTXR3MEFQeGVGUE9HejVaTWpHcWQ3U1hIMGJ6dGJGenJUMkkwVUQtNi1TX0RrVXpzNWh5YXF3YmZoeVRsYXlVWGQzUGpCQkVGblJZdTVybEpKN0ttTWJFQTIzLUNNbGJfRGZXWUdyNHFnUlN6Rng2Z0twbXBHb3l1MFNpRkZCemN2eUVobWZ1alBwUkJZNjVTVTh3b2pJNjlqLXczeU93QWFLWjA4YjU2eGRDRWVGUkFnb2ZNbzl6dWhURjVjYy1haTlBeUJyV1JncnVRQmZRampWQUVfUQ?oc=5"
+        },
+        {
+          "label": "GNews · Libération — Affaire Patrick Bruel : Sony, Nagui et RFM coupent les ponts avec le chanteur, qui quitte «les Enfoirés",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOLXpOYnZCanI5a05UMDBKV19xSFhKQjN6Ulhfb2MtT251ODFzc3JHRlFRUFpObV9kemNrc245aGl6MVpfVXNSR29kU0pPS1ExY2tLYVVsYi15aTlNcS1BQVd1MUxkdmQ2alU4SzJKdVdENmR6a2dHTndQWk5oa2xldlQ1QWpwdkdJcmxVX3U0aS05UXIwRWd6bjcwYy1TVFNKcGRGQzJWSkZ1c3RRNmFHeUF3QnV4STVNY21QVVBfeHVmWWRFeEJKWktrSTVrd1puY2JZQ215X3pDczVEenE4TUdnbWs2dXFpQnY0cmh1Nno2bi1oWFFiNS1nNlBGRmNxM3dvNFdsZmVqaEVEOTFNeQ?oc=5"
+        },
+        {
+          "label": "Reddit · r/france — Accusé de viols et d’agressions sexuelles, Patrick Bruel se retire des spectacles des Enfoirés",
+          "url": "https://www.reddit.com/r/france/comments/1tqy28p/accusé_de_viols_et_dagressions_sexuelles_patrick/"
+        }
+      ],
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Flavie Flament",
+        "Patrick Bruel"
+      ]
+    },
+    {
+      "id": "s10",
+      "rank": 10,
       "title": "« C’est un peu prématuré » : Arthur s’exprime sur l’affaire Bruel et critique la décision de Nagui, qui a banni le chanteur de N’oubliez pas l...",
       "theme": "divertissement",
-      "score": 43,
+      "score": 39,
       "tier": "medium",
       "rationale": "Présent sur Google Discover · présent dans le top Wikipedia · repris sur Google Actualités · engagement MSN élevé.",
       "signals": [
@@ -742,6 +1249,16 @@
           "name": "MSN engagement",
           "value": "97/100",
           "fill": 97
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -751,7 +1268,9 @@
         "gnews": 35.0,
         "msn": 97.1,
         "x": 0.0,
-        "total": 43.2
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 39.0
       },
       "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/c-est-un-peu-prématuré-arthur-s-exprime-sur-l-affaire-bruel-et-critique-la-décision-de-nagui-qui-a-banni-le-chanteur-de-n-oubliez-pas-l/ar-AA24ldX2?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.a5916e9f2b337b474b867de2de2d083a&pid=Wdp",
@@ -778,13 +1297,13 @@
       ]
     },
     {
-      "id": "s08",
-      "rank": 8,
-      "title": "Jean-Louis Aubert réagit à la polémique Patrick Bruel : une prise de position nuancée",
-      "theme": "divertissement",
-      "score": 40,
+      "id": "s11",
+      "rank": 11,
+      "title": "« Tout le monde savait » : autour de Patrick Bruel, cette question sur le silence du milieu devient centrale",
+      "theme": "actualite",
+      "score": 38,
       "tier": "medium",
-      "rationale": "Forte audience Wikipedia (40 796 vues/jour) · couvert par 3 médias · engagement MSN élevé.",
+      "rationale": "Forte audience Wikipedia (40 796 vues/jour) · couvert par 3 médias · repris sur Reddit FR.",
       "signals": [
         {
           "source": "gsc",
@@ -803,14 +1322,19 @@
         },
         {
           "source": "news",
+          "label": "reddit",
+          "value": "1 sub FR"
+        },
+        {
+          "source": "news",
           "label": "msn",
-          "value": "40+ react."
+          "value": "36+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 0.2",
+          "value": "score 0.1",
           "fill": 0
         },
         {
@@ -835,245 +1359,58 @@
         },
         {
           "name": "MSN engagement",
-          "value": "61/100",
-          "fill": 61
+          "value": "30/100",
+          "fill": 30
+        },
+        {
+          "name": "Reddit FR",
+          "value": "1 sub",
+          "fill": 33
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
-        "discover": 0.9,
+        "discover": 0.5,
         "trends": 0.0,
         "wiki": 100.0,
         "gnews": 70.0,
-        "msn": 61.2,
+        "msn": 30.3,
         "x": 0.0,
-        "total": 39.9
+        "reddit": 33.0,
+        "youtube": 0.0,
+        "total": 38.5
       },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/jean-louis-aubert-réagit-à-la-polémique-patrick-bruel-une-prise-de-position-nuancée/ar-AA244rOD?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.751ef937ad7205e24c9a51f3e2fbf331&pid=Wdp",
-      "msn_source_name": "Ohmymag FR",
-      "refs": [
-        {
-          "label": "MSN · Ohmymag FR — Jean-Louis Aubert réagit à la polémique Patrick Bruel : une prise de position nuancée",
-          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/jean-louis-aubert-réagit-à-la-polémique-patrick-bruel-une-prise-de-position-nuancée/ar-AA244rOD?ocid=00000000"
-        },
-        {
-          "label": "Discover · YouTube — Affaire Patrick Bruel: le chanteur ne participera pas à la prochaine édition des Enfoirés en 2027",
-          "url": "https://www.youtube.com/watch?v=m4waSF49Ss4"
-        },
-        {
-          "label": "GNews · Libération — Affaire Patrick Bruel : Sony, Nagui et RFM coupent les ponts avec le chanteur, qui quitte «les Enfoirés",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOLXpOYnZCanI5a05UMDBKV19xSFhKQjN6Ulhfb2MtT251ODFzc3JHRlFRUFpObV9kemNrc245aGl6MVpfVXNSR29kU0pPS1ExY2tLYVVsYi15aTlNcS1BQVd1MUxkdmQ2alU4SzJKdVdENmR6a2dHTndQWk5oa2xldlQ1QWpwdkdJcmxVX3U0aS05UXIwRWd6bjcwYy1TVFNKcGRGQzJWSkZ1c3RRNmFHeUF3QnV4STVNY21QVVBfeHVmWWRFeEJKWktrSTVrd1puY2JZQ215X3pDczVEenE4TUdnbWs2dXFpQnY0cmh1Nno2bi1oWFFiNS1nNlBGRmNxM3dvNFdsZmVqaEVEOTFNeQ?oc=5"
-        },
-        {
-          "label": "GNews · franceinfo — Annulation des concerts de Patrick Bruel : le directeur du festival Grandes Marées, en Normandie, fait état d'un \"grand soulagement\"",
-          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVGJJWDJVQTh1NHlaS2xkV29uQkJVYTBkbHJ6ejFoX3pMTGtWSXN0eDFyVkk5ZGNPU3gyN0ZnMDFXaU5TUHo2ampycWw2azZ5OGpQX0xoOWRWUzdyQ0N2Z3lPbU1zZ0s4NmhXeHNaM2hTaEJTUnA0SFlGSFRIOFBJTGQtdzExYWhLNlBwcDZHODNrTEJaZDBkUWhMa0I5NDFtMkF0NVpMbmNkQmd4a2h4UUd0aXNuVDlmdDBKQzBGdTVkQjE0T3Mtd3Vsdk9KN2lXelUwS2w4MzkzcGVaVTREbjc3dEkxczZRSWZmN3ZFZlVkckdBcWN3NmpVZDNNakpBMGFkUmxMU0JQOWtWREFjeVVUS0k1RjNGZFpXRmRwa1MtX0stQl9aS1B3QWFfc01UaElkM1FUdEtJdkY5ZHNnTlBlQmpQWEVjS0E?oc=5"
-        },
-        {
-          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHV5MXBWYVBwai1HRFBTMURfZ2NBYTBLYnhrcTVKQTVyVDlobHl1dnNiVGx3d2NaU0RFNUUwalVqbUVxdWR2NXdUa0UtYzlKbW9DdElpelVuRUt5OHFiaUVCMDFZeVBPNWVBN25abkNBUmluM1lSZFNyWjJLeG5YMDE0YkJYUWVJLWc5WEQ0Z0FCOFN5N2JRbFhULUhDUzBPM1lsNm14N05SVlJhbEZhRlZXMVF4SDFNUDk1TzRYNDJnNHc?oc=5"
-        }
-      ],
-      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
-      "discover_entities": [
-        "Patrick Bruel"
-      ]
-    },
-    {
-      "id": "s09",
-      "rank": 9,
-      "title": "Flavie Flament : « épuisée » par son « combat » contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
-      "theme": "divertissement",
-      "score": 38,
-      "tier": "medium",
-      "rationale": "Forte audience Wikipedia (40 796 vues/jour) · couvert par 4 médias.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "4 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "41k vues"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "21+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "4 médias",
-          "fill": 79
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "41k vues/h",
-          "fill": 100
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "39/100",
-          "fill": 38
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 100.0,
-        "gnews": 79.2,
-        "msn": 38.8,
-        "x": 0.0,
-        "total": 37.8
-      },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/flavie-flament-épuisée-par-son-combat-contre-patrick-bruel-l-animatrice-prend-une-décision-radicale-pour-sa-santé/ar-AA24mG7m?ocid=00000000",
-      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24mDwa.img",
-      "msn_source_name": "Public : Actu People en continu",
-      "refs": [
-        {
-          "label": "MSN · Public : Actu People en continu — Flavie Flament : « épuisée » par son « combat » contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
-          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/flavie-flament-épuisée-par-son-combat-contre-patrick-bruel-l-animatrice-prend-une-décision-radicale-pour-sa-santé/ar-AA24mG7m?ocid=00000000"
-        },
-        {
-          "label": "Discover · Melty — Benjamin Castaldi brise le silence sur Flavie Flament après les accusations contre Patrick Bruel, ses révélations font réagir",
-          "url": "https://www.melty.fr/people/benjamin-castaldi-brise-le-silence-sur-flavie-flament-apres-les-accusations-contre-patrick-bruel-ses-revelations-font-reagir-2320337.html"
-        },
-        {
-          "label": "GNews · ma-sante.news — Cancer : ce médicament contre l’asthme pourrait aider à détruire les tumeurs - ma-sante.news",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xTlZ1TmlabWJGZ1BKTzJKOEpFOUNkMHFYNThUcmIyTEZpTmlaNDNmMTlMc296ZzBja2FvRkJ2TWhrUEM0TmhfSkVjNlRMdEdnRXE4dkQ5cHVqOEpHeThET0ZqVG41VkRPY1lWb0xUdFpPQk1IRXc?oc=5"
-        },
-        {
-          "label": "GNews · Libération — Affaire Patrick Bruel : Sony, Nagui et RFM coupent les ponts avec le chanteur, qui quitte «les Enfoirés",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOLXpOYnZCanI5a05UMDBKV19xSFhKQjN6Ulhfb2MtT251ODFzc3JHRlFRUFpObV9kemNrc245aGl6MVpfVXNSR29kU0pPS1ExY2tLYVVsYi15aTlNcS1BQVd1MUxkdmQ2alU4SzJKdVdENmR6a2dHTndQWk5oa2xldlQ1QWpwdkdJcmxVX3U0aS05UXIwRWd6bjcwYy1TVFNKcGRGQzJWSkZ1c3RRNmFHeUF3QnV4STVNY21QVVBfeHVmWWRFeEJKWktrSTVrd1puY2JZQ215X3pDczVEenE4TUdnbWs2dXFpQnY0cmh1Nno2bi1oWFFiNS1nNlBGRmNxM3dvNFdsZmVqaEVEOTFNeQ?oc=5"
-        },
-        {
-          "label": "GNews · franceinfo — Annulation des concerts de Patrick Bruel : le directeur du festival Grandes Marées, en Normandie, fait état d'un \"grand soulagement\"",
-          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVGJJWDJVQTh1NHlaS2xkV29uQkJVYTBkbHJ6ejFoX3pMTGtWSXN0eDFyVkk5ZGNPU3gyN0ZnMDFXaU5TUHo2ampycWw2azZ5OGpQX0xoOWRWUzdyQ0N2Z3lPbU1zZ0s4NmhXeHNaM2hTaEJTUnA0SFlGSFRIOFBJTGQtdzExYWhLNlBwcDZHODNrTEJaZDBkUWhMa0I5NDFtMkF0NVpMbmNkQmd4a2h4UUd0aXNuVDlmdDBKQzBGdTVkQjE0T3Mtd3Vsdk9KN2lXelUwS2w4MzkzcGVaVTREbjc3dEkxczZRSWZmN3ZFZlVkckdBcWN3NmpVZDNNakpBMGFkUmxMU0JQOWtWREFjeVVUS0k1RjNGZFpXRmRwa1MtX0stQl9aS1B3QWFfc01UaElkM1FUdEtJdkY5ZHNnTlBlQmpQWEVjS0E?oc=5"
-        }
-      ],
-      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
-      "discover_entities": [
-        "Flavie Flament",
-        "Patrick Bruel"
-      ]
-    },
-    {
-      "id": "s10",
-      "rank": 10,
-      "title": "Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
-      "theme": "actualite",
-      "score": 37,
-      "tier": "medium",
-      "rationale": "Forte audience Wikipedia (40 796 vues/jour) · couvert par 4 médias.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "4 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "41k vues"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "23+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "4 médias",
-          "fill": 79
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "41k vues/h",
-          "fill": 100
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "34/100",
-          "fill": 33
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 100.0,
-        "gnews": 79.2,
-        "msn": 33.8,
-        "x": 0.0,
-        "total": 37.1
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-après-andréa-bescond-alexandra-lamy-sort-du-silence-et-prend-position/ar-AA24luej?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.d4e4a222e38e383f884f0dd9ff242a67&pid=Wdp",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/tout-le-monde-savait-autour-de-patrick-bruel-cette-question-sur-le-silence-du-milieu-devient-centrale/ar-AA24l8z8?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.87984dc394f2bc485896ce15d9f7d2bb&pid=Wdp",
       "msn_source_name": "So Busy Girls",
       "refs": [
         {
-          "label": "MSN · So Busy Girls — Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
-          "url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-après-andréa-bescond-alexandra-lamy-sort-du-silence-et-prend-position/ar-AA24luej?ocid=00000000"
+          "label": "MSN · So Busy Girls — « Tout le monde savait » : autour de Patrick Bruel, cette question sur le silence du milieu devient centrale",
+          "url": "https://www.msn.com/fr-fr/actualite/france/tout-le-monde-savait-autour-de-patrick-bruel-cette-question-sur-le-silence-du-milieu-devient-centrale/ar-AA24l8z8?ocid=00000000"
         },
         {
           "label": "Discover · Melty — Benjamin Castaldi brise le silence sur Flavie Flament après les accusations contre Patrick Bruel, ses révélations font réagir",
           "url": "https://www.melty.fr/people/benjamin-castaldi-brise-le-silence-sur-flavie-flament-apres-les-accusations-contre-patrick-bruel-ses-revelations-font-reagir-2320337.html"
         },
         {
+          "label": "GNews · Libération — Affaire Patrick Bruel : Sony, Nagui et RFM coupent les ponts avec le chanteur, qui quitte «les Enfoirés",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOLXpOYnZCanI5a05UMDBKV19xSFhKQjN6Ulhfb2MtT251ODFzc3JHRlFRUFpObV9kemNrc245aGl6MVpfVXNSR29kU0pPS1ExY2tLYVVsYi15aTlNcS1BQVd1MUxkdmQ2alU4SzJKdVdENmR6a2dHTndQWk5oa2xldlQ1QWpwdkdJcmxVX3U0aS05UXIwRWd6bjcwYy1TVFNKcGRGQzJWSkZ1c3RRNmFHeUF3QnV4STVNY21QVVBfeHVmWWRFeEJKWktrSTVrd1puY2JZQ215X3pDczVEenE4TUdnbWs2dXFpQnY0cmh1Nno2bi1oWFFiNS1nNlBGRmNxM3dvNFdsZmVqaEVEOTFNeQ?oc=5"
+        },
+        {
+          "label": "GNews · franceinfo — Annulation des concerts de Patrick Bruel : le directeur du festival Grandes Marées, en Normandie, fait état d'un \"grand soulagement\"",
+          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVGJJWDJVQTh1NHlaS2xkV29uQkJVYTBkbHJ6ejFoX3pMTGtWSXN0eDFyVkk5ZGNPU3gyN0ZnMDFXaU5TUHo2ampycWw2azZ5OGpQX0xoOWRWUzdyQ0N2Z3lPbU1zZ0s4NmhXeHNaM2hTaEJTUnA0SFlGSFRIOFBJTGQtdzExYWhLNlBwcDZHODNrTEJaZDBkUWhMa0I5NDFtMkF0NVpMbmNkQmd4a2h4UUd0aXNuVDlmdDBKQzBGdTVkQjE0T3Mtd3Vsdk9KN2lXelUwS2w4MzkzcGVaVTREbjc3dEkxczZRSWZmN3ZFZlVkckdBcWN3NmpVZDNNakpBMGFkUmxMU0JQOWtWREFjeVVUS0k1RjNGZFpXRmRwa1MtX0stQl9aS1B3QWFfc01UaElkM1FUdEtJdkY5ZHNnTlBlQmpQWEVjS0E?oc=5"
+        },
+        {
           "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHV5MXBWYVBwai1HRFBTMURfZ2NBYTBLYnhrcTVKQTVyVDlobHl1dnNiVGx3d2NaU0RFNUUwalVqbUVxdWR2NXdUa0UtYzlKbW9DdElpelVuRUt5OHFiaUVCMDFZeVBPNWVBN25abkNBUmluM1lSZFNyWjJLeG5YMDE0YkJYUWVJLWc5WEQ0Z0FCOFN5N2JRbFhULUhDUzBPM1lsNm14N05SVlJhbEZhRlZXMVF4SDFNUDk1TzRYNDJnNHc?oc=5"
         },
         {
-          "label": "GNews · Le Monde.fr — Polymarket : un ingénieur de Google accusé de délit d’initié après avoir gagné 1,2 million de dollars",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZ1JOQjloanhkV29jZllWTlFWSGNpSlVScHphUTVqakdUTXR3MEFQeGVGUE9HejVaTWpHcWQ3U1hIMGJ6dGJGenJUMkkwVUQtNi1TX0RrVXpzNWh5YXF3YmZoeVRsYXlVWGQzUGpCQkVGblJZdTVybEpKN0ttTWJFQTIzLUNNbGJfRGZXWUdyNHFnUlN6Rng2Z0twbXBHb3l1MFNpRkZCemN2eUVobWZ1alBwUkJZNjVTVTh3b2pJNjlqLXczeU93QWFLWjA4YjU2eGRDRWVGUkFnb2ZNbzl6dWhURjVjYy1haTlBeUJyV1JncnVRQmZRampWQUVfUQ?oc=5"
-        },
-        {
-          "label": "GNews · Libération — Affaire Patrick Bruel : Sony, Nagui et RFM coupent les ponts avec le chanteur, qui quitte «les Enfoirés",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOLXpOYnZCanI5a05UMDBKV19xSFhKQjN6Ulhfb2MtT251ODFzc3JHRlFRUFpObV9kemNrc245aGl6MVpfVXNSR29kU0pPS1ExY2tLYVVsYi15aTlNcS1BQVd1MUxkdmQ2alU4SzJKdVdENmR6a2dHTndQWk5oa2xldlQ1QWpwdkdJcmxVX3U0aS05UXIwRWd6bjcwYy1TVFNKcGRGQzJWSkZ1c3RRNmFHeUF3QnV4STVNY21QVVBfeHVmWWRFeEJKWktrSTVrd1puY2JZQ215X3pDczVEenE4TUdnbWs2dXFpQnY0cmh1Nno2bi1oWFFiNS1nNlBGRmNxM3dvNFdsZmVqaEVEOTFNeQ?oc=5"
+          "label": "Reddit · r/france — Accusé de viols et d’agressions sexuelles, Patrick Bruel se retire des spectacles des Enfoirés",
+          "url": "https://www.reddit.com/r/france/comments/1tqy28p/accusé_de_viols_et_dagressions_sexuelles_patrick/"
         }
       ],
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
@@ -1083,11 +1420,245 @@
       ]
     },
     {
-      "id": "s11",
-      "rank": 11,
+      "id": "s12",
+      "rank": 12,
+      "title": "« C'est incurable » : Camille Cerf vit au quotidien la même situation qu'environ 11 % des femmes en France",
+      "theme": "divertissement",
+      "score": 35,
+      "tier": "medium",
+      "rationale": "Présent sur Google Discover · présent sur Google Trends · repris sur Google Actualités · repris sur Reddit FR.",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "18/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "200"
+        },
+        {
+          "source": "news",
+          "label": "reddit",
+          "value": "1 sub FR"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "71+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 17.7",
+          "fill": 61
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "200",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "32/100",
+          "fill": 32
+        },
+        {
+          "name": "Reddit FR",
+          "value": "1 sub",
+          "fill": 33
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 61.8,
+        "trends": 0.5,
+        "wiki": 0.0,
+        "gnews": 35.0,
+        "msn": 32.0,
+        "x": 0.0,
+        "reddit": 33.0,
+        "youtube": 0.0,
+        "total": 35.4
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/c-est-incurable-camille-cerf-vit-au-quotidien-la-même-situation-qu-environ-11-des-femmes-en-france/ar-AA24aZsO?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24aDg8.img",
+      "msn_source_name": "Purepeople",
+      "refs": [
+        {
+          "label": "MSN · Purepeople — « C'est incurable » : Camille Cerf vit au quotidien la même situation qu'environ 11 % des femmes en France",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/c-est-incurable-camille-cerf-vit-au-quotidien-la-même-situation-qu-environ-11-des-femmes-en-france/ar-AA24aZsO?ocid=00000000"
+        },
+        {
+          "label": "Discover · Linternaute.com — On en trouve partout en France, peu de gens savent ce qu'ils recherchent dans le jardin",
+          "url": "https://www.linternaute.com/bricolage/id/10586194-.../"
+        },
+        {
+          "label": "GNews · Ouest-France — Les arbres poussent plus vite en ville qu’au milieu de la forêt, mais ce n’est pas forcément une bonne nouvelle - Ouest-France",
+          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPSmJ3bmp4UzBSNWtOVENYQ2F2alFUTXlRaWhPTHhmVG85TnFZTVBlZTB1NV9NNlU2YWpVZ0NYRGFha2dyZ3hUWERERHpGY1JtZnY5QXUyTE15amdUeG4tUVl5RE5zdjMzUjFrOG00VERMMUV6cUJTZl9NUXlTa09fbHAzRVFNbm0yemlqQ1g5X0hTcllMRkIwMDJWbmxFMk9mUERjQU5mS294RGc1eThjeVpGR2h0RE8wcXEzbzVOeUpSeWduWVpMaVk1RGttN29hUW13S2QtYm5JYzBjM1Z6cWNMeXJnaF9WaFN2VF96SV90cXN2Qlc0UXlQdFYzTXVwZ1RVcWRhMnlpbXpka3BKNFhJTi1qMmVKakVWb2NjZExFdFFXaldvdQ?oc=5"
+        },
+        {
+          "label": "Reddit · r/AskFrance — Il y a t'il quelque chose qu'on fait en France en termes d'amour mais que personne ne fait ailleurs ?",
+          "url": "https://www.reddit.com/r/AskFrance/comments/1tr51gw/il_y_a_til_quelque_chose_quon_fait_en_france_en/"
+        }
+      ],
+      "discover_category": "/Pets & Animals/Pets/Reptiles & Amphibians",
+      "discover_entities": [
+        "Jardin à la française",
+        "Serpents"
+      ]
+    },
+    {
+      "id": "s13",
+      "rank": 13,
+      "title": "Présidentielle 2027 : selon un sondage, Retailleau à 7 %, Zemmour à 5 %, Dupont-Aignan à 2 %, la droite serait distancée par Bardella",
+      "theme": "actualite",
+      "score": 34,
+      "tier": "medium",
+      "rationale": "Présent sur Google Discover · couvert par 4 médias · repris sur Reddit FR.",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "8.3/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "4 médias"
+        },
+        {
+          "source": "news",
+          "label": "reddit",
+          "value": "1 sub FR"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "12+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 8.3",
+          "fill": 33
+        },
+        {
+          "name": "Google News",
+          "value": "4 médias",
+          "fill": 79
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "21/100",
+          "fill": 21
+        },
+        {
+          "name": "Reddit FR",
+          "value": "1 sub",
+          "fill": 42
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 33.1,
+        "trends": 0.0,
+        "wiki": 0.0,
+        "gnews": 79.2,
+        "msn": 21.0,
+        "x": 0.0,
+        "reddit": 42.0,
+        "youtube": 0.0,
+        "total": 34.5
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/other/présidentielle-2027-selon-un-sondage-retailleau-à-7-zemmour-à-5-dupont-aignan-à-2-la-droite-serait-distancée-par-bardella/ar-AA24l3jR?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1UpMpL.img",
+      "msn_source_name": "So Busy Girls",
+      "refs": [
+        {
+          "label": "MSN · So Busy Girls — Présidentielle 2027 : selon un sondage, Retailleau à 7 %, Zemmour à 5 %, Dupont-Aignan à 2 %, la droite serait distancée par Bardella",
+          "url": "https://www.msn.com/fr-fr/actualite/other/présidentielle-2027-selon-un-sondage-retailleau-à-7-zemmour-à-5-dupont-aignan-à-2-la-droite-serait-distancée-par-bardella/ar-AA24l3jR?ocid=00000000"
+        },
+        {
+          "label": "Discover · Sud Ouest — Présidentielle 2027 : le maintien de Philippe et Attal qualifierait Mélenchon pour le second tour, selon un sondage",
+          "url": "https://www.sudouest.fr/france/presidentielle-2027-le-maintien-de-philippe-et-attal-qualifierait-melenchon-pour-le-second-tour-selon-un-sondage-29268840.php"
+        },
+        {
+          "label": "GNews · Le Figaro — Présidentielle 2027 : match serré Attal-Philippe loin derrière Bardella, Mélenchon en embuscade... Découvrez le sondage du Figaro",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNUFNhdkJDSEUxMGFyVHlHSkp4TzFDLThtN2J4RTM5QzZhd3RQd3ZmdFhsNU5kLTJyV1pNRFdUcUp3R29ZVDFaOXdKSi01X0pibE85UGhYTUNxdWhUSGhnejNzS2hIN2ZrT1RHenBHZ29paXl6YW9fZDVGX1pubVdtaVJPWHRhbklZQUpGNDRUQlRuSWVESmt1ZUk2YnRlX2xYUWdLbDdqcnVkd19td1ozcDVjNTVFcVpjNzltbW5kNVBqdVZFYXl1cGxmemwwQ3JkSUR6TmJ0STVuNU9rZmZ2eDhLYzJ6aVQxYTJhalBhVzE5SVFnUGVhOWVB?oc=5"
+        },
+        {
+          "label": "GNews · CNews — Présidentielle 2027 : le RN largement en tête, Gabriel Attal progresse mais reste derrière Edouard Philippe selon un sondage",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR3lfQzZPMVBpVW1zQTVweDdsZnBEZlR5c3VWaGtpb2k1UlYtb3MzbjhXb2JHUmxqbjBUQWphNXRucmFPZms1SFJqVm1oajRrZTA0ZnA1U3RLZzhIMXZPMlVaX1RkSDk0aWhIX24yc0NIUjVkWEY3V3pSSnNZU2xrWGZJb3dPd3ExSG1XcEwxOWtadUNVdjM3dnllQnJCTWRSaV9pLWtRamVRV3lZdjRnRXZmSE1GOF9u?oc=5"
+        },
+        {
+          "label": "GNews · Journal des Femmes — Relation père-fils : ce simple rituel serait le secret d'un lien solide, selon une étude",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT25QM00tUlptLXo3dFlLOG5LZ3dnMHdQVEJuNkZpSlZjanZOZDhVbnlMWWVHV016MG0wOGVmdXNCLVNTUjJub2k2TUFMSlZKQm5zamtJS0VkSElfWWFnMkxXRFh0RmViVU9EVTBuYjBYTUg0a0VJb0c2WGhjZWFoWWVFV01rbkdfWlM4TmN4MnlSanFrbDJURjBBcHlNNU0?oc=5"
+        },
+        {
+          "label": "Reddit · r/Histoire — selon vous, quel serait le plus vieux spin-off recensé depuis l'avenement de l'écriture",
+          "url": "https://www.reddit.com/r/Histoire/comments/1trosxu/selon_vous_quel_serait_le_plus_vieux_spinoff/"
+        }
+      ],
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Gabriel Attal",
+        "Jean-Luc Mélenchon",
+        "Édouard Philippe"
+      ]
+    },
+    {
+      "id": "s14",
+      "rank": 14,
       "title": "Retrouvée 12 ans après sa disparition, cette Husky séniore parcourt 2 250 kilomètres pour retrouver son maître",
       "theme": "actualite",
-      "score": 37,
+      "score": 33,
       "tier": "medium",
       "rationale": "Présent sur Google Discover · repris sur Google Actualités · engagement MSN élevé.",
       "signals": [
@@ -1137,6 +1708,16 @@
           "name": "MSN engagement",
           "value": "88/100",
           "fill": 87
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -1146,7 +1727,9 @@
         "gnews": 35.0,
         "msn": 87.8,
         "x": 0.0,
-        "total": 36.8
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 33.1
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/insolite/retrouvée-12-ans-après-sa-disparition-cette-husky-séniore-parcourt-2-250-kilomètres-pour-retrouver-son-maître/ar-AA24n7Nl?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.65e72a5c7a26a6cfac16d7771cc3b678&pid=Wdp",
@@ -1171,11 +1754,11 @@
       ]
     },
     {
-      "id": "s12",
-      "rank": 12,
+      "id": "s15",
+      "rank": 15,
       "title": "Les images impressionnantes de l'explosion de la fusée Blue Origin de Jeff Bezos au décollage",
       "theme": "actualite",
-      "score": 36,
+      "score": 32,
       "tier": "medium",
       "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · couvert par 3 médias · mentionné sur X.",
       "signals": [
@@ -1240,6 +1823,16 @@
           "name": "MSN engagement",
           "value": "27/100",
           "fill": 26
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -1249,7 +1842,9 @@
         "gnews": 70.0,
         "msn": 26.7,
         "x": 40.0,
-        "total": 35.7
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 32.1
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/les-images-impressionnantes-de-l-explosion-de-la-fusée-blue-origin-de-jeff-bezos-au-décollage/ar-AA24l0oK?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.f263d6ee7f0b776cc1e056afb9beb3c0&pid=Wdp",
@@ -1285,113 +1880,11 @@
       ]
     },
     {
-      "id": "s13",
-      "rank": 13,
-      "title": "« Tout le monde savait » : autour de Patrick Bruel, cette question sur le silence du milieu devient centrale",
-      "theme": "actualite",
-      "score": 35,
-      "tier": "medium",
-      "rationale": "Forte audience Wikipedia (40 796 vues/jour) · couvert par 3 médias.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "3 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "41k vues"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "36+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "3 médias",
-          "fill": 70
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "41k vues/h",
-          "fill": 100
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "30/100",
-          "fill": 30
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 100.0,
-        "gnews": 70.0,
-        "msn": 30.3,
-        "x": 0.0,
-        "total": 35.2
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/tout-le-monde-savait-autour-de-patrick-bruel-cette-question-sur-le-silence-du-milieu-devient-centrale/ar-AA24l8z8?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.87984dc394f2bc485896ce15d9f7d2bb&pid=Wdp",
-      "msn_source_name": "So Busy Girls",
-      "refs": [
-        {
-          "label": "MSN · So Busy Girls — « Tout le monde savait » : autour de Patrick Bruel, cette question sur le silence du milieu devient centrale",
-          "url": "https://www.msn.com/fr-fr/actualite/france/tout-le-monde-savait-autour-de-patrick-bruel-cette-question-sur-le-silence-du-milieu-devient-centrale/ar-AA24l8z8?ocid=00000000"
-        },
-        {
-          "label": "Discover · Melty — Benjamin Castaldi brise le silence sur Flavie Flament après les accusations contre Patrick Bruel, ses révélations font réagir",
-          "url": "https://www.melty.fr/people/benjamin-castaldi-brise-le-silence-sur-flavie-flament-apres-les-accusations-contre-patrick-bruel-ses-revelations-font-reagir-2320337.html"
-        },
-        {
-          "label": "GNews · Libération — Affaire Patrick Bruel : Sony, Nagui et RFM coupent les ponts avec le chanteur, qui quitte «les Enfoirés",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOLXpOYnZCanI5a05UMDBKV19xSFhKQjN6Ulhfb2MtT251ODFzc3JHRlFRUFpObV9kemNrc245aGl6MVpfVXNSR29kU0pPS1ExY2tLYVVsYi15aTlNcS1BQVd1MUxkdmQ2alU4SzJKdVdENmR6a2dHTndQWk5oa2xldlQ1QWpwdkdJcmxVX3U0aS05UXIwRWd6bjcwYy1TVFNKcGRGQzJWSkZ1c3RRNmFHeUF3QnV4STVNY21QVVBfeHVmWWRFeEJKWktrSTVrd1puY2JZQ215X3pDczVEenE4TUdnbWs2dXFpQnY0cmh1Nno2bi1oWFFiNS1nNlBGRmNxM3dvNFdsZmVqaEVEOTFNeQ?oc=5"
-        },
-        {
-          "label": "GNews · franceinfo — Annulation des concerts de Patrick Bruel : le directeur du festival Grandes Marées, en Normandie, fait état d'un \"grand soulagement\"",
-          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVGJJWDJVQTh1NHlaS2xkV29uQkJVYTBkbHJ6ejFoX3pMTGtWSXN0eDFyVkk5ZGNPU3gyN0ZnMDFXaU5TUHo2ampycWw2azZ5OGpQX0xoOWRWUzdyQ0N2Z3lPbU1zZ0s4NmhXeHNaM2hTaEJTUnA0SFlGSFRIOFBJTGQtdzExYWhLNlBwcDZHODNrTEJaZDBkUWhMa0I5NDFtMkF0NVpMbmNkQmd4a2h4UUd0aXNuVDlmdDBKQzBGdTVkQjE0T3Mtd3Vsdk9KN2lXelUwS2w4MzkzcGVaVTREbjc3dEkxczZRSWZmN3ZFZlVkckdBcWN3NmpVZDNNakpBMGFkUmxMU0JQOWtWREFjeVVUS0k1RjNGZFpXRmRwa1MtX0stQl9aS1B3QWFfc01UaElkM1FUdEtJdkY5ZHNnTlBlQmpQWEVjS0E?oc=5"
-        },
-        {
-          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHV5MXBWYVBwai1HRFBTMURfZ2NBYTBLYnhrcTVKQTVyVDlobHl1dnNiVGx3d2NaU0RFNUUwalVqbUVxdWR2NXdUa0UtYzlKbW9DdElpelVuRUt5OHFiaUVCMDFZeVBPNWVBN25abkNBUmluM1lSZFNyWjJLeG5YMDE0YkJYUWVJLWc5WEQ0Z0FCOFN5N2JRbFhULUhDUzBPM1lsNm14N05SVlJhbEZhRlZXMVF4SDFNUDk1TzRYNDJnNHc?oc=5"
-        }
-      ],
-      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
-      "discover_entities": [
-        "Flavie Flament",
-        "Patrick Bruel"
-      ]
-    },
-    {
-      "id": "s14",
-      "rank": 14,
+      "id": "s16",
+      "rank": 16,
       "title": "PSG-Arsenal: Achraf Hakimi, l’annonce officielle",
       "theme": "sport",
-      "score": 35,
+      "score": 31,
       "tier": "medium",
       "rationale": "Pic Google Trends (50 000 recherches) · présent dans le top Wikipedia · couvert par 3 médias.",
       "signals": [
@@ -1451,6 +1944,16 @@
           "name": "MSN engagement",
           "value": "15/100",
           "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -1460,7 +1963,9 @@
         "gnews": 70.0,
         "msn": 15.1,
         "x": 0.0,
-        "total": 35.0
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 31.4
       },
       "msn_url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-achraf-hakimi-l-annonce-officielle/ar-AA24mH2J?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.0846215825285263f3ab3288a23bf52e&pid=Wdp",
@@ -1495,11 +2000,11 @@
       ]
     },
     {
-      "id": "s15",
-      "rank": 15,
+      "id": "s17",
+      "rank": 17,
       "title": "Nice sauve sa peau au bout du suspense face à Saint-Étienne",
       "theme": "sport",
-      "score": 35,
+      "score": 31,
       "tier": "medium",
       "rationale": "Pic Google Trends (200 000 recherches) · présent dans le top Wikipedia · repris sur Google Actualités.",
       "signals": [
@@ -1559,6 +2064,16 @@
           "name": "MSN engagement",
           "value": "15/100",
           "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -1568,7 +2083,9 @@
         "gnews": 35.0,
         "msn": 15.0,
         "x": 0.0,
-        "total": 34.8
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 30.7
       },
       "msn_url": "https://www.msn.com/fr-fr/sport/football/nice-sauve-sa-peau-au-bout-du-suspense-face-à-saint-étienne/ar-AA24nznT?ocid=00000000",
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24nEFi.img",
@@ -1595,11 +2112,11 @@
       ]
     },
     {
-      "id": "s16",
-      "rank": 16,
+      "id": "s18",
+      "rank": 18,
       "title": "PSG-Arsenal : Havertz annonce la défaite de Paris",
       "theme": "sport",
-      "score": 34,
+      "score": 30,
       "tier": "medium",
       "rationale": "Pic Google Trends (50 000 recherches) · couvert par 3 médias.",
       "signals": [
@@ -1654,6 +2171,16 @@
           "name": "MSN engagement",
           "value": "15/100",
           "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -1663,7 +2190,9 @@
         "gnews": 70.0,
         "msn": 15.0,
         "x": 0.0,
-        "total": 33.9
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 30.5
       },
       "msn_url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-havertz-annonce-la-défaite-de-paris/ar-AA24lZsA?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.2570203262f17b82da8e6b45ec8e6151&pid=Wdp",
@@ -1698,12 +2227,258 @@
       ]
     },
     {
-      "id": "s17",
-      "rank": 17,
+      "id": "s19",
+      "rank": 19,
+      "title": "Affaire Patrick Bruel : le point complet sur la situation",
+      "theme": "divertissement",
+      "score": 28,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · couvert par 4 médias · repris sur Reddit FR.",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "4 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "4k vues"
+        },
+        {
+          "source": "news",
+          "label": "reddit",
+          "value": "1 sub FR"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "8+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.2",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "4 médias",
+          "fill": 79
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "4k vues/h",
+          "fill": 21
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "15/100",
+          "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "1 sub",
+          "fill": 33
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.9,
+        "trends": 0.0,
+        "wiki": 21.6,
+        "gnews": 79.2,
+        "msn": 15.0,
+        "x": 0.0,
+        "reddit": 33.0,
+        "youtube": 0.0,
+        "total": 28.5
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/affaire-patrick-bruel-le-point-complet-sur-la-situation/ar-AA24lJZS?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.97d387f6fc2d98dc07ab6b5df3cf2f86&pid=Wdp",
+      "msn_source_name": "Télé Loisirs",
+      "refs": [
+        {
+          "label": "MSN · Télé Loisirs — Affaire Patrick Bruel : le point complet sur la situation",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/affaire-patrick-bruel-le-point-complet-sur-la-situation/ar-AA24lJZS?ocid=00000000"
+        },
+        {
+          "label": "Discover · YouTube — Affaire Patrick Bruel: le chanteur ne participera pas à la prochaine édition des Enfoirés en 2027",
+          "url": "https://www.youtube.com/watch?v=m4waSF49Ss4"
+        },
+        {
+          "label": "GNews · Libération — Affaire Patrick Bruel : Sony, Nagui et RFM coupent les ponts avec le chanteur, qui quitte «les Enfoirés",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOLXpOYnZCanI5a05UMDBKV19xSFhKQjN6Ulhfb2MtT251ODFzc3JHRlFRUFpObV9kemNrc245aGl6MVpfVXNSR29kU0pPS1ExY2tLYVVsYi15aTlNcS1BQVd1MUxkdmQ2alU4SzJKdVdENmR6a2dHTndQWk5oa2xldlQ1QWpwdkdJcmxVX3U0aS05UXIwRWd6bjcwYy1TVFNKcGRGQzJWSkZ1c3RRNmFHeUF3QnV4STVNY21QVVBfeHVmWWRFeEJKWktrSTVrd1puY2JZQ215X3pDczVEenE4TUdnbWs2dXFpQnY0cmh1Nno2bi1oWFFiNS1nNlBGRmNxM3dvNFdsZmVqaEVEOTFNeQ?oc=5"
+        },
+        {
+          "label": "GNews · franceinfo — Annulation des concerts de Patrick Bruel : le directeur du festival Grandes Marées, en Normandie, fait état d'un \"grand soulagement\"",
+          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVGJJWDJVQTh1NHlaS2xkV29uQkJVYTBkbHJ6ejFoX3pMTGtWSXN0eDFyVkk5ZGNPU3gyN0ZnMDFXaU5TUHo2ampycWw2azZ5OGpQX0xoOWRWUzdyQ0N2Z3lPbU1zZ0s4NmhXeHNaM2hTaEJTUnA0SFlGSFRIOFBJTGQtdzExYWhLNlBwcDZHODNrTEJaZDBkUWhMa0I5NDFtMkF0NVpMbmNkQmd4a2h4UUd0aXNuVDlmdDBKQzBGdTVkQjE0T3Mtd3Vsdk9KN2lXelUwS2w4MzkzcGVaVTREbjc3dEkxczZRSWZmN3ZFZlVkckdBcWN3NmpVZDNNakpBMGFkUmxMU0JQOWtWREFjeVVUS0k1RjNGZFpXRmRwa1MtX0stQl9aS1B3QWFfc01UaElkM1FUdEtJdkY5ZHNnTlBlQmpQWEVjS0E?oc=5"
+        },
+        {
+          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHV5MXBWYVBwai1HRFBTMURfZ2NBYTBLYnhrcTVKQTVyVDlobHl1dnNiVGx3d2NaU0RFNUUwalVqbUVxdWR2NXdUa0UtYzlKbW9DdElpelVuRUt5OHFiaUVCMDFZeVBPNWVBN25abkNBUmluM1lSZFNyWjJLeG5YMDE0YkJYUWVJLWc5WEQ0Z0FCOFN5N2JRbFhULUhDUzBPM1lsNm14N05SVlJhbEZhRlZXMVF4SDFNUDk1TzRYNDJnNHc?oc=5"
+        },
+        {
+          "label": "Reddit · r/france — Accusé de viols et d’agressions sexuelles, Patrick Bruel se retire des spectacles des Enfoirés",
+          "url": "https://www.reddit.com/r/france/comments/1tqy28p/accusé_de_viols_et_dagressions_sexuelles_patrick/"
+        }
+      ],
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Patrick Bruel"
+      ]
+    },
+    {
+      "id": "s20",
+      "rank": 20,
+      "title": "Après la canicule, les orages arrivent : 13 départements placés en vigilance par Météo France, ce vendredi 29 mai 2026",
+      "theme": "actualite",
+      "score": 28,
+      "tier": "low",
+      "rationale": "Forte couverture médiatique (14 médias) · repris sur Reddit FR.",
+      "signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "1.7/65"
+        },
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "14 médias"
+        },
+        {
+          "source": "news",
+          "label": "reddit",
+          "value": "1 sub FR"
+        },
+        {
+          "source": "news",
+          "label": "msn",
+          "value": "36+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 1.7",
+          "fill": 7
+        },
+        {
+          "name": "Google News",
+          "value": "14 médias",
+          "fill": 100
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "35/100",
+          "fill": 35
+        },
+        {
+          "name": "Reddit FR",
+          "value": "1 sub",
+          "fill": 36
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 7.6,
+        "trends": 0.0,
+        "wiki": 0.0,
+        "gnews": 100.0,
+        "msn": 35.5,
+        "x": 0.0,
+        "reddit": 36.0,
+        "youtube": 0.0,
+        "total": 28.2
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/après-la-canicule-les-orages-arrivent-13-départements-placés-en-vigilance-par-météo-france-ce-vendredi-29-mai-2026/ar-AA24mxEr?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.bb45680e57d4aa45a1b7137279919a75&pid=Wdp",
+      "msn_source_name": "Aufeminin",
+      "refs": [
+        {
+          "label": "MSN · Aufeminin — Après la canicule, les orages arrivent : 13 départements placés en vigilance par Météo France, ce vendredi 29 mai 2026",
+          "url": "https://www.msn.com/fr-fr/actualite/france/après-la-canicule-les-orages-arrivent-13-départements-placés-en-vigilance-par-météo-france-ce-vendredi-29-mai-2026/ar-AA24mxEr?ocid=00000000"
+        },
+        {
+          "label": "Discover · lanouvellerepublique.fr — Météo : la canicule va progressivement laisser place aux orages, 13 départements placés en vigilance jaune",
+          "url": "https://www.lanouvellerepublique.fr/a-la-une/meteo-la-canicule-va-progressivement-laisser-place-aux-orages-13-departements-places-en-vigilance-jaune-1780051807"
+        },
+        {
+          "label": "GNews · lanouvellerepublique.fr — Météo : la canicule va progressivement laisser place aux orages, 13 départements placés en vigilance jaune",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNekJLU0drbkphejA0U0ZmWHN2TXFzam1lSXpzSXpmRENBTDhvR0p3M05COWs2b2xQdzY1U0Y0dDFxX2x0dU9vNld5dk14UEVUYlRkSG9OaUZrWTF1QmhFQzNfaTh5eFZtZGtJVnMyd2RlUTYyUmcybXNBTjZ5YnljTVEyUEgxU1JwdGVjcjVjQlp2U3hiQUhHeWl6VTVhRTlMVjlsX2FTUGYwR2ZqSWNZbXJ1ZzlvYkl5TEt1RnRNbGpoT3pvMnNGQy1VdUlrMmpTV1VxMDhRWWJySkg5UDB0MW5UalNCY2JWMEg5NHdpcjc?oc=5"
+        },
+        {
+          "label": "GNews · Roole Média — Prix des carburants : voici les tarifs en France ce vendredi 29 mai 2026",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRUF1Q2F6MHUtazVNc2RsaFYyVXoyRzVJazR6Nml1alA3WURoZVZndk9tT2luM0VKa1pCbk5qaldmVUtzb2EyTmI2Ykg5MXh0ZXhQamhQb2lZWENNTm5LakYwZTVtN3hTQ2ljNXVtcXR0Y3g1ak5TV2p4R01iZkhJQm5UbWxnazFGWHdnakNGTTJZSjNFeWNrS1l2Z1U5Wk1RaTliMENLc1lOa05tTlBPeXVnRQ?oc=5"
+        },
+        {
+          "label": "GNews · Futura, le média qui explore le monde — Après les températures extrêmes de mai, que prévoit la météo en juin ?",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2tmUkN5YTN4N2dKeWkyS243V0ZfMjJrQjdBaWpGYXVZazQwVDhOUHFyRmhLLW00TnRHSHZQWG9ZTmJyUzRhYkdyaTRpQjNpX1BqRm5YLS1Fd191RmRxRjU2VWlhZkFyYmtaRnhsbE1GUzN2Mkd4dW5XNFNtTklQeG5zSWhZNnA0Nk1tMmZMR1g3ejVZWXVwNU5kbTNLZkZfU2FmZEpPVm1wRjI5MThyc0N5VG02MnhVcHFPVWdTbw?oc=5"
+        },
+        {
+          "label": "Reddit · r/musique — Places AYA 30/05 STADE DE FRANCE",
+          "url": "https://www.reddit.com/r/musique/comments/1toj1e1/places_aya_3005_stade_de_france/"
+        },
+        {
+          "label": "Reddit · r/actualite — Atari déménage au Luxembourg après 25 ans en France",
+          "url": "https://www.reddit.com/r/actualite/comments/1tquqeo/atari_déménage_au_luxembourg_après_25_ans_en/"
+        }
+      ],
+      "discover_category": "/News/Weather",
+      "discover_entities": [
+        "Canicule",
+        "Grêle",
+        "Météo-France",
+        "Orage"
+      ]
+    },
+    {
+      "id": "s21",
+      "rank": 21,
       "title": "« Je suis chez moi où que je sois » : à 77 ans, Daniel Guichard est l'homme le plus heureux à bord de son camping-car",
       "theme": "lifestyle",
-      "score": 32,
-      "tier": "medium",
+      "score": 28,
+      "tier": "low",
       "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · engagement MSN élevé.",
       "signals": [
         {
@@ -1757,6 +2532,16 @@
           "name": "MSN engagement",
           "value": "100/100",
           "fill": 100
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -1766,7 +2551,9 @@
         "gnews": 0.0,
         "msn": 100.0,
         "x": 0.0,
-        "total": 32.3
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 28.1
       },
       "msn_url": "https://www.msn.com/fr-fr/lifestyle/voyage/je-suis-chez-moi-où-que-je-sois-à-77-ans-daniel-guichard-est-l-homme-le-plus-heureux-à-bord-de-son-camping-car/ar-AA24eG5C?ocid=00000000",
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24ev3p.img",
@@ -1787,12 +2574,12 @@
       ]
     },
     {
-      "id": "s18",
-      "rank": 18,
+      "id": "s22",
+      "rank": 22,
       "title": "Guerre au Moyen-Orient : Donald Trump dit être sur le point de prendre \"sa décision finale\" sur un possible accord avec l'Iran",
       "theme": "actualite",
-      "score": 31,
-      "tier": "medium",
+      "score": 28,
+      "tier": "low",
       "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (7 médias).",
       "signals": [
         {
@@ -1851,6 +2638,16 @@
           "name": "MSN engagement",
           "value": "15/100",
           "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -1860,7 +2657,9 @@
         "gnews": 97.0,
         "msn": 15.0,
         "x": 0.0,
-        "total": 30.6
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 28.0
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/monde/guerre-au-moyen-orient-donald-trump-dit-être-sur-le-point-de-prendre-sa-décision-finale-sur-un-possible-accord-avec-l-iran/ar-AA24mVUR?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.dc3dfcb3d703daba1d02d77d663626b5&pid=Wdp",
@@ -1895,105 +2694,11 @@
       ]
     },
     {
-      "id": "s19",
-      "rank": 19,
-      "title": "« C'est incurable » : Camille Cerf vit au quotidien la même situation qu'environ 11 % des femmes en France",
-      "theme": "divertissement",
-      "score": 31,
-      "tier": "medium",
-      "rationale": "Présent sur Google Discover · présent sur Google Trends · repris sur Google Actualités.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "18/65"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "200"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "71+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 17.7",
-          "fill": 61
-        },
-        {
-          "name": "Google News",
-          "value": "1 média",
-          "fill": 35
-        },
-        {
-          "name": "Google Trends",
-          "value": "200",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "32/100",
-          "fill": 32
-        }
-      ],
-      "score_breakdown": {
-        "discover": 61.8,
-        "trends": 0.5,
-        "wiki": 0.0,
-        "gnews": 35.0,
-        "msn": 32.0,
-        "x": 0.0,
-        "total": 30.6
-      },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/c-est-incurable-camille-cerf-vit-au-quotidien-la-même-situation-qu-environ-11-des-femmes-en-france/ar-AA24aZsO?ocid=00000000",
-      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24aDg8.img",
-      "msn_source_name": "Purepeople",
-      "refs": [
-        {
-          "label": "MSN · Purepeople — « C'est incurable » : Camille Cerf vit au quotidien la même situation qu'environ 11 % des femmes en France",
-          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/c-est-incurable-camille-cerf-vit-au-quotidien-la-même-situation-qu-environ-11-des-femmes-en-france/ar-AA24aZsO?ocid=00000000"
-        },
-        {
-          "label": "Discover · Linternaute.com — On en trouve partout en France, peu de gens savent ce qu'ils recherchent dans le jardin",
-          "url": "https://www.linternaute.com/bricolage/id/10586194-.../"
-        },
-        {
-          "label": "GNews · Ouest-France — Les arbres poussent plus vite en ville qu’au milieu de la forêt, mais ce n’est pas forcément une bonne nouvelle - Ouest-France",
-          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPSmJ3bmp4UzBSNWtOVENYQ2F2alFUTXlRaWhPTHhmVG85TnFZTVBlZTB1NV9NNlU2YWpVZ0NYRGFha2dyZ3hUWERERHpGY1JtZnY5QXUyTE15amdUeG4tUVl5RE5zdjMzUjFrOG00VERMMUV6cUJTZl9NUXlTa09fbHAzRVFNbm0yemlqQ1g5X0hTcllMRkIwMDJWbmxFMk9mUERjQU5mS294RGc1eThjeVpGR2h0RE8wcXEzbzVOeUpSeWduWVpMaVk1RGttN29hUW13S2QtYm5JYzBjM1Z6cWNMeXJnaF9WaFN2VF96SV90cXN2Qlc0UXlQdFYzTXVwZ1RVcWRhMnlpbXpka3BKNFhJTi1qMmVKakVWb2NjZExFdFFXaldvdQ?oc=5"
-        }
-      ],
-      "discover_category": "/Pets & Animals/Pets/Reptiles & Amphibians",
-      "discover_entities": [
-        "Jardin à la française",
-        "Serpents"
-      ]
-    },
-    {
-      "id": "s20",
-      "rank": 20,
+      "id": "s23",
+      "rank": 23,
       "title": "La Russie vient de perdre la guerre : l’Ukraine lance une offensive totale",
       "theme": "actualite",
-      "score": 29,
+      "score": 25,
       "tier": "low",
       "rationale": "Couvert par 3 médias · engagement MSN élevé.",
       "signals": [
@@ -2043,6 +2748,16 @@
           "name": "MSN engagement",
           "value": "100/100",
           "fill": 100
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -2052,7 +2767,9 @@
         "gnews": 70.0,
         "msn": 100.0,
         "x": 0.0,
-        "total": 28.6
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 25.5
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/monde/la-russie-vient-de-perdre-la-guerre-l-ukraine-lance-une-offensive-totale/vi-AA24lTku?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.3fb6aafd4eda94d17eefa88b61276908&pid=Wdp",
@@ -2087,11 +2804,11 @@
       ]
     },
     {
-      "id": "s21",
-      "rank": 21,
+      "id": "s24",
+      "rank": 24,
       "title": "Guerre en Ukraine : les dépenses militaires de la Russie menacent de faire exploser le budget de Poutine",
       "theme": "finance",
-      "score": 29,
+      "score": 25,
       "tier": "low",
       "rationale": "Couvert par 3 médias · engagement MSN élevé.",
       "signals": [
@@ -2141,6 +2858,16 @@
           "name": "MSN engagement",
           "value": "100/100",
           "fill": 100
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -2150,7 +2877,9 @@
         "gnews": 70.0,
         "msn": 100.0,
         "x": 0.0,
-        "total": 28.6
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 25.5
       },
       "msn_url": "https://www.msn.com/fr-fr/finance/autres/guerre-en-ukraine-les-dépenses-militaires-de-la-russie-menacent-de-faire-exploser-le-budget-de-poutine/ar-AA24mdpV?ocid=00000000",
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24lJdj.img",
@@ -2185,11 +2914,11 @@
       ]
     },
     {
-      "id": "s22",
-      "rank": 22,
+      "id": "s25",
+      "rank": 25,
       "title": "Voici pourquoi vous devriez cesser d'écrire « cordialement » à la fin de vos mails, selon une experte en langue française",
       "theme": "lifestyle",
-      "score": 28,
+      "score": 25,
       "tier": "low",
       "rationale": "Couvert par 3 médias · engagement MSN élevé.",
       "signals": [
@@ -2239,6 +2968,16 @@
           "name": "MSN engagement",
           "value": "100/100",
           "fill": 100
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -2248,7 +2987,9 @@
         "gnews": 70.0,
         "msn": 100.0,
         "x": 0.0,
-        "total": 28.4
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 25.3
       },
       "msn_url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/voici-pourquoi-vous-devriez-cesser-d-écrire-cordialement-à-la-fin-de-vos-mails-selon-une-experte-en-langue-française/ar-AA24a2gm?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.1aaa23c730a4cd3f49bb9218a39c509e&pid=Wdp",
@@ -2281,109 +3022,11 @@
       ]
     },
     {
-      "id": "s23",
-      "rank": 23,
-      "title": "Présidentielle 2027 : selon un sondage, Retailleau à 7 %, Zemmour à 5 %, Dupont-Aignan à 2 %, la droite serait distancée par Bardella",
-      "theme": "actualite",
-      "score": 28,
-      "tier": "low",
-      "rationale": "Présent sur Google Discover · couvert par 4 médias.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "8.3/65"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "4 médias"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "12+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 8.3",
-          "fill": 33
-        },
-        {
-          "name": "Google News",
-          "value": "4 médias",
-          "fill": 79
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "21/100",
-          "fill": 21
-        }
-      ],
-      "score_breakdown": {
-        "discover": 33.1,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 79.2,
-        "msn": 21.0,
-        "x": 0.0,
-        "total": 28.3
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/other/présidentielle-2027-selon-un-sondage-retailleau-à-7-zemmour-à-5-dupont-aignan-à-2-la-droite-serait-distancée-par-bardella/ar-AA24l3jR?ocid=00000000",
-      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1UpMpL.img",
-      "msn_source_name": "So Busy Girls",
-      "refs": [
-        {
-          "label": "MSN · So Busy Girls — Présidentielle 2027 : selon un sondage, Retailleau à 7 %, Zemmour à 5 %, Dupont-Aignan à 2 %, la droite serait distancée par Bardella",
-          "url": "https://www.msn.com/fr-fr/actualite/other/présidentielle-2027-selon-un-sondage-retailleau-à-7-zemmour-à-5-dupont-aignan-à-2-la-droite-serait-distancée-par-bardella/ar-AA24l3jR?ocid=00000000"
-        },
-        {
-          "label": "Discover · Sud Ouest — Présidentielle 2027 : le maintien de Philippe et Attal qualifierait Mélenchon pour le second tour, selon un sondage",
-          "url": "https://www.sudouest.fr/france/presidentielle-2027-le-maintien-de-philippe-et-attal-qualifierait-melenchon-pour-le-second-tour-selon-un-sondage-29268840.php"
-        },
-        {
-          "label": "GNews · Le Figaro — Présidentielle 2027 : match serré Attal-Philippe loin derrière Bardella, Mélenchon en embuscade... Découvrez le sondage du Figaro",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNUFNhdkJDSEUxMGFyVHlHSkp4TzFDLThtN2J4RTM5QzZhd3RQd3ZmdFhsNU5kLTJyV1pNRFdUcUp3R29ZVDFaOXdKSi01X0pibE85UGhYTUNxdWhUSGhnejNzS2hIN2ZrT1RHenBHZ29paXl6YW9fZDVGX1pubVdtaVJPWHRhbklZQUpGNDRUQlRuSWVESmt1ZUk2YnRlX2xYUWdLbDdqcnVkd19td1ozcDVjNTVFcVpjNzltbW5kNVBqdVZFYXl1cGxmemwwQ3JkSUR6TmJ0STVuNU9rZmZ2eDhLYzJ6aVQxYTJhalBhVzE5SVFnUGVhOWVB?oc=5"
-        },
-        {
-          "label": "GNews · CNews — Présidentielle 2027 : le RN largement en tête, Gabriel Attal progresse mais reste derrière Edouard Philippe selon un sondage",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR3lfQzZPMVBpVW1zQTVweDdsZnBEZlR5c3VWaGtpb2k1UlYtb3MzbjhXb2JHUmxqbjBUQWphNXRucmFPZms1SFJqVm1oajRrZTA0ZnA1U3RLZzhIMXZPMlVaX1RkSDk0aWhIX24yc0NIUjVkWEY3V3pSSnNZU2xrWGZJb3dPd3ExSG1XcEwxOWtadUNVdjM3dnllQnJCTWRSaV9pLWtRamVRV3lZdjRnRXZmSE1GOF9u?oc=5"
-        },
-        {
-          "label": "GNews · Journal des Femmes — Relation père-fils : ce simple rituel serait le secret d'un lien solide, selon une étude",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT25QM00tUlptLXo3dFlLOG5LZ3dnMHdQVEJuNkZpSlZjanZOZDhVbnlMWWVHV016MG0wOGVmdXNCLVNTUjJub2k2TUFMSlZKQm5zamtJS0VkSElfWWFnMkxXRFh0RmViVU9EVTBuYjBYTUg0a0VJb0c2WGhjZWFoWWVFV01rbkdfWlM4TmN4MnlSanFrbDJURjBBcHlNNU0?oc=5"
-        }
-      ],
-      "discover_category": "/News/Politics",
-      "discover_entities": [
-        "Gabriel Attal",
-        "Jean-Luc Mélenchon",
-        "Édouard Philippe"
-      ]
-    },
-    {
-      "id": "s24",
-      "rank": 24,
+      "id": "s26",
+      "rank": 26,
       "title": "Avec sa lettre à Emmanuel Macron, un lycéen de 17 ans fait annuler les épreuves du bac au Moyen-Orient",
       "theme": "actualite",
-      "score": 27,
+      "score": 25,
       "tier": "low",
       "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (5 médias).",
       "signals": [
@@ -2443,6 +3086,16 @@
           "name": "MSN engagement",
           "value": "15/100",
           "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -2452,7 +3105,9 @@
         "gnews": 86.3,
         "msn": 15.0,
         "x": 0.0,
-        "total": 27.1
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 24.8
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/avec-sa-lettre-à-emmanuel-macron-un-lycéen-de-17-ans-fait-annuler-les-épreuves-du-bac-au-moyen-orient/ar-AA24nzKW?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.6041230d0be4b7de371154a8509a2c82&pid=Wdp",
@@ -2486,11 +3141,11 @@
       ]
     },
     {
-      "id": "s25",
-      "rank": 25,
+      "id": "s27",
+      "rank": 27,
       "title": "La Suède les disait dépassés… L’Ukraine les a lâchés sur la Russie",
       "theme": "actualite",
-      "score": 27,
+      "score": 24,
       "tier": "low",
       "rationale": "Couvert par 2 médias · engagement MSN élevé.",
       "signals": [
@@ -2540,6 +3195,16 @@
           "name": "MSN engagement",
           "value": "100/100",
           "fill": 100
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -2549,7 +3214,9 @@
         "gnews": 57.1,
         "msn": 100.0,
         "x": 0.0,
-        "total": 26.6
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 23.7
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/monde/la-suède-les-disait-dépassés-l-ukraine-les-a-lâchés-sur-la-russie/vi-AA249QxJ?ocid=00000000",
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24azkI.img",
@@ -2580,11 +3247,11 @@
       ]
     },
     {
-      "id": "s26",
-      "rank": 26,
+      "id": "s28",
+      "rank": 28,
       "title": "Donald Trump empêché par la justice d’indemniser ses partisans poursuivis en justice sous Joe Biden",
       "theme": "actualite",
-      "score": 26,
+      "score": 24,
       "tier": "low",
       "rationale": "Présent dans le top Wikipedia · couvert par 4 médias · engagement MSN élevé.",
       "signals": [
@@ -2639,6 +3306,16 @@
           "name": "MSN engagement",
           "value": "81/100",
           "fill": 81
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -2648,7 +3325,9 @@
         "gnews": 79.2,
         "msn": 81.1,
         "x": 0.0,
-        "total": 26.4
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 23.5
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/monde/donald-trump-empêché-par-la-justice-d-indemniser-ses-partisans-poursuivis-en-justice-sous-joe-biden/ar-AA24nCFY?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.17b39e2af59c547a92fde3d54c40749c&pid=Wdp",
@@ -2683,11 +3362,11 @@
       ]
     },
     {
-      "id": "s27",
-      "rank": 27,
+      "id": "s29",
+      "rank": 29,
       "title": "Qui est Andrey Kiyko, tueur en série russe envoyé sur le front en Ukraine et traqué par les autorités après sa désertion ?",
       "theme": "actualite",
-      "score": 26,
+      "score": 23,
       "tier": "low",
       "rationale": "Couvert par 3 médias · engagement MSN élevé.",
       "signals": [
@@ -2737,6 +3416,16 @@
           "name": "MSN engagement",
           "value": "100/100",
           "fill": 100
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -2746,7 +3435,9 @@
         "gnews": 70.0,
         "msn": 100.0,
         "x": 0.0,
-        "total": 25.5
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 22.8
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/monde/qui-est-andrey-kiyko-tueur-en-série-russe-envoyé-sur-le-front-en-ukraine-et-traqué-par-les-autorités-après-sa-désertion/ar-AA24kjTP?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.a6d386491142eb9161a08db4c118adbc&pid=Wdp",
@@ -2779,11 +3470,11 @@
       ]
     },
     {
-      "id": "s28",
-      "rank": 28,
+      "id": "s30",
+      "rank": 30,
       "title": "Les pyramides n'ont pas été construites par les Égyptiens, selon une nouvelle étude",
       "theme": "actualite",
-      "score": 24,
+      "score": 22,
       "tier": "low",
       "rationale": "Couvert par 3 médias · engagement MSN élevé.",
       "signals": [
@@ -2833,6 +3524,16 @@
           "name": "MSN engagement",
           "value": "65/100",
           "fill": 65
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
         }
       ],
       "score_breakdown": {
@@ -2842,7 +3543,9 @@
         "gnews": 70.0,
         "msn": 65.2,
         "x": 0.0,
-        "total": 24.0
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 21.5
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/technologie-et-sciences/les-pyramides-n-ont-pas-été-construites-par-les-égyptiens-selon-une-nouvelle-étude/vi-AA23Dqhf?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.5ffcff9ded7765a90278c3782885d648&pid=Wdp",
@@ -2872,197 +3575,6 @@
       "discover_category": "/News",
       "discover_entities": [
         "Grand Est"
-      ]
-    },
-    {
-      "id": "s29",
-      "rank": 29,
-      "title": "On disait que l’Ukraine ne reprendrait jamais la Crimée... Voici ce qui s’est passé",
-      "theme": "actualite",
-      "score": 23,
-      "tier": "low",
-      "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "2.8/65"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "108+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 2.8",
-          "fill": 12
-        },
-        {
-          "name": "Google News",
-          "value": "1 média",
-          "fill": 35
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        }
-      ],
-      "score_breakdown": {
-        "discover": 12.3,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 35.0,
-        "msn": 100.0,
-        "x": 0.0,
-        "total": 23.3
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/on-disait-que-l-ukraine-ne-reprendrait-jamais-la-crimée-voici-ce-qui-s-est-passé/vi-AA24mfM7?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.f9672d0d8e29a082826ec931d6f9e33c&pid=Wdp",
-      "msn_source_name": "Le Spectacle Militaire",
-      "refs": [
-        {
-          "label": "MSN · Le Spectacle Militaire — On disait que l’Ukraine ne reprendrait jamais la Crimée... Voici ce qui s’est passé",
-          "url": "https://www.msn.com/fr-fr/actualite/monde/on-disait-que-l-ukraine-ne-reprendrait-jamais-la-crimée-voici-ce-qui-s-est-passé/vi-AA24mfM7?ocid=00000000"
-        },
-        {
-          "label": "Discover · CNews — Guerre en Ukraine : la Russie «n'a jamais menacé et ne menace pas les pays européens», affirme Vladimir Poutine",
-          "url": "https://www.cnews.fr/monde/2026-05-29/guerre-en-ukraine-la-russie-na-jamais-menace-et-ne-menace-pas-les-pays-europeens"
-        },
-        {
-          "label": "GNews · CNews — En direct Guerre en Ukraine : la Russie «n'a jamais menacé et ne menace pas les pays européens», affirme Vladimir Poutine",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaU1jcGM2VjNqTFZsNk9sdS1YanVNdlJBaWk4cmNMZUV6VkxKTFhIcjJFQkJ4S0ZrTkxxVVpweDBWSnVKNFhZQ0RlU2ZnNkpuenh5V2hrY2RuRkVfUld6MzhTdXZ4MTdMbkZYQkpYTWJ5cnQ0aXpiSkpNcFJOMUkyMHlVZG9uX2lvOW9NSWZyNVRZNEF4dEJqR3B1V1ZjUzhZSGhJeW5qcC1OUlIzM05Ha1RqVjRkQ0x1dmc?oc=5"
-        }
-      ],
-      "discover_category": "/Sensitive Subjects",
-      "discover_entities": [
-        "Russie",
-        "Ukraine",
-        "Vladimir Poutine"
-      ]
-    },
-    {
-      "id": "s30",
-      "rank": 30,
-      "title": "Affaire Patrick Bruel : le point complet sur la situation",
-      "theme": "divertissement",
-      "score": 23,
-      "tier": "low",
-      "rationale": "Présent dans le top Wikipedia · couvert par 4 médias.",
-      "signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "4 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "4k vues"
-        },
-        {
-          "source": "news",
-          "label": "msn",
-          "value": "8+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.2",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "4 médias",
-          "fill": 79
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "4k vues/h",
-          "fill": 21
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "15/100",
-          "fill": 15
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.9,
-        "trends": 0.0,
-        "wiki": 21.6,
-        "gnews": 79.2,
-        "msn": 15.0,
-        "x": 0.0,
-        "total": 22.6
-      },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/affaire-patrick-bruel-le-point-complet-sur-la-situation/ar-AA24lJZS?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.97d387f6fc2d98dc07ab6b5df3cf2f86&pid=Wdp",
-      "msn_source_name": "Télé Loisirs",
-      "refs": [
-        {
-          "label": "MSN · Télé Loisirs — Affaire Patrick Bruel : le point complet sur la situation",
-          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/affaire-patrick-bruel-le-point-complet-sur-la-situation/ar-AA24lJZS?ocid=00000000"
-        },
-        {
-          "label": "Discover · YouTube — Affaire Patrick Bruel: le chanteur ne participera pas à la prochaine édition des Enfoirés en 2027",
-          "url": "https://www.youtube.com/watch?v=m4waSF49Ss4"
-        },
-        {
-          "label": "GNews · Libération — Affaire Patrick Bruel : Sony, Nagui et RFM coupent les ponts avec le chanteur, qui quitte «les Enfoirés",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOLXpOYnZCanI5a05UMDBKV19xSFhKQjN6Ulhfb2MtT251ODFzc3JHRlFRUFpObV9kemNrc245aGl6MVpfVXNSR29kU0pPS1ExY2tLYVVsYi15aTlNcS1BQVd1MUxkdmQ2alU4SzJKdVdENmR6a2dHTndQWk5oa2xldlQ1QWpwdkdJcmxVX3U0aS05UXIwRWd6bjcwYy1TVFNKcGRGQzJWSkZ1c3RRNmFHeUF3QnV4STVNY21QVVBfeHVmWWRFeEJKWktrSTVrd1puY2JZQ215X3pDczVEenE4TUdnbWs2dXFpQnY0cmh1Nno2bi1oWFFiNS1nNlBGRmNxM3dvNFdsZmVqaEVEOTFNeQ?oc=5"
-        },
-        {
-          "label": "GNews · franceinfo — Annulation des concerts de Patrick Bruel : le directeur du festival Grandes Marées, en Normandie, fait état d'un \"grand soulagement\"",
-          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVGJJWDJVQTh1NHlaS2xkV29uQkJVYTBkbHJ6ejFoX3pMTGtWSXN0eDFyVkk5ZGNPU3gyN0ZnMDFXaU5TUHo2ampycWw2azZ5OGpQX0xoOWRWUzdyQ0N2Z3lPbU1zZ0s4NmhXeHNaM2hTaEJTUnA0SFlGSFRIOFBJTGQtdzExYWhLNlBwcDZHODNrTEJaZDBkUWhMa0I5NDFtMkF0NVpMbmNkQmd4a2h4UUd0aXNuVDlmdDBKQzBGdTVkQjE0T3Mtd3Vsdk9KN2lXelUwS2w4MzkzcGVaVTREbjc3dEkxczZRSWZmN3ZFZlVkckdBcWN3NmpVZDNNakpBMGFkUmxMU0JQOWtWREFjeVVUS0k1RjNGZFpXRmRwa1MtX0stQl9aS1B3QWFfc01UaElkM1FUdEtJdkY5ZHNnTlBlQmpQWEVjS0E?oc=5"
-        },
-        {
-          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZHV5MXBWYVBwai1HRFBTMURfZ2NBYTBLYnhrcTVKQTVyVDlobHl1dnNiVGx3d2NaU0RFNUUwalVqbUVxdWR2NXdUa0UtYzlKbW9DdElpelVuRUt5OHFiaUVCMDFZeVBPNWVBN25abkNBUmluM1lSZFNyWjJLeG5YMDE0YkJYUWVJLWc5WEQ0Z0FCOFN5N2JRbFhULUhDUzBPM1lsNm14N05SVlJhbEZhRlZXMVF4SDFNUDk1TzRYNDJnNHc?oc=5"
-        }
-      ],
-      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
-      "discover_entities": [
-        "Patrick Bruel"
       ]
     }
   ],
@@ -3451,7 +3963,7 @@
       "members_count": 2,
       "articles_count": 4,
       "total_score": 5.4,
-      "avg_score": 1.4,
+      "avg_score": 1.3,
       "top_articles": [
         {
           "title": "Jul au Vélodrome: la femme de l’ombre du rap aux premières loges",
@@ -3750,7 +4262,7 @@
       "name": "Extrême droite",
       "articles_count": 6,
       "total_score": 41.7,
-      "avg_score": 6.9,
+      "avg_score": 7.0,
       "top_articles": [
         {
           "title": "Au RN, l’explosion du « dossier inflammable » : Jordan Bardella enterre la réforme des retraites de Marine Le Pen et l’âge légal de départ",
