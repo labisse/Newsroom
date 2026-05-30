@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Évolution des tendances · Editorial Signal · The Black Room</title>
+    <meta
+      name="description"
+      content="Historique des topics et sujets — qui monte, qui s'éteint, qui persiste"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="styles/tokens.css?v=tbr5" />
+    <link rel="stylesheet" href="styles/base.css?v=tbr5" />
+    <link rel="stylesheet" href="styles/components.css?v=tbr11" />
+    <link rel="stylesheet" href="styles/tendances.css?v=tbr2" />
+    <link rel="stylesheet" href="styles/evolution.css?v=tbr1" />
+    <script>
+      (function () {
+        try {
+          var raw = localStorage.getItem("tbr-auth-session");
+          var session = raw ? JSON.parse(raw) : null;
+          if (!session || typeof session.expires !== "number" || Date.now() >= session.expires) {
+            document.documentElement.classList.add("is-locked");
+          }
+        } catch (e) {
+          document.documentElement.classList.add("is-locked");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="auth-gate" data-auth-root hidden>
+      <div class="auth-gate__backdrop"></div>
+      <div class="auth-gate__panel" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+        <div class="auth-gate__brand">
+          <img class="auth-gate__brand-logo" src="assets/logo-tbr.svg" alt="" />
+          <div class="auth-gate__brand-text">
+            <span class="auth-gate__brand-product">Editorial Signal</span>
+            <span class="auth-gate__brand-tag">The <em>Black</em> Room</span>
+          </div>
+        </div>
+        <h1 class="auth-gate__title" id="auth-title">Accès restreint</h1>
+        <form class="auth-gate__form" data-auth-form>
+          <label class="auth-gate__field">
+            <span class="auth-gate__label">Email</span>
+            <input class="auth-gate__input" type="email" name="email" required autocomplete="email" placeholder="vous@theblackroom.io" />
+          </label>
+          <label class="auth-gate__field">
+            <span class="auth-gate__label">Mot de passe</span>
+            <input class="auth-gate__input" type="password" name="password" required autocomplete="current-password" />
+          </label>
+          <p class="auth-gate__error" data-auth-error hidden></p>
+          <button class="btn btn--primary auth-gate__submit" type="submit">Accéder au briefing</button>
+        </form>
+      </div>
+    </div>
+
+    <header class="shell-header">
+      <a class="brand" href="index.html" aria-label="The Black Room — Editorial Signal">
+        <img class="brand__logo" src="assets/logo-tbr.svg" alt="" />
+        <span class="brand__text">
+          <span class="brand__product">Editorial Signal</span>
+          <span class="brand__byline">The <em>Black</em> Room</span>
+        </span>
+      </a>
+      <nav class="shell-nav" aria-label="Navigation principale">
+        <a class="shell-nav__link" href="index.html">Flux global</a>
+        <a class="shell-nav__link" href="tendances.html">Sources</a>
+        <a class="shell-nav__link" href="categories.html">Catégories</a>
+        <a class="shell-nav__link is-active" href="evolution.html">Évolution</a>
+        <a class="shell-nav__link" href="projects.html">Projets</a>
+      </nav>
+      <div class="shell-user">
+        <span class="shell-user__role">Rédac chef</span>
+        <button class="shell-user__avatar" type="button" data-auth-logout title="Cliquer pour se déconnecter"></button>
+      </div>
+    </header>
+
+    <main class="tendances">
+      <section class="tendances-hero">
+        <p class="tendances-hero__eyebrow" id="evo-eyebrow">Évolution · chargement…</p>
+        <h1 class="tendances-hero__title">
+          Ce qui <em>monte</em>, ce qui dure, ce qui s'éteint
+        </h1>
+        <p class="tendances-hero__lede">
+          Historique des 7 derniers jours pour identifier les tendances montantes
+          (candidats anticipation Discover), les sujets persistants, et la santé
+          du pipeline.
+        </p>
+      </section>
+
+      <!-- Layout en 4 sections empilées -->
+
+      <!-- 1. TOPICS QUI MONTENT -->
+      <section class="evo-section">
+        <header class="evo-section__head">
+          <h2 class="evo-section__title">📈 Topics qui montent (24h)</h2>
+          <p class="evo-section__hint">
+            Variation du nombre d'articles par entité / cluster / catégorie
+            Discover dans les dernières 24h. Les <strong>nouvelles entrées</strong>
+            (delta = current) sont des candidats anticipation forts.
+          </p>
+        </header>
+        <div class="evo-empty" id="evo-empty-topics" hidden>
+          <strong>Pas encore assez d'historique.</strong>
+          <p>
+            Il faut au moins 2 snapshots du pipeline (un toutes les 6h) pour
+            calculer les variations. Reviens dans quelques heures.
+          </p>
+        </div>
+        <table class="evo-table" id="evo-topics-table" hidden>
+          <thead>
+            <tr>
+              <th>Rang</th>
+              <th>Topic</th>
+              <th>Type</th>
+              <th class="ta-right">Articles</th>
+              <th class="ta-right">Δ 24h</th>
+              <th class="ta-right">% var</th>
+            </tr>
+          </thead>
+          <tbody id="evo-topics-body"></tbody>
+        </table>
+      </section>
+
+      <!-- 2. SUJETS PERSISTANTS -->
+      <section class="evo-section">
+        <header class="evo-section__head">
+          <h2 class="evo-section__title">⏳ Sujets persistants (3 derniers jours)</h2>
+          <p class="evo-section__hint">
+            Sujets qui sont apparus dans plusieurs snapshots consécutifs. Un sujet
+            avec <strong>≥3 apparitions et score en hausse</strong> = signal
+            éditorial durable, vs sujet ponctuel d'1 cycle.
+          </p>
+        </header>
+        <div class="evo-empty" id="evo-empty-sujets" hidden>
+          <strong>Pas encore de sujet ré-apparu.</strong>
+          <p>Au moins 2 snapshots nécessaires pour identifier les persistants.</p>
+        </div>
+        <table class="evo-table" id="evo-sujets-table" hidden>
+          <thead>
+            <tr>
+              <th>Sujet</th>
+              <th class="ta-center">Apparitions</th>
+              <th class="ta-right">Score max</th>
+              <th class="ta-right">Score Δ</th>
+              <th>Catégorie</th>
+            </tr>
+          </thead>
+          <tbody id="evo-sujets-body"></tbody>
+        </table>
+      </section>
+
+      <!-- 3. HEATMAP CATÉGORIES × SOURCES -->
+      <section class="evo-section">
+        <header class="evo-section__head">
+          <h2 class="evo-section__title">🔥 Catégories qui s'activent (24h)</h2>
+          <p class="evo-section__hint">
+            Variation du nombre d'items par (catégorie canonique × source) dans
+            les dernières 24h. Cellules rouge = catégorie en hausse sur la source.
+          </p>
+        </header>
+        <div class="evo-empty" id="evo-empty-heatmap" hidden>
+          <strong>Heatmap en attente d'historique.</strong>
+        </div>
+        <div class="evo-heatmap" id="evo-heatmap"></div>
+      </section>
+
+      <!-- 4. PULSE DES SOURCES (7j) -->
+      <section class="evo-section">
+        <header class="evo-section__head">
+          <h2 class="evo-section__title">📊 Pulse des sources (7 jours)</h2>
+          <p class="evo-section__hint">
+            Évolution du nombre d'items collectés par source à chaque snapshot.
+            Une courbe à plat = source potentiellement HS ; une hausse = volume
+            d'actu qui monte.
+          </p>
+        </header>
+        <div class="evo-empty" id="evo-empty-sources" hidden>
+          <strong>Pas encore d'historique sources.</strong>
+        </div>
+        <div class="evo-sources" id="evo-sources"></div>
+      </section>
+    </main>
+
+    <script type="module" src="scripts/auth.js?v=tbr5"></script>
+    <script type="module" src="scripts/evolution.js?v=tbr1"></script>
+  </body>
+</html>

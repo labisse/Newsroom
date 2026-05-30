@@ -91,6 +91,7 @@ jobs:
           else
             python -m server.cli db-init
             python -m server.cli db-snapshot
+            python -m server.cli db-export
           fi
 
       # Re-génère les insights de chaque projet pour qu'ils restent

@@ -442,6 +442,45 @@ def cmd_db_snapshot() -> int:
     return 0
 
 
+def cmd_db_export() -> int:
+    """Calcule les vues analytiques et écrit data/analytics/evolution.json."""
+    import json as _json
+    from server.config import DATA_DIR
+    from server.storage import analytics, timeseries
+
+    print("Editorial Signal — DB export analytics (PostgreSQL)\n")
+    if not timeseries.is_enabled():
+        print("✗ DATABASE_URL non définie.")
+        return 1
+
+    started = time.perf_counter()
+    try:
+        payload = analytics.build_evolution_payload()
+    except Exception as exc:  # noqa: BLE001
+        print(f"✗ {type(exc).__name__}: {exc}", file=sys.stderr)
+        traceback.print_exc()
+        return 1
+    elapsed = time.perf_counter() - started
+
+    out_dir = DATA_DIR / "analytics"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / "evolution.json"
+    out_path.write_text(
+        _json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    print(f"  ✓ Export terminé ({elapsed:.2f}s)")
+    if payload.get("available"):
+        print(f"    Topics 24h        : {len(payload['topics_24h'])}")
+        print(f"    Topics 48h        : {len(payload['topics_48h'])}")
+        print(f"    Sujets persistants: {len(payload['sujets_persistance'])}")
+        print(f"    Cat × source 24h  : {len(payload['category_momentum_24h'])}")
+        print(f"    Sources timeline  : {len(payload['source_timeline_7d'])}")
+    print(f"    Fichier           : {out_path}")
+    return 0
+
+
 def cmd_db_stats() -> int:
     """Affiche les stats par table : nb de lignes + premier/dernier snapshot."""
     from server.storage import timeseries
@@ -924,6 +963,10 @@ def main(argv: list[str] | None = None) -> int:
         "db-stats",
         help="Affiche les stats par table (rows + dates)",
     )
+    sub.add_parser(
+        "db-export",
+        help="Calcule les vues analytics → data/analytics/evolution.json",
+    )
 
     args = parser.parse_args(argv)
 
@@ -971,6 +1014,8 @@ def main(argv: list[str] | None = None) -> int:
         return cmd_db_snapshot()
     if args.cmd == "db-stats":
         return cmd_db_stats()
+    if args.cmd == "db-export":
+        return cmd_db_export()
 
     parser.print_help()
     return 2
