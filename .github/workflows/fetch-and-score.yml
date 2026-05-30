@@ -71,6 +71,9 @@ jobs:
           DISCOVERSNOOP_HOURS: 12
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YOUTUBE_REGION: FR
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USER_AGENT: "EditorialSignal/1.0 by /u/editorial_signal_bot"
         run: python -m server.cli fetch-all
 
       - name: Score

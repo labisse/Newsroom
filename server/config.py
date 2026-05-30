@@ -77,6 +77,14 @@ class Settings:
     youtube_api_key: str = _get("YOUTUBE_API_KEY")
     youtube_region: str = _get("YOUTUBE_REGION", "FR")
 
+    # Reddit OAuth (script app) — fallback RSS si vide
+    reddit_client_id: str = _get("REDDIT_CLIENT_ID")
+    reddit_client_secret: str = _get("REDDIT_CLIENT_SECRET")
+    reddit_user_agent: str = _get(
+        "REDDIT_USER_AGENT",
+        "EditorialSignal/1.0 by /u/editorial_signal_bot",
+    )
+
     # PostgreSQL time-series storage (DigitalOcean Managed Postgres)
     # Vide = storage désactivé (le pipeline continue sans logger en DB)
     database_url: str = _get("DATABASE_URL")

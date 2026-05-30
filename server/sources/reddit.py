@@ -1,8 +1,15 @@
 """Reddit fetcher : top posts /r/france + subs thématiques.
 
-Depuis 2023, Reddit a fermé son API JSON publique (403 sans OAuth).
-On utilise donc les **flux RSS** de chaque sub, qui restent ouverts
-sans authentification.
+DEUX MODES selon les credentials disponibles :
+
+  1. **OAuth (script app)** — si REDDIT_CLIENT_ID + REDDIT_CLIENT_SECRET
+     sont configurés. Marche partout (y compris IPs cloud / GitHub
+     Actions). Récupère score, num_comments, upvote_ratio.
+
+  2. **RSS public** (fallback) — sans credentials. Marche en local
+     depuis IP résidentielle, MAIS Reddit blackliste les IPs datacenter
+     (CI cloud) et renvoie alors un Atom vide sans erreur explicite.
+     Pas de score/upvotes (RSS Atom les expose pas).
 
 Reddit est un **anticipateur** clé pour Discover : Google indexe les
 posts/comments, et un pic de présence sur Reddit précède souvent
@@ -11,16 +18,10 @@ posts/comments, et un pic de présence sur Reddit précède souvent
 Couverture : /r/france (généraliste) + subs thématiques majeurs FR
 (politique, sciences, tech, jeux vidéo, cinéma, cuisine).
 
-Limitation du RSS vs JSON :
-  - Pas de count d'upvotes par post (RSS Reddit n'expose pas ce champ).
-  - On utilise donc le **rang dans le feed hot** comme proxy de
-    popularité (premier = plus chaud) + le **nombre de subs où le sujet
-    apparaît** comme signal de viralité cross-communautaire (équivalent
-    du gnews_count pour Google News).
-
 Format de retour :
   - posts[] avec title, url, subreddit, rank_in_sub, permalink,
-    published_at, domain (extrait du url externe), author
+    published_at, domain, author + (mode OAuth) score, num_comments,
+    upvote_ratio
   - Dédupliqués par URL externe avec compteur cross_subs
 """
 
@@ -34,6 +35,7 @@ from urllib.parse import urlparse
 
 import requests
 
+from server.config import settings
 from server.sources._common import now_iso, today_str, write_snapshot
 
 TIMEOUT_S = 12
@@ -158,15 +160,112 @@ def _fetch_sub(sub: str) -> list[dict[str, Any]]:
     return _parse_atom(response.text, sub=sub)
 
 
+# ---------------------------------------------------------------
+# Mode OAuth (script app) — utilisable depuis n'importe quelle IP
+# ---------------------------------------------------------------
+
+
+def _get_oauth_token() -> str | None:
+    """Récupère un access_token via client_credentials. None si pas configuré."""
+    if not (settings.reddit_client_id and settings.reddit_client_secret):
+        return None
+    try:
+        r = requests.post(
+            "https://www.reddit.com/api/v1/access_token",
+            auth=(settings.reddit_client_id, settings.reddit_client_secret),
+            data={"grant_type": "client_credentials"},
+            headers={"User-Agent": settings.reddit_user_agent},
+            timeout=TIMEOUT_S,
+        )
+        if r.status_code != 200:
+            return None
+        return r.json().get("access_token")
+    except (requests.RequestException, ValueError):
+        return None
+
+
+def _fetch_sub_oauth(sub: str, token: str) -> list[dict[str, Any]]:
+    """Fetch les posts 'hot' d'un sub via OAuth. Plus riche que le RSS
+    (score, num_comments, upvote_ratio, domain extrait)."""
+    url = f"https://oauth.reddit.com/r/{sub}/hot.json?limit=25"
+    try:
+        r = requests.get(
+            url,
+            headers={
+                "Authorization": f"Bearer {token}",
+                "User-Agent": settings.reddit_user_agent,
+            },
+            timeout=TIMEOUT_S,
+        )
+        if r.status_code in (403, 404):
+            return []
+        r.raise_for_status()
+        payload = r.json()
+    except (requests.RequestException, ValueError):
+        return []
+
+    out: list[dict[str, Any]] = []
+    children = payload.get("data", {}).get("children", [])
+    for rank, child in enumerate(children, start=1):
+        data = child.get("data") or {}
+        if data.get("stickied"):
+            continue
+        title = (data.get("title") or "").strip()
+        if not title:
+            continue
+        external_url = (
+            data.get("url_overridden_by_dest") or data.get("url") or ""
+        ).strip()
+        permalink_path = data.get("permalink") or ""
+        permalink = f"https://www.reddit.com{permalink_path}" if permalink_path else ""
+
+        is_self = bool(data.get("is_self")) or (
+            external_url.startswith("https://www.reddit.com/")
+            or external_url.startswith("https://old.reddit.com/")
+        )
+        primary_url = permalink if is_self else (external_url or permalink)
+
+        out.append(
+            {
+                "title": title,
+                "url": primary_url,
+                "external_url": external_url,
+                "permalink": permalink,
+                "subreddit": sub,
+                "rank_in_sub": rank,
+                "published_at": "",  # Pas dans la réponse OAuth de base
+                "author": data.get("author") or "",
+                "is_self": is_self,
+                "domain": (data.get("domain") or "").replace("self.", ""),
+                # Données enrichies vs RSS :
+                "score": int(data.get("score") or 0),
+                "num_comments": int(data.get("num_comments") or 0),
+                "upvote_ratio": float(data.get("upvote_ratio") or 0),
+            }
+        )
+    return out
+
+
 def fetch() -> dict[str, Any]:
-    """Fetch tous les subs, dédup par URL, compte la viralité cross-sub."""
+    """Fetch tous les subs, dédup par URL, compte la viralité cross-sub.
+
+    Choisit le mode OAuth si REDDIT_CLIENT_ID + REDDIT_CLIENT_SECRET
+    sont définis (requis pour CI où Reddit blackliste les IPs cloud),
+    sinon fallback sur RSS public.
+    """
+    oauth_token = _get_oauth_token()
+    mode = "oauth" if oauth_token else "rss"
+
     all_posts: list[dict[str, Any]] = []
     counts_by_sub: dict[str, int] = {}
     failures: list[dict[str, str]] = []
 
     for sub in SUBS:
         try:
-            posts = _fetch_sub(sub)
+            if oauth_token:
+                posts = _fetch_sub_oauth(sub, oauth_token)
+            else:
+                posts = _fetch_sub(sub)
         except Exception as exc:  # noqa: BLE001
             failures.append({"sub": sub, "error": f"{type(exc).__name__}: {exc}"})
             counts_by_sub[sub] = 0
@@ -206,6 +305,7 @@ def fetch() -> dict[str, Any]:
     return {
         "source": SOURCE_KEY,
         "fetched_at": now_iso(),
+        "mode": mode,
         "subs": SUBS,
         "counts_by_sub": counts_by_sub,
         "failures": failures,
