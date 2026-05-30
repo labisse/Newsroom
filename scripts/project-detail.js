@@ -384,13 +384,9 @@ const mount = async () => {
       insights.topical_filter || null,
     );
 
-    // Sections secondaires (dans les tabs)
-    renderStats(insights.stats, insights.generated_at);
-    renderTopUrls(insights.stats.top_urls || []);
-    renderRagGroups(insights.insights || {});
-
-    // Wire les tabs
-    wireSecondaryTabs();
+    // Sections secondaires (Univers tendance / Top historique /
+    // Performance GSC) retirées du layout pour alléger la page. Les
+    // renderers restent disponibles si on veut les réactiver plus tard.
   } else {
     document.querySelector("#project-insights").style.display = "none";
     document.querySelector("#project-pending").style.display = "block";
