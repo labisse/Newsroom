@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tendances par catégorie · Editorial Signal · The Black Room</title>
+    <meta
+      name="description"
+      content="Sujets qui buzzent par grande catégorie — Politique, Sport, Tech, Science, Santé, Divertissement, etc."
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="styles/tokens.css?v=tbr5" />
+    <link rel="stylesheet" href="styles/base.css?v=tbr5" />
+    <link rel="stylesheet" href="styles/components.css?v=tbr11" />
+    <link rel="stylesheet" href="styles/tendances.css?v=tbr2" />
+    <link rel="stylesheet" href="styles/categories.css?v=tbr1" />
+    <script>
+      (function () {
+        try {
+          var raw = localStorage.getItem("tbr-auth-session");
+          var session = raw ? JSON.parse(raw) : null;
+          if (!session || typeof session.expires !== "number" || Date.now() >= session.expires) {
+            document.documentElement.classList.add("is-locked");
+          }
+        } catch (e) {
+          document.documentElement.classList.add("is-locked");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="auth-gate" data-auth-root hidden>
+      <div class="auth-gate__backdrop"></div>
+      <div class="auth-gate__panel" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+        <div class="auth-gate__brand">
+          <img class="auth-gate__brand-logo" src="assets/logo-tbr.svg" alt="" />
+          <div class="auth-gate__brand-text">
+            <span class="auth-gate__brand-product">Editorial Signal</span>
+            <span class="auth-gate__brand-tag">The <em>Black</em> Room</span>
+          </div>
+        </div>
+        <h1 class="auth-gate__title" id="auth-title">Accès restreint</h1>
+        <form class="auth-gate__form" data-auth-form>
+          <label class="auth-gate__field">
+            <span class="auth-gate__label">Email</span>
+            <input class="auth-gate__input" type="email" name="email" required autocomplete="email" placeholder="vous@theblackroom.io" />
+          </label>
+          <label class="auth-gate__field">
+            <span class="auth-gate__label">Mot de passe</span>
+            <input class="auth-gate__input" type="password" name="password" required autocomplete="current-password" />
+          </label>
+          <p class="auth-gate__error" data-auth-error hidden></p>
+          <button class="btn btn--primary auth-gate__submit" type="submit">Accéder au briefing</button>
+        </form>
+      </div>
+    </div>
+
+    <header class="shell-header">
+      <a class="brand" href="index.html" aria-label="The Black Room — Editorial Signal">
+        <img class="brand__logo" src="assets/logo-tbr.svg" alt="" />
+        <span class="brand__text">
+          <span class="brand__product">Editorial Signal</span>
+          <span class="brand__byline">The <em>Black</em> Room</span>
+        </span>
+      </a>
+      <nav class="shell-nav" aria-label="Navigation principale">
+        <a class="shell-nav__link" href="index.html">Flux global</a>
+        <a class="shell-nav__link" href="tendances.html">Tendances par source</a>
+        <a class="shell-nav__link is-active" href="categories.html">Catégories</a>
+        <a class="shell-nav__link" href="projects.html">Projets</a>
+      </nav>
+      <div class="shell-user">
+        <span class="shell-user__role">Rédac chef</span>
+        <button class="shell-user__avatar" type="button" data-auth-logout title="Cliquer pour se déconnecter"></button>
+      </div>
+    </header>
+
+    <main class="tendances">
+      <section class="tendances-hero">
+        <div class="tendances-hero__intro">
+          <p class="tendances-hero__eyebrow">Tendances par catégorie · 30 mai 2026</p>
+          <h1 class="tendances-hero__title">
+            Ce qui buzze <em>par thématique</em>
+          </h1>
+          <p class="tendances-hero__lede">
+            Vue cross-source par grande catégorie éditoriale — chaque onglet
+            agrège tous les items des 8 sources qui couvrent la thématique.
+          </p>
+        </div>
+      </section>
+
+      <!-- Barre de recherche (réutilisée depuis tendances.css) -->
+      <div class="source-search">
+        <svg class="source-search__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.5" />
+          <path d="M11 11l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+        <input
+          class="source-search__input"
+          type="search"
+          id="cat-search"
+          placeholder="Filtrer par mot-clé dans la catégorie active…"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <button class="source-search__clear" type="button" id="cat-search-clear" aria-label="Effacer la recherche" hidden>✕</button>
+      </div>
+
+      <!-- Onglets : un par catégorie (peuplés dynamiquement avec compteurs) -->
+      <nav class="cat-tabs" role="tablist" aria-label="Catégories" id="cat-tabs"></nav>
+
+      <!-- Panel : sections par source, items de la catégorie active -->
+      <section class="cat-panel" role="tabpanel" id="cat-panel" aria-live="polite">
+        <div class="source-panel__loading">Chargement…</div>
+      </section>
+    </main>
+
+    <script type="module" src="scripts/auth.js?v=tbr5"></script>
+    <script type="module" src="scripts/categories.js?v=tbr1"></script>
+  </body>
+</html>
