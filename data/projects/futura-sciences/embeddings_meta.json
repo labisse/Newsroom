@@ -1,7 +1,7 @@
 {
   "project": "futura-sciences",
-  "backend": "voyage",
-  "dim": 1024,
+  "backend": "tfidf",
+  "dim": 5000,
   "count": 11102,
   "used_titles": 1961,
   "used_slugs": 9141,
