@@ -1,0 +1,115 @@
+/* ============================================================
+   EDITORIAL SIGNAL — Catégories (design Claude)
+   Réutilise les styles de tendances-pro.css + spécifiques cats.
+   ============================================================ */
+
+/* Source-mix bar : répartition horizontale par source */
+.cp-mixwrap {
+  max-width: var(--maxw);
+  margin: 16px auto 0;
+  padding: 0 28px;
+}
+.cp-mixbar {
+  display: flex;
+  height: 8px;
+  border-radius: var(--r-full);
+  overflow: hidden;
+  background: var(--ink-3);
+  gap: 2px;
+}
+.cp-mixbar i {
+  height: 100%;
+  min-width: 3px;
+  border-radius: 2px;
+  transition: opacity 0.15s;
+}
+.cp-mixbar i.dim {
+  opacity: 0.28;
+}
+
+/* Source filter chips */
+.cp-srcfilters {
+  max-width: var(--maxw);
+  margin: 14px auto 0;
+  padding: 0 28px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+.cp-srcfilters .lbl {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--fg-subtle);
+  margin-right: 2px;
+}
+.cp-srcchip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--fg-muted);
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-full);
+  background: var(--ink-2);
+  cursor: pointer;
+  transition: 0.15s;
+  white-space: nowrap;
+  font-family: inherit;
+}
+.cp-srcchip:hover {
+  border-color: var(--line-2);
+  color: var(--fg);
+}
+.cp-srcchip.on {
+  color: var(--fg-strong);
+  border-color: transparent;
+  box-shadow: inset 0 0 0 1.5px var(--sc-c);
+  background: color-mix(in srgb, var(--sc-c) 13%, var(--ink-2));
+}
+.cp-srcchip .gl {
+  width: 16px;
+  height: 16px;
+  display: grid;
+  place-items: center;
+  color: var(--sc-c);
+}
+.cp-srcchip .gl svg {
+  width: 16px;
+  height: 16px;
+}
+.cp-srcchip .n {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--fg-subtle);
+}
+.cp-srcchip.on .n {
+  color: var(--sc-c);
+}
+
+/* Source badge dans les rows */
+.cp-srcbadge {
+  display: inline-grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--line);
+  background: var(--ink-3);
+  vertical-align: -5px;
+  margin-right: 8px;
+}
+.cp-srcbadge svg {
+  width: 12px;
+  height: 12px;
+}
+
+/* Catégorie tab icon */
+.tp-tab-ic.cat svg {
+  width: 17px;
+  height: 17px;
+}

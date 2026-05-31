@@ -20,8 +20,8 @@
     <link rel="stylesheet" href="styles/components.css?v=tbr11" />
     <link rel="stylesheet" href="styles/cockpit-pro.css?v=tbr1" />
     <link rel="stylesheet" href="styles/tokens-bridge.css?v=tbr1" />
-    <link rel="stylesheet" href="styles/tendances.css?v=tbr3" />
-    <link rel="stylesheet" href="styles/categories.css?v=tbr2" />
+    <link rel="stylesheet" href="styles/tendances-pro.css?v=tbr1" />
+    <link rel="stylesheet" href="styles/categories-pro.css?v=tbr1" />
     <script>
       (function () {
         try {
@@ -65,48 +65,11 @@
 
     <div id="shell-mount" data-shell-active="categories" data-shell-search="false"></div>
 
-    <main class="tendances">
-      <section class="tendances-hero">
-        <div class="tendances-hero__intro">
-          <p class="tendances-hero__eyebrow">Tendances par catégorie · 30 mai 2026</p>
-          <h1 class="tendances-hero__title">
-            Ce qui buzze <em>par thématique</em>
-          </h1>
-          <p class="tendances-hero__lede">
-            Vue cross-source par grande catégorie éditoriale — chaque onglet
-            agrège tous les items des 8 sources qui couvrent la thématique.
-          </p>
-        </div>
-      </section>
-
-      <!-- Barre de recherche (réutilisée depuis tendances.css) -->
-      <div class="source-search">
-        <svg class="source-search__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-          <circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.5" />
-          <path d="M11 11l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-        </svg>
-        <input
-          class="source-search__input"
-          type="search"
-          id="cat-search"
-          placeholder="Filtrer par mot-clé dans la catégorie active…"
-          autocomplete="off"
-          spellcheck="false"
-        />
-        <button class="source-search__clear" type="button" id="cat-search-clear" aria-label="Effacer la recherche" hidden>✕</button>
-      </div>
-
-      <!-- Onglets : un par catégorie (peuplés dynamiquement avec compteurs) -->
-      <nav class="cat-tabs" role="tablist" aria-label="Catégories" id="cat-tabs"></nav>
-
-      <!-- Panel : sections par source, items de la catégorie active -->
-      <section class="cat-panel" role="tabpanel" id="cat-panel" aria-live="polite">
-        <div class="source-panel__loading">Chargement…</div>
-      </section>
-    </main>
+    <!-- Contenu de la page rendu dynamiquement par scripts/categories.js -->
+    <div id="cp-root"></div>
 
     <script type="module" src="scripts/auth.js?v=tbr5"></script>
     <script type="module" src="scripts/shell-pro.js?v=tbr1"></script>
-    <script type="module" src="scripts/categories.js?v=tbr1"></script>
+    <script type="module" src="scripts/categories.js?v=tbr2"></script>
   </body>
 </html>
