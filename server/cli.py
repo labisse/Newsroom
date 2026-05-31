@@ -201,6 +201,68 @@ def cmd_score(top_n: int) -> int:
     return 0
 
 
+def cmd_enrich() -> int:
+    """Post-traitement : ajoute llm_enrich + velocity aux sujets.
+
+    A lancer apres `score` (et de preference apres `db-snapshot` pour
+    que velocity ait acces a l'historique a jour).
+
+    Mute data/sujets/latest.json en place.
+    """
+    from server.scoring import llm_enrich, velocity
+
+    print("Editorial Signal — enrichissement\n")
+    latest_path = DATA_DIR / "sujets" / "latest.json"
+    if not latest_path.exists():
+        print(f"✗ {latest_path} introuvable. Lance d'abord `score`.", file=sys.stderr)
+        return 2
+
+    try:
+        payload = json.loads(latest_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"✗ lecture {latest_path} : {exc}", file=sys.stderr)
+        return 1
+
+    sujets = payload.get("sujets", [])
+    print(f"Sujets a enrichir : {len(sujets)}")
+
+    # 1. LLM enrich (entites, categories, sentiment, ton)
+    started = time.perf_counter()
+    try:
+        llm_enrich.enrich(sujets)
+    except Exception as exc:  # noqa: BLE001
+        print(f"[llm_enrich] erreur ({type(exc).__name__}: {exc}) — skip")
+    print(f"LLM enrich : {time.perf_counter() - started:.2f}s")
+
+    # 2. Velocity (Δscore vs BDD time-series)
+    started = time.perf_counter()
+    try:
+        velocity.annotate(payload)
+    except Exception as exc:  # noqa: BLE001
+        print(f"[velocity] erreur ({type(exc).__name__}: {exc}) — skip")
+    print(f"Velocity   : {time.perf_counter() - started:.2f}s")
+
+    # Sauvegarde
+    latest_path.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    print(f"\n✓ {latest_path} mis a jour.")
+
+    # Stats rapides
+    trends = {}
+    for s in sujets:
+        t = s.get("trend", "?")
+        trends[t] = trends.get(t, 0) + 1
+    if trends:
+        print(f"Trends : {trends}")
+
+    enriched_count = sum(1 for s in sujets if s.get("llm_enrich"))
+    print(f"LLM-enriched : {enriched_count}/{len(sujets)}")
+
+    return 0
+
+
 def cmd_all(top_n: int) -> int:
     """Fetch toutes les sources puis lance le scoring."""
     code = cmd_fetch_all()
@@ -860,6 +922,11 @@ def main(argv: list[str] | None = None) -> int:
     p_all = sub.add_parser("all", help="fetch-all puis score")
     p_all.add_argument("--top", type=int, default=aggregator.TOP_N)
 
+    sub.add_parser(
+        "enrich",
+        help="Enrichit data/sujets/latest.json avec llm_enrich + velocity",
+    )
+
     # ── Commandes GSC ──
     p_gsc_conn = sub.add_parser(
         "gsc-connect", help="OAuth Google + persiste les tokens pour un projet"
@@ -996,6 +1063,8 @@ def main(argv: list[str] | None = None) -> int:
         return cmd_score(args.top)
     if args.cmd == "all":
         return cmd_all(args.top)
+    if args.cmd == "enrich":
+        return cmd_enrich()
     if args.cmd == "gsc-connect":
         return cmd_gsc_connect(args.project)
     if args.cmd == "gsc-status":

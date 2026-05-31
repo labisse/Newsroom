@@ -454,3 +454,62 @@
 .evo-delta.up { color: var(--up); background: var(--up-soft); }
 .evo-delta.down { color: var(--down); background: var(--down-soft); }
 .evo-delta.flat { color: var(--fg-subtle); background: var(--ink-3); }
+
+/* Dormants — sujets qui se reveillent */
+.evo-dorm-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+@media (max-width: 800px) {
+  .evo-dorm-grid { grid-template-columns: 1fr; }
+}
+.evo-dorm-card {
+  background: var(--ink-2);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--brand);
+  border-radius: var(--r-lg);
+  padding: 14px 16px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.evo-dorm-card:hover {
+  border-color: var(--line-2);
+  border-left-color: var(--brand);
+  transform: translateY(-1px);
+}
+.evo-dorm-title {
+  display: block;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--fg-strong);
+  line-height: 1.4;
+  text-decoration: none;
+}
+.evo-dorm-title:hover {
+  color: var(--brand);
+}
+.evo-dorm-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--fg-subtle);
+}
+.evo-dorm-silence {
+  color: var(--brand);
+  font-weight: 600;
+}
+.evo-dorm-score {
+  color: var(--fg-muted);
+}
+.evo-dorm-source {
+  color: var(--fg-subtle);
+}
+.evo-dorm-source::before {
+  content: "·";
+  margin-right: 8px;
+  color: var(--fg-faint);
+}

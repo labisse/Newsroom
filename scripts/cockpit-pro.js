@@ -189,6 +189,11 @@ const adaptSujet = (raw) => {
     snippet: raw.rationale || "",
     msn_url: raw.msn_url,
     refs: raw.refs || [],
+    // Enrichissements post-scoring (cf server/scoring/{velocity,llm_enrich}.py)
+    trend: raw.trend || "new",
+    velocity_6h: raw.velocity_6h ?? null,
+    velocity_24h: raw.velocity_24h ?? null,
+    llm_enrich: raw.llm_enrich || null,
   };
 };
 
@@ -607,6 +612,35 @@ const renderToolbar = () => {
 
 /* ---------- List rows ---------- */
 
+const TrendBadge = (trend, velocity6h) => {
+  // trend : "rising" / "stable" / "falling" / "new"
+  if (!trend || trend === "new") return null;
+  const v = velocity6h != null ? (velocity6h > 0 ? "+" : "") + velocity6h : null;
+  if (trend === "rising") {
+    return h(
+      "span",
+      { class: "trend-badge up", title: v ? `${v} pts en 6 h` : "monte" },
+      Ic.up(10),
+      v || "↑",
+    );
+  }
+  if (trend === "falling") {
+    return h(
+      "span",
+      { class: "trend-badge down", title: v ? `${v} pts en 6 h` : "redescend" },
+      Ic.down(10),
+      v || "↓",
+    );
+  }
+  // stable
+  return h(
+    "span",
+    { class: "trend-badge flat", title: "stable" },
+    Ic.flat(10),
+    "·",
+  );
+};
+
 const renderRow = (t) => {
   const tier = tierOf(t.score);
   const open = state.openRank === t.rank;
@@ -618,7 +652,16 @@ const renderRow = (t) => {
       onClick: () => setState({ openRank: open ? null : t.rank }),
     },
     h("div", { class: "row-rank" }, String(t.rank).padStart(2, "0")),
-    h("div", { class: "row-score", style: { color: tier.color } }, String(t.score)),
+    h(
+      "div",
+      { class: "row-score-wrap" },
+      h(
+        "div",
+        { class: "row-score", style: { color: tier.color } },
+        String(t.score),
+      ),
+      TrendBadge(t.trend, t.velocity_6h),
+    ),
     h(
       "div",
       { class: "row-mid" },
@@ -654,17 +697,60 @@ const renderRow = (t) => {
   return wrap;
 };
 
+const SENTIMENT_META = {
+  positive: { label: "ton positif", cls: "up" },
+  neutral: { label: "ton neutre", cls: "flat" },
+  negative: { label: "ton négatif", cls: "down" },
+};
+const TON_META = {
+  factuel: { label: "factuel", cls: "neutral" },
+  polemique: { label: "polémique", cls: "warn" },
+  people: { label: "people", cls: "people" },
+  opinion: { label: "opinion", cls: "neutral" },
+  divers: { label: "divers", cls: "neutral" },
+};
+
 const renderDetail = (t) => {
+  const enrich = t.llm_enrich || {};
+  // Prefere les entites LLM (plus riches) sinon fallback Discover.
+  const entities = (enrich.entities && enrich.entities.length)
+    ? enrich.entities
+    : (t.entities || []);
+
+  // Badges LLM : main_topic + sentiment + ton
+  const llmBadges = enrich.main_topic
+    ? h(
+        "div",
+        { class: "llm-badges" },
+        h("span", { class: "llm-topic" }, enrich.main_topic),
+        enrich.sentiment && SENTIMENT_META[enrich.sentiment]
+          ? h(
+              "span",
+              { class: "llm-tag " + SENTIMENT_META[enrich.sentiment].cls },
+              SENTIMENT_META[enrich.sentiment].label,
+            )
+          : null,
+        enrich.ton && TON_META[enrich.ton]
+          ? h(
+              "span",
+              { class: "llm-tag " + TON_META[enrich.ton].cls },
+              TON_META[enrich.ton].label,
+            )
+          : null,
+      )
+    : null;
+
   const left = h(
     "div",
     {},
+    llmBadges,
     h("h6", {}, "Pourquoi ce sujet"),
     h("p", { class: "snip" }, t.snippet),
     h("h6", {}, "Entités liées"),
     h(
       "div",
       { class: "ent-tags" },
-      ...t.entities.map((e) => h("span", { class: "ent" }, e)),
+      ...entities.map((e) => h("span", { class: "ent" }, e)),
     ),
     h(
       "div",

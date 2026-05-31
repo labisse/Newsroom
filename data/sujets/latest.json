@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T19:47:06Z",
+  "generated_at": "2026-05-31T21:08:55Z",
   "sources_used": {
     "msn": {
       "fetched_at": "2026-05-31T19:46:08Z",
@@ -173,7 +173,23 @@
         "Ligue 1",
         "PSGFC",
         "Sport"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Débordements suite sacre PSG Ligue champions",
+        "entities": [
+          "PSG",
+          "Ligue des champions"
+        ],
+        "categories": [
+          "sport",
+          "societe"
+        ],
+        "sentiment": "negative",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s02",
@@ -283,7 +299,23 @@
       "discover_category": "/Sensitive Subjects",
       "discover_entities": [
         "Edgar Morin"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Mort d'Edgar Morin",
+        "entities": [
+          "Edgar Morin",
+          "Sabah Abouessalam"
+        ],
+        "categories": [
+          "people",
+          "societe"
+        ],
+        "sentiment": "negative",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s03",
@@ -406,7 +438,24 @@
       "discover_entities": [
         "Ligue 1",
         "Sport"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "PSG remporte Ligue des champions",
+        "entities": [
+          "PSG",
+          "Arsenal",
+          "Ligue des champions"
+        ],
+        "categories": [
+          "sport",
+          "economie"
+        ],
+        "sentiment": "positive",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s04",
@@ -534,7 +583,23 @@
       "discover_entities": [
         "Luis Enrique",
         "Mikel Arteta"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Mikel Arteta félicite PSG",
+        "entities": [
+          "Mikel Arteta",
+          "Arsenal",
+          "PSG"
+        ],
+        "categories": [
+          "sport"
+        ],
+        "sentiment": "positive",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s05",
@@ -663,7 +728,23 @@
         "Luis Enrique",
         "PSGFC",
         "Warren Zaïre-Emery"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Luis Enrique sur Zaire-Emery",
+        "entities": [
+          "Luis Enrique",
+          "Zaire-Emery",
+          "PSG"
+        ],
+        "categories": [
+          "sport"
+        ],
+        "sentiment": "neutral",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s06",
@@ -791,7 +872,23 @@
       "discover_entities": [
         "Karl Olive",
         "Sport"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Karl Olive vidéo capot voiture PSG",
+        "entities": [
+          "Karl Olive",
+          "PSG"
+        ],
+        "categories": [
+          "people",
+          "sport"
+        ],
+        "sentiment": "neutral",
+        "ton": "people"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s07",
@@ -907,7 +1004,23 @@
         "Arsenal",
         "Chelsea",
         "Premier League"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Polémique arbitrage finale PSG-Arsenal",
+        "entities": [
+          "Arsenal",
+          "PSG",
+          "arbitre"
+        ],
+        "categories": [
+          "sport"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s08",
@@ -1029,7 +1142,23 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Benjamin Castaldi sur Patrick Bruel",
+        "entities": [
+          "Benjamin Castaldi",
+          "Flavie Flament",
+          "Patrick Bruel"
+        ],
+        "categories": [
+          "people"
+        ],
+        "sentiment": "neutral",
+        "ton": "people"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s09",
@@ -1151,7 +1280,22 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Patrick Bruel insulté théâtre Paris",
+        "entities": [
+          "Patrick Bruel",
+          "Théâtre Édouard VII"
+        ],
+        "categories": [
+          "people"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s10",
@@ -1273,7 +1417,22 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Mouvement soutien Patrick Bruel scandale",
+        "entities": [
+          "Patrick Bruel"
+        ],
+        "categories": [
+          "people",
+          "societe"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s11",
@@ -1395,7 +1554,22 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Flavie Flament sur Patrick Bruel",
+        "entities": [
+          "Flavie Flament",
+          "Patrick Bruel"
+        ],
+        "categories": [
+          "people"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s12",
@@ -1516,7 +1690,23 @@
         "Ligue 1",
         "PSGFC",
         "Sport"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Sarah Knafo sécurité victoire PSG",
+        "entities": [
+          "Sarah Knafo",
+          "PSG"
+        ],
+        "categories": [
+          "politique",
+          "sport"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s13",
@@ -1642,7 +1832,21 @@
         "PSGFC",
         "Parc des Princes",
         "Sport"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Favori Macron présidentielle 2027",
+        "entities": [
+          "Emmanuel Macron"
+        ],
+        "categories": [
+          "politique"
+        ],
+        "sentiment": "neutral",
+        "ton": "opinion"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s14",
@@ -1760,7 +1964,22 @@
         "PSGFC",
         "Parc des Princes",
         "Sport"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Marquinhos commente victoire PSG",
+        "entities": [
+          "Marquinhos",
+          "PSG"
+        ],
+        "categories": [
+          "sport"
+        ],
+        "sentiment": "positive",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s15",
@@ -1882,7 +2101,23 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Aurore Bergé défend Patrick Bruel",
+        "entities": [
+          "Aurore Bergé",
+          "Patrick Bruel"
+        ],
+        "categories": [
+          "people",
+          "politique"
+        ],
+        "sentiment": "neutral",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s16",
@@ -1973,7 +2208,22 @@
       "discover_category": "/Finance/Financial Planning & Management",
       "discover_entities": [
         "Billet de banque"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Tortues Sahara reforestation réussite",
+        "entities": [
+          "Sahara"
+        ],
+        "categories": [
+          "science",
+          "societe"
+        ],
+        "sentiment": "positive",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s17",
@@ -2098,7 +2348,22 @@
         "Roland-Garros",
         "Sport",
         "Tennis"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Aryna Sabalenka décision Roland-Garros",
+        "entities": [
+          "Aryna Sabalenka",
+          "Roland-Garros"
+        ],
+        "categories": [
+          "sport"
+        ],
+        "sentiment": "neutral",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s18",
@@ -2220,7 +2485,24 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Patrick Bruel accusations témoignages",
+        "entities": [
+          "Patrick Bruel",
+          "Andréa Bescond",
+          "Alexandra Lamy"
+        ],
+        "categories": [
+          "people",
+          "societe"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s19",
@@ -2342,7 +2624,22 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Anny Duperey soutien Patrick Bruel polémique",
+        "entities": [
+          "Anny Duperey",
+          "Patrick Bruel"
+        ],
+        "categories": [
+          "people"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s20",
@@ -2464,7 +2761,22 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Anouchka Delon sur Patrick Bruel",
+        "entities": [
+          "Anouchka Delon",
+          "Patrick Bruel"
+        ],
+        "categories": [
+          "people"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s21",
@@ -2581,7 +2893,22 @@
         "PSGFC",
         "Parc des Princes",
         "Sport"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Mère Macron réponse invités critiques",
+        "entities": [
+          "Emmanuel Macron"
+        ],
+        "categories": [
+          "politique",
+          "people"
+        ],
+        "sentiment": "neutral",
+        "ton": "people"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s22",
@@ -2706,7 +3033,21 @@
         "Iga Świątek",
         "Roland-Garros",
         "Sport"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Tableau 8es finale Roland-Garros",
+        "entities": [
+          "Roland-Garros"
+        ],
+        "categories": [
+          "sport"
+        ],
+        "sentiment": "neutral",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s23",
@@ -2816,7 +3157,22 @@
       "discover_entities": [
         "Berger",
         "Pastoralisme"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Vinyle Johnny Hallyday 1966 valeur",
+        "entities": [
+          "Johnny Hallyday"
+        ],
+        "categories": [
+          "people",
+          "lifestyle"
+        ],
+        "sentiment": "positive",
+        "ton": "divers"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s24",
@@ -2935,7 +3291,22 @@
         "Kiev",
         "Raffinerie",
         "Russie"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Frappes Ukraine nuit raffinerie russe",
+        "entities": [
+          "Ukraine",
+          "Russie"
+        ],
+        "categories": [
+          "international"
+        ],
+        "sentiment": "negative",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s25",
@@ -3026,7 +3397,23 @@
       "discover_category": "/Sensitive Subjects",
       "discover_entities": [
         "Edgar Morin"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Nathalie Simon mariage 43 ans Tanguy Dadon",
+        "entities": [
+          "Nathalie Simon",
+          "Tanguy Dadon"
+        ],
+        "categories": [
+          "people",
+          "lifestyle"
+        ],
+        "sentiment": "positive",
+        "ton": "people"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s26",
@@ -3136,7 +3523,24 @@
         "Kiev",
         "Raffinerie",
         "Russie"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Drone russe Roumanie Ukraine Bucarest",
+        "entities": [
+          "Ukraine",
+          "Russie",
+          "Roumanie",
+          "Bucarest"
+        ],
+        "categories": [
+          "international"
+        ],
+        "sentiment": "negative",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s27",
@@ -3249,7 +3653,22 @@
       "discover_category": "/News",
       "discover_entities": [
         "Centre de données"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "SoftBank investissement 75 milliards IA",
+        "entities": [
+          "SoftBank"
+        ],
+        "categories": [
+          "tech",
+          "economie"
+        ],
+        "sentiment": "positive",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s28",
@@ -3343,7 +3762,22 @@
         }
       ],
       "discover_category": null,
-      "discover_entities": []
+      "discover_entities": [],
+      "llm_enrich": {
+        "main_topic": "Virginie Efira alcool conscience interview",
+        "entities": [
+          "Virginie Efira"
+        ],
+        "categories": [
+          "people",
+          "lifestyle"
+        ],
+        "sentiment": "neutral",
+        "ton": "people"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s29",
@@ -3449,7 +3883,20 @@
         "Diane Parry",
         "Roland-Garros",
         "Sport"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Budget retraités vie digne France 2026",
+        "entities": [],
+        "categories": [
+          "societe",
+          "economie"
+        ],
+        "sentiment": "negative",
+        "ton": "opinion"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     },
     {
       "id": "s30",
@@ -3562,7 +4009,24 @@
       "discover_category": "/News",
       "discover_entities": [
         "Sport"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Maëva Coucke opération urgente PSG-Arsenal",
+        "entities": [
+          "Maëva Coucke",
+          "PSG",
+          "Arsenal"
+        ],
+        "categories": [
+          "people",
+          "sport"
+        ],
+        "sentiment": "negative",
+        "ton": "people"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new"
     }
   ],
   "categories_trending": [

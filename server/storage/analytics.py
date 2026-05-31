@@ -196,6 +196,111 @@ def sujets_persistence(
 
 
 # ---------------------------------------------------------------
+# 2bis. Sujets dormants qui se reveillent (B3)
+# ---------------------------------------------------------------
+
+
+DORMANT_REVEAL_SQL = """
+WITH historical AS (
+    -- Sujets qui ont existe entre 10j et 3j en arriere
+    SELECT
+        title_hash,
+        MIN(title) AS title,
+        MAX(score) AS old_max_score,
+        MAX(snapshot_at) AS old_last_seen,
+        COUNT(*) AS old_appearances
+    FROM sujets_snapshots
+    WHERE snapshot_at BETWEEN NOW() - INTERVAL '10 days'
+                          AND NOW() - INTERVAL '3 days'
+    GROUP BY title_hash
+    HAVING COUNT(*) >= 2
+),
+silence_check AS (
+    -- Ces sujets ont-ils ete absents entre 3j et 24h ?
+    SELECT title_hash
+    FROM sujets_snapshots
+    WHERE snapshot_at BETWEEN NOW() - INTERVAL '3 days'
+                          AND NOW() - INTERVAL '24 hours'
+    GROUP BY title_hash
+),
+recent AS (
+    -- Re-apparition dans les 24h
+    SELECT
+        title_hash,
+        MAX(score) AS new_score,
+        MAX(snapshot_at) AS reveal_at,
+        (ARRAY_AGG(msn_url ORDER BY snapshot_at DESC))[1] AS latest_msn_url,
+        (ARRAY_AGG(msn_source_name ORDER BY snapshot_at DESC))[1] AS latest_source,
+        (ARRAY_AGG(discover_category ORDER BY snapshot_at DESC))[1] AS category
+    FROM sujets_snapshots
+    WHERE snapshot_at > NOW() - INTERVAL '24 hours'
+    GROUP BY title_hash
+)
+SELECT
+    h.title_hash,
+    h.title,
+    h.old_max_score,
+    h.old_last_seen,
+    h.old_appearances,
+    r.new_score,
+    r.reveal_at,
+    r.latest_msn_url,
+    r.latest_source,
+    r.category,
+    EXTRACT(EPOCH FROM (r.reveal_at - h.old_last_seen)) / 86400.0 AS silence_days
+FROM historical h
+INNER JOIN recent r USING (title_hash)
+LEFT JOIN silence_check sc USING (title_hash)
+-- Garde uniquement les sujets vraiment silencieux pendant la periode
+WHERE sc.title_hash IS NULL
+ORDER BY silence_days DESC, r.new_score DESC
+LIMIT %s;
+"""
+
+
+def dormant_reveals(limit: int = 12) -> list[dict[str, Any]]:
+    """Sujets present il y a 5-10j, silencieux 3-7j, qui reapparaissent.
+
+    Signal editorial fort : suite judiciaire d'un fait divers, annonce
+    apres une pause mediatique, anniversaire d'evenement, retour
+    d'actualite. Tres different du "topic qui dure" : ici c'est un
+    "topic qui revient".
+    """
+    with _connect() as conn:
+        with conn.cursor() as cur:
+            cur.execute(DORMANT_REVEAL_SQL, (limit,))
+            rows = cur.fetchall()
+    return [
+        {
+            "title_hash": title_hash,
+            "title": title,
+            "old_max_score": int(old_max_score) if old_max_score is not None else 0,
+            "old_appearances": int(old_appearances),
+            "old_last_seen": _iso(old_last_seen),
+            "new_score": int(new_score) if new_score is not None else 0,
+            "reveal_at": _iso(reveal_at),
+            "silence_days": round(float(silence_days), 1) if silence_days else 0,
+            "latest_msn_url": latest_msn_url,
+            "latest_source": latest_source,
+            "category": category,
+        }
+        for (
+            title_hash,
+            title,
+            old_max_score,
+            old_last_seen,
+            old_appearances,
+            new_score,
+            reveal_at,
+            latest_msn_url,
+            latest_source,
+            category,
+            silence_days,
+        ) in rows
+    ]
+
+
+# ---------------------------------------------------------------
 # 3. Catégories qui s'activent (heatmap cat × source sur 24h)
 # ---------------------------------------------------------------
 
@@ -305,6 +410,7 @@ def build_evolution_payload() -> dict[str, Any]:
         "sujets_persistance": sujets_persistence(
             window_days=3, min_appearances=2, limit=30
         ),
+        "dormant_reveals": dormant_reveals(limit=12),
         "category_momentum_24h": category_momentum(window_hours=24),
         "source_timeline_7d": source_timeline(),
     }

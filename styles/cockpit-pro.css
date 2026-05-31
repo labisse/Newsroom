@@ -814,8 +814,99 @@ body::before {
   font-family: var(--font-mono);
   font-size: 15px;
   font-weight: 700;
-  width: 52px;
   text-align: center;
+  line-height: 1;
+}
+.row-score-wrap {
+  width: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+/* Trend badge : flèche velocity 6h. */
+.trend-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: var(--r-full);
+  letter-spacing: 0.02em;
+}
+.trend-badge.up {
+  color: var(--up);
+  background: var(--up-soft);
+}
+.trend-badge.down {
+  color: var(--down);
+  background: var(--down-soft);
+}
+.trend-badge.flat {
+  color: var(--fg-subtle);
+  background: var(--ink-3);
+}
+.trend-badge svg {
+  width: 10px;
+  height: 10px;
+}
+
+/* LLM enrich badges (main_topic + sentiment + ton) */
+.llm-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+  margin: -2px 0 14px;
+}
+.llm-topic {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--brand);
+  background: var(--brand-soft);
+  border: 1px solid color-mix(in srgb, var(--brand) 28%, var(--line-2));
+  border-radius: var(--r-md);
+  padding: 3px 9px;
+}
+.llm-tag {
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 3px 8px;
+  border-radius: var(--r-full);
+  border: 1px solid transparent;
+}
+.llm-tag.up {
+  color: var(--up);
+  background: var(--up-soft);
+  border-color: color-mix(in srgb, var(--up) 30%, var(--line-2));
+}
+.llm-tag.down {
+  color: var(--down);
+  background: var(--down-soft);
+  border-color: color-mix(in srgb, var(--down) 30%, var(--line-2));
+}
+.llm-tag.flat,
+.llm-tag.neutral {
+  color: var(--fg-muted);
+  background: var(--ink-3);
+  border-color: var(--line-2);
+}
+.llm-tag.warn {
+  color: var(--warm);
+  background: var(--warm-soft);
+  border-color: color-mix(in srgb, var(--warm) 30%, var(--line-2));
+}
+.llm-tag.people {
+  color: var(--purple);
+  background: color-mix(in srgb, var(--purple) 14%, transparent);
+  border-color: color-mix(in srgb, var(--purple) 30%, var(--line-2));
 }
 
 /* inline detail (expand) */

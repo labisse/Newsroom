@@ -597,6 +597,63 @@ const renderPersistent = (persistent) => {
   return h("div", { class: "evo-section" }, grid);
 };
 
+/* ---------- Dormants (sujets qui se reveillent) ---------- */
+
+const renderDormantCard = (d) => {
+  const link = d.latest_msn_url
+    ? h(
+        "a",
+        {
+          class: "evo-dorm-title",
+          href: d.latest_msn_url,
+          target: "_blank",
+          rel: "noopener",
+        },
+        d.title,
+      )
+    : h("div", { class: "evo-dorm-title" }, d.title);
+
+  const meta = h(
+    "div",
+    { class: "evo-dorm-meta" },
+    h(
+      "span",
+      { class: "evo-dorm-silence" },
+      `${d.silence_days.toFixed(1).replace(".0", "")} j de silence`,
+    ),
+    h(
+      "span",
+      { class: "evo-dorm-score" },
+      `score ${d.old_max_score} → ${d.new_score}`,
+    ),
+    d.latest_source
+      ? h("span", { class: "evo-dorm-source" }, d.latest_source)
+      : null,
+  );
+
+  return h("div", { class: "evo-dorm-card" }, link, meta);
+};
+
+const renderDormants = (dormants) => {
+  if (!dormants.length) {
+    return h(
+      "div",
+      { class: "evo-section" },
+      h(
+        "div",
+        {
+          class: "evo-pcard",
+          style: { "text-align": "center", color: "var(--fg-muted)", "font-size": "13px" },
+        },
+        "Aucun sujet dormant ne s'est réveillé sur les dernières 24 h. Cette section devient riche après 5-7 jours d'historique accumulé.",
+      ),
+    );
+  }
+  const grid = h("div", { class: "evo-dorm-grid" });
+  dormants.forEach((d) => grid.appendChild(renderDormantCard(d)));
+  return h("div", { class: "evo-section" }, grid);
+};
+
 const heatBg = (c, max) => {
   if (c <= 0) return null;
   const t = 0.16 + 0.84 * Math.sqrt(c / max);
@@ -825,6 +882,18 @@ const render = () => {
     ),
   );
   root.appendChild(renderPersistent(buildPersistent(evo)));
+
+  // 2bis. Dormants (sujets qui se reveillent)
+  root.appendChild(
+    SecHead(
+      Ic.radar,
+      "var(--brand)",
+      "var(--brand-soft)",
+      "Sujets qui se réveillent (24 h)",
+      "Sujets présents il y a 5-10 jours, silencieux pendant 3-7 jours, qui <b>réapparaissent</b> dans le flux. Suite judiciaire, anniversaire, retour d'actu — un signal éditorial fort.",
+    ),
+  );
+  root.appendChild(renderDormants(evo.dormant_reveals || []));
 
   // 3. Heatmap
   root.appendChild(

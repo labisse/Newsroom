@@ -95,6 +95,16 @@ jobs:
             python -m server.cli db-export
           fi
 
+      # Enrichissement post-snapshot : LLM (entites, categories, sentiment,
+      # ton) + velocity (delta score vs T-6h via BDD). Si ANTHROPIC_API_KEY
+      # ou DATABASE_URL absents, l'enrichissement degrade gracieusement.
+      - name: Enrich sujets (LLM + velocity)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: claude-haiku-4-5
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: python -m server.cli enrich
+
       # Re-génère les insights de chaque projet pour qu'ils restent
       # alignés sur les sujets du jour. Sans ça, les pages projet
       # affichent un briefing périmé entre deux runs gsc-daily.
