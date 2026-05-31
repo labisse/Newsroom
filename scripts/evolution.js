@@ -597,6 +597,91 @@ const renderPersistent = (persistent) => {
   return h("div", { class: "evo-section" }, grid);
 };
 
+/* ---------- Signaux faibles (candidats anticipation Discover) ---------- */
+
+const renderWeakSignalCard = (s) => {
+  const sourceChips = s.sources.map((src) => {
+    const G = SRC_GLYPH[src];
+    const hue = HUE[SRC_HUE[src]] || "var(--brand)";
+    return h(
+      "span",
+      { class: "evo-ws-src", style: { color: hue } },
+      G ? G() : null,
+      h("span", { class: "evo-ws-src-name" }, src),
+    );
+  });
+
+  return h(
+    "div",
+    { class: "evo-ws-card" },
+    h(
+      "div",
+      { class: "evo-ws-top" },
+      h(
+        "div",
+        { class: "evo-ws-topic" },
+        s.topic,
+      ),
+      h(
+        "div",
+        { class: "evo-ws-score", title: "Score d'anticipation" },
+        Math.round(s.prediction_score),
+      ),
+    ),
+    h(
+      "div",
+      { class: "evo-ws-sources" },
+      ...sourceChips,
+      h(
+        "span",
+        { class: "evo-ws-count" },
+        `${s.member_count} occurrence${s.member_count > 1 ? "s" : ""}`,
+      ),
+    ),
+    s.members && s.members.length > 1
+      ? h(
+          "ul",
+          { class: "evo-ws-members" },
+          ...s.members
+            .filter((m) => m.title !== s.topic)
+            .slice(0, 3)
+            .map((m) =>
+              h(
+                "li",
+                {},
+                h("span", { class: "evo-ws-mem-src" }, m.source),
+                h("span", { class: "evo-ws-mem-title" }, m.title),
+              ),
+            ),
+        )
+      : null,
+  );
+};
+
+const renderWeakSignals = (signals) => {
+  if (!signals || !signals.length) {
+    return h(
+      "div",
+      { class: "evo-section" },
+      h(
+        "div",
+        {
+          class: "evo-pcard",
+          style: {
+            "text-align": "center",
+            color: "var(--fg-muted)",
+            "font-size": "13px",
+          },
+        },
+        "Aucun signal faible cross-source detecté pour le moment. Cette section monte quand un topic apparaît sur ≥2 sources non-Discover (Trends, X, Wikipedia, GNews, MSN, YouTube) avant d'arriver sur Discover.",
+      ),
+    );
+  }
+  const grid = h("div", { class: "evo-ws-grid" });
+  signals.forEach((s) => grid.appendChild(renderWeakSignalCard(s)));
+  return h("div", { class: "evo-section" }, grid);
+};
+
 /* ---------- Dormants (sujets qui se reveillent) ---------- */
 
 const renderDormantCard = (d) => {
@@ -859,6 +944,19 @@ const render = () => {
     return;
   }
 
+  // 0. Signaux faibles cross-source (anticipation Discover)
+  const ws = state.weakSignals || null;
+  root.appendChild(
+    SecHead(
+      Ic.radar,
+      "var(--brand)",
+      "var(--brand-soft)",
+      "Signaux faibles cross-source (anticipation Discover)",
+      "Topics présents sur <b>≥2 sources non-Discover</b> mais qui ne sont <b>pas encore</b> dans Discover. Candidats anticipation 12-24 h : ces topics pourraient émerger dans Discover dans les heures qui viennent.",
+    ),
+  );
+  root.appendChild(renderWeakSignals(ws ? ws.signals : []));
+
   // 1. Rising
   root.appendChild(
     SecHead(
@@ -925,12 +1023,18 @@ const render = () => {
 /* ---------- mount ---------- */
 const mount = async () => {
   render();
-  try {
-    const r = await fetch("data/analytics/evolution.json", { cache: "no-store" });
-    if (r.ok) state.evo = await r.json();
-  } catch {
-    // ignore
-  }
+  // Charge en parallele l'evolution (BDD) + les signaux faibles
+  // (fichier dedie ecrit par aggregator).
+  await Promise.all([
+    fetch("data/analytics/evolution.json", { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => { if (d) state.evo = d; })
+      .catch(() => {}),
+    fetch("data/analytics/weak_signals.json", { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => { if (d) state.weakSignals = d; })
+      .catch(() => {}),
+  ]);
   state.loading = false;
   render();
 };

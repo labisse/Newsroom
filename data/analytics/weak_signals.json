@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-05-31T21:33:13Z",
+  "count": 4,
+  "signals": [
+    {
+      "topic": "SoftBank annonce un investissement record de 75 milliards d'euros lié à l'IA en amont de « Choose France »",
+      "sources": [
+        "gnews",
+        "msn"
+      ],
+      "members": [
+        {
+          "title": "SoftBank annonce un investissement record de 75 milliards d'euros lié à l'IA en amont de « Choose France »",
+          "source": "msn"
+        },
+        {
+          "title": "Le Japonais SoftBank annonce un investissement record de 75 milliards d'euros en France lié à l'IA",
+          "source": "gnews"
+        }
+      ],
+      "member_count": 2,
+      "prediction_score": 24.0
+    },
+    {
+      "topic": "rublev",
+      "sources": [
+        "trends",
+        "x"
+      ],
+      "members": [
+        {
+          "title": "rublev",
+          "source": "trends"
+        },
+        {
+          "title": "Rublev",
+          "source": "x"
+        }
+      ],
+      "member_count": 2,
+      "prediction_score": 23.85
+    },
+    {
+      "topic": "karl olive",
+      "sources": [
+        "trends",
+        "x"
+      ],
+      "members": [
+        {
+          "title": "karl olive",
+          "source": "trends"
+        },
+        {
+          "title": "Karl Olive",
+          "source": "x"
+        }
+      ],
+      "member_count": 2,
+      "prediction_score": 23.77
+    },
+    {
+      "topic": "jodar",
+      "sources": [
+        "trends",
+        "x"
+      ],
+      "members": [
+        {
+          "title": "jodar",
+          "source": "trends"
+        },
+        {
+          "title": "Jodar",
+          "source": "x"
+        }
+      ],
+      "member_count": 2,
+      "prediction_score": 23.77
+    }
+  ]
+}

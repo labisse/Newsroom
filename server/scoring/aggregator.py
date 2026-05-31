@@ -842,4 +842,44 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
 def run(top_n: int = TOP_N) -> dict[str, Any]:
     payload = aggregate(top_n=top_n)
     write_snapshot("sujets", payload, today_str())
+
+    # Detection des signaux faibles : cross-source mais pas encore Discover.
+    # Ecrit dans data/analytics/weak_signals.json pour consommation
+    # directe par evolution.html (UI dediee).
+    _compute_and_write_weak_signals()
     return payload
+
+
+def _compute_and_write_weak_signals() -> None:
+    """Pipeline signaux faibles : embed cross-source + filtre Discover."""
+    from server.scoring import weak_signals as ws_mod
+    from datetime import datetime, timezone
+    import json
+    from server.config import DATA_DIR
+
+    # Recharge les payloads bruts (deja en cache disque, pas de cout)
+    payloads = {
+        "msn": _load("msn"),
+        "gnews": _load("google_news"),
+        "trends": _load("google_trends"),
+        "wiki": _load("wikimedia"),
+        "x": _load("x_trends"),
+        "youtube": _load_optional("youtube_trending"),
+        "discover": _load("discoversnoop"),
+    }
+
+    try:
+        signals = ws_mod.detect(payloads)
+    except Exception as exc:  # noqa: BLE001
+        print(f"[weak_signals] erreur ({type(exc).__name__}: {exc}) — skip")
+        signals = []
+
+    out = {
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "count": len(signals),
+        "signals": signals,
+    }
+    out_path = DATA_DIR / "analytics" / "weak_signals.json"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[weak_signals] {len(signals)} signaux ecrits dans {out_path}")
