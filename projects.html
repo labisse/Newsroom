@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="styles/components.css?v=tbr11" />
     <link rel="stylesheet" href="styles/cockpit-pro.css?v=tbr1" />
     <link rel="stylesheet" href="styles/tokens-bridge.css?v=tbr1" />
-    <link rel="stylesheet" href="styles/projects.css?v=tbr11" />
+    <link rel="stylesheet" href="styles/projects-pro.css?v=tbr1" />
     <!-- Anti-FOUC : si pas de session valide, lock l'HTML avant le rendu -->
     <script>
       (function () {
@@ -66,33 +66,10 @@
 
     <div id="shell-mount" data-shell-active="projets" data-shell-search="false"></div>
 
-    <main class="projects-page content">
-      <section class="projects-hero">
-        <div>
-          <span class="projects-hero__eyebrow">Sites configurés</span>
-          <h1 class="projects-hero__title">Projets <em>par site</em></h1>
-          <p class="projects-hero__deck">
-            Chaque projet aura son flux Discover personnalisé une fois la
-            connexion Google Search Console établie. Combine signaux externes
-            + historique d'audience pour anticiper les sujets à fort potentiel.
-          </p>
-        </div>
-        <div class="projects-hero__action">
-          <button class="btn btn--primary" id="new-project-btn">Nouveau projet</button>
-        </div>
-      </section>
-
-      <section class="projects-section">
-        <div class="projects-section__head">
-          <h2 class="projects-section__title">Vos sites</h2>
-          <span class="projects-section__hint" id="projects-meta">—</span>
-        </div>
-        <ul class="projects-grid" id="projects-grid"></ul>
-      </section>
-    </main>
+    <div id="cp-root"></div>
 
     <script type="module" src="scripts/auth.js"></script>
     <script type="module" src="scripts/shell-pro.js?v=tbr1"></script>
-    <script type="module" src="scripts/projects.js?v=tbr11"></script>
+    <script type="module" src="scripts/projects.js?v=tbr14"></script>
   </body>
 </html>
