@@ -165,10 +165,16 @@ def _fetch_sub(sub: str) -> list[dict[str, Any]]:
 # ---------------------------------------------------------------
 
 
-def _get_oauth_token() -> str | None:
-    """Récupère un access_token via client_credentials. None si pas configuré."""
-    if not (settings.reddit_client_id and settings.reddit_client_secret):
-        return None
+def _get_oauth_token() -> tuple[str | None, str]:
+    """Récupère un access_token via client_credentials.
+
+    Retourne (token, reason). reason explique pourquoi None est retourné,
+    affiché dans le snapshot pour diagnostiquer en CI.
+    """
+    if not settings.reddit_client_id:
+        return None, "no_client_id"
+    if not settings.reddit_client_secret:
+        return None, "no_client_secret"
     try:
         r = requests.post(
             "https://www.reddit.com/api/v1/access_token",
@@ -178,10 +184,16 @@ def _get_oauth_token() -> str | None:
             timeout=TIMEOUT_S,
         )
         if r.status_code != 200:
-            return None
-        return r.json().get("access_token")
-    except (requests.RequestException, ValueError):
-        return None
+            body = r.text[:120] if r.text else ""
+            return None, f"http_{r.status_code}: {body}"
+        token = r.json().get("access_token")
+        if not token:
+            return None, "no_token_in_response"
+        return token, "ok"
+    except requests.RequestException as exc:
+        return None, f"request_error: {type(exc).__name__}"
+    except ValueError as exc:
+        return None, f"json_error: {exc}"
 
 
 def _fetch_sub_oauth(sub: str, token: str) -> list[dict[str, Any]]:
@@ -253,8 +265,9 @@ def fetch() -> dict[str, Any]:
     sont définis (requis pour CI où Reddit blackliste les IPs cloud),
     sinon fallback sur RSS public.
     """
-    oauth_token = _get_oauth_token()
+    oauth_token, oauth_reason = _get_oauth_token()
     mode = "oauth" if oauth_token else "rss"
+    print(f"[reddit] mode={mode} oauth_status={oauth_reason}")
 
     all_posts: list[dict[str, Any]] = []
     counts_by_sub: dict[str, int] = {}
@@ -306,6 +319,7 @@ def fetch() -> dict[str, Any]:
         "source": SOURCE_KEY,
         "fetched_at": now_iso(),
         "mode": mode,
+        "oauth_status": oauth_reason,  # ok / no_client_id / http_401 / ...
         "subs": SUBS,
         "counts_by_sub": counts_by_sub,
         "failures": failures,
