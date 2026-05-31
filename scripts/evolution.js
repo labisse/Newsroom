@@ -304,6 +304,18 @@ const SRC_FILE_LABEL = {
   msn: "msn",
 };
 
+// Libellés affichés dans les cards Pulse (humain, plutôt que le nom de fichier).
+const SRC_DISPLAY_LABEL = {
+  discoversnoop: "Discover",
+  google_news: "Google News",
+  google_trends: "Google Trends",
+  msn: "MSN",
+  reddit: "Reddit",
+  wikimedia: "Wikipedia",
+  x_trends: "X",
+  youtube_trending: "Youtube",
+};
+
 const buildPulse = (evo) => {
   const timeline = evo.source_timeline_7d || {};
   const out = [];
@@ -320,7 +332,7 @@ const buildPulse = (evo) => {
     else if (delta < 0 && Math.abs(pctNum) > 15) status = "warn";
     out.push({
       key,
-      label: fileKey,
+      label: SRC_DISPLAY_LABEL[fileKey] || fileKey,
       items,
       spark: counts,
       delta7: `${sign}${pctNum}%`,
