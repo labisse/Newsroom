@@ -1,126 +1,23 @@
-/* ===================================================================
-   Tendances par source — vue brute, signal par signal.
+/* ============================================================
+   EDITORIAL SIGNAL — Tendances par source (design Claude, vanilla)
+   Branche les vraies données data/{source}/latest.json sur le design
+   "encre éditoriale élevée".
+   ============================================================ */
 
-   Chaque onglet charge data/{source}/latest.json et rend une liste
-   adaptée au format de la source (titre, publisher, métrique iconique,
-   lien). Pas de scoring agrégé ici — c'est la vue analytique brute.
-   =================================================================== */
-
-const SOURCES = [
-  { key: "discover", file: "discoversnoop", label: "Discover" },
-  { key: "gnews", file: "google_news", label: "Google News" },
-  { key: "reddit", file: "reddit", label: "Reddit" },
-  { key: "youtube", file: "youtube_trending", label: "YouTube" },
-  { key: "trends", file: "google_trends", label: "Google Trends" },
-  { key: "wiki", file: "wikimedia", label: "Wikipedia" },
-  { key: "x", file: "x_trends", label: "X" },
-  { key: "msn", file: "msn", label: "MSN" },
-];
-
-const state = {
-  data: {}, // { sourceKey: parsedJson }
-  active: "discover",
-  query: "", // normalisé (lowercase + sans accents)
-};
-
-/* Normalise une string pour la recherche (lowercase + sans diacritiques).
-   "École Élysée" → "ecole elysee" */
-const normalize = (s) =>
-  (s || "")
-    .toString()
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "");
-
-/**
- * Détermine si un item matche la query selon le type de source.
- * On cherche dans le titre + champs secondaires utiles à l'éditorial
- * (publisher, channel, subreddit, category…).
- */
-const matchesQuery = (item, sourceKey, q) => {
-  if (!q) return true;
-  const haystack = [];
-  switch (sourceKey) {
-    case "discover":
-      haystack.push(item.title, item.publisher, item.category);
-      break;
-    case "gnews":
-      haystack.push(item.title, item.source, item.category);
-      break;
-    case "reddit":
-      haystack.push(item.title, item.subreddit, item.domain);
-      if (Array.isArray(item.cross_subs))
-        haystack.push(item.cross_subs.join(" "));
-      break;
-    case "youtube":
-      haystack.push(
-        item.title,
-        item.channel,
-        item.category_label,
-        item.description,
-      );
-      if (Array.isArray(item.tags)) haystack.push(item.tags.join(" "));
-      break;
-    case "trends":
-      haystack.push(item.query);
-      if (Array.isArray(item.categories))
-        haystack.push(item.categories.join(" "));
-      break;
-    case "wiki":
-      haystack.push(item.title_display, item.article);
-      break;
-    case "x":
-      haystack.push(item.query, item.name);
-      break;
-    case "msn":
-      haystack.push(item.title, item.source, item.category);
-      break;
-    default:
-      haystack.push(item.title);
-  }
-  const hay = normalize(haystack.filter(Boolean).join("   "));
-  return hay.includes(q);
-};
-
-/** Filtre une liste d'items selon la query active. */
-const filterItems = (items, sourceKey) =>
-  state.query
-    ? items.filter((i) => matchesQuery(i, sourceKey, state.query))
-    : items;
-
-/** Items "bruts" d'une source (avant tri/filtre) — pour les compteurs. */
-const rawItemsFor = (sourceKey, data) => {
-  if (!data || data.__error) return [];
-  switch (sourceKey) {
-    case "discover":
-    case "gnews":
-    case "wiki":
-    case "msn":
-      return data.articles || [];
-    case "reddit":
-      return data.posts || [];
-    case "youtube":
-      return data.videos || [];
-    case "trends":
-      return ((data.windows && data.windows.current) || {}).trends || [];
-    case "x":
-      return data.trends || [];
-    default:
-      return [];
-  }
-};
-
-/* ----- Helpers ----- */
-
+/* ---------- helpers DOM ---------- */
 const h = (tag, attrs = {}, ...children) => {
   const el = document.createElement(tag);
-  for (const [k, v] of Object.entries(attrs)) {
+  for (const [k, v] of Object.entries(attrs || {})) {
     if (v == null || v === false) continue;
     if (k === "class") el.className = v;
-    else if (k.startsWith("on") && typeof v === "function") {
+    else if (k === "html") el.innerHTML = v;
+    else if (k === "style" && typeof v === "object") {
+      for (const [sk, sv] of Object.entries(v)) {
+        if (sv != null) el.style.setProperty(sk.startsWith("--") ? sk : kebab(sk), String(sv));
+      }
+    } else if (k.startsWith("on") && typeof v === "function") {
       el.addEventListener(k.slice(2).toLowerCase(), v);
-    } else if (k === "html") el.innerHTML = v;
-    else el.setAttribute(k, String(v));
+    } else el.setAttribute(k, String(v));
   }
   for (const c of children.flat()) {
     if (c == null || c === false) continue;
@@ -128,695 +25,600 @@ const h = (tag, attrs = {}, ...children) => {
   }
   return el;
 };
+const kebab = (s) => s.replace(/[A-Z]/g, (m) => "-" + m.toLowerCase());
 
-const fmtVolume = (n, suffix = "") => {
+const svgEl = (paths, w = 18, hp = 18) => {
+  const s = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  s.setAttribute("viewBox", "0 0 24 24");
+  s.setAttribute("fill", "none");
+  s.setAttribute("stroke", "currentColor");
+  s.setAttribute("stroke-width", "2");
+  s.setAttribute("stroke-linecap", "round");
+  s.setAttribute("stroke-linejoin", "round");
+  s.setAttribute("width", String(w));
+  s.setAttribute("height", String(hp));
+  s.innerHTML = paths;
+  return s;
+};
+
+const Ic = {
+  search: () => svgEl('<circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/>', 18, 18),
+  x: () => svgEl('<path d="M6 6l12 12M18 6 6 18"/>', 14, 14),
+  link: () => svgEl(
+    '<path d="M9 14a4 4 0 0 0 6 0l2-2a4 4 0 0 0-6-6l-1 1"/><path d="M15 10a4 4 0 0 0-6 0l-2 2a4 4 0 0 0 6 6l1-1"/>',
+    15,
+    15,
+  ),
+};
+
+const SRC_GLYPH = {
+  discover: () => svgEl(
+    '<circle cx="12" cy="12" r="8"/><path d="m9 15 1.5-4.5L15 9l-1.5 4.5L9 15Z" fill="currentColor" stroke="none"/>',
+    18,
+    18,
+  ),
+  gnews: () => svgEl('<rect x="4" y="5" width="16" height="14" rx="2"/><path d="M8 9h8M8 12h8M8 15h5"/>', 18, 18),
+  trends: () => svgEl('<path d="m4 16 5-5 3 3 7-7"/><path d="M16 7h4v4"/>', 18, 18),
+  wiki: () => svgEl('<path d="M3 7 7 17 10.5 9 14 17 21 7"/>', 18, 18),
+  msn: () => svgEl('<path d="M4 18V7l4 6 4-6 4 6 4-6v11"/>', 18, 18),
+  x: () => svgEl('<path d="M5 5l14 14M19 5 5 19"/>', 18, 18),
+  reddit: () => svgEl(
+    '<circle cx="12" cy="13" r="7"/><circle cx="12" cy="4" r="1.4"/><path d="M12 5.5V9"/><circle cx="9.5" cy="13" r="1" fill="currentColor" stroke="none"/><circle cx="14.5" cy="13" r="1" fill="currentColor" stroke="none"/><path d="M9.5 16c1.5 1 3.5 1 5 0"/>',
+    18,
+    18,
+  ),
+  youtube: () => svgEl(
+    '<rect x="3" y="6" width="18" height="12" rx="3"/><path d="m10.5 9.5 4 2.5-4 2.5Z" fill="currentColor" stroke="none"/>',
+    18,
+    18,
+  ),
+};
+
+const HUE = {
+  indigo: "#818CF8",
+  pink: "#F472B6",
+  emerald: "#34D399",
+  purple: "#C084FC",
+  amber: "#FBBF24",
+  blue: "#60A5FA",
+  red: "#FB7185",
+};
+
+/* ---------- plateformes ---------- */
+const PLATFORMS = [
+  { key: "discover", file: "discoversnoop", label: "Discover", glyph: "discover", hue: "indigo" },
+  { key: "gnews", file: "google_news", label: "Google News", glyph: "gnews", hue: "blue" },
+  { key: "reddit", file: "reddit", label: "Reddit", glyph: "reddit", hue: "amber" },
+  { key: "youtube", file: "youtube_trending", label: "YouTube", glyph: "youtube", hue: "red" },
+  { key: "trends", file: "google_trends", label: "Google Trends", glyph: "trends", hue: "emerald" },
+  { key: "wiki", file: "wikimedia", label: "Wikipédia", glyph: "wiki", hue: "purple" },
+  { key: "x", file: "x_trends", label: "X (Twitter)", glyph: "x", hue: "blue" },
+  { key: "msn", file: "msn", label: "MSN", glyph: "msn", hue: "indigo" },
+];
+
+/* ---------- helpers chaleur ---------- */
+const heatColor = (score) => {
+  if (score >= 28) return "var(--hot)";
+  if (score >= 11) return "var(--warm)";
+  return "var(--cool)";
+};
+
+const fmtVol = (n, suffix = "") => {
   const v = Number(n) || 0;
-  if (!v) return "—";
+  if (!v) return suffix ? `0${suffix}` : "0";
   if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M${suffix}`;
   if (v >= 1_000) return `${Math.round(v / 1_000)}k${suffix}`;
   return `${v}${suffix}`;
 };
 
-const truncate = (s, n = 120) =>
-  s && s.length > n ? s.slice(0, n - 1) + "…" : s || "";
+/* ---------- normalisation /65 par plateforme ----------
+   Le score sur /65 vient du CSV Discoversnoop. Pour les autres
+   plateformes, on calcule un score relatif basé sur le rang dans
+   la liste de la plateforme (premier ~ 60, dernier ~ 3-5). */
 
-const fmtRelativeTime = (iso) => {
-  if (!iso) return "";
-  try {
-    const dt = new Date(iso);
-    const minutes = Math.floor((Date.now() - dt.getTime()) / 60000);
-    if (minutes < 60) return `${minutes} min`;
-    const hours = Math.floor(minutes / 60);
-    if (hours < 24) return `${hours} h`;
-    const days = Math.floor(hours / 24);
-    return `${days} j`;
-  } catch {
-    return "";
+const normalizeScore = (rawScore, idx, total) => {
+  // Discover : score brut /65, on respecte
+  if (rawScore != null && rawScore > 0) {
+    return Math.min(65, Math.max(0, Number(rawScore)));
   }
+  // Décroissance log : item 1 = 60, item N = 3
+  const t = total > 1 ? idx / (total - 1) : 0;
+  return Math.round((60 - t * 55) * 10) / 10;
 };
 
-/* ----- Chargement ----- */
+/* ---------- adapters per source ---------- */
 
-const loadSource = async (sourceKey) => {
-  if (state.data[sourceKey]) return state.data[sourceKey];
-  const meta = SOURCES.find((s) => s.key === sourceKey);
-  if (!meta) return null;
-  try {
-    const response = await fetch(`data/${meta.file}/latest.json`, {
-      cache: "no-store",
-    });
-    if (!response.ok) {
-      state.data[sourceKey] = { __error: `HTTP ${response.status}` };
-      return state.data[sourceKey];
-    }
-    state.data[sourceKey] = await response.json();
-    return state.data[sourceKey];
-  } catch (err) {
-    state.data[sourceKey] = { __error: err.message || "Erreur de chargement" };
-    return state.data[sourceKey];
-  }
-};
-
-const updateCounts = async () => {
-  // Charge tous les snapshots en parallèle puis compte (avec ou sans filtre)
-  await Promise.all(
-    SOURCES.map(async (s) => {
-      const data = await loadSource(s.key);
-      const count = countFor(s.key, data);
-      const node = document.querySelector(`[data-count="${s.key}"]`);
-      if (node) node.textContent = count != null ? `${count}` : "—";
-    }),
+const adaptDiscover = (data) => {
+  const arts = [...(data.articles || [])].sort(
+    (a, b) => (Number(b.score) || 0) - (Number(a.score) || 0),
   );
+  return arts.map((a, i) => ({
+    score: Number(a.score) || 0.5,
+    title: a.title || "(sans titre)",
+    pub: a.publisher || "—",
+    tags: (a.category || "")
+      .split("/")
+      .filter(Boolean)
+      .slice(-2),
+    metric: null,
+    url: a.url,
+  }));
 };
 
-/** Recompte les items par source — synchrone, utilise le cache state.data.
- *  Appelé pendant la frappe de l'utilisateur pour MAJ les onglets. */
-const recomputeCounts = () => {
-  for (const s of SOURCES) {
-    const data = state.data[s.key];
-    const count = countFor(s.key, data);
-    const node = document.querySelector(`[data-count="${s.key}"]`);
-    if (node) node.textContent = count != null ? `${count}` : "—";
-  }
+const adaptGnews = (data) => {
+  const arts = data.articles || [];
+  return arts.map((a, i) => ({
+    score: normalizeScore(null, i, arts.length),
+    title: a.title,
+    pub: a.source || "Google News",
+    tags: a.category ? [a.category] : [],
+    metric: a.published_at ? null : null,
+    url: a.url,
+  }));
 };
 
-const countFor = (sourceKey, data) => {
-  if (!data || data.__error) return null;
-  const raw = rawItemsFor(sourceKey, data);
-  return filterItems(raw, sourceKey).length;
-};
-
-/* ----- Renderers par source ----- */
-
-const renderError = (msg) =>
-  h(
-    "div",
-    { class: "source-panel__empty" },
-    h("strong", {}, "Snapshot indisponible"),
-    h("p", {}, msg),
+const adaptReddit = (data) => {
+  const posts = [...(data.posts || [])].sort(
+    (a, b) =>
+      (b.score || 0) - (a.score || 0) ||
+      (b.cross_subs_count || 1) - (a.cross_subs_count || 1),
   );
-
-const renderMeta = (data, sourceKey) => {
-  const fetched = data.fetched_at ? fmtRelativeTime(data.fetched_at) : "?";
-  const count = countFor(sourceKey, data);
-  return h(
-    "p",
-    { class: "source-panel__meta" },
-    h(
-      "span",
-      { class: "source-panel__meta-pill", "data-source-color": sourceKey },
-      `${count != null ? count : "—"} items`,
-    ),
-    h(
-      "span",
-      { class: "source-panel__meta-time" },
-      `Mis à jour il y a ${fetched}`,
-    ),
-  );
+  return posts.map((p, i) => ({
+    score: normalizeScore(null, i, posts.length),
+    title: p.title,
+    pub: `r/${p.subreddit}`,
+    tags:
+      p.cross_subs && p.cross_subs.length > 1
+        ? [`${p.cross_subs.length} subs`]
+        : p.domain
+          ? [p.domain]
+          : [],
+    metric: p.score
+      ? `${fmtVol(p.score)} upvotes`
+      : p.cross_subs_count > 1
+        ? `×${p.cross_subs_count} subs`
+        : null,
+    url: p.url || p.permalink,
+  }));
 };
 
-const renderDiscover = (data) => {
-  const articles = filterItems(
-    [...(data.articles || [])].sort(
-      (a, b) => (Number(b.score) || 0) - (Number(a.score) || 0),
-    ),
-    "discover",
-  ).slice(0, 50);
-  return h(
-    "div",
-    {},
-    renderMeta(data, "discover"),
-    h(
-      "ul",
-      { class: "source-list" },
-      articles.map((a, i) => {
-        const score = Number(a.score) || 0;
-        const scoreDisplay =
-          score >= 10 ? score.toFixed(0) : score >= 1 ? score.toFixed(1) : "—";
-        return h(
-          "li",
-          { class: "source-row" },
-          h("span", { class: "source-row__rank" }, String(i + 1).padStart(2, "0")),
-          h(
-            "div",
-            { class: "source-row__metric", "data-source-color": "discover" },
-            h("span", { class: "source-row__metric-value" }, scoreDisplay),
-            h("span", { class: "source-row__metric-unit" }, "/65"),
-          ),
-          h(
-            "div",
-            { class: "source-row__body" },
-            a.url
-              ? h(
-                  "a",
-                  {
-                    class: "source-row__title",
-                    href: a.url,
-                    target: "_blank",
-                    rel: "noopener noreferrer",
-                  },
-                  a.title || "(sans titre)",
-                )
-              : h("span", { class: "source-row__title" }, a.title || "(sans titre)"),
-            h(
-              "div",
-              { class: "source-row__meta" },
-              a.publisher
-                ? h("span", { class: "source-row__publisher" }, a.publisher)
-                : null,
-              a.category
-                ? h(
-                    "span",
-                    { class: "source-row__category" },
-                    a.category.split("/").filter(Boolean).slice(-2).join(" · "),
-                  )
-                : null,
-            ),
-          ),
-        );
-      }),
-    ),
+const adaptYoutube = (data) => {
+  const vids = [...(data.videos || [])].sort(
+    (a, b) => (b.velocity_views_per_hour || 0) - (a.velocity_views_per_hour || 0),
   );
+  return vids.map((v, i) => ({
+    score: normalizeScore(null, i, vids.length),
+    title: v.title,
+    pub: v.channel || "YouTube",
+    tags: v.category_label ? [v.category_label] : [],
+    metric: v.velocity_views_per_hour
+      ? `${fmtVol(v.velocity_views_per_hour)} vues/h`
+      : v.views
+        ? `${fmtVol(v.views)} vues`
+        : null,
+    url: v.url,
+  }));
 };
 
-const renderGnews = (data) => {
-  const articles = filterItems(data.articles || [], "gnews").slice(0, 50);
-  return h(
-    "div",
-    {},
-    renderMeta(data, "gnews"),
-    h(
-      "ul",
-      { class: "source-list" },
-      articles.map((a, i) =>
-        h(
-          "li",
-          { class: "source-row" },
-          h("span", { class: "source-row__rank" }, String(i + 1).padStart(2, "0")),
-          h(
-            "div",
-            { class: "source-row__metric", "data-source-color": "gnews" },
-            h("span", { class: "source-row__metric-label" }, a.category || "actu"),
-          ),
-          h(
-            "div",
-            { class: "source-row__body" },
-            h(
-              "a",
-              {
-                class: "source-row__title",
-                href: a.url,
-                target: "_blank",
-                rel: "noopener noreferrer",
-              },
-              a.title,
-            ),
-            h(
-              "div",
-              { class: "source-row__meta" },
-              a.source
-                ? h("span", { class: "source-row__publisher" }, a.source)
-                : null,
-              a.published_at
-                ? h(
-                    "span",
-                    { class: "source-row__category" },
-                    fmtRelativeTime(a.published_at),
-                  )
-                : null,
-            ),
-          ),
-        ),
-      ),
-    ),
-  );
+const adaptTrends = (data) => {
+  const trends = ((data.windows && data.windows.current) || {}).trends || [];
+  return trends.map((t, i) => ({
+    score: normalizeScore(null, i, trends.length),
+    title: t.query || "—",
+    pub: (t.categories && t.categories[0]) || "Trends",
+    tags: t.percentage_increase
+      ? [`+${t.percentage_increase}%`]
+      : t.categories && t.categories.length > 1
+        ? [t.categories[1]]
+        : [],
+    metric: t.search_volume ? `${fmtVol(t.search_volume)} recherches` : null,
+    url: null,
+  }));
 };
 
-const renderReddit = (data) => {
-  const posts = filterItems(data.posts || [], "reddit").slice(0, 50);
-  return h(
-    "div",
-    {},
-    renderMeta(data, "reddit"),
-    h(
-      "ul",
-      { class: "source-list" },
-      posts.map((p, i) => {
-        const url = p.url || p.permalink;
-        return h(
-          "li",
-          { class: "source-row" },
-          h("span", { class: "source-row__rank" }, String(i + 1).padStart(2, "0")),
-          h(
-            "div",
-            { class: "source-row__metric", "data-source-color": "reddit" },
-            h(
-              "span",
-              { class: "source-row__metric-value" },
-              `×${p.cross_subs_count || 1}`,
-            ),
-            h("span", { class: "source-row__metric-unit" }, "subs"),
-          ),
-          h(
-            "div",
-            { class: "source-row__body" },
-            url
-              ? h(
-                  "a",
-                  {
-                    class: "source-row__title",
-                    href: url,
-                    target: "_blank",
-                    rel: "noopener noreferrer",
-                  },
-                  p.title,
-                )
-              : h("span", { class: "source-row__title" }, p.title),
-            h(
-              "div",
-              { class: "source-row__meta" },
-              h("span", { class: "source-row__publisher" }, `r/${p.subreddit}`),
-              p.cross_subs && p.cross_subs.length > 1
-                ? h(
-                    "span",
-                    { class: "source-row__category" },
-                    `aussi sur ${p.cross_subs.filter((s) => s !== p.subreddit).slice(0, 3).map((s) => "r/" + s).join(", ")}`,
-                  )
-                : p.domain
-                  ? h("span", { class: "source-row__category" }, p.domain)
-                  : null,
-            ),
-          ),
-        );
-      }),
-    ),
-  );
-};
-
-const renderYoutube = (data) => {
-  const videos = filterItems(data.videos || [], "youtube").slice(0, 50);
-  if (videos.length === 0 && (data.failures || []).length) {
-    return h(
-      "div",
-      {},
-      renderMeta(data, "youtube"),
-      renderError(
-        data.failures[0].reason === "missing_api_key"
-          ? "Clé API YouTube manquante (YOUTUBE_API_KEY)"
-          : data.failures[0].error || "Erreur API",
-      ),
-    );
-  }
-  return h(
-    "div",
-    {},
-    renderMeta(data, "youtube"),
-    h(
-      "ul",
-      { class: "source-list source-list--with-thumb" },
-      videos.map((v, i) =>
-        h(
-          "li",
-          { class: "source-row source-row--video" },
-          h("span", { class: "source-row__rank" }, String(i + 1).padStart(2, "0")),
-          v.thumbnail
-            ? h("img", {
-                class: "source-row__thumb",
-                src: v.thumbnail,
-                alt: "",
-                loading: "lazy",
-                width: 120,
-                height: 68,
-              })
-            : null,
-          h(
-            "div",
-            { class: "source-row__metric", "data-source-color": "youtube" },
-            h(
-              "span",
-              { class: "source-row__metric-value" },
-              fmtVolume(v.velocity_views_per_hour),
-            ),
-            h("span", { class: "source-row__metric-unit" }, "/h"),
-          ),
-          h(
-            "div",
-            { class: "source-row__body" },
-            h(
-              "a",
-              {
-                class: "source-row__title",
-                href: v.url,
-                target: "_blank",
-                rel: "noopener noreferrer",
-              },
-              v.title,
-            ),
-            h(
-              "div",
-              { class: "source-row__meta" },
-              h("span", { class: "source-row__publisher" }, v.channel || "—"),
-              h(
-                "span",
-                { class: "source-row__category" },
-                `${v.category_label || ""} · ${fmtVolume(v.views, " vues")}`,
-              ),
-            ),
-          ),
-        ),
-      ),
-    ),
-  );
-};
-
-const renderTrends = (data) => {
-  const w = (data.windows && data.windows.current) || {};
-  const trends = filterItems(w.trends || [], "trends").slice(0, 50);
-  return h(
-    "div",
-    {},
-    renderMeta(data, "trends"),
-    h(
-      "ul",
-      { class: "source-list" },
-      trends.map((t, i) =>
-        h(
-          "li",
-          { class: "source-row" },
-          h("span", { class: "source-row__rank" }, String(i + 1).padStart(2, "0")),
-          h(
-            "div",
-            { class: "source-row__metric", "data-source-color": "trends" },
-            h(
-              "span",
-              { class: "source-row__metric-value" },
-              fmtVolume(t.search_volume),
-            ),
-            h("span", { class: "source-row__metric-unit" }, "rech."),
-          ),
-          h(
-            "div",
-            { class: "source-row__body" },
-            h("span", { class: "source-row__title" }, t.query || "—"),
-            h(
-              "div",
-              { class: "source-row__meta" },
-              t.percentage_increase
-                ? h(
-                    "span",
-                    { class: "source-row__publisher" },
-                    `+${t.percentage_increase}%`,
-                  )
-                : null,
-              t.categories && t.categories.length
-                ? h(
-                    "span",
-                    { class: "source-row__category" },
-                    t.categories.slice(0, 2).join(", "),
-                  )
-                : null,
-            ),
-          ),
-        ),
-      ),
-    ),
-  );
-};
-
-const renderWiki = (data) => {
-  const articles = filterItems(data.articles || [], "wiki").slice(0, 50);
+const adaptWiki = (data) => {
+  const arts = data.articles || [];
   const project = data.project || "fr.wikipedia";
-  // L'URL d'un article Wikipedia se construit depuis le slug `article`
-  // (fields snapshotés par wikimedia.py). Project domain = fr.wikipedia.org
   const projectDomain = project.includes(".")
     ? `${project.split(".")[0]}.wikipedia.org`
     : "fr.wikipedia.org";
-  return h(
-    "div",
-    {},
-    renderMeta(data, "wiki"),
-    h(
-      "ul",
-      { class: "source-list" },
-      articles.map((a, i) => {
-        const url = a.article
-          ? `https://${projectDomain}/wiki/${a.article}`
-          : "";
-        const title = a.title_display || a.article || "—";
-        return h(
-          "li",
-          { class: "source-row" },
-          h("span", { class: "source-row__rank" }, String(i + 1).padStart(2, "0")),
-          h(
-            "div",
-            { class: "source-row__metric", "data-source-color": "wiki" },
-            h(
-              "span",
-              { class: "source-row__metric-value" },
-              fmtVolume(a.views),
-            ),
-            h("span", { class: "source-row__metric-unit" }, "vues"),
-          ),
-          h(
-            "div",
-            { class: "source-row__body" },
-            url
-              ? h(
-                  "a",
-                  {
-                    class: "source-row__title",
-                    href: url,
-                    target: "_blank",
-                    rel: "noopener noreferrer",
-                  },
-                  title,
-                )
-              : h("span", { class: "source-row__title" }, title),
-            h(
-              "div",
-              { class: "source-row__meta" },
-              h("span", { class: "source-row__publisher" }, project),
-            ),
-          ),
-        );
-      }),
-    ),
-  );
+  return arts.map((a, i) => ({
+    score: normalizeScore(null, i, arts.length),
+    title: a.title_display || a.article || "—",
+    pub: project,
+    tags: [],
+    metric: a.views ? `${fmtVol(a.views)} vues` : null,
+    url: a.article ? `https://${projectDomain}/wiki/${a.article}` : null,
+  }));
 };
 
-const renderX = (data) => {
-  const trends = filterItems(data.trends || [], "x").slice(0, 50);
-  return h(
-    "div",
-    {},
-    renderMeta(data, "x"),
-    h(
-      "ul",
-      { class: "source-list" },
-      trends.map((t, i) =>
-        h(
-          "li",
-          { class: "source-row" },
-          h("span", { class: "source-row__rank" }, String(i + 1).padStart(2, "0")),
-          h(
-            "div",
-            { class: "source-row__metric", "data-source-color": "x" },
-            h("span", { class: "source-row__metric-value" }, `#${i + 1}`),
-          ),
-          h(
-            "div",
-            { class: "source-row__body" },
-            h("span", { class: "source-row__title" }, t.query || t.name || "—"),
-            t.tweet_count
-              ? h(
-                  "div",
-                  { class: "source-row__meta" },
-                  h(
-                    "span",
-                    { class: "source-row__publisher" },
-                    fmtVolume(t.tweet_count, " tweets"),
-                  ),
-                )
-              : null,
-          ),
-        ),
-      ),
-    ),
-  );
+const adaptX = (data) => {
+  const trends = data.trends || [];
+  return trends.map((t, i) => ({
+    score: normalizeScore(null, i, trends.length),
+    title: t.query || t.name || "—",
+    pub: `Tendance #${i + 1}`,
+    tags: [],
+    metric: t.tweet_count
+      ? `${fmtVol(t.tweet_count)} posts`
+      : `#${i + 1} France`,
+    url: null,
+  }));
 };
 
-const renderMsn = (data) => {
-  const articles = filterItems(
-    [...(data.articles || [])].sort((a, b) => {
+const adaptMsn = (data) => {
+  const arts = [...(data.articles || [])].sort(
+    (a, b) => {
       const ae = (a.upvotes || 0) + (a.comments || 0) * 2;
       const be = (b.upvotes || 0) + (b.comments || 0) * 2;
       return be - ae;
-    }),
-    "msn",
-  ).slice(0, 50);
+    },
+  );
+  return arts.map((a, i) => {
+    const engagement = (a.upvotes || 0) + (a.comments || 0);
+    return {
+      score: normalizeScore(null, i, arts.length),
+      title: a.title,
+      pub: a.source || "MSN",
+      tags: a.category ? [a.category] : [],
+      metric: engagement > 0 ? `${engagement} réactions` : null,
+      url: a.url,
+    };
+  });
+};
+
+const ADAPTERS = {
+  discover: adaptDiscover,
+  gnews: adaptGnews,
+  reddit: adaptReddit,
+  youtube: adaptYoutube,
+  trends: adaptTrends,
+  wiki: adaptWiki,
+  x: adaptX,
+  msn: adaptMsn,
+};
+
+/* ---------- state ---------- */
+const state = {
+  raw: {}, // par platform key
+  items: {}, // adaptés
+  counts: {}, // total brut par plateforme
+  active: "discover",
+  query: "",
+  fetched_at: {},
+};
+
+const setState = (patch) => {
+  Object.assign(state, patch);
+  render();
+};
+
+/* ---------- chargement ---------- */
+const loadPlatform = async (pf) => {
+  if (state.raw[pf.key]) return;
+  try {
+    const r = await fetch(`data/${pf.file}/latest.json`, { cache: "no-store" });
+    if (!r.ok) {
+      state.raw[pf.key] = { error: `HTTP ${r.status}` };
+      state.items[pf.key] = [];
+      state.counts[pf.key] = 0;
+      return;
+    }
+    const data = await r.json();
+    state.raw[pf.key] = data;
+    state.items[pf.key] = ADAPTERS[pf.key] ? ADAPTERS[pf.key](data) : [];
+    state.counts[pf.key] = state.items[pf.key].length;
+    state.fetched_at[pf.key] = data.fetched_at;
+  } catch (e) {
+    state.raw[pf.key] = { error: e.message };
+    state.items[pf.key] = [];
+    state.counts[pf.key] = 0;
+  }
+};
+
+const loadAll = async () => {
+  await Promise.all(PLATFORMS.map(loadPlatform));
+};
+
+/* ---------- format relatif ---------- */
+const fmtAgo = (iso) => {
+  if (!iso) return "—";
+  try {
+    const dt = new Date(iso);
+    const min = Math.floor((Date.now() - dt.getTime()) / 60000);
+    if (min < 1) return "à l'instant";
+    if (min < 60) return `il y a ${min} min`;
+    const hr = Math.floor(min / 60);
+    if (hr < 24) return `il y a ${hr} h`;
+    return `il y a ${Math.floor(hr / 24)} j`;
+  } catch {
+    return "—";
+  }
+};
+
+const todayFr = () => {
+  const d = new Date();
+  const long = d.toLocaleDateString("fr-FR", {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+  return long.charAt(0).toUpperCase() + long.slice(1);
+};
+
+/* ---------- renderers ---------- */
+
+const renderHero = () =>
+  h(
+    "section",
+    { class: "tp-hero" },
+    h(
+      "div",
+      { class: "tp-eyebrow" },
+      h("span", { class: "dot" }),
+      "Tendances par source ",
+      h("span", { class: "muted" }, `· ${todayFr()}`),
+    ),
+    h(
+      "h1",
+      { class: "tp-title" },
+      "Ce qui buzze ",
+      h("span", { class: "accent" }, "par plateforme"),
+    ),
+    h(
+      "p",
+      { class: "tp-sub" },
+      "Vue brute, signal par signal — pour repérer les angles qui marchent sur chaque support, sans passer par le scoring agrégé.",
+    ),
+  );
+
+const renderFilterbar = () => {
+  const input = h("input", {
+    value: state.query,
+    placeholder: "Filtrer par mot-clé (ex : bardella, climat, roland-garros…)",
+    type: "search",
+    oninput: (e) => setState({ query: e.target.value }),
+  });
   return h(
     "div",
-    {},
-    renderMeta(data, "msn"),
+    { class: "tp-filterbar" },
     h(
-      "ul",
-      { class: "source-list" },
-      articles.map((a, i) => {
-        const engagement = (a.upvotes || 0) + (a.comments || 0);
-        return h(
-          "li",
-          { class: "source-row" },
-          h("span", { class: "source-row__rank" }, String(i + 1).padStart(2, "0")),
-          h(
-            "div",
-            { class: "source-row__metric", "data-source-color": "msn" },
-            h(
-              "span",
-              { class: "source-row__metric-value" },
-              engagement > 0 ? `${engagement}` : "—",
-            ),
-            h("span", { class: "source-row__metric-unit" }, "réact."),
-          ),
-          h(
-            "div",
-            { class: "source-row__body" },
-            a.url
-              ? h(
-                  "a",
-                  {
-                    class: "source-row__title",
-                    href: a.url,
-                    target: "_blank",
-                    rel: "noopener noreferrer",
-                  },
-                  a.title,
-                )
-              : h("span", { class: "source-row__title" }, a.title),
-            h(
-              "div",
-              { class: "source-row__meta" },
-              h("span", { class: "source-row__publisher" }, a.source || "MSN"),
-              a.category
-                ? h("span", { class: "source-row__category" }, a.category)
-                : null,
-            ),
-          ),
-        );
-      }),
+      "div",
+      { class: "tp-filter-input" },
+      (() => {
+        const s = Ic.search();
+        s.style.color = "var(--fg-subtle)";
+        s.style.flexShrink = "0";
+        return s;
+      })(),
+      input,
+      state.query
+        ? h(
+            "button",
+            {
+              class: "tp-filter-clear",
+              onClick: () => setState({ query: "" }),
+            },
+            Ic.x(),
+          )
+        : null,
     ),
   );
 };
 
-const RENDERERS = {
-  discover: renderDiscover,
-  gnews: renderGnews,
-  reddit: renderReddit,
-  youtube: renderYoutube,
-  trends: renderTrends,
-  wiki: renderWiki,
-  x: renderX,
-  msn: renderMsn,
-};
-
-const showSource = async (sourceKey) => {
-  state.active = sourceKey;
-
-  // Toggle active state on tabs
-  document.querySelectorAll(".source-tab").forEach((t) => {
-    const isActive = t.dataset.source === sourceKey;
-    t.classList.toggle("is-active", isActive);
-    t.setAttribute("aria-selected", isActive ? "true" : "false");
-  });
-
-  const panel = document.querySelector("#source-panel");
-  panel.innerHTML = "";
-  panel.appendChild(
-    h("div", { class: "source-panel__loading" }, "Chargement…"),
-  );
-
-  const data = await loadSource(sourceKey);
-  panel.innerHTML = "";
-
-  if (!data || data.__error) {
-    panel.appendChild(renderError(data?.__error || "Snapshot indisponible"));
-    return;
-  }
-
-  const renderer = RENDERERS[sourceKey];
-  const rendered = renderer(data);
-  panel.appendChild(rendered);
-
-  // Si un filtre est actif mais ne ramène aucun item, complète avec un
-  // message d'orientation (le renderer affiche déjà une liste vide).
-  const list = panel.querySelector(".source-list");
-  if (state.query && list && list.children.length === 0) {
-    panel.appendChild(
+const renderTabs = () => {
+  const wrap = h("div", { class: "tp-tabs" });
+  for (const pf of PLATFORMS) {
+    const count = state.counts[pf.key] || 0;
+    const isOn = pf.key === state.active;
+    const G = SRC_GLYPH[pf.glyph];
+    wrap.appendChild(
       h(
-        "div",
-        { class: "source-panel__empty" },
-        h("strong", {}, `Aucun match pour "${state.query}"`),
-        h(
-          "p",
-          {},
-          "Essaie un autre mot-clé, change d'onglet (les compteurs ci-dessus indiquent où le terme apparaît), ou efface la recherche.",
-        ),
+        "button",
+        {
+          class:
+            "tp-tab" +
+            (isOn ? " on" : "") +
+            (count === 0 ? " zero" : ""),
+          style: { "--tab-c": HUE[pf.hue] },
+          onClick: () => setState({ active: pf.key }),
+        },
+        h("span", { class: "tp-tab-ic" }, G ? G() : null),
+        h("span", { class: "tp-tab-label" }, pf.label),
+        h("span", { class: "tp-tab-count" }, String(count)),
       ),
     );
   }
+  return wrap;
 };
 
-/** Câblage de la barre de recherche : debounce 200ms pour éviter le re-render
- *  à chaque frappe sur les gros snapshots Discover (~1000 items). */
-let _searchDebounce = null;
-const wireSearch = () => {
-  const input = document.querySelector("#tendances-search");
-  const clear = document.querySelector("#tendances-search-clear");
-  if (!input) return;
+const renderListbar = (visible, pf) => {
+  const fresh = state.fetched_at[pf.key];
+  return h(
+    "div",
+    { class: "tp-listbar" },
+    h(
+      "span",
+      { class: "tp-items" },
+      h("span", { class: "pf-dot", style: { background: HUE[pf.hue] } }),
+      state.query
+        ? `${visible.length} résultat${visible.length > 1 ? "s" : ""}`
+        : `${visible.length} items`,
+    ),
+    h(
+      "span",
+      { class: "tp-upd" },
+      h("span", { class: "live-dot" }),
+      `Mis à jour ${fmtAgo(fresh)}`,
+    ),
+  );
+};
 
-  const apply = () => {
-    state.query = normalize(input.value.trim());
-    clear.hidden = !input.value;
-    recomputeCounts();
-    // Re-render le panel actif avec le nouveau filtre
-    showSource(state.active);
-  };
+const renderRow = (item, rank, hue) => {
+  const c = heatColor(item.score);
+  const scoreTxt =
+    Number.isInteger(item.score) ? String(item.score) : item.score.toFixed(1);
+  const tag = item.url ? "a" : "div";
+  const linkAttrs = item.url
+    ? { href: item.url, target: "_blank", rel: "noopener noreferrer" }
+    : {};
+  return h(
+    tag,
+    {
+      class: "tp-row tp-fade-up",
+      style: {
+        "--spine": c,
+        "animation-delay": Math.min(rank, 14) * 22 + "ms",
+      },
+      ...linkAttrs,
+    },
+    h("div", { class: "tp-row-rank" }, String(rank).padStart(2, "0")),
+    h(
+      "div",
+      {
+        class: "tp-scorepill",
+        style: {
+          "border-color": `color-mix(in srgb, ${c} 38%, var(--line-2))`,
+        },
+      },
+      h("span", { class: "tp-sp-num", style: { color: c } }, scoreTxt),
+      h("span", { class: "tp-sp-den" }, "/ 65"),
+    ),
+    h(
+      "div",
+      { class: "tp-row-mid" },
+      h("div", { class: "tp-row-title" }, item.title),
+      h(
+        "div",
+        { class: "tp-row-meta" },
+        h(
+          "span",
+          { class: "tp-pub", style: { "--pub-c": HUE[hue] } },
+          item.pub || "—",
+        ),
+        ...(item.tags && item.tags.length
+          ? item.tags.flatMap((t, i) => [
+              h("span", { class: "tp-metasep" }, "·"),
+              h("span", { class: "tp-tag" }, t),
+            ])
+          : []),
+      ),
+    ),
+    h(
+      "div",
+      { class: "tp-row-right" },
+      item.metric ? h("span", { class: "tp-metric-chip" }, item.metric) : null,
+      item.url
+        ? h("span", { class: "tp-ext" }, Ic.link())
+        : null,
+    ),
+  );
+};
 
-  input.addEventListener("input", () => {
-    clearTimeout(_searchDebounce);
-    _searchDebounce = setTimeout(apply, 200);
+const renderList = (visible, pf) => {
+  if (visible.length === 0) return null;
+  const wrap = h("div", { class: "tp-list" });
+  visible.slice(0, 100).forEach((it, i) => {
+    wrap.appendChild(renderRow(it, i + 1, pf.hue));
   });
+  return wrap;
+};
 
-  // Esc = effacer
-  input.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && input.value) {
-      input.value = "";
-      apply();
+const renderEmpty = (pf) => {
+  const G = SRC_GLYPH[pf.glyph];
+  return h(
+    "div",
+    { class: "tp-empty" },
+    h(
+      "div",
+      { class: "tp-empty-card" },
+      h("div", { class: "tp-empty-ic" }, G ? G() : null),
+      h(
+        "h3",
+        {},
+        state.query
+          ? "Aucun résultat"
+          : `Aucun signal sur ${pf.label} aujourd'hui`,
+      ),
+      state.query
+        ? h(
+            "p",
+            {},
+            `Aucun item ne correspond à « ${state.query} » sur ${pf.label}. `,
+            h(
+              "button",
+              { class: "clearfilter", onClick: () => setState({ query: "" }) },
+              "Effacer le filtre",
+            ),
+          )
+        : h(
+            "p",
+            {},
+            "Le connecteur est actif mais n'a rien remonté sur ce support pour la fenêtre en cours. Les items réapparaîtront au prochain passage du pipeline.",
+          ),
+    ),
+  );
+};
+
+/* ---------- filtrage + render principal ---------- */
+
+const norm = (s) =>
+  (s || "")
+    .toString()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "");
+
+const filterItems = (items) => {
+  if (!state.query) return items;
+  const q = norm(state.query);
+  return items.filter((it) => {
+    const hay = norm(
+      `${it.title} ${it.pub || ""} ${(it.tags || []).join(" ")} ${it.metric || ""}`,
+    );
+    return hay.includes(q);
+  });
+};
+
+const render = () => {
+  const root = document.getElementById("tp-root");
+  if (!root) return;
+  root.innerHTML = "";
+
+  root.appendChild(renderHero());
+  root.appendChild(renderFilterbar());
+  root.appendChild(renderTabs());
+
+  const pf = PLATFORMS.find((p) => p.key === state.active);
+  const items = state.items[pf.key] || [];
+  const visible = filterItems(items);
+
+  root.appendChild(renderListbar(visible, pf));
+
+  if (visible.length === 0) {
+    root.appendChild(renderEmpty(pf));
+  } else {
+    root.appendChild(renderList(visible, pf));
+  }
+};
+
+/* ---------- mount ---------- */
+const mount = async () => {
+  render(); // squelette initial
+  await loadAll();
+  render();
+
+  // raccourci '/' focus l'input recherche
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "/" && !["INPUT", "TEXTAREA"].includes(document.activeElement?.tagName || "")) {
+      const input = document.querySelector(".tp-filter-input input");
+      if (input) {
+        e.preventDefault();
+        input.focus();
+      }
     }
   });
-
-  clear.addEventListener("click", () => {
-    input.value = "";
-    apply();
-    input.focus();
-  });
-};
-
-/* ----- Mount ----- */
-
-const mount = async () => {
-  // Wire les onglets
-  document.querySelectorAll(".source-tab").forEach((tab) => {
-    tab.addEventListener("click", () => showSource(tab.dataset.source));
-  });
-
-  // Câblage de la barre de recherche
-  wireSearch();
-
-  // Affiche par défaut Discover (le plus pertinent côté produit)
-  await showSource("discover");
-
-  // Récupère les compteurs en arrière-plan (tous les onglets en parallèle)
-  updateCounts();
 };
 
 if (document.readyState === "loading") {

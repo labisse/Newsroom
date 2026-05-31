@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="styles/components.css?v=tbr11" />
     <link rel="stylesheet" href="styles/cockpit-pro.css?v=tbr1" />
     <link rel="stylesheet" href="styles/tokens-bridge.css?v=tbr1" />
-    <link rel="stylesheet" href="styles/tendances.css?v=tbr3" />
+    <link rel="stylesheet" href="styles/tendances-pro.css?v=tbr1" />
     <!-- Anti-FOUC : si pas de session valide, lock l'HTML avant le rendu -->
     <script>
       (function () {
@@ -82,115 +82,11 @@
     <!-- Shell rendu par scripts/shell-pro.js -->
     <div id="shell-mount" data-shell-active="sources" data-shell-search="false"></div>
 
-    <main class="tendances">
-      <section class="tendances-hero">
-        <div class="tendances-hero__intro">
-          <p class="tendances-hero__eyebrow">Tendances par source · 30 mai 2026</p>
-          <h1 class="tendances-hero__title">
-            Ce qui buzze <em>par plateforme</em>
-          </h1>
-          <p class="tendances-hero__lede" id="tendances-freshness">
-            Vue brute, signal par signal — pour identifier les angles qui marchent
-            sur chaque support sans passer par le scoring agrégé.
-          </p>
-        </div>
-      </section>
-
-      <!-- Barre de recherche : filtre les items affichés ET les compteurs
-           d'onglet en temps réel (debounce ~200ms). -->
-      <div class="source-search">
-        <svg
-          class="source-search__icon"
-          width="16"
-          height="16"
-          viewBox="0 0 16 16"
-          fill="none"
-          aria-hidden="true"
-        >
-          <circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.5" />
-          <path d="M11 11l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-        </svg>
-        <input
-          class="source-search__input"
-          type="search"
-          id="tendances-search"
-          placeholder="Filtrer par mot-clé (ex: bardella, climat, roland-garros…)"
-          autocomplete="off"
-          spellcheck="false"
-          aria-label="Rechercher dans les tendances"
-        />
-        <button
-          class="source-search__clear"
-          type="button"
-          id="tendances-search-clear"
-          aria-label="Effacer la recherche"
-          hidden
-        >
-          ✕
-        </button>
-      </div>
-
-      <!-- Onglets : un par source -->
-      <nav class="source-tabs" role="tablist" aria-label="Sources">
-        <button
-          class="source-tab is-active"
-          role="tab"
-          data-source="discover"
-          aria-selected="true"
-        >
-          <span class="source-tab__dot" data-source-color="discover"></span>
-          <span class="source-tab__name">Discover</span>
-          <span class="source-tab__count" data-count="discover">—</span>
-        </button>
-        <button class="source-tab" role="tab" data-source="gnews" aria-selected="false">
-          <span class="source-tab__dot" data-source-color="gnews"></span>
-          <span class="source-tab__name">Google News</span>
-          <span class="source-tab__count" data-count="gnews">—</span>
-        </button>
-        <button class="source-tab" role="tab" data-source="reddit" aria-selected="false">
-          <span class="source-tab__dot" data-source-color="reddit"></span>
-          <span class="source-tab__name">Reddit</span>
-          <span class="source-tab__count" data-count="reddit">—</span>
-        </button>
-        <button class="source-tab" role="tab" data-source="youtube" aria-selected="false">
-          <span class="source-tab__dot" data-source-color="youtube"></span>
-          <span class="source-tab__name">YouTube</span>
-          <span class="source-tab__count" data-count="youtube">—</span>
-        </button>
-        <button class="source-tab" role="tab" data-source="trends" aria-selected="false">
-          <span class="source-tab__dot" data-source-color="trends"></span>
-          <span class="source-tab__name">Google Trends</span>
-          <span class="source-tab__count" data-count="trends">—</span>
-        </button>
-        <button class="source-tab" role="tab" data-source="wiki" aria-selected="false">
-          <span class="source-tab__dot" data-source-color="wiki"></span>
-          <span class="source-tab__name">Wikipedia</span>
-          <span class="source-tab__count" data-count="wiki">—</span>
-        </button>
-        <button class="source-tab" role="tab" data-source="x" aria-selected="false">
-          <span class="source-tab__dot" data-source-color="x"></span>
-          <span class="source-tab__name">X (Twitter)</span>
-          <span class="source-tab__count" data-count="x">—</span>
-        </button>
-        <button class="source-tab" role="tab" data-source="msn" aria-selected="false">
-          <span class="source-tab__dot" data-source-color="msn"></span>
-          <span class="source-tab__name">MSN</span>
-          <span class="source-tab__count" data-count="msn">—</span>
-        </button>
-      </nav>
-
-      <section
-        class="source-panel"
-        role="tabpanel"
-        id="source-panel"
-        aria-live="polite"
-      >
-        <div class="source-panel__loading">Chargement…</div>
-      </section>
-    </main>
+    <!-- Contenu de la page rendu dynamiquement par scripts/tendances.js -->
+    <div id="tp-root"></div>
 
     <script type="module" src="scripts/auth.js?v=tbr5"></script>
     <script type="module" src="scripts/shell-pro.js?v=tbr1"></script>
-    <script type="module" src="scripts/tendances.js?v=tbr2"></script>
+    <script type="module" src="scripts/tendances.js?v=tbr3"></script>
   </body>
 </html>
