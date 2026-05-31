@@ -325,14 +325,13 @@ def composite_score(
 
 
 def tier_from_score(score: float) -> str:
-    """Mêmes seuils que côté front (cf scripts/data.js).
+    """Tiers calibres sur l'echelle d'affichage /100 (post-rescale).
 
-    Calibrés pour le POC avec les 4 sources actuelles. Le CdC vise des
-    seuils 70/40 mais c'est calibré pour 5 sources (avec GSC + Google
-    News dédiés). En attendant la Phase 1, on relâche.
+    77 / 46 = 50 / 30 sur l'echelle interne d'origine (rescale x100/65
+    applique au output de aggregator). Memes seuils que scripts/data.js.
     """
-    if score >= 50:
+    if score >= 77:
         return "high"
-    if score >= 30:
+    if score >= 46:
         return "medium"
     return "low"

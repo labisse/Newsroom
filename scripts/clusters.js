@@ -145,10 +145,11 @@ export const renderEntityClusters = (clusters) => {
 };
 
 const renderEntityClusterCard = (cluster) => {
+  // Sum-of-scores rescale x100/65 comme les scores individuels.
   const tier =
-    cluster.total_score >= 30
+    cluster.total_score >= 46
       ? "high"
-      : cluster.total_score >= 10
+      : cluster.total_score >= 15
         ? "medium"
         : "low";
   const members = cluster.members || [];

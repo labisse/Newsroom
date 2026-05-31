@@ -155,9 +155,10 @@ const SOURCES = {
   youtube: { label: "YouTube", short: "YT" },
 };
 
+// Seuils sur l'echelle d'affichage /100 (= 77/46 sur l'echelle d'origine).
 const tierOf = (score) => {
-  if (score >= 50) return { key: "fort", label: "Signal fort", color: "var(--hot)", spine: "var(--hot)", glow: "rgba(255,106,77,0.16)" };
-  if (score >= 30) return { key: "moyen", label: "Signal moyen", color: "var(--warm)", spine: "var(--warm)", glow: "rgba(245,177,75,0.13)" };
+  if (score >= 77) return { key: "fort", label: "Signal fort", color: "var(--hot)", spine: "var(--hot)", glow: "rgba(255,106,77,0.16)" };
+  if (score >= 46) return { key: "moyen", label: "Signal moyen", color: "var(--warm)", spine: "var(--warm)", glow: "rgba(245,177,75,0.13)" };
   return { key: "faible", label: "Signal faible", color: "var(--cool)", spine: "var(--cool)", glow: "rgba(126,138,163,0.10)" };
 };
 
@@ -424,7 +425,7 @@ const Spark = (vals, color) => {
 };
 
 const renderKpiRow = () => {
-  const hot = state.topics.filter((t) => t.score >= 50).length;
+  const hot = state.topics.filter((t) => t.score >= 77).length;
   const total = state.topics.length;
   const sourcesUsed = state.raw?.sources_used || {};
   const nSources = Object.keys(sourcesUsed).length;
@@ -459,7 +460,7 @@ const renderKpiRow = () => {
     {
       label: "Sujets hot",
       val: hot,
-      sub: "score ≥ 50",
+      sub: "score ≥ 77",
       accent: "var(--hot)",
       right: Delta(hot >= 4 ? +2 : 0, false),
     },
@@ -736,8 +737,8 @@ const renderList = (visible) => {
   }
 
   const tiers = [
-    { key: "fort", label: "Signal fort", items: visible.filter((t) => t.score >= 50) },
-    { key: "moyen", label: "Signal moyen", items: visible.filter((t) => t.score >= 30 && t.score < 50) },
+    { key: "fort", label: "Signal fort", items: visible.filter((t) => t.score >= 77) },
+    { key: "moyen", label: "Signal moyen", items: visible.filter((t) => t.score >= 46 && t.score < 77) },
     { key: "faible", label: "Signal faible", items: visible.filter((t) => t.score < 30) },
   ];
   const wrap = h("div", { class: "list" });

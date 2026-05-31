@@ -238,17 +238,21 @@ const YOUTUBE_CAT_MAP = {
   "Jeux vidéo": "people",
 };
 
-/* ---------- normalisation /65 ---------- */
+/* ---------- normalisation /100 ----------
+   Discover CSV est sur /65 nativement, rescale x100/65 a l'affichage.
+   Les autres sources : interpolation lineaire par rang (92 → 5). */
 const heatColor = (s) => {
-  if (s >= 28) return "var(--hot)";
-  if (s >= 11) return "var(--warm)";
+  if (s >= 43) return "var(--hot)";
+  if (s >= 17) return "var(--warm)";
   return "var(--cool)";
 };
 
 const normalizeScore = (raw, idx, total) => {
-  if (raw != null && raw > 0) return Math.min(65, Math.max(0, Number(raw)));
+  if (raw != null && raw > 0) {
+    return Math.min(100, Math.max(0, Number(raw) * 100 / 65));
+  }
   const t = total > 1 ? idx / (total - 1) : 0;
-  return Math.round((60 - t * 55) * 10) / 10;
+  return Math.round((92 - t * 87) * 10) / 10;
 };
 
 const fmtVol = (n, suffix = "") => {
@@ -347,14 +351,16 @@ const classifyAll = () => {
     buckets[catKey].srcCounts[src] = (buckets[catKey].srcCounts[src] || 0) + 1;
   };
 
-  // Discover
+  // Discover : le CSV donne un score /65 natif, on rescale a /100.
   const dArts = (state.raw.discover?.articles || []).slice();
   dArts.sort((a, b) => (Number(b.score) || 0) - (Number(a.score) || 0));
   dArts.forEach((a, i) => {
     const cat = classifyDiscover(a);
     if (!cat) return;
+    const raw = Number(a.score);
+    const scaled = raw > 0 ? Math.min(100, raw * 100 / 65) : 0.5;
     pushItem(cat, "discover", {
-      score: Number(a.score) || 0.5,
+      score: scaled,
       title: a.title || "(sans titre)",
       pub: a.publisher || "—",
       tags: (a.category || "").split("/").filter(Boolean).slice(-2),
@@ -680,7 +686,7 @@ const renderRow = (item, rank) => {
         },
       },
       h("span", { class: "tp-sp-num", style: { color: c } }, scoreTxt),
-      h("span", { class: "tp-sp-den" }, "/ 65"),
+      h("span", { class: "tp-sp-den" }, "/ 100"),
     ),
     h(
       "div",

@@ -683,7 +683,12 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
                 }
             )
 
-    rounded = int(round(breakdown.total))
+    # Le scoring interne tourne sur une echelle ~/65 (max observe avec
+    # les 7 sources actuelles). On rescale a /100 pour l'affichage : plus
+    # naturel pour les redacteurs, et permet d'utiliser les seuils tier
+    # 77/46 (= 50/30 sur l'echelle d'origine).
+    rounded = int(round(breakdown.total * 100.0 / 65.0))
+    rounded = max(0, min(100, rounded))
     return {
         "id": f"s{rank:02d}",
         "rank": rank,

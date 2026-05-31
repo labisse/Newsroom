@@ -98,10 +98,10 @@ const PLATFORMS = [
   { key: "msn", file: "msn", label: "MSN", glyph: "msn", hue: "indigo" },
 ];
 
-/* ---------- helpers chaleur ---------- */
+/* ---------- helpers chaleur (echelle /100) ---------- */
 const heatColor = (score) => {
-  if (score >= 28) return "var(--hot)";
-  if (score >= 11) return "var(--warm)";
+  if (score >= 43) return "var(--hot)";
+  if (score >= 17) return "var(--warm)";
   return "var(--cool)";
 };
 
@@ -113,19 +113,20 @@ const fmtVol = (n, suffix = "") => {
   return `${v}${suffix}`;
 };
 
-/* ---------- normalisation /65 par plateforme ----------
-   Le score sur /65 vient du CSV Discoversnoop. Pour les autres
-   plateformes, on calcule un score relatif basé sur le rang dans
-   la liste de la plateforme (premier ~ 60, dernier ~ 3-5). */
+/* ---------- normalisation /100 par plateforme ----------
+   Le score Discoversnoop CSV est sur /65 nativement, on le rescale a
+   /100 (x100/65 ≈ x1.538) pour aligner avec l'echelle d'affichage
+   harmonisee partout. Pour les plateformes sans score, on interpole
+   par le rang dans la liste (premier ~92, dernier ~5). */
 
 const normalizeScore = (rawScore, idx, total) => {
-  // Discover : score brut /65, on respecte
+  // Discover : score brut /65 rescale a /100
   if (rawScore != null && rawScore > 0) {
-    return Math.min(65, Math.max(0, Number(rawScore)));
+    return Math.min(100, Math.max(0, Number(rawScore) * 100 / 65));
   }
-  // Décroissance log : item 1 = 60, item N = 3
+  // Décroissance lineaire : item 1 = 92, item N = 5
   const t = total > 1 ? idx / (total - 1) : 0;
-  return Math.round((60 - t * 55) * 10) / 10;
+  return Math.round((92 - t * 87) * 10) / 10;
 };
 
 /* ---------- adapters per source ---------- */
@@ -485,7 +486,7 @@ const renderRow = (item, rank, hue) => {
         },
       },
       h("span", { class: "tp-sp-num", style: { color: c } }, scoreTxt),
-      h("span", { class: "tp-sp-den" }, "/ 65"),
+      h("span", { class: "tp-sp-den" }, "/ 100"),
     ),
     h(
       "div",

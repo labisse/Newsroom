@@ -287,7 +287,9 @@ const renderDiscoverArticle = (article) => {
   // Carte minimaliste : un article Discover repéré dans le flux mais
   // pas encore promu en sujet global. Visuellement distinct du sujet MSN
   // pour ne pas tromper le rédac chef sur le statut éditorial.
-  const score = Number(article.score || 0);
+  // Discoversnoop CSV est /65 natif, on rescale a /100 pour l'affichage.
+  const raw = Number(article.score || 0);
+  const score = raw > 0 ? Math.min(100, raw * 100 / 65) : 0;
   const scoreDisplay =
     score >= 10 ? score.toFixed(0) : score >= 1 ? score.toFixed(1) : "présent";
   return h(
@@ -302,7 +304,7 @@ const renderDiscoverArticle = (article) => {
       "div",
       { class: "sujet__discover-score", title: "Score Discoversnoop" },
       h("span", { class: "sujet__discover-score-value" }, String(scoreDisplay)),
-      h("span", { class: "sujet__discover-score-label" }, "/65"),
+      h("span", { class: "sujet__discover-score-label" }, "/100"),
     ),
     h(
       "div",
