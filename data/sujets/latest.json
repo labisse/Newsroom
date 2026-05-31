@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-05-31T04:57:45Z",
+  "generated_at": "2026-05-31T05:44:38Z",
   "sources_used": {
     "msn": {
-      "fetched_at": "2026-05-31T04:57:24Z",
+      "fetched_at": "2026-05-31T05:44:15Z",
       "count": 100
     },
     "wikimedia": {
-      "fetched_at": "2026-05-31T04:57:25Z",
+      "fetched_at": "2026-05-31T05:44:15Z",
       "count": 986
     },
     "google_trends": {
-      "fetched_at": "2026-05-31T04:57:25Z",
+      "fetched_at": "2026-05-31T05:44:15Z",
       "count": 475
     },
     "x_trends": {
-      "fetched_at": "2026-05-31T04:57:25Z",
+      "fetched_at": "2026-05-31T05:44:15Z",
       "count": 233
     },
     "discoversnoop": {
-      "fetched_at": "2026-05-31T04:57:30Z",
-      "count": 899
+      "fetched_at": "2026-05-31T05:44:20Z",
+      "count": 844
     },
     "google_news": {
-      "fetched_at": "2026-05-31T04:57:36Z",
-      "count": 394
+      "fetched_at": "2026-05-31T05:44:29Z",
+      "count": 398
     },
     "reddit": {
-      "fetched_at": "2026-05-31T04:57:42Z",
+      "fetched_at": "2026-05-31T05:44:33Z",
       "count": 0
     },
     "youtube_trending": {
-      "fetched_at": "2026-05-31T04:57:42Z",
-      "count": 0
+      "fetched_at": "2026-05-31T05:44:35Z",
+      "count": 49
     }
   },
   "weights": {
@@ -49,8 +49,8 @@
     "kept": 30,
     "by_tier": {
       "high": 2,
-      "medium": 16,
-      "low": 12
+      "medium": 15,
+      "low": 13
     }
   },
   "sujets": [
@@ -59,9 +59,9 @@
       "rank": 1,
       "title": "Edgar Morin s’en est allé à 104 ans : l’amour de sa femme Sabah Abouessalam était son « secret de jouvence »",
       "theme": "divertissement",
-      "score": 63,
+      "score": 69,
       "tier": "high",
-      "rationale": "Pic Google Trends (100 000 recherches) · forte audience Wikipedia (184 848 vues/jour) · repris sur Google Actualités · mentionné sur X · engagement MSN élevé.",
+      "rationale": "Pic Google Trends (100 000 recherches) · forte audience Wikipedia (184 848 vues/jour) · couvert par 2 médias · trending sur X · engagement MSN élevé.",
       "signals": [
         {
           "source": "discover",
@@ -71,7 +71,7 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "1 média"
+          "value": "2 médias"
         },
         {
           "source": "trends",
@@ -86,7 +86,7 @@
         {
           "source": "x",
           "label": "x",
-          "value": "#142"
+          "value": "#14"
         },
         {
           "source": "msn",
@@ -102,8 +102,8 @@
         },
         {
           "name": "Google News",
-          "value": "1 média",
-          "fill": 35
+          "value": "2 médias",
+          "fill": 57
         },
         {
           "name": "Google Trends",
@@ -117,8 +117,8 @@
         },
         {
           "name": "X velocity",
-          "value": "rang #142",
-          "fill": 20
+          "value": "rang #14",
+          "fill": 60
         },
         {
           "name": "MSN engagement",
@@ -140,12 +140,12 @@
         "discover": 0.5,
         "trends": 100.0,
         "wiki": 100.0,
-        "gnews": 35.0,
+        "gnews": 57.1,
         "msn": 100.0,
-        "x": 20.0,
+        "x": 60.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 63.4
+        "total": 69.3
       },
       "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/edgar-morin-s-en-est-allé-à-104-ans-l-amour-de-sa-femme-sabah-abouessalam-était-son-secret-de-jouvence/ar-AA24pzMY?ocid=00000000",
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24pplS.img",
@@ -160,8 +160,12 @@
           "url": "https://www.midilibre.fr/2026/05/30/a-montpellier-on-touchait-un-peu-edgar-morin-comme-le-messie-le-temoignage-de-son-amie-nathalie-quentin-13395397.php"
         },
         {
-          "label": "GNews · Le Monde.fr — Edgar Morin, sociologue du temps présent et agitateur d’idées, est mort à l’âge de 104 ans",
-          "url": "https://www.lemonde.fr/disparitions/article/2026/05/30/edgar-morin-sociologue-du-temps-present-et-agitateur-d-idees-est-mort-a-l-age-de-104-ans_6695210_3382.html"
+          "label": "GNews · L'Humanité — Edgar Morin, penseur de la complexité et passionné de l’humanité",
+          "url": "https://www.humanite.fr/en-debat/carnet/disparition-edgar-morin-penseur-de-la-complexite-et-passionne-de-lhumanite"
+        },
+        {
+          "label": "GNews · franceinfo — L'intellectuel français Edgar Morin, éminent sociologue et philosophe, est mort à l'âge de 104 ans",
+          "url": "https://www.franceinfo.fr/culture/livres/edgar-morin/l-intellectuel-francais-edgar-morin-eminent-sociologue-et-philosophe-est-mort-a-l-age-de-104-ans_3411413.html"
         }
       ],
       "discover_category": "/News",
@@ -174,9 +178,9 @@
       "rank": 2,
       "title": "Edgar Morin n’est plus : sa femme Sabah Abouessalam, épousée il y a 14 ans, n’est pas une inconnue",
       "theme": "divertissement",
-      "score": 55,
+      "score": 61,
       "tier": "high",
-      "rationale": "Pic Google Trends (100 000 recherches) · forte audience Wikipedia (184 848 vues/jour) · repris sur Google Actualités · mentionné sur X.",
+      "rationale": "Pic Google Trends (100 000 recherches) · forte audience Wikipedia (184 848 vues/jour) · couvert par 2 médias · trending sur X.",
       "signals": [
         {
           "source": "discover",
@@ -186,7 +190,7 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "1 média"
+          "value": "2 médias"
         },
         {
           "source": "trends",
@@ -201,12 +205,12 @@
         {
           "source": "x",
           "label": "x",
-          "value": "#142"
+          "value": "#14"
         },
         {
           "source": "msn",
           "label": "msn",
-          "value": "41+ react."
+          "value": "44+ react."
         }
       ],
       "sources": [
@@ -217,8 +221,8 @@
         },
         {
           "name": "Google News",
-          "value": "1 média",
-          "fill": 35
+          "value": "2 médias",
+          "fill": 57
         },
         {
           "name": "Google Trends",
@@ -232,13 +236,13 @@
         },
         {
           "name": "X velocity",
-          "value": "rang #142",
-          "fill": 20
+          "value": "rang #14",
+          "fill": 60
         },
         {
           "name": "MSN engagement",
-          "value": "32/100",
-          "fill": 32
+          "value": "37/100",
+          "fill": 37
         },
         {
           "name": "Reddit FR",
@@ -255,12 +259,12 @@
         "discover": 0.5,
         "trends": 100.0,
         "wiki": 100.0,
-        "gnews": 35.0,
-        "msn": 32.0,
-        "x": 20.0,
+        "gnews": 57.1,
+        "msn": 37.2,
+        "x": 60.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 54.6
+        "total": 61.1
       },
       "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/edgar-morin-n-est-plus-sa-femme-sabah-abouessalam-épousée-il-y-a-14-ans-n-est-pas-une-inconnue/ar-AA24qK3u?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.cf812f111372a0f22aab9a4034c72c16&pid=Wdp",
@@ -275,8 +279,12 @@
           "url": "https://www.midilibre.fr/2026/05/30/a-montpellier-on-touchait-un-peu-edgar-morin-comme-le-messie-le-temoignage-de-son-amie-nathalie-quentin-13395397.php"
         },
         {
-          "label": "GNews · Le Monde.fr — Edgar Morin, sociologue du temps présent et agitateur d’idées, est mort à l’âge de 104 ans",
-          "url": "https://www.lemonde.fr/disparitions/article/2026/05/30/edgar-morin-sociologue-du-temps-present-et-agitateur-d-idees-est-mort-a-l-age-de-104-ans_6695210_3382.html"
+          "label": "GNews · L'Humanité — Edgar Morin, penseur de la complexité et passionné de l’humanité",
+          "url": "https://www.humanite.fr/en-debat/carnet/disparition-edgar-morin-penseur-de-la-complexite-et-passionne-de-lhumanite"
+        },
+        {
+          "label": "GNews · franceinfo — L'intellectuel français Edgar Morin, éminent sociologue et philosophe, est mort à l'âge de 104 ans",
+          "url": "https://www.franceinfo.fr/culture/livres/edgar-morin/l-intellectuel-francais-edgar-morin-eminent-sociologue-et-philosophe-est-mort-a-l-age-de-104-ans_3411413.html"
         }
       ],
       "discover_category": "/News",
@@ -287,236 +295,11 @@
     {
       "id": "s03",
       "rank": 3,
-      "title": "PSG/Arsenal – Luis Enrique savoure la fameuse « résilience »",
+      "title": "« C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
       "theme": "sport",
-      "score": 49,
+      "score": 43,
       "tier": "medium",
-      "rationale": "Présent sur Google Trends · forte audience Wikipedia (64 855 vues/jour) · couvert par 2 médias · trending sur X.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "20k"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "65k vues"
-        },
-        {
-          "source": "x",
-          "label": "x",
-          "value": "#29"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "10+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.2",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
-        },
-        {
-          "name": "Google Trends",
-          "value": "20k",
-          "fill": 38
-        },
-        {
-          "name": "Wikimedia",
-          "value": "65k vues/h",
-          "fill": 100
-        },
-        {
-          "name": "X velocity",
-          "value": "rang #29",
-          "fill": 60
-        },
-        {
-          "name": "MSN engagement",
-          "value": "23/100",
-          "fill": 22
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.9,
-        "trends": 38.8,
-        "wiki": 100.0,
-        "gnews": 57.1,
-        "msn": 23.0,
-        "x": 60.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 49.0
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-luis-enrique-savoure-la-fameuse-résilience/ar-AA24ruTb?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.5217a0ec0f0d5904ef5eec7cb1241a39&pid=Wdp",
-      "msn_source_name": "Paris Fans",
-      "refs": [
-        {
-          "label": "MSN · Paris Fans — PSG/Arsenal – Luis Enrique savoure la fameuse « résilience »",
-          "url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-luis-enrique-savoure-la-fameuse-résilience/ar-AA24ruTb?ocid=00000000"
-        },
-        {
-          "label": "Discover · Le Parisien — PSG-Arsenal : mouvements de foule, interpellations,...",
-          "url": "https://www.leparisien.fr/sports/football/ligue-des-champions/psg-arsenal-une-dizaine-dinterpellations-aux-abords-du-parc-des-princes-30-05-2026-76XF3TYQGVB4NHODVAGGAURLU4.php"
-        },
-        {
-          "label": "GNews · Sport.fr — Ligue des champions : Luis Enrique salue ses hommes de l’ombre",
-          "url": "https://www.sport.fr/football/ligue-des-champions-luis-enrique-salue-ses-hommes-de-lombre-1458049.shtm"
-        },
-        {
-          "label": "GNews · Le Monde.fr — EN DIRECT, PSG-Arsenal : « Il n’y a pas de raison » d’annuler la parade de la victoire sur le Champ de Mars, affirme Laurent Nuñez après une nuit de célébration émaillée de tensions",
-          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-il-n-y-a-pas-de-raison-d-annuler-la-parade-de-la-victoire-sur-le-champ-de-mars-affirme-laurent-nunez-apres-une-nuit-de-celebration-emaillee-de-tensions_6695252_3242.html"
-        }
-      ],
-      "discover_category": "/Sports/Team Sports/Soccer",
-      "discover_entities": [
-        "Arsenal",
-        "PSGFC",
-        "Parc des Princes"
-      ]
-    },
-    {
-      "id": "s04",
-      "rank": 4,
-      "title": "Guerre en Ukraine. Frappes mortelles sur plusieurs régions, nouvelle raffinerie russe visée. Le point sur la nuit",
-      "theme": "actualite",
-      "score": 42,
-      "tier": "medium",
-      "rationale": "Forte visibilité Discover (score 40) · forte couverture médiatique (8 médias).",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "40/65"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "8 médias"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 40.2",
-          "fill": 100
-        },
-        {
-          "name": "Google News",
-          "value": "8 médias",
-          "fill": 100
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "10/100",
-          "fill": 10
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 100.0,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 100.0,
-        "msn": 10.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 42.3
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/other/guerre-en-ukraine-frappes-mortelles-sur-plusieurs-régions-nouvelle-raffinerie-russe-visée-le-point-sur-la-nuit/ar-AA24rGbr?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.8f1d2eb4383d70015686133fa42511ed&pid=Wdp",
-      "msn_source_name": "Ouest-France",
-      "refs": [
-        {
-          "label": "MSN · Ouest-France — Guerre en Ukraine. Frappes mortelles sur plusieurs régions, nouvelle raffinerie russe visée. Le point sur la nuit",
-          "url": "https://www.msn.com/fr-fr/actualite/other/guerre-en-ukraine-frappes-mortelles-sur-plusieurs-régions-nouvelle-raffinerie-russe-visée-le-point-sur-la-nuit/ar-AA24rGbr?ocid=00000000"
-        },
-        {
-          "label": "Discover · Midi Libre — Guerre en Ukraine : avions navals Tu-142 et système de missiles balistiques Iskander détruits, la Russie frappée en profondeur par des drones ennemis",
-          "url": "https://www.midilibre.fr/2026/05/30/guerre-en-ukraine-avions-navals-tu-142-et-systeme-de-missiles-balistiques-iskander-detruits-la-russie-frappee-en-profondeur-par-des-drones-ennemis-13395320.php"
-        },
-        {
-          "label": "GNews · Ouest-France — Guerre en Ukraine. Aides finlandaise et japonaise, un village repris… Le point sur la nuit - Ouest-France",
-          "url": "https://www.ouest-france.fr/europe/ukraine/guerre-en-ukraine-aides-finlandaise-et-japonaise-un-village-repris-le-point-sur-la-nuit-0e7b124e-5ba4-11f1-b3f0-aacb0ffa8bfb"
-        },
-        {
-          "label": "GNews · Le Grand Continent — La Biélorussie pourrait-elle entrer en guerre contre l'Ukraine ?",
-          "url": "https://legrandcontinent.eu/fr/2026/05/29/la-bielorussie-pourrait-elle-entrer-en-guerre-aux-cotes-de-la-russie/"
-        },
-        {
-          "label": "GNews · La Croix — Guerre en Ukraine, jour 1556 : ce qu’il faut retenir de la situation ce vendredi 29 mai",
-          "url": "https://www.la-croix.com/international/ukraine-russie-jour-1556-point-conflit-ukrainien-poutine-aujourdhui-20260529"
-        }
-      ],
-      "discover_category": "/Sensitive Subjects",
-      "discover_entities": [
-        "9K720 Iskander",
-        "Ukraine"
-      ]
-    },
-    {
-      "id": "s05",
-      "rank": 5,
-      "title": "« Il n'y a rien » : divorcé de Flavie Flament, Benjamin Castaldi se confie sur leur relation après les accusations contre Patrick Bruel",
-      "theme": "divertissement",
-      "score": 41,
-      "tier": "medium",
-      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 4 médias · engagement MSN élevé.",
+      "rationale": "Présent sur Google Trends · forte audience Wikipedia (42 666 vues/jour) · couvert par 4 médias · vidéo YouTube en explosion (54 350/h vues).",
       "signals": [
         {
           "source": "discover",
@@ -529,14 +312,24 @@
           "value": "4 médias"
         },
         {
+          "source": "trends",
+          "label": "trends",
+          "value": "2k"
+        },
+        {
           "source": "wiki",
           "label": "wiki",
-          "value": "32k vues"
+          "value": "43k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "54k /h"
         },
         {
           "source": "msn",
           "label": "msn",
-          "value": "270+ react."
+          "value": "8+ react."
         }
       ],
       "sources": [
@@ -549,6 +342,125 @@
           "name": "Google News",
           "value": "4 médias",
           "fill": 79
+        },
+        {
+          "name": "Google Trends",
+          "value": "2k",
+          "fill": 4
+        },
+        {
+          "name": "Wikimedia",
+          "value": "43k vues/h",
+          "fill": 100
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "15/100",
+          "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "54k /h",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.9,
+        "trends": 4.5,
+        "wiki": 100.0,
+        "gnews": 79.2,
+        "msn": 15.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 100.0,
+        "total": 43.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/football/c-est-la-meilleure-équipe-du-monde-l-entraîneur-d-arsenal-mikel-arteta-admiratif-du-psg-après-la-finale/ar-AA24scaN?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.ee09df93d64a52da53e40168fd214a06&pid=Wdp",
+      "msn_source_name": "Le Parisien",
+      "refs": [
+        {
+          "label": "MSN · Le Parisien — « C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
+          "url": "https://www.msn.com/fr-fr/sport/football/c-est-la-meilleure-équipe-du-monde-l-entraîneur-d-arsenal-mikel-arteta-admiratif-du-psg-après-la-finale/ar-AA24scaN?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le Parisien — « C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
+          "url": "https://www.leparisien.fr/sports/football/ligue-des-champions/cest-la-meilleure-equipe-du-monde-lentraineur-darsenal-mikel-arteta-admiratif-du-psg-apres-la-finale-30-05-2026-YML4GILZN5FTFHYKQ5K7EUMZ2Y.php"
+        },
+        {
+          "label": "GNews · Le Parisien — « C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
+          "url": "https://www.leparisien.fr/sports/football/ligue-des-champions/cest-la-meilleure-equipe-du-monde-lentraineur-darsenal-mikel-arteta-admiratif-du-psg-apres-la-finale-30-05-2026-YML4GILZN5FTFHYKQ5K7EUMZ2Y.php"
+        },
+        {
+          "label": "GNews · Le Monde.fr — EN DIRECT, PSG-Arsenal : « Il n’y a pas de raison » d’annuler la parade de la victoire sur le Champ-de-Mars, affirme Laurent Nuñez après une nuit de célébration émaillée de tensions",
+          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-il-n-y-a-pas-de-raison-d-annuler-la-parade-de-la-victoire-sur-le-champ-de-mars-affirme-laurent-nunez-apres-une-nuit-de-celebration-emaillee-de-tensions_6695252_3242.html"
+        },
+        {
+          "label": "GNews · puremedias — Audiences pré-access : Quel score pour la grande finale de \"La meilleure boulangerie de France\" sur M6 ?",
+          "url": "https://www.ozap.com/actu/audiences-pre-access-quel-score-pour-la-grande-finale-de-la-meilleure-boulangerie-de-france-sur-m6/655009"
+        },
+        {
+          "label": "YouTube · Gamer BR - M1l Grau — 🔴PES 2021 ATUALIZADO 2026 | PSG - Arsenal | UCL | SIMULANDO A PARTIDA NO PC STEAM COM FACECAN",
+          "url": "https://www.youtube.com/watch?v=mIYl6R-TAtI"
+        }
+      ],
+      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_entities": [
+        "Arsenal",
+        "Football",
+        "PSGFC"
+      ]
+    },
+    {
+      "id": "s04",
+      "rank": 4,
+      "title": "« Il n'y a rien » : divorcé de Flavie Flament, Benjamin Castaldi se confie sur leur relation après les accusations contre Patrick Bruel",
+      "theme": "divertissement",
+      "score": 42,
+      "tier": "medium",
+      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · forte couverture médiatique (5 médias) · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "5 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "32k vues"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "273+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.2",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "5 médias",
+          "fill": 86
         },
         {
           "name": "Google Trends",
@@ -585,12 +497,12 @@
         "discover": 0.9,
         "trends": 0.0,
         "wiki": 100.0,
-        "gnews": 79.2,
+        "gnews": 86.3,
         "msn": 100.0,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 41.3
+        "total": 42.3
       },
       "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/il-n-y-a-rien-divorcé-de-flavie-flament-benjamin-castaldi-se-confie-sur-leur-relation-après-les-accusations-contre-patrick-bruel/ar-AA24hWlw?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.1bfda76c89d8569c532b59f2c340263a&pid=Wdp",
@@ -624,18 +536,18 @@
       ]
     },
     {
-      "id": "s06",
-      "rank": 6,
+      "id": "s05",
+      "rank": 5,
       "title": "\"Plus aucun traitement ne fonctionne\", Camille Lellouche révèle son combat contre une maladie qui s'est aggravée depuis la naissance de sa fille",
       "theme": "lifestyle",
-      "score": 39,
+      "score": 41,
       "tier": "medium",
-      "rationale": "Forte visibilité Discover (score 31) · couvert par 4 médias.",
+      "rationale": "Forte visibilité Discover (score 33) · couvert par 4 médias.",
       "signals": [
         {
           "source": "discover",
           "label": "discover",
-          "value": "31/65"
+          "value": "33/65"
         },
         {
           "source": "gnews",
@@ -645,14 +557,14 @@
         {
           "source": "msn",
           "label": "msn",
-          "value": "16+ react."
+          "value": "18+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 30.9",
-          "fill": 92
+          "value": "score 32.7",
+          "fill": 96
         },
         {
           "name": "Google News",
@@ -676,8 +588,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "21/100",
-          "fill": 21
+          "value": "25/100",
+          "fill": 24
         },
         {
           "name": "Reddit FR",
@@ -691,15 +603,15 @@
         }
       ],
       "score_breakdown": {
-        "discover": 92.9,
+        "discover": 96.5,
         "trends": 0.0,
         "wiki": 0.0,
         "gnews": 79.2,
-        "msn": 21.0,
+        "msn": 24.8,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 39.3
+        "total": 40.5
       },
       "msn_url": "https://www.msn.com/fr-fr/lifestyle/trucs-et-astuces/plus-aucun-traitement-ne-fonctionne-camille-lellouche-révèle-son-combat-contre-une-maladie-qui-s-est-aggravée-depuis-la-naissance-de-sa-fille/ar-AA24r2qO?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.29cf41813cb9e5b54474ec53778d4290&pid=Wdp",
@@ -733,13 +645,13 @@
       ]
     },
     {
-      "id": "s07",
-      "rank": 7,
+      "id": "s06",
+      "rank": 6,
       "title": "« C'est une consolation de mon match perdu » : Moïse Kouame débarque en conférence de presse avec le maillot du PSG",
       "theme": "sport",
-      "score": 36,
+      "score": 39,
       "tier": "medium",
-      "rationale": "Présent sur Google Trends · forte audience Wikipedia (183 600 vues/jour) · repris sur Google Actualités.",
+      "rationale": "Présent sur Google Trends · forte audience Wikipedia (183 600 vues/jour) · couvert par 2 médias.",
       "signals": [
         {
           "source": "discover",
@@ -749,7 +661,7 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "1 média"
+          "value": "2 médias"
         },
         {
           "source": "trends",
@@ -764,7 +676,7 @@
         {
           "source": "msn",
           "label": "msn",
-          "value": "9+ react."
+          "value": "10+ react."
         }
       ],
       "sources": [
@@ -775,8 +687,8 @@
         },
         {
           "name": "Google News",
-          "value": "1 média",
-          "fill": 35
+          "value": "2 médias",
+          "fill": 57
         },
         {
           "name": "Google Trends",
@@ -813,12 +725,12 @@
         "discover": 0.0,
         "trends": 38.8,
         "wiki": 100.0,
-        "gnews": 35.0,
+        "gnews": 57.1,
         "msn": 17.1,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 35.7
+        "total": 38.8
       },
       "msn_url": "https://www.msn.com/fr-fr/sport/tennis/c-est-une-consolation-de-mon-match-perdu-moïse-kouame-débarque-en-conférence-de-presse-avec-le-maillot-du-psg/vi-AA24s2yK?ocid=00000000",
       "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24rxWg.img",
@@ -833,6 +745,10 @@
           "url": "https://www.lequipe.fr/Football/match-direct/ligue-des-champions/2025-2026/psg-arsenal-live/689249"
         },
         {
+          "label": "GNews · Eurosport — Moïse Kouamé - Alejandro Tabilo en direct : suivez Roland Garros 2026",
+          "url": "https://www.eurosport.fr/tennis/roland-garros-messieurs/2026/moise-kouame-alejandro-tabilo_mtc1655011/live-commentary.shtml"
+        },
+        {
           "label": "GNews · FFL — Roland-Garros | Le point insolent de Moïse Kouamé qui fait lever le public",
           "url": "https://fflose.com/roland-garros-le-point-insolent-de-moise-kouame-qui-fait-lever-le-public/"
         }
@@ -845,45 +761,60 @@
       ]
     },
     {
-      "id": "s08",
-      "rank": 8,
-      "title": "Navire de guerre endommagé à Wilmershaven : la Russie derrière 10 actes de sabotage?",
+      "id": "s07",
+      "rank": 7,
+      "title": "Centaines de casseurs, envahissement du périphérique... À quoi s'attendent les forces de l'ordre à Paris après la finale de la Ligue des champions",
       "theme": "actualite",
-      "score": 35,
+      "score": 38,
       "tier": "medium",
-      "rationale": "Forte visibilité Discover (score 40) · engagement MSN élevé.",
+      "rationale": "Présent sur Google Trends · forte audience Wikipedia (16 012 vues/jour) · couvert par 4 médias · engagement MSN élevé.",
       "signals": [
         {
           "source": "discover",
           "label": "discover",
-          "value": "40/65"
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "4 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "2k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "16k vues"
         },
         {
           "source": "msn",
           "label": "msn",
-          "value": "84+ react."
+          "value": "63+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 40.2",
-          "fill": 100
+          "value": "score 0.3",
+          "fill": 1
         },
         {
           "name": "Google News",
-          "value": "—",
-          "fill": 0
+          "value": "4 médias",
+          "fill": 79
         },
         {
           "name": "Google Trends",
-          "value": "—",
-          "fill": 0
+          "value": "2k",
+          "fill": 4
         },
         {
           "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
+          "value": "16k vues/h",
+          "fill": 67
         },
         {
           "name": "X velocity",
@@ -892,8 +823,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
+          "value": "99/100",
+          "fill": 99
         },
         {
           "name": "Reddit FR",
@@ -907,48 +838,61 @@
         }
       ],
       "score_breakdown": {
-        "discover": 100.0,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 0.0,
-        "msn": 100.0,
+        "discover": 1.4,
+        "trends": 4.5,
+        "wiki": 67.9,
+        "gnews": 79.2,
+        "msn": 99.1,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 35.0
+        "total": 38.2
       },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/navire-de-guerre-endommagé-à-wilmershaven-la-russie-derrière-10-actes-de-sabotage/ar-AA24qrA5?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.628f00c1c2d2b70bbd8b2a898aa6622c&pid=Wdp",
-      "msn_source_name": "Euronews (Français)",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/centaines-de-casseurs-envahissement-du-périphérique-à-quoi-s-attendent-les-forces-de-l-ordre-à-paris-après-la-finale-de-la-ligue-des-champions/ar-AA24q7rF?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.c40343e9ec1987fd7da5ec206fd9c56b&pid=Wdp",
+      "msn_source_name": "BFM",
       "refs": [
         {
-          "label": "MSN · Euronews (Français) — Navire de guerre endommagé à Wilmershaven : la Russie derrière 10 actes de sabotage?",
-          "url": "https://www.msn.com/fr-fr/actualite/monde/navire-de-guerre-endommagé-à-wilmershaven-la-russie-derrière-10-actes-de-sabotage/ar-AA24qrA5?ocid=00000000"
+          "label": "MSN · BFM — Centaines de casseurs, envahissement du périphérique... À quoi s'attendent les forces de l'ordre à Paris après la finale de la Ligue des champions",
+          "url": "https://www.msn.com/fr-fr/actualite/france/centaines-de-casseurs-envahissement-du-périphérique-à-quoi-s-attendent-les-forces-de-l-ordre-à-paris-après-la-finale-de-la-ligue-des-champions/ar-AA24q7rF?ocid=00000000"
         },
         {
-          "label": "Discover · Midi Libre — Guerre en Ukraine : avions navals Tu-142 et système de missiles balistiques Iskander détruits, la Russie frappée en profondeur par des drones ennemis",
-          "url": "https://www.midilibre.fr/2026/05/30/guerre-en-ukraine-avions-navals-tu-142-et-systeme-de-missiles-balistiques-iskander-detruits-la-russie-frappee-en-profondeur-par-des-drones-ennemis-13395320.php"
+          "label": "Discover · Libération — La finale de la Ligue des champions vue de Marseille : «Je ne suis pas pour Paris, mais là, j’étais pas vraiment contre",
+          "url": "https://www.liberation.fr/sports/la-finale-de-la-ligue-des-champions-vue-de-marseille-je-ne-suis-pas-pour-paris-mais-la-jetais-pas-vraiment-contre-20260530_6VXXXCKH6ZHF5KFIZA256TUAN4/"
+        },
+        {
+          "label": "GNews · Foot Mercato — PSG : l’IA connaît le vainqueur de la Ligue des Champions",
+          "url": "https://www.footmercato.net/a3679200591213601994-psg-lia-connait-le-vainqueur-de-la-ligue-des-champions"
+        },
+        {
+          "label": "GNews · Sport.fr — Ligue des champions : Luis Enrique salue ses hommes de l’ombre",
+          "url": "https://www.sport.fr/football/ligue-des-champions-luis-enrique-salue-ses-hommes-de-lombre-1458049.shtm"
+        },
+        {
+          "label": "GNews · Le Parisien — « C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
+          "url": "https://www.leparisien.fr/sports/football/ligue-des-champions/cest-la-meilleure-equipe-du-monde-lentraineur-darsenal-mikel-arteta-admiratif-du-psg-apres-la-finale-30-05-2026-YML4GILZN5FTFHYKQ5K7EUMZ2Y.php"
         }
       ],
-      "discover_category": "/Sensitive Subjects",
+      "discover_category": "/Sports/Team Sports/Soccer",
       "discover_entities": [
-        "9K720 Iskander",
-        "Ukraine"
+        "Marseille",
+        "PSGFC",
+        "Sport"
       ]
     },
     {
-      "id": "s09",
-      "rank": 9,
+      "id": "s08",
+      "rank": 8,
       "title": "Le ministre de la Défense américain Pete Hegseth demande à l’Europe de s’abstenir de faire « la morale »",
       "theme": "actualite",
-      "score": 35,
+      "score": 36,
       "tier": "medium",
       "rationale": "Présent sur Google Discover · présent dans le top Wikipedia · repris sur Google Actualités · engagement MSN élevé.",
       "signals": [
         {
           "source": "discover",
           "label": "discover",
-          "value": "13/65"
+          "value": "15/65"
         },
         {
           "source": "gnews",
@@ -963,14 +907,14 @@
         {
           "source": "msn",
           "label": "msn",
-          "value": "58+ react."
+          "value": "65+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 13.4",
-          "fill": 49
+          "value": "score 14.8",
+          "fill": 53
         },
         {
           "name": "Google News",
@@ -994,8 +938,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "98/100",
-          "fill": 98
+          "value": "100/100",
+          "fill": 100
         },
         {
           "name": "Reddit FR",
@@ -1009,15 +953,15 @@
         }
       ],
       "score_breakdown": {
-        "discover": 49.5,
+        "discover": 53.7,
         "trends": 0.0,
         "wiki": 9.8,
         "gnews": 35.0,
-        "msn": 98.1,
+        "msn": 100.0,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 34.7
+        "total": 35.9
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/monde/le-ministre-de-la-défense-américain-pete-hegseth-demande-à-l-europe-de-s-abstenir-de-faire-la-morale/ar-AA24rg45?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.1b8bb8a3605fa7b4b30df27e149fb785&pid=Wdp",
@@ -1044,8 +988,8 @@
       ]
     },
     {
-      "id": "s10",
-      "rank": 10,
+      "id": "s09",
+      "rank": 9,
       "title": "« Je l’ai vu de mes yeux » : ce que décrit Anny Duperey sur les fans de Patrick Bruel relance le débat",
       "theme": "actualite",
       "score": 35,
@@ -1070,14 +1014,14 @@
         {
           "source": "msn",
           "label": "msn",
-          "value": "72+ react."
+          "value": "76+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
+          "value": "score 0.5",
+          "fill": 2
         },
         {
           "name": "Google News",
@@ -1101,8 +1045,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "50/100",
-          "fill": 49
+          "value": "51/100",
+          "fill": 51
         },
         {
           "name": "Reddit FR",
@@ -1116,15 +1060,15 @@
         }
       ],
       "score_breakdown": {
-        "discover": 0.5,
+        "discover": 2.3,
         "trends": 0.0,
         "wiki": 100.0,
         "gnews": 79.2,
-        "msn": 49.8,
+        "msn": 51.3,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 34.7
+        "total": 35.3
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/je-l-ai-vu-de-mes-yeux-ce-que-décrit-anny-duperey-sur-les-fans-de-patrick-bruel-relance-le-débat/ar-AA24pEQD?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.79b383165ef6e69e8b8b86416b31c7a1&pid=Wdp",
@@ -1135,8 +1079,8 @@
           "url": "https://www.msn.com/fr-fr/actualite/france/je-l-ai-vu-de-mes-yeux-ce-que-décrit-anny-duperey-sur-les-fans-de-patrick-bruel-relance-le-débat/ar-AA24pEQD?ocid=00000000"
         },
         {
-          "label": "Discover · France 3 Régions — Patrick Bruel annule tous ses concerts : \"le faire nous-mêmes nous aurait coûté des centaines de milliers d'euros et cela aurait signifié la fin des Alpagas Bleus\"",
-          "url": "https://france3-regions.franceinfo.fr/grand-est/bas-rhin/patrick-bruel-annule-tous-ses-concerts-le-faire-nous-memes-nous-aurait-coute-des-centaines-de-milliers-d-euros-et-cela-aurait-signifie-la-fin-des-alpagas-bleus-3359764.html"
+          "label": "Discover · RTL.fr — \"Triste et lamentable\" : des fans de Patrick Bruel, visé par plusieurs plaintes pour violences sexuelles, réagissent sur RTL à l'annulation de ses concerts prévus cet été",
+          "url": "https://www.rtl.fr/culture/musique/triste-et-lamentable-des-fans-de-patrick-bruel-vise-par-plusieurs-plaintes-pour-violences-sexuelles-reagissent-sur-rtl-a-l-annulation-de-ses-concerts-prevus-cet-ete-7900640905"
         },
         {
           "label": "GNews · RTL.fr — \"Triste et lamentable\" : des fans de Patrick Bruel, visé par plusieurs plaintes pour violences sexuelles, réagissent sur RTL à l'annulation de ses concerts prévus cet été",
@@ -1153,23 +1097,147 @@
       ],
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
-        "Musique",
         "Patrick Bruel"
+      ]
+    },
+    {
+      "id": "s10",
+      "rank": 10,
+      "title": "PSG - Arsenal : un sale coup à la Cristiano Ronaldo subit par les Parisiens",
+      "theme": "sport",
+      "score": 34,
+      "tier": "medium",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · couvert par 2 médias · vidéo YouTube en explosion (54 350/h vues).",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "2 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "5k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "8k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "54k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "11+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.0",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "2 médias",
+          "fill": 57
+        },
+        {
+          "name": "Google Trends",
+          "value": "5k",
+          "fill": 11
+        },
+        {
+          "name": "Wikimedia",
+          "value": "8k vues/h",
+          "fill": 38
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "19/100",
+          "fill": 19
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "54k /h",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 11.0,
+        "wiki": 38.9,
+        "gnews": 57.1,
+        "msn": 19.1,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 100.0,
+        "total": 34.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-un-sale-coup-à-la-cristiano-ronaldo-subit-par-les-parisiens/ar-AA24rfGl?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.8c9a3f18823160d0470d24152a5cc5ac&pid=Wdp",
+      "msn_source_name": "Onze Mondial",
+      "refs": [
+        {
+          "label": "MSN · Onze Mondial — PSG - Arsenal : un sale coup à la Cristiano Ronaldo subit par les Parisiens",
+          "url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-un-sale-coup-à-la-cristiano-ronaldo-subit-par-les-parisiens/ar-AA24rfGl?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le Parisien — PSG - Arsenal : les images de la folle séance de tirs au but qui donne le titre aux Parisiens",
+          "url": "https://www.leparisien.fr/sports/football/ligue-des-champions/psg-arsenal-les-images-de-la-folle-seance-de-tirs-au-but-qui-donne-le-titre-aux-parisiens-30-05-2026-4T4EJPKIZNBSZNLNQT4KYKQYJY.php"
+        },
+        {
+          "label": "GNews · Le Parisien — « C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
+          "url": "https://www.leparisien.fr/sports/football/ligue-des-champions/cest-la-meilleure-equipe-du-monde-lentraineur-darsenal-mikel-arteta-admiratif-du-psg-apres-la-finale-30-05-2026-YML4GILZN5FTFHYKQ5K7EUMZ2Y.php"
+        },
+        {
+          "label": "GNews · Le Monde.fr — EN DIRECT, PSG-Arsenal : « Il n’y a pas de raison » d’annuler la parade de la victoire sur le Champ-de-Mars, affirme Laurent Nuñez après une nuit de célébration émaillée de tensions",
+          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-il-n-y-a-pas-de-raison-d-annuler-la-parade-de-la-victoire-sur-le-champ-de-mars-affirme-laurent-nunez-apres-une-nuit-de-celebration-emaillee-de-tensions_6695252_3242.html"
+        },
+        {
+          "label": "YouTube · Gamer BR - M1l Grau — 🔴PES 2021 ATUALIZADO 2026 | PSG - Arsenal | UCL | SIMULANDO A PARTIDA NO PC STEAM COM FACECAN",
+          "url": "https://www.youtube.com/watch?v=mIYl6R-TAtI"
+        }
+      ],
+      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_entities": [
+        "Arsenal",
+        "PSGFC",
+        "Tirs au but"
       ]
     },
     {
       "id": "s11",
       "rank": 11,
-      "title": "« Arrête d’arroser tous les jours, tu les achèves » : tomates et salades, le rythme qui fortifie les racines du potager en été",
-      "theme": "lifestyle",
+      "title": "Luis Enrique : ce qui est vraiment arrivé à sa fille Xana, partie à l'âge de 9 ans seulement",
+      "theme": "divertissement",
       "score": 34,
       "tier": "medium",
-      "rationale": "Forte visibilité Discover (score 47) · repris sur Google Actualités.",
+      "rationale": "Présent sur Google Trends · forte audience Wikipedia (64 855 vues/jour) · repris sur Google Actualités · trending sur X.",
       "signals": [
         {
           "source": "discover",
           "label": "discover",
-          "value": "47/65"
+          "value": "présent"
         },
         {
           "source": "gnews",
@@ -1177,16 +1245,31 @@
           "value": "1 média"
         },
         {
+          "source": "trends",
+          "label": "trends",
+          "value": "2k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "65k vues"
+        },
+        {
+          "source": "x",
+          "label": "x",
+          "value": "#20"
+        },
+        {
           "source": "msn",
           "label": "msn",
-          "value": "1+ react."
+          "value": "12+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 47.0",
-          "fill": 100
+          "value": "score 0.0",
+          "fill": 0
         },
         {
           "name": "Google News",
@@ -1195,18 +1278,18 @@
         },
         {
           "name": "Google Trends",
-          "value": "—",
-          "fill": 0
+          "value": "2k",
+          "fill": 4
         },
         {
           "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
+          "value": "65k vues/h",
+          "fill": 100
         },
         {
           "name": "X velocity",
-          "value": "—",
-          "fill": 0
+          "value": "rang #20",
+          "fill": 60
         },
         {
           "name": "MSN engagement",
@@ -1225,46 +1308,46 @@
         }
       ],
       "score_breakdown": {
-        "discover": 100.0,
-        "trends": 0.0,
-        "wiki": 0.0,
+        "discover": 0.0,
+        "trends": 4.5,
+        "wiki": 100.0,
         "gnews": 35.0,
         "msn": 15.0,
-        "x": 0.0,
+        "x": 60.0,
         "reddit": 0.0,
         "youtube": 0.0,
         "total": 33.8
       },
-      "msn_url": "https://www.msn.com/fr-fr/lifestyle/lifestylegeneral/arrête-d-arroser-tous-les-jours-tu-les-achèves-tomates-et-salades-le-rythme-qui-fortifie-les-racines-du-potager-en-été/ar-AA24o5Y6?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.b77f45d787d2dab22d03c559c799156b&pid=Wdp",
-      "msn_source_name": "Pleine Vie",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/luis-enrique-ce-qui-est-vraiment-arrivé-à-sa-fille-xana-partie-à-l-âge-de-9-ans-seulement/ar-AA24qL3k?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24rhrC.img",
+      "msn_source_name": "Ode",
       "refs": [
         {
-          "label": "MSN · Pleine Vie — « Arrête d’arroser tous les jours, tu les achèves » : tomates et salades, le rythme qui fortifie les racines du potager en été",
-          "url": "https://www.msn.com/fr-fr/lifestyle/lifestylegeneral/arrête-d-arroser-tous-les-jours-tu-les-achèves-tomates-et-salades-le-rythme-qui-fortifie-les-racines-du-potager-en-été/ar-AA24o5Y6?ocid=00000000"
+          "label": "MSN · Ode — Luis Enrique : ce qui est vraiment arrivé à sa fille Xana, partie à l'âge de 9 ans seulement",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/luis-enrique-ce-qui-est-vraiment-arrivé-à-sa-fille-xana-partie-à-l-âge-de-9-ans-seulement/ar-AA24qL3k?ocid=00000000"
         },
         {
-          "label": "Discover · Actu.fr — Après 739 jours de souffrance, Louna, 15 ans, a vaincu son cancer du cerveau : \"Je me demande comment j'ai été si forte\"",
-          "url": "https://actu.fr/pays-de-la-loire/la-suze-sur-sarthe_72346/apres-739-jours-de-souffrance-louna-15-ans-a-vaincu-son-cancer-du-cerveau-je-me-demande-comment-jai-ete-si-forte_64321813.html"
+          "label": "Discover · purepeople.com — Luis Enrique : ce qui est vraiment arrivé à sa fille Xana, partie à l'âge de 9 ans seulement",
+          "url": "https://www.purepeople.com/article/luis-enrique-ce-qui-est-vraiment-arrive-a-sa-fille-xana-partie-a-lage-de-9-ans-seulement_a550709/1"
         },
         {
-          "label": "GNews · franceinfo — Au Laos, quatre personnes supplémentaires ont été secourues d'une grotte inondée depuis dix jours",
-          "url": "https://www.franceinfo.fr/monde/asie/au-laos-quatre-personnes-supplementaires-ont-ete-secourues-d-une-grotte-inondee-depuis-dix-jours_8037086.html"
+          "label": "GNews · Sport.fr — Ligue des champions : Luis Enrique salue ses hommes de l’ombre",
+          "url": "https://www.sport.fr/football/ligue-des-champions-luis-enrique-salue-ses-hommes-de-lombre-1458049.shtm"
         }
       ],
-      "discover_category": "/Health/Health Conditions/Cancer",
+      "discover_category": "/Sports/Team Sports/Soccer",
       "discover_entities": [
-        "Cancer",
-        "Cerveau",
-        "Tumeur du cerveau"
+        "Luis Enrique",
+        "PSGFC",
+        "Sport"
       ]
     },
     {
       "id": "s12",
       "rank": 12,
-      "title": "« Je ne serai pas avec vous en janvier prochain » : Patrick Bruel se retire des spectacles des Enfoirés",
+      "title": "« Tout le monde savait » : autour de Patrick Bruel, cette question sur le silence du milieu devient centrale",
       "theme": "actualite",
-      "score": 33,
+      "score": 34,
       "tier": "medium",
       "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 4 médias.",
       "signals": [
@@ -1286,7 +1369,7 @@
         {
           "source": "msn",
           "label": "msn",
-          "value": "18+ react."
+          "value": "23+ react."
         }
       ],
       "sources": [
@@ -1317,8 +1400,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "35/100",
-          "fill": 35
+          "value": "42/100",
+          "fill": 42
         },
         {
           "name": "Reddit FR",
@@ -1336,19 +1419,19 @@
         "trends": 0.0,
         "wiki": 100.0,
         "gnews": 79.2,
-        "msn": 35.5,
+        "msn": 42.1,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 32.8
+        "total": 33.7
       },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/culture/je-ne-serai-pas-avec-vous-en-janvier-prochain-patrick-bruel-se-retire-des-spectacles-des-enfoirés/ar-AA24lNRB?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.bc5ec5c630b9427a087a23436952571a&pid=Wdp",
-      "msn_source_name": "Europe 1",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/tout-le-monde-savait-autour-de-patrick-bruel-cette-question-sur-le-silence-du-milieu-devient-centrale/ar-AA24pEWv?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.87984dc394f2bc485896ce15d9f7d2bb&pid=Wdp",
+      "msn_source_name": "So Busy Girls",
       "refs": [
         {
-          "label": "MSN · Europe 1 — « Je ne serai pas avec vous en janvier prochain » : Patrick Bruel se retire des spectacles des Enfoirés",
-          "url": "https://www.msn.com/fr-fr/actualite/culture/je-ne-serai-pas-avec-vous-en-janvier-prochain-patrick-bruel-se-retire-des-spectacles-des-enfoirés/ar-AA24lNRB?ocid=00000000"
+          "label": "MSN · So Busy Girls — « Tout le monde savait » : autour de Patrick Bruel, cette question sur le silence du milieu devient centrale",
+          "url": "https://www.msn.com/fr-fr/actualite/france/tout-le-monde-savait-autour-de-patrick-bruel-cette-question-sur-le-silence-du-milieu-devient-centrale/ar-AA24pEWv?ocid=00000000"
         },
         {
           "label": "Discover · France 3 Régions — Patrick Bruel annule tous ses concerts : \"le faire nous-mêmes nous aurait coûté des centaines de milliers d'euros et cela aurait signifié la fin des Alpagas Bleus\"",
@@ -1376,117 +1459,11 @@
     {
       "id": "s13",
       "rank": 13,
-      "title": "Présidentielle 2027 : « Si Jean-Luc Mélenchon se qualifie au second tour, c’est la victoire assurée du RN », l'alerte du député Jérôme Guedj",
-      "theme": "actualite",
+      "title": "Flavie Flament « sidérée » par Patrick Bruel : sa réponse ne laisse aucune place au doute",
+      "theme": "divertissement",
       "score": 32,
       "tier": "medium",
-      "rationale": "Présent sur Google Discover · présent dans le top Wikipedia · repris sur Google Actualités.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "16/65"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "3k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "22+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 16.2",
-          "fill": 57
-        },
-        {
-          "name": "Google News",
-          "value": "1 média",
-          "fill": 35
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "3k vues/h",
-          "fill": 17
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "53/100",
-          "fill": 52
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 57.7,
-        "trends": 0.0,
-        "wiki": 17.6,
-        "gnews": 35.0,
-        "msn": 52.8,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 31.6
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/elections/présidentielle-2027-si-jean-luc-mélenchon-se-qualifie-au-second-tour-c-est-la-victoire-assurée-du-rn-l-alerte-du-député-jérôme-guedj/ar-AA24pTIs?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.30e14697bbca9cbb310f781b53ed27d1&pid=Wdp",
-      "msn_source_name": "So Busy Girls",
-      "refs": [
-        {
-          "label": "MSN · So Busy Girls — Présidentielle 2027 : « Si Jean-Luc Mélenchon se qualifie au second tour, c’est la victoire assurée du RN », l'alerte du député Jérôme Guedj",
-          "url": "https://www.msn.com/fr-fr/actualite/elections/présidentielle-2027-si-jean-luc-mélenchon-se-qualifie-au-second-tour-c-est-la-victoire-assurée-du-rn-l-alerte-du-député-jérôme-guedj/ar-AA24pTIs?ocid=00000000"
-        },
-        {
-          "label": "Discover · YouTube — Michel Onfray : \"C’est une légende urbaine que Jean-Luc Mélenchon est très cultivé\"",
-          "url": "https://www.youtube.com/watch?v=D5w-ESPVOxE"
-        },
-        {
-          "label": "GNews · Le Parisien — Les insoumis, « marchands de haine » : Jean-Luc Mélenchon fustige les « paroles indignes » de Gabriel Attal",
-          "url": "https://www.leparisien.fr/politique/les-insoumis-marchands-de-haine-jean-luc-melenchon-fustige-les-paroles-indignes-de-gabriel-attal-30-05-2026-UGF5UVBNBFC4RIJ7DRHWWKXUWA.php"
-        }
-      ],
-      "discover_category": "/News/Politics",
-      "discover_entities": [
-        "Jean-Luc Mélenchon",
-        "Michel Onfray"
-      ]
-    },
-    {
-      "id": "s14",
-      "rank": 14,
-      "title": "Coupe du monde : Neymar renvoyé par Ancelotti ? Le verdict est tombé !",
-      "theme": "sport",
-      "score": 31,
-      "tier": "medium",
-      "rationale": "Présent sur Google Trends · forte audience Wikipedia (14 757 vues/jour) · repris sur Google Actualités.",
+      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · forte couverture médiatique (5 médias).",
       "signals": [
         {
           "source": "discover",
@@ -1496,22 +1473,17 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "20k"
+          "value": "5 médias"
         },
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "15k vues"
+          "value": "32k vues"
         },
         {
           "source": "msn",
           "label": "msn",
-          "value": "10+ react."
+          "value": "32+ react."
         }
       ],
       "sources": [
@@ -1522,18 +1494,18 @@
         },
         {
           "name": "Google News",
-          "value": "1 média",
-          "fill": 35
+          "value": "5 médias",
+          "fill": 86
         },
         {
           "name": "Google Trends",
-          "value": "20k",
-          "fill": 38
+          "value": "—",
+          "fill": 0
         },
         {
           "name": "Wikimedia",
-          "value": "15k vues/h",
-          "fill": 63
+          "value": "32k vues/h",
+          "fill": 100
         },
         {
           "name": "X velocity",
@@ -1542,8 +1514,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "15/100",
-          "fill": 15
+          "value": "25/100",
+          "fill": 24
         },
         {
           "name": "Reddit FR",
@@ -1558,41 +1530,49 @@
       ],
       "score_breakdown": {
         "discover": 0.5,
-        "trends": 38.8,
-        "wiki": 63.8,
-        "gnews": 35.0,
-        "msn": 15.0,
+        "trends": 0.0,
+        "wiki": 100.0,
+        "gnews": 86.3,
+        "msn": 24.8,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 31.2
+        "total": 32.4
       },
-      "msn_url": "https://www.msn.com/fr-fr/sport/football/coupe-du-monde-neymar-renvoyé-par-ancelotti-le-verdict-est-tombé/ar-AA24qiHX?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.2b17c64fe1104fd0b2b51a90c4ccce43&pid=Wdp",
-      "msn_source_name": "Onze Mondial",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/flavie-flament-sidérée-par-patrick-bruel-sa-réponse-ne-laisse-aucune-place-au-doute/ar-AA24pp8O?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.9506027a2000d5b761c5f9f319a9ccc6&pid=Wdp",
+      "msn_source_name": "So Busy Girls",
       "refs": [
         {
-          "label": "MSN · Onze Mondial — Coupe du monde : Neymar renvoyé par Ancelotti ? Le verdict est tombé !",
-          "url": "https://www.msn.com/fr-fr/sport/football/coupe-du-monde-neymar-renvoyé-par-ancelotti-le-verdict-est-tombé/ar-AA24qiHX?ocid=00000000"
+          "label": "MSN · So Busy Girls — Flavie Flament « sidérée » par Patrick Bruel : sa réponse ne laisse aucune place au doute",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/flavie-flament-sidérée-par-patrick-bruel-sa-réponse-ne-laisse-aucune-place-au-doute/ar-AA24pp8O?ocid=00000000"
         },
         {
-          "label": "Discover · CNews — Coupe du monde 2026 : le prix des nuits d'hôtels à New York flambe après une revalorisation salariale de leurs employés",
-          "url": "https://www.cnews.fr/monde/2026-05-30/coupe-du-monde-2026-le-prix-des-nuits-dhotels-new-york-flambe-apres-une"
+          "label": "Discover · France 3 Régions — Patrick Bruel annule tous ses concerts : \"le faire nous-mêmes nous aurait coûté des centaines de milliers d'euros et cela aurait signifié la fin des Alpagas Bleus\"",
+          "url": "https://france3-regions.franceinfo.fr/grand-est/bas-rhin/patrick-bruel-annule-tous-ses-concerts-le-faire-nous-memes-nous-aurait-coute-des-centaines-de-milliers-d-euros-et-cela-aurait-signifie-la-fin-des-alpagas-bleus-3359764.html"
         },
         {
-          "label": "GNews · Le Tribunal du Net — Les cheveux poussent plus vite quand on les coupe souvent : le mythe capillaire que tout le monde répète",
-          "url": "https://www.letribunaldunet.fr/insolite/couper-cheveux-poussent-plus-vite-vrai-faux-science.html"
+          "label": "GNews · public.fr — Flavie Flament : \"épuisée\" par son \"combat\" contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
+          "url": "https://www.public.fr/flavie-flament-epuisee-par-son-combat-contre-patrick-bruel-lanimatrice-prend-une-decision-radicale-pour-sa-sante"
+        },
+        {
+          "label": "GNews · Le Figaro — «Ce sera notre secret» : dans l’affaire Patrick Bruel, autopsie de la procédure des «masseuses», qui rattrape le chanteur",
+          "url": "https://www.lefigaro.fr/faits-divers/ce-sera-notre-secret-dans-l-affaire-patrick-bruel-autopsie-de-la-procedure-des-masseuses-qui-rattrape-le-chanteur-20260530"
+        },
+        {
+          "label": "GNews · Les Echos — Pour Patrick Pouyanné, PDG de TotalEnergies, lors de l'assemblée générale 2026 : « Le baril de Brent va sans doute se maintenir à plus de 80 dollars",
+          "url": "https://investir.lesechos.fr/investir-responsable/assemblees-generales/pour-patrick-pouyanne-pdg-de-totalenergies-lors-de-lassemblee-generale-2026-le-baril-de-brent-va-sans-doute-se-maintenir-a-plus-de-80-dollars-2234128"
         }
       ],
-      "discover_category": "/Sports/International Sports Competitions",
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
-        "Coupe du Monde de la FIFA 2026™",
-        "Sport"
+        "Musique",
+        "Patrick Bruel"
       ]
     },
     {
-      "id": "s15",
-      "rank": 15,
+      "id": "s14",
+      "rank": 14,
       "title": "Maïdi Roth (Plus belle la vie) accuse Patrick Bruel d’une agression dans un taxi : le récit glaçant d’une scène à Acapulco",
       "theme": "divertissement",
       "score": 31,
@@ -1705,13 +1685,13 @@
       ]
     },
     {
-      "id": "s16",
-      "rank": 16,
-      "title": "Patrick Bruel : cette perquisition dans son triplex de Neuilly qui refait surface",
-      "theme": "actualite",
-      "score": 30,
+      "id": "s15",
+      "rank": 15,
+      "title": "PSG/Arsenal – Marquinhos ne mâche pas ses mots après le sacre",
+      "theme": "sport",
+      "score": 31,
       "tier": "medium",
-      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 4 médias.",
+      "rationale": "Présent sur Google Trends · couvert par 3 médias · vidéo YouTube en explosion (54 350/h vues).",
       "signals": [
         {
           "source": "discover",
@@ -1721,39 +1701,44 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "4 médias"
+          "value": "3 médias"
         },
         {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "32k vues"
+          "source": "trends",
+          "label": "trends",
+          "value": "5k"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "54k /h"
         },
         {
           "source": "msn",
           "label": "msn",
-          "value": "18+ react."
+          "value": "37+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 0.1",
+          "value": "score 0.0",
           "fill": 0
         },
         {
           "name": "Google News",
-          "value": "4 médias",
-          "fill": 79
+          "value": "3 médias",
+          "fill": 70
         },
         {
           "name": "Google Trends",
-          "value": "—",
-          "fill": 0
+          "value": "5k",
+          "fill": 11
         },
         {
           "name": "Wikimedia",
-          "value": "32k vues/h",
-          "fill": 100
+          "value": "—",
+          "fill": 0
         },
         {
           "name": "X velocity",
@@ -1762,8 +1747,132 @@
         },
         {
           "name": "MSN engagement",
-          "value": "15/100",
-          "fill": 15
+          "value": "54/100",
+          "fill": 54
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "54k /h",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 11.0,
+        "wiki": 0.0,
+        "gnews": 70.0,
+        "msn": 54.2,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 100.0,
+        "total": 30.7
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-marquinhos-ne-mâche-pas-ses-mots-après-le-sacre/ar-AA24rtdO?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.3725ce7dece077facfca8f2e8378281b&pid=Wdp",
+      "msn_source_name": "Paris Fans",
+      "refs": [
+        {
+          "label": "MSN · Paris Fans — PSG/Arsenal – Marquinhos ne mâche pas ses mots après le sacre",
+          "url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-marquinhos-ne-mâche-pas-ses-mots-après-le-sacre/ar-AA24rtdO?ocid=00000000"
+        },
+        {
+          "label": "Discover · football365.fr — La réaction surprenante de Mbappé après le nouveau sacre du PSG",
+          "url": "https://www.football365.fr/la-reaction-surprenante-de-mbappe-apres-le-nouveau-sacre-du-psg-10297507.html"
+        },
+        {
+          "label": "GNews · Le Parisien — « C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
+          "url": "https://www.leparisien.fr/sports/football/ligue-des-champions/cest-la-meilleure-equipe-du-monde-lentraineur-darsenal-mikel-arteta-admiratif-du-psg-apres-la-finale-30-05-2026-YML4GILZN5FTFHYKQ5K7EUMZ2Y.php"
+        },
+        {
+          "label": "GNews · Le Monde.fr — EN DIRECT, PSG-Arsenal : « Il n’y a pas de raison » d’annuler la parade de la victoire sur le Champ-de-Mars, affirme Laurent Nuñez après une nuit de célébration émaillée de tensions",
+          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-il-n-y-a-pas-de-raison-d-annuler-la-parade-de-la-victoire-sur-le-champ-de-mars-affirme-laurent-nunez-apres-une-nuit-de-celebration-emaillee-de-tensions_6695252_3242.html"
+        },
+        {
+          "label": "GNews · parismatch.com — « Fier et heureux » : les mots d’amour de Niels Schneider pour Virginie Efira après le prix d’interprétation à Cannes",
+          "url": "https://www.parismatch.com/People/fier-et-heureux-les-mots-damour-de-niels-schneider-pour-virginie-efira-apres-le-prix-dinterpretation-a-cannes-269924"
+        },
+        {
+          "label": "YouTube · Gamer BR - M1l Grau — 🔴PES 2021 ATUALIZADO 2026 | PSG - Arsenal | UCL | SIMULANDO A PARTIDA NO PC STEAM COM FACECAN",
+          "url": "https://www.youtube.com/watch?v=mIYl6R-TAtI"
+        }
+      ],
+      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_entities": [
+        "Kylian Mbappé",
+        "PSGFC",
+        "Real Madrid"
+      ]
+    },
+    {
+      "id": "s16",
+      "rank": 16,
+      "title": "Michel Sardou réuni avec son fils Romain et son petit-fils dans des circonstances très émouvantes",
+      "theme": "divertissement",
+      "score": 30,
+      "tier": "medium",
+      "rationale": "Forte visibilité Discover (score 21) · présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "21/65"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "2k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "26+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 21.0",
+          "fill": 70
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "2k",
+          "fill": 4
+        },
+        {
+          "name": "Wikimedia",
+          "value": "3k vues/h",
+          "fill": 14
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "19/100",
+          "fill": 19
         },
         {
           "name": "Reddit FR",
@@ -1777,45 +1886,37 @@
         }
       ],
       "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 100.0,
-        "gnews": 79.2,
-        "msn": 15.0,
+        "discover": 70.4,
+        "trends": 4.5,
+        "wiki": 14.8,
+        "gnews": 35.0,
+        "msn": 19.1,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 30.1
+        "total": 30.4
       },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-cette-perquisition-dans-son-triplex-de-neuilly-qui-refait-surface/ar-AA24qHUJ?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.a891aab5f42a3b573d803393bca66f98&pid=Wdp",
-      "msn_source_name": "So Busy Girls",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/michel-sardou-réuni-avec-son-fils-romain-et-son-petit-fils-dans-des-circonstances-très-émouvantes/ar-AA24qiND?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24r3ND.img",
+      "msn_source_name": "Femme Actuelle",
       "refs": [
         {
-          "label": "MSN · So Busy Girls — Patrick Bruel : cette perquisition dans son triplex de Neuilly qui refait surface",
-          "url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-cette-perquisition-dans-son-triplex-de-neuilly-qui-refait-surface/ar-AA24qHUJ?ocid=00000000"
+          "label": "MSN · Femme Actuelle — Michel Sardou réuni avec son fils Romain et son petit-fils dans des circonstances très émouvantes",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/michel-sardou-réuni-avec-son-fils-romain-et-son-petit-fils-dans-des-circonstances-très-émouvantes/ar-AA24qiND?ocid=00000000"
         },
         {
-          "label": "Discover · France 3 Régions — Patrick Bruel annule tous ses concerts : \"le faire nous-mêmes nous aurait coûté des centaines de milliers d'euros et cela aurait signifié la fin des Alpagas Bleus\"",
-          "url": "https://france3-regions.franceinfo.fr/grand-est/bas-rhin/patrick-bruel-annule-tous-ses-concerts-le-faire-nous-memes-nous-aurait-coute-des-centaines-de-milliers-d-euros-et-cela-aurait-signifie-la-fin-des-alpagas-bleus-3359764.html"
+          "label": "Discover · YouTube — Michel Onfray : \"C’est une légende urbaine que Jean-Luc Mélenchon est très cultivé\"",
+          "url": "https://www.youtube.com/watch?v=D5w-ESPVOxE"
         },
         {
-          "label": "GNews · Le Figaro — «Ce sera notre secret» : dans l’affaire Patrick Bruel, autopsie de la procédure des «masseuses», qui rattrape le chanteur",
-          "url": "https://www.lefigaro.fr/faits-divers/ce-sera-notre-secret-dans-l-affaire-patrick-bruel-autopsie-de-la-procedure-des-masseuses-qui-rattrape-le-chanteur-20260530"
-        },
-        {
-          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
-          "url": "https://www.public.fr/valerie-begue-apres-ses-revelations-glacantes-sur-patrick-bruel-lex-miss-france-fait-une-grande-annonce"
-        },
-        {
-          "label": "GNews · public.fr — Flavie Flament : \"épuisée\" par son \"combat\" contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
-          "url": "https://www.public.fr/flavie-flament-epuisee-par-son-combat-contre-patrick-bruel-lanimatrice-prend-une-decision-radicale-pour-sa-sante"
+          "label": "GNews · Nice-Matin — « C’est assez rare de voir des femmes qui jouent aux boules » : Michel Sardou a inauguré le premier trophée dédié à son père dans le Var - Nice-Matin",
+          "url": "https://www.nicematin.com/societe/vie-locale/c-est-assez-rare-de-voir-des-femmes-qui-jouent-aux-boules-michel-sardou-a-inaugure-le-premier-trophee-dedie-a-son-pere-dans-le-var-10682607"
         }
       ],
-      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_category": "/News/Politics",
       "discover_entities": [
-        "Musique",
-        "Patrick Bruel"
+        "Jean-Luc Mélenchon",
+        "Michel Onfray"
       ]
     },
     {
@@ -1845,7 +1946,7 @@
         {
           "source": "msn",
           "label": "msn",
-          "value": "32+ react."
+          "value": "35+ react."
         }
       ],
       "sources": [
@@ -1910,8 +2011,8 @@
           "url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-après-andréa-bescond-alexandra-lamy-sort-du-silence-et-prend-position/ar-AA24pHP7?ocid=00000000"
         },
         {
-          "label": "Discover · France 3 Régions — Patrick Bruel annule tous ses concerts : \"le faire nous-mêmes nous aurait coûté des centaines de milliers d'euros et cela aurait signifié la fin des Alpagas Bleus\"",
-          "url": "https://france3-regions.franceinfo.fr/grand-est/bas-rhin/patrick-bruel-annule-tous-ses-concerts-le-faire-nous-memes-nous-aurait-coute-des-centaines-de-milliers-d-euros-et-cela-aurait-signifie-la-fin-des-alpagas-bleus-3359764.html"
+          "label": "Discover · Ouest-France — Roland-Garros. Moïse Kouame sort avec les honneurs après un immense combat face à Alejandro Tabilo au 3e tour",
+          "url": "https://www.ouest-france.fr/sport/tennis/roland-garros/direct/direct-roland-garros-suivez-le-match-du-troisieme-tour-de-roland-garros-de-moise-kouame-en-live-95b592d3-3e43-467a-9122-ce6df1b47143"
         },
         {
           "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
@@ -1926,20 +2027,21 @@
           "url": "https://www.lefigaro.fr/faits-divers/ce-sera-notre-secret-dans-l-affaire-patrick-bruel-autopsie-de-la-procedure-des-masseuses-qui-rattrape-le-chanteur-20260530"
         }
       ],
-      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
       "discover_entities": [
-        "Musique",
-        "Patrick Bruel"
+        "Roland-Garros",
+        "Sport",
+        "Tennis"
       ]
     },
     {
       "id": "s18",
       "rank": 18,
-      "title": "« C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
-      "theme": "sport",
-      "score": 30,
-      "tier": "medium",
-      "rationale": "Présent sur Google Trends · forte audience Wikipedia (42 666 vues/jour) · couvert par 3 médias.",
+      "title": "Ce soir, on ne sort pas : Patrick Bruel annule ses représentations cet été",
+      "theme": "divertissement",
+      "score": 29,
+      "tier": "low",
+      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 4 médias.",
       "signals": [
         {
           "source": "discover",
@@ -1949,43 +2051,33 @@
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "3 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "2k"
+          "value": "4 médias"
         },
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "43k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "6+ react."
+          "value": "32k vues"
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 0.2",
+          "value": "score 0.1",
           "fill": 0
         },
         {
           "name": "Google News",
-          "value": "3 médias",
-          "fill": 70
+          "value": "4 médias",
+          "fill": 79
         },
         {
           "name": "Google Trends",
-          "value": "2k",
-          "fill": 4
+          "value": "—",
+          "fill": 0
         },
         {
           "name": "Wikimedia",
-          "value": "43k vues/h",
+          "value": "32k vues/h",
           "fill": 100
         },
         {
@@ -1995,8 +2087,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "15/100",
-          "fill": 15
+          "value": "10/100",
+          "fill": 10
         },
         {
           "name": "Reddit FR",
@@ -2010,46 +2102,45 @@
         }
       ],
       "score_breakdown": {
-        "discover": 0.9,
-        "trends": 4.5,
+        "discover": 0.5,
+        "trends": 0.0,
         "wiki": 100.0,
-        "gnews": 70.0,
-        "msn": 15.0,
+        "gnews": 79.2,
+        "msn": 10.0,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 29.7
+        "total": 29.5
       },
-      "msn_url": "https://www.msn.com/fr-fr/sport/football/c-est-la-meilleure-équipe-du-monde-l-entraîneur-d-arsenal-mikel-arteta-admiratif-du-psg-après-la-finale/ar-AA24scaN?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.ee09df93d64a52da53e40168fd214a06&pid=Wdp",
-      "msn_source_name": "Le Parisien",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/ce-soir-on-ne-sort-pas-patrick-bruel-annule-ses-représentations-cet-été/ar-AA24qogg?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.f8fcac31f106a8282d246137ff319345&pid=Wdp",
+      "msn_source_name": "Euronews (Français)",
       "refs": [
         {
-          "label": "MSN · Le Parisien — « C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
-          "url": "https://www.msn.com/fr-fr/sport/football/c-est-la-meilleure-équipe-du-monde-l-entraîneur-d-arsenal-mikel-arteta-admiratif-du-psg-après-la-finale/ar-AA24scaN?ocid=00000000"
+          "label": "MSN · Euronews (Français) — Ce soir, on ne sort pas : Patrick Bruel annule ses représentations cet été",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/ce-soir-on-ne-sort-pas-patrick-bruel-annule-ses-représentations-cet-été/ar-AA24qogg?ocid=00000000"
         },
         {
-          "label": "Discover · Le Parisien — « C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
-          "url": "https://www.leparisien.fr/sports/football/ligue-des-champions/cest-la-meilleure-equipe-du-monde-lentraineur-darsenal-mikel-arteta-admiratif-du-psg-apres-la-finale-30-05-2026-YML4GILZN5FTFHYKQ5K7EUMZ2Y.php"
+          "label": "Discover · France 3 Régions — Patrick Bruel annule tous ses concerts : \"le faire nous-mêmes nous aurait coûté des centaines de milliers d'euros et cela aurait signifié la fin des Alpagas Bleus\"",
+          "url": "https://france3-regions.franceinfo.fr/grand-est/bas-rhin/patrick-bruel-annule-tous-ses-concerts-le-faire-nous-memes-nous-aurait-coute-des-centaines-de-milliers-d-euros-et-cela-aurait-signifie-la-fin-des-alpagas-bleus-3359764.html"
         },
         {
-          "label": "GNews · Le Monde.fr — EN DIRECT, PSG-Arsenal : « Il n’y a pas de raison » d’annuler la parade de la victoire sur le Champ de Mars, affirme Laurent Nuñez après une nuit de célébration émaillée de tensions",
-          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-il-n-y-a-pas-de-raison-d-annuler-la-parade-de-la-victoire-sur-le-champ-de-mars-affirme-laurent-nunez-apres-une-nuit-de-celebration-emaillee-de-tensions_6695252_3242.html"
+          "label": "GNews · RTL.fr — \"Triste et lamentable\" : des fans de Patrick Bruel, visé par plusieurs plaintes pour violences sexuelles, réagissent sur RTL à l'annulation de ses concerts prévus cet été",
+          "url": "https://www.rtl.fr/culture/musique/triste-et-lamentable-des-fans-de-patrick-bruel-vise-par-plusieurs-plaintes-pour-violences-sexuelles-reagissent-sur-rtl-a-l-annulation-de-ses-concerts-prevus-cet-ete-7900640905"
         },
         {
-          "label": "GNews · puremedias — Audiences pré-access : Quel score pour la grande finale de \"La meilleure boulangerie de France\" sur M6 ?",
-          "url": "https://www.ozap.com/actu/audiences-pre-access-quel-score-pour-la-grande-finale-de-la-meilleure-boulangerie-de-france-sur-m6/655009"
+          "label": "GNews · Le Figaro — «Ce sera notre secret» : dans l’affaire Patrick Bruel, autopsie de la procédure des «masseuses», qui rattrape le chanteur",
+          "url": "https://www.lefigaro.fr/faits-divers/ce-sera-notre-secret-dans-l-affaire-patrick-bruel-autopsie-de-la-procedure-des-masseuses-qui-rattrape-le-chanteur-20260530"
         },
         {
-          "label": "GNews · JeuxVideo.com — Le célèbre jeu de course en monde ouvert avec une physique des collisions arrive enfin sur PS5 après 11 ans d'attente. Il a déjà conquis près de 400.000 joueurs sur Steam avec 97 % d'avis positifs",
-          "url": "https://www.jeuxvideo.com/news/2084749/le-celebre-jeu-de-course-en-monde-ouvert-avec-une-physique-des-collisions-arrive-enfin-sur-ps5-apres-11-ans-d-attente-il-a-deja-conquis-pres-de-400-000-joueurs-sur-steam-avec-97-d-avis-positifs.htm"
+          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
+          "url": "https://www.public.fr/valerie-begue-apres-ses-revelations-glacantes-sur-patrick-bruel-lex-miss-france-fait-une-grande-annonce"
         }
       ],
-      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
-        "Arsenal",
-        "Football",
-        "PSGFC"
+        "Musique",
+        "Patrick Bruel"
       ]
     },
     {
@@ -2079,7 +2170,7 @@
         {
           "source": "msn",
           "label": "msn",
-          "value": "191+ react."
+          "value": "193+ react."
         }
       ],
       "sources": [
@@ -2162,43 +2253,38 @@
     {
       "id": "s20",
       "rank": 20,
-      "title": "« Arrêtez de vous inquiéter » : la phrase de Roselyne Bachelot sur Jean-Luc Mélenchon fait bondir Charlotte d’Ornellas",
-      "theme": "actualite",
+      "title": "Choose France : le japonais SoftBank annonce un investissement record de 75 milliards d'euros lié à l'IA",
+      "theme": "finance",
       "score": 27,
       "tier": "low",
-      "rationale": "Présent sur Google Discover · présent dans le top Wikipedia · repris sur Google Actualités.",
+      "rationale": "Présent sur Google Discover · forte couverture médiatique (5 médias).",
       "signals": [
         {
           "source": "discover",
           "label": "discover",
-          "value": "16/65"
+          "value": "8.8/65"
         },
         {
           "source": "gnews",
           "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "3k vues"
+          "value": "5 médias"
         },
         {
           "source": "msn",
           "label": "msn",
-          "value": "14+ react."
+          "value": "11+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 16.2",
-          "fill": 57
+          "value": "score 8.8",
+          "fill": 34
         },
         {
           "name": "Google News",
-          "value": "1 média",
-          "fill": 35
+          "value": "5 médias",
+          "fill": 86
         },
         {
           "name": "Google Trends",
@@ -2207,8 +2293,8 @@
         },
         {
           "name": "Wikimedia",
-          "value": "3k vues/h",
-          "fill": 17
+          "value": "—",
+          "fill": 0
         },
         {
           "name": "X velocity",
@@ -2217,8 +2303,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "17/100",
-          "fill": 17
+          "value": "15/100",
+          "fill": 15
         },
         {
           "name": "Reddit FR",
@@ -2232,47 +2318,175 @@
         }
       ],
       "score_breakdown": {
-        "discover": 57.7,
+        "discover": 34.8,
         "trends": 0.0,
-        "wiki": 17.6,
-        "gnews": 35.0,
-        "msn": 17.1,
+        "wiki": 0.0,
+        "gnews": 86.3,
+        "msn": 15.1,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 26.9
+        "total": 26.7
       },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/arrêtez-de-vous-inquiéter-la-phrase-de-roselyne-bachelot-sur-jean-luc-mélenchon-fait-bondir-charlotte-d-ornellas/ar-AA24p9UA?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.c8c37598edb99137b5a217fdb6dbde06&pid=Wdp",
-      "msn_source_name": "So Busy Girls",
+      "msn_url": "https://www.msn.com/fr-fr/finance/autres/choose-france-le-japonais-softbank-annonce-un-investissement-record-de-75-milliards-d-euros-lié-à-l-ia/ar-AA24rJAj?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.03d474f382288aecbbdd91d2b1bcfeee&pid=Wdp",
+      "msn_source_name": "AFP",
       "refs": [
         {
-          "label": "MSN · So Busy Girls — « Arrêtez de vous inquiéter » : la phrase de Roselyne Bachelot sur Jean-Luc Mélenchon fait bondir Charlotte d’Ornellas",
-          "url": "https://www.msn.com/fr-fr/actualite/france/arrêtez-de-vous-inquiéter-la-phrase-de-roselyne-bachelot-sur-jean-luc-mélenchon-fait-bondir-charlotte-d-ornellas/ar-AA24p9UA?ocid=00000000"
+          "label": "MSN · AFP — Choose France : le japonais SoftBank annonce un investissement record de 75 milliards d'euros lié à l'IA",
+          "url": "https://www.msn.com/fr-fr/finance/autres/choose-france-le-japonais-softbank-annonce-un-investissement-record-de-75-milliards-d-euros-lié-à-l-ia/ar-AA24rJAj?ocid=00000000"
         },
         {
-          "label": "Discover · YouTube — Michel Onfray : \"C’est une légende urbaine que Jean-Luc Mélenchon est très cultivé\"",
-          "url": "https://www.youtube.com/watch?v=D5w-ESPVOxE"
+          "label": "Discover · BFM — Choose France: le Japonais SoftBank annonce un investissement record de 75 milliards d'euros en France dans les infrastructures liées à l’intelligence artificielle",
+          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/le-japonais-soft-bank-annonce-un-investissement-record-de-75-milliards-d-euros-en-france-dans-les-infrastructures-liees-a-l-intelligence-artificielle_AN-202605300339.html"
         },
         {
-          "label": "GNews · Le Parisien — Les insoumis, « marchands de haine » : Jean-Luc Mélenchon fustige les « paroles indignes » de Gabriel Attal",
-          "url": "https://www.leparisien.fr/politique/les-insoumis-marchands-de-haine-jean-luc-melenchon-fustige-les-paroles-indignes-de-gabriel-attal-30-05-2026-UGF5UVBNBFC4RIJ7DRHWWKXUWA.php"
+          "label": "GNews · Orange Actualités — Choose France: le japonais SoftBank annonce un investissement record de 75 milliards d'euros lié à l'IA",
+          "url": "https://actu.orange.fr/economie/choose-france-le-japonais-softbank-annonce-un-investissement-record-de-75-milliards-d-euros-lie-a-l-ia-CNT000002pGeLi.html"
+        },
+        {
+          "label": "GNews · BFM — Choose France: le Japonais SoftBank annonce un investissement record de 75 milliards d'euros en France dans les infrastructures liées à l’intelligence artificielle",
+          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/le-japonais-soft-bank-annonce-un-investissement-record-de-75-milliards-d-euros-en-france-dans-les-infrastructures-liees-a-l-intelligence-artificielle_AN-202605300339.html"
+        },
+        {
+          "label": "GNews · Le Monde.fr — Les vagues de chaleur pourraient coûter plus de 200 milliards d’euros à la France d’ici à 2030",
+          "url": "https://www.lemonde.fr/economie/article/2026/05/29/les-vagues-de-chaleur-pourraient-couter-plus-de-200-milliards-d-euros-a-la-france-d-ici-2030_6694749_3234.html"
         }
       ],
-      "discover_category": "/News/Politics",
+      "discover_category": "/News",
       "discover_entities": [
-        "Jean-Luc Mélenchon",
-        "Michel Onfray"
+        "Intelligence artificielle",
+        "Masayoshi Son"
       ]
     },
     {
       "id": "s21",
       "rank": 21,
-      "title": "« Clairement un pénalty à mes yeux » : Arsenal furieux après l’arbitre de la finale de la Ligue des champions",
+      "title": "Roland-Garros, le beau geste d’une joueuse envers un ramasseur (vidéo)",
       "theme": "sport",
-      "score": 25,
+      "score": 24,
       "tier": "low",
-      "rationale": "Présent sur Google Trends · forte audience Wikipedia (16 012 vues/jour) · couvert par 2 médias.",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · couvert par 3 médias.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "500"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "5k vues"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "32+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.0",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "3 médias",
+          "fill": 70
+        },
+        {
+          "name": "Google Trends",
+          "value": "500",
+          "fill": 1
+        },
+        {
+          "name": "Wikimedia",
+          "value": "5k vues/h",
+          "fill": 25
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "48/100",
+          "fill": 48
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 1.1,
+        "wiki": 25.4,
+        "gnews": 70.0,
+        "msn": 48.3,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 24.3
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-le-beau-geste-d-une-joueuse-envers-un-ramasseur-vidéo/ar-AA24q9dO?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.b9f3948ee52898a557cff1b147b3c82d&pid=Wdp",
+      "msn_source_name": "Sports.fr",
+      "refs": [
+        {
+          "label": "MSN · Sports.fr — Roland-Garros, le beau geste d’une joueuse envers un ramasseur (vidéo)",
+          "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-le-beau-geste-d-une-joueuse-envers-un-ramasseur-vidéo/ar-AA24q9dO?ocid=00000000"
+        },
+        {
+          "label": "Discover · RMC Sport — Roland-Garros 2026 : Combien va toucher Moïse Kouame après son incroyable parcours à Roland ?",
+          "url": "https://rmcsport.bfmtv.com/tennis/roland-garros/roland-garros-2026-combien-va-toucher-moise-kouame-apres-son-incroyable-parcours-a-roland_AN-202605300328.html"
+        },
+        {
+          "label": "GNews · Eurosport — Moïse Kouamé - Alejandro Tabilo en direct : suivez Roland Garros 2026",
+          "url": "https://www.eurosport.fr/tennis/roland-garros-messieurs/2026/moise-kouame-alejandro-tabilo_mtc1655011/live-commentary.shtml"
+        },
+        {
+          "label": "GNews · FFL — Roland-Garros | Le point insolent de Moïse Kouamé qui fait lever le public",
+          "url": "https://fflose.com/roland-garros-le-point-insolent-de-moise-kouame-qui-fait-lever-le-public/"
+        },
+        {
+          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
+          "url": "https://tvmag.lefigaro.fr/programme-tv/people/roland-garros-vianney-en-tribunes-avec-sa-femme-catherine-robert-enceinte-de-leur-deuxieme-enfant-20260530"
+        }
+      ],
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
+      "discover_entities": [
+        "Roland-Garros",
+        "Sport",
+        "Tennis"
+      ]
+    },
+    {
+      "id": "s22",
+      "rank": 22,
+      "title": "Les insoumis, « marchands de haine » : Jean-Luc Mélenchon fustige les « paroles indignes » de Gabriel Attal",
+      "theme": "actualite",
+      "score": 24,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · couvert par 2 médias · engagement MSN élevé.",
       "signals": [
         {
           "source": "discover",
@@ -2285,26 +2499,21 @@
           "value": "2 médias"
         },
         {
-          "source": "trends",
-          "label": "trends",
-          "value": "5k"
-        },
-        {
           "source": "wiki",
           "label": "wiki",
-          "value": "16k vues"
+          "value": "3k vues"
         },
         {
           "source": "msn",
           "label": "msn",
-          "value": "2+ react."
+          "value": "55+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
+          "value": "score 0.4",
+          "fill": 1
         },
         {
           "name": "Google News",
@@ -2313,235 +2522,8 @@
         },
         {
           "name": "Google Trends",
-          "value": "5k",
-          "fill": 11
-        },
-        {
-          "name": "Wikimedia",
-          "value": "16k vues/h",
-          "fill": 67
-        },
-        {
-          "name": "X velocity",
           "value": "—",
           "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "15/100",
-          "fill": 15
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 11.0,
-        "wiki": 67.9,
-        "gnews": 57.1,
-        "msn": 15.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 25.1
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/football/clairement-un-pénalty-à-mes-yeux-arsenal-furieux-après-l-arbitre-de-la-finale-de-la-ligue-des-champions/ar-AA24skcx?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.955702899842a291897182fc5c3e8671&pid=Wdp",
-      "msn_source_name": "Le Parisien",
-      "refs": [
-        {
-          "label": "MSN · Le Parisien — « Clairement un pénalty à mes yeux » : Arsenal furieux après l’arbitre de la finale de la Ligue des champions",
-          "url": "https://www.msn.com/fr-fr/sport/football/clairement-un-pénalty-à-mes-yeux-arsenal-furieux-après-l-arbitre-de-la-finale-de-la-ligue-des-champions/ar-AA24skcx?ocid=00000000"
-        },
-        {
-          "label": "Discover · L'Équipe — « Pour moi, il y avait penalty », regrette Mikel Arteta, l'entraîneur d'Arsenal, battu aux tirs au but par le PSG en finale de Ligue des champions",
-          "url": "https://www.lequipe.fr/Football/Actualites/-pour-moi-il-y-avait-penalty-ronchonne-mikel-arteta-l-entraineur-d-arsenal-battu-aux-tirs-au-but-par-le-psg-en-finale-de-ligue-des-champions/1680418"
-        },
-        {
-          "label": "GNews · Sport.fr — Ligue des champions : Luis Enrique salue ses hommes de l’ombre",
-          "url": "https://www.sport.fr/football/ligue-des-champions-luis-enrique-salue-ses-hommes-de-lombre-1458049.shtm"
-        },
-        {
-          "label": "GNews · Le Monde.fr — EN DIRECT, PSG-Arsenal : « Il n’y a pas de raison » d’annuler la parade de la victoire sur le Champ de Mars, affirme Laurent Nuñez après une nuit de célébration émaillée de tensions",
-          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-il-n-y-a-pas-de-raison-d-annuler-la-parade-de-la-victoire-sur-le-champ-de-mars-affirme-laurent-nunez-apres-une-nuit-de-celebration-emaillee-de-tensions_6695252_3242.html"
-        }
-      ],
-      "discover_category": "/Sports/Team Sports/Soccer",
-      "discover_entities": [
-        "Arsenal",
-        "Mikel Arteta",
-        "Nuno Mendes",
-        "PSGFC",
-        "Tirs au but"
-      ]
-    },
-    {
-      "id": "s22",
-      "rank": 22,
-      "title": "Choose France : le japonais SoftBank annonce un investissement record de 75 milliards d'euros lié à l'IA",
-      "theme": "finance",
-      "score": 25,
-      "tier": "low",
-      "rationale": "Présent sur Google Discover · couvert par 4 médias.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "7.7/65"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "4 médias"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "2+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 7.7",
-          "fill": 30
-        },
-        {
-          "name": "Google News",
-          "value": "4 médias",
-          "fill": 79
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "15/100",
-          "fill": 15
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 31.0,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 79.2,
-        "msn": 15.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 24.9
-      },
-      "msn_url": "https://www.msn.com/fr-fr/finance/autres/choose-france-le-japonais-softbank-annonce-un-investissement-record-de-75-milliards-d-euros-lié-à-l-ia/ar-AA24rCfb?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.1e1308574f2d2d80dbadc58f8f29a231&pid=Wdp",
-      "msn_source_name": "TV5 Monde",
-      "refs": [
-        {
-          "label": "MSN · TV5 Monde — Choose France : le japonais SoftBank annonce un investissement record de 75 milliards d'euros lié à l'IA",
-          "url": "https://www.msn.com/fr-fr/finance/autres/choose-france-le-japonais-softbank-annonce-un-investissement-record-de-75-milliards-d-euros-lié-à-l-ia/ar-AA24rCfb?ocid=00000000"
-        },
-        {
-          "label": "Discover · BFM — Choose France: le Japonais SoftBank annonce un investissement record de 75 milliards d'euros en France dans les infrastructures liées à l’intelligence artificielle",
-          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/le-japonais-soft-bank-annonce-un-investissement-record-de-75-milliards-d-euros-en-france-dans-les-infrastructures-liees-a-l-intelligence-artificielle_AN-202605300339.html"
-        },
-        {
-          "label": "GNews · Orange Actualités — Choose France: le japonais SoftBank annonce un investissement record de 75 milliards d'euros lié à l'IA",
-          "url": "https://actu.orange.fr/economie/choose-france-le-japonais-softbank-annonce-un-investissement-record-de-75-milliards-d-euros-lie-a-l-ia-CNT000002pGeLi.html"
-        },
-        {
-          "label": "GNews · BFM — Choose France: le Japonais SoftBank annonce un investissement record de 75 milliards d'euros en France dans les infrastructures liées à l’intelligence artificielle",
-          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/le-japonais-soft-bank-annonce-un-investissement-record-de-75-milliards-d-euros-en-france-dans-les-infrastructures-liees-a-l-intelligence-artificielle_AN-202605300339.html"
-        },
-        {
-          "label": "GNews · Sud Ouest — « Choose France » : le groupe irlandais Smurfit Westrock cartonne en Nouvelle-Aquitaine",
-          "url": "https://www.sudouest.fr/economie/choose-france-le-groupe-irlandais-smurfit-westrock-cartonne-sur-la-nouvelle-aquitaine-29272299.php"
-        }
-      ],
-      "discover_category": "/News",
-      "discover_entities": [
-        "Intelligence artificielle",
-        "Masayoshi Son"
-      ]
-    },
-    {
-      "id": "s23",
-      "rank": 23,
-      "title": "Affaire Patrick Bruel, Agnès Jaoui a un avis sur son maintien sur scène : « Ça ne me choque pas… »",
-      "theme": "divertissement",
-      "score": 24,
-      "tier": "low",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · forte couverture médiatique (5 médias) · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "5 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "2k"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "3k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "116+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "5 médias",
-          "fill": 86
-        },
-        {
-          "name": "Google Trends",
-          "value": "2k",
-          "fill": 4
         },
         {
           "name": "Wikimedia",
@@ -2555,8 +2537,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "68/100",
-          "fill": 67
+          "value": "100/100",
+          "fill": 100
         },
         {
           "name": "Reddit FR",
@@ -2570,159 +2552,46 @@
         }
       ],
       "score_breakdown": {
-        "discover": 0.5,
-        "trends": 4.5,
-        "wiki": 17.7,
-        "gnews": 86.3,
-        "msn": 67.8,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 23.9
-      },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/affaire-patrick-bruel-agnès-jaoui-a-un-avis-sur-son-maintien-sur-scène-ça-ne-me-choque-pas/ar-AA249SxK?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.650a86aceabb319c5f7ea2dd61239c9d&pid=Wdp",
-      "msn_source_name": "Gala (French)",
-      "refs": [
-        {
-          "label": "MSN · Gala (French) — Affaire Patrick Bruel, Agnès Jaoui a un avis sur son maintien sur scène : « Ça ne me choque pas… »",
-          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/affaire-patrick-bruel-agnès-jaoui-a-un-avis-sur-son-maintien-sur-scène-ça-ne-me-choque-pas/ar-AA249SxK?ocid=00000000"
-        },
-        {
-          "label": "Discover · France 3 Régions — Patrick Bruel annule tous ses concerts : \"le faire nous-mêmes nous aurait coûté des centaines de milliers d'euros et cela aurait signifié la fin des Alpagas Bleus\"",
-          "url": "https://france3-regions.franceinfo.fr/grand-est/bas-rhin/patrick-bruel-annule-tous-ses-concerts-le-faire-nous-memes-nous-aurait-coute-des-centaines-de-milliers-d-euros-et-cela-aurait-signifie-la-fin-des-alpagas-bleus-3359764.html"
-        },
-        {
-          "label": "GNews · Le Figaro — «Ce sera notre secret» : dans l’affaire Patrick Bruel, autopsie de la procédure des «masseuses», qui rattrape le chanteur",
-          "url": "https://www.lefigaro.fr/faits-divers/ce-sera-notre-secret-dans-l-affaire-patrick-bruel-autopsie-de-la-procedure-des-masseuses-qui-rattrape-le-chanteur-20260530"
-        },
-        {
-          "label": "GNews · telerama.fr — “L’Objet du délit”, d’Agnès Jaoui : “À force de dire tout et son contraire, on ne sait plus ce que le film raconte”",
-          "url": "https://www.telerama.fr/cinema/l-objet-du-delit-d-agnes-jaoui-a-force-de-dire-tout-et-son-contraire-on-ne-sait-plus-ce-que-le-film-raconte-7031372.php"
-        },
-        {
-          "label": "GNews · public.fr — Valérie Bègue : après ses révélations glaçantes sur Patrick Bruel, l’ex-Miss France fait une grande annonce",
-          "url": "https://www.public.fr/valerie-begue-apres-ses-revelations-glacantes-sur-patrick-bruel-lex-miss-france-fait-une-grande-annonce"
-        }
-      ],
-      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
-      "discover_entities": [
-        "Musique",
-        "Patrick Bruel"
-      ]
-    },
-    {
-      "id": "s24",
-      "rank": 24,
-      "title": "6 500 milliards d'euros en 2025, « les Français épargnent beaucoup, ils n'ont pas beaucoup d’épargne », où placent-ils leur argent?",
-      "theme": "finance",
-      "score": 24,
-      "tier": "low",
-      "rationale": "Présent sur Google Discover · couvert par 3 médias.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "7.7/65"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "3 médias"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "7+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 7.7",
-          "fill": 30
-        },
-        {
-          "name": "Google News",
-          "value": "3 médias",
-          "fill": 70
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "15/100",
-          "fill": 15
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 31.0,
+        "discover": 1.8,
         "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 70.0,
-        "msn": 15.0,
+        "wiki": 17.6,
+        "gnews": 57.1,
+        "msn": 100.0,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 23.6
+        "total": 23.5
       },
-      "msn_url": "https://www.msn.com/fr-fr/finance/autres/6-500-milliards-d-euros-en-2025-les-français-épargnent-beaucoup-ils-n-ont-pas-beaucoup-d-épargne-où-placent-ils-leur-argent/ar-AA24pXjw?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.fa66c71ba1ee065f3a5d8a5ae749f2dd&pid=Wdp",
-      "msn_source_name": "Capital France",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/elections/les-insoumis-marchands-de-haine-jean-luc-mélenchon-fustige-les-paroles-indignes-de-gabriel-attal/ar-AA24qUSQ?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.fe09bf71a3d9b332d17331d3e7f4ae96&pid=Wdp",
+      "msn_source_name": "Le Parisien",
       "refs": [
         {
-          "label": "MSN · Capital France — 6 500 milliards d'euros en 2025, « les Français épargnent beaucoup, ils n'ont pas beaucoup d’épargne », où placent-ils leur argent?",
-          "url": "https://www.msn.com/fr-fr/finance/autres/6-500-milliards-d-euros-en-2025-les-français-épargnent-beaucoup-ils-n-ont-pas-beaucoup-d-épargne-où-placent-ils-leur-argent/ar-AA24pXjw?ocid=00000000"
+          "label": "MSN · Le Parisien — Les insoumis, « marchands de haine » : Jean-Luc Mélenchon fustige les « paroles indignes » de Gabriel Attal",
+          "url": "https://www.msn.com/fr-fr/actualite/elections/les-insoumis-marchands-de-haine-jean-luc-mélenchon-fustige-les-paroles-indignes-de-gabriel-attal/ar-AA24qUSQ?ocid=00000000"
         },
         {
-          "label": "Discover · BFM — Choose France: le Japonais SoftBank annonce un investissement record de 75 milliards d'euros en France dans les infrastructures liées à l’intelligence artificielle",
-          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/le-japonais-soft-bank-annonce-un-investissement-record-de-75-milliards-d-euros-en-france-dans-les-infrastructures-liees-a-l-intelligence-artificielle_AN-202605300339.html"
+          "label": "Discover · Le Parisien — Les insoumis, « marchands de haine » : Jean-Luc Mélenchon fustige les « paroles indignes » de Gabriel Attal",
+          "url": "https://www.leparisien.fr/politique/les-insoumis-marchands-de-haine-jean-luc-melenchon-fustige-les-paroles-indignes-de-gabriel-attal-30-05-2026-UGF5UVBNBFC4RIJ7DRHWWKXUWA.php"
         },
         {
-          "label": "GNews · Le Cri du Troll — Les patrons français vont adorer… les salariés beaucoup moins (Mistral Vibe)",
-          "url": "https://www.cridutroll.fr/les-patrons-francais-vont-adorer-les-salaries-beaucoup-moins-mistral-vibe/"
+          "label": "GNews · Le Parisien — Les insoumis, « marchands de haine » : Jean-Luc Mélenchon fustige les « paroles indignes » de Gabriel Attal",
+          "url": "https://www.leparisien.fr/politique/les-insoumis-marchands-de-haine-jean-luc-melenchon-fustige-les-paroles-indignes-de-gabriel-attal-30-05-2026-UGF5UVBNBFC4RIJ7DRHWWKXUWA.php"
         },
         {
-          "label": "GNews · Orange Actualités — Choose France: le japonais SoftBank annonce un investissement record de 75 milliards d'euros lié à l'IA",
-          "url": "https://actu.orange.fr/economie/choose-france-le-japonais-softbank-annonce-un-investissement-record-de-75-milliards-d-euros-lie-a-l-ia-CNT000002pGeLi.html"
-        },
-        {
-          "label": "GNews · BFM — Choose France: le Japonais SoftBank annonce un investissement record de 75 milliards d'euros en France dans les infrastructures liées à l’intelligence artificielle",
-          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/le-japonais-soft-bank-annonce-un-investissement-record-de-75-milliards-d-euros-en-france-dans-les-infrastructures-liees-a-l-intelligence-artificielle_AN-202605300339.html"
+          "label": "GNews · Le HuffPost — Jean-Luc Mélenchon fait de la lutte contre Bolloré un argument de campagne lors de la manif à L’Olympia",
+          "url": "https://www.huffingtonpost.fr/politique/article/jean-luc-melenchon-fait-de-la-lutte-contre-bollore-un-argument-de-campagne-lors-de-la-manif-a-l-olympia_264271.html"
         }
       ],
-      "discover_category": "/News",
+      "discover_category": "/News/Politics",
       "discover_entities": [
-        "Intelligence artificielle",
-        "Masayoshi Son"
+        "Gabriel Attal",
+        "Jean-Luc Mélenchon"
       ]
     },
     {
-      "id": "s25",
-      "rank": 25,
+      "id": "s23",
+      "rank": 23,
       "title": "Nagui porte plainte contre Cyril Hanouna et Charles Alloncle : voici ce que l'animateur leur reproche",
       "theme": "actualite",
       "score": 23,
@@ -2818,124 +2687,8 @@
       "discover_entities": []
     },
     {
-      "id": "s26",
-      "rank": 26,
-      "title": "Roland-Garros, le beau geste d’une joueuse envers un ramasseur (vidéo)",
-      "theme": "sport",
-      "score": 22,
-      "tier": "low",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · couvert par 2 médias.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "500"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "5k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "29+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.0",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
-        },
-        {
-          "name": "Google Trends",
-          "value": "500",
-          "fill": 1
-        },
-        {
-          "name": "Wikimedia",
-          "value": "5k vues/h",
-          "fill": 25
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "45/100",
-          "fill": 45
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.0,
-        "trends": 1.1,
-        "wiki": 25.4,
-        "gnews": 57.1,
-        "msn": 45.2,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 22.1
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-le-beau-geste-d-une-joueuse-envers-un-ramasseur-vidéo/ar-AA24q9dO?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.b9f3948ee52898a557cff1b147b3c82d&pid=Wdp",
-      "msn_source_name": "Sports.fr",
-      "refs": [
-        {
-          "label": "MSN · Sports.fr — Roland-Garros, le beau geste d’une joueuse envers un ramasseur (vidéo)",
-          "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-le-beau-geste-d-une-joueuse-envers-un-ramasseur-vidéo/ar-AA24q9dO?ocid=00000000"
-        },
-        {
-          "label": "Discover · RMC Sport — Roland-Garros 2026 : Combien va toucher Moïse Kouame après son incroyable parcours à Roland ?",
-          "url": "https://rmcsport.bfmtv.com/tennis/roland-garros/roland-garros-2026-combien-va-toucher-moise-kouame-apres-son-incroyable-parcours-a-roland_AN-202605300328.html"
-        },
-        {
-          "label": "GNews · FFL — Roland-Garros | Le point insolent de Moïse Kouamé qui fait lever le public",
-          "url": "https://fflose.com/roland-garros-le-point-insolent-de-moise-kouame-qui-fait-lever-le-public/"
-        },
-        {
-          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
-          "url": "https://tvmag.lefigaro.fr/programme-tv/people/roland-garros-vianney-en-tribunes-avec-sa-femme-catherine-robert-enceinte-de-leur-deuxieme-enfant-20260530"
-        }
-      ],
-      "discover_category": "/Sports/Individual Sports/Racquet Sports",
-      "discover_entities": [
-        "Roland-Garros",
-        "Sport",
-        "Tennis"
-      ]
-    },
-    {
-      "id": "s27",
-      "rank": 27,
+      "id": "s24",
+      "rank": 24,
       "title": "Swatting : quel est ce nouveau phénomène dangereux qui arrive en France et peut toucher tout le monde, comment se protéger?",
       "theme": "finance",
       "score": 22,
@@ -2965,7 +2718,7 @@
         {
           "source": "msn",
           "label": "msn",
-          "value": "66+ react."
+          "value": "69+ react."
         }
       ],
       "sources": [
@@ -2996,8 +2749,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "88/100",
-          "fill": 87
+          "value": "92/100",
+          "fill": 92
         },
         {
           "name": "Reddit FR",
@@ -3015,11 +2768,11 @@
         "trends": 2.3,
         "wiki": 14.0,
         "gnews": 57.1,
-        "msn": 87.8,
+        "msn": 92.0,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 21.6
+        "total": 22.1
       },
       "msn_url": "https://www.msn.com/fr-fr/finance/autres/swatting-quel-est-ce-nouveau-phénomène-dangereux-qui-arrive-en-france-et-peut-toucher-tout-le-monde-comment-se-protéger/ar-AA24p20v?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.a55a672c3040408e82399e506dd39f15&pid=Wdp",
@@ -3048,13 +2801,13 @@
       ]
     },
     {
-      "id": "s28",
-      "rank": 28,
-      "title": "Mort à 43 ans de Bryan Bergougnoux, le triple champion de France de football s'est effondré avant un match de gala",
+      "id": "s25",
+      "rank": 25,
+      "title": "Scandale sexiste à Roland-Garros : les propos d’Adolfo Vallejo indignent le tournoi et la communauté du tennis",
       "theme": "sport",
       "score": 20,
       "tier": "low",
-      "rationale": "Forte audience Wikipedia (39 090 vues/jour) · mentionné sur X.",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · couvert par 3 médias.",
       "signals": [
         {
           "source": "discover",
@@ -3062,46 +2815,51 @@
           "value": "présent"
         },
         {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "39k vues"
+          "source": "gnews",
+          "label": "gnews",
+          "value": "3 médias"
         },
         {
-          "source": "x",
-          "label": "x",
-          "value": "#194"
+          "source": "trends",
+          "label": "trends",
+          "value": "500"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "5k vues"
         },
         {
           "source": "msn",
           "label": "msn",
-          "value": "7+ react."
+          "value": "4+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
+          "value": "score 0.4",
+          "fill": 1
         },
         {
           "name": "Google News",
-          "value": "—",
-          "fill": 0
+          "value": "3 médias",
+          "fill": 70
         },
         {
           "name": "Google Trends",
-          "value": "—",
-          "fill": 0
+          "value": "500",
+          "fill": 1
         },
         {
           "name": "Wikimedia",
-          "value": "39k vues/h",
-          "fill": 100
+          "value": "5k vues/h",
+          "fill": 25
         },
         {
           "name": "X velocity",
-          "value": "rang #194",
-          "fill": 20
+          "value": "—",
+          "fill": 0
         },
         {
           "name": "MSN engagement",
@@ -3120,156 +2878,52 @@
         }
       ],
       "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 100.0,
-        "gnews": 0.0,
+        "discover": 1.8,
+        "trends": 1.1,
+        "wiki": 25.4,
+        "gnews": 70.0,
         "msn": 15.0,
-        "x": 20.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 20.5
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/other/mort-à-43-ans-de-bryan-bergougnoux-le-triple-champion-de-france-de-football-s-est-effondré-avant-un-match-de-gala/ar-AA24pI7c?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.ec266aa386c36140af99230311b635a5&pid=Wdp",
-      "msn_source_name": "Télé Loisirs",
-      "refs": [
-        {
-          "label": "MSN · Télé Loisirs — Mort à 43 ans de Bryan Bergougnoux, le triple champion de France de football s'est effondré avant un match de gala",
-          "url": "https://www.msn.com/fr-fr/sport/other/mort-à-43-ans-de-bryan-bergougnoux-le-triple-champion-de-france-de-football-s-est-effondré-avant-un-match-de-gala/ar-AA24pI7c?ocid=00000000"
-        },
-        {
-          "label": "Discover · L'Est Républicain — Football. Ligue 2 : fin du suspense, découvrez la carte de France des clubs",
-          "url": "https://www.estrepublicain.fr/sport/2026/05/29/ligue-2-fin-du-suspense-decouvrez-la-carte-de-france-des-clubs"
-        }
-      ],
-      "discover_category": "/Sports/Team Sports/Soccer",
-      "discover_entities": [
-        "AS Nancy Lorraine",
-        "Football",
-        "Ligue 2"
-      ]
-    },
-    {
-      "id": "s29",
-      "rank": 29,
-      "title": "Un lycéen de 17 ans écrit une lettre à Emmanuel Macron et fait annuler les épreuves du bac au Moyen-Orient",
-      "theme": "actualite",
-      "score": 20,
-      "tier": "low",
-      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (6 médias).",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "1.4/65"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "6 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "3k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "24+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 1.4",
-          "fill": 6
-        },
-        {
-          "name": "Google News",
-          "value": "6 médias",
-          "fill": 92
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "3k vues/h",
-          "fill": 15
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "28/100",
-          "fill": 28
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 6.3,
-        "trends": 0.0,
-        "wiki": 15.8,
-        "gnews": 92.1,
-        "msn": 28.5,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 19.9
+        "total": 20.4
       },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/un-lycéen-de-17-ans-écrit-une-lettre-à-emmanuel-macron-et-fait-annuler-les-épreuves-du-bac-au-moyen-orient/ar-AA24qjcA?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.c9577a88e06ca9c920f899fe0b1e4428&pid=Wdp",
-      "msn_source_name": "Le Parisien",
+      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/scandale-sexiste-à-roland-garros-les-propos-d-adolfo-vallejo-indignent-le-tournoi-et-la-communauté-du-tennis/ar-AA24qOsK?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.5b57bc47d30b16caf3e320338812ae92&pid=Wdp",
+      "msn_source_name": "Ohmymag FR",
       "refs": [
         {
-          "label": "MSN · Le Parisien — Un lycéen de 17 ans écrit une lettre à Emmanuel Macron et fait annuler les épreuves du bac au Moyen-Orient",
-          "url": "https://www.msn.com/fr-fr/actualite/france/un-lycéen-de-17-ans-écrit-une-lettre-à-emmanuel-macron-et-fait-annuler-les-épreuves-du-bac-au-moyen-orient/ar-AA24qjcA?ocid=00000000"
+          "label": "MSN · Ohmymag FR — Scandale sexiste à Roland-Garros : les propos d’Adolfo Vallejo indignent le tournoi et la communauté du tennis",
+          "url": "https://www.msn.com/fr-fr/sport/tennis/scandale-sexiste-à-roland-garros-les-propos-d-adolfo-vallejo-indignent-le-tournoi-et-la-communauté-du-tennis/ar-AA24qOsK?ocid=00000000"
         },
         {
-          "label": "Discover · L'Équipe — Emmanuel Macron après le deuxième sacre du PSG en Ligue des champions : «La France est fière»",
-          "url": "https://www.lequipe.fr/Football/Actualites/Emmanuel-macron-felicite-le-psg-apres-son-deuxieme-sacre-en-ligue-des-champions-la-france-est-fiere/1680415"
+          "label": "Discover · We Love Tennis — Roland Garros > Elina Svitolina, à propos de son mari, Gaël Monfils : \"Je ne considère pas cela comme un problème\"",
+          "url": "https://www.welovetennis.fr/roland-garros/elina-svitolina-a-propos-de-son-mari-gael-monfils-je-ne-considere-pas-cela-comme-un-probleme"
         },
         {
-          "label": "GNews · Le Parisien — Un lycéen de 17 ans écrit une lettre à Emmanuel Macron et fait annuler les épreuves du bac au Moyen-Orient",
-          "url": "https://www.leparisien.fr/faits-divers/un-lyceen-de-17-ans-ecrit-une-lettre-a-emmanuel-macron-et-fait-annuler-les-epreuves-du-bac-au-moyen-orient-30-05-2026-RY2LX2E2JZC7HGC4ILIEG3HYXA.php"
+          "label": "GNews · Eurosport — Moïse Kouamé - Alejandro Tabilo en direct : suivez Roland Garros 2026",
+          "url": "https://www.eurosport.fr/tennis/roland-garros-messieurs/2026/moise-kouame-alejandro-tabilo_mtc1655011/live-commentary.shtml"
         },
         {
-          "label": "GNews · BFM — Élysée: Frédéric Rose nommé directeur de cabinet d'Emmanuel Macron",
-          "url": "https://www.bfmtv.com/politique/elysee/elysee-frederic-rose-nomme-directeur-de-cabinet-d-emmanuel-macron_AD-202605300091.html"
+          "label": "GNews · FFL — Roland-Garros | Le point insolent de Moïse Kouamé qui fait lever le public",
+          "url": "https://fflose.com/roland-garros-le-point-insolent-de-moise-kouame-qui-fait-lever-le-public/"
         },
         {
-          "label": "GNews · Le Monde.fr — EN DIRECT, guerre au Moyen-Orient : Israël annonce étendre ses opérations au Liban « à d’autres zones »",
-          "url": "https://www.lemonde.fr/international/live/2026/05/31/en-direct-guerre-au-moyen-orient-israel-annonce-etendre-ses-operations-au-liban-a-d-autres-zones_6694380_3210.html"
+          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
+          "url": "https://tvmag.lefigaro.fr/programme-tv/people/roland-garros-vianney-en-tribunes-avec-sa-femme-catherine-robert-enceinte-de-leur-deuxieme-enfant-20260530"
         }
       ],
-      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
       "discover_entities": [
-        "Arsenal",
-        "Emmanuel Macron",
-        "Ligue 1",
-        "PSGFC",
-        "Sport"
+        "Elina Svitolina",
+        "Gaël Monfils",
+        "Sport",
+        "Wimbledon"
       ]
     },
     {
-      "id": "s30",
-      "rank": 30,
+      "id": "s26",
+      "rank": 26,
       "title": "Sécurité sociale : face au déficit, la Cour des comptes suggère un prélèvement direct sur les comptes bancaires des patients",
       "theme": "finance",
       "score": 20,
@@ -3284,7 +2938,7 @@
         {
           "source": "msn",
           "label": "msn",
-          "value": "69+ react."
+          "value": "73+ react."
         }
       ],
       "sources": [
@@ -3315,8 +2969,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "89/100",
-          "fill": 88
+          "value": "92/100",
+          "fill": 92
         },
         {
           "name": "Reddit FR",
@@ -3334,11 +2988,11 @@
         "trends": 0.0,
         "wiki": 0.0,
         "gnews": 57.1,
-        "msn": 88.9,
+        "msn": 92.0,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 0.0,
-        "total": 19.5
+        "total": 20.0
       },
       "msn_url": "https://www.msn.com/fr-fr/finance/autres/sécurité-sociale-face-au-déficit-la-cour-des-comptes-suggère-un-prélèvement-direct-sur-les-comptes-bancaires-des-patients/ar-AA24qTlu?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.8b7403dabe44e4b15c9aed3dbbb3aaa3&pid=Wdp",
@@ -3359,86 +3013,438 @@
       ],
       "discover_category": null,
       "discover_entities": []
+    },
+    {
+      "id": "s27",
+      "rank": 27,
+      "title": "« L'alcool décoince et enlève une conscience trop forte de soi » : Virginie Efira, le verre à moitié plein",
+      "theme": "divertissement",
+      "score": 20,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · repris sur Google Actualités.",
+      "signals": [
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "4k vues"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "37+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "4k vues/h",
+          "fill": 21
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "56/100",
+          "fill": 55
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 0.0,
+        "wiki": 21.5,
+        "gnews": 35.0,
+        "msn": 55.7,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 19.7
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/actualite/l-alcool-décoince-et-enlève-une-conscience-trop-forte-de-soi-virginie-efira-le-verre-à-moitié-plein/ar-AA24qy71?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.9aea4fdeeb479d9ad2ae3c3c690bebac&pid=Wdp",
+      "msn_source_name": "Paris Match FR",
+      "refs": [
+        {
+          "label": "MSN · Paris Match FR — « L'alcool décoince et enlève une conscience trop forte de soi » : Virginie Efira, le verre à moitié plein",
+          "url": "https://www.msn.com/fr-fr/divertissement/actualite/l-alcool-décoince-et-enlève-une-conscience-trop-forte-de-soi-virginie-efira-le-verre-à-moitié-plein/ar-AA24qy71?ocid=00000000"
+        },
+        {
+          "label": "GNews · parismatch.com — « Fier et heureux » : les mots d’amour de Niels Schneider pour Virginie Efira après le prix d’interprétation à Cannes",
+          "url": "https://www.parismatch.com/People/fier-et-heureux-les-mots-damour-de-niels-schneider-pour-virginie-efira-apres-le-prix-dinterpretation-a-cannes-269924"
+        }
+      ],
+      "discover_category": null,
+      "discover_entities": []
+    },
+    {
+      "id": "s28",
+      "rank": 28,
+      "title": "Emmanuel Macron aurait déjà son favori pour 2027 et ce nom en dit long sur l’après-Élysée",
+      "theme": "actualite",
+      "score": 19,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · couvert par 4 médias.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "1.4/65"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "4 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "28+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 1.4",
+          "fill": 6
+        },
+        {
+          "name": "Google News",
+          "value": "4 médias",
+          "fill": 79
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "3k vues/h",
+          "fill": 15
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "32/100",
+          "fill": 32
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 6.3,
+        "trends": 0.0,
+        "wiki": 15.8,
+        "gnews": 79.2,
+        "msn": 32.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 18.5
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/elections/emmanuel-macron-aurait-déjà-son-favori-pour-2027-et-ce-nom-en-dit-long-sur-l-après-élysée/ar-AA24pHPb?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA21DabP.img",
+      "msn_source_name": "So Busy Girls",
+      "refs": [
+        {
+          "label": "MSN · So Busy Girls — Emmanuel Macron aurait déjà son favori pour 2027 et ce nom en dit long sur l’après-Élysée",
+          "url": "https://www.msn.com/fr-fr/actualite/elections/emmanuel-macron-aurait-déjà-son-favori-pour-2027-et-ce-nom-en-dit-long-sur-l-après-élysée/ar-AA24pHPb?ocid=00000000"
+        },
+        {
+          "label": "Discover · L'Équipe — Emmanuel Macron après le deuxième sacre du PSG en Ligue des champions : «La France est fière»",
+          "url": "https://www.lequipe.fr/Football/Actualites/Emmanuel-macron-felicite-le-psg-apres-son-deuxieme-sacre-en-ligue-des-champions-la-france-est-fiere/1680415"
+        },
+        {
+          "label": "GNews · BFM — Élysée: Frédéric Rose nommé directeur de cabinet d'Emmanuel Macron",
+          "url": "https://www.bfmtv.com/politique/elysee/elysee-frederic-rose-nomme-directeur-de-cabinet-d-emmanuel-macron_AD-202605300091.html"
+        },
+        {
+          "label": "GNews · Le Parisien — Un lycéen de 17 ans écrit une lettre à Emmanuel Macron et fait annuler les épreuves du bac au Moyen-Orient",
+          "url": "https://www.leparisien.fr/faits-divers/un-lyceen-de-17-ans-ecrit-une-lettre-a-emmanuel-macron-et-fait-annuler-les-epreuves-du-bac-au-moyen-orient-30-05-2026-RY2LX2E2JZC7HGC4ILIEG3HYXA.php"
+        },
+        {
+          "label": "GNews · Closer — Cyril Hanouna : après la plainte de Nagui, il fait déjà machine arrière avec une explication rocambolesque",
+          "url": "https://www.closermag.fr/people/cyril-hanouna-apres-la-plainte-de-nagui-il-fait-deja-machine-arriere-avec-une-explication-rocambolesque-3639045"
+        }
+      ],
+      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_entities": [
+        "Arsenal",
+        "Emmanuel Macron",
+        "Ligue 1",
+        "PSGFC",
+        "Sport"
+      ]
+    },
+    {
+      "id": "s29",
+      "rank": 29,
+      "title": "« La cocaïne continue son travail de destruction » : après son opération du nez, Sandra Sisley raconte les séquelles de son addiction passée",
+      "theme": "divertissement",
+      "score": 18,
+      "tier": "low",
+      "rationale": "Présent sur Google Trends · repris sur Google Actualités · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "2k"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "150+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.3",
+          "fill": 1
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "2k",
+          "fill": 4
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "95/100",
+          "fill": 95
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 1.4,
+        "trends": 4.5,
+        "wiki": 0.0,
+        "gnews": 35.0,
+        "msn": 95.1,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 18.3
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/la-cocaïne-continue-son-travail-de-destruction-après-son-opération-du-nez-sandra-sisley-raconte-les-séquelles-de-son-addiction-passée/ar-AA24ndZw?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.b6a3a0ed446a2b002ad03ef0dd37099d&pid=Wdp",
+      "msn_source_name": "Voici",
+      "refs": [
+        {
+          "label": "MSN · Voici — « La cocaïne continue son travail de destruction » : après son opération du nez, Sandra Sisley raconte les séquelles de son addiction passée",
+          "url": "https://www.msn.com/fr-fr/divertissement/celebrites/la-cocaïne-continue-son-travail-de-destruction-après-son-opération-du-nez-sandra-sisley-raconte-les-séquelles-de-son-addiction-passée/ar-AA24ndZw?ocid=00000000"
+        },
+        {
+          "label": "Discover · Auto Plus — Après deux ans de travail, ils présentent la Ferrari Testarossa 6x6",
+          "url": "https://www.autoplus.fr/actualite/insolite/apres-deux-ans-de-travail-ils-presentent-la-ferrari-testarossa-6x6-1445902.html"
+        },
+        {
+          "label": "GNews · Closer — \"Une partie s’est nécrosée\" : Sandra Sisley dévoile des photos choc après des années d'addiction à la cocaïne",
+          "url": "https://www.closermag.fr/people/une-partie-sest-necrosee-sandra-sisley-devoile-des-photos-choc-apres-des-annees-daddiction-a-la-cocaine-3639085"
+        }
+      ],
+      "discover_category": "/Autos & Vehicles",
+      "discover_entities": [
+        "Automobile",
+        "Ferrari"
+      ]
+    },
+    {
+      "id": "s30",
+      "rank": 30,
+      "title": "Navire de guerre endommagé à Wilmershaven : la Russie derrière 10 actes de sabotage?",
+      "theme": "actualite",
+      "score": 18,
+      "tier": "low",
+      "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "89+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 0.0,
+        "wiki": 0.0,
+        "gnews": 35.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 17.9
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/navire-de-guerre-endommagé-à-wilmershaven-la-russie-derrière-10-actes-de-sabotage/ar-AA24qrA5?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.628f00c1c2d2b70bbd8b2a898aa6622c&pid=Wdp",
+      "msn_source_name": "Euronews (Français)",
+      "refs": [
+        {
+          "label": "MSN · Euronews (Français) — Navire de guerre endommagé à Wilmershaven : la Russie derrière 10 actes de sabotage?",
+          "url": "https://www.msn.com/fr-fr/actualite/monde/navire-de-guerre-endommagé-à-wilmershaven-la-russie-derrière-10-actes-de-sabotage/ar-AA24qrA5?ocid=00000000"
+        },
+        {
+          "label": "GNews · Ouest-France — CARTE. Guerre en Ukraine : un pétrolier touché en Russie, Moscou rappelle son ambassadeur en Arménie… Le point du jour - Ouest-France",
+          "url": "https://www.ouest-france.fr/europe/ukraine/carte-guerre-en-ukraine-un-petrolier-touche-en-russie-moscou-rappelle-son-ambassadeur-en-armenie-le-point-du-jour-27307030-5c45-11f1-b2c7-21f7efea5d61"
+        }
+      ],
+      "discover_category": null,
+      "discover_entities": []
     }
   ],
   "categories_trending": [
     {
-      "key": "/Sensitive Subjects",
-      "label": "Sujets sensibles",
-      "articles_count": 23,
-      "total_score": 112.9,
-      "avg_score": 4.9,
-      "top_articles": [
-        {
-          "title": "\"J'aimerais qu'elle soit à la maison\" Leur fille n'est pas rentrée du collège, toute une commune à sa recherche",
-          "publisher": "France 3 Régions",
-          "score": 49.6,
-          "url": "https://france3-regions.franceinfo.fr/occitanie/gers/auch/j-aimerais-qu-elle-soit-a-la-maison-leur-fille-n-est-pas-rentree-du-college-toute-une-commune-a-sa-recherche-3359926.html"
-        },
-        {
-          "title": "Guerre en Ukraine : avions navals Tu-142 et système de missiles balistiques Iskander détruits, la Russie frappée en profondeur par des drones ennemis",
-          "publisher": "Midi Libre",
-          "score": 40.2,
-          "url": "https://www.midilibre.fr/2026/05/30/guerre-en-ukraine-avions-navals-tu-142-et-systeme-de-missiles-balistiques-iskander-detruits-la-russie-frappee-en-profondeur-par-des-drones-ennemis-13395320.php"
-        },
-        {
-          "title": "REX – Pression temporelle et visite prévol bâclée mènent au crash d’un bimoteur",
-          "publisher": "Aerobuzz",
-          "score": 10.6,
-          "url": "https://www.aerobuzz.fr/aviation-generale/rex-pression-temporelle-et-visite-prevol-baclee-menent-a-laccident-dun-bimoteur/"
-        }
-      ]
-    },
-    {
-      "key": "/Science/Astronomy",
-      "label": "Astronomie",
-      "articles_count": 3,
-      "total_score": 72.8,
-      "avg_score": 24.3,
-      "top_articles": [
-        {
-          "title": "Pourquoi la pleine Lune de la nuit de samedi à dimanche sera dite \"bleue\" et apparaîtra plus petite que d’habitude",
-          "publisher": "RTL.fr",
-          "score": 33.3,
-          "url": "https://www.rtl.fr/actu/sciences-tech/pourquoi-la-pleine-lune-de-la-nuit-de-samedi-a-dimanche-sera-dite-bleue-et-apparaitra-plus-petite-que-d-habitude-7900640681"
-        },
-        {
-          "title": "L’océan a révélé sa puissance depuis l’espace : une vague de près de 20 mètres a été enregistrée par un satellite",
-          "publisher": "Tameteo.com",
-          "score": 30.9,
-          "url": "https://www.tameteo.com/actualites/actualite/l-ocean-a-revele-sa-puissance-depuis-l-espace-une-vague-de-pres-de-20-metres-a-ete-enregistree-par-un-satellite.html"
-        },
-        {
-          "title": "La Lune s’éloigne de la Terre de 3,8 cm par an… et ce mouvement imperceptible allonge déjà nos journées et modifie les marées",
-          "publisher": "Science et vie",
-          "score": 8.6,
-          "url": "https://www.science-et-vie.com/ciel-et-espace/la-lune-seloigne-de-la-terre-de-38-cm-par-an-et-ce-mouvement-imperceptible-allonge-deja-nos-journees-et-modifie-les-marees-212145.html"
-        }
-      ]
-    },
-    {
       "key": "/Sports/Team Sports/Soccer",
       "label": "Football",
       "articles_count": 69,
-      "total_score": 57.0,
-      "avg_score": 0.8,
+      "total_score": 66.9,
+      "avg_score": 1.0,
       "top_articles": [
-        {
-          "title": "EN DIRECT, PSG-Arsenal : les Parisiens s’offrent un deuxième sacre en Ligue des champions, des violences en marge des célébrations dans la capitale et dans une quinzaine de villes de France",
-          "publisher": "Le Monde.fr",
-          "score": 6.9,
-          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-les-parisiens-s-offrent-un-deuxieme-sacre-en-ligue-des-champions-des-violences-en-marge-des-celebrations-dans-la-capitale-et-dans-une-quinzaine-de-villes-de-france_6695252_3242.html"
-        },
         {
           "title": "EN DIRECT, PSG-Arsenal : « Il n’y a pas de raison » d’annuler la parade de la victoire sur le Champ de Mars, affirme Laurent Nuñez après une nuit de célébration émaillée de tensions",
           "publisher": "Le Monde.fr",
-          "score": 5.8,
+          "score": 13.6,
           "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-il-n-y-a-pas-de-raison-d-annuler-la-parade-de-la-victoire-sur-le-champ-de-mars-affirme-laurent-nunez-apres-une-nuit-de-celebration-emaillee-de-tensions_6695252_3242.html"
+        },
+        {
+          "title": "EN DIRECT, PSG-Arsenal : les Parisiens s’offrent un deuxième sacre en Ligue des champions, des violences en marge des célébrations dans la capitale et dans une quinzaine de villes de France",
+          "publisher": "Le Monde.fr",
+          "score": 7.1,
+          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-les-parisiens-s-offrent-un-deuxieme-sacre-en-ligue-des-champions-des-violences-en-marge-des-celebrations-dans-la-capitale-et-dans-une-quinzaine-de-villes-de-france_6695252_3242.html"
         },
         {
           "title": "PSG-Arsenal: Paris conserve sa Ligue des champions après une séance de tirs au but irrespirable",
           "publisher": "RMC Sport",
-          "score": 5.1,
+          "score": 5.2,
           "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/direct-psg-arsenal-suivez-le-match-de-la-finale-de-ligue-des-champions-en-live_LS-202605300041.html"
         }
       ]
@@ -3447,13 +3453,13 @@
       "key": "/Health/Health Conditions/Cancer",
       "label": "Cancer",
       "articles_count": 3,
-      "total_score": 47.0,
-      "avg_score": 15.7,
+      "total_score": 51.9,
+      "avg_score": 17.3,
       "top_articles": [
         {
           "title": "Après 739 jours de souffrance, Louna, 15 ans, a vaincu son cancer du cerveau : \"Je me demande comment j'ai été si forte\"",
           "publisher": "Actu.fr",
-          "score": 47.0,
+          "score": 51.9,
           "url": "https://actu.fr/pays-de-la-loire/la-suze-sur-sarthe_72346/apres-739-jours-de-souffrance-louna-15-ans-a-vaincu-son-cancer-du-cerveau-je-me-demande-comment-jai-ete-si-forte_64321813.html"
         },
         {
@@ -3473,26 +3479,26 @@
     {
       "key": "/Arts & Entertainment/Celebrities & Entertainment News",
       "label": "People",
-      "articles_count": 14,
-      "total_score": 36.6,
-      "avg_score": 2.6,
+      "articles_count": 12,
+      "total_score": 45.3,
+      "avg_score": 3.8,
       "top_articles": [
         {
           "title": "\"Dès 15 ans, la musique est devenue ma maison\". Ce samedi dans un village près de Toulouse, la comédienne Julie Depardieu se confie en aparté",
           "publisher": "ladepeche.fr",
-          "score": 25.3,
+          "score": 30.9,
           "url": "https://www.ladepeche.fr/2026/05/30/des-15-ans-la-musique-est-devenue-ma-maison-ce-samedi-dans-un-village-pres-de-toulouse-la-comedienne-julie-depardieu-se-confie-en-aparte-13395585.php"
         },
         {
           "title": "Carla Bruni : son business né dans son domaine en Provence prend une nouvelle dimension",
           "publisher": "Pure People",
-          "score": 5.9,
+          "score": 8.6,
           "url": "https://www.purepeople.com/article/carla-bruni-son-business-ne-dans-son-domaine-en-provence-prend-une-nouvelle-dimension_a550704/1"
         },
         {
           "title": "People. Sophie Davant publie des photos à Villerville et se fait reprendre par les plaisanciers normands",
           "publisher": "tendanceouest.com",
-          "score": 3.1,
+          "score": 3.8,
           "url": "https://www.tendanceouest.com/actualite-439458-people-sophie-davant-publie-des-photos-a-villerville-et-se-fait-reprendre-par-les-plaisanciers-normands"
         }
       ]
@@ -3500,41 +3506,41 @@
     {
       "key": "/News/Politics",
       "label": "Politique",
-      "articles_count": 18,
-      "total_score": 32.3,
-      "avg_score": 1.8,
+      "articles_count": 17,
+      "total_score": 35.6,
+      "avg_score": 2.1,
       "top_articles": [
         {
           "title": "Michel Onfray : \"C’est une légende urbaine que Jean-Luc Mélenchon est très cultivé\"",
           "publisher": "YouTube",
-          "score": 16.2,
+          "score": 21.0,
           "url": "https://www.youtube.com/watch?v=D5w-ESPVOxE"
         },
         {
           "title": "Elvis Presley « sans guitare » : pour les 250 ans de l’indépendance des États-Unis, Trump veut annuler des concerts et animer un meeting",
           "publisher": "Le Parisien",
-          "score": 7.8,
+          "score": 8.9,
           "url": "https://www.leparisien.fr/international/etats-unis/elvis-presley-sans-guitare-pour-les-250-ans-de-lindependance-des-etats-unis-trump-veut-annuler-des-concerts-et-animer-un-meeting-30-05-2026-JNLZDEYN6FGWTLJXUABQ7JOI54.php"
         },
         {
-          "title": "Une manifestation anti-Bolloré près de L’Olympia en présence de Jean-Luc Mélenchon et Adèle Haenel",
-          "publisher": "Ouest-France",
-          "score": 2.3,
-          "url": "https://www.ouest-france.fr/societe/manifestation/une-manifestation-anti-bollore-pres-de-lolympia-en-presence-de-jean-luc-melenchon-et-adele-haenel-96e510a8-5c3a-11f1-b2c7-21f7efea5d61"
+          "title": "Etats-Unis : Donald Trump prêt à annuler les concerts du 250e anniversaire pour un discours à Washington",
+          "publisher": "CNews",
+          "score": 1.2,
+          "url": "https://www.cnews.fr/monde/2026-05-30/etats-unis-donald-trump-pret-annuler-les-concerts-du-250e-anniversaire-pour-un"
         }
       ]
     },
     {
       "key": "/People & Society/Religion & Belief",
       "label": "Religion & Croyances",
-      "articles_count": 5,
-      "total_score": 28.4,
-      "avg_score": 5.7,
+      "articles_count": 4,
+      "total_score": 34.4,
+      "avg_score": 8.6,
       "top_articles": [
         {
           "title": "« Il serait le symbole de notre fraternité » : les responsables musulmans, juifs et protestants prêts à rencontrer Léon XIV",
           "publisher": "Le Parisien",
-          "score": 27.5,
+          "score": 33.5,
           "url": "https://www.leparisien.fr/societe/religions/il-serait-le-symbole-de-notre-fraternite-les-responsables-musulmans-juifs-et-protestants-prets-a-rencontrer-leon-xiv-30-05-2026-J6BE3QV2E5AZVFKFOHDXMIT23E.php"
         },
         {
@@ -3552,29 +3558,83 @@
       ]
     },
     {
-      "key": "/Shopping/Antiques & Collectibles",
-      "label": "Antiques & Collectibles",
-      "articles_count": 4,
-      "total_score": 20.4,
-      "avg_score": 5.1,
+      "key": "/Sensitive Subjects",
+      "label": "Sujets sensibles",
+      "articles_count": 16,
+      "total_score": 28.7,
+      "avg_score": 1.8,
       "top_articles": [
         {
-          "title": "\"J'ai l'impression d'être Indiana Jones qui ouvre une grotte\": la Géorgie ouvre la cave à vin des 40.000 bouteilles de Staline pour en estimer la valeur",
-          "publisher": "BFM",
-          "score": 20.2,
-          "url": "https://www.bfmtv.com/economie/patrimoine/j-ai-l-impression-d-etre-indiana-jones-qui-ouvre-une-grotte-la-georgie-ouvre-la-cave-a-vin-des-40-000-bouteilles-de-staline-pour-en-estimer-la-valeur_AV-202605300287.html"
+          "title": "Un drone frappe un immeuble en Roumanie, Poutine affirme que «personne ne peut dire» si l’appareil était russe",
+          "publisher": "Libération",
+          "score": 14.0,
+          "url": "https://www.liberation.fr/international/europe/en-roumanie-un-drone-russe-sabat-sur-un-immeuble-residentiel-20260529_3OFBEEMX5NFQVLCG26VYQVXG7M/"
         },
         {
-          "title": "Mortagne-sur-Gironde : un nouveau souffle pour l’atelier brocante de la minoterie",
-          "publisher": "Sud Ouest",
-          "score": 0.1,
-          "url": "https://www.sudouest.fr/charente-maritime/mortagne-sur-gironde/mortagne-sur-gironde-un-nouveau-souffle-pour-l-atelier-brocante-de-la-minoterie-29247490.php"
+          "title": "REX – Pression temporelle et visite prévol bâclée mènent au crash d’un bimoteur",
+          "publisher": "Aerobuzz",
+          "score": 11.3,
+          "url": "https://www.aerobuzz.fr/aviation-generale/rex-pression-temporelle-et-visite-prevol-baclee-menent-a-laccident-dun-bimoteur/"
         },
         {
-          "title": "Jean-Michel Tomé, un collectionneur montluçonnais de cartes postales \"très attaché à la mémoire\"",
-          "publisher": "La Montagne",
+          "title": "Disparition inquiétante dans les Hautes-Alpes : un important dispositif mobilisé pour retrouver un randonneur âgé",
+          "publisher": "Midi Libre",
+          "score": 1.8,
+          "url": "https://www.midilibre.fr/2026/05/30/disparition-inquietante-dans-les-hautes-alpes-un-important-dispositif-mobilise-pour-retrouver-un-randonneur-age-13395704.php"
+        }
+      ]
+    },
+    {
+      "key": "/Food & Drink/Food/Meat & Seafood",
+      "label": "Meat & Seafood",
+      "articles_count": 3,
+      "total_score": 18.6,
+      "avg_score": 6.2,
+      "top_articles": [
+        {
+          "title": "Lidl, Auchan, Intermarché : des lardons vendus dans plusieurs grandes surfaces rappelés dans toute la France",
+          "publisher": "RTL.fr",
+          "score": 18.5,
+          "url": "https://www.rtl.fr/actu/economie-consommation/lidl-auchan-intermarche-des-lardons-vendus-dans-plusieurs-grandes-surfaces-rappeles-dans-toute-la-france-7900640942"
+        },
+        {
+          "title": "La poissonnerie de la place Victor-Hugo, à Angoulême, placée en liquidation",
+          "publisher": "Charente Libre",
           "score": 0.1,
-          "url": "https://www.lamontagne.fr/montlucon-03100/loisirs/jean-michel-tome-un-collectionneur-montluconnais-de-cartes-postales-tres-attache-a-la-memoire_14995782/"
+          "url": "https://www.charentelibre.fr/charente/angouleme/la-poissonnerie-de-la-place-victor-hugo-a-angouleme-placee-en-liquidation-29282925.php"
+        },
+        {
+          "title": "Plus de goût et plus charnu : Laurent Mariotte préfère ce poulet de Bretagne",
+          "publisher": "Journal des Femmes",
+          "score": 0.0,
+          "url": "https://cuisine.journaldesfemmes.fr/gastronomie/3266373-plus-de-gout-et-plus-charnu-laurent-mariotte-prefere-ce-poulet-de-bretagne/"
+        }
+      ]
+    },
+    {
+      "key": "/Arts & Entertainment/TV & Video/TV Shows & Programs",
+      "label": "Émissions TV",
+      "articles_count": 13,
+      "total_score": 17.4,
+      "avg_score": 1.3,
+      "top_articles": [
+        {
+          "title": "« The Voice » : Lady O gagne la saison 15, Florent ...",
+          "publisher": "Le Parisien",
+          "score": 13.7,
+          "url": "https://www.leparisien.fr/culture-loisirs/tv/the-voice-lady-o-gagne-la-saison-15-florent-pagny-quitte-lemission-31-05-2026-ABNTSP5ILNE3TEQZORQ7NB5LQM.php"
+        },
+        {
+          "title": "« The Voice ». Lady O gagne la saison 15, Florent Pagny fait ses adieux... On vous résume la finale",
+          "publisher": "Programme TV Ouest-France",
+          "score": 2.2,
+          "url": "https://programmetv.ouest-france.fr/divers/divertissement/the-voice-m95771888/the-voice-lady-o-gagne-la-saison-15-florent-pagny-fait-ses-adieux-on-vous-resume-la-finale-a35d4852-5c42-11f1-b2c7-21f7efea5d61"
+        },
+        {
+          "title": "L'important c'est d'essayer, Catherine - Catherine et Liliane - CANAL+",
+          "publisher": "YouTube",
+          "score": 0.5,
+          "url": "https://www.youtube.com/watch?v=e9ZX8BSOPjw"
         }
       ]
     }
@@ -3588,58 +3648,26 @@
       ],
       "members_count": 2,
       "articles_count": 60,
-      "total_score": 57.7,
-      "avg_score": 1.0,
+      "total_score": 67.5,
+      "avg_score": 1.1,
       "top_articles": [
-        {
-          "title": "EN DIRECT, PSG-Arsenal : les Parisiens s’offrent un deuxième sacre en Ligue des champions, des violences en marge des célébrations dans la capitale et dans une quinzaine de villes de France",
-          "publisher": "Le Monde.fr",
-          "score": 6.9,
-          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-les-parisiens-s-offrent-un-deuxieme-sacre-en-ligue-des-champions-des-violences-en-marge-des-celebrations-dans-la-capitale-et-dans-une-quinzaine-de-villes-de-france_6695252_3242.html"
-        },
         {
           "title": "EN DIRECT, PSG-Arsenal : « Il n’y a pas de raison » d’annuler la parade de la victoire sur le Champ de Mars, affirme Laurent Nuñez après une nuit de célébration émaillée de tensions",
           "publisher": "Le Monde.fr",
-          "score": 5.8,
+          "score": 13.6,
           "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-il-n-y-a-pas-de-raison-d-annuler-la-parade-de-la-victoire-sur-le-champ-de-mars-affirme-laurent-nunez-apres-une-nuit-de-celebration-emaillee-de-tensions_6695252_3242.html"
+        },
+        {
+          "title": "EN DIRECT, PSG-Arsenal : les Parisiens s’offrent un deuxième sacre en Ligue des champions, des violences en marge des célébrations dans la capitale et dans une quinzaine de villes de France",
+          "publisher": "Le Monde.fr",
+          "score": 7.1,
+          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-les-parisiens-s-offrent-un-deuxieme-sacre-en-ligue-des-champions-des-violences-en-marge-des-celebrations-dans-la-capitale-et-dans-une-quinzaine-de-villes-de-france_6695252_3242.html"
         },
         {
           "title": "PSG-Arsenal: Paris conserve sa Ligue des champions après une séance de tirs au but irrespirable",
           "publisher": "RMC Sport",
-          "score": 5.1,
+          "score": 5.2,
           "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/direct-psg-arsenal-suivez-le-match-de-la-finale-de-ligue-des-champions-en-live_LS-202605300041.html"
-        }
-      ]
-    },
-    {
-      "label": "Vincent Bolloré",
-      "members": [
-        "Vincent Bolloré",
-        "Bolloré",
-        "Olympia"
-      ],
-      "members_count": 3,
-      "articles_count": 4,
-      "total_score": 14.8,
-      "avg_score": 3.7,
-      "top_articles": [
-        {
-          "title": "\"Rien de formidable\" : pourquoi Universal Music Group et le clan Bolloré ont refusé l'offre du financier Bill Ackman",
-          "publisher": "Challenges",
-          "score": 9.9,
-          "url": "https://www.challenges.fr/entreprise/rien-de-formidable-pourquoi-universal-music-group-et-le-clan-bollore-ont-refuse-loffre-du-financier-bill-ackman_643756"
-        },
-        {
-          "title": "Une manifestation anti-Bolloré près de L’Olympia en présence de Jean-Luc Mélenchon et Adèle Haenel",
-          "publisher": "Ouest-France",
-          "score": 2.3,
-          "url": "https://www.ouest-france.fr/societe/manifestation/une-manifestation-anti-bollore-pres-de-lolympia-en-presence-de-jean-luc-melenchon-et-adele-haenel-96e510a8-5c3a-11f1-b2c7-21f7efea5d61"
-        },
-        {
-          "title": "Plusieurs dizaines de personnes, dont Jean-Luc Mélenchon, se sont rassemblées près de L’Olympia à Paris pour s’opposer à Vincent Bolloré",
-          "publisher": "Le Figaro",
-          "score": 2.1,
-          "url": "https://www.lefigaro.fr/actualite-france/plusieurs-dizaines-de-personnes-dont-jean-luc-melenchon-se-sont-rassemblees-pres-de-l-olympia-a-paris-pour-s-opposer-a-vincent-bollore-20260530"
         }
       ]
     },
@@ -3651,25 +3679,25 @@
       ],
       "members_count": 2,
       "articles_count": 19,
-      "total_score": 14.5,
-      "avg_score": 0.8,
+      "total_score": 17.1,
+      "avg_score": 0.9,
       "top_articles": [
-        {
-          "title": "Suite à la polémique de l'emplacement des panneaux publicitaires sur les courts, qui ont provoqué des chutes et des blessures depuis le début de l'édition 2026 de Roland-Garros, ils ont été reculés samedi matin. ➡️ lequipe.fr/GTf Voir sur X",
-          "publisher": "X",
-          "score": 5.3,
-          "url": "https://x.com/lequipe/status/2060693830240760221"
-        },
         {
           "title": "Agent, coaches, famille : Moïse Kouame, opposé samedi au Chilien Alejandro Tabilo au 3e tour de Roland-Garros, bénéficie d'un encadrement très professionnel où chacun joue un rôle essentiel dans la progression du jeune prodige français. ➡️ lequipe.fr/chZ Voir sur X",
           "publisher": "X",
-          "score": 4.1,
+          "score": 6.1,
           "url": "https://x.com/lequipe/status/2060642750932844638"
+        },
+        {
+          "title": "Suite à la polémique de l'emplacement des panneaux publicitaires sur les courts, qui ont provoqué des chutes et des blessures depuis le début de l'édition 2026 de Roland-Garros, ils ont été reculés samedi matin. ➡️ lequipe.fr/GTf Voir sur X",
+          "publisher": "X",
+          "score": 5.8,
+          "url": "https://x.com/lequipe/status/2060693830240760221"
         },
         {
           "title": "Juan Manuel Cerundolo en huitièmes de finale après le match le plus long de l'histoire de Roland-Garros depuis l'instauration du super tie-break",
           "publisher": "L'Équipe",
-          "score": 2.4,
+          "score": 2.5,
           "url": "https://www.lequipe.fr/Tennis/Actualites/Juan-manuel-cerundolo-en-huitiemes-de-finale-apres-le-match-le-plus-long-de-l-histoire-de-roland-garros-depuis-l-instauration-du-super-tie-break/1680380"
         }
       ]
@@ -3682,13 +3710,13 @@
       ],
       "members_count": 2,
       "articles_count": 4,
-      "total_score": 8.3,
-      "avg_score": 2.1,
+      "total_score": 16.0,
+      "avg_score": 4.0,
       "top_articles": [
         {
-          "title": "« The Voice » : Lady O gagne la saison 15, Florent Pagny quitte l’émission",
+          "title": "« The Voice » : Lady O gagne la saison 15, Florent ...",
           "publisher": "Le Parisien",
-          "score": 6.0,
+          "score": 13.7,
           "url": "https://www.leparisien.fr/culture-loisirs/tv/the-voice-lady-o-gagne-la-saison-15-florent-pagny-quitte-lemission-31-05-2026-ABNTSP5ILNE3TEQZORQ7NB5LQM.php"
         },
         {
@@ -3706,64 +3734,64 @@
       ]
     },
     {
-      "label": "Pro D2",
+      "label": "Donald Trump",
       "members": [
-        "Pro D2",
-        "Top 14"
+        "Donald Trump",
+        "Parti républicain"
       ],
       "members_count": 2,
       "articles_count": 5,
-      "total_score": 0.6,
-      "avg_score": 0.1,
+      "total_score": 11.0,
+      "avg_score": 2.2,
       "top_articles": [
         {
-          "title": "Le Stade Montois en barrage de relégation à Nice : pour ces supporteurs, « il était hors de question de ne pas y aller »",
-          "publisher": "Sud Ouest",
-          "score": 0.3,
-          "url": "https://www.sudouest.fr/landes/le-stade-montois-en-barrage-de-relegation-a-nice-pour-ces-supporteurs-il-etait-hors-de-question-de-ne-pas-y-aller-29244117.php"
+          "title": "Elvis Presley « sans guitare » : pour les 250 ans de l’indépendance des États-Unis, Trump veut annuler des concerts et animer un meeting",
+          "publisher": "Le Parisien",
+          "score": 8.9,
+          "url": "https://www.leparisien.fr/international/etats-unis/elvis-presley-sans-guitare-pour-les-250-ans-de-lindependance-des-etats-unis-trump-veut-annuler-des-concerts-et-animer-un-meeting-30-05-2026-JNLZDEYN6FGWTLJXUABQ7JOI54.php"
         },
         {
-          "title": "Top 14 – \"On va bien discuter pour essayer de comprendre ce qui s’est passé\" : une victoire au goût amer pour l’USAP face à Castres qui ne se rassure pas",
-          "publisher": "L'Indépendant",
-          "score": 0.1,
-          "url": "https://www.lindependant.fr/2026/05/30/top-14-on-va-bien-discuter-pour-essayer-de-comprendre-ce-qui-sest-passe-une-victoire-au-gout-amer-pour-lusap-face-a-castres-qui-ne-se-rassure-pas-13395617.php"
+          "title": "Etats-Unis : Donald Trump prêt à annuler les concerts du 250e anniversaire pour un discours à Washington",
+          "publisher": "CNews",
+          "score": 1.2,
+          "url": "https://www.cnews.fr/monde/2026-05-30/etats-unis-donald-trump-pret-annuler-les-concerts-du-250e-anniversaire-pour-un"
         },
         {
-          "title": "Face au spectre d'une descente historique, le club refuse le bilan : pourquoi la question fâche le Stade Montois ?",
-          "publisher": "Actu.fr",
-          "score": 0.1,
-          "url": "https://actu.fr/nouvelle-aquitaine/mont-de-marsan_40192/face-au-spectre-d-une-descente-historique-le-club-refuse-le-bilan-pourquoi-la-question-fache-le-stade-montois_64323151.html"
+          "title": "L’administration Trump renonce à imposer aux candidats à la « carte verte » de faire leur demande dans leur pays d’origine",
+          "publisher": "Le Monde.fr",
+          "score": 0.5,
+          "url": "https://www.lemonde.fr/international/article/2026/05/30/l-administration-trump-renonce-a-imposer-aux-candidats-a-la-carte-verte-de-faire-leur-demande-dans-leur-pays-d-origine_6695285_3210.html"
         }
       ]
     },
     {
-      "label": "Jonas Vingegaard",
+      "label": "Drogue",
       "members": [
-        "Jonas Vingegaard",
-        "Tour d'Italie"
+        "Drogue",
+        "Stupéfiant"
       ],
       "members_count": 2,
-      "articles_count": 3,
-      "total_score": 0.5,
-      "avg_score": 0.2,
+      "articles_count": 5,
+      "total_score": 3.0,
+      "avg_score": 0.6,
       "top_articles": [
         {
-          "title": "Jonas Vingegaard sécurise le maillot rose en remportant la dernière étape de montagne du Giro",
-          "publisher": "L'Équipe",
-          "score": 0.3,
-          "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Jonas-vingegaard-securise-le-maillot-rose-en-remportant-la-derniere-etape-de-montagne-du-giro/1680261"
+          "title": "Lutte contre les trafics de drogues en Isère : quand les gendarmes utilisent la marteau thérapie et l’infiltration",
+          "publisher": "Le Dauphiné Libéré",
+          "score": 2.1,
+          "url": "https://www.ledauphine.com/faits-divers-justice/2026/05/30/lutte-contre-les-trafics-en-isere-quand-les-gendarmes-utilisent-la-marteau-therapie-et-l-infiltration"
         },
         {
-          "title": "Le cheminement de Felix Gall pour arriver à son premier podium sur un Grand Tour : « Je savais que c'était possible »",
-          "publisher": "L'Équipe",
-          "score": 0.1,
-          "url": "https://www.lequipe.fr/Cyclisme-sur-route/Article/Felix-gall-l-inattendu-deuxieme-du-giro-derriere-un-jonas-vingegaard-intouchable-je-savais-que-c-etait-possible/1680330"
+          "title": "Mulhouse. Trafic de drogue: le réseau du « Professeur Chen » démantelé",
+          "publisher": "L'Alsace",
+          "score": 0.6,
+          "url": "https://www.lalsace.fr/faits-divers-justice/2026/05/30/trafic-de-drogue-le-reseau-du-professeur-chen-demantele"
         },
         {
-          "title": "Giro 2026: le classement de la 20e étape du Tour d'Italie remportée par Jonas Vingegaard",
-          "publisher": "RMC Sport",
-          "score": 0.1,
-          "url": "https://rmcsport.bfmtv.com/cyclisme/tour-d-italie/giro-2026-le-classement-de-la-20e-etape-du-tour-d-italie-remportee-par-jonas-vingegaard_AV-202605300293.html"
+          "title": "Ils vendaient la drogue via les réseaux sociaux : trois hommes interpellés à Casteljaloux pour trafic de stupéfiants",
+          "publisher": "Actu.fr",
+          "score": 0.2,
+          "url": "https://actu.fr/nouvelle-aquitaine/casteljaloux_47052/ils-vendaient-la-drogue-via-les-reseaux-sociaux-trois-hommes-interpelles-a-casteljaloux-pour-trafic-de-stupefiants_64335426.html"
         }
       ]
     }
@@ -3772,25 +3800,25 @@
     {
       "name": "Cuisson des aliments",
       "articles_count": 3,
-      "total_score": 52.0,
-      "avg_score": 17.3,
+      "total_score": 54.0,
+      "avg_score": 18.0,
       "top_articles": [
         {
           "title": "J'ai mixé du riz cuit avec de la crème et du sucre juste pour voir : mes invités ont reposé leur cuillère et m'ont demandé la marque de la glace",
           "publisher": "Minutes Maison",
-          "score": 50.5,
+          "score": 51.8,
           "url": "https://maison.20minutes.fr/mm79273-jai-mixe-du-riz-cuit-avec-de-la-creme-et-du-sucre-juste-pour-voir-mes-invites-ont-repose-leur-cuillere-et-mont-demande-la-marque-de-la-glace/"
         },
         {
           "title": "ROULADES DE CONCOMBRE AU THON : La recette fraîcheur et diététique ! 🥒🐟",
           "publisher": "YouTube",
-          "score": 0.9,
+          "score": 1.2,
           "url": "https://www.youtube.com/watch?v=1BmBTDbRbuw"
         },
         {
           "title": "Salade de Pommes de Terre RAPIDE 🥔 Parfaite Quand Il Fait Chaud",
           "publisher": "YouTube",
-          "score": 0.6,
+          "score": 1.0,
           "url": "https://www.youtube.com/watch?v=GzPeD_2Uj-s"
         }
       ]
@@ -3798,13 +3826,13 @@
     {
       "name": "Cancer",
       "articles_count": 3,
-      "total_score": 47.0,
-      "avg_score": 15.7,
+      "total_score": 51.9,
+      "avg_score": 17.3,
       "top_articles": [
         {
           "title": "Après 739 jours de souffrance, Louna, 15 ans, a vaincu son cancer du cerveau : \"Je me demande comment j'ai été si forte\"",
           "publisher": "Actu.fr",
-          "score": 47.0,
+          "score": 51.9,
           "url": "https://actu.fr/pays-de-la-loire/la-suze-sur-sarthe_72346/apres-739-jours-de-souffrance-louna-15-ans-a-vaincu-son-cancer-du-cerveau-je-me-demande-comment-jai-ete-si-forte_64321813.html"
         },
         {
@@ -3823,20 +3851,20 @@
     },
     {
       "name": "Musique",
-      "articles_count": 9,
-      "total_score": 30.1,
-      "avg_score": 3.3,
+      "articles_count": 8,
+      "total_score": 36.5,
+      "avg_score": 4.6,
       "top_articles": [
         {
           "title": "\"Dès 15 ans, la musique est devenue ma maison\". Ce samedi dans un village près de Toulouse, la comédienne Julie Depardieu se confie en aparté",
           "publisher": "ladepeche.fr",
-          "score": 25.3,
+          "score": 30.9,
           "url": "https://www.ladepeche.fr/2026/05/30/des-15-ans-la-musique-est-devenue-ma-maison-ce-samedi-dans-un-village-pres-de-toulouse-la-comedienne-julie-depardieu-se-confie-en-aparte-13395585.php"
         },
         {
           "title": "\"Je suis un ouvrier et je veux parler aux ouvriers\" : partagé par Booba, cet habitant de Haute-Loire se fait un nom dans le monde du rap",
           "publisher": "L’Éveil de la Haute-Loire",
-          "score": 4.1,
+          "score": 5.0,
           "url": "https://www.leveil.fr/saint-didier-en-velay-43140/loisirs/je-suis-un-ouvrier-et-je-veux-parler-aux-ouvriers-partage-par-booba-cet-habitant-de-haute-loire-se-fait-un-nom-dans-le-monde-du-rap_14995029/"
         },
         {
@@ -3848,105 +3876,105 @@
       ]
     },
     {
-      "name": "Chine",
-      "articles_count": 3,
-      "total_score": 27.1,
-      "avg_score": 9.0,
-      "top_articles": [
-        {
-          "title": "Pékin se prépare à un conflit avec Washington : la Chine bâtit d’étranges structure...",
-          "publisher": "L'Indépendant",
-          "score": 21.1,
-          "url": "https://www.lindependant.fr/2026/05/30/pekin-se-prepare-a-un-conflit-avec-washington-la-chine-batit-detranges-structures-en-plein-desert-pour-renforcer-sa-dissuasion-nucleaire-13395706.php"
-        },
-        {
-          "title": "Face à la Chine, l’Espagne prend le contre-pied de la France",
-          "publisher": "L'Express",
-          "score": 3.5,
-          "url": "https://www.lexpress.fr/monde/face-a-la-chine-lespagne-prend-le-contre-pied-de-la-france-6BXLEPEV3JGUTLWNPIKWNXY2UQ/"
-        },
-        {
-          "title": "\"Je n'ai plus besoin de me déplacer\" : en Chine, des milliers de vans autonomes remplacent déjà les livreurs",
-          "publisher": "TF1 Info",
-          "score": 2.5,
-          "url": "https://www.tf1info.fr/international/video-reportage-je-n-ai-plus-besoin-de-me-deplacer-en-chine-des-milliers-de-vans-autonomes-remplacent-deja-les-livreurs-2444346.html"
-        }
-      ]
-    },
-    {
-      "name": "Jean-Luc Mélenchon",
-      "articles_count": 5,
-      "total_score": 21.2,
-      "avg_score": 4.2,
-      "top_articles": [
-        {
-          "title": "Michel Onfray : \"C’est une légende urbaine que Jean-Luc Mélenchon est très cultivé\"",
-          "publisher": "YouTube",
-          "score": 16.2,
-          "url": "https://www.youtube.com/watch?v=D5w-ESPVOxE"
-        },
-        {
-          "title": "Une manifestation anti-Bolloré près de L’Olympia en présence de Jean-Luc Mélenchon et Adèle Haenel",
-          "publisher": "Ouest-France",
-          "score": 2.3,
-          "url": "https://www.ouest-france.fr/societe/manifestation/une-manifestation-anti-bollore-pres-de-lolympia-en-presence-de-jean-luc-melenchon-et-adele-haenel-96e510a8-5c3a-11f1-b2c7-21f7efea5d61"
-        },
-        {
-          "title": "Plusieurs dizaines de personnes, dont Jean-Luc Mélenchon, se sont rassemblées près de L’Olympia à Paris pour s’opposer à Vincent Bolloré",
-          "publisher": "Le Figaro",
-          "score": 2.1,
-          "url": "https://www.lefigaro.fr/actualite-france/plusieurs-dizaines-de-personnes-dont-jean-luc-melenchon-se-sont-rassemblees-pres-de-l-olympia-a-paris-pour-s-opposer-a-vincent-bollore-20260530"
-        }
-      ]
-    },
-    {
       "name": "Football",
       "articles_count": 25,
-      "total_score": 20.9,
-      "avg_score": 0.8,
+      "total_score": 35.1,
+      "avg_score": 1.4,
       "top_articles": [
+        {
+          "title": "EN DIRECT, PSG-Arsenal : « Il n’y a pas de raison » d’annuler la parade de la victoire sur le Champ de Mars, affirme Laurent Nuñez après une nuit de célébration émaillée de tensions",
+          "publisher": "Le Monde.fr",
+          "score": 13.6,
+          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-il-n-y-a-pas-de-raison-d-annuler-la-parade-de-la-victoire-sur-le-champ-de-mars-affirme-laurent-nunez-apres-une-nuit-de-celebration-emaillee-de-tensions_6695252_3242.html"
+        },
         {
           "title": "PSG-Arsenal: Paris conserve sa Ligue des champions après une séance de tirs au but irrespirable",
           "publisher": "RMC Sport",
-          "score": 5.1,
+          "score": 5.2,
           "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/direct-psg-arsenal-suivez-le-match-de-la-finale-de-ligue-des-champions-en-live_LS-202605300041.html"
         },
         {
           "title": "PSG vainqueur de la Ligue des champions: scènes de liesse à Paris mais des débordements, au moins 283 interpellations",
           "publisher": "RMC Sport",
-          "score": 4.7,
+          "score": 4.8,
           "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/psg-vainqueur-de-la-ligue-des-champions-scenes-de-liesse-a-paris-mais-des-debordements-au-moins-283-interpellations_AV-202605310032.html"
+        }
+      ]
+    },
+    {
+      "name": "Chine",
+      "articles_count": 3,
+      "total_score": 32.4,
+      "avg_score": 10.8,
+      "top_articles": [
+        {
+          "title": "Pékin se prépare à un conflit avec Washington : la Chine bâtit d’étranges structure...",
+          "publisher": "L'Indépendant",
+          "score": 23.6,
+          "url": "https://www.lindependant.fr/2026/05/30/pekin-se-prepare-a-un-conflit-avec-washington-la-chine-batit-detranges-structures-en-plein-desert-pour-renforcer-sa-dissuasion-nucleaire-13395706.php"
         },
         {
-          "title": "EN DIRECT, PSG-Arsenal : les Parisiens s’offrent un deuxième sacre en Ligue des champions au terme d’une séance de tirs au but irrespirable",
-          "publisher": "Le Monde.fr",
-          "score": 4.7,
-          "url": "https://www.lemonde.fr/sport/live/2026/05/30/en-direct-psg-arsenal-suivez-la-finale-de-la-ligue-des-champions_6695252_3242.html"
+          "title": "\"Je n'ai plus besoin de me déplacer\" : en Chine, des milliers de vans autonomes remplacent déjà les livreurs",
+          "publisher": "TF1 Info",
+          "score": 5.2,
+          "url": "https://www.tf1info.fr/international/video-reportage-je-n-ai-plus-besoin-de-me-deplacer-en-chine-des-milliers-de-vans-autonomes-remplacent-deja-les-livreurs-2444346.html"
+        },
+        {
+          "title": "Face à la Chine, l’Espagne prend le contre-pied de la France",
+          "publisher": "L'Express",
+          "score": 3.6,
+          "url": "https://www.lexpress.fr/monde/face-a-la-chine-lespagne-prend-le-contre-pied-de-la-france-6BXLEPEV3JGUTLWNPIKWNXY2UQ/"
+        }
+      ]
+    },
+    {
+      "name": "Jean-Luc Mélenchon",
+      "articles_count": 3,
+      "total_score": 21.9,
+      "avg_score": 7.3,
+      "top_articles": [
+        {
+          "title": "Michel Onfray : \"C’est une légende urbaine que Jean-Luc Mélenchon est très cultivé\"",
+          "publisher": "YouTube",
+          "score": 21.0,
+          "url": "https://www.youtube.com/watch?v=D5w-ESPVOxE"
+        },
+        {
+          "title": "\"Quand ton premier patron, c’est Mélenchon, ça te motive pour monter ta boîte tout seul\"",
+          "publisher": "YouTube",
+          "score": 0.5,
+          "url": "https://www.youtube.com/watch?v=zJjSnr_hVjM"
+        },
+        {
+          "title": "Les insoumis, « marchands de haine » : Jean-Luc Mélenchon fustige les « paroles indignes » de Gabriel Attal",
+          "publisher": "Le Parisien",
+          "score": 0.4,
+          "url": "https://www.leparisien.fr/politique/les-insoumis-marchands-de-haine-jean-luc-melenchon-fustige-les-paroles-indignes-de-gabriel-attal-30-05-2026-UGF5UVBNBFC4RIJ7DRHWWKXUWA.php"
         }
       ]
     },
     {
       "name": "Tirs au but",
       "articles_count": 7,
-      "total_score": 15.0,
-      "avg_score": 2.1,
+      "total_score": 15.3,
+      "avg_score": 2.2,
       "top_articles": [
         {
           "title": "PSG-Arsenal: Paris conserve sa Ligue des champions après une séance de tirs au but irrespirable",
           "publisher": "RMC Sport",
-          "score": 5.1,
+          "score": 5.2,
           "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/direct-psg-arsenal-suivez-le-match-de-la-finale-de-ligue-des-champions-en-live_LS-202605300041.html"
         },
         {
           "title": "Ligue des champions : aux tirs au but, le PSG s’offre Arsenal et un légendaire doublé",
           "publisher": "Le Figaro",
-          "score": 4.8,
+          "score": 4.9,
           "url": "https://www.lefigaro.fr/sports/football/ligue-des-champions/ligue-des-champions-le-psg-s-offre-une-deuxieme-ligue-des-champions-d-affilee-en-battant-arsenal-en-finale-20260530"
         },
         {
           "title": "EN DIRECT, PSG-Arsenal : les Parisiens s’offrent un deuxième sacre en Ligue des champions au terme d’une séance de tirs au but irrespirable",
           "publisher": "Le Monde.fr",
-          "score": 4.7,
+          "score": 4.8,
           "url": "https://www.lemonde.fr/sport/live/2026/05/30/en-direct-psg-arsenal-suivez-la-finale-de-la-ligue-des-champions_6695252_3242.html"
         }
       ]
@@ -3954,71 +3982,45 @@
     {
       "name": "Canicule",
       "articles_count": 10,
-      "total_score": 13.1,
-      "avg_score": 1.3,
+      "total_score": 14.5,
+      "avg_score": 1.4,
       "top_articles": [
         {
           "title": "Le point de vue. Canicule : « Même si on avait demain une neutralité carbone totale, les températures continueront d'augmenter jusqu'en 2050 »",
           "publisher": "Le Dauphiné Libéré",
-          "score": 5.7,
+          "score": 6.2,
           "url": "https://www.ledauphine.com/societe/2026/05/30/canicule-pourquoi-les-efforts-d-aujourd-hui-ne-seront-payants-qu-apres-2050"
         },
         {
           "title": "Des logements invivables à cause de la chaleur",
           "publisher": "YouTube",
-          "score": 3.0,
+          "score": 3.6,
           "url": "https://www.youtube.com/watch?v=615FvgFRidE"
         },
         {
           "title": "Canicule : laisser une fenêtre ouverte la nuit, la fausse bonne idée qui empêche une indemnisation en cas de cambriolage",
           "publisher": "Orange Actualités",
-          "score": 1.4,
+          "score": 1.7,
           "url": "https://actu.orange.fr/france/canicule-laisser-une-fenetre-ouverte-la-nuit-la-fausse-bonne-idee-qui-empeche-une-indemnisation-en-cas-de-cambriolage-magic-CNT000002pGdEl.html"
-        }
-      ]
-    },
-    {
-      "name": "Club de football",
-      "articles_count": 3,
-      "total_score": 12.6,
-      "avg_score": 4.2,
-      "top_articles": [
-        {
-          "title": "« On a l'impression qu'une ère industrielle allemande touche à sa fin » : la relégation du club de football de Wolfsburg, nouveau revers pour Volkswagen",
-          "publisher": "Les Echos",
-          "score": 7.8,
-          "url": "https://www.lesechos.fr/industrie-services/tourisme-transport/on-a-limpression-quune-ere-industrielle-allemande-touche-a-sa-fin-la-relegation-du-club-de-football-de-wolfsburg-nouveau-revers-pour-volkswagen-2234164"
-        },
-        {
-          "title": "PSG vainqueur de la Ligue des champions: scènes de liesse à Paris mais des débordements, au moins 283 interpellations",
-          "publisher": "RMC Sport",
-          "score": 4.7,
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/psg-vainqueur-de-la-ligue-des-champions-scenes-de-liesse-a-paris-mais-des-debordements-au-moins-283-interpellations_AV-202605310032.html"
-        },
-        {
-          "title": "\"Une différence de vision entre les joueurs et certains dirigeants\" : nouveau staff technique, nouvelle équipe dirigeante... Quel avenir pour le FC Foix après la vague de démissions au sein du club",
-          "publisher": "ladepeche.fr",
-          "score": 0.1,
-          "url": "https://www.ladepeche.fr/2026/05/30/une-difference-de-vision-entre-les-joueurs-et-certains-dirigeants-nouveau-staff-technique-nouvelle-equipe-dirigeante-quel-avenir-pour-le-fc-foix-apres-13365008.php"
         }
       ]
     },
     {
       "name": "Luis Enrique",
       "articles_count": 7,
-      "total_score": 11.5,
-      "avg_score": 1.6,
+      "total_score": 11.8,
+      "avg_score": 1.7,
       "top_articles": [
         {
           "title": "EN DIRECT, PSG-Arsenal : les Parisiens s’offrent un deuxième sacre en Ligue des champions, des violences en marge des célébrations dans la capitale et dans une quinzaine de villes de France",
           "publisher": "Le Monde.fr",
-          "score": 6.9,
+          "score": 7.1,
           "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-les-parisiens-s-offrent-un-deuxieme-sacre-en-ligue-des-champions-des-violences-en-marge-des-celebrations-dans-la-capitale-et-dans-une-quinzaine-de-villes-de-france_6695252_3242.html"
         },
         {
           "title": "Luis Enrique, après le second titre consécutif du PSG en Ligue des champions : « On est très fiers, c'est le moment de faire la fête »",
           "publisher": "L'Équipe",
-          "score": 4.3,
+          "score": 4.4,
           "url": "https://www.lequipe.fr/Football/Actualites/Luis-enrique-apres-le-second-titre-consecutif-du-psg-en-ligue-des-champions-warren-zaire-emery-a-ete-incroyable-il-meritait-de-jouer/1680402"
         },
         {
@@ -4026,32 +4028,6 @@
           "publisher": "L'Équipe",
           "score": 0.1,
           "url": "https://www.lequipe.fr/Football/Actualites/Luis-enrique-triple-vainqueur-de-la-ligue-des-champions-comme-bob-paisley-pep-guardiola-et-zinedine-zidane-mais-toujours-derriere-carlo-ancelotti/1680387"
-        }
-      ]
-    },
-    {
-      "name": "Donald Trump",
-      "articles_count": 3,
-      "total_score": 8.7,
-      "avg_score": 2.9,
-      "top_articles": [
-        {
-          "title": "Elvis Presley « sans guitare » : pour les 250 ans de l’indépendance des États-Unis, Trump veut annuler des concerts et animer un meeting",
-          "publisher": "Le Parisien",
-          "score": 7.8,
-          "url": "https://www.leparisien.fr/international/etats-unis/elvis-presley-sans-guitare-pour-les-250-ans-de-lindependance-des-etats-unis-trump-veut-annuler-des-concerts-et-animer-un-meeting-30-05-2026-JNLZDEYN6FGWTLJXUABQ7JOI54.php"
-        },
-        {
-          "title": "L’administration Trump renonce à imposer aux candidats à la « carte verte » de faire leur demande dans leur pays d’origine",
-          "publisher": "Le Monde.fr",
-          "score": 0.5,
-          "url": "https://www.lemonde.fr/international/article/2026/05/30/l-administration-trump-renonce-a-imposer-aux-candidats-a-la-carte-verte-de-faire-leur-demande-dans-leur-pays-d-origine_6695285_3210.html"
-        },
-        {
-          "title": "« Une augmentation de l’activité physique et une perte de poids » : les conseil des médecins à Donald Trump",
-          "publisher": "parismatch.com",
-          "score": 0.4,
-          "url": "https://www.parismatch.com/actu/international/une-augmentation-de-lactivite-physique-et-une-perte-de-poids-les-conseil-des-medecins-a-donald-trump-269917"
         }
       ]
     }
