@@ -407,17 +407,23 @@ const classifyAll = () => {
   //                          (b.cross_subs_count || 1) - (a.cross_subs_count || 1));
   //   rPosts.forEach(...)
 
-  // YouTube
+  // YouTube : on prefere editorial_category (cascade YT cat + channel
+  // whitelist + keyword detection) ajoute en V2 du fetcher. Fallback
+  // sur le mapping YOUTUBE_CAT_MAP[category_label] si l'ancien snapshot
+  // est encore servi.
   const yVids = (state.raw.youtube?.videos || []).slice();
   yVids.sort((a, b) => (b.velocity_views_per_hour || 0) - (a.velocity_views_per_hour || 0));
   yVids.forEach((v, i) => {
-    const cat = YOUTUBE_CAT_MAP[v.category_label];
+    const cat = v.editorial_category || YOUTUBE_CAT_MAP[v.category_label];
     if (!cat) return;
+    const tags = [];
+    if (v.is_editorial) tags.push("éditorial");
+    if (v.category_label) tags.push(v.category_label);
     pushItem(cat, "youtube", {
       score: normalizeScore(null, i, yVids.length),
       title: v.title,
       pub: v.channel || "YouTube",
-      tags: v.category_label ? [v.category_label] : [],
+      tags,
       metric: v.velocity_views_per_hour
         ? `${fmtVol(v.velocity_views_per_hour)} vues/h`
         : v.views
