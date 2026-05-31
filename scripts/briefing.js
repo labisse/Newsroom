@@ -287,9 +287,10 @@ const renderDiscoverArticle = (article) => {
   // Carte minimaliste : un article Discover repéré dans le flux mais
   // pas encore promu en sujet global. Visuellement distinct du sujet MSN
   // pour ne pas tromper le rédac chef sur le statut éditorial.
-  // Discoversnoop CSV est /65 natif, on rescale a /100 pour l'affichage.
+  // Discoversnoop CSV est /65 natif, rescale x1.2 (meme facteur que
+  // l'aggregator backend, garde 100 exceptionnel).
   const raw = Number(article.score || 0);
-  const score = raw > 0 ? Math.min(100, raw * 100 / 65) : 0;
+  const score = raw > 0 ? Math.min(100, raw * 1.2) : 0;
   const scoreDisplay =
     score >= 10 ? score.toFixed(0) : score >= 1 ? score.toFixed(1) : "présent";
   return h(

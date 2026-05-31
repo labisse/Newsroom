@@ -499,7 +499,7 @@ const renderBriefing = (
 };
 
 const briefingTier = (score) =>
-  score >= 77 ? "high" : score >= 46 ? "medium" : "low";
+  score >= 60 ? "high" : score >= 36 ? "medium" : "low";
 
 const renderBriefingSujet = (sujet) => {
   const aff = sujet.affinity || {};

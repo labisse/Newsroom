@@ -683,11 +683,15 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
                 }
             )
 
-    # Le scoring interne tourne sur une echelle ~/65 (max observe avec
-    # les 7 sources actuelles). On rescale a /100 pour l'affichage : plus
-    # naturel pour les redacteurs, et permet d'utiliser les seuils tier
-    # 77/46 (= 50/30 sur l'echelle d'origine).
-    rounded = int(round(breakdown.total * 100.0 / 65.0))
+    # Rescale d'affichage : x1.2 et clamp a 100. Calibre pour que 100
+    # reste un plafond exceptionnel et non un plafond pratique.
+    #   - internal 30 (seuil medium) -> display 36
+    #   - internal 50 (seuil high)   -> display 60
+    #   - internal 65                -> display 78
+    #   - internal 78 (top observe)  -> display 94
+    #   - internal 84+               -> display 100 (rare : convergence
+    #                                  sur 6-7 sources avec bonus pleins)
+    rounded = int(round(breakdown.total * 1.2))
     rounded = max(0, min(100, rounded))
     return {
         "id": f"s{rank:02d}",

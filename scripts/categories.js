@@ -238,21 +238,22 @@ const YOUTUBE_CAT_MAP = {
   "Jeux vidéo": "people",
 };
 
-/* ---------- normalisation /100 ----------
-   Discover CSV est sur /65 nativement, rescale x100/65 a l'affichage.
-   Les autres sources : interpolation lineaire par rang (92 → 5). */
+/* ---------- normalisation ----------
+   Discover CSV est /65 nativement, rescale x1.2 (meme facteur que
+   l'aggregator backend, garde 100 exceptionnel). Autres sources :
+   interpolation lineaire par rang (72 -> 5). */
 const heatColor = (s) => {
-  if (s >= 43) return "var(--hot)";
-  if (s >= 17) return "var(--warm)";
+  if (s >= 34) return "var(--hot)";
+  if (s >= 13) return "var(--warm)";
   return "var(--cool)";
 };
 
 const normalizeScore = (raw, idx, total) => {
   if (raw != null && raw > 0) {
-    return Math.min(100, Math.max(0, Number(raw) * 100 / 65));
+    return Math.min(100, Math.max(0, Number(raw) * 1.2));
   }
   const t = total > 1 ? idx / (total - 1) : 0;
-  return Math.round((92 - t * 87) * 10) / 10;
+  return Math.round((72 - t * 67) * 10) / 10;
 };
 
 const fmtVol = (n, suffix = "") => {
@@ -351,14 +352,15 @@ const classifyAll = () => {
     buckets[catKey].srcCounts[src] = (buckets[catKey].srcCounts[src] || 0) + 1;
   };
 
-  // Discover : le CSV donne un score /65 natif, on rescale a /100.
+  // Discover CSV est /65 natif, rescale x1.2 (meme facteur que
+  // l'aggregator backend pour garder 100 exceptionnel).
   const dArts = (state.raw.discover?.articles || []).slice();
   dArts.sort((a, b) => (Number(b.score) || 0) - (Number(a.score) || 0));
   dArts.forEach((a, i) => {
     const cat = classifyDiscover(a);
     if (!cat) return;
     const raw = Number(a.score);
-    const scaled = raw > 0 ? Math.min(100, raw * 100 / 65) : 0.5;
+    const scaled = raw > 0 ? Math.min(100, raw * 1.2) : 0.5;
     pushItem(cat, "discover", {
       score: scaled,
       title: a.title || "(sans titre)",

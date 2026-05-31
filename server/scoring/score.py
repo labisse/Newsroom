@@ -325,13 +325,13 @@ def composite_score(
 
 
 def tier_from_score(score: float) -> str:
-    """Tiers calibres sur l'echelle d'affichage /100 (post-rescale).
+    """Tiers sur l'echelle d'affichage post-rescale (x1.2 puis clamp 100).
 
-    77 / 46 = 50 / 30 sur l'echelle interne d'origine (rescale x100/65
-    applique au output de aggregator). Memes seuils que scripts/data.js.
+    60 / 36 = 50 / 30 sur l'echelle interne d'origine. Memes seuils que
+    scripts/data.js. 100 reste exceptionnel par construction.
     """
-    if score >= 77:
+    if score >= 60:
         return "high"
-    if score >= 46:
+    if score >= 36:
         return "medium"
     return "low"

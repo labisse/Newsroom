@@ -98,10 +98,11 @@ const PLATFORMS = [
   { key: "msn", file: "msn", label: "MSN", glyph: "msn", hue: "indigo" },
 ];
 
-/* ---------- helpers chaleur (echelle /100) ---------- */
+/* ---------- helpers chaleur (echelle /100, rescale x1.2) ----------
+   Seuils hot/warm alignes sur le rescale 28/11 internal -> 34/13. */
 const heatColor = (score) => {
-  if (score >= 43) return "var(--hot)";
-  if (score >= 17) return "var(--warm)";
+  if (score >= 34) return "var(--hot)";
+  if (score >= 13) return "var(--warm)";
   return "var(--cool)";
 };
 
@@ -113,20 +114,18 @@ const fmtVol = (n, suffix = "") => {
   return `${v}${suffix}`;
 };
 
-/* ---------- normalisation /100 par plateforme ----------
-   Le score Discoversnoop CSV est sur /65 nativement, on le rescale a
-   /100 (x100/65 ≈ x1.538) pour aligner avec l'echelle d'affichage
-   harmonisee partout. Pour les plateformes sans score, on interpole
-   par le rang dans la liste (premier ~92, dernier ~5). */
+/* ---------- normalisation par plateforme ----------
+   Discover CSV est /65 nativement. Rescale x1.2 (meme facteur que
+   l'aggregator backend) : 65 -> 78, 50 -> 60, 30 -> 36. 100 reste
+   exceptionnel (~ Discover score brut 84+, jamais observe).
+   Plateformes sans score brut : interpolation par rang (72 -> 5). */
 
 const normalizeScore = (rawScore, idx, total) => {
-  // Discover : score brut /65 rescale a /100
   if (rawScore != null && rawScore > 0) {
-    return Math.min(100, Math.max(0, Number(rawScore) * 100 / 65));
+    return Math.min(100, Math.max(0, Number(rawScore) * 1.2));
   }
-  // Décroissance lineaire : item 1 = 92, item N = 5
   const t = total > 1 ? idx / (total - 1) : 0;
-  return Math.round((92 - t * 87) * 10) / 10;
+  return Math.round((72 - t * 67) * 10) / 10;
 };
 
 /* ---------- adapters per source ---------- */

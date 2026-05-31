@@ -7,10 +7,11 @@
    =================================================================== */
 
 // Doit rester aligné avec server/scoring/score.py / tier_from_score()
-// Seuils sur l'echelle d'affichage /100 (post-rescale x100/65).
+// Seuils sur l'echelle d'affichage (post-rescale x1.2 clamp 100).
+// 100 reste exceptionnel par construction (internal max ~78 en pratique).
 export const tierFromScore = (score) => {
-  if (score >= 77) return "high";
-  if (score >= 46) return "medium";
+  if (score >= 60) return "high";
+  if (score >= 36) return "medium";
   return "low";
 };
 
