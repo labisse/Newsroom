@@ -78,6 +78,12 @@ jobs:
         run: python -m server.cli fetch-all
 
       - name: Score
+        env:
+          # Voyage utilise par semantic_dedup (clustering des candidats
+          # MSN par embeddings cosine > 0.78). Si absent, degrade en
+          # no-op (pas de dedup) mais le pipeline continue.
+          VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
+          VOYAGE_MODEL: voyage-3
         run: python -m server.cli score
 
       # PostgreSQL time-series : crée les tables si absent (idempotent)

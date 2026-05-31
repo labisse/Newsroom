@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T21:08:55Z",
+  "generated_at": "2026-05-31T21:21:44Z",
   "sources_used": {
     "msn": {
       "fetched_at": "2026-05-31T19:46:08Z",
@@ -41,12 +41,12 @@
     "x": 0.07
   },
   "totals": {
-    "candidates_scored": 100,
+    "candidates_scored": 93,
     "kept": 30,
     "by_tier": {
-      "high": 5,
-      "medium": 15,
-      "low": 10
+      "high": 4,
+      "medium": 10,
+      "low": 16
     }
   },
   "sujets": [
@@ -173,6 +173,10 @@
         "Ligue 1",
         "PSGFC",
         "Sport"
+      ],
+      "cluster_size": 2,
+      "cluster_members_titles": [
+        "« La France à feu et à sang pour la victoire du PSG » : Sarah Knafo prône un sursaut sécuritaire"
       ]
     },
     {
@@ -283,7 +287,9 @@
       "discover_category": "/Sensitive Subjects",
       "discover_entities": [
         "Edgar Morin"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
       "id": "s03",
@@ -406,139 +412,15 @@
       "discover_entities": [
         "Ligue 1",
         "Sport"
+      ],
+      "cluster_size": 2,
+      "cluster_members_titles": [
+        "« C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale"
       ]
     },
     {
       "id": "s04",
       "rank": 4,
-      "title": "« C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
-      "theme": "sport",
-      "score": 62,
-      "tier": "high",
-      "rationale": "Présent sur Google Trends · forte audience Wikipedia (42 666 vues/jour) · couvert par 4 médias · vidéo YouTube en explosion (45 806/h vues) · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "4 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "200"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "43k vues"
-        },
-        {
-          "source": "youtube",
-          "label": "youtube",
-          "value": "46k /h"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "67+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.0",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "4 médias",
-          "fill": 79
-        },
-        {
-          "name": "Google Trends",
-          "value": "200",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "43k vues/h",
-          "fill": 100
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "87/100",
-          "fill": 86
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "46k /h",
-          "fill": 100
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.0,
-        "trends": 0.5,
-        "wiki": 100.0,
-        "gnews": 79.2,
-        "msn": 86.7,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 100.0,
-        "total": 51.4
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/football/c-est-la-meilleure-équipe-du-monde-l-entraîneur-d-arsenal-mikel-arteta-admiratif-du-psg-après-la-finale/ar-AA24scaN?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.ee09df93d64a52da53e40168fd214a06&pid=Wdp",
-      "msn_source_name": "Le Parisien",
-      "refs": [
-        {
-          "label": "MSN · Le Parisien — « C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
-          "url": "https://www.msn.com/fr-fr/sport/football/c-est-la-meilleure-équipe-du-monde-l-entraîneur-d-arsenal-mikel-arteta-admiratif-du-psg-après-la-finale/ar-AA24scaN?ocid=00000000"
-        },
-        {
-          "label": "Discover · X — Mikel Arteta : « Félicitations au PSG et à Luis Enrique. Ils sont la meilleure équipe du monde » Voir sur X",
-          "url": "https://x.com/Paristeamfr/status/2060825592220549153"
-        },
-        {
-          "label": "GNews · La Provence — OM - La vie des concurrents : Rooney, Henry, Özil... le monde du foot crie au scandale après le sacre européen du PSG",
-          "url": "https://www.laprovence.com/article/om/1078497062855815/om-la-vie-des-concurrents-rooney-henry-oezil-le-monde-du-foot-crie-au-scandale-apres-le-sacre-europeen-du-psg"
-        },
-        {
-          "label": "GNews · puremedias — Audiences pré-access : Quel score pour la grande finale de \"La meilleure boulangerie de France\" sur M6 ?",
-          "url": "https://www.ozap.com/actu/audiences-pre-access-quel-score-pour-la-grande-finale-de-la-meilleure-boulangerie-de-france-sur-m6/655009"
-        },
-        {
-          "label": "GNews · CNews — Val-d'Oise : expulsions, amendes… La riposte ferme de Franconville après les violences en marge du sacre du PSG",
-          "url": "https://www.cnews.fr/france/2026-05-31/val-doise-expulsions-amendes-la-riposte-ferme-de-franconville-apres-les-violences"
-        },
-        {
-          "label": "YouTube · CANAL+ Sport — Le résumé de PSG / Arsenal - Ligue des champions 2025/2026 (FINALE)",
-          "url": "https://www.youtube.com/watch?v=yoIGpUCVmc4"
-        }
-      ],
-      "discover_category": "/Sports/Team Sports/Soccer",
-      "discover_entities": [
-        "Luis Enrique",
-        "Mikel Arteta"
-      ]
-    },
-    {
-      "id": "s05",
-      "rank": 5,
       "title": "PSG : Luis Enrique vide son sac sur Zaire-Emery après la finale",
       "theme": "sport",
       "score": 60,
@@ -663,11 +545,16 @@
         "Luis Enrique",
         "PSGFC",
         "Warren Zaïre-Emery"
+      ],
+      "cluster_size": 3,
+      "cluster_members_titles": [
+        "« Clairement un pénalty à mes yeux » : Arsenal furieux après l’arbitre de la finale de la Ligue des champions",
+        "PSG/Arsenal – Marquinhos ne mâche pas ses mots après le sacre"
       ]
     },
     {
-      "id": "s06",
-      "rank": 6,
+      "id": "s05",
+      "rank": 5,
       "title": "« C’est l’esprit de fête » : filmé sur le capot d’une voiture après la victoire du PSG, Karl Olive se justifie",
       "theme": "actualite",
       "score": 56,
@@ -791,127 +678,13 @@
       "discover_entities": [
         "Karl Olive",
         "Sport"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s07",
-      "rank": 7,
-      "title": "« Clairement un pénalty à mes yeux » : Arsenal furieux après l’arbitre de la finale de la Ligue des champions",
-      "theme": "sport",
-      "score": 52,
-      "tier": "medium",
-      "rationale": "Forte audience Wikipedia (16 012 vues/jour) · repris sur Google Actualités · vidéo YouTube en explosion (45 806/h vues) · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "16k vues"
-        },
-        {
-          "source": "youtube",
-          "label": "youtube",
-          "value": "46k /h"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "95+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "1 média",
-          "fill": 35
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "16k vues/h",
-          "fill": 67
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "46k /h",
-          "fill": 100
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 67.9,
-        "gnews": 35.0,
-        "msn": 100.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 100.0,
-        "total": 43.1
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/football/clairement-un-pénalty-à-mes-yeux-arsenal-furieux-après-l-arbitre-de-la-finale-de-la-ligue-des-champions/ar-AA24skcx?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.955702899842a291897182fc5c3e8671&pid=Wdp",
-      "msn_source_name": "Le Parisien",
-      "refs": [
-        {
-          "label": "MSN · Le Parisien — « Clairement un pénalty à mes yeux » : Arsenal furieux après l’arbitre de la finale de la Ligue des champions",
-          "url": "https://www.msn.com/fr-fr/sport/football/clairement-un-pénalty-à-mes-yeux-arsenal-furieux-après-l-arbitre-de-la-finale-de-la-ligue-des-champions/ar-AA24skcx?ocid=00000000"
-        },
-        {
-          "label": "Discover · BFM — L'Angleterre chambre Arsenal après la défaite en finale de Ligue des champions",
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/chelsea-nottingham-forest-crystal-palace-les-clubs-anglais-chambrent-arsenal-apres-leur-defaite-en-finale-de-ligue-des-champions_AV-202605310111.html"
-        },
-        {
-          "label": "GNews · Le Monde.fr — EN DIRECT, victoire du PSG en Ligue des champions : Emmanuel Macron dénonce « des scènes de violences inacceptables » à Paris et dans plusieurs villes françaises en recevant les champions d’Europe à l’Elysée",
-          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-victoire-du-psg-en-ligue-des-champions-la-parade-sur-le-champs-de-mars-est-sur-le-point-de-debuter-apres-une-nuit-de-celebrations-emaillees-d-incidents_6695252_3242.html"
-        },
-        {
-          "label": "YouTube · CANAL+ Sport — Le résumé de PSG / Arsenal - Ligue des champions 2025/2026 (FINALE)",
-          "url": "https://www.youtube.com/watch?v=yoIGpUCVmc4"
-        }
-      ],
-      "discover_category": "/Sports/Team Sports/Soccer",
-      "discover_entities": [
-        "Arsenal",
-        "Chelsea",
-        "Premier League"
-      ]
-    },
-    {
-      "id": "s08",
-      "rank": 8,
+      "id": "s06",
+      "rank": 6,
       "title": "« Il n'y a rien » : divorcé de Flavie Flament, Benjamin Castaldi se confie sur leur relation après les accusations contre Patrick Bruel",
       "theme": "divertissement",
       "score": 49,
@@ -1029,11 +802,13 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s09",
-      "rank": 9,
+      "id": "s07",
+      "rank": 7,
       "title": "Patrick Bruel interrompu et insulté en pleine pièce de théâtre à Paris : ce qui s’est passé au Théâtre Édouard VII",
       "theme": "actualite",
       "score": 46,
@@ -1151,11 +926,13 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s10",
-      "rank": 10,
+      "id": "s08",
+      "rank": 8,
       "title": "« Je serai là pour les appuyer et les épauler » : ce mouvement qui prend de l’ampleur autour du scandale Patrick Bruel",
       "theme": "actualite",
       "score": 45,
@@ -1273,11 +1050,15 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
+      ],
+      "cluster_size": 2,
+      "cluster_members_titles": [
+        "« Force à toutes » : le message d’Anouchka Delon après les accusations contre Patrick Bruel fait réagir"
       ]
     },
     {
-      "id": "s11",
-      "rank": 11,
+      "id": "s09",
+      "rank": 9,
       "title": "Flavie Flament « sidérée » par Patrick Bruel : sa réponse ne laisse aucune place au doute",
       "theme": "divertissement",
       "score": 45,
@@ -1395,132 +1176,15 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
+      ],
+      "cluster_size": 2,
+      "cluster_members_titles": [
+        "« Non catégorique » : Aurore Bergé refuse de lâcher Patrick Bruel et surprend tout le monde"
       ]
     },
     {
-      "id": "s12",
-      "rank": 12,
-      "title": "« La France à feu et à sang pour la victoire du PSG » : Sarah Knafo prône un sursaut sécuritaire",
-      "theme": "actualite",
-      "score": 45,
-      "tier": "medium",
-      "rationale": "Présent dans le top Wikipedia · repris sur Google Actualités · mentionné sur X · vidéo YouTube en explosion (9 832/h vues) · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "1k vues"
-        },
-        {
-          "source": "x",
-          "label": "x",
-          "value": "#44"
-        },
-        {
-          "source": "youtube",
-          "label": "youtube",
-          "value": "10k /h"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "360+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.0",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "1 média",
-          "fill": 35
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "1k vues/h",
-          "fill": 7
-        },
-        {
-          "name": "X velocity",
-          "value": "rang #44",
-          "fill": 40
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "10k /h",
-          "fill": 79
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.0,
-        "trends": 0.0,
-        "wiki": 7.1,
-        "gnews": 35.0,
-        "msn": 100.0,
-        "x": 40.0,
-        "reddit": 0.0,
-        "youtube": 79.0,
-        "total": 37.1
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/la-france-à-feu-et-à-sang-pour-la-victoire-du-psg-sarah-knafo-prône-un-sursaut-sécuritaire/ar-AA24tSA6?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.87d023fccdee6f72d30e06869fb207b0&pid=Wdp",
-      "msn_source_name": "leJDD",
-      "refs": [
-        {
-          "label": "MSN · leJDD — « La France à feu et à sang pour la victoire du PSG » : Sarah Knafo prône un sursaut sécuritaire",
-          "url": "https://www.msn.com/fr-fr/actualite/france/la-france-à-feu-et-à-sang-pour-la-victoire-du-psg-sarah-knafo-prône-un-sursaut-sécuritaire/ar-AA24tSA6?ocid=00000000"
-        },
-        {
-          "label": "Discover · franceinfo — Victoire du PSG en Ligue des Champions : \"On aurait aimé faire la fête ce matin\" mais \"on est abattus, en colère\", regrette l'Umih Paris Île-de-France",
-          "url": "https://www.franceinfo.fr/sports/foot/ligue-des-champions/finale/victoire-du-psg-en-ligue-des-champions-on-aurait-aime-faire-la-fete-ce-matin-mais-on-est-abattu-en-colere-regrette-l-umih-paris-ile-de-france_8038010.html"
-        },
-        {
-          "label": "GNews · Le Monde.fr — EN DIRECT, victoire du PSG en Ligue des champions : Emmanuel Macron dénonce « des scènes de violences inacceptables » à Paris et dans plusieurs villes françaises en recevant les champions d’Europe à l’Elysée",
-          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-victoire-du-psg-en-ligue-des-champions-la-parade-sur-le-champs-de-mars-est-sur-le-point-de-debuter-apres-une-nuit-de-celebrations-emaillees-d-incidents_6695252_3242.html"
-        },
-        {
-          "label": "YouTube · BLZstarss — Des Emeutes suite à la Victoire du PSG !",
-          "url": "https://www.youtube.com/watch?v=R1j_TliBJ5g"
-        }
-      ],
-      "discover_category": "/Sports/Team Sports/Soccer",
-      "discover_entities": [
-        "Ligue 1",
-        "PSGFC",
-        "Sport"
-      ]
-    },
-    {
-      "id": "s13",
-      "rank": 13,
+      "id": "s10",
+      "rank": 10,
       "title": "Emmanuel Macron aurait déjà son favori pour 2027 et ce nom en dit long sur l’après-Élysée",
       "theme": "actualite",
       "score": 40,
@@ -1642,251 +1306,13 @@
         "PSGFC",
         "Parc des Princes",
         "Sport"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s14",
-      "rank": 14,
-      "title": "PSG/Arsenal – Marquinhos ne mâche pas ses mots après le sacre",
-      "theme": "sport",
-      "score": 40,
-      "tier": "medium",
-      "rationale": "Couvert par 2 médias · vidéo YouTube en explosion (18 510/h vues) · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "youtube",
-          "label": "youtube",
-          "value": "19k /h"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "150+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.3",
-          "fill": 1
-        },
-        {
-          "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "19k /h",
-          "fill": 100
-        }
-      ],
-      "score_breakdown": {
-        "discover": 1.4,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 57.1,
-        "msn": 100.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 100.0,
-        "total": 33.3
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-marquinhos-ne-mâche-pas-ses-mots-après-le-sacre/ar-AA24rtdO?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.3725ce7dece077facfca8f2e8378281b&pid=Wdp",
-      "msn_source_name": "Paris Fans",
-      "refs": [
-        {
-          "label": "MSN · Paris Fans — PSG/Arsenal – Marquinhos ne mâche pas ses mots après le sacre",
-          "url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-marquinhos-ne-mâche-pas-ses-mots-après-le-sacre/ar-AA24rtdO?ocid=00000000"
-        },
-        {
-          "label": "Discover · RMC Sport — \"Une compétition de qui va le plus casser et brûler\": 416 interpellations après le sacre du PSG",
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-nations/une-competition-de-qui-va-le-plus-casser-et-bruler-416-interpellations-apres-le-sacre-du-psg_AV-202605310094.html"
-        },
-        {
-          "label": "GNews · CNews — Val-d'Oise : expulsions, amendes… La riposte ferme de Franconville après les violences en marge du sacre du PSG",
-          "url": "https://www.cnews.fr/france/2026-05-31/val-doise-expulsions-amendes-la-riposte-ferme-de-franconville-apres-les-violences"
-        },
-        {
-          "label": "GNews · La Provence — OM - La vie des concurrents : Rooney, Henry, Özil... le monde du foot crie au scandale après le sacre européen du PSG",
-          "url": "https://www.laprovence.com/article/om/1078497062855815/om-la-vie-des-concurrents-rooney-henry-oezil-le-monde-du-foot-crie-au-scandale-apres-le-sacre-europeen-du-psg"
-        },
-        {
-          "label": "YouTube · Maelhome — Mbappé se fait humilier après le sacre du PSG 😱 #psg #mbappe #championsleague #football",
-          "url": "https://www.youtube.com/watch?v=aJ5gD1vSZq4"
-        }
-      ],
-      "discover_category": "/Sports/Team Sports/Soccer",
-      "discover_entities": [
-        "Football",
-        "Ligue 1",
-        "Ligue des nations",
-        "PSGFC",
-        "Parc des Princes",
-        "Sport"
-      ]
-    },
-    {
-      "id": "s15",
-      "rank": 15,
-      "title": "« Non catégorique » : Aurore Bergé refuse de lâcher Patrick Bruel et surprend tout le monde",
-      "theme": "actualite",
-      "score": 39,
-      "tier": "medium",
-      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 3 médias · présent dans YouTube Trending FR.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "3 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "32k vues"
-        },
-        {
-          "source": "youtube",
-          "label": "youtube",
-          "value": "1k /h"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "29+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "3 médias",
-          "fill": 70
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "32k vues/h",
-          "fill": 100
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "37/100",
-          "fill": 37
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "1k /h",
-          "fill": 14
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 100.0,
-        "gnews": 70.0,
-        "msn": 37.2,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 14.9,
-        "total": 32.8
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/non-catégorique-aurore-bergé-refuse-de-lâcher-patrick-bruel-et-surprend-tout-le-monde/ar-AA24sWvt?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.9f92b0234bbd992098796e35a50f8625&pid=Wdp",
-      "msn_source_name": "So Busy Girls",
-      "refs": [
-        {
-          "label": "MSN · So Busy Girls — « Non catégorique » : Aurore Bergé refuse de lâcher Patrick Bruel et surprend tout le monde",
-          "url": "https://www.msn.com/fr-fr/actualite/france/non-catégorique-aurore-bergé-refuse-de-lâcher-patrick-bruel-et-surprend-tout-le-monde/ar-AA24sWvt?ocid=00000000"
-        },
-        {
-          "label": "Discover · Journal des Femmes — Patrick Bruel : une deuxième ligne téléphonique dédiée à ses rencontres ?",
-          "url": "https://www.journaldesfemmes.fr/people/magazine/3267397-actualite-infos-people-france-mai-patrick-bruel-camille-lellouche/3267451-patrick-bruel"
-        },
-        {
-          "label": "GNews · Closer — Patrick Bruel : Oscar et Léon soudés, ils se montrent ensemble pour la première fois depuis l’affaire",
-          "url": "https://www.closermag.fr/people/patrick-bruel-oscar-et-leon-soudes-ils-se-montrent-ensemble-pour-la-premiere-fois-depuis-laffaire-3639157"
-        },
-        {
-          "label": "GNews · ladepeche.fr — Affaire Patrick Bruel : le chanteur se vanterait en privé d’avoir eu 700 conquêtes, \"c’est beaucoup plus\" rectifie un de ses proches",
-          "url": "https://www.ladepeche.fr/2026/05/31/affaire-patrick-bruel-le-chanteur-se-vanterait-en-prive-davoir-eu-700-conquetes-cest-beaucoup-plus-rectifie-un-de-ses-proches-13393758.php"
-        },
-        {
-          "label": "GNews · franceinfo — Remboursement des billets, tête d'affiche de remplacement... Trois questions sur les conséquences de l'annulation des concerts de Patrick Bruel cet été",
-          "url": "https://www.franceinfo.fr/culture/musique/patrick-bruel/affaire-de-violences-sexuelles/remboursement-des-billets-tete-d-affiche-de-remplacement-trois-questions-sur-les-consequences-de-l-annulation-des-concerts-de-patrick-bruel-cet-ete_8037338.html"
-        },
-        {
-          "label": "YouTube · BFMTV — Affaire Patrick Bruel: le chanteur ne participera pas à la prochaine édition des Enfoirés en 2027",
-          "url": "https://www.youtube.com/watch?v=m4waSF49Ss4"
-        }
-      ],
-      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
-      "discover_entities": [
-        "Patrick Bruel"
-      ]
-    },
-    {
-      "id": "s16",
-      "rank": 16,
+      "id": "s11",
+      "rank": 11,
       "title": "Ils ont planté des arbres dans le Sahara pendant des années sans succès : puis 500 tortues ont fait ce que personne n’osait espérer",
       "theme": "actualite",
       "score": 39,
@@ -1973,11 +1399,13 @@
       "discover_category": "/Finance/Financial Planning & Management",
       "discover_entities": [
         "Billet de banque"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s17",
-      "rank": 17,
+      "id": "s12",
+      "rank": 12,
       "title": "Aryna Sabalenka, la décision tombe à Roland-Garros",
       "theme": "sport",
       "score": 38,
@@ -2098,11 +1526,13 @@
         "Roland-Garros",
         "Sport",
         "Tennis"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s18",
-      "rank": 18,
+      "id": "s13",
+      "rank": 13,
       "title": "Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
       "theme": "actualite",
       "score": 36,
@@ -2220,11 +1650,13 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s19",
-      "rank": 19,
+      "id": "s14",
+      "rank": 14,
       "title": "« Elles se jettent sur les hommes » : ce renversement du discours d'Anny Duperey qui prend la défense de Patrick Bruel déclenche une vive polémique",
       "theme": "actualite",
       "score": 36,
@@ -2342,133 +1774,13 @@
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "discover_entities": [
         "Patrick Bruel"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s20",
-      "rank": 20,
-      "title": "« Force à toutes » : le message d’Anouchka Delon après les accusations contre Patrick Bruel fait réagir",
-      "theme": "actualite",
-      "score": 36,
-      "tier": "medium",
-      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 3 médias · présent dans YouTube Trending FR.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "3 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "32k vues"
-        },
-        {
-          "source": "youtube",
-          "label": "youtube",
-          "value": "1k /h"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "16+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "3 médias",
-          "fill": 70
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "32k vues/h",
-          "fill": 100
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "15/100",
-          "fill": 15
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "1k /h",
-          "fill": 14
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 100.0,
-        "gnews": 70.0,
-        "msn": 15.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 14.9,
-        "total": 29.9
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/force-à-toutes-le-message-d-anouchka-delon-après-les-accusations-contre-patrick-bruel-fait-réagir/ar-AA24sEb0?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.875ff0d055c5a5bb6012ceb9879e479c&pid=Wdp",
-      "msn_source_name": "So Busy Girls",
-      "refs": [
-        {
-          "label": "MSN · So Busy Girls — « Force à toutes » : le message d’Anouchka Delon après les accusations contre Patrick Bruel fait réagir",
-          "url": "https://www.msn.com/fr-fr/actualite/france/force-à-toutes-le-message-d-anouchka-delon-après-les-accusations-contre-patrick-bruel-fait-réagir/ar-AA24sEb0?ocid=00000000"
-        },
-        {
-          "label": "Discover · Journal des Femmes — Patrick Bruel : une deuxième ligne téléphonique dédiée à ses rencontres ?",
-          "url": "https://www.journaldesfemmes.fr/people/magazine/3267397-actualite-infos-people-france-mai-patrick-bruel-camille-lellouche/3267451-patrick-bruel"
-        },
-        {
-          "label": "GNews · Closer — Patrick Bruel : Oscar et Léon soudés, ils se montrent ensemble pour la première fois depuis l’affaire",
-          "url": "https://www.closermag.fr/people/patrick-bruel-oscar-et-leon-soudes-ils-se-montrent-ensemble-pour-la-premiere-fois-depuis-laffaire-3639157"
-        },
-        {
-          "label": "GNews · ladepeche.fr — Affaire Patrick Bruel : le chanteur se vanterait en privé d’avoir eu 700 conquêtes, \"c’est beaucoup plus\" rectifie un de ses proches",
-          "url": "https://www.ladepeche.fr/2026/05/31/affaire-patrick-bruel-le-chanteur-se-vanterait-en-prive-davoir-eu-700-conquetes-cest-beaucoup-plus-rectifie-un-de-ses-proches-13393758.php"
-        },
-        {
-          "label": "GNews · franceinfo — Remboursement des billets, tête d'affiche de remplacement... Trois questions sur les conséquences de l'annulation des concerts de Patrick Bruel cet été",
-          "url": "https://www.franceinfo.fr/culture/musique/patrick-bruel/affaire-de-violences-sexuelles/remboursement-des-billets-tete-d-affiche-de-remplacement-trois-questions-sur-les-consequences-de-l-annulation-des-concerts-de-patrick-bruel-cet-ete_8037338.html"
-        },
-        {
-          "label": "YouTube · BFMTV — Affaire Patrick Bruel: le chanteur ne participera pas à la prochaine édition des Enfoirés en 2027",
-          "url": "https://www.youtube.com/watch?v=m4waSF49Ss4"
-        }
-      ],
-      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
-      "discover_entities": [
-        "Patrick Bruel"
-      ]
-    },
-    {
-      "id": "s21",
-      "rank": 21,
+      "id": "s15",
+      "rank": 15,
       "title": "Des invités critiquaient Emmanuel Macron sans la reconnaître : sa mère leur aurait répondu en six mots",
       "theme": "actualite",
       "score": 33,
@@ -2581,11 +1893,13 @@
         "PSGFC",
         "Parc des Princes",
         "Sport"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s22",
-      "rank": 22,
+      "id": "s16",
+      "rank": 16,
       "title": "Roland-Garros : Le tableau complet des 8es de finale (simples hommes et femmes)",
       "theme": "sport",
       "score": 32,
@@ -2706,11 +2020,13 @@
         "Iga Świątek",
         "Roland-Garros",
         "Sport"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s23",
-      "rank": 23,
+      "id": "s17",
+      "rank": 17,
       "title": "Vérifiez dans vos placards : ce rare vinyle de Johnny Hallyday de 1966 vaut aujourd'hui une petite fortune de 15 000 euros",
       "theme": "actualite",
       "score": 31,
@@ -2816,11 +2132,13 @@
       "discover_entities": [
         "Berger",
         "Pastoralisme"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s24",
-      "rank": 24,
+      "id": "s18",
+      "rank": 18,
       "title": "Guerre en Ukraine. Frappes mortelles sur plusieurs régions, nouvelle raffinerie russe visée. Le point sur la nuit",
       "theme": "actualite",
       "score": 30,
@@ -2935,11 +2253,13 @@
         "Kiev",
         "Raffinerie",
         "Russie"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s25",
-      "rank": 25,
+      "id": "s19",
+      "rank": 19,
       "title": "« C'est l'homme de ma vie, ma moitié » : Nathalie Simon (61 ans) est mariée depuis 43 ans à Tanguy Dadon",
       "theme": "divertissement",
       "score": 30,
@@ -3026,11 +2346,13 @@
       "discover_category": "/Sensitive Subjects",
       "discover_entities": [
         "Edgar Morin"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s26",
-      "rank": 26,
+      "id": "s20",
+      "rank": 20,
       "title": "EN DIRECT - Guerre en Ukraine : le drone qui a frappé un immeuble en Roumanie est d'origine russe, confirme Bucarest",
       "theme": "actualite",
       "score": 28,
@@ -3136,11 +2458,13 @@
         "Kiev",
         "Raffinerie",
         "Russie"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s27",
-      "rank": 27,
+      "id": "s21",
+      "rank": 21,
       "title": "SoftBank annonce un investissement record de 75 milliards d'euros lié à l'IA en amont de « Choose France »",
       "theme": "actualite",
       "score": 27,
@@ -3249,11 +2573,13 @@
       "discover_category": "/News",
       "discover_entities": [
         "Centre de données"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s28",
-      "rank": 28,
+      "id": "s22",
+      "rank": 22,
       "title": "« L'alcool décoince et enlève une conscience trop forte de soi » : Virginie Efira, le verre à moitié plein",
       "theme": "divertissement",
       "score": 27,
@@ -3343,11 +2669,13 @@
         }
       ],
       "discover_category": null,
-      "discover_entities": []
+      "discover_entities": [],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s29",
-      "rank": 29,
+      "id": "s23",
+      "rank": 23,
       "title": "« Ce n’est pas un luxe, c’est vital » : voici le budget que les retraités doivent toucher pour vivre dignement en France en mai 2026",
       "theme": "lifestyle",
       "score": 27,
@@ -3449,11 +2777,13 @@
         "Diane Parry",
         "Roland-Garros",
         "Sport"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     },
     {
-      "id": "s30",
-      "rank": 30,
+      "id": "s24",
+      "rank": 24,
       "title": "« Après la fête, la défaite » : Maëva Coucke opérée en urgence après avoir assisté au match PSG-Arsenal",
       "theme": "actualite",
       "score": 26,
@@ -3562,7 +2892,695 @@
       "discover_category": "/News",
       "discover_entities": [
         "Sport"
-      ]
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
+    },
+    {
+      "id": "s25",
+      "rank": 25,
+      "title": "Maria Carolina dans la tourmente : pourquoi la compagne de Jordan Bardella se défend après de lourdes accusations",
+      "theme": "divertissement",
+      "score": 26,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · repris sur Google Actualités · présent dans YouTube Trending FR.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "5k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "2k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "2+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.6",
+          "fill": 2
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "5k vues/h",
+          "fill": 24
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "15/100",
+          "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "2k /h",
+          "fill": 22
+        }
+      ],
+      "score_breakdown": {
+        "discover": 2.7,
+        "trends": 0.0,
+        "wiki": 24.5,
+        "gnews": 35.0,
+        "msn": 15.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 22.4,
+        "total": 22.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/actualite/maria-carolina-dans-la-tourmente-pourquoi-la-compagne-de-jordan-bardella-se-défend-après-de-lourdes-accusations/ar-AA24sVKi?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.571e74bca0f9d7b45c1a989fabc5c63e&pid=Wdp",
+      "msn_source_name": "So Busy Girls",
+      "refs": [
+        {
+          "label": "MSN · So Busy Girls — Maria Carolina dans la tourmente : pourquoi la compagne de Jordan Bardella se défend après de lourdes accusations",
+          "url": "https://www.msn.com/fr-fr/divertissement/actualite/maria-carolina-dans-la-tourmente-pourquoi-la-compagne-de-jordan-bardella-se-défend-après-de-lourdes-accusations/ar-AA24sVKi?ocid=00000000"
+        },
+        {
+          "label": "Discover · Orange Actualités — \"Caillasser, détruire, piller\" : Le Pen et Bardella montent au créneau après les incidents en marge du sacre du PSG",
+          "url": "https://actu.orange.fr/politique/caillasser-detruire-piller-le-pen-et-bardella-montent-au-creneau-apres-les-incidents-en-marge-du-sacre-du-psg-magic-CNT000002pGpej.html"
+        },
+        {
+          "label": "GNews · grazia.fr — \"Je l’aime\" : en plein direct, Jordan Bardella fait une déclaration inattendue à sa compagne Maria Carolina",
+          "url": "https://www.grazia.fr/people/je-laime-en-plein-direct-jordan-bardella-fait-une-declaration-inattendue-a-sa-compagne-maria-carolina-1250989.html"
+        },
+        {
+          "label": "YouTube · Jordan Bardella — Jordan Bardella sur LCI : « L'élection présidentielle sera un choix de civilisation ! »",
+          "url": "https://www.youtube.com/watch?v=2ERjKSrwPu8"
+        }
+      ],
+      "discover_category": "/News/Politics",
+      "discover_entities": [
+        "Jordan Bardella",
+        "Marine Le Pen"
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
+    },
+    {
+      "id": "s26",
+      "rank": 26,
+      "title": "« Il faut retirer le micro » à la chroniqueuse Xenia Fedorova, une « agente russe », dénonce Raphaël Glucksmann",
+      "theme": "actualite",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · repris sur Google Actualités · mentionné sur X · présent dans YouTube Trending FR.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "x",
+          "label": "x",
+          "value": "#41"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "2k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "16+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.9",
+          "fill": 4
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "3k vues/h",
+          "fill": 13
+        },
+        {
+          "name": "X velocity",
+          "value": "rang #41",
+          "fill": 40
+        },
+        {
+          "name": "MSN engagement",
+          "value": "35/100",
+          "fill": 35
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "2k /h",
+          "fill": 16
+        }
+      ],
+      "score_breakdown": {
+        "discover": 4.1,
+        "trends": 0.0,
+        "wiki": 13.7,
+        "gnews": 35.0,
+        "msn": 35.5,
+        "x": 40.0,
+        "reddit": 0.0,
+        "youtube": 16.3,
+        "total": 21.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/elections/il-faut-retirer-le-micro-à-la-chroniqueuse-xenia-fedorova-une-agente-russe-dénonce-raphaël-glucksmann/ar-AA24ua98?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.353208a5508eede819c068b71503666c&pid=Wdp",
+      "msn_source_name": "Le Parisien",
+      "refs": [
+        {
+          "label": "MSN · Le Parisien — « Il faut retirer le micro » à la chroniqueuse Xenia Fedorova, une « agente russe », dénonce Raphaël Glucksmann",
+          "url": "https://www.msn.com/fr-fr/actualite/elections/il-faut-retirer-le-micro-à-la-chroniqueuse-xenia-fedorova-une-agente-russe-dénonce-raphaël-glucksmann/ar-AA24ua98?ocid=00000000"
+        },
+        {
+          "label": "Discover · Orange Actualités — \"Il faut retirer le micro\" à la chroniqueuse Fedorova, une \"agente russe\", estime Glucksmann",
+          "url": "https://actu.orange.fr/politique/quot-il-faut-retirer-le-micro-quot-a-la-chroniqueuse-fedorova-une-quot-agente-russe-quot-estime-glucksmann-CNT000002pGQg3.html"
+        },
+        {
+          "label": "GNews · Midi Libre — \"Il faut lui retirer le micro\" : Raphaël Glucksmann accuse une chroniqueuse de CNews d’être une \"agente russe\" au service du Kremlin",
+          "url": "https://www.midilibre.fr/2026/05/31/il-faut-lui-retirer-le-micro-raphael-glucksmann-accuse-une-chroniqueuse-de-cnews-detre-une-agente-russe-au-service-du-kremlin-13396497.php"
+        },
+        {
+          "label": "YouTube · Le Média — LA NON-CANDIDATURE QUI EMBARRASSE RAPHAËL GLUCKSMANN",
+          "url": "https://www.youtube.com/watch?v=1ECkVhprQfI"
+        }
+      ],
+      "discover_category": "/News",
+      "discover_entities": [
+        "Bolloré",
+        "Chroniqueur",
+        "Place publique",
+        "Politique",
+        "Vincent Bolloré"
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
+    },
+    {
+      "id": "s27",
+      "rank": 27,
+      "title": "« Plus loin, plus profond ! » : l’Ukraine pulvérise son record avec un drone FPV qui frappe à 100 km derrière les lignes russes",
+      "theme": "actualite",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Couvert par 2 médias · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "2 médias"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "85+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "2 médias",
+          "fill": 57
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 0.0,
+        "wiki": 0.0,
+        "gnews": 57.1,
+        "msn": 100.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 21.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/plus-loin-plus-profond-l-ukraine-pulvérise-son-record-avec-un-drone-fpv-qui-frappe-à-100-km-derrière-les-lignes-russes/ar-AA24t0Ld?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.3441f4a0aa53631e711b288d1196b669&pid=Wdp",
+      "msn_source_name": "Armees.com",
+      "refs": [
+        {
+          "label": "MSN · Armees.com — « Plus loin, plus profond ! » : l’Ukraine pulvérise son record avec un drone FPV qui frappe à 100 km derrière les lignes russes",
+          "url": "https://www.msn.com/fr-fr/actualite/monde/plus-loin-plus-profond-l-ukraine-pulvérise-son-record-avec-un-drone-fpv-qui-frappe-à-100-km-derrière-les-lignes-russes/ar-AA24t0Ld?ocid=00000000"
+        },
+        {
+          "label": "GNews · Le Matin — Guerre en Ukraine: Un drone a frappé la plus grande centrale nucléaire d'Europe",
+          "url": "https://www.lematin.ch/story/guerre-en-ukraine-un-drone-a-frappe-la-plus-grande-centrale-nucleaire-d-europe-103574364"
+        },
+        {
+          "label": "GNews · 20 Minutes — Kiev frappe des sites pétroliers et un drone cible la centrale de Zaporijia",
+          "url": "https://www.20minutes.fr/monde/ukraine/4226323-20260531-guerre-ukraine-drone-cible-centrale-nucleaire-zaporijia-kiev-frappe-sites-petroliers"
+        }
+      ],
+      "discover_category": null,
+      "discover_entities": [],
+      "cluster_size": 1,
+      "cluster_members_titles": []
+    },
+    {
+      "id": "s28",
+      "rank": 28,
+      "title": "Affaire Patrick Bruel : Zazie, Nagui, Lio… Les stars nombreuses à réagir, à chacune leur point de vue !",
+      "theme": "actualite",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · forte couverture médiatique (5 médias) · présent dans YouTube Trending FR.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "5 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "1k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "26+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.4",
+          "fill": 1
+        },
+        {
+          "name": "Google News",
+          "value": "5 médias",
+          "fill": 86
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "3k vues/h",
+          "fill": 17
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "37/100",
+          "fill": 37
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "1k /h",
+          "fill": 14
+        }
+      ],
+      "score_breakdown": {
+        "discover": 1.8,
+        "trends": 0.0,
+        "wiki": 17.7,
+        "gnews": 86.3,
+        "msn": 37.2,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 14.9,
+        "total": 20.5
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/affaire-patrick-bruel-zazie-nagui-lio-les-stars-nombreuses-à-réagir-à-chacune-leur-point-de-vue/ar-AA24sRZL?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24sDqt.img",
+      "msn_source_name": "Gala (French)",
+      "refs": [
+        {
+          "label": "MSN · Gala (French) — Affaire Patrick Bruel : Zazie, Nagui, Lio… Les stars nombreuses à réagir, à chacune leur point de vue !",
+          "url": "https://www.msn.com/fr-fr/actualite/france/affaire-patrick-bruel-zazie-nagui-lio-les-stars-nombreuses-à-réagir-à-chacune-leur-point-de-vue/ar-AA24sRZL?ocid=00000000"
+        },
+        {
+          "label": "Discover · ladepeche.fr — Affaire Patrick Bruel : le chanteur se vanterait en privé d’avoir eu 700 conquêtes, \"c’est beaucoup plus\" rectifie un de ses proches",
+          "url": "https://www.ladepeche.fr/2026/05/31/affaire-patrick-bruel-le-chanteur-se-vanterait-en-prive-davoir-eu-700-conquetes-cest-beaucoup-plus-rectifie-un-de-ses-proches-13393758.php"
+        },
+        {
+          "label": "GNews · Closer — Patrick Bruel : Oscar et Léon soudés, ils se montrent ensemble pour la première fois depuis l’affaire",
+          "url": "https://www.closermag.fr/people/patrick-bruel-oscar-et-leon-soudes-ils-se-montrent-ensemble-pour-la-premiere-fois-depuis-laffaire-3639157"
+        },
+        {
+          "label": "GNews · ladepeche.fr — Affaire Patrick Bruel : le chanteur se vanterait en privé d’avoir eu 700 conquêtes, \"c’est beaucoup plus\" rectifie un de ses proches",
+          "url": "https://www.ladepeche.fr/2026/05/31/affaire-patrick-bruel-le-chanteur-se-vanterait-en-prive-davoir-eu-700-conquetes-cest-beaucoup-plus-rectifie-un-de-ses-proches-13393758.php"
+        },
+        {
+          "label": "GNews · RFI — Mali: un militant pro-démocratie en garde-à-vue dans une affaire de graffitis hostiles à la Russie",
+          "url": "https://www.rfi.fr/fr/afrique/20260530-mali-un-militant-pro-d%C3%A9mocratie-en-garde-%C3%A0-vue-dans-une-affaire-de-graffitis-hostiles-%C3%A0-la-russie"
+        },
+        {
+          "label": "YouTube · BFMTV — Affaire Patrick Bruel: le chanteur ne participera pas à la prochaine édition des Enfoirés en 2027",
+          "url": "https://www.youtube.com/watch?v=m4waSF49Ss4"
+        }
+      ],
+      "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "discover_entities": [
+        "Patrick Bruel"
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
+    },
+    {
+      "id": "s29",
+      "rank": 29,
+      "title": "« On ne peut pas faire ça » : après la polémique, Léa Salamé admet ce qui a manqué dans l’interview de Lavrov",
+      "theme": "actualite",
+      "score": 23,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · couvert par 2 médias · présent dans YouTube Trending FR.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "2 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "1k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "5k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "1+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.0",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "2 médias",
+          "fill": 57
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "1k vues/h",
+          "fill": 7
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "15/100",
+          "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "5k /h",
+          "fill": 48
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 0.0,
+        "wiki": 7.4,
+        "gnews": 57.1,
+        "msn": 15.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 48.8,
+        "total": 19.2
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/elections/on-ne-peut-pas-faire-ça-après-la-polémique-léa-salamé-admet-ce-qui-a-manqué-dans-l-interview-de-lavrov/ar-AA24uyEr?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1VAXTd.img",
+      "msn_source_name": "So Busy Girls",
+      "refs": [
+        {
+          "label": "MSN · So Busy Girls — « On ne peut pas faire ça » : après la polémique, Léa Salamé admet ce qui a manqué dans l’interview de Lavrov",
+          "url": "https://www.msn.com/fr-fr/actualite/elections/on-ne-peut-pas-faire-ça-après-la-polémique-léa-salamé-admet-ce-qui-a-manqué-dans-l-interview-de-lavrov/ar-AA24uyEr?ocid=00000000"
+        },
+        {
+          "label": "Discover · Gala — Léa Salamé sur le départ du JT de France 2 ? Après l’annonce de Raphaël Glucksmann, l’heure de vérité approche…",
+          "url": "https://www.gala.fr/l_actu/news_de_stars/lea-salame-sur-le-depart-du-jt-de-france-2-apres-l-annonce-de-raphael-glucksmann-l-heure-de-verite-approche-20260529"
+        },
+        {
+          "label": "GNews · Clubic — \"Un téléphone qu'on peut réparer sur la table de la cuisine pour 30€, ça devient une évidence\" - Interview Fairphone",
+          "url": "https://www.clubic.com/dossier-614200-interview-fairphone.html"
+        },
+        {
+          "label": "GNews · Closer — Laeticia et Johnny Hallyday : malaise palpable pour Estelle Lefébure, interrogée par Léa Salamé sur le \"clan\"",
+          "url": "https://www.closermag.fr/people/laeticia-et-johnny-hallyday-malaise-palpable-pour-estelle-lefebure-interrogee-par-lea-salame-sur-le-clan-3639137"
+        },
+        {
+          "label": "YouTube · Sous Segpa — Oui après c’est toujours comme ça dans les séries Disney 😂😂😂 #lessegpa #ichembougheraba ￼",
+          "url": "https://www.youtube.com/watch?v=7mLToQrxd0s"
+        }
+      ],
+      "discover_category": "/News",
+      "discover_entities": [
+        "France 2",
+        "Léa Salamé",
+        "Raphaël Glucksmann"
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
+    },
+    {
+      "id": "s30",
+      "rank": 30,
+      "title": "Le logiciel libre l’emporte : Polytechnique dit non à Microsoft et déclenche une vague de rébellion dans les universités",
+      "theme": "finance",
+      "score": 23,
+      "tier": "low",
+      "rationale": "Repris sur Google Actualités · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "61+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.9",
+          "fill": 4
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "—",
+          "fill": 0
+        }
+      ],
+      "score_breakdown": {
+        "discover": 4.1,
+        "trends": 0.0,
+        "wiki": 0.0,
+        "gnews": 35.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 0.0,
+        "total": 18.8
+      },
+      "msn_url": "https://www.msn.com/fr-fr/finance/autres/le-logiciel-libre-l-emporte-polytechnique-dit-non-à-microsoft-et-déclenche-une-vague-de-rébellion-dans-les-universités/ar-AA24uaFc?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.2dcddaa80341c46393846b3e1833dcc5&pid=Wdp",
+      "msn_source_name": "Les Numériques",
+      "refs": [
+        {
+          "label": "MSN · Les Numériques — Le logiciel libre l’emporte : Polytechnique dit non à Microsoft et déclenche une vague de rébellion dans les universités",
+          "url": "https://www.msn.com/fr-fr/finance/autres/le-logiciel-libre-l-emporte-polytechnique-dit-non-à-microsoft-et-déclenche-une-vague-de-rébellion-dans-les-universités/ar-AA24uaFc?ocid=00000000"
+        },
+        {
+          "label": "Discover · Les Numériques — Le logiciel libre l’emporte : Polytechnique dit non à Microsoft et déclenche une vague de rébellion dans les universités",
+          "url": "https://www.lesnumeriques.com/informatique/le-logiciel-libre-l-emporte-polytechnique-dit-non-a-microsoft-et-declenche-une-vague-de-rebellion-dans-les-universites-n243905.html"
+        },
+        {
+          "label": "GNews · Les Numériques — Le logiciel libre l’emporte : Polytechnique dit non à Microsoft et déclenche une vague de rébellion dans les universités",
+          "url": "https://www.lesnumeriques.com/informatique/le-logiciel-libre-l-emporte-polytechnique-dit-non-a-microsoft-et-declenche-une-vague-de-rebellion-dans-les-universites-n243905.html"
+        }
+      ],
+      "discover_category": "/News",
+      "discover_entities": [
+        "Logiciel libre",
+        "École polytechnique"
+      ],
+      "cluster_size": 1,
+      "cluster_members_titles": []
     }
   ],
   "categories_trending": [

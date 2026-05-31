@@ -194,6 +194,9 @@ const adaptSujet = (raw) => {
     velocity_6h: raw.velocity_6h ?? null,
     velocity_24h: raw.velocity_24h ?? null,
     llm_enrich: raw.llm_enrich || null,
+    // Deduplication semantique cross-source (Voyage clustering, A1)
+    cluster_size: Number(raw.cluster_size || 1),
+    cluster_members_titles: raw.cluster_members_titles || [],
   };
 };
 
@@ -665,7 +668,22 @@ const renderRow = (t) => {
     h(
       "div",
       { class: "row-mid" },
-      h("div", { class: "row-title" }, t.title),
+      h(
+        "div",
+        { class: "row-title" },
+        t.title,
+        t.cluster_size > 1
+          ? h(
+              "span",
+              {
+                class: "cluster-badge",
+                title:
+                  `${t.cluster_size} articles MSN fusionnés sémantiquement.`,
+              },
+              `×${t.cluster_size}`,
+            )
+          : null,
+      ),
       h(
         "div",
         { class: "row-meta" },
@@ -752,6 +770,25 @@ const renderDetail = (t) => {
       { class: "ent-tags" },
       ...entities.map((e) => h("span", { class: "ent" }, e)),
     ),
+    // Titres alternatifs fusionnes par le clustering semantique
+    (t.cluster_members_titles && t.cluster_members_titles.length)
+      ? h(
+          "div",
+          { class: "alt-titles" },
+          h(
+            "h6",
+            {},
+            `Autres formulations (${t.cluster_members_titles.length})`,
+          ),
+          h(
+            "ul",
+            { class: "alt-titles-list" },
+            ...t.cluster_members_titles.map((title) =>
+              h("li", {}, title),
+            ),
+          ),
+        )
+      : null,
     h(
       "div",
       { class: "actions" },

@@ -713,6 +713,12 @@ def _to_sujet_dict(scored: dict[str, Any], rank: int) -> dict[str, Any]:
         # Méta pour filtrage côté front (clic sur catégorie ou entité)
         "discover_category": discover_category,
         "discover_entities": discover_entities,
+        # Deduplication semantique cross-source (Voyage clustering) :
+        # cluster_size = 1 si pas de fusion, N si N articles MSN ont ete
+        # fusionnes comme decrivant le meme evenement. cluster_members_titles
+        # = titres alternatifs des autres members (pour affichage UI).
+        "cluster_size": int(scored.get("cluster_size") or 1),
+        "cluster_members_titles": list(scored.get("cluster_members_titles") or []),
     }
 
 
@@ -772,6 +778,15 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
 
     # Tri par score total décroissant
     scored.sort(key=lambda s: s["breakdown"].total, reverse=True)
+
+    # Deduplication semantique cross-source (Phase 2 A1) : on cluster
+    # les candidats scores par similarite Voyage > 0.78 pour eliminer
+    # les doublons que Jaccard ne detecte pas (ex: "PSG remporte la LDC"
+    # vs "Les Parisiens sacres champions d'Europe"). Si Voyage indispo,
+    # degrade en no-op et le pipeline continue.
+    from server.scoring import semantic_dedup
+    scored = semantic_dedup.cluster_scored_candidates(scored)
+
     top = scored[:top_n]
 
     sujets = [_to_sujet_dict(s, rank=i + 1) for i, s in enumerate(top)]
