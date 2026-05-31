@@ -793,10 +793,10 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
                 "fetched_at": gnews.get("fetched_at"),
                 "count": gnews.get("count"),
             },
-            "reddit": {
-                "fetched_at": reddit.get("fetched_at") if reddit else None,
-                "count": reddit.get("count") if reddit else 0,
-            },
+            # Reddit retire de sources_used : source desactivee en CI
+            # (cf server/cli.py, commit cca660b). Les donnees historiques
+            # restent disponibles dans data/reddit/*.json mais on n'expose
+            # plus la source dans le dashboard pour ne pas afficher 7/8.
             "youtube_trending": {
                 "fetched_at": youtube.get("fetched_at") if youtube else None,
                 "count": youtube.get("count") if youtube else 0,

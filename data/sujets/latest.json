@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T09:28:21Z",
+  "generated_at": "2026-05-31T14:06:47Z",
   "sources_used": {
     "msn": {
       "fetched_at": "2026-05-31T09:27:17Z",
@@ -25,13 +25,9 @@
       "fetched_at": "2026-05-31T09:28:11Z",
       "count": 435
     },
-    "reddit": {
-      "fetched_at": "2026-05-31T09:28:17Z",
-      "count": 0
-    },
     "youtube_trending": {
-      "fetched_at": "2026-05-31T09:28:17Z",
-      "count": 49
+      "fetched_at": "2026-05-31T14:02:30Z",
+      "count": 277
     }
   },
   "weights": {
@@ -48,9 +44,9 @@
     "candidates_scored": 100,
     "kept": 30,
     "by_tier": {
-      "high": 1,
-      "medium": 17,
-      "low": 12
+      "high": 2,
+      "medium": 20,
+      "low": 8
     }
   },
   "sujets": [
@@ -176,140 +172,11 @@
     {
       "id": "s02",
       "rank": 2,
-      "title": "« C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
-      "theme": "sport",
-      "score": 46,
-      "tier": "medium",
-      "rationale": "Présent sur Google Trends · forte audience Wikipedia (42 666 vues/jour) · forte couverture médiatique (5 médias) · vidéo YouTube en explosion (37 082/h vues).",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "5 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "200"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "43k vues"
-        },
-        {
-          "source": "youtube",
-          "label": "youtube",
-          "value": "37k /h"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "29+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.2",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "5 médias",
-          "fill": 86
-        },
-        {
-          "name": "Google Trends",
-          "value": "200",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "43k vues/h",
-          "fill": 100
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "39/100",
-          "fill": 38
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "37k /h",
-          "fill": 100
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.9,
-        "trends": 0.5,
-        "wiki": 100.0,
-        "gnews": 86.3,
-        "msn": 38.8,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 100.0,
-        "total": 46.4
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/football/c-est-la-meilleure-équipe-du-monde-l-entraîneur-d-arsenal-mikel-arteta-admiratif-du-psg-après-la-finale/ar-AA24scaN?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.ee09df93d64a52da53e40168fd214a06&pid=Wdp",
-      "msn_source_name": "Le Parisien",
-      "refs": [
-        {
-          "label": "MSN · Le Parisien — « C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
-          "url": "https://www.msn.com/fr-fr/sport/football/c-est-la-meilleure-équipe-du-monde-l-entraîneur-d-arsenal-mikel-arteta-admiratif-du-psg-après-la-finale/ar-AA24scaN?ocid=00000000"
-        },
-        {
-          "label": "Discover · Le Parisien — « C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
-          "url": "https://www.leparisien.fr/sports/football/ligue-des-champions/cest-la-meilleure-equipe-du-monde-lentraineur-darsenal-mikel-arteta-admiratif-du-psg-apres-la-finale-30-05-2026-YML4GILZN5FTFHYKQ5K7EUMZ2Y.php"
-        },
-        {
-          "label": "GNews · La Provence — OM - La vie des concurrents : Rooney, Henry, Özil... le monde du foot crie au scandale après le sacre européen du PSG",
-          "url": "https://www.laprovence.com/article/om/1078497062855815/om-la-vie-des-concurrents-rooney-henry-oezil-le-monde-du-foot-crie-au-scandale-apres-le-sacre-europeen-du-psg"
-        },
-        {
-          "label": "GNews · puremedias — Audiences pré-access : Quel score pour la grande finale de \"La meilleure boulangerie de France\" sur M6 ?",
-          "url": "https://www.ozap.com/actu/audiences-pre-access-quel-score-pour-la-grande-finale-de-la-meilleure-boulangerie-de-france-sur-m6/655009"
-        },
-        {
-          "label": "GNews · Le Monde.fr — EN DIRECT, PSG-Arsenal | Parade sur le Champ-de-Mars, réception à l’Elysée, soirée au Parc des princes : le programme des célébrations",
-          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-parade-sur-le-champ-de-mars-reception-a-l-elysee-soiree-au-parc-des-princes-le-programme-des-celebrations_6695252_3242.html"
-        },
-        {
-          "label": "YouTube · Gamer BR - M1l Grau — 🔴PES 2021 ATUALIZADO 2026 | PSG - Arsenal | UCL | SIMULANDO A PARTIDA NO PC STEAM COM FACECAN",
-          "url": "https://www.youtube.com/watch?v=mIYl6R-TAtI"
-        }
-      ],
-      "discover_category": "/Sports/Team Sports/Soccer",
-      "discover_entities": [
-        "Arsenal",
-        "Football",
-        "PSGFC"
-      ]
-    },
-    {
-      "id": "s03",
-      "rank": 3,
       "title": "Roland-Garros 2026 : Combien va toucher Moïse Kouame après son incroyable parcours à Roland ?",
       "theme": "sport",
-      "score": 46,
-      "tier": "medium",
-      "rationale": "Pic Google Trends (200 000 recherches) · forte audience Wikipedia (183 600 vues/jour) · repris sur Google Actualités.",
+      "score": 54,
+      "tier": "high",
+      "rationale": "Pic Google Trends (200 000 recherches) · forte audience Wikipedia (183 600 vues/jour) · repris sur Google Actualités · présent dans YouTube Trending FR.",
       "signals": [
         {
           "source": "discover",
@@ -330,6 +197,11 @@
           "source": "wiki",
           "label": "wiki",
           "value": "184k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "5k /h"
         },
         {
           "source": "msn",
@@ -375,8 +247,8 @@
         },
         {
           "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
+          "value": "5k /h",
+          "fill": 49
         }
       ],
       "score_breakdown": {
@@ -387,8 +259,8 @@
         "msn": 15.0,
         "x": 0.0,
         "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 45.9
+        "youtube": 49.6,
+        "total": 54.3
       },
       "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-2026-combien-va-toucher-moïse-kouame-après-son-incroyable-parcours-à-roland/ar-AA24r8hQ?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.a9edd38ecc87e981789011dcb1c5050a&pid=Wdp",
@@ -405,6 +277,10 @@
         {
           "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
           "url": "https://tvmag.lefigaro.fr/programme-tv/people/roland-garros-vianney-en-tribunes-avec-sa-femme-catherine-robert-enceinte-de-leur-deuxieme-enfant-20260530"
+        },
+        {
+          "label": "YouTube · slash — Combien gagne un ramasseur de balles à Roland-Garros ? On s'est renseigné 🧐",
+          "url": "https://www.youtube.com/watch?v=1Z650ENTsFI"
         }
       ],
       "discover_category": "/Sports/Individual Sports/Racquet Sports",
@@ -415,13 +291,265 @@
       ]
     },
     {
+      "id": "s03",
+      "rank": 3,
+      "title": "« C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
+      "theme": "sport",
+      "score": 46,
+      "tier": "medium",
+      "rationale": "Présent sur Google Trends · forte audience Wikipedia (42 666 vues/jour) · forte couverture médiatique (5 médias) · vidéo YouTube en explosion (50 878/h vues).",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "5 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "200"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "43k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "51k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "29+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.2",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "5 médias",
+          "fill": 86
+        },
+        {
+          "name": "Google Trends",
+          "value": "200",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "43k vues/h",
+          "fill": 100
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "39/100",
+          "fill": 38
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "51k /h",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.9,
+        "trends": 0.5,
+        "wiki": 100.0,
+        "gnews": 86.3,
+        "msn": 38.8,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 100.0,
+        "total": 46.4
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/football/c-est-la-meilleure-équipe-du-monde-l-entraîneur-d-arsenal-mikel-arteta-admiratif-du-psg-après-la-finale/ar-AA24scaN?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.ee09df93d64a52da53e40168fd214a06&pid=Wdp",
+      "msn_source_name": "Le Parisien",
+      "refs": [
+        {
+          "label": "MSN · Le Parisien — « C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
+          "url": "https://www.msn.com/fr-fr/sport/football/c-est-la-meilleure-équipe-du-monde-l-entraîneur-d-arsenal-mikel-arteta-admiratif-du-psg-après-la-finale/ar-AA24scaN?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le Parisien — « C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
+          "url": "https://www.leparisien.fr/sports/football/ligue-des-champions/cest-la-meilleure-equipe-du-monde-lentraineur-darsenal-mikel-arteta-admiratif-du-psg-apres-la-finale-30-05-2026-YML4GILZN5FTFHYKQ5K7EUMZ2Y.php"
+        },
+        {
+          "label": "GNews · La Provence — OM - La vie des concurrents : Rooney, Henry, Özil... le monde du foot crie au scandale après le sacre européen du PSG",
+          "url": "https://www.laprovence.com/article/om/1078497062855815/om-la-vie-des-concurrents-rooney-henry-oezil-le-monde-du-foot-crie-au-scandale-apres-le-sacre-europeen-du-psg"
+        },
+        {
+          "label": "GNews · puremedias — Audiences pré-access : Quel score pour la grande finale de \"La meilleure boulangerie de France\" sur M6 ?",
+          "url": "https://www.ozap.com/actu/audiences-pre-access-quel-score-pour-la-grande-finale-de-la-meilleure-boulangerie-de-france-sur-m6/655009"
+        },
+        {
+          "label": "GNews · Le Monde.fr — EN DIRECT, PSG-Arsenal | Parade sur le Champ-de-Mars, réception à l’Elysée, soirée au Parc des princes : le programme des célébrations",
+          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-parade-sur-le-champ-de-mars-reception-a-l-elysee-soiree-au-parc-des-princes-le-programme-des-celebrations_6695252_3242.html"
+        },
+        {
+          "label": "YouTube · CANAL+ Sport — Le résumé de PSG / Arsenal - Ligue des champions 2025/2026 (FINALE)",
+          "url": "https://www.youtube.com/watch?v=yoIGpUCVmc4"
+        }
+      ],
+      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_entities": [
+        "Arsenal",
+        "Football",
+        "PSGFC"
+      ]
+    },
+    {
       "id": "s04",
       "rank": 4,
+      "title": "Michel Sardou défend Kylian Mbappé après ses déclarations sur le Rassemblement national",
+      "theme": "actualite",
+      "score": 46,
+      "tier": "medium",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · couvert par 2 médias · vidéo YouTube en explosion (16 823/h vues) · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "2 médias"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "2k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "13k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "17k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "118+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.1",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "2 médias",
+          "fill": 57
+        },
+        {
+          "name": "Google Trends",
+          "value": "2k",
+          "fill": 4
+        },
+        {
+          "name": "Wikimedia",
+          "value": "13k vues/h",
+          "fill": 57
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "17k /h",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.5,
+        "trends": 4.5,
+        "wiki": 57.5,
+        "gnews": 57.1,
+        "msn": 100.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 100.0,
+        "total": 45.8
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/michel-sardou-défend-kylian-mbappé-après-ses-déclarations-sur-le-rassemblement-national/ar-AA24rs6C?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.379b16fc97c20bd7681c609b6114e24d&pid=Wdp",
+      "msn_source_name": "20 Minutes",
+      "refs": [
+        {
+          "label": "MSN · 20 Minutes — Michel Sardou défend Kylian Mbappé après ses déclarations sur le Rassemblement national",
+          "url": "https://www.msn.com/fr-fr/actualite/france/michel-sardou-défend-kylian-mbappé-après-ses-déclarations-sur-le-rassemblement-national/ar-AA24rs6C?ocid=00000000"
+        },
+        {
+          "label": "Discover · X — 🗣️ \"Lui, je l'aime bien.\" Interrogé sur les inquiétudes de Kylian Mbappé sur une potentielle victoire du Rassemblement national à la prochaine présidentielle, Michel Sardou a expliqué apprécier les prises de position fortes du capitaine des Bleus. Voir sur X",
+          "url": "https://x.com/RMCsport/status/2060683301388472507"
+        },
+        {
+          "label": "GNews · Le Monde.fr — La présidente du WWF démissionne après sa mise en cause pour avoir rendu publique sa participation à un rassemblement antiraciste à Saint-Denis",
+          "url": "https://www.lemonde.fr/planete/article/2026/05/28/la-presidente-du-wwf-demissionne-apres-sa-mise-en-cause-pour-avoir-rendu-publique-sa-participation-a-un-rassemblement-antiraciste-a-saint-denis_6694498_3244.html"
+        },
+        {
+          "label": "GNews · Nice-Matin — « C’est assez rare de voir des femmes qui jouent aux boules » : Michel Sardou a inauguré le premier trophée dédié à son père dans le Var - Nice-Matin",
+          "url": "https://www.nicematin.com/societe/vie-locale/c-est-assez-rare-de-voir-des-femmes-qui-jouent-aux-boules-michel-sardou-a-inaugure-le-premier-trophee-dedie-a-son-pere-dans-le-var-10682607"
+        },
+        {
+          "label": "YouTube · Maelhome — Mbappé se fait humilier après le sacre du PSG 😱 #psg #mbappe #championsleague #football",
+          "url": "https://www.youtube.com/watch?v=aJ5gD1vSZq4"
+        }
+      ],
+      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_entities": [
+        "Kylian Mbappé"
+      ]
+    },
+    {
+      "id": "s05",
+      "rank": 5,
       "title": "Un sacré jackpot : combien va empocher le PSG après son sacre en Ligue des champions contre Arsenal ?",
       "theme": "sport",
       "score": 46,
       "tier": "medium",
-      "rationale": "Présent sur Google Trends · forte audience Wikipedia (122 709 vues/jour) · couvert par 2 médias · vidéo YouTube en explosion (37 082/h vues).",
+      "rationale": "Présent sur Google Trends · forte audience Wikipedia (122 709 vues/jour) · couvert par 2 médias · vidéo YouTube en explosion (50 878/h vues).",
       "signals": [
         {
           "source": "discover",
@@ -446,7 +574,7 @@
         {
           "source": "youtube",
           "label": "youtube",
-          "value": "37k /h"
+          "value": "51k /h"
         },
         {
           "source": "msn",
@@ -492,7 +620,7 @@
         },
         {
           "name": "YouTube velocity",
-          "value": "37k /h",
+          "value": "51k /h",
           "fill": 100
         }
       ],
@@ -528,8 +656,8 @@
           "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-parade-sur-le-champ-de-mars-reception-a-l-elysee-soiree-au-parc-des-princes-le-programme-des-celebrations_6695252_3242.html"
         },
         {
-          "label": "YouTube · Gamer BR - M1l Grau — 🔴PES 2021 ATUALIZADO 2026 | PSG - Arsenal | UCL | SIMULANDO A PARTIDA NO PC STEAM COM FACECAN",
-          "url": "https://www.youtube.com/watch?v=mIYl6R-TAtI"
+          "label": "YouTube · CANAL+ Sport — Le résumé de PSG / Arsenal - Ligue des champions 2025/2026 (FINALE)",
+          "url": "https://www.youtube.com/watch?v=yoIGpUCVmc4"
         }
       ],
       "discover_category": "/Sports/Team Sports/Soccer",
@@ -540,8 +668,8 @@
       ]
     },
     {
-      "id": "s05",
-      "rank": 5,
+      "id": "s06",
+      "rank": 6,
       "title": "« The Voice ». Qui est Lady O, gagnante de la saison 15 dans l’équipe de Florent Pagny ?",
       "theme": "divertissement",
       "score": 45,
@@ -654,8 +782,8 @@
       ]
     },
     {
-      "id": "s06",
-      "rank": 6,
+      "id": "s07",
+      "rank": 7,
       "title": "320 000 euros envolés chez Florent Pagny : ce détail troublant sur le suspect déjà condamné",
       "theme": "actualite",
       "score": 45,
@@ -768,13 +896,136 @@
       ]
     },
     {
-      "id": "s07",
-      "rank": 7,
+      "id": "s08",
+      "rank": 8,
+      "title": "Centaines de casseurs, envahissement du périphérique... À quoi s'attendent les forces de l'ordre à Paris après la finale de la Ligue des champions",
+      "theme": "actualite",
+      "score": 44,
+      "tier": "medium",
+      "rationale": "Présent sur Google Trends · forte audience Wikipedia (16 012 vues/jour) · repris sur Google Actualités · vidéo YouTube en explosion (134 868/h vues) · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "2k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "16k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "135k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "87+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.4",
+          "fill": 1
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "2k",
+          "fill": 4
+        },
+        {
+          "name": "Wikimedia",
+          "value": "16k vues/h",
+          "fill": 67
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "100/100",
+          "fill": 100
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "135k /h",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "discover": 1.8,
+        "trends": 4.5,
+        "wiki": 67.9,
+        "gnews": 35.0,
+        "msn": 100.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 100.0,
+        "total": 44.2
+      },
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/centaines-de-casseurs-envahissement-du-périphérique-à-quoi-s-attendent-les-forces-de-l-ordre-à-paris-après-la-finale-de-la-ligue-des-champions/ar-AA24q7rF?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.c40343e9ec1987fd7da5ec206fd9c56b&pid=Wdp",
+      "msn_source_name": "BFM",
+      "refs": [
+        {
+          "label": "MSN · BFM — Centaines de casseurs, envahissement du périphérique... À quoi s'attendent les forces de l'ordre à Paris après la finale de la Ligue des champions",
+          "url": "https://www.msn.com/fr-fr/actualite/france/centaines-de-casseurs-envahissement-du-périphérique-à-quoi-s-attendent-les-forces-de-l-ordre-à-paris-après-la-finale-de-la-ligue-des-champions/ar-AA24q7rF?ocid=00000000"
+        },
+        {
+          "label": "Discover · Libération — La finale de la Ligue des champions vue de Marseille : «Je ne suis pas pour Paris, mais là, j’étais pas vraiment contre",
+          "url": "https://www.liberation.fr/sports/la-finale-de-la-ligue-des-champions-vue-de-marseille-je-ne-suis-pas-pour-paris-mais-la-jetais-pas-vraiment-contre-20260530_6VXXXCKH6ZHF5KFIZA256TUAN4/"
+        },
+        {
+          "label": "GNews · franceinfo — NBA : Victor Wembanyama et les Spurs rejoignent les New York Knicks en finale, après un exploit en Oklahoma lors du match 7",
+          "url": "https://www.franceinfo.fr/sports/basket/nba/nba-victror-wembanyama-et-les-spurs-en-finale-face-aux-new-york-knicks-apres-un-exploit-en-oklahoma-lors-du-match-7_8037947.html"
+        },
+        {
+          "label": "YouTube · L' immigré parisien — 🔴🔵 PSG - ARSENAL LIVE / 🔥ALLEZ PARIS ! / 🚨FINALE POUR LE BACK TO BACK ! / FINALE LIGUE DES CHAMPIONS",
+          "url": "https://www.youtube.com/watch?v=0WbI_v86e6U"
+        }
+      ],
+      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_entities": [
+        "Marseille",
+        "OM",
+        "Olympique de Marseille",
+        "PSGFC",
+        "Sport"
+      ]
+    },
+    {
+      "id": "s09",
+      "rank": 9,
       "title": "« Il n'y a rien » : divorcé de Flavie Flament, Benjamin Castaldi se confie sur leur relation après les accusations contre Patrick Bruel",
       "theme": "divertissement",
-      "score": 41,
+      "score": 42,
       "tier": "medium",
-      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 4 médias · engagement MSN élevé.",
+      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 4 médias · présent dans YouTube Trending FR · engagement MSN élevé.",
       "signals": [
         {
           "source": "discover",
@@ -790,6 +1041,11 @@
           "source": "wiki",
           "label": "wiki",
           "value": "32k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "2k /h"
         },
         {
           "source": "msn",
@@ -835,8 +1091,8 @@
         },
         {
           "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
+          "value": "2k /h",
+          "fill": 16
         }
       ],
       "score_breakdown": {
@@ -847,8 +1103,8 @@
         "msn": 100.0,
         "x": 0.0,
         "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 41.1
+        "youtube": 16.3,
+        "total": 42.2
       },
       "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/il-n-y-a-rien-divorcé-de-flavie-flament-benjamin-castaldi-se-confie-sur-leur-relation-après-les-accusations-contre-patrick-bruel/ar-AA24hWlw?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.1bfda76c89d8569c532b59f2c340263a&pid=Wdp",
@@ -873,6 +1129,10 @@
         {
           "label": "GNews · Closer — Patrick Bruel, une obsession pour \"l’inter-fessier\" ? Des femmes racontent, \"il voulait un massage exclusif des fesses\"",
           "url": "https://www.closermag.fr/people/patrick-bruel-une-obsession-pour-linter-fessier-des-femmes-racontent-il-voulait-un-massage-exclusif-des-fesses-3639058"
+        },
+        {
+          "label": "YouTube · BFMTV — Affaire Patrick Bruel: le chanteur ne participera pas à la prochaine édition des Enfoirés en 2027",
+          "url": "https://www.youtube.com/watch?v=m4waSF49Ss4"
         }
       ],
       "discover_category": "/Sports/Team Sports/Soccer",
@@ -883,13 +1143,125 @@
       ]
     },
     {
-      "id": "s08",
-      "rank": 8,
+      "id": "s10",
+      "rank": 10,
+      "title": "« C'est une consolation de mon match perdu » : Moïse Kouame débarque en conférence de presse avec le maillot du PSG",
+      "theme": "sport",
+      "score": 42,
+      "tier": "medium",
+      "rationale": "Présent sur Google Trends · forte audience Wikipedia (183 600 vues/jour) · vidéo YouTube en explosion (21 669/h vues).",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "20k"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "184k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "22k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "48+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.0",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Google Trends",
+          "value": "20k",
+          "fill": 38
+        },
+        {
+          "name": "Wikimedia",
+          "value": "184k vues/h",
+          "fill": 100
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "47/100",
+          "fill": 46
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "22k /h",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 38.8,
+        "wiki": 100.0,
+        "gnews": 0.0,
+        "msn": 46.8,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 100.0,
+        "total": 41.7
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/c-est-une-consolation-de-mon-match-perdu-moïse-kouame-débarque-en-conférence-de-presse-avec-le-maillot-du-psg/vi-AA24s2yK?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24rxWg.img",
+      "msn_source_name": "L'Equipe",
+      "refs": [
+        {
+          "label": "MSN · L'Equipe — « C'est une consolation de mon match perdu » : Moïse Kouame débarque en conférence de presse avec le maillot du PSG",
+          "url": "https://www.msn.com/fr-fr/sport/tennis/c-est-une-consolation-de-mon-match-perdu-moïse-kouame-débarque-en-conférence-de-presse-avec-le-maillot-du-psg/vi-AA24s2yK?ocid=00000000"
+        },
+        {
+          "label": "Discover · L'Équipe — PSG 1-1 Arsenal, Ligue des champions : résumé du match (30/05/2026)",
+          "url": "https://www.lequipe.fr/Football/match-direct/ligue-des-champions/2025-2026/psg-arsenal-live/689249"
+        },
+        {
+          "label": "YouTube · Prime Video Sport France — 🏀 SPURS vs THUNDER⎜Le match 7 des Finales de Conférence 🔥⎜NBA Playoffs, le 31 mai 2026",
+          "url": "https://www.youtube.com/watch?v=yqrJ_ueMf28"
+        }
+      ],
+      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_entities": [
+        "Arsenal",
+        "Football",
+        "PSGFC"
+      ]
+    },
+    {
+      "id": "s11",
+      "rank": 11,
       "title": "L'arbitrage de Daniel Siebert lors de la finale de la Ligue des champions entre le PSG et Arsenal fait réagir",
       "theme": "sport",
       "score": 41,
       "tier": "medium",
-      "rationale": "Présent sur Google Trends · forte audience Wikipedia (16 012 vues/jour) · couvert par 2 médias · vidéo YouTube en explosion (37 082/h vues).",
+      "rationale": "Présent sur Google Trends · forte audience Wikipedia (16 012 vues/jour) · couvert par 2 médias · vidéo YouTube en explosion (50 878/h vues).",
       "signals": [
         {
           "source": "discover",
@@ -914,7 +1286,7 @@
         {
           "source": "youtube",
           "label": "youtube",
-          "value": "37k /h"
+          "value": "51k /h"
         },
         {
           "source": "msn",
@@ -960,7 +1332,7 @@
         },
         {
           "name": "YouTube velocity",
-          "value": "37k /h",
+          "value": "51k /h",
           "fill": 100
         }
       ],
@@ -996,8 +1368,8 @@
           "url": "https://www.franceinfo.fr/sports/basket/nba/nba-victror-wembanyama-et-les-spurs-en-finale-face-aux-new-york-knicks-apres-un-exploit-en-oklahoma-lors-du-match-7_8037947.html"
         },
         {
-          "label": "YouTube · Gamer BR - M1l Grau — 🔴PES 2021 ATUALIZADO 2026 | PSG - Arsenal | UCL | SIMULANDO A PARTIDA NO PC STEAM COM FACECAN",
-          "url": "https://www.youtube.com/watch?v=mIYl6R-TAtI"
+          "label": "YouTube · CANAL+ Sport — Le résumé de PSG / Arsenal - Ligue des champions 2025/2026 (FINALE)",
+          "url": "https://www.youtube.com/watch?v=yoIGpUCVmc4"
         }
       ],
       "discover_category": "/Sports/Team Sports/Soccer",
@@ -1008,8 +1380,8 @@
       ]
     },
     {
-      "id": "s09",
-      "rank": 9,
+      "id": "s12",
+      "rank": 12,
       "title": "Luis Enrique : ce qui est vraiment arrivé à sa fille Xana, partie à l'âge de 9 ans seulement",
       "theme": "divertissement",
       "score": 36,
@@ -1125,13 +1497,13 @@
       ]
     },
     {
-      "id": "s10",
-      "rank": 10,
+      "id": "s13",
+      "rank": 13,
       "title": "PSG/Arsenal – Marquinhos ne mâche pas ses mots après le sacre",
       "theme": "sport",
       "score": 34,
       "tier": "medium",
-      "rationale": "Couvert par 3 médias · vidéo YouTube en explosion (37 082/h vues) · engagement MSN élevé.",
+      "rationale": "Couvert par 3 médias · vidéo YouTube en explosion (16 823/h vues) · engagement MSN élevé.",
       "signals": [
         {
           "source": "discover",
@@ -1146,7 +1518,7 @@
         {
           "source": "youtube",
           "label": "youtube",
-          "value": "37k /h"
+          "value": "17k /h"
         },
         {
           "source": "msn",
@@ -1192,7 +1564,7 @@
         },
         {
           "name": "YouTube velocity",
-          "value": "37k /h",
+          "value": "17k /h",
           "fill": 100
         }
       ],
@@ -1232,8 +1604,8 @@
           "url": "https://www.parismatch.com/People/fier-et-heureux-les-mots-damour-de-niels-schneider-pour-virginie-efira-apres-le-prix-dinterpretation-a-cannes-269924"
         },
         {
-          "label": "YouTube · Gamer BR - M1l Grau — 🔴PES 2021 ATUALIZADO 2026 | PSG - Arsenal | UCL | SIMULANDO A PARTIDA NO PC STEAM COM FACECAN",
-          "url": "https://www.youtube.com/watch?v=mIYl6R-TAtI"
+          "label": "YouTube · Maelhome — Mbappé se fait humilier après le sacre du PSG 😱 #psg #mbappe #championsleague #football",
+          "url": "https://www.youtube.com/watch?v=aJ5gD1vSZq4"
         }
       ],
       "discover_category": "/Sports/Team Sports/Soccer",
@@ -1247,127 +1619,13 @@
       ]
     },
     {
-      "id": "s11",
-      "rank": 11,
-      "title": "Michel Sardou défend Kylian Mbappé après ses déclarations sur le Rassemblement national",
-      "theme": "actualite",
-      "score": 34,
-      "tier": "medium",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · couvert par 2 médias · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "2k"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "13k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "118+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
-        },
-        {
-          "name": "Google Trends",
-          "value": "2k",
-          "fill": 4
-        },
-        {
-          "name": "Wikimedia",
-          "value": "13k vues/h",
-          "fill": 57
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 4.5,
-        "wiki": 57.5,
-        "gnews": 57.1,
-        "msn": 100.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 33.8
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/michel-sardou-défend-kylian-mbappé-après-ses-déclarations-sur-le-rassemblement-national/ar-AA24rs6C?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.379b16fc97c20bd7681c609b6114e24d&pid=Wdp",
-      "msn_source_name": "20 Minutes",
-      "refs": [
-        {
-          "label": "MSN · 20 Minutes — Michel Sardou défend Kylian Mbappé après ses déclarations sur le Rassemblement national",
-          "url": "https://www.msn.com/fr-fr/actualite/france/michel-sardou-défend-kylian-mbappé-après-ses-déclarations-sur-le-rassemblement-national/ar-AA24rs6C?ocid=00000000"
-        },
-        {
-          "label": "Discover · X — 🗣️ \"Lui, je l'aime bien.\" Interrogé sur les inquiétudes de Kylian Mbappé sur une potentielle victoire du Rassemblement national à la prochaine présidentielle, Michel Sardou a expliqué apprécier les prises de position fortes du capitaine des Bleus. Voir sur X",
-          "url": "https://x.com/RMCsport/status/2060683301388472507"
-        },
-        {
-          "label": "GNews · Le Monde.fr — La présidente du WWF démissionne après sa mise en cause pour avoir rendu publique sa participation à un rassemblement antiraciste à Saint-Denis",
-          "url": "https://www.lemonde.fr/planete/article/2026/05/28/la-presidente-du-wwf-demissionne-apres-sa-mise-en-cause-pour-avoir-rendu-publique-sa-participation-a-un-rassemblement-antiraciste-a-saint-denis_6694498_3244.html"
-        },
-        {
-          "label": "GNews · Nice-Matin — « C’est assez rare de voir des femmes qui jouent aux boules » : Michel Sardou a inauguré le premier trophée dédié à son père dans le Var - Nice-Matin",
-          "url": "https://www.nicematin.com/societe/vie-locale/c-est-assez-rare-de-voir-des-femmes-qui-jouent-aux-boules-michel-sardou-a-inaugure-le-premier-trophee-dedie-a-son-pere-dans-le-var-10682607"
-        }
-      ],
-      "discover_category": "/Sports/Team Sports/Soccer",
-      "discover_entities": [
-        "Kylian Mbappé"
-      ]
-    },
-    {
-      "id": "s12",
-      "rank": 12,
+      "id": "s14",
+      "rank": 14,
       "title": "Flavie Flament « sidérée » par Patrick Bruel : sa réponse ne laisse aucune place au doute",
       "theme": "divertissement",
-      "score": 33,
+      "score": 34,
       "tier": "medium",
-      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 3 médias.",
+      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 3 médias · présent dans YouTube Trending FR.",
       "signals": [
         {
           "source": "discover",
@@ -1383,6 +1641,11 @@
           "source": "wiki",
           "label": "wiki",
           "value": "32k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "2k /h"
         },
         {
           "source": "msn",
@@ -1428,8 +1691,8 @@
         },
         {
           "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
+          "value": "2k /h",
+          "fill": 16
         }
       ],
       "score_breakdown": {
@@ -1440,8 +1703,8 @@
         "msn": 45.2,
         "x": 0.0,
         "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 32.8
+        "youtube": 16.3,
+        "total": 33.9
       },
       "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/flavie-flament-sidérée-par-patrick-bruel-sa-réponse-ne-laisse-aucune-place-au-doute/ar-AA24pp8O?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.9506027a2000d5b761c5f9f319a9ccc6&pid=Wdp",
@@ -1466,6 +1729,10 @@
         {
           "label": "GNews · Closer — Patrick Bruel, une obsession pour \"l’inter-fessier\" ? Des femmes racontent, \"il voulait un massage exclusif des fesses\"",
           "url": "https://www.closermag.fr/people/patrick-bruel-une-obsession-pour-linter-fessier-des-femmes-racontent-il-voulait-un-massage-exclusif-des-fesses-3639058"
+        },
+        {
+          "label": "YouTube · BFMTV — Affaire Patrick Bruel: le chanteur ne participera pas à la prochaine édition des Enfoirés en 2027",
+          "url": "https://www.youtube.com/watch?v=m4waSF49Ss4"
         }
       ],
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
@@ -1475,13 +1742,13 @@
       ]
     },
     {
-      "id": "s13",
-      "rank": 13,
+      "id": "s15",
+      "rank": 15,
       "title": "« Je ne serai pas avec vous en janvier prochain » : Patrick Bruel se retire des spectacles des Enfoirés",
       "theme": "actualite",
-      "score": 33,
+      "score": 34,
       "tier": "medium",
-      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 3 médias.",
+      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 3 médias · présent dans YouTube Trending FR.",
       "signals": [
         {
           "source": "discover",
@@ -1497,6 +1764,11 @@
           "source": "wiki",
           "label": "wiki",
           "value": "32k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "2k /h"
         },
         {
           "source": "msn",
@@ -1542,8 +1814,8 @@
         },
         {
           "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
+          "value": "2k /h",
+          "fill": 16
         }
       ],
       "score_breakdown": {
@@ -1554,8 +1826,8 @@
         "msn": 43.7,
         "x": 0.0,
         "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 32.6
+        "youtube": 16.3,
+        "total": 33.7
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/culture/je-ne-serai-pas-avec-vous-en-janvier-prochain-patrick-bruel-se-retire-des-spectacles-des-enfoirés/ar-AA24lNRB?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.bc5ec5c630b9427a087a23436952571a&pid=Wdp",
@@ -1580,6 +1852,10 @@
         {
           "label": "GNews · public.fr — Flavie Flament : \"épuisée\" par son \"combat\" contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
           "url": "https://www.public.fr/flavie-flament-epuisee-par-son-combat-contre-patrick-bruel-lanimatrice-prend-une-decision-radicale-pour-sa-sante"
+        },
+        {
+          "label": "YouTube · BFMTV — Affaire Patrick Bruel: le chanteur ne participera pas à la prochaine édition des Enfoirés en 2027",
+          "url": "https://www.youtube.com/watch?v=m4waSF49Ss4"
         }
       ],
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
@@ -1589,13 +1865,13 @@
       ]
     },
     {
-      "id": "s14",
-      "rank": 14,
+      "id": "s16",
+      "rank": 16,
       "title": "Donald Trump hospitalisé en urgence ? Ce que révèle vraiment la Maison-Blanche sur son état de santé",
       "theme": "actualite",
-      "score": 32,
+      "score": 33,
       "tier": "medium",
-      "rationale": "Présent sur Google Discover · présent dans le top Wikipedia · forte couverture médiatique (10 médias).",
+      "rationale": "Présent sur Google Discover · présent dans le top Wikipedia · forte couverture médiatique (10 médias) · présent dans YouTube Trending FR.",
       "signals": [
         {
           "source": "discover",
@@ -1611,6 +1887,11 @@
           "source": "wiki",
           "label": "wiki",
           "value": "3k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "1k /h"
         }
       ],
       "sources": [
@@ -1651,8 +1932,8 @@
         },
         {
           "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
+          "value": "1k /h",
+          "fill": 11
         }
       ],
       "score_breakdown": {
@@ -1663,8 +1944,8 @@
         "msn": 10.0,
         "x": 0.0,
         "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 32.4
+        "youtube": 11.2,
+        "total": 33.1
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/monde/donald-trump-hospitalisé-en-urgence-ce-que-révèle-vraiment-la-maison-blanche-sur-son-état-de-santé/ar-AA24sWgQ?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.8893570f8afdd513386bb526037962ad&pid=Wdp",
@@ -1689,6 +1970,10 @@
         {
           "label": "GNews · CNews — Perdre du poids et faire plus d'exercice : les recommandations du médecin présidentiel à Donald Trump",
           "url": "https://www.cnews.fr/monde/2026-05-30/perdre-du-poids-et-faire-plus-dexercice-les-recommandations-du-medecin"
+        },
+        {
+          "label": "YouTube · franceinfo — Donald Trump : et maintenant Cuba ?",
+          "url": "https://www.youtube.com/watch?v=xAo4251qZ1w"
         }
       ],
       "discover_category": "/News/Politics",
@@ -1698,13 +1983,13 @@
       ]
     },
     {
-      "id": "s15",
-      "rank": 15,
-      "title": "Centaines de casseurs, envahissement du périphérique... À quoi s'attendent les forces de l'ordre à Paris après la finale de la Ligue des champions",
-      "theme": "actualite",
+      "id": "s17",
+      "rank": 17,
+      "title": "Roland-Garros, le beau geste d’une joueuse envers un ramasseur (vidéo)",
+      "theme": "sport",
       "score": 32,
       "tier": "medium",
-      "rationale": "Présent sur Google Trends · forte audience Wikipedia (16 012 vues/jour) · repris sur Google Actualités · engagement MSN élevé.",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités · présent dans YouTube Trending FR · engagement MSN élevé.",
       "signals": [
         {
           "source": "discover",
@@ -1719,137 +2004,28 @@
         {
           "source": "trends",
           "label": "trends",
-          "value": "2k"
+          "value": "500"
         },
         {
           "source": "wiki",
           "label": "wiki",
-          "value": "16k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "87+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.4",
-          "fill": 1
-        },
-        {
-          "name": "Google News",
-          "value": "1 média",
-          "fill": 35
-        },
-        {
-          "name": "Google Trends",
-          "value": "2k",
-          "fill": 4
-        },
-        {
-          "name": "Wikimedia",
-          "value": "16k vues/h",
-          "fill": 67
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 1.8,
-        "trends": 4.5,
-        "wiki": 67.9,
-        "gnews": 35.0,
-        "msn": 100.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 32.2
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/centaines-de-casseurs-envahissement-du-périphérique-à-quoi-s-attendent-les-forces-de-l-ordre-à-paris-après-la-finale-de-la-ligue-des-champions/ar-AA24q7rF?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.c40343e9ec1987fd7da5ec206fd9c56b&pid=Wdp",
-      "msn_source_name": "BFM",
-      "refs": [
-        {
-          "label": "MSN · BFM — Centaines de casseurs, envahissement du périphérique... À quoi s'attendent les forces de l'ordre à Paris après la finale de la Ligue des champions",
-          "url": "https://www.msn.com/fr-fr/actualite/france/centaines-de-casseurs-envahissement-du-périphérique-à-quoi-s-attendent-les-forces-de-l-ordre-à-paris-après-la-finale-de-la-ligue-des-champions/ar-AA24q7rF?ocid=00000000"
-        },
-        {
-          "label": "Discover · Libération — La finale de la Ligue des champions vue de Marseille : «Je ne suis pas pour Paris, mais là, j’étais pas vraiment contre",
-          "url": "https://www.liberation.fr/sports/la-finale-de-la-ligue-des-champions-vue-de-marseille-je-ne-suis-pas-pour-paris-mais-la-jetais-pas-vraiment-contre-20260530_6VXXXCKH6ZHF5KFIZA256TUAN4/"
-        },
-        {
-          "label": "GNews · franceinfo — NBA : Victor Wembanyama et les Spurs rejoignent les New York Knicks en finale, après un exploit en Oklahoma lors du match 7",
-          "url": "https://www.franceinfo.fr/sports/basket/nba/nba-victror-wembanyama-et-les-spurs-en-finale-face-aux-new-york-knicks-apres-un-exploit-en-oklahoma-lors-du-match-7_8037947.html"
-        }
-      ],
-      "discover_category": "/Sports/Team Sports/Soccer",
-      "discover_entities": [
-        "Marseille",
-        "OM",
-        "Olympique de Marseille",
-        "PSGFC",
-        "Sport"
-      ]
-    },
-    {
-      "id": "s16",
-      "rank": 16,
-      "title": "L'action polémique du match PSG-Arsenal : y avait-il une faute de main de Saka et penalty pour les Parisiens ?",
-      "theme": "sport",
-      "score": 30,
-      "tier": "medium",
-      "rationale": "Présent sur Google Trends · repris sur Google Actualités · vidéo YouTube en explosion (37 082/h vues).",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "20k"
+          "value": "5k vues"
         },
         {
           "source": "youtube",
           "label": "youtube",
-          "value": "37k /h"
+          "value": "5k /h"
         },
         {
           "source": "msn",
           "label": "msn",
-          "value": "5+ react."
+          "value": "56+ react."
         }
       ],
       "sources": [
         {
           "name": "Google Discover",
-          "value": "score 0.0",
+          "value": "score 0.1",
           "fill": 0
         },
         {
@@ -1859,13 +2035,13 @@
         },
         {
           "name": "Google Trends",
-          "value": "20k",
-          "fill": 38
+          "value": "500",
+          "fill": 1
         },
         {
           "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
+          "value": "5k vues/h",
+          "fill": 25
         },
         {
           "name": "X velocity",
@@ -1874,8 +2050,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "15/100",
-          "fill": 15
+          "value": "76/100",
+          "fill": 76
         },
         {
           "name": "Reddit FR",
@@ -1884,57 +2060,57 @@
         },
         {
           "name": "YouTube velocity",
-          "value": "37k /h",
-          "fill": 100
+          "value": "5k /h",
+          "fill": 49
         }
       ],
       "score_breakdown": {
-        "discover": 0.0,
-        "trends": 38.8,
-        "wiki": 0.0,
+        "discover": 0.5,
+        "trends": 1.1,
+        "wiki": 25.4,
         "gnews": 35.0,
-        "msn": 15.0,
+        "msn": 76.5,
         "x": 0.0,
         "reddit": 0.0,
-        "youtube": 100.0,
-        "total": 30.5
+        "youtube": 49.6,
+        "total": 31.7
       },
-      "msn_url": "https://www.msn.com/fr-fr/sport/football/l-action-polémique-du-match-psg-arsenal-y-avait-il-une-faute-de-main-de-saka-et-penalty-pour-les-parisiens/ar-AA24r7U8?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.c9b9a48ee4a605e1a19b9fe92a96e5e4&pid=Wdp",
-      "msn_source_name": "RMC Sport",
+      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-le-beau-geste-d-une-joueuse-envers-un-ramasseur-vidéo/ar-AA24q9dO?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.b9f3948ee52898a557cff1b147b3c82d&pid=Wdp",
+      "msn_source_name": "Sports.fr",
       "refs": [
         {
-          "label": "MSN · RMC Sport — L'action polémique du match PSG-Arsenal : y avait-il une faute de main de Saka et penalty pour les Parisiens ?",
-          "url": "https://www.msn.com/fr-fr/sport/football/l-action-polémique-du-match-psg-arsenal-y-avait-il-une-faute-de-main-de-saka-et-penalty-pour-les-parisiens/ar-AA24r7U8?ocid=00000000"
+          "label": "MSN · Sports.fr — Roland-Garros, le beau geste d’une joueuse envers un ramasseur (vidéo)",
+          "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-le-beau-geste-d-une-joueuse-envers-un-ramasseur-vidéo/ar-AA24q9dO?ocid=00000000"
         },
         {
-          "label": "Discover · L'Équipe — PSG 1-1 Arsenal, Ligue des champions : résumé du match (30/05/2026)",
-          "url": "https://www.lequipe.fr/Football/match-direct/ligue-des-champions/2025-2026/psg-arsenal-live/689249"
+          "label": "Discover · Le Monde.fr — Roland-Garros 2026 : le programme du dimanche 31 mai",
+          "url": "https://www.lemonde.fr/sport/article/2026/05/31/roland-garros-2026-le-programme-du-dimanche-31-mai_6695548_3242.html"
         },
         {
-          "label": "GNews · Le Monde.fr — EN DIRECT, PSG-Arsenal | Parade sur le Champ-de-Mars, réception à l’Elysée, soirée au Parc des princes : le programme des célébrations",
-          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-parade-sur-le-champ-de-mars-reception-a-l-elysee-soiree-au-parc-des-princes-le-programme-des-celebrations_6695252_3242.html"
+          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
+          "url": "https://tvmag.lefigaro.fr/programme-tv/people/roland-garros-vianney-en-tribunes-avec-sa-femme-catherine-robert-enceinte-de-leur-deuxieme-enfant-20260530"
         },
         {
-          "label": "YouTube · Gamer BR - M1l Grau — 🔴PES 2021 ATUALIZADO 2026 | PSG - Arsenal | UCL | SIMULANDO A PARTIDA NO PC STEAM COM FACECAN",
-          "url": "https://www.youtube.com/watch?v=mIYl6R-TAtI"
+          "label": "YouTube · slash — Combien gagne un ramasseur de balles à Roland-Garros ? On s'est renseigné 🧐",
+          "url": "https://www.youtube.com/watch?v=1Z650ENTsFI"
         }
       ],
-      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
       "discover_entities": [
-        "Arsenal",
-        "Football",
-        "PSGFC"
+        "Roland-Garros",
+        "Sport",
+        "Tennis"
       ]
     },
     {
-      "id": "s17",
-      "rank": 17,
+      "id": "s18",
+      "rank": 18,
       "title": "Patrick Bruel : cette perquisition dans son triplex de Neuilly qui refait surface",
       "theme": "actualite",
-      "score": 30,
+      "score": 32,
       "tier": "medium",
-      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 3 médias.",
+      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 3 médias · présent dans YouTube Trending FR.",
       "signals": [
         {
           "source": "discover",
@@ -1950,6 +2126,11 @@
           "source": "wiki",
           "label": "wiki",
           "value": "32k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "2k /h"
         },
         {
           "source": "msn",
@@ -1995,8 +2176,8 @@
         },
         {
           "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
+          "value": "2k /h",
+          "fill": 16
         }
       ],
       "score_breakdown": {
@@ -2007,8 +2188,8 @@
         "msn": 26.7,
         "x": 0.0,
         "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 30.4
+        "youtube": 16.3,
+        "total": 31.5
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-cette-perquisition-dans-son-triplex-de-neuilly-qui-refait-surface/ar-AA24qHUJ?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.a891aab5f42a3b573d803393bca66f98&pid=Wdp",
@@ -2033,6 +2214,10 @@
         {
           "label": "GNews · public.fr — Flavie Flament : \"épuisée\" par son \"combat\" contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
           "url": "https://www.public.fr/flavie-flament-epuisee-par-son-combat-contre-patrick-bruel-lanimatrice-prend-une-decision-radicale-pour-sa-sante"
+        },
+        {
+          "label": "YouTube · BFMTV — Affaire Patrick Bruel: le chanteur ne participera pas à la prochaine édition des Enfoirés en 2027",
+          "url": "https://www.youtube.com/watch?v=m4waSF49Ss4"
         }
       ],
       "discover_category": "/Arts & Entertainment/Celebrities & Entertainment News",
@@ -2042,116 +2227,13 @@
       ]
     },
     {
-      "id": "s18",
-      "rank": 18,
-      "title": "« C'est une consolation de mon match perdu » : Moïse Kouame débarque en conférence de presse avec le maillot du PSG",
-      "theme": "sport",
-      "score": 30,
-      "tier": "medium",
-      "rationale": "Présent sur Google Trends · forte audience Wikipedia (183 600 vues/jour).",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "20k"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "184k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "48+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.0",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Google Trends",
-          "value": "20k",
-          "fill": 38
-        },
-        {
-          "name": "Wikimedia",
-          "value": "184k vues/h",
-          "fill": 100
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "47/100",
-          "fill": 46
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.0,
-        "trends": 38.8,
-        "wiki": 100.0,
-        "gnews": 0.0,
-        "msn": 46.8,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 29.7
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/c-est-une-consolation-de-mon-match-perdu-moïse-kouame-débarque-en-conférence-de-presse-avec-le-maillot-du-psg/vi-AA24s2yK?ocid=00000000",
-      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24rxWg.img",
-      "msn_source_name": "L'Equipe",
-      "refs": [
-        {
-          "label": "MSN · L'Equipe — « C'est une consolation de mon match perdu » : Moïse Kouame débarque en conférence de presse avec le maillot du PSG",
-          "url": "https://www.msn.com/fr-fr/sport/tennis/c-est-une-consolation-de-mon-match-perdu-moïse-kouame-débarque-en-conférence-de-presse-avec-le-maillot-du-psg/vi-AA24s2yK?ocid=00000000"
-        },
-        {
-          "label": "Discover · L'Équipe — PSG 1-1 Arsenal, Ligue des champions : résumé du match (30/05/2026)",
-          "url": "https://www.lequipe.fr/Football/match-direct/ligue-des-champions/2025-2026/psg-arsenal-live/689249"
-        }
-      ],
-      "discover_category": "/Sports/Team Sports/Soccer",
-      "discover_entities": [
-        "Arsenal",
-        "Football",
-        "PSGFC"
-      ]
-    },
-    {
       "id": "s19",
       "rank": 19,
-      "title": "PSG - Arsenal : un sale coup à la Cristiano Ronaldo subit par les Parisiens",
+      "title": "Novak Djokovic s’emporte face à un caméraman à Roland-Garros, cette séquence qui n’est pas passée inaperçue",
       "theme": "sport",
-      "score": 29,
-      "tier": "low",
-      "rationale": "Présent dans le top Wikipedia · repris sur Google Actualités · vidéo YouTube en explosion (37 082/h vues).",
+      "score": 31,
+      "tier": "medium",
+      "rationale": "Présent sur Google Trends · forte audience Wikipedia (18 617 vues/jour) · repris sur Google Actualités · présent dans YouTube Trending FR.",
       "signals": [
         {
           "source": "discover",
@@ -2164,19 +2246,24 @@
           "value": "1 média"
         },
         {
+          "source": "trends",
+          "label": "trends",
+          "value": "500"
+        },
+        {
           "source": "wiki",
           "label": "wiki",
-          "value": "8k vues"
+          "value": "19k vues"
         },
         {
           "source": "youtube",
           "label": "youtube",
-          "value": "37k /h"
+          "value": "5k /h"
         },
         {
           "source": "msn",
           "label": "msn",
-          "value": "24+ react."
+          "value": "15+ react."
         }
       ],
       "sources": [
@@ -2192,13 +2279,13 @@
         },
         {
           "name": "Google Trends",
-          "value": "—",
-          "fill": 0
+          "value": "500",
+          "fill": 1
         },
         {
           "name": "Wikimedia",
-          "value": "8k vues/h",
-          "fill": 38
+          "value": "19k vues/h",
+          "fill": 75
         },
         {
           "name": "X velocity",
@@ -2207,8 +2294,8 @@
         },
         {
           "name": "MSN engagement",
-          "value": "21/100",
-          "fill": 21
+          "value": "28/100",
+          "fill": 28
         },
         {
           "name": "Reddit FR",
@@ -2217,57 +2304,289 @@
         },
         {
           "name": "YouTube velocity",
-          "value": "37k /h",
-          "fill": 100
+          "value": "5k /h",
+          "fill": 49
         }
       ],
       "score_breakdown": {
         "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 38.9,
+        "trends": 1.1,
+        "wiki": 75.9,
         "gnews": 35.0,
-        "msn": 21.0,
+        "msn": 28.5,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 49.6,
+        "total": 31.5
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/novak-djokovic-s-emporte-face-à-un-caméraman-à-roland-garros-cette-séquence-qui-n-est-pas-passée-inaperçue/ar-AA24qaUe?ocid=00000000",
+      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24qETF.img",
+      "msn_source_name": "Gala (French)",
+      "refs": [
+        {
+          "label": "MSN · Gala (French) — Novak Djokovic s’emporte face à un caméraman à Roland-Garros, cette séquence qui n’est pas passée inaperçue",
+          "url": "https://www.msn.com/fr-fr/sport/tennis/novak-djokovic-s-emporte-face-à-un-caméraman-à-roland-garros-cette-séquence-qui-n-est-pas-passée-inaperçue/ar-AA24qaUe?ocid=00000000"
+        },
+        {
+          "label": "Discover · Le Monde.fr — Roland-Garros 2026 : le programme du dimanche 31 mai",
+          "url": "https://www.lemonde.fr/sport/article/2026/05/31/roland-garros-2026-le-programme-du-dimanche-31-mai_6695548_3242.html"
+        },
+        {
+          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
+          "url": "https://tvmag.lefigaro.fr/programme-tv/people/roland-garros-vianney-en-tribunes-avec-sa-femme-catherine-robert-enceinte-de-leur-deuxieme-enfant-20260530"
+        },
+        {
+          "label": "YouTube · slash — Combien gagne un ramasseur de balles à Roland-Garros ? On s'est renseigné 🧐",
+          "url": "https://www.youtube.com/watch?v=1Z650ENTsFI"
+        }
+      ],
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
+      "discover_entities": [
+        "Roland-Garros",
+        "Sport",
+        "Tennis"
+      ]
+    },
+    {
+      "id": "s20",
+      "rank": 20,
+      "title": "L'action polémique du match PSG-Arsenal : y avait-il une faute de main de Saka et penalty pour les Parisiens ?",
+      "theme": "sport",
+      "score": 30,
+      "tier": "medium",
+      "rationale": "Présent sur Google Trends · repris sur Google Actualités · vidéo YouTube en explosion (50 878/h vues).",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "20k"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "51k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "5+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.0",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "20k",
+          "fill": 38
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "15/100",
+          "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "51k /h",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 38.8,
+        "wiki": 0.0,
+        "gnews": 35.0,
+        "msn": 15.0,
         "x": 0.0,
         "reddit": 0.0,
         "youtube": 100.0,
-        "total": 29.4
+        "total": 30.5
       },
-      "msn_url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-un-sale-coup-à-la-cristiano-ronaldo-subit-par-les-parisiens/ar-AA24rfGl?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.8c9a3f18823160d0470d24152a5cc5ac&pid=Wdp",
-      "msn_source_name": "Onze Mondial",
+      "msn_url": "https://www.msn.com/fr-fr/sport/football/l-action-polémique-du-match-psg-arsenal-y-avait-il-une-faute-de-main-de-saka-et-penalty-pour-les-parisiens/ar-AA24r7U8?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.c9b9a48ee4a605e1a19b9fe92a96e5e4&pid=Wdp",
+      "msn_source_name": "RMC Sport",
       "refs": [
         {
-          "label": "MSN · Onze Mondial — PSG - Arsenal : un sale coup à la Cristiano Ronaldo subit par les Parisiens",
-          "url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-un-sale-coup-à-la-cristiano-ronaldo-subit-par-les-parisiens/ar-AA24rfGl?ocid=00000000"
+          "label": "MSN · RMC Sport — L'action polémique du match PSG-Arsenal : y avait-il une faute de main de Saka et penalty pour les Parisiens ?",
+          "url": "https://www.msn.com/fr-fr/sport/football/l-action-polémique-du-match-psg-arsenal-y-avait-il-une-faute-de-main-de-saka-et-penalty-pour-les-parisiens/ar-AA24r7U8?ocid=00000000"
         },
         {
-          "label": "Discover · France 24 — PSG - Arsenal : Paris encore champion ! Revivez la finale",
-          "url": "https://www.france24.com/fr/sports/20260530-psg-arsenal-direct-finale-ligue-champions"
+          "label": "Discover · L'Équipe — PSG 1-1 Arsenal, Ligue des champions : résumé du match (30/05/2026)",
+          "url": "https://www.lequipe.fr/Football/match-direct/ligue-des-champions/2025-2026/psg-arsenal-live/689249"
         },
         {
           "label": "GNews · Le Monde.fr — EN DIRECT, PSG-Arsenal | Parade sur le Champ-de-Mars, réception à l’Elysée, soirée au Parc des princes : le programme des célébrations",
           "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-parade-sur-le-champ-de-mars-reception-a-l-elysee-soiree-au-parc-des-princes-le-programme-des-celebrations_6695252_3242.html"
         },
         {
-          "label": "YouTube · Gamer BR - M1l Grau — 🔴PES 2021 ATUALIZADO 2026 | PSG - Arsenal | UCL | SIMULANDO A PARTIDA NO PC STEAM COM FACECAN",
-          "url": "https://www.youtube.com/watch?v=mIYl6R-TAtI"
+          "label": "YouTube · CANAL+ Sport — Le résumé de PSG / Arsenal - Ligue des champions 2025/2026 (FINALE)",
+          "url": "https://www.youtube.com/watch?v=yoIGpUCVmc4"
         }
       ],
       "discover_category": "/Sports/Team Sports/Soccer",
       "discover_entities": [
         "Arsenal",
-        "PSGFC",
+        "Football",
+        "PSGFC"
+      ]
+    },
+    {
+      "id": "s21",
+      "rank": 21,
+      "title": "« Dans aucun de mes restaurants moi je ne permettrais ça » : le coup de gueule sans filtre de Norbert Tarayre contre le traitement des VIP",
+      "theme": "lifestyle",
+      "score": 30,
+      "tier": "medium",
+      "rationale": "Couvert par 2 médias · vidéo YouTube en explosion (8 835/h vues) · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "1.8/65"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "2 médias"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "9k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "55+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 1.8",
+          "fill": 8
+        },
+        {
+          "name": "Google News",
+          "value": "2 médias",
+          "fill": 57
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "78/100",
+          "fill": 77
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "9k /h",
+          "fill": 73
+        }
+      ],
+      "score_breakdown": {
+        "discover": 8.0,
+        "trends": 0.0,
+        "wiki": 0.0,
+        "gnews": 57.1,
+        "msn": 77.7,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 73.1,
+        "total": 30.0
+      },
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/cuisine/dans-aucun-de-mes-restaurants-moi-je-ne-permettrais-ça-le-coup-de-gueule-sans-filtre-de-norbert-tarayre-contre-le-traitement-des-vip/ar-AA24tcug?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.5ac2e0b387e392be9541fbf35da4af0f&pid=Wdp",
+      "msn_source_name": "750 grammes",
+      "refs": [
+        {
+          "label": "MSN · 750 grammes — « Dans aucun de mes restaurants moi je ne permettrais ça » : le coup de gueule sans filtre de Norbert Tarayre contre le traitement des VIP",
+          "url": "https://www.msn.com/fr-fr/lifestyle/cuisine/dans-aucun-de-mes-restaurants-moi-je-ne-permettrais-ça-le-coup-de-gueule-sans-filtre-de-norbert-tarayre-contre-le-traitement-des-vip/ar-AA24tcug?ocid=00000000"
+        },
+        {
+          "label": "Discover · Paddock GP — MotoGP Italie, Marc Marquez pousse un coup de gueule : « Je ne peux pas aller à la commission de sécurité et faire des TikToks",
+          "url": "https://www.paddock-gp.com/motogp-italie-marc-marquez-pousse-un-coup-de-gueule-je-ne-peux-pas-aller-a-la-commission-de-securite-et-faire-des-tiktoks/"
+        },
+        {
+          "label": "GNews · purepeople.com — \"Plus aucun traitement ne fonctionne\" : Camille Lellouche à bout depuis son accouchement, elle lance un appel à l'aide",
+          "url": "https://www.purepeople.com/article/plus-aucun-traitement-ne-fonctionne-camille-lellouche-a-bout-depuis-son-accouchement-elle-lance-un-appel-a-laide_a550700/1"
+        },
+        {
+          "label": "GNews · franceinfo — \"C'est une révolution\" : pourquoi le daraxonrasib, un nouveau traitement contre le cancer du pancréas, suscite de grands espoirs",
+          "url": "https://www.franceinfo.fr/sante/cancer/c-est-une-revolution-pourquoi-le-daraxonrasib-un-nouveau-traitement-contre-le-cancer-du-pancreas-suscite-de-grands-espoirs_8014325.html"
+        },
+        {
+          "label": "YouTube · Aficionado Football — CR7 qui s’énerve contre moi 😭 #cristianoronaldo #football",
+          "url": "https://www.youtube.com/watch?v=hKxM05HRpuw"
+        }
+      ],
+      "discover_category": "/Sports/Motor Sports",
+      "discover_entities": [
+        "Grand Prix Brembo d'Italie",
+        "Marc Márquez",
+        "MotoGP",
         "Sport"
       ]
     },
     {
-      "id": "s20",
-      "rank": 20,
+      "id": "s22",
+      "rank": 22,
       "title": "« Force à toutes » : le message d’Anouchka Delon après les accusations contre Patrick Bruel fait réagir",
       "theme": "actualite",
-      "score": 29,
-      "tier": "low",
-      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 3 médias.",
+      "score": 30,
+      "tier": "medium",
+      "rationale": "Forte audience Wikipedia (31 719 vues/jour) · couvert par 3 médias · présent dans YouTube Trending FR.",
       "signals": [
         {
           "source": "discover",
@@ -2283,6 +2602,11 @@
           "source": "wiki",
           "label": "wiki",
           "value": "32k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "2k /h"
         },
         {
           "source": "msn",
@@ -2328,8 +2652,8 @@
         },
         {
           "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
+          "value": "2k /h",
+          "fill": 16
         }
       ],
       "score_breakdown": {
@@ -2340,8 +2664,8 @@
         "msn": 15.0,
         "x": 0.0,
         "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 28.8
+        "youtube": 16.3,
+        "total": 29.9
       },
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/force-à-toutes-le-message-d-anouchka-delon-après-les-accusations-contre-patrick-bruel-fait-réagir/ar-AA24sEb0?ocid=00000000",
       "msn_image": "https://th.bing.com/th?id=ORMS.875ff0d055c5a5bb6012ceb9879e479c&pid=Wdp",
@@ -2366,6 +2690,10 @@
         {
           "label": "GNews · Closer — Patrick Bruel, une obsession pour \"l’inter-fessier\" ? Des femmes racontent, \"il voulait un massage exclusif des fesses\"",
           "url": "https://www.closermag.fr/people/patrick-bruel-une-obsession-pour-linter-fessier-des-femmes-racontent-il-voulait-un-massage-exclusif-des-fesses-3639058"
+        },
+        {
+          "label": "YouTube · BFMTV — Affaire Patrick Bruel: le chanteur ne participera pas à la prochaine édition des Enfoirés en 2027",
+          "url": "https://www.youtube.com/watch?v=m4waSF49Ss4"
         }
       ],
       "discover_category": "/Sports/Team Sports/Soccer",
@@ -2376,8 +2704,245 @@
       ]
     },
     {
-      "id": "s21",
-      "rank": 21,
+      "id": "s23",
+      "rank": 23,
+      "title": "PSG - Arsenal : un sale coup à la Cristiano Ronaldo subit par les Parisiens",
+      "theme": "sport",
+      "score": 29,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · repris sur Google Actualités · vidéo YouTube en explosion (50 878/h vues).",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "8k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "51k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "24+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.1",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "8k vues/h",
+          "fill": 38
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "21/100",
+          "fill": 21
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "51k /h",
+          "fill": 100
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.5,
+        "trends": 0.0,
+        "wiki": 38.9,
+        "gnews": 35.0,
+        "msn": 21.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 100.0,
+        "total": 29.4
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-un-sale-coup-à-la-cristiano-ronaldo-subit-par-les-parisiens/ar-AA24rfGl?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.8c9a3f18823160d0470d24152a5cc5ac&pid=Wdp",
+      "msn_source_name": "Onze Mondial",
+      "refs": [
+        {
+          "label": "MSN · Onze Mondial — PSG - Arsenal : un sale coup à la Cristiano Ronaldo subit par les Parisiens",
+          "url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-un-sale-coup-à-la-cristiano-ronaldo-subit-par-les-parisiens/ar-AA24rfGl?ocid=00000000"
+        },
+        {
+          "label": "Discover · France 24 — PSG - Arsenal : Paris encore champion ! Revivez la finale",
+          "url": "https://www.france24.com/fr/sports/20260530-psg-arsenal-direct-finale-ligue-champions"
+        },
+        {
+          "label": "GNews · Le Monde.fr — EN DIRECT, PSG-Arsenal | Parade sur le Champ-de-Mars, réception à l’Elysée, soirée au Parc des princes : le programme des célébrations",
+          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-parade-sur-le-champ-de-mars-reception-a-l-elysee-soiree-au-parc-des-princes-le-programme-des-celebrations_6695252_3242.html"
+        },
+        {
+          "label": "YouTube · CANAL+ Sport — Le résumé de PSG / Arsenal - Ligue des champions 2025/2026 (FINALE)",
+          "url": "https://www.youtube.com/watch?v=yoIGpUCVmc4"
+        }
+      ],
+      "discover_category": "/Sports/Team Sports/Soccer",
+      "discover_entities": [
+        "Arsenal",
+        "PSGFC",
+        "Sport"
+      ]
+    },
+    {
+      "id": "s24",
+      "rank": 24,
+      "title": "Roland-Garros. « L’humanité ne devrait jamais être optionnelle » : Oliynykova charge encore son adversaire russe",
+      "theme": "sport",
+      "score": 29,
+      "tier": "low",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités · présent dans YouTube Trending FR.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "1.3/65"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "500"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "5k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "5k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "25+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 1.3",
+          "fill": 5
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "500",
+          "fill": 1
+        },
+        {
+          "name": "Wikimedia",
+          "value": "5k vues/h",
+          "fill": 25
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "50/100",
+          "fill": 49
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "5k /h",
+          "fill": 49
+        }
+      ],
+      "score_breakdown": {
+        "discover": 5.9,
+        "trends": 1.1,
+        "wiki": 25.4,
+        "gnews": 35.0,
+        "msn": 49.8,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 49.6,
+        "total": 29.4
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-l-humanité-ne-devrait-jamais-être-optionnelle-oliynykova-charge-encore-son-adversaire-russe/ar-AA24reNV?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.613497e0e546210e98e6777e37d56604&pid=Wdp",
+      "msn_source_name": "Ouest-France",
+      "refs": [
+        {
+          "label": "MSN · Ouest-France — Roland-Garros. « L’humanité ne devrait jamais être optionnelle » : Oliynykova charge encore son adversaire russe",
+          "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-l-humanité-ne-devrait-jamais-être-optionnelle-oliynykova-charge-encore-son-adversaire-russe/ar-AA24reNV?ocid=00000000"
+        },
+        {
+          "label": "Discover · Olympics — Roland-Garros 2026 - Moïse Kouamé épate la planète tennis : « Je vais être fan de lui pendant toute sa carrière »",
+          "url": "https://www.olympics.com/fr/infos/roland-garros-2026-moise-kouame-epate-la-planete-tennis-je-vais-etre-fan-de-lui-pendant-toute-sa-carriere"
+        },
+        {
+          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
+          "url": "https://tvmag.lefigaro.fr/programme-tv/people/roland-garros-vianney-en-tribunes-avec-sa-femme-catherine-robert-enceinte-de-leur-deuxieme-enfant-20260530"
+        },
+        {
+          "label": "YouTube · slash — Combien gagne un ramasseur de balles à Roland-Garros ? On s'est renseigné 🧐",
+          "url": "https://www.youtube.com/watch?v=1Z650ENTsFI"
+        }
+      ],
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
+      "discover_entities": [
+        "Roland-Garros",
+        "Sport",
+        "Tennis"
+      ]
+    },
+    {
+      "id": "s25",
+      "rank": 25,
       "title": "« J’ai demandé à ce qu’on abrège ma vie » : Mireille Dumas fait des confidences bouleversantes sur sa fin de vie",
       "theme": "divertissement",
       "score": 28,
@@ -2469,8 +3034,358 @@
       ]
     },
     {
-      "id": "s22",
-      "rank": 22,
+      "id": "s26",
+      "rank": 26,
+      "title": "Scandale sexiste à Roland-Garros : les propos d’Adolfo Vallejo indignent le tournoi et la communauté du tennis",
+      "theme": "sport",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités · présent dans YouTube Trending FR.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "1.3/65"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "1 média"
+        },
+        {
+          "source": "trends",
+          "label": "trends",
+          "value": "500"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "5k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "5k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "13+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 1.3",
+          "fill": 5
+        },
+        {
+          "name": "Google News",
+          "value": "1 média",
+          "fill": 35
+        },
+        {
+          "name": "Google Trends",
+          "value": "500",
+          "fill": 1
+        },
+        {
+          "name": "Wikimedia",
+          "value": "5k vues/h",
+          "fill": 25
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "19/100",
+          "fill": 19
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "5k /h",
+          "fill": 49
+        }
+      ],
+      "score_breakdown": {
+        "discover": 5.9,
+        "trends": 1.1,
+        "wiki": 25.4,
+        "gnews": 35.0,
+        "msn": 19.1,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 49.6,
+        "total": 25.4
+      },
+      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/scandale-sexiste-à-roland-garros-les-propos-d-adolfo-vallejo-indignent-le-tournoi-et-la-communauté-du-tennis/ar-AA24qOsK?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.5b57bc47d30b16caf3e320338812ae92&pid=Wdp",
+      "msn_source_name": "Ohmymag FR",
+      "refs": [
+        {
+          "label": "MSN · Ohmymag FR — Scandale sexiste à Roland-Garros : les propos d’Adolfo Vallejo indignent le tournoi et la communauté du tennis",
+          "url": "https://www.msn.com/fr-fr/sport/tennis/scandale-sexiste-à-roland-garros-les-propos-d-adolfo-vallejo-indignent-le-tournoi-et-la-communauté-du-tennis/ar-AA24qOsK?ocid=00000000"
+        },
+        {
+          "label": "Discover · Olympics — Roland-Garros 2026 - Moïse Kouamé épate la planète tennis : « Je vais être fan de lui pendant toute sa carrière »",
+          "url": "https://www.olympics.com/fr/infos/roland-garros-2026-moise-kouame-epate-la-planete-tennis-je-vais-etre-fan-de-lui-pendant-toute-sa-carriere"
+        },
+        {
+          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
+          "url": "https://tvmag.lefigaro.fr/programme-tv/people/roland-garros-vianney-en-tribunes-avec-sa-femme-catherine-robert-enceinte-de-leur-deuxieme-enfant-20260530"
+        },
+        {
+          "label": "YouTube · slash — Combien gagne un ramasseur de balles à Roland-Garros ? On s'est renseigné 🧐",
+          "url": "https://www.youtube.com/watch?v=1Z650ENTsFI"
+        }
+      ],
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
+      "discover_entities": [
+        "Roland-Garros",
+        "Sport",
+        "Tennis"
+      ]
+    },
+    {
+      "id": "s27",
+      "rank": 27,
+      "title": "Jordan Bardella : ce que l’exposition de Maria Carolina change dans son image publique",
+      "theme": "divertissement",
+      "score": 25,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · couvert par 2 médias · présent dans YouTube Trending FR.",
+      "signals": [
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "2 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "5k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "2k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "22+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "2 médias",
+          "fill": 57
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "5k vues/h",
+          "fill": 24
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "15/100",
+          "fill": 15
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "2k /h",
+          "fill": 23
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 0.0,
+        "wiki": 24.5,
+        "gnews": 57.1,
+        "msn": 15.0,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 23.3,
+        "total": 24.5
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/actualite/jordan-bardella-ce-que-l-exposition-de-maria-carolina-change-dans-son-image-publique/ar-AA24fudG?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.617595799a181fb106944351b81fa39c&pid=Wdp",
+      "msn_source_name": "So Busy Girls",
+      "refs": [
+        {
+          "label": "MSN · So Busy Girls — Jordan Bardella : ce que l’exposition de Maria Carolina change dans son image publique",
+          "url": "https://www.msn.com/fr-fr/divertissement/actualite/jordan-bardella-ce-que-l-exposition-de-maria-carolina-change-dans-son-image-publique/ar-AA24fudG?ocid=00000000"
+        },
+        {
+          "label": "GNews · grazia.fr — \"Je l’aime\" : en plein direct, Jordan Bardella fait une déclaration inattendue à sa compagne Maria Carolina",
+          "url": "https://www.grazia.fr/people/je-laime-en-plein-direct-jordan-bardella-fait-une-declaration-inattendue-a-sa-compagne-maria-carolina-1250989.html"
+        },
+        {
+          "label": "GNews · Yahoo Actualités — INFO BFMTV. Youtube ne retirera pas le clip \"Un facho K.O\" du rappeur Soli, visé par une plainte de Jordan Bardella",
+          "url": "https://fr.news.yahoo.com/info-bfmtv-youtube-ne-retirera-182952650.html"
+        },
+        {
+          "label": "YouTube · Jordan Bardella — Jordan Bardella sur LCI : « L'élection présidentielle sera un choix de civilisation ! »",
+          "url": "https://www.youtube.com/watch?v=2ERjKSrwPu8"
+        }
+      ],
+      "discover_category": null,
+      "discover_entities": []
+    },
+    {
+      "id": "s28",
+      "rank": 28,
+      "title": "The Voice : en pleine finale, Amel Bent fait une allusion remarquée à l’affaire Patrick Bruel",
+      "theme": "divertissement",
+      "score": 24,
+      "tier": "low",
+      "rationale": "Présent dans le top Wikipedia · couvert par 3 médias · présent dans YouTube Trending FR · engagement MSN élevé.",
+      "signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "présent"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "3 médias"
+        },
+        {
+          "source": "wiki",
+          "label": "wiki",
+          "value": "3k vues"
+        },
+        {
+          "source": "youtube",
+          "label": "youtube",
+          "value": "2k /h"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "70+ react."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google Discover",
+          "value": "score 0.0",
+          "fill": 0
+        },
+        {
+          "name": "Google News",
+          "value": "3 médias",
+          "fill": 70
+        },
+        {
+          "name": "Google Trends",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "Wikimedia",
+          "value": "3k vues/h",
+          "fill": 17
+        },
+        {
+          "name": "X velocity",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "MSN engagement",
+          "value": "87/100",
+          "fill": 86
+        },
+        {
+          "name": "Reddit FR",
+          "value": "—",
+          "fill": 0
+        },
+        {
+          "name": "YouTube velocity",
+          "value": "2k /h",
+          "fill": 16
+        }
+      ],
+      "score_breakdown": {
+        "discover": 0.0,
+        "trends": 0.0,
+        "wiki": 17.7,
+        "gnews": 70.0,
+        "msn": 86.7,
+        "x": 0.0,
+        "reddit": 0.0,
+        "youtube": 16.3,
+        "total": 24.3
+      },
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/tv/the-voice-en-pleine-finale-amel-bent-fait-une-allusion-remarquée-à-l-affaire-patrick-bruel/ar-AA24qNRd?ocid=00000000",
+      "msn_image": "https://th.bing.com/th?id=ORMS.b82b45d64e708bff83e5a60d0b789216&pid=Wdp",
+      "msn_source_name": "Stars Actu",
+      "refs": [
+        {
+          "label": "MSN · Stars Actu — The Voice : en pleine finale, Amel Bent fait une allusion remarquée à l’affaire Patrick Bruel",
+          "url": "https://www.msn.com/fr-fr/divertissement/tv/the-voice-en-pleine-finale-amel-bent-fait-une-allusion-remarquée-à-l-affaire-patrick-bruel/ar-AA24qNRd?ocid=00000000"
+        },
+        {
+          "label": "Discover · Claap — De Mauguio aux sommets de « The Voice » : c’est soir de finale pour Hugo Derose",
+          "url": "https://claap.fr/de-mauguio-aux-sommets-de-the-voice-cest-soir-de-finale-pourhugo-derose/"
+        },
+        {
+          "label": "GNews · Linternaute.com — Patrick Bruel : sa tournée d'été annulée, ses dates parisiennes également supprimées",
+          "url": "https://www.linternaute.com/actualite/personnalites/10084339-patrick-bruel-sa-tournee-dete-annulee-ses-dates-parisiennes-egalement-supprimees/"
+        },
+        {
+          "label": "GNews · Closer — Patrick Bruel, une obsession pour \"l’inter-fessier\" ? Des femmes racontent, \"il voulait un massage exclusif des fesses\"",
+          "url": "https://www.closermag.fr/people/patrick-bruel-une-obsession-pour-linter-fessier-des-femmes-racontent-il-voulait-un-massage-exclusif-des-fesses-3639058"
+        },
+        {
+          "label": "GNews · public.fr — Flavie Flament : \"épuisée\" par son \"combat\" contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
+          "url": "https://www.public.fr/flavie-flament-epuisee-par-son-combat-contre-patrick-bruel-lanimatrice-prend-une-decision-radicale-pour-sa-sante"
+        },
+        {
+          "label": "YouTube · BFMTV — Affaire Patrick Bruel: le chanteur ne participera pas à la prochaine édition des Enfoirés en 2027",
+          "url": "https://www.youtube.com/watch?v=m4waSF49Ss4"
+        }
+      ],
+      "discover_category": "/Arts & Entertainment/TV & Video/TV Shows & Programs",
+      "discover_entities": [
+        "The Voice : La Plus Belle Voix"
+      ]
+    },
+    {
+      "id": "s29",
+      "rank": 29,
       "title": "Navire de guerre endommagé à Wilmershaven : la Russie derrière 10 actes de sabotage?",
       "theme": "actualite",
       "score": 24,
@@ -2575,8 +3490,8 @@
       "discover_entities": []
     },
     {
-      "id": "s23",
-      "rank": 23,
+      "id": "s30",
+      "rank": 30,
       "title": "Restaurant : \"C'est de l'irrespect\", ce mauvais comportement des clients exaspère les chefs, il touche 70 % du secteur en France",
       "theme": "finance",
       "score": 24,
@@ -2664,768 +3579,6 @@
       "discover_entities": [
         "Grand Frais",
         "Supermarché"
-      ]
-    },
-    {
-      "id": "s24",
-      "rank": 24,
-      "title": "Les insoumis, « marchands de haine » : Jean-Luc Mélenchon fustige les « paroles indignes » de Gabriel Attal",
-      "theme": "actualite",
-      "score": 23,
-      "tier": "low",
-      "rationale": "Présent dans le top Wikipedia · couvert par 2 médias · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "3k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "139+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.3",
-          "fill": 1
-        },
-        {
-          "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "3k vues/h",
-          "fill": 17
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 1.4,
-        "trends": 0.0,
-        "wiki": 17.6,
-        "gnews": 57.1,
-        "msn": 100.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 23.4
-      },
-      "msn_url": "https://www.msn.com/fr-fr/actualite/elections/les-insoumis-marchands-de-haine-jean-luc-mélenchon-fustige-les-paroles-indignes-de-gabriel-attal/ar-AA24qUSQ?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.fe09bf71a3d9b332d17331d3e7f4ae96&pid=Wdp",
-      "msn_source_name": "Le Parisien",
-      "refs": [
-        {
-          "label": "MSN · Le Parisien — Les insoumis, « marchands de haine » : Jean-Luc Mélenchon fustige les « paroles indignes » de Gabriel Attal",
-          "url": "https://www.msn.com/fr-fr/actualite/elections/les-insoumis-marchands-de-haine-jean-luc-mélenchon-fustige-les-paroles-indignes-de-gabriel-attal/ar-AA24qUSQ?ocid=00000000"
-        },
-        {
-          "label": "Discover · Le Républicain Lorrain — Montigny-lès-Metz. Les cailloux de Jean-Luc Bohl",
-          "url": "https://www.republicain-lorrain.fr/insolite/2026/05/30/les-cailloux-de-jean-luc-bohl"
-        },
-        {
-          "label": "GNews · Le Parisien — Les insoumis, « marchands de haine » : Jean-Luc Mélenchon fustige les « paroles indignes » de Gabriel Attal",
-          "url": "https://www.leparisien.fr/politique/les-insoumis-marchands-de-haine-jean-luc-melenchon-fustige-les-paroles-indignes-de-gabriel-attal-30-05-2026-UGF5UVBNBFC4RIJ7DRHWWKXUWA.php"
-        },
-        {
-          "label": "GNews · Ouest-France — Une manifestation anti-Bolloré près de L’Olympia en présence de Jean-Luc Mélenchon et Adèle Haenel - Ouest-France",
-          "url": "https://www.ouest-france.fr/societe/manifestation/une-manifestation-anti-bollore-pres-de-lolympia-en-presence-de-jean-luc-melenchon-et-adele-haenel-96e510a8-5c3a-11f1-b2c7-21f7efea5d61"
-        }
-      ],
-      "discover_category": "/News",
-      "discover_entities": [
-        "Jean-Luc Bohl"
-      ]
-    },
-    {
-      "id": "s25",
-      "rank": 25,
-      "title": "The Voice : en pleine finale, Amel Bent fait une allusion remarquée à l’affaire Patrick Bruel",
-      "theme": "divertissement",
-      "score": 23,
-      "tier": "low",
-      "rationale": "Présent dans le top Wikipedia · couvert par 3 médias · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "3 médias"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "3k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "70+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.0",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "3 médias",
-          "fill": 70
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "3k vues/h",
-          "fill": 17
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "87/100",
-          "fill": 86
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.0,
-        "trends": 0.0,
-        "wiki": 17.7,
-        "gnews": 70.0,
-        "msn": 86.7,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 23.2
-      },
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/tv/the-voice-en-pleine-finale-amel-bent-fait-une-allusion-remarquée-à-l-affaire-patrick-bruel/ar-AA24qNRd?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.b82b45d64e708bff83e5a60d0b789216&pid=Wdp",
-      "msn_source_name": "Stars Actu",
-      "refs": [
-        {
-          "label": "MSN · Stars Actu — The Voice : en pleine finale, Amel Bent fait une allusion remarquée à l’affaire Patrick Bruel",
-          "url": "https://www.msn.com/fr-fr/divertissement/tv/the-voice-en-pleine-finale-amel-bent-fait-une-allusion-remarquée-à-l-affaire-patrick-bruel/ar-AA24qNRd?ocid=00000000"
-        },
-        {
-          "label": "Discover · Claap — De Mauguio aux sommets de « The Voice » : c’est soir de finale pour Hugo Derose",
-          "url": "https://claap.fr/de-mauguio-aux-sommets-de-the-voice-cest-soir-de-finale-pourhugo-derose/"
-        },
-        {
-          "label": "GNews · Linternaute.com — Patrick Bruel : sa tournée d'été annulée, ses dates parisiennes également supprimées",
-          "url": "https://www.linternaute.com/actualite/personnalites/10084339-patrick-bruel-sa-tournee-dete-annulee-ses-dates-parisiennes-egalement-supprimees/"
-        },
-        {
-          "label": "GNews · Closer — Patrick Bruel, une obsession pour \"l’inter-fessier\" ? Des femmes racontent, \"il voulait un massage exclusif des fesses\"",
-          "url": "https://www.closermag.fr/people/patrick-bruel-une-obsession-pour-linter-fessier-des-femmes-racontent-il-voulait-un-massage-exclusif-des-fesses-3639058"
-        },
-        {
-          "label": "GNews · public.fr — Flavie Flament : \"épuisée\" par son \"combat\" contre Patrick Bruel, l'animatrice prend une décision radicale pour sa santé",
-          "url": "https://www.public.fr/flavie-flament-epuisee-par-son-combat-contre-patrick-bruel-lanimatrice-prend-une-decision-radicale-pour-sa-sante"
-        }
-      ],
-      "discover_category": "/Arts & Entertainment/TV & Video/TV Shows & Programs",
-      "discover_entities": [
-        "The Voice : La Plus Belle Voix"
-      ]
-    },
-    {
-      "id": "s26",
-      "rank": 26,
-      "title": "Roland-Garros, le beau geste d’une joueuse envers un ramasseur (vidéo)",
-      "theme": "sport",
-      "score": 23,
-      "tier": "low",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "500"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "5k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "56+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "1 média",
-          "fill": 35
-        },
-        {
-          "name": "Google Trends",
-          "value": "500",
-          "fill": 1
-        },
-        {
-          "name": "Wikimedia",
-          "value": "5k vues/h",
-          "fill": 25
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "76/100",
-          "fill": 76
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 1.1,
-        "wiki": 25.4,
-        "gnews": 35.0,
-        "msn": 76.5,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 23.2
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-le-beau-geste-d-une-joueuse-envers-un-ramasseur-vidéo/ar-AA24q9dO?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.b9f3948ee52898a557cff1b147b3c82d&pid=Wdp",
-      "msn_source_name": "Sports.fr",
-      "refs": [
-        {
-          "label": "MSN · Sports.fr — Roland-Garros, le beau geste d’une joueuse envers un ramasseur (vidéo)",
-          "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-le-beau-geste-d-une-joueuse-envers-un-ramasseur-vidéo/ar-AA24q9dO?ocid=00000000"
-        },
-        {
-          "label": "Discover · Le Monde.fr — Roland-Garros 2026 : le programme du dimanche 31 mai",
-          "url": "https://www.lemonde.fr/sport/article/2026/05/31/roland-garros-2026-le-programme-du-dimanche-31-mai_6695548_3242.html"
-        },
-        {
-          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
-          "url": "https://tvmag.lefigaro.fr/programme-tv/people/roland-garros-vianney-en-tribunes-avec-sa-femme-catherine-robert-enceinte-de-leur-deuxieme-enfant-20260530"
-        }
-      ],
-      "discover_category": "/Sports/Individual Sports/Racquet Sports",
-      "discover_entities": [
-        "Roland-Garros",
-        "Sport",
-        "Tennis"
-      ]
-    },
-    {
-      "id": "s27",
-      "rank": 27,
-      "title": "Novak Djokovic s’emporte face à un caméraman à Roland-Garros, cette séquence qui n’est pas passée inaperçue",
-      "theme": "sport",
-      "score": 23,
-      "tier": "low",
-      "rationale": "Présent sur Google Trends · forte audience Wikipedia (18 617 vues/jour) · repris sur Google Actualités.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "500"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "19k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "15+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "1 média",
-          "fill": 35
-        },
-        {
-          "name": "Google Trends",
-          "value": "500",
-          "fill": 1
-        },
-        {
-          "name": "Wikimedia",
-          "value": "19k vues/h",
-          "fill": 75
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "28/100",
-          "fill": 28
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 1.1,
-        "wiki": 75.9,
-        "gnews": 35.0,
-        "msn": 28.5,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 23.0
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/novak-djokovic-s-emporte-face-à-un-caméraman-à-roland-garros-cette-séquence-qui-n-est-pas-passée-inaperçue/ar-AA24qaUe?ocid=00000000",
-      "msn_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24qETF.img",
-      "msn_source_name": "Gala (French)",
-      "refs": [
-        {
-          "label": "MSN · Gala (French) — Novak Djokovic s’emporte face à un caméraman à Roland-Garros, cette séquence qui n’est pas passée inaperçue",
-          "url": "https://www.msn.com/fr-fr/sport/tennis/novak-djokovic-s-emporte-face-à-un-caméraman-à-roland-garros-cette-séquence-qui-n-est-pas-passée-inaperçue/ar-AA24qaUe?ocid=00000000"
-        },
-        {
-          "label": "Discover · Le Monde.fr — Roland-Garros 2026 : le programme du dimanche 31 mai",
-          "url": "https://www.lemonde.fr/sport/article/2026/05/31/roland-garros-2026-le-programme-du-dimanche-31-mai_6695548_3242.html"
-        },
-        {
-          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
-          "url": "https://tvmag.lefigaro.fr/programme-tv/people/roland-garros-vianney-en-tribunes-avec-sa-femme-catherine-robert-enceinte-de-leur-deuxieme-enfant-20260530"
-        }
-      ],
-      "discover_category": "/Sports/Individual Sports/Racquet Sports",
-      "discover_entities": [
-        "Roland-Garros",
-        "Sport",
-        "Tennis"
-      ]
-    },
-    {
-      "id": "s28",
-      "rank": 28,
-      "title": "PSG - Arsenal : Dembélé sort du silence sur sa sortie !",
-      "theme": "sport",
-      "score": 23,
-      "tier": "low",
-      "rationale": "Repris sur Google Actualités · vidéo YouTube en explosion (37 082/h vues).",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "présent"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "youtube",
-          "label": "youtube",
-          "value": "37k /h"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "28+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 0.1",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "1 média",
-          "fill": 35
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "45/100",
-          "fill": 45
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "37k /h",
-          "fill": 100
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.5,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 35.0,
-        "msn": 45.2,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 100.0,
-        "total": 22.9
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-dembélé-sort-du-silence-sur-sa-sortie/ar-AA24rzis?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.83028d5d4df7e64be9cfdd270486c24a&pid=Wdp",
-      "msn_source_name": "Onze Mondial",
-      "refs": [
-        {
-          "label": "MSN · Onze Mondial — PSG - Arsenal : Dembélé sort du silence sur sa sortie !",
-          "url": "https://www.msn.com/fr-fr/sport/football/psg-arsenal-dembélé-sort-du-silence-sur-sa-sortie/ar-AA24rzis?ocid=00000000"
-        },
-        {
-          "label": "Discover · France 24 — PSG - Arsenal : Paris encore champion ! Revivez la finale",
-          "url": "https://www.france24.com/fr/sports/20260530-psg-arsenal-direct-finale-ligue-champions"
-        },
-        {
-          "label": "GNews · Le Monde.fr — EN DIRECT, PSG-Arsenal | Parade sur le Champ-de-Mars, réception à l’Elysée, soirée au Parc des princes : le programme des célébrations",
-          "url": "https://www.lemonde.fr/sport/live/2026/05/31/en-direct-psg-arsenal-parade-sur-le-champ-de-mars-reception-a-l-elysee-soiree-au-parc-des-princes-le-programme-des-celebrations_6695252_3242.html"
-        },
-        {
-          "label": "YouTube · Gamer BR - M1l Grau — 🔴PES 2021 ATUALIZADO 2026 | PSG - Arsenal | UCL | SIMULANDO A PARTIDA NO PC STEAM COM FACECAN",
-          "url": "https://www.youtube.com/watch?v=mIYl6R-TAtI"
-        }
-      ],
-      "discover_category": "/Sports/Team Sports/Soccer",
-      "discover_entities": [
-        "Arsenal",
-        "PSGFC",
-        "Sport"
-      ]
-    },
-    {
-      "id": "s29",
-      "rank": 29,
-      "title": "Sécurité sociale : face au déficit, la Cour des comptes suggère un prélèvement direct sur les comptes bancaires des patients",
-      "theme": "finance",
-      "score": 21,
-      "tier": "low",
-      "rationale": "Couvert par 2 médias · engagement MSN élevé.",
-      "signals": [
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "2 médias"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "102+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Google News",
-          "value": "2 médias",
-          "fill": 57
-        },
-        {
-          "name": "Google Trends",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "Wikimedia",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "100/100",
-          "fill": 100
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 0.0,
-        "trends": 0.0,
-        "wiki": 0.0,
-        "gnews": 57.1,
-        "msn": 100.0,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 21.0
-      },
-      "msn_url": "https://www.msn.com/fr-fr/finance/autres/sécurité-sociale-face-au-déficit-la-cour-des-comptes-suggère-un-prélèvement-direct-sur-les-comptes-bancaires-des-patients/ar-AA24qTlu?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.8b7403dabe44e4b15c9aed3dbbb3aaa3&pid=Wdp",
-      "msn_source_name": "Econostrum.info",
-      "refs": [
-        {
-          "label": "MSN · Econostrum.info — Sécurité sociale : face au déficit, la Cour des comptes suggère un prélèvement direct sur les comptes bancaires des patients",
-          "url": "https://www.msn.com/fr-fr/finance/autres/sécurité-sociale-face-au-déficit-la-cour-des-comptes-suggère-un-prélèvement-direct-sur-les-comptes-bancaires-des-patients/ar-AA24qTlu?ocid=00000000"
-        },
-        {
-          "label": "GNews · Le Monde.fr — Cour des comptes : la nomination de Najat Vallaud-Belkacem attaquée devant le Conseil d’Etat par des députés RN",
-          "url": "https://www.lemonde.fr/politique/article/2026/05/28/cour-des-comptes-la-nomination-de-najat-vallaud-belkacem-attaquee-devant-le-conseil-d-etat-par-des-deputes-rn_6694513_823448.html"
-        },
-        {
-          "label": "GNews · L'Avenir — Le lupus, la détresse des patients face à une maladie rare et difficile à diagnostiquer: \"Il a fallu sept ans pour qu'on sache de quoi je souffre\"",
-          "url": "https://www.lavenir.net/actu/societe/sante/2026/05/29/le-lupus-la-detresse-des-patients-face-a-une-maladie-rare-et-difficile-a-diagnostiquer-il-a-fallu-sept-ans-pour-quon-sache-de-quoi-je-souffre-UA6TCCSY3JEDRLUXJPSXISC7XM/"
-        }
-      ],
-      "discover_category": null,
-      "discover_entities": []
-    },
-    {
-      "id": "s30",
-      "rank": 30,
-      "title": "Roland-Garros. « L’humanité ne devrait jamais être optionnelle » : Oliynykova charge encore son adversaire russe",
-      "theme": "sport",
-      "score": 21,
-      "tier": "low",
-      "rationale": "Présent sur Google Trends · présent dans le top Wikipedia · repris sur Google Actualités.",
-      "signals": [
-        {
-          "source": "discover",
-          "label": "discover",
-          "value": "1.3/65"
-        },
-        {
-          "source": "gnews",
-          "label": "gnews",
-          "value": "1 média"
-        },
-        {
-          "source": "trends",
-          "label": "trends",
-          "value": "500"
-        },
-        {
-          "source": "wiki",
-          "label": "wiki",
-          "value": "5k vues"
-        },
-        {
-          "source": "msn",
-          "label": "msn",
-          "value": "25+ react."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Google Discover",
-          "value": "score 1.3",
-          "fill": 5
-        },
-        {
-          "name": "Google News",
-          "value": "1 média",
-          "fill": 35
-        },
-        {
-          "name": "Google Trends",
-          "value": "500",
-          "fill": 1
-        },
-        {
-          "name": "Wikimedia",
-          "value": "5k vues/h",
-          "fill": 25
-        },
-        {
-          "name": "X velocity",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "MSN engagement",
-          "value": "50/100",
-          "fill": 49
-        },
-        {
-          "name": "Reddit FR",
-          "value": "—",
-          "fill": 0
-        },
-        {
-          "name": "YouTube velocity",
-          "value": "—",
-          "fill": 0
-        }
-      ],
-      "score_breakdown": {
-        "discover": 5.9,
-        "trends": 1.1,
-        "wiki": 25.4,
-        "gnews": 35.0,
-        "msn": 49.8,
-        "x": 0.0,
-        "reddit": 0.0,
-        "youtube": 0.0,
-        "total": 20.9
-      },
-      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-l-humanité-ne-devrait-jamais-être-optionnelle-oliynykova-charge-encore-son-adversaire-russe/ar-AA24reNV?ocid=00000000",
-      "msn_image": "https://th.bing.com/th?id=ORMS.613497e0e546210e98e6777e37d56604&pid=Wdp",
-      "msn_source_name": "Ouest-France",
-      "refs": [
-        {
-          "label": "MSN · Ouest-France — Roland-Garros. « L’humanité ne devrait jamais être optionnelle » : Oliynykova charge encore son adversaire russe",
-          "url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-l-humanité-ne-devrait-jamais-être-optionnelle-oliynykova-charge-encore-son-adversaire-russe/ar-AA24reNV?ocid=00000000"
-        },
-        {
-          "label": "Discover · Olympics — Roland-Garros 2026 - Moïse Kouamé épate la planète tennis : « Je vais être fan de lui pendant toute sa carrière »",
-          "url": "https://www.olympics.com/fr/infos/roland-garros-2026-moise-kouame-epate-la-planete-tennis-je-vais-etre-fan-de-lui-pendant-toute-sa-carriere"
-        },
-        {
-          "label": "GNews · TV Magazine — Roland-Garros : Vianney en tribunes, avec sa femme Catherine Robert enceinte de leur deuxième enfant",
-          "url": "https://tvmag.lefigaro.fr/programme-tv/people/roland-garros-vianney-en-tribunes-avec-sa-femme-catherine-robert-enceinte-de-leur-deuxieme-enfant-20260530"
-        }
-      ],
-      "discover_category": "/Sports/Individual Sports/Racquet Sports",
-      "discover_entities": [
-        "Roland-Garros",
-        "Sport",
-        "Tennis"
       ]
     }
   ],
