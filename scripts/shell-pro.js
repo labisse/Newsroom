@@ -46,6 +46,26 @@ const svg = (paths, w = 15, hp = 15) => {
 
 const searchIcon = () => svg('<circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/>', 15, 15);
 
+/* ---- Logo Editorial Signal : barres ascendantes + balise (piste A) ---- */
+const brandMarkSvg = () => {
+  const NS = "http://www.w3.org/2000/svg";
+  const s = document.createElementNS(NS, "svg");
+  s.setAttribute("viewBox", "0 0 48 48");
+  s.setAttribute("fill", "none");
+  s.setAttribute("width", "30");
+  s.setAttribute("height", "30");
+  s.setAttribute("aria-label", "Editorial Signal");
+  s.innerHTML = `
+    <rect x="5"  y="30" width="7" height="12" rx="2.4" fill="#5A6275"/>
+    <rect x="16" y="23" width="7" height="19" rx="2.4" fill="#F5B14B"/>
+    <rect x="27" y="15" width="7" height="27" rx="2.4" fill="#FF8A5B"/>
+    <rect x="38" y="11" width="7" height="31" rx="2.4" fill="#FF6A4D"/>
+    <circle cx="41.5" cy="5.5" r="5"   fill="rgba(255,106,77,0.22)"/>
+    <circle cx="41.5" cy="5.5" r="2.7" fill="#FF6A4D" class="brand-beacon"/>
+  `;
+  return s;
+};
+
 const renderShell = (activeKey, opts = {}) => {
   const mount = document.getElementById("shell-mount");
   if (!mount) return;
@@ -59,12 +79,22 @@ const renderShell = (activeKey, opts = {}) => {
       h(
         "a",
         { class: "cp-brand", href: "index.html", style: "text-decoration:none" },
-        h("div", { class: "brand-mark" }, h("span", { class: "pulse" })),
+        h("div", { class: "brand-mark" }, brandMarkSvg()),
         h(
           "div",
           { class: "brand-text" },
-          h("span", { class: "brand-name" }, "EDITORIAL SIGNAL"),
-          h("span", { class: "brand-sub" }, "The Black Room"),
+          h(
+            "span",
+            { class: "brand-name" },
+            "EDITORIAL ",
+            h("span", { class: "brand-name__accent" }, "SIGNAL"),
+          ),
+          h(
+            "span",
+            { class: "brand-sub" },
+            h("span", { class: "brand-sub__dot" }),
+            "The Black Room",
+          ),
         ),
       ),
       h(

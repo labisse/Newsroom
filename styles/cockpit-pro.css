@@ -151,31 +151,24 @@ body::before {
 .brand-mark {
   width: 30px;
   height: 30px;
-  border-radius: 8px;
-  background: var(--hot);
   position: relative;
   display: grid;
   place-items: center;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 6px 18px -6px rgba(255, 106, 77, 0.6);
+  flex-shrink: 0;
 }
-.brand-mark::after {
-  content: "";
-  width: 11px;
-  height: 11px;
-  border-radius: 3px;
-  background: #0a0b0f;
+.brand-mark svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+  filter: drop-shadow(0 4px 10px rgba(255, 106, 77, 0.18));
 }
-.brand-mark .pulse {
-  position: absolute;
-  inset: 0;
-  border-radius: 8px;
-  box-shadow: 0 0 0 0 rgba(255, 106, 77, 0.55);
-  animation: halo 2.6s var(--ease-out) infinite;
+.brand-mark .brand-beacon {
+  transform-origin: 41.5px 5.5px;
+  animation: brand-beacon-pulse 2.6s var(--ease-out) infinite;
 }
-@keyframes halo {
-  0% { box-shadow: 0 0 0 0 rgba(255, 106, 77, 0.45); }
-  70% { box-shadow: 0 0 0 9px rgba(255, 106, 77, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(255, 106, 77, 0); }
+@keyframes brand-beacon-pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.55; }
 }
 .brand-text {
   display: flex;
@@ -187,13 +180,29 @@ body::before {
   font-size: 14px;
   letter-spacing: 0.14em;
   color: var(--fg-strong);
+  font-family: "Figtree", system-ui, sans-serif;
+  white-space: nowrap;
+}
+.brand-name__accent {
+  color: var(--hot);
 }
 .brand-sub {
+  font-family: "JetBrains Mono", monospace;
   font-size: 9px;
   letter-spacing: 0.28em;
   color: var(--fg-subtle);
-  margin-top: 3px;
+  margin-top: 4px;
   text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.brand-sub__dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--hot);
+  box-shadow: 0 0 6px var(--hot);
 }
 .nav-links {
   display: flex;

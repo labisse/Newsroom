@@ -1,5 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
-  <rect width="80" height="80" fill="#F50000"/>
-  <rect x="14" y="14" width="52" height="52" fill="none" stroke="#FFFFFF" stroke-width="6"/>
-  <path d="M 16 16 L 40 24 L 40 64 L 16 64 Z" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="10" fill="#0A0B0F"/>
+  <!-- 4 ascending signal bars : cool → warm → hot-2 → hot -->
+  <rect x="6"  y="30" width="6" height="12" rx="2" fill="#5A6275"/>
+  <rect x="16" y="23" width="6" height="19" rx="2" fill="#F5B14B"/>
+  <rect x="26" y="15" width="6" height="27" rx="2" fill="#FF8A5B"/>
+  <rect x="36" y="11" width="6" height="31" rx="2" fill="#FF6A4D"/>
+  <!-- beacon -->
+  <circle cx="39" cy="5.5" r="4.5" fill="rgba(255,106,77,0.30)"/>
+  <circle cx="39" cy="5.5" r="2.6" fill="#FF6A4D"/>
 </svg>
