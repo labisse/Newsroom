@@ -303,10 +303,10 @@ const setState = (patch) => {
 };
 
 const loadAll = async () => {
+  // Reddit retire : source desactivee en CI (cf server/cli.py)
   const sources = [
     { key: "discover", file: "discoversnoop" },
     { key: "gnews", file: "google_news" },
-    { key: "reddit", file: "reddit" },
     { key: "youtube", file: "youtube_trending" },
     { key: "trends", file: "google_trends" },
     { key: "msn", file: "msn" },
@@ -399,34 +399,13 @@ const classifyAll = () => {
     });
   });
 
-  // Reddit
-  const rPosts = (state.raw.reddit?.posts || []).slice();
-  rPosts.sort(
-    (a, b) =>
-      (b.score || 0) - (a.score || 0) ||
-      (b.cross_subs_count || 1) - (a.cross_subs_count || 1),
-  );
-  rPosts.forEach((p, i) => {
-    const cat = REDDIT_SUB_MAP[p.subreddit];
-    if (!cat) return;
-    pushItem(cat, "reddit", {
-      score: normalizeScore(null, i, rPosts.length),
-      title: p.title,
-      pub: `r/${p.subreddit}`,
-      tags:
-        p.cross_subs && p.cross_subs.length > 1
-          ? [`${p.cross_subs.length} subs`]
-          : p.domain
-            ? [p.domain]
-            : [],
-      metric: p.score
-        ? `${fmtVol(p.score)} upvotes`
-        : p.cross_subs_count > 1
-          ? `×${p.cross_subs_count} subs`
-          : null,
-      url: p.url || p.permalink,
-    });
-  });
+  // Reddit retire (source desactivee en CI). Adapter conserve hors loop
+  // pour reactivation rapide :
+  //
+  //   const rPosts = (state.raw.reddit?.posts || []).slice();
+  //   rPosts.sort((a, b) => (b.score || 0) - (a.score || 0) ||
+  //                          (b.cross_subs_count || 1) - (a.cross_subs_count || 1));
+  //   rPosts.forEach(...)
 
   // YouTube
   const yVids = (state.raw.youtube?.videos || []).slice();

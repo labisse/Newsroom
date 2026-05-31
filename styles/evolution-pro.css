@@ -242,7 +242,7 @@
 }
 .evo-heat {
   display: grid;
-  grid-template-columns: 176px repeat(6, minmax(78px, 1fr));
+  grid-template-columns: 176px repeat(5, minmax(78px, 1fr));
   gap: 4px;
   min-width: 720px;
 }

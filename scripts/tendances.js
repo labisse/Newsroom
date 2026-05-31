@@ -84,11 +84,13 @@ const HUE = {
   red: "#FB7185",
 };
 
-/* ---------- plateformes ---------- */
+/* ---------- plateformes ----------
+ * Reddit retire du selecteur : source desactivee en CI (reCAPTCHA bloque
+ * la creation d'app OAuth + RSS blackliste sur IPs GitHub Actions).
+ * Adapter conserve plus bas pour reactivation future. */
 const PLATFORMS = [
   { key: "discover", file: "discoversnoop", label: "Discover", glyph: "discover", hue: "indigo" },
   { key: "gnews", file: "google_news", label: "Google News", glyph: "gnews", hue: "blue" },
-  { key: "reddit", file: "reddit", label: "Reddit", glyph: "reddit", hue: "amber" },
   { key: "youtube", file: "youtube_trending", label: "YouTube", glyph: "youtube", hue: "red" },
   { key: "trends", file: "google_trends", label: "Google Trends", glyph: "trends", hue: "emerald" },
   { key: "wiki", file: "wikimedia", label: "Wikipédia", glyph: "wiki", hue: "purple" },

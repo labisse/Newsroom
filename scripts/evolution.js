@@ -263,7 +263,8 @@ const buildPersistent = (evo) => {
 
 /** Heatmap : on prend les category_momentum_24h et on construit une
  *  grille 10cats × 6sources avec items_count comme valeur. */
-const HEAT_COLS = ["discover", "gnews", "reddit", "youtube", "trends", "msn"];
+// Reddit retire de la heatmap : source desactivee en CI (cf server/cli.py)
+const HEAT_COLS = ["discover", "gnews", "youtube", "trends", "msn"];
 const HEAT_ROWS = [
   { cat: "Politique", key: "politique", icon: "politique" },
   { cat: "International", key: "international", icon: "international" },
@@ -316,10 +317,16 @@ const SRC_DISPLAY_LABEL = {
   youtube_trending: "Youtube",
 };
 
+// Sources retirees du Pulse : Reddit est desactive en CI (fetch-all ne le
+// tente plus). Il peut etre reactive plus tard si Reddit debloque sa
+// creation d'OAuth script app.
+const PULSE_HIDDEN_SOURCES = new Set(["reddit"]);
+
 const buildPulse = (evo) => {
   const timeline = evo.source_timeline_7d || {};
   const out = [];
   for (const [fileKey, points] of Object.entries(timeline)) {
+    if (PULSE_HIDDEN_SOURCES.has(fileKey)) continue;
     const key = SRC_FILE_LABEL[fileKey] || fileKey;
     const counts = points.map((p) => p.count);
     const items = counts[counts.length - 1] || 0;

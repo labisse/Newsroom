@@ -22,7 +22,13 @@ Usage :
     python -m server.cli db-stats       # rows + dates par table
 
 Sources : msn, wikimedia, google_trends, x_trends, discoversnoop, google_news,
-          reddit, youtube_trending
+          youtube_trending
+
+Note : la source `reddit` reste disponible (`python -m server.cli fetch reddit`)
+mais n'est plus dans la chaine `fetch-all` car Reddit blackliste les IPs
+GitHub Actions sur RSS et la creation d'une script app OAuth est cassee
+cote Reddit (reCAPTCHA broken pour beaucoup d'utilisateurs, dont le notre).
+Le code `server/sources/reddit.py` est conserve pour reactivation future.
 Sortie  : data/{source}/{YYYY-MM-DD}.json + data/{source}/latest.json
           data/sujets/latest.json (sortie scoring)
           data/projects/{slug}/gsc_tokens.json (OAuth)
@@ -66,19 +72,31 @@ SOURCES: dict[str, Callable[[], dict[str, Any]]] = {
     "x_trends": x_trends.run,
     "discoversnoop": discoversnoop.run,
     "google_news": google_news.run,
-    "reddit": reddit.run,
     "youtube_trending": youtube_trending.run,
+}
+
+# Sources dispo a la demande uniquement (non incluses dans fetch-all).
+# Reddit : blackliste les IPs GitHub Actions sur RSS, et la creation
+# d'une script app OAuth est cassee cote Reddit (reCAPTCHA broken).
+# Toujours utilisable en local : `python -m server.cli fetch reddit`.
+ON_DEMAND_SOURCES: dict[str, Callable[[], dict[str, Any]]] = {
+    "reddit": reddit.run,
+}
+# Pour `fetch <name>` qui doit retrouver une source par nom, on merge.
+ALL_SOURCES: dict[str, Callable[[], dict[str, Any]]] = {
+    **SOURCES,
+    **ON_DEMAND_SOURCES,
 }
 
 
 def _run_one(name: str) -> tuple[bool, str]:
     """Lance une source. Retourne (ok, summary)."""
-    if name not in SOURCES:
+    if name not in ALL_SOURCES:
         return False, f"source inconnue : {name}"
 
     started = time.perf_counter()
     try:
-        payload = SOURCES[name]()
+        payload = ALL_SOURCES[name]()
     except Exception as exc:  # noqa: BLE001 — résumé d'erreur lisible
         elapsed = time.perf_counter() - started
         return False, f"{name:14s}  ✗  {type(exc).__name__}: {exc}  ({elapsed:.2f}s)"
@@ -123,11 +141,11 @@ def cmd_fetch(names: list[str]) -> int:
     Échoue à 1 dès qu'une source échoue, mais continue les suivantes
     pour donner un tableau de bord complet.
     """
-    unknown = [n for n in names if n not in SOURCES]
+    unknown = [n for n in names if n not in ALL_SOURCES]
     if unknown:
         print(
             f"source(s) inconnue(s) : {', '.join(unknown)}\n"
-            f"sources disponibles : {', '.join(SOURCES)}",
+            f"sources disponibles : {', '.join(ALL_SOURCES)}",
             file=sys.stderr,
         )
         return 2
@@ -826,7 +844,7 @@ def main(argv: list[str] | None = None) -> int:
     p_one.add_argument(
         "sources",
         nargs="+",
-        choices=sorted(SOURCES.keys()),
+        choices=sorted(ALL_SOURCES.keys()),
         metavar="source",
         help="Nom(s) de source(s) (ex: msn x_trends)",
     )
