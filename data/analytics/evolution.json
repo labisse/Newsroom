@@ -1,35 +1,35 @@
 {
   "available": true,
-  "generated_at": "2026-05-31T19:47:14Z",
+  "generated_at": "2026-06-01T05:24:10Z",
   "topics_24h": [
     {
       "topic_kind": "category",
       "topic_name": "/Sports/Team Sports/Soccer",
       "topic_label": "Football",
-      "current_count": 62,
+      "current_count": 53,
       "prev_count": 0,
-      "delta": 62,
+      "delta": 53,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.lequipe.fr/Football/Article/Discours-emu-de-marquinhos-luis-enrique-en-folie-messages-de-stars-dans-les-coulisses-du-deuxieme-titre-du-psg-en-ligue-des-champions/1680553",
-          "score": 16.0,
-          "title": "Discours ému de Marquinhos, Luis Enrique en folie, messages de stars : dans les coulisses de la nuit de Budapest",
-          "publisher": "L'Équipe"
+          "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/ca-va-m-accompagner-pour-la-coupe-du-monde-quand-les-bleus-decouvrent-leur-maillot-dedicace-par-des-supporters_AV-202605310240.html",
+          "score": 13.8,
+          "title": "\"Ça va m'accompagner pour la Coupe du monde\", quand les Bleus découvrent leur maillot dédicacé par des supporters",
+          "publisher": "BFM"
         },
         {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/psg-arsenal-ce-que-vous-faites-pour-le-foot-francais-est-remarquable-thierry-henry-salue-luis-enrique_AV-202605310116.html",
-          "score": 12.9,
-          "title": "PSG-Arsenal: \"Ce que vous faîtes pour le foot français est remarquable\", Thierry Henry salue Luis Enrique",
-          "publisher": "RMC Sport"
+          "url": "https://www.foot01.com/paris/psg-nasser-al-khelaifi-fait-un-plaisir-a-500-me-a-luis-enrique",
+          "score": 12.2,
+          "title": "PSG : Nasser Al-Khelaïfi fait un plaisir à 500 ME à Luis Enrique",
+          "publisher": "Foot01"
         },
         {
-          "url": "https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/direct-suivez-les-festivites-du-psg-apres-la-victoire-en-finale-de-ligue-des-champions-en-live_LN-202605310096.html",
-          "score": 7.6,
-          "title": "DIRECT. Les joueurs parisiens sont reçus à l'Elysée par Emmanuel Macron: suivez en direct les festivités après le sacre du PSG",
-          "publisher": "RMC Sport"
+          "url": "https://x.com/lequipe/status/2061010579620315286",
+          "score": 4.2,
+          "title": "Quelques minutes après la défaite d'Arsenal face au PSG en finale de la Ligue des champions, samedi soir (1-1, 4-3 t.a.b.), le club de Chelsea s'est amusé sur les réseaux sociaux à troller son rival londonien. Les Blues invitent notamment les internautes à venir « visiter la maison des trophées de Londres ». ➡️ l.lequipe.fr/JIo Voir sur X (Twitter)",
+          "publisher": "X"
         }
       ]
     },
@@ -37,61 +37,30 @@
       "topic_kind": "category",
       "topic_name": "/Sensitive Subjects",
       "topic_label": "Sujets sensibles",
-      "current_count": 58,
+      "current_count": 38,
       "prev_count": 0,
-      "delta": 58,
+      "delta": 38,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.latribune.fr/article/la-tribune-dimanche/societe/29658772539807/sabah-abouessalam-morin-a-edgar-morin-l-homme-de-ma-vie",
-          "score": 33.3,
-          "title": "Sabah Abouessalam-Morin : « À Edgar Morin, l’homme de ma vie »",
-          "publisher": "La Tribune"
+          "url": "https://www.huffingtonpost.fr/international/article/d-apres-les-renseignements-britanniques-500-000-soldats-russes-sont-morts-en-ukraine_264293.html",
+          "score": 33.2,
+          "title": "Le coût humain de la guerre en Ukraine atteint un seuil historique pour la Russie",
+          "publisher": "Le HuffPost"
         },
         {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/victoire-du-psg-en-ligue-des-champions-un-mort-dans-un-accident-de-la-circulation-en-marge-des-rassemblements-a-paris_AN-202605310157.html",
-          "score": 16.1,
-          "title": "Victoire du PSG en Ligue des champions: un mort dans un accident de la circulation en marge des rassemblements à Paris",
-          "publisher": "RMC Sport"
+          "url": "https://www.midilibre.fr/2026/05/31/il-ma-mordu-cinq-fois-cetait-comme-sil-me-goutait-un-setois-victime-dune-attaque-dun-requin-pointe-noire-durant-ses-vacances-en-sardaigne-13396333.php",
+          "score": 30.5,
+          "title": "\"Il m’a mordu cinq fois, c’était comme s’il me goûtait\" : un Sétois victime d’une a...",
+          "publisher": "Midi Libre"
         },
         {
-          "url": "https://www.lemonde.fr/international/article/2026/05/31/dans-l-immensite-des-forets-marecageuses-de-finlande-a-50-kilometres-de-la-frontiere-avec-la-russie-les-troupes-de-l-otan-s-entrainent-a-contrer-les-incursions_6695543_3210.html",
-          "score": 10.0,
-          "title": "Dans l’immensité des forêts marécageuses de Finlande, à 70 kilomètres de la frontière avec la Russie, les troupes de l’OTAN s’entraînent à contrer les incursions",
-          "publisher": "Le Monde.fr"
-        }
-      ]
-    },
-    {
-      "topic_kind": "entity",
-      "topic_name": "PSGFC",
-      "topic_label": "PSGFC",
-      "current_count": 45,
-      "prev_count": 0,
-      "delta": 45,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/victoire-du-psg-en-ligue-des-champions-un-mort-dans-un-accident-de-la-circulation-en-marge-des-rassemblements-a-paris_AN-202605310157.html",
-          "score": 16.1,
-          "title": "Victoire du PSG en Ligue des champions: un mort dans un accident de la circulation en marge des rassemblements à Paris",
-          "publisher": "RMC Sport"
-        },
-        {
-          "url": "https://www.lequipe.fr/Football/Article/Discours-emu-de-marquinhos-luis-enrique-en-folie-messages-de-stars-dans-les-coulisses-du-deuxieme-titre-du-psg-en-ligue-des-champions/1680553",
-          "score": 16.0,
-          "title": "Discours ému de Marquinhos, Luis Enrique en folie, messages de stars : dans les coulisses de la nuit de Budapest",
-          "publisher": "L'Équipe"
-        },
-        {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/psg-arsenal-ce-que-vous-faites-pour-le-foot-francais-est-remarquable-thierry-henry-salue-luis-enrique_AV-202605310116.html",
-          "score": 12.9,
-          "title": "PSG-Arsenal: \"Ce que vous faîtes pour le foot français est remarquable\", Thierry Henry salue Luis Enrique",
-          "publisher": "RMC Sport"
+          "url": "https://www.youtube.com/watch?v=nC-ggO1LwCY",
+          "score": 3.7,
+          "title": "Laurent Nuñez sur les débordements à Paris : «La situation était globalement sous contrôle»",
+          "publisher": "YouTube"
         }
       ]
     },
@@ -159,63 +128,32 @@
     },
     {
       "topic_kind": "entity",
-      "topic_name": "Football",
-      "topic_label": "Football",
-      "current_count": 20,
+      "topic_name": "PSGFC",
+      "topic_label": "PSGFC",
+      "current_count": 26,
       "prev_count": 0,
-      "delta": 20,
+      "delta": 26,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/victoire-du-psg-en-ligue-des-champions-un-mort-dans-un-accident-de-la-circulation-en-marge-des-rassemblements-a-paris_AN-202605310157.html",
-          "score": 16.1,
-          "title": "Victoire du PSG en Ligue des champions: un mort dans un accident de la circulation en marge des rassemblements à Paris",
-          "publisher": "RMC Sport"
+          "url": "https://www.foot01.com/paris/psg-nasser-al-khelaifi-fait-un-plaisir-a-500-me-a-luis-enrique",
+          "score": 12.2,
+          "title": "PSG : Nasser Al-Khelaïfi fait un plaisir à 500 ME à Luis Enrique",
+          "publisher": "Foot01"
         },
         {
-          "url": "https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/direct-suivez-les-festivites-du-psg-apres-la-victoire-en-finale-de-ligue-des-champions-en-live_LN-202605310096.html",
-          "score": 7.6,
-          "title": "DIRECT. Les joueurs parisiens sont reçus à l'Elysée par Emmanuel Macron: suivez en direct les festivités après le sacre du PSG",
-          "publisher": "RMC Sport"
+          "url": "https://x.com/lequipe/status/2061010579620315286",
+          "score": 4.2,
+          "title": "Quelques minutes après la défaite d'Arsenal face au PSG en finale de la Ligue des champions, samedi soir (1-1, 4-3 t.a.b.), le club de Chelsea s'est amusé sur les réseaux sociaux à troller son rival londonien. Les Blues invitent notamment les internautes à venir « visiter la maison des trophées de Londres ». ➡️ l.lequipe.fr/JIo Voir sur X (Twitter)",
+          "publisher": "X"
         },
         {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/un-mort-780-interpellations-des-commerces-pilles-le-lourd-bilan-des-debordements-qui-ont-suivi-le-sacre-du-psg-en-ligue-des-champions_AV-202605310211.html",
-          "score": 6.9,
-          "title": "Un mort, 780 interpellations, des commerces pillés… Le lourd bilan des débordements qui ont suivi le sacre du PSG en Ligue des champions",
-          "publisher": "RMC Sport"
-        }
-      ]
-    },
-    {
-      "topic_kind": "cluster",
-      "topic_name": "Roland-Garros",
-      "topic_label": "Roland-Garros",
-      "current_count": 18,
-      "prev_count": 0,
-      "delta": 18,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.ouest-france.fr/sport/tennis/roland-garros/roland-garros-2026-quelle-somme-va-toucher-moise-kouame-apres-sa-defaite-au-troisieme-tour-fbd34c44-5cd2-11f1-b3f0-aacb0ffa8bfb",
-          "score": 6.4,
-          "title": "Roland-Garros 2026. Quelle somme va toucher Moïse Kouame après sa défaite au troisième tour ?",
-          "publisher": "Ouest-France"
-        },
-        {
-          "url": "https://www.lequipe.fr/Tennis/Actualites/Combien-va-toucher-moise-kouame-pas-encore-18-ans-apres-son-3e-tour-a-roland-garros/1680646",
-          "score": 2.4,
-          "title": "Combien va toucher Moïse Kouame, pas encore 18 ans, après son 3e tour à Roland-Garros ?",
-          "publisher": "L'Équipe"
-        },
-        {
-          "url": "https://www.purepeople.com/article/diane-parry-roland-garros-a-quitte-lile-de-france-pour-vivre-plus-de-6500-km-dans-une-ville-reputee-pour-sa-chaleur-jy-suis-depuis-deux-ans_a550730/1",
-          "score": 1.1,
-          "title": "Diane Parry (Roland-Garros) a quitté l'Ile-de-France pour vivre plus de 6500 km, dans une ville réputée pour sa chaleur : \"J'y suis depuis deux ans\"",
-          "publisher": "Pure People"
+          "url": "https://www.leparisien.fr/sports/football/le-psg-champion-deurope-2026-pourquoi-les-parisiens-portaient-des-masques-de-ski-lors-de-leurs-celebrations-31-05-2026-UGQDXCBDTZGYHMJAZRBFL622OE.php",
+          "score": 2.5,
+          "title": "Le PSG champion d’Europe 2026 : pourquoi les Parisiens portaient des masques de ski lors de leurs célébrations",
+          "publisher": "Le Parisien"
         }
       ]
     },
@@ -223,30 +161,30 @@
       "topic_kind": "category",
       "topic_name": "/Arts & Entertainment/Celebrities & Entertainment News",
       "topic_label": "People",
-      "current_count": 18,
+      "current_count": 22,
       "prev_count": 0,
-      "delta": 18,
+      "delta": 22,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.20min.ch/fr/story/carnet-blanc-ralf-schumacher-et-etienne-bousquet-cassagne-se-sont-dit-oui-103574347",
-          "score": 26.0,
-          "title": "Ralf Schumacher et Étienne Bousquet-Cassagne célèbrent leur mariage à Saint-Tropez",
-          "publisher": "20 Minuten"
+          "url": "https://www.purepeople.com/article/depuis-22-ans-christian-clavier-vit-avec-isabelle-de-araujo-une-femme-importante-qui-a-travaille-sur-dix-de-ses-films_a550632/1",
+          "score": 48.0,
+          "title": "Depuis 22 ans, Christian Clavier vit avec Isabelle de Araujo, une femme importante qui a travaillé sur dix de ses films",
+          "publisher": "Pure People"
         },
         {
-          "url": "https://www.ouest-france.fr/sport/padel/entretien-je-regale-et-cest-normal-cyril-hanouna-a-t-il-paye-pour-monter-au-classement-de-padel-d9900cb2-537c-11f1-a8af-559ef5894fc2",
-          "score": 13.9,
-          "title": "ENTRETIEN. « Je régale et c’est normal ! » : Cyril Hanouna a-t-il payé pour monter au classement de padel ?",
-          "publisher": "Ouest-France"
+          "url": "https://www.marieclaire.fr/ses-enfants-avant-tout-kate-middleton-impose-cette-nouvelle-regle-pour-proteger-son-equilibre-familial,1514794.asp",
+          "score": 30.2,
+          "title": "Ses enfants avant tout : Kate Middleton impose cette nouvelle règle pour protéger son équilibre familial",
+          "publisher": "Marie Claire"
         },
         {
-          "url": "https://www.gala.fr/l_actu/news_de_stars/brigitte-macron-celebree-par-sa-fille-laurence-avec-une-jolie-photo-pour-la-fete-des-meres-20260531",
-          "score": 11.8,
-          "title": "Brigitte Macron célébrée par sa fille Laurence avec une jolie photo pour la fête des mères",
-          "publisher": "Gala"
+          "url": "https://x.com/franceinfo/status/2060766757258715608",
+          "score": 0.8,
+          "title": "🔴 Affaire Bruel : \"Patrick Bruel est devenu absolument radioactif. Les pressions étaient telles que la situation n’était plus tenable pour les festivals comme pour sa tournée\", affirme Jean-Michel Aubry Journet, cofondateur du collectif MusicTooFrance. #ToutEstPolitique #canal16 Voir sur X",
+          "publisher": "X"
         }
       ]
     },
@@ -283,32 +221,32 @@
     },
     {
       "topic_kind": "category",
-      "topic_name": "/News/Politics",
-      "topic_label": "Politique",
-      "current_count": 13,
+      "topic_name": "/Sports/Individual Sports",
+      "topic_label": "Sports individuels",
+      "current_count": 14,
       "prev_count": 0,
-      "delta": 13,
+      "delta": 14,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.huffingtonpost.fr/international/article/aucun-musicien-ne-veut-se-produire-au-250e-anniversaire-des-etats-unis-trump-boude_264276.html",
-          "score": 8.9,
-          "title": "Aucun musicien ne veut se produire au 250e anniversaire des États-Unis, Trump boude",
-          "publisher": "Le HuffPost"
+          "url": "https://www.ladepeche.fr/2026/05/31/plus-de-600-personnes-prises-en-charge-par-la-croix-rouge-24-hospitalisations-quand-la-course-a-pied-de-20-km-vire-au-calvaire-13396702.php",
+          "score": 29.8,
+          "title": "Plus de 600 personnes prises en charge par la Croix-Rouge, 24 hospitalisations... Q...",
+          "publisher": "ladepeche.fr"
         },
         {
-          "url": "https://www.midilibre.fr/2026/05/31/il-faut-lui-retirer-le-micro-raphael-glucksmann-accuse-une-chroniqueuse-de-cnews-detre-une-agente-russe-au-service-du-kremlin-13396497.php",
-          "score": 1.8,
-          "title": "\"Il faut lui retirer le micro\" : Raphaël Glucksmann accuse une chroniqueuse de CNews d’être une \"agente russe\" au service du Kremlin",
-          "publisher": "Midi Libre"
+          "url": "https://www.letelegramme.fr/cotes-d-armor/loudeac-22600/marathon-loudeac-pontivy-5-200-coureurs-assurent-le-show-entre-les-deux-villes-en-images-7054103.php",
+          "score": 0.3,
+          "title": "Marathon Loudéac-Pontivy : 5 200 coureurs assurent le show entre les deux villes [en images]",
+          "publisher": "Le Télégramme"
         },
         {
-          "url": "https://www.bfmtv.com/politique/horizons/etre-planque-ou-descendre-dans-l-arene-presidentielle-pourquoi-edouard-philippe-fait-le-choix-de-la-retenue_AN-202605310132.html",
-          "score": 0.6,
-          "title": "\"Être planqué\" ou descendre dans l'arène présidentielle: pourquoi Édouard Philippe fait le choix de la retenue",
-          "publisher": "BFM"
+          "url": "https://www.lyonne.fr/sens-89100/sports/seulement-1-d-abandons-le-samedi-soir-malgre-la-chaleur-le-trail-du-grand-senonais-enregistre-une-participation-record_14996032/",
+          "score": 0.2,
+          "title": "\"Seulement 1 % d'abandons le samedi soir\" : malgré la chaleur, le Trail du Grand Sénonais enregistre une participation \"record\"",
+          "publisher": "L'Yonne Républicaine"
         }
       ]
     },
@@ -375,33 +313,95 @@
       ]
     },
     {
-      "topic_kind": "category",
-      "topic_name": "/Arts & Entertainment/TV & Video/TV Shows & Programs",
-      "topic_label": "Émissions TV",
-      "current_count": 12,
+      "topic_kind": "entity",
+      "topic_name": "Football",
+      "topic_label": "Football",
+      "current_count": 13,
       "prev_count": 0,
-      "delta": 12,
+      "delta": 13,
       "pct_change": null,
-      "latest_at": "2026-05-31T09:28:21+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.leparisien.fr/culture-loisirs/tv/the-voice-lady-o-gagne-la-saison-15-florent-pagny-quitte-lemission-31-05-2026-ABNTSP5ILNE3TEQZORQ7NB5LQM.php",
-          "score": 55.0,
-          "title": "« The Voice » : Lady O gagne la saison 15, Florent Pagny quitte l’émission",
+          "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/ca-va-m-accompagner-pour-la-coupe-du-monde-quand-les-bleus-decouvrent-leur-maillot-dedicace-par-des-supporters_AV-202605310240.html",
+          "score": 13.8,
+          "title": "\"Ça va m'accompagner pour la Coupe du monde\", quand les Bleus découvrent leur maillot dédicacé par des supporters",
+          "publisher": "BFM"
+        },
+        {
+          "url": "https://www.leparisien.fr/sports/football/le-psg-champion-deurope-2026-pourquoi-les-parisiens-portaient-des-masques-de-ski-lors-de-leurs-celebrations-31-05-2026-UGQDXCBDTZGYHMJAZRBFL622OE.php",
+          "score": 2.5,
+          "title": "Le PSG champion d’Europe 2026 : pourquoi les Parisiens portaient des masques de ski lors de leurs célébrations",
           "publisher": "Le Parisien"
         },
         {
-          "url": "https://programmetv.ouest-france.fr/divers/divertissement/the-voice-m95771888/the-voice-lady-o-gagne-la-saison-15-florent-pagny-fait-ses-adieux-on-vous-resume-la-finale-a35d4852-5c42-11f1-b2c7-21f7efea5d61",
-          "score": 2.3,
-          "title": "« The Voice ». Lady O gagne la saison 15, Florent Pagny fait ses adieux... On vous résume la finale",
-          "publisher": "Programme TV Ouest-France"
+          "url": "https://www.laprovence.com/article/faits-divers-justice/7650753106569114/environ-80-caravanes-des-gens-du-voyage-s-installent-sur-deux-terrains-de-football-a-saint-andiol",
+          "score": 0.8,
+          "title": "Environ 80 caravanes des gens du voyage s’installent sur deux terrains de football à Saint-Andiol",
+          "publisher": "La Provence"
+        }
+      ]
+    },
+    {
+      "topic_kind": "cluster",
+      "topic_name": "Roland-Garros",
+      "topic_label": "Roland-Garros",
+      "current_count": 13,
+      "prev_count": 0,
+      "delta": 13,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.lequipe.fr/Tennis/Actualites/Combien-va-toucher-moise-kouame-pas-encore-18-ans-apres-son-3e-tour-a-roland-garros/1680646",
+          "score": 20.8,
+          "title": "Combien va toucher Moïse Kouame, pas encore 18 ans, après son 3e tour à Roland-Garros ?",
+          "publisher": "L'Équipe"
         },
         {
-          "url": "https://www.youtube.com/watch?v=e9ZX8BSOPjw",
-          "score": 1.9,
-          "title": "L'important c'est d'essayer, Catherine - Catherine et Liliane - CANAL+",
-          "publisher": "YouTube"
+          "url": "https://www.lequipe.fr/Tennis/Actualites/Vainqueure-de-l-open-d-australie-juniors-et-numero-1-mondiale-la-francaise-ksenia-efremova-est-eliminee-d-entree-a-roland-garros/1680573",
+          "score": 7.7,
+          "title": "Vainqueure de l'Open d'Australie juniors et numéro 1 mondiale, la Française Ksenia Efremova est éliminée d'entrée à Roland-Garros",
+          "publisher": "L'Équipe"
+        },
+        {
+          "url": "https://www.lequipe.fr/Tennis/Actualites/Trente-sept-ans-apres-la-victoire-de-son-pere-lani-chang-a-foule-la-terre-battue-de-roland-garros/1680593",
+          "score": 1.8,
+          "title": "Trente-sept ans après la victoire de son père, Lani Chang a foulé la terre battue de Roland-Garros",
+          "publisher": "L'Équipe"
+        }
+      ]
+    },
+    {
+      "topic_kind": "category",
+      "topic_name": "/News/Politics",
+      "topic_label": "Politique",
+      "current_count": 13,
+      "prev_count": 0,
+      "delta": 13,
+      "pct_change": null,
+      "latest_at": "2026-05-31T19:47:06+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.huffingtonpost.fr/international/article/aucun-musicien-ne-veut-se-produire-au-250e-anniversaire-des-etats-unis-trump-boude_264276.html",
+          "score": 8.9,
+          "title": "Aucun musicien ne veut se produire au 250e anniversaire des États-Unis, Trump boude",
+          "publisher": "Le HuffPost"
+        },
+        {
+          "url": "https://www.midilibre.fr/2026/05/31/il-faut-lui-retirer-le-micro-raphael-glucksmann-accuse-une-chroniqueuse-de-cnews-detre-une-agente-russe-au-service-du-kremlin-13396497.php",
+          "score": 1.8,
+          "title": "\"Il faut lui retirer le micro\" : Raphaël Glucksmann accuse une chroniqueuse de CNews d’être une \"agente russe\" au service du Kremlin",
+          "publisher": "Midi Libre"
+        },
+        {
+          "url": "https://www.bfmtv.com/politique/horizons/etre-planque-ou-descendre-dans-l-arene-presidentielle-pourquoi-edouard-philippe-fait-le-choix-de-la-retenue_AN-202605310132.html",
+          "score": 0.6,
+          "title": "\"Être planqué\" ou descendre dans l'arène présidentielle: pourquoi Édouard Philippe fait le choix de la retenue",
+          "publisher": "BFM"
         }
       ]
     },
@@ -433,6 +433,130 @@
           "score": 1.4,
           "title": "Météo : le Var placé en vigilance jaune aux orages ce dimanche, risque d’averses de grêle par endroits",
           "publisher": "Nice-Matin"
+        }
+      ]
+    },
+    {
+      "topic_kind": "cluster",
+      "topic_name": "Donald Trump",
+      "topic_label": "Donald Trump",
+      "current_count": 12,
+      "prev_count": 0,
+      "delta": 12,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.rtl.fr/actu/international/guerre-au-moyen-orient-l-iran-n-approuvera-aucun-accord-avec-washington-sans-la-certitude-que-les-droits-du-peuple-iraniens-seront-garantis-7900641179",
+          "score": 0.7,
+          "title": "Guerre au Moyen-Orient : l'Iran n'approuvera aucun accord avec Washington sans la \"certitude que les droits du peuple iranien\" seront garantis",
+          "publisher": "RTL.fr"
+        },
+        {
+          "url": "https://www.huffingtonpost.fr/international/article/donald-trump-a-passe-un-examen-medical-mais-toutes-les-questions-sur-sa-sante-mentale-restent-sans-reponse_264223.html",
+          "score": 0.6,
+          "title": "Cette question cruciale à laquelle le nouvel examen médical de Trump ne permet pas de répondre",
+          "publisher": "Le HuffPost"
+        },
+        {
+          "url": "https://www.lemonde.fr/international/article/2026/06/01/presidentielle-en-colombie-abelardo-de-la-espriella-un-millionnaire-admirateur-de-donald-trump-et-ivan-cepeda-le-candidat-de-la-gauche-s-affronteront-au-second-tour_6695677_3210.html",
+          "score": 0.5,
+          "title": "Présidentielle en Colombie : Abelardo de la Espriella, un millionnaire admirateur de Donald Trump, et Ivan Cepeda, le candidat de la gauche, s’affronteront au second tour",
+          "publisher": "Le Monde.fr"
+        }
+      ]
+    },
+    {
+      "topic_kind": "category",
+      "topic_name": "/Autos & Vehicles",
+      "topic_label": "Automobile",
+      "current_count": 12,
+      "prev_count": 0,
+      "delta": 12,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.caradisiac.com/moche-mais-vraie-ferrari-avec-son-superbe-v12-la-612-scaglietti-est-elle-un-bon-plan-222319.htm",
+          "score": 8.1,
+          "title": "Moche mais vraie Ferrari avec son superbe V12, la 612 Scaglietti est-elle un bon plan ?",
+          "publisher": "Caradisiac"
+        },
+        {
+          "url": "https://www.automobile-magazine.fr/retro/article/52066-il-y-a-pile-50-ans-la-citadine-de-citroen-navait-que-2-cylindres",
+          "score": 7.0,
+          "title": "Il y a pile 50 ans, la citadine de Citroën n'avait que 2 cylindres",
+          "publisher": "L'Automobile Magazine"
+        },
+        {
+          "url": "https://www.caradisiac.com/il-fait-plus-de-770-000-kilometres-avec-sa-rolls-royce-phantom-222327.htm",
+          "score": 4.1,
+          "title": "Il fait plus de 770 000 kilomètres avec sa Rolls-Royce Phantom",
+          "publisher": "Caradisiac"
+        }
+      ]
+    },
+    {
+      "topic_kind": "category",
+      "topic_name": "/Arts & Entertainment/TV & Video/TV Shows & Programs",
+      "topic_label": "Émissions TV",
+      "current_count": 12,
+      "prev_count": 0,
+      "delta": 12,
+      "pct_change": null,
+      "latest_at": "2026-05-31T09:28:21+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.leparisien.fr/culture-loisirs/tv/the-voice-lady-o-gagne-la-saison-15-florent-pagny-quitte-lemission-31-05-2026-ABNTSP5ILNE3TEQZORQ7NB5LQM.php",
+          "score": 55.0,
+          "title": "« The Voice » : Lady O gagne la saison 15, Florent Pagny quitte l’émission",
+          "publisher": "Le Parisien"
+        },
+        {
+          "url": "https://programmetv.ouest-france.fr/divers/divertissement/the-voice-m95771888/the-voice-lady-o-gagne-la-saison-15-florent-pagny-fait-ses-adieux-on-vous-resume-la-finale-a35d4852-5c42-11f1-b2c7-21f7efea5d61",
+          "score": 2.3,
+          "title": "« The Voice ». Lady O gagne la saison 15, Florent Pagny fait ses adieux... On vous résume la finale",
+          "publisher": "Programme TV Ouest-France"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=e9ZX8BSOPjw",
+          "score": 1.9,
+          "title": "L'important c'est d'essayer, Catherine - Catherine et Liliane - CANAL+",
+          "publisher": "YouTube"
+        }
+      ]
+    },
+    {
+      "topic_kind": "category",
+      "topic_name": "/Sports/Individual Sports/Racquet Sports",
+      "topic_label": "Sports de raquette",
+      "current_count": 12,
+      "prev_count": 0,
+      "delta": 12,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.lequipe.fr/Tennis/Actualites/Combien-va-toucher-moise-kouame-pas-encore-18-ans-apres-son-3e-tour-a-roland-garros/1680646",
+          "score": 20.8,
+          "title": "Combien va toucher Moïse Kouame, pas encore 18 ans, après son 3e tour à Roland-Garros ?",
+          "publisher": "L'Équipe"
+        },
+        {
+          "url": "https://www.lequipe.fr/Tennis/Actualites/Vainqueure-de-l-open-d-australie-juniors-et-numero-1-mondiale-la-francaise-ksenia-efremova-est-eliminee-d-entree-a-roland-garros/1680573",
+          "score": 7.7,
+          "title": "Vainqueure de l'Open d'Australie juniors et numéro 1 mondiale, la Française Ksenia Efremova est éliminée d'entrée à Roland-Garros",
+          "publisher": "L'Équipe"
+        },
+        {
+          "url": "https://www.lequipe.fr/Tennis/Actualites/Trente-sept-ans-apres-la-victoire-de-son-pere-lani-chang-a-foule-la-terre-battue-de-roland-garros/1680593",
+          "score": 1.8,
+          "title": "Trente-sept ans après la victoire de son père, Lani Chang a foulé la terre battue de Roland-Garros",
+          "publisher": "L'Équipe"
         }
       ]
     },
@@ -469,37 +593,6 @@
     },
     {
       "topic_kind": "entity",
-      "topic_name": "Luis Enrique",
-      "topic_label": "Luis Enrique",
-      "current_count": 10,
-      "prev_count": 0,
-      "delta": 10,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.lequipe.fr/Football/Article/Discours-emu-de-marquinhos-luis-enrique-en-folie-messages-de-stars-dans-les-coulisses-du-deuxieme-titre-du-psg-en-ligue-des-champions/1680553",
-          "score": 16.0,
-          "title": "Discours ému de Marquinhos, Luis Enrique en folie, messages de stars : dans les coulisses de la nuit de Budapest",
-          "publisher": "L'Équipe"
-        },
-        {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/psg-arsenal-ce-que-vous-faites-pour-le-foot-francais-est-remarquable-thierry-henry-salue-luis-enrique_AV-202605310116.html",
-          "score": 12.9,
-          "title": "PSG-Arsenal: \"Ce que vous faîtes pour le foot français est remarquable\", Thierry Henry salue Luis Enrique",
-          "publisher": "RMC Sport"
-        },
-        {
-          "url": "https://www.footmercato.net/a701003785066306507-psg-luis-enrique-sexcuse-aupres-dun-joueur-apres-la-finale-de-ldc",
-          "score": 0.6,
-          "title": "PSG : Luis Enrique s’excuse auprès d’un joueur après la finale de LdC",
-          "publisher": "Foot Mercato"
-        }
-      ]
-    },
-    {
-      "topic_kind": "entity",
       "topic_name": "Gers",
       "topic_label": "Gers",
       "current_count": 9,
@@ -530,33 +623,33 @@
       ]
     },
     {
-      "topic_kind": "category",
-      "topic_name": "/News/Business News",
-      "topic_label": "Actualité éco",
+      "topic_kind": "cluster",
+      "topic_name": "Banane",
+      "topic_label": "Banane",
       "current_count": 8,
       "prev_count": 0,
       "delta": 8,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.leparisien.fr/elections/presidentielle/retour-de-la-taxe-dhabitation-baisse-des-cotisations-salariales-le-big-bang-fiscal-propose-par-un-macroniste-historique-30-05-2026-KRPMZMXWRBAXTONTZOJ2X5JSFA.php",
-          "score": 29.6,
-          "title": "Retour de la taxe d’habitation, baisse des cotisations salariales… Le big bang fiscal proposé par un macroniste historique",
+          "url": "https://www.leparisien.fr/faits-divers/loeuvre-dart-representant-une-banane-scotchee-au-mur-volee-au-centre-pompidou-metz-le-musee-depose-plainte-31-05-2026-QX4DIPVR25DHNO3ANZAOXU4Z4I.php",
+          "score": 2.6,
+          "title": "L’œuvre d’art représentant une banane scotchée au mur volée au Centre Pompidou-Metz, le musée dépose plainte",
           "publisher": "Le Parisien"
         },
         {
-          "url": "https://www.lefigaro.fr/societes/les-mulliez-sont-des-entrepreneurs-de-terrain-les-actionnaires-d-auchan-decathlon-leroy-merlin-et-kiabi-affichent-leur-confiance-pour-l-avenir-20260531",
-          "score": 2.6,
-          "title": "« Les Mulliez sont des entrepreneurs de terrain » : les actionnaires d’Auchan, Decathlon, Leroy Merlin et Kiabi affichent leur confiance pour l’avenir",
-          "publisher": "Le Figaro"
+          "url": "https://www.cnews.fr/faits-divers/2026-05-31/metz-la-banane-fixee-au-mur-du-centre-pompidou-par-un-ruban-adhesif-volee",
+          "score": 0.6,
+          "title": "Metz : la banane fixée au mur du Centre Pompidou par un ruban adhésif volée, l’établissement dépose plainte",
+          "publisher": "CNews"
         },
         {
-          "url": "https://www.lemonde.fr/idees/article/2026/05/29/terres-rares-la-chine-controle-les-prix-du-marche-peut-supporter-des-ventes-a-perte-et-couler-la-concurrence_6694752_3232.html",
-          "score": 1.1,
-          "title": "Terres rares : « La Chine contrôle les prix du marché, peut supporter des ventes à perte et couler la concurrence »",
-          "publisher": "Le Monde.fr"
+          "url": "https://www.lefigaro.fr/culture/au-centre-pompidou-metz-la-banane-de-l-oeuvre-comedian-vendue-6-2-millions-de-dollars-a-ete-volee-20260531",
+          "score": 0.2,
+          "title": "Au centre Pompidou-Metz, la banane de l’œuvre «Comedian», vendue 6,2 millions de dollars, a été volée",
+          "publisher": "Le Figaro"
         }
       ]
     },
@@ -592,37 +685,6 @@
       ]
     },
     {
-      "topic_kind": "cluster",
-      "topic_name": "Thunder d'Oklahoma City",
-      "topic_label": "Thunder d'Oklahoma City",
-      "current_count": 8,
-      "prev_count": 0,
-      "delta": 8,
-      "pct_change": null,
-      "latest_at": "2026-05-31T14:16:43+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://x.com/Basket_Infos/status/2060670053519909165",
-          "score": 0.2,
-          "title": "« Ce qui m’impressionne chez Victor et chez les Spurs, c’est qu’ils répondent présent dans les matchs où ils doivent vraiment répondre » Rudy Gobert sur son duel avec Wemby et comment il faut le défendre. « Ça dépend de ton effectif et de ton équipe. Moi, personnellement, le but était vraiment d’être physique avec lui. Le faire travailler, l’épuiser, et surtout lui enl...",
-          "publisher": "X (Twitter)"
-        },
-        {
-          "url": "https://www.basketusa.com/news/841250/victor-wembanyama-elu-mvp-de-la-finale-de-conference-ouest/",
-          "score": 0.1,
-          "title": "Victor Wembanyama élu MVP de la finale de conférence Ouest !",
-          "publisher": "Basket USA"
-        },
-        {
-          "url": "https://www.20minutes.fr/sport/basketball/4226238-20260530-oklahoma-spurs-chaine-tv-heure-voir-match-7-finale-wembanyama-direct",
-          "score": 0.1,
-          "title": "Oklahoma-Spurs : À quelle chaine & à quelle heure voir le match 7 en finale",
-          "publisher": "20 Minutes"
-        }
-      ]
-    },
-    {
       "topic_kind": "entity",
       "topic_name": "Parc des Princes",
       "topic_label": "Parc des Princes",
@@ -654,33 +716,95 @@
       ]
     },
     {
-      "topic_kind": "category",
-      "topic_name": "/Law & Government/Government",
-      "topic_label": "Gouvernement",
-      "current_count": 7,
+      "topic_kind": "cluster",
+      "topic_name": "Tour de France",
+      "topic_label": "Tour de France",
+      "current_count": 8,
       "prev_count": 0,
-      "delta": 7,
+      "delta": 8,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Montees-a-plusieurs-reprises-du-tourmalet-pres-de-7-000-m-de-denivele-paul-seixas-a-reconnu-la-6e-etape-du-tour-de-france/1680719",
+          "score": 2.4,
+          "title": "Montées à plusieurs reprises du Tourmalet, près de 7000m de dénivelé... Paul Seixas a reconnu la 6e étape du Tour de France",
+          "publisher": "L'Équipe"
+        },
+        {
+          "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Paul-magnier-devient-le-4e-francais-a-remporter-le-maillot-cyclamen-de-meilleur-sprinteur-du-giro/1680674",
+          "score": 0.1,
+          "title": "Paul Magnier devient le 4e Français à remporter le maillot cyclamen de meilleur sprinteur du Giro",
+          "publisher": "L'Équipe"
+        },
+        {
+          "url": "https://www.eurosport.fr/cyclisme/giro/2026/tour-ditalie-2026-jonas-vingegaard-une-victoire-collective-sur-le-giro-le-bonheur-nexiste-que-quand-il-est-partage_sto23305249/story.shtml",
+          "score": 0.1,
+          "title": "\"Le bonheur n'existe que quand il est partagé\"",
+          "publisher": "Eurosport"
+        }
+      ]
+    },
+    {
+      "topic_kind": "cluster",
+      "topic_name": "Thunder d'Oklahoma City",
+      "topic_label": "Thunder d'Oklahoma City",
+      "current_count": 8,
+      "prev_count": 0,
+      "delta": 8,
+      "pct_change": null,
+      "latest_at": "2026-05-31T14:16:43+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://x.com/Basket_Infos/status/2060670053519909165",
+          "score": 0.2,
+          "title": "« Ce qui m’impressionne chez Victor et chez les Spurs, c’est qu’ils répondent présent dans les matchs où ils doivent vraiment répondre » Rudy Gobert sur son duel avec Wemby et comment il faut le défendre. « Ça dépend de ton effectif et de ton équipe. Moi, personnellement, le but était vraiment d’être physique avec lui. Le faire travailler, l’épuiser, et surtout lui enl...",
+          "publisher": "X (Twitter)"
+        },
+        {
+          "url": "https://www.basketusa.com/news/841250/victor-wembanyama-elu-mvp-de-la-finale-de-conference-ouest/",
+          "score": 0.1,
+          "title": "Victor Wembanyama élu MVP de la finale de conférence Ouest !",
+          "publisher": "Basket USA"
+        },
+        {
+          "url": "https://www.20minutes.fr/sport/basketball/4226238-20260530-oklahoma-spurs-chaine-tv-heure-voir-match-7-finale-wembanyama-direct",
+          "score": 0.1,
+          "title": "Oklahoma-Spurs : À quelle chaine & à quelle heure voir le match 7 en finale",
+          "publisher": "20 Minutes"
+        }
+      ]
+    },
+    {
+      "topic_kind": "category",
+      "topic_name": "/News/Business News",
+      "topic_label": "Actualité éco",
+      "current_count": 8,
+      "prev_count": 0,
+      "delta": 8,
       "pct_change": null,
       "latest_at": "2026-05-31T19:47:06+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.parismatch.com/Royal-Blog/leonor-despagne-en-uniforme-et-au-garde-a-vous-face-a-ses-parents-la-princesse-fierte-de-felipe-et-letizia-269962",
-          "score": 12.2,
-          "title": "Leonor d'Espagne en uniforme et au garde à vous face à ses parents, la princesse fierté de Felipe et Letizia",
-          "publisher": "parismatch.com"
+          "url": "https://www.leparisien.fr/elections/presidentielle/retour-de-la-taxe-dhabitation-baisse-des-cotisations-salariales-le-big-bang-fiscal-propose-par-un-macroniste-historique-30-05-2026-KRPMZMXWRBAXTONTZOJ2X5JSFA.php",
+          "score": 29.6,
+          "title": "Retour de la taxe d’habitation, baisse des cotisations salariales… Le big bang fiscal proposé par un macroniste historique",
+          "publisher": "Le Parisien"
         },
         {
-          "url": "https://histoiresroyales.fr/princesse-charlene-jumeaux-immacules-nouveau-portrait-fete-des-meres/",
-          "score": 6.1,
-          "title": "La princesse Charlène et ses jumeaux immaculés sur un nouveau portrait pour la fête des mères",
-          "publisher": "Histoires Royales"
+          "url": "https://www.lefigaro.fr/societes/les-mulliez-sont-des-entrepreneurs-de-terrain-les-actionnaires-d-auchan-decathlon-leroy-merlin-et-kiabi-affichent-leur-confiance-pour-l-avenir-20260531",
+          "score": 2.6,
+          "title": "« Les Mulliez sont des entrepreneurs de terrain » : les actionnaires d’Auchan, Decathlon, Leroy Merlin et Kiabi affichent leur confiance pour l’avenir",
+          "publisher": "Le Figaro"
         },
         {
-          "url": "https://www.bfmtv.com/economie/international/les-remboursements-des-droits-de-douane-sont-deja-en-cours-mais-l-administration-trump-va-faire-appel-de-la-decision_AV-202605310215.html",
-          "score": 2.3,
-          "title": "Les remboursements des droits de douane sont déjà en cours mais l'administration Trump va faire appel de la décision",
-          "publisher": "BFM"
+          "url": "https://www.lemonde.fr/idees/article/2026/05/29/terres-rares-la-chine-controle-les-prix-du-marche-peut-supporter-des-ventes-a-perte-et-couler-la-concurrence_6694752_3232.html",
+          "score": 1.1,
+          "title": "Terres rares : « La Chine contrôle les prix du marché, peut supporter des ventes à perte et couler la concurrence »",
+          "publisher": "Le Monde.fr"
         }
       ]
     },
@@ -748,6 +872,37 @@
     },
     {
       "topic_kind": "cluster",
+      "topic_name": "Météorologie",
+      "topic_label": "Météorologie",
+      "current_count": 7,
+      "prev_count": 0,
+      "delta": 7,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.ouest-france.fr/meteo/orage/le-violent-orage-de-ce-samedi-soir-a-fait-des-degats-dans-cette-commune-du-maine-et-loire-1bcbba22-5d0a-11f1-b3f0-aacb0ffa8bfb",
+          "score": 6.8,
+          "title": "Le violent orage de ce samedi soir a fait des dégâts dans cette commune du Maine-et-Loire",
+          "publisher": "Ouest-France"
+        },
+        {
+          "url": "https://actu.fr/ile-de-france/fontainebleau_77186/meteo-en-seine-et-marne-des-orages-et-de-la-pluie-pour-accompagner-la-baisse-des-temperatures_64336562.html",
+          "score": 2.4,
+          "title": "Météo en Seine-et-Marne : des orages et de la pluie pour accompagner la baisse des températures",
+          "publisher": "Actu.fr"
+        },
+        {
+          "url": "https://maritima.fr/actualites/meteo/bouches-du-rhone/13595/meteo-changement-de-decor-dans-le-13-les-orages-et-le-mistral-arrivent-pour-balayer-la-chaleur",
+          "score": 1.8,
+          "title": "Météo : changement de décor dans le 13 ! Les orages et le Mistral arrivent pour balayer la chaleur",
+          "publisher": "Maritima"
+        }
+      ]
+    },
+    {
+      "topic_kind": "cluster",
       "topic_name": "Orage",
       "topic_label": "Orage",
       "current_count": 7,
@@ -778,33 +933,64 @@
       ]
     },
     {
-      "topic_kind": "cluster",
-      "topic_name": "MotoGP",
-      "topic_label": "MotoGP",
-      "current_count": 6,
+      "topic_kind": "category",
+      "topic_name": "/Law & Government/Government",
+      "topic_label": "Gouvernement",
+      "current_count": 7,
       "prev_count": 0,
-      "delta": 6,
+      "delta": 7,
       "pct_change": null,
       "latest_at": "2026-05-31T19:47:06+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://x.com/CanalplusMotoGP/status/2061024897409908802",
-          "score": 0.1,
-          "title": "La grille de départ pour le GP d'Italie à vivre à 14H sur CANAL+ 💥 #motogp #ItalianGP Afficher sur X",
-          "publisher": "X"
+          "url": "https://www.parismatch.com/Royal-Blog/leonor-despagne-en-uniforme-et-au-garde-a-vous-face-a-ses-parents-la-princesse-fierte-de-felipe-et-letizia-269962",
+          "score": 12.2,
+          "title": "Leonor d'Espagne en uniforme et au garde à vous face à ses parents, la princesse fierté de Felipe et Letizia",
+          "publisher": "parismatch.com"
         },
         {
-          "url": "https://rmcsport.bfmtv.com/auto-moto/moto/direct-moto-gp-suivez-le-gp-d-italie-en-live_LS-202605310151.html",
-          "score": 0.1,
-          "title": "MotoGP: Marco Bezzecchi s'impose à domicile sur le GP d’Italie",
-          "publisher": "RMC Sport"
+          "url": "https://histoiresroyales.fr/princesse-charlene-jumeaux-immacules-nouveau-portrait-fete-des-meres/",
+          "score": 6.1,
+          "title": "La princesse Charlène et ses jumeaux immaculés sur un nouveau portrait pour la fête des mères",
+          "publisher": "Histoires Royales"
         },
         {
-          "url": "https://fr.motorsport.com/motogp/live-text/motogp-italian-gp-live-commentary-and-updates-from-mugello/1126921/",
-          "score": 0.1,
-          "title": "Grand Prix d'Italie de MotoGP : commentaires en direct et dernières nouvelles depuis le Mugello",
-          "publisher": "Motorsport.com-FRANCE"
+          "url": "https://www.bfmtv.com/economie/international/les-remboursements-des-droits-de-douane-sont-deja-en-cours-mais-l-administration-trump-va-faire-appel-de-la-decision_AV-202605310215.html",
+          "score": 2.3,
+          "title": "Les remboursements des droits de douane sont déjà en cours mais l'administration Trump va faire appel de la décision",
+          "publisher": "BFM"
+        }
+      ]
+    },
+    {
+      "topic_kind": "entity",
+      "topic_name": "Automobile",
+      "topic_label": "Automobile",
+      "current_count": 7,
+      "prev_count": 0,
+      "delta": 7,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.autojournal.fr/environnement/derriere-ce-dacia-duster-qui-consomme-a-peine-33-l-100-km-se-cache-peut-etre-une-autre-voie-pour-le-thermique-414353.html",
+          "score": 43.2,
+          "title": "Derrière ce Dacia Duster qui consomme à peine 3,3 l/100 km se cache peut-être une autre voie pour le thermique",
+          "publisher": "L'Auto-Journal"
+        },
+        {
+          "url": "https://www.lesanciennes.com/annonce/ferrari-f8-spider-v8-2022-a875510",
+          "score": 3.7,
+          "title": "Ferrari F8 Spider V8 de 2022 à vendre - voiture ancienne de collection",
+          "publisher": "LesAnciennes.com"
+        },
+        {
+          "url": "https://www.franceinfo.fr/economie/automobile/reportage-la-difference-est-enorme-a-villefranche-sur-saone-une-usine-transforme-des-bus-thermiques-en-electriques-grace-au-retrofit_8038286.html",
+          "score": 0.9,
+          "title": "\"La différence de coût énergétique est énorme\" : à Villefranche-sur-Saône, une usine transforme des bus thermiques en électriques",
+          "publisher": "franceinfo"
         }
       ]
     },
@@ -841,8 +1027,8 @@
     },
     {
       "topic_kind": "cluster",
-      "topic_name": "Hôpital",
-      "topic_label": "Hôpital",
+      "topic_name": "MotoGP",
+      "topic_label": "MotoGP",
       "current_count": 6,
       "prev_count": 0,
       "delta": 6,
@@ -851,115 +1037,22 @@
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://actu.fr/normandie/flers_61169/cette-plateforme-de-sante-interroge-a-flers-lhopital-entend-combattre-le-desert-medical_64332631.html",
-          "score": 0.2,
-          "title": "Cette plateforme de santé interroge à Flers : l’hôpital entend « combattre le désert médical »",
-          "publisher": "Actu.fr"
-        },
-        {
-          "url": "https://actu.fr/bretagne/pontivy_56178/sante-a-pontivy-le-groupe-hospitalier-centre-bretagne-certifie-qualite-des-soins-confirmee_64336398.html",
-          "score": 0.2,
-          "title": "Santé : à Pontivy, le Groupe hospitalier centre Bretagne certifié Qualité des soins confirmée",
-          "publisher": "Actu.fr"
-        },
-        {
-          "url": "https://www.ledauphine.com/sante/2026/05/31/les-memes-droits-aux-soins-pour-tous-la-colere-monte-a-l-hopital-de-digne",
-          "score": 0.2,
-          "title": "« Les mêmes droits aux soins pour tous » : la colère monte à l’hôpital de Digne",
-          "publisher": "Le Dauphiné Libéré"
-        }
-      ]
-    },
-    {
-      "topic_kind": "category",
-      "topic_name": "/Autos & Vehicles",
-      "topic_label": "Automobile",
-      "current_count": 6,
-      "prev_count": 0,
-      "delta": 6,
-      "pct_change": null,
-      "latest_at": "2026-05-31T09:28:21+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.lesechos.fr/industrie-services/tourisme-transport/on-a-limpression-quune-ere-industrielle-allemande-touche-a-sa-fin-la-relegation-du-club-de-football-de-wolfsburg-nouveau-revers-pour-volkswagen-2234164",
-          "score": 41.5,
-          "title": "« On a l'impression qu'une ère industrielle allemande touche à sa fin » : la relégation du club de football de Wolfsburg, nouveau revers pour Volkswagen",
-          "publisher": "Les Echos"
-        },
-        {
-          "url": "https://www.autoplus.fr/actualite/insolite/apres-deux-ans-de-travail-ils-presentent-la-ferrari-testarossa-6x6-1445902.html",
-          "score": 1.0,
-          "title": "Après deux ans de travail, ils présentent la Ferrari Testarossa 6x6",
-          "publisher": "Auto Plus"
-        },
-        {
-          "url": "https://www.lavoixdunord.fr/1707492/article/2026-05-29/son-audi-q5-fait-l-objet-d-un-rappel-constructeur-mais-impossible-d-obtenir-une",
-          "score": 0.5,
-          "title": "Son Audi Q5 fait l’objet d’un rappel constructeur mais impossible d’obtenir une réparation depuis deux mois",
-          "publisher": "La Voix du Nord"
-        }
-      ]
-    },
-    {
-      "topic_kind": "entity",
-      "topic_name": "Patrick Bruel",
-      "topic_label": "Patrick Bruel",
-      "current_count": 6,
-      "prev_count": 0,
-      "delta": 6,
-      "pct_change": null,
-      "latest_at": "2026-05-31T14:16:43+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.rtl.fr/culture/musique/triste-et-lamentable-des-fans-de-patrick-bruel-vise-par-plusieurs-plaintes-pour-violences-sexuelles-reagissent-sur-rtl-a-l-annulation-de-ses-concerts-prevus-cet-ete-7900640905",
-          "score": 18.0,
-          "title": "\"Triste et lamentable\" : des fans de Patrick Bruel, visé par plusieurs plaintes pour violences sexuelles, réagissent sur RTL à l'annulation de ses concerts prévus cet été",
-          "publisher": "RTL.fr"
-        },
-        {
-          "url": "https://x.com/BFMTV/status/2060463231441776675",
-          "score": 1.3,
-          "title": "Annulation des concerts de Patrick Bruel: \"Aujourd'hui, il va falloir qu'on trouve une nouvelle tête d'affiche\", explique Stéphane Leyenberger, maire (LR) de Saverne Voir sur X",
+          "url": "https://x.com/CanalplusMotoGP/status/2061024897409908802",
+          "score": 0.1,
+          "title": "La grille de départ pour le GP d'Italie à vivre à 14H sur CANAL+ 💥 #motogp #ItalianGP Afficher sur X",
           "publisher": "X"
         },
         {
-          "url": "https://www.journaldesfemmes.fr/people/magazine/3267397-actualite-infos-people-france-mai-patrick-bruel-camille-lellouche/3267451-patrick-bruel",
+          "url": "https://rmcsport.bfmtv.com/auto-moto/moto/direct-moto-gp-suivez-le-gp-d-italie-en-live_LS-202605310151.html",
           "score": 0.1,
-          "title": "Patrick Bruel : une deuxième ligne téléphonique dédiée à ses rencontres ?",
-          "publisher": "Journal des Femmes"
-        }
-      ]
-    },
-    {
-      "topic_kind": "cluster",
-      "topic_name": "Israël",
-      "topic_label": "Israël",
-      "current_count": 6,
-      "prev_count": 0,
-      "delta": 6,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.ouest-france.fr/monde/liban/israel-dit-avoir-capture-la-forteresse-medievale-de-beaufort-au-liban-et-y-avoir-plante-son-drapeau-4e5b8fce-5cbc-11f1-b2c7-21f7efea5d61",
-          "score": 0.4,
-          "title": "Israël dit avoir « capturé » la forteresse médiévale de Beaufort au Liban et y avoir planté son drapeau",
-          "publisher": "Ouest-France"
+          "title": "MotoGP: Marco Bezzecchi s'impose à domicile sur le GP d’Italie",
+          "publisher": "RMC Sport"
         },
         {
-          "url": "https://www.lefigaro.fr/international/la-prochaine-crise-sera-celle-de-l-obeissance-l-armee-israelienne-de-plus-en-plus-influencee-par-les-mouvements-messianiques-20260531",
-          "score": 0.2,
-          "title": "« La prochaine crise sera celle de l’obéissance » : l’armée israélienne de plus en plus influencée par les mouvements messianiques",
-          "publisher": "Le Figaro"
-        },
-        {
-          "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-israel-annonce-etendre-ses-operations-au-liban-et-appelle-a-l-evacuation-de-toute-la-zone-au-sud-du-fleuve-zahrani_8037965.html",
+          "url": "https://fr.motorsport.com/motogp/live-text/motogp-italian-gp-live-commentary-and-updates-from-mugello/1126921/",
           "score": 0.1,
-          "title": "DIRECT. Guerre au Moyen-Orient : 13 membres du personnel médical libanais blessés après une frappe israélienne près d'un hôpital à Tyr, dans le sud du pays",
-          "publisher": "franceinfo"
+          "title": "Grand Prix d'Italie de MotoGP : commentaires en direct et dernières nouvelles depuis le Mugello",
+          "publisher": "Motorsport.com-FRANCE"
         }
       ]
     },
@@ -996,62 +1089,124 @@
     },
     {
       "topic_kind": "cluster",
-      "topic_name": "Drogue",
-      "topic_label": "Drogue",
-      "current_count": 5,
+      "topic_name": "Hôpital",
+      "topic_label": "Hôpital",
+      "current_count": 6,
       "prev_count": 0,
-      "delta": 5,
+      "delta": 6,
       "pct_change": null,
-      "latest_at": "2026-05-31T05:44:38+00:00",
+      "latest_at": "2026-05-31T19:47:06+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.ledauphine.com/faits-divers-justice/2026/05/30/lutte-contre-les-trafics-en-isere-quand-les-gendarmes-utilisent-la-marteau-therapie-et-l-infiltration",
-          "score": 2.1,
-          "title": "Lutte contre les trafics de drogues en Isère : quand les gendarmes utilisent la marteau thérapie et l’infiltration",
-          "publisher": "Le Dauphiné Libéré"
-        },
-        {
-          "url": "https://www.lalsace.fr/faits-divers-justice/2026/05/30/trafic-de-drogue-le-reseau-du-professeur-chen-demantele",
-          "score": 0.6,
-          "title": "Mulhouse. Trafic de drogue: le réseau du « Professeur Chen » démantelé",
-          "publisher": "L'Alsace"
-        },
-        {
-          "url": "https://actu.fr/nouvelle-aquitaine/casteljaloux_47052/ils-vendaient-la-drogue-via-les-reseaux-sociaux-trois-hommes-interpelles-a-casteljaloux-pour-trafic-de-stupefiants_64335426.html",
+          "url": "https://actu.fr/normandie/flers_61169/cette-plateforme-de-sante-interroge-a-flers-lhopital-entend-combattre-le-desert-medical_64332631.html",
           "score": 0.2,
-          "title": "Ils vendaient la drogue via les réseaux sociaux : trois hommes interpellés à Casteljaloux pour trafic de stupéfiants",
+          "title": "Cette plateforme de santé interroge à Flers : l’hôpital entend « combattre le désert médical »",
           "publisher": "Actu.fr"
+        },
+        {
+          "url": "https://actu.fr/bretagne/pontivy_56178/sante-a-pontivy-le-groupe-hospitalier-centre-bretagne-certifie-qualite-des-soins-confirmee_64336398.html",
+          "score": 0.2,
+          "title": "Santé : à Pontivy, le Groupe hospitalier centre Bretagne certifié Qualité des soins confirmée",
+          "publisher": "Actu.fr"
+        },
+        {
+          "url": "https://www.ledauphine.com/sante/2026/05/31/les-memes-droits-aux-soins-pour-tous-la-colere-monte-a-l-hopital-de-digne",
+          "score": 0.2,
+          "title": "« Les mêmes droits aux soins pour tous » : la colère monte à l’hôpital de Digne",
+          "publisher": "Le Dauphiné Libéré"
         }
       ]
     },
     {
       "topic_kind": "cluster",
-      "topic_name": "Donald Trump",
-      "topic_label": "Donald Trump",
-      "current_count": 5,
+      "topic_name": "Israël",
+      "topic_label": "Israël",
+      "current_count": 6,
       "prev_count": 0,
-      "delta": 5,
+      "delta": 6,
+      "pct_change": null,
+      "latest_at": "2026-05-31T19:47:06+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.ouest-france.fr/monde/liban/israel-dit-avoir-capture-la-forteresse-medievale-de-beaufort-au-liban-et-y-avoir-plante-son-drapeau-4e5b8fce-5cbc-11f1-b2c7-21f7efea5d61",
+          "score": 0.4,
+          "title": "Israël dit avoir « capturé » la forteresse médiévale de Beaufort au Liban et y avoir planté son drapeau",
+          "publisher": "Ouest-France"
+        },
+        {
+          "url": "https://www.lefigaro.fr/international/la-prochaine-crise-sera-celle-de-l-obeissance-l-armee-israelienne-de-plus-en-plus-influencee-par-les-mouvements-messianiques-20260531",
+          "score": 0.2,
+          "title": "« La prochaine crise sera celle de l’obéissance » : l’armée israélienne de plus en plus influencée par les mouvements messianiques",
+          "publisher": "Le Figaro"
+        },
+        {
+          "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-israel-annonce-etendre-ses-operations-au-liban-et-appelle-a-l-evacuation-de-toute-la-zone-au-sud-du-fleuve-zahrani_8037965.html",
+          "score": 0.1,
+          "title": "DIRECT. Guerre au Moyen-Orient : 13 membres du personnel médical libanais blessés après une frappe israélienne près d'un hôpital à Tyr, dans le sud du pays",
+          "publisher": "franceinfo"
+        }
+      ]
+    },
+    {
+      "topic_kind": "entity",
+      "topic_name": "Patrick Bruel",
+      "topic_label": "Patrick Bruel",
+      "current_count": 6,
+      "prev_count": 0,
+      "delta": 6,
       "pct_change": null,
       "latest_at": "2026-05-31T14:16:43+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.cnews.fr/monde/2026-05-30/etats-unis-donald-trump-pret-annuler-les-concerts-du-250e-anniversaire-pour-un",
-          "score": 17.5,
-          "title": "Etats-Unis : Donald Trump prêt à annuler les concerts du 250e anniversaire pour un discours à Washington",
-          "publisher": "CNews"
+          "url": "https://www.rtl.fr/culture/musique/triste-et-lamentable-des-fans-de-patrick-bruel-vise-par-plusieurs-plaintes-pour-violences-sexuelles-reagissent-sur-rtl-a-l-annulation-de-ses-concerts-prevus-cet-ete-7900640905",
+          "score": 18.0,
+          "title": "\"Triste et lamentable\" : des fans de Patrick Bruel, visé par plusieurs plaintes pour violences sexuelles, réagissent sur RTL à l'annulation de ses concerts prévus cet été",
+          "publisher": "RTL.fr"
         },
         {
-          "url": "https://www.bfmtv.com/international/moyen-orient/direct-guerre-au-moyen-orient-et-en-iran-donald-trump-affirme-avoir-recu-de-l-iran-l-engagement-a-ne-pas-se-doter-de-l-arme-nucleaire_LN-202605310034.html",
-          "score": 2.6,
-          "title": "DIRECT. Guerre au Moyen-Orient: Jean-Noël Barrot demande une \"réunion d'urgence\" du Conseil de sécurité de l'ONU sur les opérations israéliennes au Liban",
-          "publisher": "BFM"
+          "url": "https://x.com/BFMTV/status/2060463231441776675",
+          "score": 1.3,
+          "title": "Annulation des concerts de Patrick Bruel: \"Aujourd'hui, il va falloir qu'on trouve une nouvelle tête d'affiche\", explique Stéphane Leyenberger, maire (LR) de Saverne Voir sur X",
+          "publisher": "X"
         },
         {
-          "url": "https://www.huffingtonpost.fr/international/article/aucun-musicien-ne-veut-se-produire-au-250e-anniversaire-des-etats-unis-trump-boude_264276.html",
-          "score": 1.9,
-          "title": "Aucun musicien ne veut se produire au 250e anniversaire des États-Unis, Trump boude",
+          "url": "https://www.journaldesfemmes.fr/people/magazine/3267397-actualite-infos-people-france-mai-patrick-bruel-camille-lellouche/3267451-patrick-bruel",
+          "score": 0.1,
+          "title": "Patrick Bruel : une deuxième ligne téléphonique dédiée à ses rencontres ?",
+          "publisher": "Journal des Femmes"
+        }
+      ]
+    },
+    {
+      "topic_kind": "cluster",
+      "topic_name": "Aya Nakamura",
+      "topic_label": "Aya Nakamura",
+      "current_count": 5,
+      "prev_count": 0,
+      "delta": 5,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.vogue.fr/article/aya-nakamura-invite-legende-chanson-mali-oumou-sangare-stade-de-france",
+          "score": 0.9,
+          "title": "Aya Nakamura invite la légende de la chanson malienne, Oumou Sangaré, pour son premier Stade de France",
+          "publisher": "Vogue France"
+        },
+        {
+          "url": "https://www.leparisien.fr/culture-loisirs/musique/au-niveau-dun-show-a-la-beyonce-aya-nakamura-dompte-le-stade-de-france-et-reunit-220-000-spectateurs-en-trois-jours-31-05-2026-AERHYQPDQJD4VOHV4WYL7SGTF4.php",
+          "score": 0.3,
+          "title": "« Au niveau d’un show à la Beyoncé » : Aya Nakamura dompte le Stade de France et réunit 220 000 spectateurs en trois jours",
+          "publisher": "Le Parisien"
+        },
+        {
+          "url": "https://www.huffingtonpost.fr/life/article/aya-nakamura-au-stade-de-france-les-conseils-essentiels-pour-survivre-en-concert-par-ces-fortes-chaleurs_264229.html",
+          "score": 0.1,
+          "title": "Aya Nakamura au Stade de France : les conseils essentiels pour survivre en concert par ces fortes chaleurs",
           "publisher": "Le HuffPost"
         }
       ]
@@ -1064,181 +1219,26 @@
       "prev_count": 0,
       "delta": 5,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.blog-rct.com/un-partant-du-stade-toulousain-se-veut-tres-emu-pour-sa-derniere-pour-moi-cetait-une-grande-et-belle-experience/",
-          "score": 0.2,
-          "title": "Un partant du Stade Toulousain se veut très ému pour sa dernière : « Pour moi, c’était une grande et belle expérience",
-          "publisher": "Blog RCT"
-        },
-        {
-          "url": "https://sports.orange.fr/rugby/top-14/article/top-14-j25-toulon-s-offre-un-succes-de-prestige-contre-bordeaux-begles-exclu-CNT000002pGS93.html",
-          "score": 0.0,
-          "title": "Top 14 (J25) : Toulon s'offre un succès de prestige contre Bordeaux-Bègles",
+          "url": "https://sports.orange.fr/rugby/top-14/article/top-14-j25-le-racing-92-signe-une-victoire-importante-a-clermont-exclu-CNT000002pGU1t.html",
+          "score": 0.1,
+          "title": "Top 14 (J25) : Le Racing 92 signe une victoire importante à Clermont",
           "publisher": "Sports - Orange"
         },
         {
-          "url": "https://www.lefigaro.fr/sports/rugby/live/top-14/2026/948094/toulon-bordeaux-begles",
-          "score": 0.0,
-          "title": "Toulon-UBB : revivez la victoire des Varois face au champion d’Europe",
-          "publisher": "Le Figaro"
-        }
-      ]
-    },
-    {
-      "topic_kind": "entity",
-      "topic_name": "Donald Trump",
-      "topic_label": "Donald Trump",
-      "current_count": 5,
-      "prev_count": 0,
-      "delta": 5,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.huffingtonpost.fr/international/article/aucun-musicien-ne-veut-se-produire-au-250e-anniversaire-des-etats-unis-trump-boude_264276.html",
-          "score": 8.9,
-          "title": "Aucun musicien ne veut se produire au 250e anniversaire des États-Unis, Trump boude",
-          "publisher": "Le HuffPost"
-        },
-        {
-          "url": "https://www.bfmtv.com/economie/international/les-remboursements-des-droits-de-douane-sont-deja-en-cours-mais-l-administration-trump-va-faire-appel-de-la-decision_AV-202605310215.html",
-          "score": 2.3,
-          "title": "Les remboursements des droits de douane sont déjà en cours mais l'administration Trump va faire appel de la décision",
-          "publisher": "BFM"
-        },
-        {
-          "url": "https://www.20minutes.fr/monde/etats-unis/4226294-20260531-direct-guerre-moyen-orient-selon-trump-iran-engage-doter-arme-nucleaire",
+          "url": "https://www.rugbyrama.fr/2026/05/31/top-14-les-notes-de-clermont-racing-92-josua-tuisova-et-vinaya-habosi-ont-fait-regner-lordre-marcos-kremer-en-delicatesse-13396917.php",
           "score": 0.1,
-          "title": "EN DIRECT Guerre au Moyen-Orient : Réunion d'urgence à l'ONU lundi après la…",
-          "publisher": "20 Minutes"
-        }
-      ]
-    },
-    {
-      "topic_kind": "entity",
-      "topic_name": "Fête des Mères",
-      "topic_label": "Fête des Mères",
-      "current_count": 5,
-      "prev_count": 0,
-      "delta": 5,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.gala.fr/l_actu/news_de_stars/brigitte-macron-celebree-par-sa-fille-laurence-avec-une-jolie-photo-pour-la-fete-des-meres-20260531",
-          "score": 11.8,
-          "title": "Brigitte Macron célébrée par sa fille Laurence avec une jolie photo pour la fête des mères",
-          "publisher": "Gala"
+          "title": "Top 14 - Les notes de Clermont - Racing 92 : Josua Tuisova et Vinaya Habosi ont fai...",
+          "publisher": "Rugbyrama"
         },
         {
-          "url": "https://histoiresroyales.fr/princesse-charlene-jumeaux-immacules-nouveau-portrait-fete-des-meres/",
-          "score": 6.1,
-          "title": "La princesse Charlène et ses jumeaux immaculés sur un nouveau portrait pour la fête des mères",
-          "publisher": "Histoires Royales"
-        },
-        {
-          "url": "https://france3-regions.franceinfo.fr/bretagne/morbihan/vannes/fetes-des-meres-cette-fleuriste-bretonne-se-bat-pour-des-bouquets-de-fleurs-plus-propres-3360034.html",
-          "score": 0.2,
-          "title": "Fête des mères. Cette fleuriste bretonne se bat pour des bouquets de fleurs plus propres",
-          "publisher": "France 3 Régions"
-        }
-      ]
-    },
-    {
-      "topic_kind": "category",
-      "topic_name": "/Food & Drink/Food",
-      "topic_label": "Food",
-      "current_count": 5,
-      "prev_count": 0,
-      "delta": 5,
-      "pct_change": null,
-      "latest_at": "2026-05-31T14:16:43+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://lemagdelaconso.ouest-france.fr/dossier-2571-rincer-legumes-boite-cuisiner-avec-leur-eau.html",
-          "score": 6.1,
-          "title": "Faut-il rincer les légumes en boite ou les cuisiner avec leur eau ?",
-          "publisher": "Le Mag de la Conso"
-        },
-        {
-          "url": "https://actu.fr/nouvelle-aquitaine/lerm-et-musset_33239/tout-est-bio-en-gironde-cette-nouvelle-pepinieriste-cultive-et-vend-des-plantes-pour-un-potager-plein-de-varietes_64332112.html",
-          "score": 0.5,
-          "title": "\"Tout est bio\" : en Gironde, cette nouvelle pépiniériste cultive et vend des plantes pour un potager plein de variétés",
-          "publisher": "Actu.fr"
-        },
-        {
-          "url": "https://www.laprovence.com/article/region/15313742055167/la-recolte-du-thym-bat-son-plein-a-forcalquier-dans-les-alpes-de-haute-provence",
-          "score": 0.2,
-          "title": "La récolte du thym bat son plein à Forcalquier dans les Alpes-de-Haute-Provence",
-          "publisher": "La Provence"
-        }
-      ]
-    },
-    {
-      "topic_kind": "cluster",
-      "topic_name": "Basketball",
-      "topic_label": "Basketball",
-      "current_count": 4,
-      "prev_count": 0,
-      "delta": 4,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://x.com/Basket_Infos/status/2060670053519909165",
-          "score": 0.3,
-          "title": "« Ce qui m’impressionne chez Victor et chez les Spurs, c’est qu’ils répondent présent dans les matchs où ils doivent vraiment répondre » Rudy Gobert sur son duel avec Wemby et comment il faut le défendre. « Ça dépend de ton effectif et de ton équipe. Moi, personnellement, le but était vraiment d’être physique avec lui. Le faire travailler, l’épuiser, et surtout lui enl...",
-          "publisher": "X (Twitter)"
-        },
-        {
-          "url": "https://x.com/Basket_Infos/status/2060662627559149627",
+          "url": "https://www.lamontagne.fr/clermont-ferrand-63000/sports/top-14-suivez-la-rencontre-asm-clermont-racing-en-direct-commente_14994418/",
           "score": 0.1,
-          "title": "« Moi, sur mon canapé, je suis aussi impuissant que les défenseurs sur le terrain » Richard Jefferson pense que si Victor Wembanyama sort un grand Game 7, les Spurs sortiront forcément vainqueurs « Si Wemby te sort une de ces soirées à 35 points et 12 rebonds, je pense qu’ils gagnent. Et c’est rare de pouvoir dire ça : si ce gars-là fait ce genre de soirée, c’est tout, ça su...",
-          "publisher": "X (Twitter)"
-        },
-        {
-          "url": "https://www.lemonde.fr/sport/article/2026/05/31/victor-wembanyama-renverse-le-champion-en-titre-de-la-nba-et-propulse-ses-spurs-en-finales-face-aux-new-york-knicks_6695435_3242.html",
-          "score": 0.0,
-          "title": "Victor Wembanyama propulse les San Antonio Spurs en finales de la NBA après avoir renversé le champion en titre",
-          "publisher": "Le Monde.fr"
-        }
-      ]
-    },
-    {
-      "topic_kind": "category",
-      "topic_name": "/People & Society/Religion & Belief",
-      "topic_label": "Religion & Croyances",
-      "current_count": 4,
-      "prev_count": 0,
-      "delta": 4,
-      "pct_change": null,
-      "latest_at": "2026-05-31T05:44:38+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.leparisien.fr/societe/religions/il-serait-le-symbole-de-notre-fraternite-les-responsables-musulmans-juifs-et-protestants-prets-a-rencontrer-leon-xiv-30-05-2026-J6BE3QV2E5AZVFKFOHDXMIT23E.php",
-          "score": 33.5,
-          "title": "« Il serait le symbole de notre fraternité » : les responsables musulmans, juifs et protestants prêts à rencontrer Léon XIV",
-          "publisher": "Le Parisien"
-        },
-        {
-          "url": "https://www.paris-normandie.fr/id721579/article/2026-05-30/en-profite-enfin-apres-onze-ans-de-fermeture-cette-eglise-de-rouen-retrouve-ses",
-          "score": 0.9,
-          "title": "« On en profite enfin ! » : après onze ans de fermeture, cette église de Rouen retrouve ses visiteurs",
-          "publisher": "Paris Normandie"
-        },
-        {
-          "url": "https://www.vaticannews.va/fr/eglise/news/2026-05/300-000-personnes-a-la-longue-nuit-des-eglises-autriche.html",
-          "score": 0.0,
-          "title": "Plus de 300 000 personnes à la «Longue Nuit des Églises» en Autriche",
-          "publisher": "Vatican News"
+          "title": "Corrigée à domicile par le Racing 92, l'ASM Clermont perd très gros dans la course à la qualification (relire notre live)",
+          "publisher": "La Montagne"
         }
       ]
     }
@@ -1248,30 +1248,30 @@
       "topic_kind": "category",
       "topic_name": "/Sports/Team Sports/Soccer",
       "topic_label": "Football",
-      "current_count": 62,
+      "current_count": 53,
       "prev_count": 0,
-      "delta": 62,
+      "delta": 53,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.lequipe.fr/Football/Article/Discours-emu-de-marquinhos-luis-enrique-en-folie-messages-de-stars-dans-les-coulisses-du-deuxieme-titre-du-psg-en-ligue-des-champions/1680553",
-          "score": 16.0,
-          "title": "Discours ému de Marquinhos, Luis Enrique en folie, messages de stars : dans les coulisses de la nuit de Budapest",
-          "publisher": "L'Équipe"
+          "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/ca-va-m-accompagner-pour-la-coupe-du-monde-quand-les-bleus-decouvrent-leur-maillot-dedicace-par-des-supporters_AV-202605310240.html",
+          "score": 13.8,
+          "title": "\"Ça va m'accompagner pour la Coupe du monde\", quand les Bleus découvrent leur maillot dédicacé par des supporters",
+          "publisher": "BFM"
         },
         {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/psg-arsenal-ce-que-vous-faites-pour-le-foot-francais-est-remarquable-thierry-henry-salue-luis-enrique_AV-202605310116.html",
-          "score": 12.9,
-          "title": "PSG-Arsenal: \"Ce que vous faîtes pour le foot français est remarquable\", Thierry Henry salue Luis Enrique",
-          "publisher": "RMC Sport"
+          "url": "https://www.foot01.com/paris/psg-nasser-al-khelaifi-fait-un-plaisir-a-500-me-a-luis-enrique",
+          "score": 12.2,
+          "title": "PSG : Nasser Al-Khelaïfi fait un plaisir à 500 ME à Luis Enrique",
+          "publisher": "Foot01"
         },
         {
-          "url": "https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/direct-suivez-les-festivites-du-psg-apres-la-victoire-en-finale-de-ligue-des-champions-en-live_LN-202605310096.html",
-          "score": 7.6,
-          "title": "DIRECT. Les joueurs parisiens sont reçus à l'Elysée par Emmanuel Macron: suivez en direct les festivités après le sacre du PSG",
-          "publisher": "RMC Sport"
+          "url": "https://x.com/lequipe/status/2061010579620315286",
+          "score": 4.2,
+          "title": "Quelques minutes après la défaite d'Arsenal face au PSG en finale de la Ligue des champions, samedi soir (1-1, 4-3 t.a.b.), le club de Chelsea s'est amusé sur les réseaux sociaux à troller son rival londonien. Les Blues invitent notamment les internautes à venir « visiter la maison des trophées de Londres ». ➡️ l.lequipe.fr/JIo Voir sur X (Twitter)",
+          "publisher": "X"
         }
       ]
     },
@@ -1279,61 +1279,30 @@
       "topic_kind": "category",
       "topic_name": "/Sensitive Subjects",
       "topic_label": "Sujets sensibles",
-      "current_count": 58,
+      "current_count": 38,
       "prev_count": 0,
-      "delta": 58,
+      "delta": 38,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.latribune.fr/article/la-tribune-dimanche/societe/29658772539807/sabah-abouessalam-morin-a-edgar-morin-l-homme-de-ma-vie",
-          "score": 33.3,
-          "title": "Sabah Abouessalam-Morin : « À Edgar Morin, l’homme de ma vie »",
-          "publisher": "La Tribune"
+          "url": "https://www.huffingtonpost.fr/international/article/d-apres-les-renseignements-britanniques-500-000-soldats-russes-sont-morts-en-ukraine_264293.html",
+          "score": 33.2,
+          "title": "Le coût humain de la guerre en Ukraine atteint un seuil historique pour la Russie",
+          "publisher": "Le HuffPost"
         },
         {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/victoire-du-psg-en-ligue-des-champions-un-mort-dans-un-accident-de-la-circulation-en-marge-des-rassemblements-a-paris_AN-202605310157.html",
-          "score": 16.1,
-          "title": "Victoire du PSG en Ligue des champions: un mort dans un accident de la circulation en marge des rassemblements à Paris",
-          "publisher": "RMC Sport"
+          "url": "https://www.midilibre.fr/2026/05/31/il-ma-mordu-cinq-fois-cetait-comme-sil-me-goutait-un-setois-victime-dune-attaque-dun-requin-pointe-noire-durant-ses-vacances-en-sardaigne-13396333.php",
+          "score": 30.5,
+          "title": "\"Il m’a mordu cinq fois, c’était comme s’il me goûtait\" : un Sétois victime d’une a...",
+          "publisher": "Midi Libre"
         },
         {
-          "url": "https://www.lemonde.fr/international/article/2026/05/31/dans-l-immensite-des-forets-marecageuses-de-finlande-a-50-kilometres-de-la-frontiere-avec-la-russie-les-troupes-de-l-otan-s-entrainent-a-contrer-les-incursions_6695543_3210.html",
-          "score": 10.0,
-          "title": "Dans l’immensité des forêts marécageuses de Finlande, à 70 kilomètres de la frontière avec la Russie, les troupes de l’OTAN s’entraînent à contrer les incursions",
-          "publisher": "Le Monde.fr"
-        }
-      ]
-    },
-    {
-      "topic_kind": "entity",
-      "topic_name": "PSGFC",
-      "topic_label": "PSGFC",
-      "current_count": 45,
-      "prev_count": 0,
-      "delta": 45,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/victoire-du-psg-en-ligue-des-champions-un-mort-dans-un-accident-de-la-circulation-en-marge-des-rassemblements-a-paris_AN-202605310157.html",
-          "score": 16.1,
-          "title": "Victoire du PSG en Ligue des champions: un mort dans un accident de la circulation en marge des rassemblements à Paris",
-          "publisher": "RMC Sport"
-        },
-        {
-          "url": "https://www.lequipe.fr/Football/Article/Discours-emu-de-marquinhos-luis-enrique-en-folie-messages-de-stars-dans-les-coulisses-du-deuxieme-titre-du-psg-en-ligue-des-champions/1680553",
-          "score": 16.0,
-          "title": "Discours ému de Marquinhos, Luis Enrique en folie, messages de stars : dans les coulisses de la nuit de Budapest",
-          "publisher": "L'Équipe"
-        },
-        {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/psg-arsenal-ce-que-vous-faites-pour-le-foot-francais-est-remarquable-thierry-henry-salue-luis-enrique_AV-202605310116.html",
-          "score": 12.9,
-          "title": "PSG-Arsenal: \"Ce que vous faîtes pour le foot français est remarquable\", Thierry Henry salue Luis Enrique",
-          "publisher": "RMC Sport"
+          "url": "https://www.youtube.com/watch?v=nC-ggO1LwCY",
+          "score": 3.7,
+          "title": "Laurent Nuñez sur les débordements à Paris : «La situation était globalement sous contrôle»",
+          "publisher": "YouTube"
         }
       ]
     },
@@ -1401,63 +1370,32 @@
     },
     {
       "topic_kind": "entity",
-      "topic_name": "Football",
-      "topic_label": "Football",
-      "current_count": 20,
+      "topic_name": "PSGFC",
+      "topic_label": "PSGFC",
+      "current_count": 26,
       "prev_count": 0,
-      "delta": 20,
+      "delta": 26,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/victoire-du-psg-en-ligue-des-champions-un-mort-dans-un-accident-de-la-circulation-en-marge-des-rassemblements-a-paris_AN-202605310157.html",
-          "score": 16.1,
-          "title": "Victoire du PSG en Ligue des champions: un mort dans un accident de la circulation en marge des rassemblements à Paris",
-          "publisher": "RMC Sport"
+          "url": "https://www.foot01.com/paris/psg-nasser-al-khelaifi-fait-un-plaisir-a-500-me-a-luis-enrique",
+          "score": 12.2,
+          "title": "PSG : Nasser Al-Khelaïfi fait un plaisir à 500 ME à Luis Enrique",
+          "publisher": "Foot01"
         },
         {
-          "url": "https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/direct-suivez-les-festivites-du-psg-apres-la-victoire-en-finale-de-ligue-des-champions-en-live_LN-202605310096.html",
-          "score": 7.6,
-          "title": "DIRECT. Les joueurs parisiens sont reçus à l'Elysée par Emmanuel Macron: suivez en direct les festivités après le sacre du PSG",
-          "publisher": "RMC Sport"
+          "url": "https://x.com/lequipe/status/2061010579620315286",
+          "score": 4.2,
+          "title": "Quelques minutes après la défaite d'Arsenal face au PSG en finale de la Ligue des champions, samedi soir (1-1, 4-3 t.a.b.), le club de Chelsea s'est amusé sur les réseaux sociaux à troller son rival londonien. Les Blues invitent notamment les internautes à venir « visiter la maison des trophées de Londres ». ➡️ l.lequipe.fr/JIo Voir sur X (Twitter)",
+          "publisher": "X"
         },
         {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/un-mort-780-interpellations-des-commerces-pilles-le-lourd-bilan-des-debordements-qui-ont-suivi-le-sacre-du-psg-en-ligue-des-champions_AV-202605310211.html",
-          "score": 6.9,
-          "title": "Un mort, 780 interpellations, des commerces pillés… Le lourd bilan des débordements qui ont suivi le sacre du PSG en Ligue des champions",
-          "publisher": "RMC Sport"
-        }
-      ]
-    },
-    {
-      "topic_kind": "cluster",
-      "topic_name": "Roland-Garros",
-      "topic_label": "Roland-Garros",
-      "current_count": 18,
-      "prev_count": 0,
-      "delta": 18,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.ouest-france.fr/sport/tennis/roland-garros/roland-garros-2026-quelle-somme-va-toucher-moise-kouame-apres-sa-defaite-au-troisieme-tour-fbd34c44-5cd2-11f1-b3f0-aacb0ffa8bfb",
-          "score": 6.4,
-          "title": "Roland-Garros 2026. Quelle somme va toucher Moïse Kouame après sa défaite au troisième tour ?",
-          "publisher": "Ouest-France"
-        },
-        {
-          "url": "https://www.lequipe.fr/Tennis/Actualites/Combien-va-toucher-moise-kouame-pas-encore-18-ans-apres-son-3e-tour-a-roland-garros/1680646",
-          "score": 2.4,
-          "title": "Combien va toucher Moïse Kouame, pas encore 18 ans, après son 3e tour à Roland-Garros ?",
-          "publisher": "L'Équipe"
-        },
-        {
-          "url": "https://www.purepeople.com/article/diane-parry-roland-garros-a-quitte-lile-de-france-pour-vivre-plus-de-6500-km-dans-une-ville-reputee-pour-sa-chaleur-jy-suis-depuis-deux-ans_a550730/1",
-          "score": 1.1,
-          "title": "Diane Parry (Roland-Garros) a quitté l'Ile-de-France pour vivre plus de 6500 km, dans une ville réputée pour sa chaleur : \"J'y suis depuis deux ans\"",
-          "publisher": "Pure People"
+          "url": "https://www.leparisien.fr/sports/football/le-psg-champion-deurope-2026-pourquoi-les-parisiens-portaient-des-masques-de-ski-lors-de-leurs-celebrations-31-05-2026-UGQDXCBDTZGYHMJAZRBFL622OE.php",
+          "score": 2.5,
+          "title": "Le PSG champion d’Europe 2026 : pourquoi les Parisiens portaient des masques de ski lors de leurs célébrations",
+          "publisher": "Le Parisien"
         }
       ]
     },
@@ -1465,30 +1403,30 @@
       "topic_kind": "category",
       "topic_name": "/Arts & Entertainment/Celebrities & Entertainment News",
       "topic_label": "People",
-      "current_count": 18,
+      "current_count": 22,
       "prev_count": 0,
-      "delta": 18,
+      "delta": 22,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.20min.ch/fr/story/carnet-blanc-ralf-schumacher-et-etienne-bousquet-cassagne-se-sont-dit-oui-103574347",
-          "score": 26.0,
-          "title": "Ralf Schumacher et Étienne Bousquet-Cassagne célèbrent leur mariage à Saint-Tropez",
-          "publisher": "20 Minuten"
+          "url": "https://www.purepeople.com/article/depuis-22-ans-christian-clavier-vit-avec-isabelle-de-araujo-une-femme-importante-qui-a-travaille-sur-dix-de-ses-films_a550632/1",
+          "score": 48.0,
+          "title": "Depuis 22 ans, Christian Clavier vit avec Isabelle de Araujo, une femme importante qui a travaillé sur dix de ses films",
+          "publisher": "Pure People"
         },
         {
-          "url": "https://www.ouest-france.fr/sport/padel/entretien-je-regale-et-cest-normal-cyril-hanouna-a-t-il-paye-pour-monter-au-classement-de-padel-d9900cb2-537c-11f1-a8af-559ef5894fc2",
-          "score": 13.9,
-          "title": "ENTRETIEN. « Je régale et c’est normal ! » : Cyril Hanouna a-t-il payé pour monter au classement de padel ?",
-          "publisher": "Ouest-France"
+          "url": "https://www.marieclaire.fr/ses-enfants-avant-tout-kate-middleton-impose-cette-nouvelle-regle-pour-proteger-son-equilibre-familial,1514794.asp",
+          "score": 30.2,
+          "title": "Ses enfants avant tout : Kate Middleton impose cette nouvelle règle pour protéger son équilibre familial",
+          "publisher": "Marie Claire"
         },
         {
-          "url": "https://www.gala.fr/l_actu/news_de_stars/brigitte-macron-celebree-par-sa-fille-laurence-avec-une-jolie-photo-pour-la-fete-des-meres-20260531",
-          "score": 11.8,
-          "title": "Brigitte Macron célébrée par sa fille Laurence avec une jolie photo pour la fête des mères",
-          "publisher": "Gala"
+          "url": "https://x.com/franceinfo/status/2060766757258715608",
+          "score": 0.8,
+          "title": "🔴 Affaire Bruel : \"Patrick Bruel est devenu absolument radioactif. Les pressions étaient telles que la situation n’était plus tenable pour les festivals comme pour sa tournée\", affirme Jean-Michel Aubry Journet, cofondateur du collectif MusicTooFrance. #ToutEstPolitique #canal16 Voir sur X",
+          "publisher": "X"
         }
       ]
     },
@@ -1525,32 +1463,32 @@
     },
     {
       "topic_kind": "category",
-      "topic_name": "/News/Politics",
-      "topic_label": "Politique",
-      "current_count": 13,
+      "topic_name": "/Sports/Individual Sports",
+      "topic_label": "Sports individuels",
+      "current_count": 14,
       "prev_count": 0,
-      "delta": 13,
+      "delta": 14,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.huffingtonpost.fr/international/article/aucun-musicien-ne-veut-se-produire-au-250e-anniversaire-des-etats-unis-trump-boude_264276.html",
-          "score": 8.9,
-          "title": "Aucun musicien ne veut se produire au 250e anniversaire des États-Unis, Trump boude",
-          "publisher": "Le HuffPost"
+          "url": "https://www.ladepeche.fr/2026/05/31/plus-de-600-personnes-prises-en-charge-par-la-croix-rouge-24-hospitalisations-quand-la-course-a-pied-de-20-km-vire-au-calvaire-13396702.php",
+          "score": 29.8,
+          "title": "Plus de 600 personnes prises en charge par la Croix-Rouge, 24 hospitalisations... Q...",
+          "publisher": "ladepeche.fr"
         },
         {
-          "url": "https://www.midilibre.fr/2026/05/31/il-faut-lui-retirer-le-micro-raphael-glucksmann-accuse-une-chroniqueuse-de-cnews-detre-une-agente-russe-au-service-du-kremlin-13396497.php",
-          "score": 1.8,
-          "title": "\"Il faut lui retirer le micro\" : Raphaël Glucksmann accuse une chroniqueuse de CNews d’être une \"agente russe\" au service du Kremlin",
-          "publisher": "Midi Libre"
+          "url": "https://www.letelegramme.fr/cotes-d-armor/loudeac-22600/marathon-loudeac-pontivy-5-200-coureurs-assurent-le-show-entre-les-deux-villes-en-images-7054103.php",
+          "score": 0.3,
+          "title": "Marathon Loudéac-Pontivy : 5 200 coureurs assurent le show entre les deux villes [en images]",
+          "publisher": "Le Télégramme"
         },
         {
-          "url": "https://www.bfmtv.com/politique/horizons/etre-planque-ou-descendre-dans-l-arene-presidentielle-pourquoi-edouard-philippe-fait-le-choix-de-la-retenue_AN-202605310132.html",
-          "score": 0.6,
-          "title": "\"Être planqué\" ou descendre dans l'arène présidentielle: pourquoi Édouard Philippe fait le choix de la retenue",
-          "publisher": "BFM"
+          "url": "https://www.lyonne.fr/sens-89100/sports/seulement-1-d-abandons-le-samedi-soir-malgre-la-chaleur-le-trail-du-grand-senonais-enregistre-une-participation-record_14996032/",
+          "score": 0.2,
+          "title": "\"Seulement 1 % d'abandons le samedi soir\" : malgré la chaleur, le Trail du Grand Sénonais enregistre une participation \"record\"",
+          "publisher": "L'Yonne Républicaine"
         }
       ]
     },
@@ -1617,33 +1555,95 @@
       ]
     },
     {
-      "topic_kind": "category",
-      "topic_name": "/Arts & Entertainment/TV & Video/TV Shows & Programs",
-      "topic_label": "Émissions TV",
-      "current_count": 12,
+      "topic_kind": "entity",
+      "topic_name": "Football",
+      "topic_label": "Football",
+      "current_count": 13,
       "prev_count": 0,
-      "delta": 12,
+      "delta": 13,
       "pct_change": null,
-      "latest_at": "2026-05-31T09:28:21+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.leparisien.fr/culture-loisirs/tv/the-voice-lady-o-gagne-la-saison-15-florent-pagny-quitte-lemission-31-05-2026-ABNTSP5ILNE3TEQZORQ7NB5LQM.php",
-          "score": 55.0,
-          "title": "« The Voice » : Lady O gagne la saison 15, Florent Pagny quitte l’émission",
+          "url": "https://rmcsport.bfmtv.com/football/coupe-du-monde/ca-va-m-accompagner-pour-la-coupe-du-monde-quand-les-bleus-decouvrent-leur-maillot-dedicace-par-des-supporters_AV-202605310240.html",
+          "score": 13.8,
+          "title": "\"Ça va m'accompagner pour la Coupe du monde\", quand les Bleus découvrent leur maillot dédicacé par des supporters",
+          "publisher": "BFM"
+        },
+        {
+          "url": "https://www.leparisien.fr/sports/football/le-psg-champion-deurope-2026-pourquoi-les-parisiens-portaient-des-masques-de-ski-lors-de-leurs-celebrations-31-05-2026-UGQDXCBDTZGYHMJAZRBFL622OE.php",
+          "score": 2.5,
+          "title": "Le PSG champion d’Europe 2026 : pourquoi les Parisiens portaient des masques de ski lors de leurs célébrations",
           "publisher": "Le Parisien"
         },
         {
-          "url": "https://programmetv.ouest-france.fr/divers/divertissement/the-voice-m95771888/the-voice-lady-o-gagne-la-saison-15-florent-pagny-fait-ses-adieux-on-vous-resume-la-finale-a35d4852-5c42-11f1-b2c7-21f7efea5d61",
-          "score": 2.3,
-          "title": "« The Voice ». Lady O gagne la saison 15, Florent Pagny fait ses adieux... On vous résume la finale",
-          "publisher": "Programme TV Ouest-France"
+          "url": "https://www.laprovence.com/article/faits-divers-justice/7650753106569114/environ-80-caravanes-des-gens-du-voyage-s-installent-sur-deux-terrains-de-football-a-saint-andiol",
+          "score": 0.8,
+          "title": "Environ 80 caravanes des gens du voyage s’installent sur deux terrains de football à Saint-Andiol",
+          "publisher": "La Provence"
+        }
+      ]
+    },
+    {
+      "topic_kind": "cluster",
+      "topic_name": "Roland-Garros",
+      "topic_label": "Roland-Garros",
+      "current_count": 13,
+      "prev_count": 0,
+      "delta": 13,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.lequipe.fr/Tennis/Actualites/Combien-va-toucher-moise-kouame-pas-encore-18-ans-apres-son-3e-tour-a-roland-garros/1680646",
+          "score": 20.8,
+          "title": "Combien va toucher Moïse Kouame, pas encore 18 ans, après son 3e tour à Roland-Garros ?",
+          "publisher": "L'Équipe"
         },
         {
-          "url": "https://www.youtube.com/watch?v=e9ZX8BSOPjw",
-          "score": 1.9,
-          "title": "L'important c'est d'essayer, Catherine - Catherine et Liliane - CANAL+",
-          "publisher": "YouTube"
+          "url": "https://www.lequipe.fr/Tennis/Actualites/Vainqueure-de-l-open-d-australie-juniors-et-numero-1-mondiale-la-francaise-ksenia-efremova-est-eliminee-d-entree-a-roland-garros/1680573",
+          "score": 7.7,
+          "title": "Vainqueure de l'Open d'Australie juniors et numéro 1 mondiale, la Française Ksenia Efremova est éliminée d'entrée à Roland-Garros",
+          "publisher": "L'Équipe"
+        },
+        {
+          "url": "https://www.lequipe.fr/Tennis/Actualites/Trente-sept-ans-apres-la-victoire-de-son-pere-lani-chang-a-foule-la-terre-battue-de-roland-garros/1680593",
+          "score": 1.8,
+          "title": "Trente-sept ans après la victoire de son père, Lani Chang a foulé la terre battue de Roland-Garros",
+          "publisher": "L'Équipe"
+        }
+      ]
+    },
+    {
+      "topic_kind": "category",
+      "topic_name": "/News/Politics",
+      "topic_label": "Politique",
+      "current_count": 13,
+      "prev_count": 0,
+      "delta": 13,
+      "pct_change": null,
+      "latest_at": "2026-05-31T19:47:06+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.huffingtonpost.fr/international/article/aucun-musicien-ne-veut-se-produire-au-250e-anniversaire-des-etats-unis-trump-boude_264276.html",
+          "score": 8.9,
+          "title": "Aucun musicien ne veut se produire au 250e anniversaire des États-Unis, Trump boude",
+          "publisher": "Le HuffPost"
+        },
+        {
+          "url": "https://www.midilibre.fr/2026/05/31/il-faut-lui-retirer-le-micro-raphael-glucksmann-accuse-une-chroniqueuse-de-cnews-detre-une-agente-russe-au-service-du-kremlin-13396497.php",
+          "score": 1.8,
+          "title": "\"Il faut lui retirer le micro\" : Raphaël Glucksmann accuse une chroniqueuse de CNews d’être une \"agente russe\" au service du Kremlin",
+          "publisher": "Midi Libre"
+        },
+        {
+          "url": "https://www.bfmtv.com/politique/horizons/etre-planque-ou-descendre-dans-l-arene-presidentielle-pourquoi-edouard-philippe-fait-le-choix-de-la-retenue_AN-202605310132.html",
+          "score": 0.6,
+          "title": "\"Être planqué\" ou descendre dans l'arène présidentielle: pourquoi Édouard Philippe fait le choix de la retenue",
+          "publisher": "BFM"
         }
       ]
     },
@@ -1675,6 +1675,130 @@
           "score": 1.4,
           "title": "Météo : le Var placé en vigilance jaune aux orages ce dimanche, risque d’averses de grêle par endroits",
           "publisher": "Nice-Matin"
+        }
+      ]
+    },
+    {
+      "topic_kind": "cluster",
+      "topic_name": "Donald Trump",
+      "topic_label": "Donald Trump",
+      "current_count": 12,
+      "prev_count": 0,
+      "delta": 12,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.rtl.fr/actu/international/guerre-au-moyen-orient-l-iran-n-approuvera-aucun-accord-avec-washington-sans-la-certitude-que-les-droits-du-peuple-iraniens-seront-garantis-7900641179",
+          "score": 0.7,
+          "title": "Guerre au Moyen-Orient : l'Iran n'approuvera aucun accord avec Washington sans la \"certitude que les droits du peuple iranien\" seront garantis",
+          "publisher": "RTL.fr"
+        },
+        {
+          "url": "https://www.huffingtonpost.fr/international/article/donald-trump-a-passe-un-examen-medical-mais-toutes-les-questions-sur-sa-sante-mentale-restent-sans-reponse_264223.html",
+          "score": 0.6,
+          "title": "Cette question cruciale à laquelle le nouvel examen médical de Trump ne permet pas de répondre",
+          "publisher": "Le HuffPost"
+        },
+        {
+          "url": "https://www.lemonde.fr/international/article/2026/06/01/presidentielle-en-colombie-abelardo-de-la-espriella-un-millionnaire-admirateur-de-donald-trump-et-ivan-cepeda-le-candidat-de-la-gauche-s-affronteront-au-second-tour_6695677_3210.html",
+          "score": 0.5,
+          "title": "Présidentielle en Colombie : Abelardo de la Espriella, un millionnaire admirateur de Donald Trump, et Ivan Cepeda, le candidat de la gauche, s’affronteront au second tour",
+          "publisher": "Le Monde.fr"
+        }
+      ]
+    },
+    {
+      "topic_kind": "category",
+      "topic_name": "/Autos & Vehicles",
+      "topic_label": "Automobile",
+      "current_count": 12,
+      "prev_count": 0,
+      "delta": 12,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.caradisiac.com/moche-mais-vraie-ferrari-avec-son-superbe-v12-la-612-scaglietti-est-elle-un-bon-plan-222319.htm",
+          "score": 8.1,
+          "title": "Moche mais vraie Ferrari avec son superbe V12, la 612 Scaglietti est-elle un bon plan ?",
+          "publisher": "Caradisiac"
+        },
+        {
+          "url": "https://www.automobile-magazine.fr/retro/article/52066-il-y-a-pile-50-ans-la-citadine-de-citroen-navait-que-2-cylindres",
+          "score": 7.0,
+          "title": "Il y a pile 50 ans, la citadine de Citroën n'avait que 2 cylindres",
+          "publisher": "L'Automobile Magazine"
+        },
+        {
+          "url": "https://www.caradisiac.com/il-fait-plus-de-770-000-kilometres-avec-sa-rolls-royce-phantom-222327.htm",
+          "score": 4.1,
+          "title": "Il fait plus de 770 000 kilomètres avec sa Rolls-Royce Phantom",
+          "publisher": "Caradisiac"
+        }
+      ]
+    },
+    {
+      "topic_kind": "category",
+      "topic_name": "/Arts & Entertainment/TV & Video/TV Shows & Programs",
+      "topic_label": "Émissions TV",
+      "current_count": 12,
+      "prev_count": 0,
+      "delta": 12,
+      "pct_change": null,
+      "latest_at": "2026-05-31T09:28:21+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.leparisien.fr/culture-loisirs/tv/the-voice-lady-o-gagne-la-saison-15-florent-pagny-quitte-lemission-31-05-2026-ABNTSP5ILNE3TEQZORQ7NB5LQM.php",
+          "score": 55.0,
+          "title": "« The Voice » : Lady O gagne la saison 15, Florent Pagny quitte l’émission",
+          "publisher": "Le Parisien"
+        },
+        {
+          "url": "https://programmetv.ouest-france.fr/divers/divertissement/the-voice-m95771888/the-voice-lady-o-gagne-la-saison-15-florent-pagny-fait-ses-adieux-on-vous-resume-la-finale-a35d4852-5c42-11f1-b2c7-21f7efea5d61",
+          "score": 2.3,
+          "title": "« The Voice ». Lady O gagne la saison 15, Florent Pagny fait ses adieux... On vous résume la finale",
+          "publisher": "Programme TV Ouest-France"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=e9ZX8BSOPjw",
+          "score": 1.9,
+          "title": "L'important c'est d'essayer, Catherine - Catherine et Liliane - CANAL+",
+          "publisher": "YouTube"
+        }
+      ]
+    },
+    {
+      "topic_kind": "category",
+      "topic_name": "/Sports/Individual Sports/Racquet Sports",
+      "topic_label": "Sports de raquette",
+      "current_count": 12,
+      "prev_count": 0,
+      "delta": 12,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.lequipe.fr/Tennis/Actualites/Combien-va-toucher-moise-kouame-pas-encore-18-ans-apres-son-3e-tour-a-roland-garros/1680646",
+          "score": 20.8,
+          "title": "Combien va toucher Moïse Kouame, pas encore 18 ans, après son 3e tour à Roland-Garros ?",
+          "publisher": "L'Équipe"
+        },
+        {
+          "url": "https://www.lequipe.fr/Tennis/Actualites/Vainqueure-de-l-open-d-australie-juniors-et-numero-1-mondiale-la-francaise-ksenia-efremova-est-eliminee-d-entree-a-roland-garros/1680573",
+          "score": 7.7,
+          "title": "Vainqueure de l'Open d'Australie juniors et numéro 1 mondiale, la Française Ksenia Efremova est éliminée d'entrée à Roland-Garros",
+          "publisher": "L'Équipe"
+        },
+        {
+          "url": "https://www.lequipe.fr/Tennis/Actualites/Trente-sept-ans-apres-la-victoire-de-son-pere-lani-chang-a-foule-la-terre-battue-de-roland-garros/1680593",
+          "score": 1.8,
+          "title": "Trente-sept ans après la victoire de son père, Lani Chang a foulé la terre battue de Roland-Garros",
+          "publisher": "L'Équipe"
         }
       ]
     },
@@ -1711,37 +1835,6 @@
     },
     {
       "topic_kind": "entity",
-      "topic_name": "Luis Enrique",
-      "topic_label": "Luis Enrique",
-      "current_count": 10,
-      "prev_count": 0,
-      "delta": 10,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.lequipe.fr/Football/Article/Discours-emu-de-marquinhos-luis-enrique-en-folie-messages-de-stars-dans-les-coulisses-du-deuxieme-titre-du-psg-en-ligue-des-champions/1680553",
-          "score": 16.0,
-          "title": "Discours ému de Marquinhos, Luis Enrique en folie, messages de stars : dans les coulisses de la nuit de Budapest",
-          "publisher": "L'Équipe"
-        },
-        {
-          "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/psg-arsenal-ce-que-vous-faites-pour-le-foot-francais-est-remarquable-thierry-henry-salue-luis-enrique_AV-202605310116.html",
-          "score": 12.9,
-          "title": "PSG-Arsenal: \"Ce que vous faîtes pour le foot français est remarquable\", Thierry Henry salue Luis Enrique",
-          "publisher": "RMC Sport"
-        },
-        {
-          "url": "https://www.footmercato.net/a701003785066306507-psg-luis-enrique-sexcuse-aupres-dun-joueur-apres-la-finale-de-ldc",
-          "score": 0.6,
-          "title": "PSG : Luis Enrique s’excuse auprès d’un joueur après la finale de LdC",
-          "publisher": "Foot Mercato"
-        }
-      ]
-    },
-    {
-      "topic_kind": "entity",
       "topic_name": "Gers",
       "topic_label": "Gers",
       "current_count": 9,
@@ -1772,33 +1865,33 @@
       ]
     },
     {
-      "topic_kind": "category",
-      "topic_name": "/News/Business News",
-      "topic_label": "Actualité éco",
+      "topic_kind": "cluster",
+      "topic_name": "Banane",
+      "topic_label": "Banane",
       "current_count": 8,
       "prev_count": 0,
       "delta": 8,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.leparisien.fr/elections/presidentielle/retour-de-la-taxe-dhabitation-baisse-des-cotisations-salariales-le-big-bang-fiscal-propose-par-un-macroniste-historique-30-05-2026-KRPMZMXWRBAXTONTZOJ2X5JSFA.php",
-          "score": 29.6,
-          "title": "Retour de la taxe d’habitation, baisse des cotisations salariales… Le big bang fiscal proposé par un macroniste historique",
+          "url": "https://www.leparisien.fr/faits-divers/loeuvre-dart-representant-une-banane-scotchee-au-mur-volee-au-centre-pompidou-metz-le-musee-depose-plainte-31-05-2026-QX4DIPVR25DHNO3ANZAOXU4Z4I.php",
+          "score": 2.6,
+          "title": "L’œuvre d’art représentant une banane scotchée au mur volée au Centre Pompidou-Metz, le musée dépose plainte",
           "publisher": "Le Parisien"
         },
         {
-          "url": "https://www.lefigaro.fr/societes/les-mulliez-sont-des-entrepreneurs-de-terrain-les-actionnaires-d-auchan-decathlon-leroy-merlin-et-kiabi-affichent-leur-confiance-pour-l-avenir-20260531",
-          "score": 2.6,
-          "title": "« Les Mulliez sont des entrepreneurs de terrain » : les actionnaires d’Auchan, Decathlon, Leroy Merlin et Kiabi affichent leur confiance pour l’avenir",
-          "publisher": "Le Figaro"
+          "url": "https://www.cnews.fr/faits-divers/2026-05-31/metz-la-banane-fixee-au-mur-du-centre-pompidou-par-un-ruban-adhesif-volee",
+          "score": 0.6,
+          "title": "Metz : la banane fixée au mur du Centre Pompidou par un ruban adhésif volée, l’établissement dépose plainte",
+          "publisher": "CNews"
         },
         {
-          "url": "https://www.lemonde.fr/idees/article/2026/05/29/terres-rares-la-chine-controle-les-prix-du-marche-peut-supporter-des-ventes-a-perte-et-couler-la-concurrence_6694752_3232.html",
-          "score": 1.1,
-          "title": "Terres rares : « La Chine contrôle les prix du marché, peut supporter des ventes à perte et couler la concurrence »",
-          "publisher": "Le Monde.fr"
+          "url": "https://www.lefigaro.fr/culture/au-centre-pompidou-metz-la-banane-de-l-oeuvre-comedian-vendue-6-2-millions-de-dollars-a-ete-volee-20260531",
+          "score": 0.2,
+          "title": "Au centre Pompidou-Metz, la banane de l’œuvre «Comedian», vendue 6,2 millions de dollars, a été volée",
+          "publisher": "Le Figaro"
         }
       ]
     },
@@ -1834,37 +1927,6 @@
       ]
     },
     {
-      "topic_kind": "cluster",
-      "topic_name": "Thunder d'Oklahoma City",
-      "topic_label": "Thunder d'Oklahoma City",
-      "current_count": 8,
-      "prev_count": 0,
-      "delta": 8,
-      "pct_change": null,
-      "latest_at": "2026-05-31T14:16:43+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://x.com/Basket_Infos/status/2060670053519909165",
-          "score": 0.2,
-          "title": "« Ce qui m’impressionne chez Victor et chez les Spurs, c’est qu’ils répondent présent dans les matchs où ils doivent vraiment répondre » Rudy Gobert sur son duel avec Wemby et comment il faut le défendre. « Ça dépend de ton effectif et de ton équipe. Moi, personnellement, le but était vraiment d’être physique avec lui. Le faire travailler, l’épuiser, et surtout lui enl...",
-          "publisher": "X (Twitter)"
-        },
-        {
-          "url": "https://www.basketusa.com/news/841250/victor-wembanyama-elu-mvp-de-la-finale-de-conference-ouest/",
-          "score": 0.1,
-          "title": "Victor Wembanyama élu MVP de la finale de conférence Ouest !",
-          "publisher": "Basket USA"
-        },
-        {
-          "url": "https://www.20minutes.fr/sport/basketball/4226238-20260530-oklahoma-spurs-chaine-tv-heure-voir-match-7-finale-wembanyama-direct",
-          "score": 0.1,
-          "title": "Oklahoma-Spurs : À quelle chaine & à quelle heure voir le match 7 en finale",
-          "publisher": "20 Minutes"
-        }
-      ]
-    },
-    {
       "topic_kind": "entity",
       "topic_name": "Parc des Princes",
       "topic_label": "Parc des Princes",
@@ -1896,33 +1958,95 @@
       ]
     },
     {
-      "topic_kind": "category",
-      "topic_name": "/Law & Government/Government",
-      "topic_label": "Gouvernement",
-      "current_count": 7,
+      "topic_kind": "cluster",
+      "topic_name": "Tour de France",
+      "topic_label": "Tour de France",
+      "current_count": 8,
       "prev_count": 0,
-      "delta": 7,
+      "delta": 8,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Montees-a-plusieurs-reprises-du-tourmalet-pres-de-7-000-m-de-denivele-paul-seixas-a-reconnu-la-6e-etape-du-tour-de-france/1680719",
+          "score": 2.4,
+          "title": "Montées à plusieurs reprises du Tourmalet, près de 7000m de dénivelé... Paul Seixas a reconnu la 6e étape du Tour de France",
+          "publisher": "L'Équipe"
+        },
+        {
+          "url": "https://www.lequipe.fr/Cyclisme-sur-route/Actualites/Paul-magnier-devient-le-4e-francais-a-remporter-le-maillot-cyclamen-de-meilleur-sprinteur-du-giro/1680674",
+          "score": 0.1,
+          "title": "Paul Magnier devient le 4e Français à remporter le maillot cyclamen de meilleur sprinteur du Giro",
+          "publisher": "L'Équipe"
+        },
+        {
+          "url": "https://www.eurosport.fr/cyclisme/giro/2026/tour-ditalie-2026-jonas-vingegaard-une-victoire-collective-sur-le-giro-le-bonheur-nexiste-que-quand-il-est-partage_sto23305249/story.shtml",
+          "score": 0.1,
+          "title": "\"Le bonheur n'existe que quand il est partagé\"",
+          "publisher": "Eurosport"
+        }
+      ]
+    },
+    {
+      "topic_kind": "cluster",
+      "topic_name": "Thunder d'Oklahoma City",
+      "topic_label": "Thunder d'Oklahoma City",
+      "current_count": 8,
+      "prev_count": 0,
+      "delta": 8,
+      "pct_change": null,
+      "latest_at": "2026-05-31T14:16:43+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://x.com/Basket_Infos/status/2060670053519909165",
+          "score": 0.2,
+          "title": "« Ce qui m’impressionne chez Victor et chez les Spurs, c’est qu’ils répondent présent dans les matchs où ils doivent vraiment répondre » Rudy Gobert sur son duel avec Wemby et comment il faut le défendre. « Ça dépend de ton effectif et de ton équipe. Moi, personnellement, le but était vraiment d’être physique avec lui. Le faire travailler, l’épuiser, et surtout lui enl...",
+          "publisher": "X (Twitter)"
+        },
+        {
+          "url": "https://www.basketusa.com/news/841250/victor-wembanyama-elu-mvp-de-la-finale-de-conference-ouest/",
+          "score": 0.1,
+          "title": "Victor Wembanyama élu MVP de la finale de conférence Ouest !",
+          "publisher": "Basket USA"
+        },
+        {
+          "url": "https://www.20minutes.fr/sport/basketball/4226238-20260530-oklahoma-spurs-chaine-tv-heure-voir-match-7-finale-wembanyama-direct",
+          "score": 0.1,
+          "title": "Oklahoma-Spurs : À quelle chaine & à quelle heure voir le match 7 en finale",
+          "publisher": "20 Minutes"
+        }
+      ]
+    },
+    {
+      "topic_kind": "category",
+      "topic_name": "/News/Business News",
+      "topic_label": "Actualité éco",
+      "current_count": 8,
+      "prev_count": 0,
+      "delta": 8,
       "pct_change": null,
       "latest_at": "2026-05-31T19:47:06+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.parismatch.com/Royal-Blog/leonor-despagne-en-uniforme-et-au-garde-a-vous-face-a-ses-parents-la-princesse-fierte-de-felipe-et-letizia-269962",
-          "score": 12.2,
-          "title": "Leonor d'Espagne en uniforme et au garde à vous face à ses parents, la princesse fierté de Felipe et Letizia",
-          "publisher": "parismatch.com"
+          "url": "https://www.leparisien.fr/elections/presidentielle/retour-de-la-taxe-dhabitation-baisse-des-cotisations-salariales-le-big-bang-fiscal-propose-par-un-macroniste-historique-30-05-2026-KRPMZMXWRBAXTONTZOJ2X5JSFA.php",
+          "score": 29.6,
+          "title": "Retour de la taxe d’habitation, baisse des cotisations salariales… Le big bang fiscal proposé par un macroniste historique",
+          "publisher": "Le Parisien"
         },
         {
-          "url": "https://histoiresroyales.fr/princesse-charlene-jumeaux-immacules-nouveau-portrait-fete-des-meres/",
-          "score": 6.1,
-          "title": "La princesse Charlène et ses jumeaux immaculés sur un nouveau portrait pour la fête des mères",
-          "publisher": "Histoires Royales"
+          "url": "https://www.lefigaro.fr/societes/les-mulliez-sont-des-entrepreneurs-de-terrain-les-actionnaires-d-auchan-decathlon-leroy-merlin-et-kiabi-affichent-leur-confiance-pour-l-avenir-20260531",
+          "score": 2.6,
+          "title": "« Les Mulliez sont des entrepreneurs de terrain » : les actionnaires d’Auchan, Decathlon, Leroy Merlin et Kiabi affichent leur confiance pour l’avenir",
+          "publisher": "Le Figaro"
         },
         {
-          "url": "https://www.bfmtv.com/economie/international/les-remboursements-des-droits-de-douane-sont-deja-en-cours-mais-l-administration-trump-va-faire-appel-de-la-decision_AV-202605310215.html",
-          "score": 2.3,
-          "title": "Les remboursements des droits de douane sont déjà en cours mais l'administration Trump va faire appel de la décision",
-          "publisher": "BFM"
+          "url": "https://www.lemonde.fr/idees/article/2026/05/29/terres-rares-la-chine-controle-les-prix-du-marche-peut-supporter-des-ventes-a-perte-et-couler-la-concurrence_6694752_3232.html",
+          "score": 1.1,
+          "title": "Terres rares : « La Chine contrôle les prix du marché, peut supporter des ventes à perte et couler la concurrence »",
+          "publisher": "Le Monde.fr"
         }
       ]
     },
@@ -1990,6 +2114,37 @@
     },
     {
       "topic_kind": "cluster",
+      "topic_name": "Météorologie",
+      "topic_label": "Météorologie",
+      "current_count": 7,
+      "prev_count": 0,
+      "delta": 7,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.ouest-france.fr/meteo/orage/le-violent-orage-de-ce-samedi-soir-a-fait-des-degats-dans-cette-commune-du-maine-et-loire-1bcbba22-5d0a-11f1-b3f0-aacb0ffa8bfb",
+          "score": 6.8,
+          "title": "Le violent orage de ce samedi soir a fait des dégâts dans cette commune du Maine-et-Loire",
+          "publisher": "Ouest-France"
+        },
+        {
+          "url": "https://actu.fr/ile-de-france/fontainebleau_77186/meteo-en-seine-et-marne-des-orages-et-de-la-pluie-pour-accompagner-la-baisse-des-temperatures_64336562.html",
+          "score": 2.4,
+          "title": "Météo en Seine-et-Marne : des orages et de la pluie pour accompagner la baisse des températures",
+          "publisher": "Actu.fr"
+        },
+        {
+          "url": "https://maritima.fr/actualites/meteo/bouches-du-rhone/13595/meteo-changement-de-decor-dans-le-13-les-orages-et-le-mistral-arrivent-pour-balayer-la-chaleur",
+          "score": 1.8,
+          "title": "Météo : changement de décor dans le 13 ! Les orages et le Mistral arrivent pour balayer la chaleur",
+          "publisher": "Maritima"
+        }
+      ]
+    },
+    {
+      "topic_kind": "cluster",
       "topic_name": "Orage",
       "topic_label": "Orage",
       "current_count": 7,
@@ -2020,33 +2175,64 @@
       ]
     },
     {
-      "topic_kind": "cluster",
-      "topic_name": "MotoGP",
-      "topic_label": "MotoGP",
-      "current_count": 6,
+      "topic_kind": "category",
+      "topic_name": "/Law & Government/Government",
+      "topic_label": "Gouvernement",
+      "current_count": 7,
       "prev_count": 0,
-      "delta": 6,
+      "delta": 7,
       "pct_change": null,
       "latest_at": "2026-05-31T19:47:06+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://x.com/CanalplusMotoGP/status/2061024897409908802",
-          "score": 0.1,
-          "title": "La grille de départ pour le GP d'Italie à vivre à 14H sur CANAL+ 💥 #motogp #ItalianGP Afficher sur X",
-          "publisher": "X"
+          "url": "https://www.parismatch.com/Royal-Blog/leonor-despagne-en-uniforme-et-au-garde-a-vous-face-a-ses-parents-la-princesse-fierte-de-felipe-et-letizia-269962",
+          "score": 12.2,
+          "title": "Leonor d'Espagne en uniforme et au garde à vous face à ses parents, la princesse fierté de Felipe et Letizia",
+          "publisher": "parismatch.com"
         },
         {
-          "url": "https://rmcsport.bfmtv.com/auto-moto/moto/direct-moto-gp-suivez-le-gp-d-italie-en-live_LS-202605310151.html",
-          "score": 0.1,
-          "title": "MotoGP: Marco Bezzecchi s'impose à domicile sur le GP d’Italie",
-          "publisher": "RMC Sport"
+          "url": "https://histoiresroyales.fr/princesse-charlene-jumeaux-immacules-nouveau-portrait-fete-des-meres/",
+          "score": 6.1,
+          "title": "La princesse Charlène et ses jumeaux immaculés sur un nouveau portrait pour la fête des mères",
+          "publisher": "Histoires Royales"
         },
         {
-          "url": "https://fr.motorsport.com/motogp/live-text/motogp-italian-gp-live-commentary-and-updates-from-mugello/1126921/",
-          "score": 0.1,
-          "title": "Grand Prix d'Italie de MotoGP : commentaires en direct et dernières nouvelles depuis le Mugello",
-          "publisher": "Motorsport.com-FRANCE"
+          "url": "https://www.bfmtv.com/economie/international/les-remboursements-des-droits-de-douane-sont-deja-en-cours-mais-l-administration-trump-va-faire-appel-de-la-decision_AV-202605310215.html",
+          "score": 2.3,
+          "title": "Les remboursements des droits de douane sont déjà en cours mais l'administration Trump va faire appel de la décision",
+          "publisher": "BFM"
+        }
+      ]
+    },
+    {
+      "topic_kind": "entity",
+      "topic_name": "Automobile",
+      "topic_label": "Automobile",
+      "current_count": 7,
+      "prev_count": 0,
+      "delta": 7,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.autojournal.fr/environnement/derriere-ce-dacia-duster-qui-consomme-a-peine-33-l-100-km-se-cache-peut-etre-une-autre-voie-pour-le-thermique-414353.html",
+          "score": 43.2,
+          "title": "Derrière ce Dacia Duster qui consomme à peine 3,3 l/100 km se cache peut-être une autre voie pour le thermique",
+          "publisher": "L'Auto-Journal"
+        },
+        {
+          "url": "https://www.lesanciennes.com/annonce/ferrari-f8-spider-v8-2022-a875510",
+          "score": 3.7,
+          "title": "Ferrari F8 Spider V8 de 2022 à vendre - voiture ancienne de collection",
+          "publisher": "LesAnciennes.com"
+        },
+        {
+          "url": "https://www.franceinfo.fr/economie/automobile/reportage-la-difference-est-enorme-a-villefranche-sur-saone-une-usine-transforme-des-bus-thermiques-en-electriques-grace-au-retrofit_8038286.html",
+          "score": 0.9,
+          "title": "\"La différence de coût énergétique est énorme\" : à Villefranche-sur-Saône, une usine transforme des bus thermiques en électriques",
+          "publisher": "franceinfo"
         }
       ]
     },
@@ -2083,8 +2269,8 @@
     },
     {
       "topic_kind": "cluster",
-      "topic_name": "Hôpital",
-      "topic_label": "Hôpital",
+      "topic_name": "MotoGP",
+      "topic_label": "MotoGP",
       "current_count": 6,
       "prev_count": 0,
       "delta": 6,
@@ -2093,115 +2279,22 @@
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://actu.fr/normandie/flers_61169/cette-plateforme-de-sante-interroge-a-flers-lhopital-entend-combattre-le-desert-medical_64332631.html",
-          "score": 0.2,
-          "title": "Cette plateforme de santé interroge à Flers : l’hôpital entend « combattre le désert médical »",
-          "publisher": "Actu.fr"
-        },
-        {
-          "url": "https://actu.fr/bretagne/pontivy_56178/sante-a-pontivy-le-groupe-hospitalier-centre-bretagne-certifie-qualite-des-soins-confirmee_64336398.html",
-          "score": 0.2,
-          "title": "Santé : à Pontivy, le Groupe hospitalier centre Bretagne certifié Qualité des soins confirmée",
-          "publisher": "Actu.fr"
-        },
-        {
-          "url": "https://www.ledauphine.com/sante/2026/05/31/les-memes-droits-aux-soins-pour-tous-la-colere-monte-a-l-hopital-de-digne",
-          "score": 0.2,
-          "title": "« Les mêmes droits aux soins pour tous » : la colère monte à l’hôpital de Digne",
-          "publisher": "Le Dauphiné Libéré"
-        }
-      ]
-    },
-    {
-      "topic_kind": "category",
-      "topic_name": "/Autos & Vehicles",
-      "topic_label": "Automobile",
-      "current_count": 6,
-      "prev_count": 0,
-      "delta": 6,
-      "pct_change": null,
-      "latest_at": "2026-05-31T09:28:21+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.lesechos.fr/industrie-services/tourisme-transport/on-a-limpression-quune-ere-industrielle-allemande-touche-a-sa-fin-la-relegation-du-club-de-football-de-wolfsburg-nouveau-revers-pour-volkswagen-2234164",
-          "score": 41.5,
-          "title": "« On a l'impression qu'une ère industrielle allemande touche à sa fin » : la relégation du club de football de Wolfsburg, nouveau revers pour Volkswagen",
-          "publisher": "Les Echos"
-        },
-        {
-          "url": "https://www.autoplus.fr/actualite/insolite/apres-deux-ans-de-travail-ils-presentent-la-ferrari-testarossa-6x6-1445902.html",
-          "score": 1.0,
-          "title": "Après deux ans de travail, ils présentent la Ferrari Testarossa 6x6",
-          "publisher": "Auto Plus"
-        },
-        {
-          "url": "https://www.lavoixdunord.fr/1707492/article/2026-05-29/son-audi-q5-fait-l-objet-d-un-rappel-constructeur-mais-impossible-d-obtenir-une",
-          "score": 0.5,
-          "title": "Son Audi Q5 fait l’objet d’un rappel constructeur mais impossible d’obtenir une réparation depuis deux mois",
-          "publisher": "La Voix du Nord"
-        }
-      ]
-    },
-    {
-      "topic_kind": "entity",
-      "topic_name": "Patrick Bruel",
-      "topic_label": "Patrick Bruel",
-      "current_count": 6,
-      "prev_count": 0,
-      "delta": 6,
-      "pct_change": null,
-      "latest_at": "2026-05-31T14:16:43+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.rtl.fr/culture/musique/triste-et-lamentable-des-fans-de-patrick-bruel-vise-par-plusieurs-plaintes-pour-violences-sexuelles-reagissent-sur-rtl-a-l-annulation-de-ses-concerts-prevus-cet-ete-7900640905",
-          "score": 18.0,
-          "title": "\"Triste et lamentable\" : des fans de Patrick Bruel, visé par plusieurs plaintes pour violences sexuelles, réagissent sur RTL à l'annulation de ses concerts prévus cet été",
-          "publisher": "RTL.fr"
-        },
-        {
-          "url": "https://x.com/BFMTV/status/2060463231441776675",
-          "score": 1.3,
-          "title": "Annulation des concerts de Patrick Bruel: \"Aujourd'hui, il va falloir qu'on trouve une nouvelle tête d'affiche\", explique Stéphane Leyenberger, maire (LR) de Saverne Voir sur X",
+          "url": "https://x.com/CanalplusMotoGP/status/2061024897409908802",
+          "score": 0.1,
+          "title": "La grille de départ pour le GP d'Italie à vivre à 14H sur CANAL+ 💥 #motogp #ItalianGP Afficher sur X",
           "publisher": "X"
         },
         {
-          "url": "https://www.journaldesfemmes.fr/people/magazine/3267397-actualite-infos-people-france-mai-patrick-bruel-camille-lellouche/3267451-patrick-bruel",
+          "url": "https://rmcsport.bfmtv.com/auto-moto/moto/direct-moto-gp-suivez-le-gp-d-italie-en-live_LS-202605310151.html",
           "score": 0.1,
-          "title": "Patrick Bruel : une deuxième ligne téléphonique dédiée à ses rencontres ?",
-          "publisher": "Journal des Femmes"
-        }
-      ]
-    },
-    {
-      "topic_kind": "cluster",
-      "topic_name": "Israël",
-      "topic_label": "Israël",
-      "current_count": 6,
-      "prev_count": 0,
-      "delta": 6,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.ouest-france.fr/monde/liban/israel-dit-avoir-capture-la-forteresse-medievale-de-beaufort-au-liban-et-y-avoir-plante-son-drapeau-4e5b8fce-5cbc-11f1-b2c7-21f7efea5d61",
-          "score": 0.4,
-          "title": "Israël dit avoir « capturé » la forteresse médiévale de Beaufort au Liban et y avoir planté son drapeau",
-          "publisher": "Ouest-France"
+          "title": "MotoGP: Marco Bezzecchi s'impose à domicile sur le GP d’Italie",
+          "publisher": "RMC Sport"
         },
         {
-          "url": "https://www.lefigaro.fr/international/la-prochaine-crise-sera-celle-de-l-obeissance-l-armee-israelienne-de-plus-en-plus-influencee-par-les-mouvements-messianiques-20260531",
-          "score": 0.2,
-          "title": "« La prochaine crise sera celle de l’obéissance » : l’armée israélienne de plus en plus influencée par les mouvements messianiques",
-          "publisher": "Le Figaro"
-        },
-        {
-          "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-israel-annonce-etendre-ses-operations-au-liban-et-appelle-a-l-evacuation-de-toute-la-zone-au-sud-du-fleuve-zahrani_8037965.html",
+          "url": "https://fr.motorsport.com/motogp/live-text/motogp-italian-gp-live-commentary-and-updates-from-mugello/1126921/",
           "score": 0.1,
-          "title": "DIRECT. Guerre au Moyen-Orient : 13 membres du personnel médical libanais blessés après une frappe israélienne près d'un hôpital à Tyr, dans le sud du pays",
-          "publisher": "franceinfo"
+          "title": "Grand Prix d'Italie de MotoGP : commentaires en direct et dernières nouvelles depuis le Mugello",
+          "publisher": "Motorsport.com-FRANCE"
         }
       ]
     },
@@ -2238,62 +2331,124 @@
     },
     {
       "topic_kind": "cluster",
-      "topic_name": "Drogue",
-      "topic_label": "Drogue",
-      "current_count": 5,
+      "topic_name": "Hôpital",
+      "topic_label": "Hôpital",
+      "current_count": 6,
       "prev_count": 0,
-      "delta": 5,
+      "delta": 6,
       "pct_change": null,
-      "latest_at": "2026-05-31T05:44:38+00:00",
+      "latest_at": "2026-05-31T19:47:06+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.ledauphine.com/faits-divers-justice/2026/05/30/lutte-contre-les-trafics-en-isere-quand-les-gendarmes-utilisent-la-marteau-therapie-et-l-infiltration",
-          "score": 2.1,
-          "title": "Lutte contre les trafics de drogues en Isère : quand les gendarmes utilisent la marteau thérapie et l’infiltration",
-          "publisher": "Le Dauphiné Libéré"
-        },
-        {
-          "url": "https://www.lalsace.fr/faits-divers-justice/2026/05/30/trafic-de-drogue-le-reseau-du-professeur-chen-demantele",
-          "score": 0.6,
-          "title": "Mulhouse. Trafic de drogue: le réseau du « Professeur Chen » démantelé",
-          "publisher": "L'Alsace"
-        },
-        {
-          "url": "https://actu.fr/nouvelle-aquitaine/casteljaloux_47052/ils-vendaient-la-drogue-via-les-reseaux-sociaux-trois-hommes-interpelles-a-casteljaloux-pour-trafic-de-stupefiants_64335426.html",
+          "url": "https://actu.fr/normandie/flers_61169/cette-plateforme-de-sante-interroge-a-flers-lhopital-entend-combattre-le-desert-medical_64332631.html",
           "score": 0.2,
-          "title": "Ils vendaient la drogue via les réseaux sociaux : trois hommes interpellés à Casteljaloux pour trafic de stupéfiants",
+          "title": "Cette plateforme de santé interroge à Flers : l’hôpital entend « combattre le désert médical »",
           "publisher": "Actu.fr"
+        },
+        {
+          "url": "https://actu.fr/bretagne/pontivy_56178/sante-a-pontivy-le-groupe-hospitalier-centre-bretagne-certifie-qualite-des-soins-confirmee_64336398.html",
+          "score": 0.2,
+          "title": "Santé : à Pontivy, le Groupe hospitalier centre Bretagne certifié Qualité des soins confirmée",
+          "publisher": "Actu.fr"
+        },
+        {
+          "url": "https://www.ledauphine.com/sante/2026/05/31/les-memes-droits-aux-soins-pour-tous-la-colere-monte-a-l-hopital-de-digne",
+          "score": 0.2,
+          "title": "« Les mêmes droits aux soins pour tous » : la colère monte à l’hôpital de Digne",
+          "publisher": "Le Dauphiné Libéré"
         }
       ]
     },
     {
       "topic_kind": "cluster",
-      "topic_name": "Donald Trump",
-      "topic_label": "Donald Trump",
-      "current_count": 5,
+      "topic_name": "Israël",
+      "topic_label": "Israël",
+      "current_count": 6,
       "prev_count": 0,
-      "delta": 5,
+      "delta": 6,
+      "pct_change": null,
+      "latest_at": "2026-05-31T19:47:06+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.ouest-france.fr/monde/liban/israel-dit-avoir-capture-la-forteresse-medievale-de-beaufort-au-liban-et-y-avoir-plante-son-drapeau-4e5b8fce-5cbc-11f1-b2c7-21f7efea5d61",
+          "score": 0.4,
+          "title": "Israël dit avoir « capturé » la forteresse médiévale de Beaufort au Liban et y avoir planté son drapeau",
+          "publisher": "Ouest-France"
+        },
+        {
+          "url": "https://www.lefigaro.fr/international/la-prochaine-crise-sera-celle-de-l-obeissance-l-armee-israelienne-de-plus-en-plus-influencee-par-les-mouvements-messianiques-20260531",
+          "score": 0.2,
+          "title": "« La prochaine crise sera celle de l’obéissance » : l’armée israélienne de plus en plus influencée par les mouvements messianiques",
+          "publisher": "Le Figaro"
+        },
+        {
+          "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-israel-annonce-etendre-ses-operations-au-liban-et-appelle-a-l-evacuation-de-toute-la-zone-au-sud-du-fleuve-zahrani_8037965.html",
+          "score": 0.1,
+          "title": "DIRECT. Guerre au Moyen-Orient : 13 membres du personnel médical libanais blessés après une frappe israélienne près d'un hôpital à Tyr, dans le sud du pays",
+          "publisher": "franceinfo"
+        }
+      ]
+    },
+    {
+      "topic_kind": "entity",
+      "topic_name": "Patrick Bruel",
+      "topic_label": "Patrick Bruel",
+      "current_count": 6,
+      "prev_count": 0,
+      "delta": 6,
       "pct_change": null,
       "latest_at": "2026-05-31T14:16:43+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.cnews.fr/monde/2026-05-30/etats-unis-donald-trump-pret-annuler-les-concerts-du-250e-anniversaire-pour-un",
-          "score": 17.5,
-          "title": "Etats-Unis : Donald Trump prêt à annuler les concerts du 250e anniversaire pour un discours à Washington",
-          "publisher": "CNews"
+          "url": "https://www.rtl.fr/culture/musique/triste-et-lamentable-des-fans-de-patrick-bruel-vise-par-plusieurs-plaintes-pour-violences-sexuelles-reagissent-sur-rtl-a-l-annulation-de-ses-concerts-prevus-cet-ete-7900640905",
+          "score": 18.0,
+          "title": "\"Triste et lamentable\" : des fans de Patrick Bruel, visé par plusieurs plaintes pour violences sexuelles, réagissent sur RTL à l'annulation de ses concerts prévus cet été",
+          "publisher": "RTL.fr"
         },
         {
-          "url": "https://www.bfmtv.com/international/moyen-orient/direct-guerre-au-moyen-orient-et-en-iran-donald-trump-affirme-avoir-recu-de-l-iran-l-engagement-a-ne-pas-se-doter-de-l-arme-nucleaire_LN-202605310034.html",
-          "score": 2.6,
-          "title": "DIRECT. Guerre au Moyen-Orient: Jean-Noël Barrot demande une \"réunion d'urgence\" du Conseil de sécurité de l'ONU sur les opérations israéliennes au Liban",
-          "publisher": "BFM"
+          "url": "https://x.com/BFMTV/status/2060463231441776675",
+          "score": 1.3,
+          "title": "Annulation des concerts de Patrick Bruel: \"Aujourd'hui, il va falloir qu'on trouve une nouvelle tête d'affiche\", explique Stéphane Leyenberger, maire (LR) de Saverne Voir sur X",
+          "publisher": "X"
         },
         {
-          "url": "https://www.huffingtonpost.fr/international/article/aucun-musicien-ne-veut-se-produire-au-250e-anniversaire-des-etats-unis-trump-boude_264276.html",
-          "score": 1.9,
-          "title": "Aucun musicien ne veut se produire au 250e anniversaire des États-Unis, Trump boude",
+          "url": "https://www.journaldesfemmes.fr/people/magazine/3267397-actualite-infos-people-france-mai-patrick-bruel-camille-lellouche/3267451-patrick-bruel",
+          "score": 0.1,
+          "title": "Patrick Bruel : une deuxième ligne téléphonique dédiée à ses rencontres ?",
+          "publisher": "Journal des Femmes"
+        }
+      ]
+    },
+    {
+      "topic_kind": "cluster",
+      "topic_name": "Aya Nakamura",
+      "topic_label": "Aya Nakamura",
+      "current_count": 5,
+      "prev_count": 0,
+      "delta": 5,
+      "pct_change": null,
+      "latest_at": "2026-06-01T05:23:53+00:00",
+      "prev_at": null,
+      "sample_articles": [
+        {
+          "url": "https://www.vogue.fr/article/aya-nakamura-invite-legende-chanson-mali-oumou-sangare-stade-de-france",
+          "score": 0.9,
+          "title": "Aya Nakamura invite la légende de la chanson malienne, Oumou Sangaré, pour son premier Stade de France",
+          "publisher": "Vogue France"
+        },
+        {
+          "url": "https://www.leparisien.fr/culture-loisirs/musique/au-niveau-dun-show-a-la-beyonce-aya-nakamura-dompte-le-stade-de-france-et-reunit-220-000-spectateurs-en-trois-jours-31-05-2026-AERHYQPDQJD4VOHV4WYL7SGTF4.php",
+          "score": 0.3,
+          "title": "« Au niveau d’un show à la Beyoncé » : Aya Nakamura dompte le Stade de France et réunit 220 000 spectateurs en trois jours",
+          "publisher": "Le Parisien"
+        },
+        {
+          "url": "https://www.huffingtonpost.fr/life/article/aya-nakamura-au-stade-de-france-les-conseils-essentiels-pour-survivre-en-concert-par-ces-fortes-chaleurs_264229.html",
+          "score": 0.1,
+          "title": "Aya Nakamura au Stade de France : les conseils essentiels pour survivre en concert par ces fortes chaleurs",
           "publisher": "Le HuffPost"
         }
       ]
@@ -2306,186 +2461,59 @@
       "prev_count": 0,
       "delta": 5,
       "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
+      "latest_at": "2026-06-01T05:23:53+00:00",
       "prev_at": null,
       "sample_articles": [
         {
-          "url": "https://www.blog-rct.com/un-partant-du-stade-toulousain-se-veut-tres-emu-pour-sa-derniere-pour-moi-cetait-une-grande-et-belle-experience/",
-          "score": 0.2,
-          "title": "Un partant du Stade Toulousain se veut très ému pour sa dernière : « Pour moi, c’était une grande et belle expérience",
-          "publisher": "Blog RCT"
-        },
-        {
-          "url": "https://sports.orange.fr/rugby/top-14/article/top-14-j25-toulon-s-offre-un-succes-de-prestige-contre-bordeaux-begles-exclu-CNT000002pGS93.html",
-          "score": 0.0,
-          "title": "Top 14 (J25) : Toulon s'offre un succès de prestige contre Bordeaux-Bègles",
+          "url": "https://sports.orange.fr/rugby/top-14/article/top-14-j25-le-racing-92-signe-une-victoire-importante-a-clermont-exclu-CNT000002pGU1t.html",
+          "score": 0.1,
+          "title": "Top 14 (J25) : Le Racing 92 signe une victoire importante à Clermont",
           "publisher": "Sports - Orange"
         },
         {
-          "url": "https://www.lefigaro.fr/sports/rugby/live/top-14/2026/948094/toulon-bordeaux-begles",
-          "score": 0.0,
-          "title": "Toulon-UBB : revivez la victoire des Varois face au champion d’Europe",
-          "publisher": "Le Figaro"
-        }
-      ]
-    },
-    {
-      "topic_kind": "entity",
-      "topic_name": "Donald Trump",
-      "topic_label": "Donald Trump",
-      "current_count": 5,
-      "prev_count": 0,
-      "delta": 5,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.huffingtonpost.fr/international/article/aucun-musicien-ne-veut-se-produire-au-250e-anniversaire-des-etats-unis-trump-boude_264276.html",
-          "score": 8.9,
-          "title": "Aucun musicien ne veut se produire au 250e anniversaire des États-Unis, Trump boude",
-          "publisher": "Le HuffPost"
-        },
-        {
-          "url": "https://www.bfmtv.com/economie/international/les-remboursements-des-droits-de-douane-sont-deja-en-cours-mais-l-administration-trump-va-faire-appel-de-la-decision_AV-202605310215.html",
-          "score": 2.3,
-          "title": "Les remboursements des droits de douane sont déjà en cours mais l'administration Trump va faire appel de la décision",
-          "publisher": "BFM"
-        },
-        {
-          "url": "https://www.20minutes.fr/monde/etats-unis/4226294-20260531-direct-guerre-moyen-orient-selon-trump-iran-engage-doter-arme-nucleaire",
+          "url": "https://www.rugbyrama.fr/2026/05/31/top-14-les-notes-de-clermont-racing-92-josua-tuisova-et-vinaya-habosi-ont-fait-regner-lordre-marcos-kremer-en-delicatesse-13396917.php",
           "score": 0.1,
-          "title": "EN DIRECT Guerre au Moyen-Orient : Réunion d'urgence à l'ONU lundi après la…",
-          "publisher": "20 Minutes"
-        }
-      ]
-    },
-    {
-      "topic_kind": "entity",
-      "topic_name": "Fête des Mères",
-      "topic_label": "Fête des Mères",
-      "current_count": 5,
-      "prev_count": 0,
-      "delta": 5,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.gala.fr/l_actu/news_de_stars/brigitte-macron-celebree-par-sa-fille-laurence-avec-une-jolie-photo-pour-la-fete-des-meres-20260531",
-          "score": 11.8,
-          "title": "Brigitte Macron célébrée par sa fille Laurence avec une jolie photo pour la fête des mères",
-          "publisher": "Gala"
+          "title": "Top 14 - Les notes de Clermont - Racing 92 : Josua Tuisova et Vinaya Habosi ont fai...",
+          "publisher": "Rugbyrama"
         },
         {
-          "url": "https://histoiresroyales.fr/princesse-charlene-jumeaux-immacules-nouveau-portrait-fete-des-meres/",
-          "score": 6.1,
-          "title": "La princesse Charlène et ses jumeaux immaculés sur un nouveau portrait pour la fête des mères",
-          "publisher": "Histoires Royales"
-        },
-        {
-          "url": "https://france3-regions.franceinfo.fr/bretagne/morbihan/vannes/fetes-des-meres-cette-fleuriste-bretonne-se-bat-pour-des-bouquets-de-fleurs-plus-propres-3360034.html",
-          "score": 0.2,
-          "title": "Fête des mères. Cette fleuriste bretonne se bat pour des bouquets de fleurs plus propres",
-          "publisher": "France 3 Régions"
-        }
-      ]
-    },
-    {
-      "topic_kind": "category",
-      "topic_name": "/Food & Drink/Food",
-      "topic_label": "Food",
-      "current_count": 5,
-      "prev_count": 0,
-      "delta": 5,
-      "pct_change": null,
-      "latest_at": "2026-05-31T14:16:43+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://lemagdelaconso.ouest-france.fr/dossier-2571-rincer-legumes-boite-cuisiner-avec-leur-eau.html",
-          "score": 6.1,
-          "title": "Faut-il rincer les légumes en boite ou les cuisiner avec leur eau ?",
-          "publisher": "Le Mag de la Conso"
-        },
-        {
-          "url": "https://actu.fr/nouvelle-aquitaine/lerm-et-musset_33239/tout-est-bio-en-gironde-cette-nouvelle-pepinieriste-cultive-et-vend-des-plantes-pour-un-potager-plein-de-varietes_64332112.html",
-          "score": 0.5,
-          "title": "\"Tout est bio\" : en Gironde, cette nouvelle pépiniériste cultive et vend des plantes pour un potager plein de variétés",
-          "publisher": "Actu.fr"
-        },
-        {
-          "url": "https://www.laprovence.com/article/region/15313742055167/la-recolte-du-thym-bat-son-plein-a-forcalquier-dans-les-alpes-de-haute-provence",
-          "score": 0.2,
-          "title": "La récolte du thym bat son plein à Forcalquier dans les Alpes-de-Haute-Provence",
-          "publisher": "La Provence"
-        }
-      ]
-    },
-    {
-      "topic_kind": "cluster",
-      "topic_name": "Basketball",
-      "topic_label": "Basketball",
-      "current_count": 4,
-      "prev_count": 0,
-      "delta": 4,
-      "pct_change": null,
-      "latest_at": "2026-05-31T19:47:06+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://x.com/Basket_Infos/status/2060670053519909165",
-          "score": 0.3,
-          "title": "« Ce qui m’impressionne chez Victor et chez les Spurs, c’est qu’ils répondent présent dans les matchs où ils doivent vraiment répondre » Rudy Gobert sur son duel avec Wemby et comment il faut le défendre. « Ça dépend de ton effectif et de ton équipe. Moi, personnellement, le but était vraiment d’être physique avec lui. Le faire travailler, l’épuiser, et surtout lui enl...",
-          "publisher": "X (Twitter)"
-        },
-        {
-          "url": "https://x.com/Basket_Infos/status/2060662627559149627",
+          "url": "https://www.lamontagne.fr/clermont-ferrand-63000/sports/top-14-suivez-la-rencontre-asm-clermont-racing-en-direct-commente_14994418/",
           "score": 0.1,
-          "title": "« Moi, sur mon canapé, je suis aussi impuissant que les défenseurs sur le terrain » Richard Jefferson pense que si Victor Wembanyama sort un grand Game 7, les Spurs sortiront forcément vainqueurs « Si Wemby te sort une de ces soirées à 35 points et 12 rebonds, je pense qu’ils gagnent. Et c’est rare de pouvoir dire ça : si ce gars-là fait ce genre de soirée, c’est tout, ça su...",
-          "publisher": "X (Twitter)"
-        },
-        {
-          "url": "https://www.lemonde.fr/sport/article/2026/05/31/victor-wembanyama-renverse-le-champion-en-titre-de-la-nba-et-propulse-ses-spurs-en-finales-face-aux-new-york-knicks_6695435_3242.html",
-          "score": 0.0,
-          "title": "Victor Wembanyama propulse les San Antonio Spurs en finales de la NBA après avoir renversé le champion en titre",
-          "publisher": "Le Monde.fr"
-        }
-      ]
-    },
-    {
-      "topic_kind": "category",
-      "topic_name": "/People & Society/Religion & Belief",
-      "topic_label": "Religion & Croyances",
-      "current_count": 4,
-      "prev_count": 0,
-      "delta": 4,
-      "pct_change": null,
-      "latest_at": "2026-05-31T05:44:38+00:00",
-      "prev_at": null,
-      "sample_articles": [
-        {
-          "url": "https://www.leparisien.fr/societe/religions/il-serait-le-symbole-de-notre-fraternite-les-responsables-musulmans-juifs-et-protestants-prets-a-rencontrer-leon-xiv-30-05-2026-J6BE3QV2E5AZVFKFOHDXMIT23E.php",
-          "score": 33.5,
-          "title": "« Il serait le symbole de notre fraternité » : les responsables musulmans, juifs et protestants prêts à rencontrer Léon XIV",
-          "publisher": "Le Parisien"
-        },
-        {
-          "url": "https://www.paris-normandie.fr/id721579/article/2026-05-30/en-profite-enfin-apres-onze-ans-de-fermeture-cette-eglise-de-rouen-retrouve-ses",
-          "score": 0.9,
-          "title": "« On en profite enfin ! » : après onze ans de fermeture, cette église de Rouen retrouve ses visiteurs",
-          "publisher": "Paris Normandie"
-        },
-        {
-          "url": "https://www.vaticannews.va/fr/eglise/news/2026-05/300-000-personnes-a-la-longue-nuit-des-eglises-autriche.html",
-          "score": 0.0,
-          "title": "Plus de 300 000 personnes à la «Longue Nuit des Églises» en Autriche",
-          "publisher": "Vatican News"
+          "title": "Corrigée à domicile par le Racing 92, l'ASM Clermont perd très gros dans la course à la qualification (relire notre live)",
+          "publisher": "La Montagne"
         }
       ]
     }
   ],
   "sujets_persistance": [
+    {
+      "title_hash": "baa780bb9064aa49621e4506578586fc93be6525e6b9c4494c9e83fc0ceb142d",
+      "title": "Edgar Morin n’est plus : sa femme Sabah Abouessalam, épousée il y a 14 ans, n’est pas une inconnue",
+      "appearances": 5,
+      "first_seen": "2026-05-31T05:44:38+00:00",
+      "last_seen": "2026-06-01T05:23:53+00:00",
+      "max_score": 75,
+      "first_score": 61,
+      "last_score": 50,
+      "score_delta": -11,
+      "category": "/Sensitive Subjects",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/edgar-morin-n-est-plus-sa-femme-sabah-abouessalam-épousée-il-y-a-14-ans-n-est-pas-une-inconnue/ar-AA24qK3u?ocid=00000000",
+      "source": "Ode"
+    },
+    {
+      "title_hash": "d35858182fecaab7c6047f7189721af072027610e11381b36bec4c0fe779abd0",
+      "title": "« Il n'y a rien » : divorcé de Flavie Flament, Benjamin Castaldi se confie sur leur relation après les accusations contre Patrick Bruel",
+      "appearances": 5,
+      "first_seen": "2026-05-31T05:44:38+00:00",
+      "last_seen": "2026-06-01T05:23:53+00:00",
+      "max_score": 49,
+      "first_score": 42,
+      "last_score": 47,
+      "score_delta": 5,
+      "category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/il-n-y-a-rien-divorcé-de-flavie-flament-benjamin-castaldi-se-confie-sur-leur-relation-après-les-accusations-contre-patrick-bruel/ar-AA24hWlw?ocid=00000000",
+      "source": "Aufeminin"
+    },
     {
       "title_hash": "63242b495cbc1de2e39b5131cf380d1d7adadc3dad35cf472ee2dd6da9730b5b",
       "title": "« C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale",
@@ -2499,20 +2527,6 @@
       "category": "/Sports/Team Sports/Soccer",
       "msn_url": "https://www.msn.com/fr-fr/sport/football/c-est-la-meilleure-équipe-du-monde-l-entraîneur-d-arsenal-mikel-arteta-admiratif-du-psg-après-la-finale/ar-AA24scaN?ocid=00000000",
       "source": "Le Parisien"
-    },
-    {
-      "title_hash": "baa780bb9064aa49621e4506578586fc93be6525e6b9c4494c9e83fc0ceb142d",
-      "title": "Edgar Morin n’est plus : sa femme Sabah Abouessalam, épousée il y a 14 ans, n’est pas une inconnue",
-      "appearances": 4,
-      "first_seen": "2026-05-31T05:44:38+00:00",
-      "last_seen": "2026-05-31T19:47:06+00:00",
-      "max_score": 75,
-      "first_score": 61,
-      "last_score": 75,
-      "score_delta": 14,
-      "category": "/Sensitive Subjects",
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/edgar-morin-n-est-plus-sa-femme-sabah-abouessalam-épousée-il-y-a-14-ans-n-est-pas-une-inconnue/ar-AA24qK3u?ocid=00000000",
-      "source": "Ode"
     },
     {
       "title_hash": "91be5e0953225b1eca498ea128c7f42cb473d6925247066f02bf98249d95ec7d",
@@ -2529,20 +2543,6 @@
       "source": "Paris Fans"
     },
     {
-      "title_hash": "d35858182fecaab7c6047f7189721af072027610e11381b36bec4c0fe779abd0",
-      "title": "« Il n'y a rien » : divorcé de Flavie Flament, Benjamin Castaldi se confie sur leur relation après les accusations contre Patrick Bruel",
-      "appearances": 4,
-      "first_seen": "2026-05-31T05:44:38+00:00",
-      "last_seen": "2026-05-31T19:47:06+00:00",
-      "max_score": 49,
-      "first_score": 42,
-      "last_score": 49,
-      "score_delta": 7,
-      "category": "/Arts & Entertainment/Celebrities & Entertainment News",
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/il-n-y-a-rien-divorcé-de-flavie-flament-benjamin-castaldi-se-confie-sur-leur-relation-après-les-accusations-contre-patrick-bruel/ar-AA24hWlw?ocid=00000000",
-      "source": "Aufeminin"
-    },
-    {
       "title_hash": "63ae5f74338a1fe9293f2dd787be71ffd407a9f3aa76636f08356f495947a921",
       "title": "Flavie Flament « sidérée » par Patrick Bruel : sa réponse ne laisse aucune place au doute",
       "appearances": 4,
@@ -2555,6 +2555,34 @@
       "category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "msn_url": "https://www.msn.com/fr-fr/divertissement/celebrites/flavie-flament-sidérée-par-patrick-bruel-sa-réponse-ne-laisse-aucune-place-au-doute/ar-AA24pp8O?ocid=00000000",
       "source": "So Busy Girls"
+    },
+    {
+      "title_hash": "e28a84ffabe65d82c07dbb1e031ef908d7ad0e9931aed152062e16afcae184a5",
+      "title": "Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
+      "appearances": 4,
+      "first_seen": "2026-05-31T05:44:38+00:00",
+      "last_seen": "2026-06-01T05:23:53+00:00",
+      "max_score": 36,
+      "first_score": 30,
+      "last_score": 35,
+      "score_delta": 5,
+      "category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-après-andréa-bescond-alexandra-lamy-sort-du-silence-et-prend-position/ar-AA24tq5H?ocid=00000000",
+      "source": "So Busy Girls"
+    },
+    {
+      "title_hash": "7b8fc07018a9041e3995b279ef35b0fc54905867b811bcc3f788abce7e1a3e10",
+      "title": "PSG : Luis Enrique vide son sac sur Zaire-Emery après la finale",
+      "appearances": 3,
+      "first_seen": "2026-05-31T14:16:43+00:00",
+      "last_seen": "2026-06-01T05:23:53+00:00",
+      "max_score": 79,
+      "first_score": 72,
+      "last_score": 79,
+      "score_delta": 7,
+      "category": "/Sports/Team Sports/Soccer",
+      "msn_url": "https://www.msn.com/fr-fr/sport/football/psg-luis-enrique-vide-son-sac-sur-zaire-emery-après-la-finale/ar-AA24tr2w?ocid=00000000",
+      "source": "Score"
     },
     {
       "title_hash": "b73dd2c2c8aa9009417bc7b302a8ea6ead65630ce717065df24fc9a89c411fb8",
@@ -2599,6 +2627,20 @@
       "source": "L'Equipe"
     },
     {
+      "title_hash": "a9dab1d78248d9663e0d9f4753e699ae041cf376b69c936abd8a0e7827c7b238",
+      "title": "Patrick Bruel interrompu et insulté en pleine pièce de théâtre à Paris : ce qui s’est passé au Théâtre Édouard VII",
+      "appearances": 3,
+      "first_seen": "2026-05-31T14:16:43+00:00",
+      "last_seen": "2026-06-01T05:23:53+00:00",
+      "max_score": 46,
+      "first_score": 38,
+      "last_score": 46,
+      "score_delta": 8,
+      "category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-interrompu-et-insulté-en-pleine-pièce-de-théâtre-à-paris-ce-qui-s-est-passé-au-théâtre-édouard-vii/ar-AA24tyG1?ocid=00000000",
+      "source": "So Busy Girls"
+    },
+    {
       "title_hash": "5a89b4359f6f309a6b65a75c32179428e78ac45c559026b17c3be568e6c93f75",
       "title": "Luis Enrique : ce qui est vraiment arrivé à sa fille Xana, partie à l'âge de 9 ans seulement",
       "appearances": 3,
@@ -2613,17 +2655,17 @@
       "source": "Ode"
     },
     {
-      "title_hash": "e28a84ffabe65d82c07dbb1e031ef908d7ad0e9931aed152062e16afcae184a5",
-      "title": "Patrick Bruel accusé : après Andréa Bescond, Alexandra Lamy sort du silence et prend position",
+      "title_hash": "88b13b3c0da338415daa930bcf38d1cc2818b45015ce1ca25abbbba2df6a6221",
+      "title": "Emmanuel Macron aurait déjà son favori pour 2027 et ce nom en dit long sur l’après-Élysée",
       "appearances": 3,
       "first_seen": "2026-05-31T05:44:38+00:00",
-      "last_seen": "2026-05-31T19:47:06+00:00",
-      "max_score": 36,
-      "first_score": 30,
-      "last_score": 36,
-      "score_delta": 6,
-      "category": "/Arts & Entertainment/Celebrities & Entertainment News",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-accusé-après-andréa-bescond-alexandra-lamy-sort-du-silence-et-prend-position/ar-AA24tq5H?ocid=00000000",
+      "last_seen": "2026-06-01T05:23:53+00:00",
+      "max_score": 40,
+      "first_score": 19,
+      "last_score": 37,
+      "score_delta": 18,
+      "category": "/Sports/Team Sports/Soccer",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/elections/emmanuel-macron-aurait-déjà-son-favori-pour-2027-et-ce-nom-en-dit-long-sur-l-après-élysée/ar-AA24tACb?ocid=00000000",
       "source": "So Busy Girls"
     },
     {
@@ -2641,6 +2683,34 @@
       "source": "So Busy Girls"
     },
     {
+      "title_hash": "aa0c23f02770271c1a11c893743b82da3f68f33a30180f63aa6b103e86d6cf8b",
+      "title": "Patrick Bruel : cette perquisition dans son triplex de Neuilly qui refait surface",
+      "appearances": 3,
+      "first_seen": "2026-05-31T09:28:21+00:00",
+      "last_seen": "2026-06-01T05:23:53+00:00",
+      "max_score": 35,
+      "first_score": 30,
+      "last_score": 34,
+      "score_delta": 4,
+      "category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-cette-perquisition-dans-son-triplex-de-neuilly-qui-refait-surface/ar-AA24u072?ocid=00000000",
+      "source": "So Busy Girls"
+    },
+    {
+      "title_hash": "6b1308a4f5866d96a28004dba333c563a33742a3c0f780fa8d5af07ce6c05693",
+      "title": "« C’est l’esprit de fête » : filmé sur le capot d’une voiture après la victoire du PSG, Karl Olive se justifie",
+      "appearances": 2,
+      "first_seen": "2026-05-31T19:47:06+00:00",
+      "last_seen": "2026-06-01T05:23:53+00:00",
+      "max_score": 79,
+      "first_score": 56,
+      "last_score": 79,
+      "score_delta": 23,
+      "category": "/News",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/c-est-l-esprit-de-fête-filmé-sur-le-capot-d-une-voiture-après-la-victoire-du-psg-karl-olive-se-justifie/ar-AA24u6Sf?ocid=00000000",
+      "source": "leJDD"
+    },
+    {
       "title_hash": "cb24cd42830ca9db5d327e822a5571dfbdb071c1f615c903a021dc2cd53c5b0a",
       "title": "« Clairement un pénalty à mes yeux » : Arsenal furieux après l’arbitre de la finale de la Ligue des champions",
       "appearances": 2,
@@ -2655,18 +2725,18 @@
       "source": "Le Parisien"
     },
     {
-      "title_hash": "7b8fc07018a9041e3995b279ef35b0fc54905867b811bcc3f788abce7e1a3e10",
-      "title": "PSG : Luis Enrique vide son sac sur Zaire-Emery après la finale",
+      "title_hash": "11d016660df1deec6dcb993d48a2f856b44405f4bfecb9f6285781b34ae3a5be",
+      "title": "Aryna Sabalenka, la décision tombe à Roland-Garros",
       "appearances": 2,
-      "first_seen": "2026-05-31T14:16:43+00:00",
-      "last_seen": "2026-05-31T19:47:06+00:00",
-      "max_score": 72,
-      "first_score": 72,
-      "last_score": 60,
-      "score_delta": -12,
-      "category": "/Sports/Team Sports/Soccer",
-      "msn_url": "https://www.msn.com/fr-fr/sport/football/psg-luis-enrique-vide-son-sac-sur-zaire-emery-après-la-finale/ar-AA24tr2w?ocid=00000000",
-      "source": "Score"
+      "first_seen": "2026-05-31T19:47:06+00:00",
+      "last_seen": "2026-06-01T05:23:53+00:00",
+      "max_score": 65,
+      "first_score": 38,
+      "last_score": 65,
+      "score_delta": 27,
+      "category": "/Sports/Individual Sports/Racquet Sports",
+      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/aryna-sabalenka-la-décision-tombe-à-roland-garros/ar-AA24uAXM?ocid=00000000",
+      "source": "Sports.fr"
     },
     {
       "title_hash": "48862333d73cc9112c906b080ec45b7d230fa95047a50a13536b97ee753225a1",
@@ -2711,31 +2781,31 @@
       "source": "Onze Mondial"
     },
     {
-      "title_hash": "a9dab1d78248d9663e0d9f4753e699ae041cf376b69c936abd8a0e7827c7b238",
-      "title": "Patrick Bruel interrompu et insulté en pleine pièce de théâtre à Paris : ce qui s’est passé au Théâtre Édouard VII",
+      "title_hash": "d70e34f481a802aee451f4d0195fe54185f28ecd3b31c29deb507aa825518bf8",
+      "title": "« La France à feu et à sang pour la victoire du PSG » : Sarah Knafo prône un sursaut sécuritaire",
       "appearances": 2,
-      "first_seen": "2026-05-31T14:16:43+00:00",
-      "last_seen": "2026-05-31T19:47:06+00:00",
-      "max_score": 46,
-      "first_score": 38,
-      "last_score": 46,
-      "score_delta": 8,
-      "category": "/Arts & Entertainment/Celebrities & Entertainment News",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-interrompu-et-insulté-en-pleine-pièce-de-théâtre-à-paris-ce-qui-s-est-passé-au-théâtre-édouard-vii/ar-AA24tyG1?ocid=00000000",
-      "source": "So Busy Girls"
+      "first_seen": "2026-05-31T19:47:06+00:00",
+      "last_seen": "2026-06-01T05:23:53+00:00",
+      "max_score": 48,
+      "first_score": 45,
+      "last_score": 48,
+      "score_delta": 3,
+      "category": "/News/Sports News",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/la-france-à-feu-et-à-sang-pour-la-victoire-du-psg-sarah-knafo-prône-un-sursaut-sécuritaire/ar-AA24tSA6?ocid=00000000",
+      "source": "leJDD"
     },
     {
-      "title_hash": "88b13b3c0da338415daa930bcf38d1cc2818b45015ce1ca25abbbba2df6a6221",
-      "title": "Emmanuel Macron aurait déjà son favori pour 2027 et ce nom en dit long sur l’après-Élysée",
+      "title_hash": "43a2d091ec61d1f6844917412ec767d9904f96a5369f58c6fb8c5be9cf9c29e3",
+      "title": "« Non catégorique » : Aurore Bergé refuse de lâcher Patrick Bruel et surprend tout le monde",
       "appearances": 2,
-      "first_seen": "2026-05-31T05:44:38+00:00",
-      "last_seen": "2026-05-31T19:47:06+00:00",
-      "max_score": 40,
-      "first_score": 19,
-      "last_score": 40,
-      "score_delta": 21,
-      "category": "/Sports/Team Sports/Soccer",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/elections/emmanuel-macron-aurait-déjà-son-favori-pour-2027-et-ce-nom-en-dit-long-sur-l-après-élysée/ar-AA24tACb?ocid=00000000",
+      "first_seen": "2026-05-31T19:47:06+00:00",
+      "last_seen": "2026-06-01T05:23:53+00:00",
+      "max_score": 39,
+      "first_score": 39,
+      "last_score": 38,
+      "score_delta": -1,
+      "category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/non-catégorique-aurore-bergé-refuse-de-lâcher-patrick-bruel-et-surprend-tout-le-monde/ar-AA24sWvt?ocid=00000000",
       "source": "So Busy Girls"
     },
     {
@@ -2751,6 +2821,20 @@
       "category": "/Sports/Team Sports/Soccer",
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/centaines-de-casseurs-envahissement-du-périphérique-à-quoi-s-attendent-les-forces-de-l-ordre-à-paris-après-la-finale-de-la-ligue-des-champions/ar-AA24q7rF?ocid=00000000",
       "source": "BFM"
+    },
+    {
+      "title_hash": "0a9d2091d77acf6125077e9722c0df5cabd191f73230b81c91f21c54b78ed17e",
+      "title": "« Elles se jettent sur les hommes » : ce renversement du discours d'Anny Duperey qui prend la défense de Patrick Bruel déclenche une vive polémique",
+      "appearances": 2,
+      "first_seen": "2026-05-31T19:47:06+00:00",
+      "last_seen": "2026-06-01T05:23:53+00:00",
+      "max_score": 37,
+      "first_score": 36,
+      "last_score": 37,
+      "score_delta": 1,
+      "category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "msn_url": "https://www.msn.com/fr-fr/actualite/france/elles-se-jettent-sur-les-hommes-ce-renversement-du-discours-d-anny-duperey-qui-prend-la-défense-de-patrick-bruel-déclenche-une-vive-polémique/ar-AA24sIOc?ocid=00000000",
+      "source": "So Busy Girls"
     },
     {
       "title_hash": "48b05f14f2726f99ca6d9a4a856fcd4f98d622472f792bcef2e27cdf7389886d",
@@ -2781,20 +2865,6 @@
       "source": "So Busy Girls"
     },
     {
-      "title_hash": "aa0c23f02770271c1a11c893743b82da3f68f33a30180f63aa6b103e86d6cf8b",
-      "title": "Patrick Bruel : cette perquisition dans son triplex de Neuilly qui refait surface",
-      "appearances": 2,
-      "first_seen": "2026-05-31T09:28:21+00:00",
-      "last_seen": "2026-05-31T14:16:43+00:00",
-      "max_score": 35,
-      "first_score": 30,
-      "last_score": 35,
-      "score_delta": 5,
-      "category": "/Arts & Entertainment/Celebrities & Entertainment News",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/france/patrick-bruel-cette-perquisition-dans-son-triplex-de-neuilly-qui-refait-surface/ar-AA24qHUJ?ocid=00000000",
-      "source": "So Busy Girls"
-    },
-    {
       "title_hash": "3eed3e618907637bf02fe08f04af443e93855c2dbf8465dd66c2d9ce2b868502",
       "title": "« Tout le monde savait » : autour de Patrick Bruel, cette question sur le silence du milieu devient centrale",
       "appearances": 2,
@@ -2806,6 +2876,20 @@
       "score_delta": -3,
       "category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "msn_url": "https://www.msn.com/fr-fr/actualite/france/tout-le-monde-savait-autour-de-patrick-bruel-cette-question-sur-le-silence-du-milieu-devient-centrale/ar-AA24t5YI?ocid=00000000",
+      "source": "So Busy Girls"
+    },
+    {
+      "title_hash": "d536543c9ce0d2e37357961493433c21bbcaae1f410aed760c4266adc59eaa08",
+      "title": "Maïdi Roth (Plus belle la vie) accuse Patrick Bruel d’une agression dans un taxi : le récit glaçant d’une scène à Acapulco",
+      "appearances": 2,
+      "first_seen": "2026-05-31T05:44:38+00:00",
+      "last_seen": "2026-06-01T05:23:53+00:00",
+      "max_score": 34,
+      "first_score": 31,
+      "last_score": 34,
+      "score_delta": 3,
+      "category": "/Arts & Entertainment/Celebrities & Entertainment News",
+      "msn_url": "https://www.msn.com/fr-fr/divertissement/actualite/maïdi-roth-plus-belle-la-vie-accuse-patrick-bruel-d-une-agression-dans-un-taxi-le-récit-glaçant-d-une-scène-à-acapulco/ar-AA24tfXt?ocid=00000000",
       "source": "So Busy Girls"
     },
     {
@@ -2821,102 +2905,33 @@
       "category": "/Arts & Entertainment/Celebrities & Entertainment News",
       "msn_url": "https://www.msn.com/fr-fr/divertissement/tv/the-voice-en-pleine-finale-amel-bent-fait-une-allusion-remarquée-à-l-affaire-patrick-bruel/ar-AA24qNRd?ocid=00000000",
       "source": "Stars Actu"
-    },
-    {
-      "title_hash": "044094bad6ebb7b199690aacec104739e77b5b553cc0b63c9a229c6b6d63a7de",
-      "title": "« L'alcool décoince et enlève une conscience trop forte de soi » : Virginie Efira, le verre à moitié plein",
-      "appearances": 2,
-      "first_seen": "2026-05-31T05:44:38+00:00",
-      "last_seen": "2026-05-31T19:47:06+00:00",
-      "max_score": 27,
-      "first_score": 20,
-      "last_score": 27,
-      "score_delta": 7,
-      "category": null,
-      "msn_url": "https://www.msn.com/fr-fr/divertissement/actualite/l-alcool-décoince-et-enlève-une-conscience-trop-forte-de-soi-virginie-efira-le-verre-à-moitié-plein/ar-AA24qy71?ocid=00000000",
-      "source": "Paris Match FR"
-    },
-    {
-      "title_hash": "765cfa9c196a01ea9755d2de9d47883002afbd9fc6b97bde4871c128e2dd51e6",
-      "title": "Navire de guerre endommagé à Wilmershaven : la Russie derrière 10 actes de sabotage?",
-      "appearances": 2,
-      "first_seen": "2026-05-31T05:44:38+00:00",
-      "last_seen": "2026-05-31T09:28:21+00:00",
-      "max_score": 24,
-      "first_score": 18,
-      "last_score": 24,
-      "score_delta": 6,
-      "category": "/Sensitive Subjects",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/monde/navire-de-guerre-endommagé-à-wilmershaven-la-russie-derrière-10-actes-de-sabotage/ar-AA24qrA5?ocid=00000000",
-      "source": "Euronews (Français)"
-    },
-    {
-      "title_hash": "0df6beea4312af06406ee2c4f4f4fb23d31fff4b3078037527abc38c7441f978",
-      "title": "Roland-Garros, le beau geste d’une joueuse envers un ramasseur (vidéo)",
-      "appearances": 2,
-      "first_seen": "2026-05-31T05:44:38+00:00",
-      "last_seen": "2026-05-31T09:28:21+00:00",
-      "max_score": 24,
-      "first_score": 24,
-      "last_score": 23,
-      "score_delta": -1,
-      "category": "/Sports/Individual Sports/Racquet Sports",
-      "msn_url": "https://www.msn.com/fr-fr/sport/tennis/roland-garros-le-beau-geste-d-une-joueuse-envers-un-ramasseur-vidéo/ar-AA24q9dO?ocid=00000000",
-      "source": "Sports.fr"
-    },
-    {
-      "title_hash": "aa61a99b4ac3baeb88fcb544fb86de4a23aa84462750f9b5fad1ee4a4a6ed203",
-      "title": "Les insoumis, « marchands de haine » : Jean-Luc Mélenchon fustige les « paroles indignes » de Gabriel Attal",
-      "appearances": 2,
-      "first_seen": "2026-05-31T05:44:38+00:00",
-      "last_seen": "2026-05-31T09:28:21+00:00",
-      "max_score": 24,
-      "first_score": 24,
-      "last_score": 23,
-      "score_delta": -1,
-      "category": "/News",
-      "msn_url": "https://www.msn.com/fr-fr/actualite/elections/les-insoumis-marchands-de-haine-jean-luc-mélenchon-fustige-les-paroles-indignes-de-gabriel-attal/ar-AA24qUSQ?ocid=00000000",
-      "source": "Le Parisien"
-    },
-    {
-      "title_hash": "0dfeb795f1627a578ab58e80c7c77dfea651cc7f74d3f2301b5a5742a804e6e9",
-      "title": "Sécurité sociale : face au déficit, la Cour des comptes suggère un prélèvement direct sur les comptes bancaires des patients",
-      "appearances": 2,
-      "first_seen": "2026-05-31T05:44:38+00:00",
-      "last_seen": "2026-05-31T09:28:21+00:00",
-      "max_score": 21,
-      "first_score": 20,
-      "last_score": 21,
-      "score_delta": 1,
-      "category": null,
-      "msn_url": "https://www.msn.com/fr-fr/finance/autres/sécurité-sociale-face-au-déficit-la-cour-des-comptes-suggère-un-prélèvement-direct-sur-les-comptes-bancaires-des-patients/ar-AA24qTlu?ocid=00000000",
-      "source": "Econostrum.info"
     }
   ],
+  "dormant_reveals": [],
   "category_momentum_24h": [
     {
       "category": "economie",
       "source": "discover",
-      "current_count": 42,
+      "current_count": 25,
       "prev_count": 0,
-      "delta": 42,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 25,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "economie",
       "source": "gnews",
-      "current_count": 66,
+      "current_count": 65,
       "prev_count": 0,
-      "delta": 66,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 65,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "economie",
       "source": "msn",
-      "current_count": 10,
+      "current_count": 5,
       "prev_count": 0,
-      "delta": 10,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 5,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "economie",
@@ -2924,7 +2939,7 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "economie",
@@ -2932,7 +2947,7 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "international",
@@ -2940,15 +2955,15 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "international",
       "source": "gnews",
-      "current_count": 55,
+      "current_count": 52,
       "prev_count": 0,
-      "delta": 55,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 52,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "international",
@@ -2956,7 +2971,7 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "international",
@@ -2964,7 +2979,7 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "international",
@@ -2972,15 +2987,15 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "lifestyle",
       "source": "discover",
-      "current_count": 148,
+      "current_count": 111,
       "prev_count": 0,
-      "delta": 148,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 111,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "lifestyle",
@@ -2988,7 +3003,7 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "lifestyle",
@@ -2996,7 +3011,7 @@
       "current_count": 18,
       "prev_count": 0,
       "delta": 18,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "lifestyle",
@@ -3004,7 +3019,7 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "lifestyle",
@@ -3012,31 +3027,31 @@
       "current_count": 70,
       "prev_count": 0,
       "delta": 70,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "people",
       "source": "discover",
-      "current_count": 82,
+      "current_count": 74,
       "prev_count": 0,
-      "delta": 82,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 74,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "people",
       "source": "gnews",
-      "current_count": 64,
+      "current_count": 66,
       "prev_count": 0,
-      "delta": 64,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 66,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "people",
       "source": "msn",
-      "current_count": 14,
+      "current_count": 22,
       "prev_count": 0,
-      "delta": 14,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 22,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "people",
@@ -3044,31 +3059,31 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "people",
       "source": "youtube",
-      "current_count": 126,
+      "current_count": 121,
       "prev_count": 0,
-      "delta": 126,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 121,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "politique",
       "source": "discover",
-      "current_count": 32,
+      "current_count": 28,
       "prev_count": 0,
-      "delta": 32,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 28,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "politique",
       "source": "gnews",
-      "current_count": 34,
+      "current_count": 36,
       "prev_count": 0,
-      "delta": 34,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 36,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "politique",
@@ -3076,7 +3091,7 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "politique",
@@ -3084,23 +3099,23 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "politique",
       "source": "youtube",
-      "current_count": 38,
+      "current_count": 40,
       "prev_count": 0,
-      "delta": 38,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 40,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "sante",
       "source": "discover",
-      "current_count": 15,
+      "current_count": 20,
       "prev_count": 0,
-      "delta": 15,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 20,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "sante",
@@ -3108,7 +3123,7 @@
       "current_count": 24,
       "prev_count": 0,
       "delta": 24,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "sante",
@@ -3116,7 +3131,7 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "sante",
@@ -3124,7 +3139,7 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "sante",
@@ -3132,7 +3147,7 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "science",
@@ -3140,135 +3155,135 @@
       "current_count": 7,
       "prev_count": 0,
       "delta": 7,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "science",
+      "source": "gnews",
+      "current_count": 65,
+      "prev_count": 0,
+      "delta": 65,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "science",
+      "source": "msn",
+      "current_count": 0,
+      "prev_count": 0,
+      "delta": 0,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "science",
+      "source": "reddit",
+      "current_count": 0,
+      "prev_count": 0,
+      "delta": 0,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "science",
+      "source": "youtube",
+      "current_count": 3,
+      "prev_count": 0,
+      "delta": 3,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "societe",
+      "source": "discover",
+      "current_count": 416,
+      "prev_count": 0,
+      "delta": 416,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "societe",
+      "source": "gnews",
+      "current_count": 65,
+      "prev_count": 0,
+      "delta": 65,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "societe",
+      "source": "msn",
+      "current_count": 36,
+      "prev_count": 0,
+      "delta": 36,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "societe",
+      "source": "reddit",
+      "current_count": 0,
+      "prev_count": 0,
+      "delta": 0,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "societe",
+      "source": "youtube",
+      "current_count": 0,
+      "prev_count": 0,
+      "delta": 0,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "sport",
+      "source": "discover",
+      "current_count": 149,
+      "prev_count": 0,
+      "delta": 149,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "sport",
+      "source": "gnews",
+      "current_count": 8,
+      "prev_count": 0,
+      "delta": 8,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "sport",
+      "source": "msn",
+      "current_count": 16,
+      "prev_count": 0,
+      "delta": 16,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "sport",
+      "source": "reddit",
+      "current_count": 0,
+      "prev_count": 0,
+      "delta": 0,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "sport",
+      "source": "youtube",
+      "current_count": 22,
+      "prev_count": 0,
+      "delta": 22,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "tech",
+      "source": "discover",
+      "current_count": 14,
+      "prev_count": 0,
+      "delta": 14,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
+    },
+    {
+      "category": "tech",
       "source": "gnews",
       "current_count": 60,
       "prev_count": 0,
       "delta": 60,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "science",
-      "source": "msn",
-      "current_count": 0,
-      "prev_count": 0,
-      "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "science",
-      "source": "reddit",
-      "current_count": 0,
-      "prev_count": 0,
-      "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "science",
-      "source": "youtube",
-      "current_count": 3,
-      "prev_count": 0,
-      "delta": 3,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "societe",
-      "source": "discover",
-      "current_count": 552,
-      "prev_count": 0,
-      "delta": 552,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "societe",
-      "source": "gnews",
-      "current_count": 2,
-      "prev_count": 0,
-      "delta": 2,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "societe",
-      "source": "msn",
-      "current_count": 43,
-      "prev_count": 0,
-      "delta": 43,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "societe",
-      "source": "reddit",
-      "current_count": 0,
-      "prev_count": 0,
-      "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "societe",
-      "source": "youtube",
-      "current_count": 0,
-      "prev_count": 0,
-      "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "sport",
-      "source": "discover",
-      "current_count": 142,
-      "prev_count": 0,
-      "delta": 142,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "sport",
-      "source": "gnews",
-      "current_count": 3,
-      "prev_count": 0,
-      "delta": 3,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "sport",
-      "source": "msn",
-      "current_count": 12,
-      "prev_count": 0,
-      "delta": 12,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "sport",
-      "source": "reddit",
-      "current_count": 0,
-      "prev_count": 0,
-      "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "sport",
-      "source": "youtube",
-      "current_count": 21,
-      "prev_count": 0,
-      "delta": 21,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "tech",
-      "source": "discover",
-      "current_count": 8,
-      "prev_count": 0,
-      "delta": 8,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
-    },
-    {
-      "category": "tech",
-      "source": "gnews",
-      "current_count": 61,
-      "prev_count": 0,
-      "delta": 61,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "tech",
@@ -3276,7 +3291,7 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "tech",
@@ -3284,15 +3299,15 @@
       "current_count": 0,
       "prev_count": 0,
       "delta": 0,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     },
     {
       "category": "tech",
       "source": "youtube",
-      "current_count": 18,
+      "current_count": 19,
       "prev_count": 0,
-      "delta": 18,
-      "latest_at": "2026-05-31T19:47:11.772034+00:00"
+      "delta": 19,
+      "latest_at": "2026-06-01T05:24:07.668506+00:00"
     }
   ],
   "source_timeline_7d": {
@@ -3312,6 +3327,10 @@
       {
         "at": "2026-05-31T19:47:13.226275+00:00",
         "count": 1087
+      },
+      {
+        "at": "2026-06-01T05:24:09.085328+00:00",
+        "count": 875
       }
     ],
     "google_news": [
@@ -3330,6 +3349,10 @@
       {
         "at": "2026-05-31T19:47:13.226275+00:00",
         "count": 399
+      },
+      {
+        "at": "2026-06-01T05:24:09.085328+00:00",
+        "count": 475
       }
     ],
     "google_trends": [
@@ -3348,6 +3371,10 @@
       {
         "at": "2026-05-31T19:47:13.226275+00:00",
         "count": 278
+      },
+      {
+        "at": "2026-06-01T05:24:09.085328+00:00",
+        "count": 207
       }
     ],
     "msn": [
@@ -3366,6 +3393,10 @@
       {
         "at": "2026-05-31T19:47:13.226275+00:00",
         "count": 100
+      },
+      {
+        "at": "2026-06-01T05:24:09.085328+00:00",
+        "count": 100
       }
     ],
     "reddit": [
@@ -3376,6 +3407,12 @@
       {
         "at": "2026-05-31T09:28:27.762622+00:00",
         "count": 0
+      }
+    ],
+    "tiktok": [
+      {
+        "at": "2026-06-01T05:24:09.085328+00:00",
+        "count": 32
       }
     ],
     "wikimedia": [
@@ -3394,6 +3431,10 @@
       {
         "at": "2026-05-31T19:47:13.226275+00:00",
         "count": 986
+      },
+      {
+        "at": "2026-06-01T05:24:09.085328+00:00",
+        "count": 988
       }
     ],
     "x_trends": [
@@ -3412,6 +3453,10 @@
       {
         "at": "2026-05-31T19:47:13.226275+00:00",
         "count": 187
+      },
+      {
+        "at": "2026-06-01T05:24:09.085328+00:00",
+        "count": 193
       }
     ],
     "youtube_trending": [
@@ -3430,6 +3475,10 @@
       {
         "at": "2026-05-31T19:47:13.226275+00:00",
         "count": 279
+      },
+      {
+        "at": "2026-06-01T05:24:09.085328+00:00",
+        "count": 278
       }
     ]
   }

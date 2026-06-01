@@ -1,49 +1,12 @@
 {
-  "generated_at": "2026-06-01T00:17:15Z",
-  "count": 4,
+  "generated_at": "2026-06-01T05:24:02Z",
+  "count": 13,
   "signals": [
-    {
-      "topic": "SoftBank annonce un investissement record de 75 milliards d'euros lié à l'IA en amont de « Choose France »",
-      "sources": [
-        "gnews",
-        "msn"
-      ],
-      "members": [
-        {
-          "title": "SoftBank annonce un investissement record de 75 milliards d'euros lié à l'IA en amont de « Choose France »",
-          "source": "msn"
-        },
-        {
-          "title": "Le Japonais SoftBank annonce un investissement record de 75 milliards d'euros en France lié à l'IA",
-          "source": "gnews"
-        }
-      ],
-      "member_count": 2,
-      "prediction_score": 24.0
-    },
-    {
-      "topic": "rublev",
-      "sources": [
-        "trends",
-        "x"
-      ],
-      "members": [
-        {
-          "title": "rublev",
-          "source": "trends"
-        },
-        {
-          "title": "Rublev",
-          "source": "x"
-        }
-      ],
-      "member_count": 2,
-      "prediction_score": 23.85
-    },
     {
       "topic": "karl olive",
       "sources": [
         "trends",
+        "wiki",
         "x"
       ],
       "members": [
@@ -53,30 +16,251 @@
         },
         {
           "title": "Karl Olive",
+          "source": "wiki"
+        },
+        {
+          "title": "Karl Olive",
           "source": "x"
         }
       ],
-      "member_count": 2,
-      "prediction_score": 23.77
+      "member_count": 3,
+      "prediction_score": 35.85
     },
     {
-      "topic": "jodar",
+      "topic": "Paris Saint-Germain Football Club",
       "sources": [
-        "trends",
+        "wiki",
         "x"
       ],
       "members": [
         {
-          "title": "jodar",
+          "title": "Paris Saint-Germain Football Club",
+          "source": "wiki"
+        },
+        {
+          "title": "Arsenal Football Club",
+          "source": "wiki"
+        },
+        {
+          "title": "Le PSG",
+          "source": "x"
+        }
+      ],
+      "member_count": 3,
+      "prediction_score": 25.7
+    },
+    {
+      "topic": "Moïse Kouamé",
+      "sources": [
+        "wiki",
+        "x"
+      ],
+      "members": [
+        {
+          "title": "Moïse Kouamé",
+          "source": "wiki"
+        },
+        {
+          "title": "Désiré Doué",
+          "source": "wiki"
+        },
+        {
+          "title": "Abdoulaye Seck",
+          "source": "x"
+        }
+      ],
+      "member_count": 3,
+      "prediction_score": 25.7
+    },
+    {
+      "topic": "benoit magimel",
+      "sources": [
+        "trends",
+        "wiki"
+      ],
+      "members": [
+        {
+          "title": "benoit magimel",
           "source": "trends"
         },
         {
-          "title": "Jodar",
+          "title": "Benoît Magimel",
+          "source": "wiki"
+        }
+      ],
+      "member_count": 2,
+      "prediction_score": 24.15
+    },
+    {
+      "topic": "007 spectre",
+      "sources": [
+        "trends",
+        "wiki"
+      ],
+      "members": [
+        {
+          "title": "007 spectre",
+          "source": "trends"
+        },
+        {
+          "title": "007 Spectre",
+          "source": "wiki"
+        }
+      ],
+      "member_count": 2,
+      "prediction_score": 24.03
+    },
+    {
+      "topic": "gustavo kuerten",
+      "sources": [
+        "trends",
+        "wiki"
+      ],
+      "members": [
+        {
+          "title": "gustavo kuerten",
+          "source": "trends"
+        },
+        {
+          "title": "Gustavo Kuerten",
+          "source": "wiki"
+        }
+      ],
+      "member_count": 2,
+      "prediction_score": 24.02
+    },
+    {
+      "topic": "xenia fedorova",
+      "sources": [
+        "trends",
+        "wiki"
+      ],
+      "members": [
+        {
+          "title": "xenia fedorova",
+          "source": "trends"
+        },
+        {
+          "title": "Mirra Andreeva",
+          "source": "wiki"
+        }
+      ],
+      "member_count": 2,
+      "prediction_score": 24.01
+    },
+    {
+      "topic": "Un gros « boom », des maisons qui tremblent : un météore d'une puissance de 300 tonnes de TNT explose au-dessus de Boston",
+      "sources": [
+        "gnews",
+        "msn"
+      ],
+      "members": [
+        {
+          "title": "Un gros « boom », des maisons qui tremblent : un météore d'une puissance de 300 tonnes de TNT explose au-dessus de Boston",
+          "source": "msn"
+        },
+        {
+          "title": "Un météore explose au-dessus des États-Unis avec une puissance équivalente à 300 tonnes de TNT : le corps céleste filait à 120 000 km/h",
+          "source": "gnews"
+        }
+      ],
+      "member_count": 2,
+      "prediction_score": 24.0
+    },
+    {
+      "topic": "Les Gunners se lâchent sur Marquinhos",
+      "sources": [
+        "gnews",
+        "msn"
+      ],
+      "members": [
+        {
+          "title": "Les Gunners se lâchent sur Marquinhos",
+          "source": "msn"
+        },
+        {
+          "title": "Les Gunners se lâchent sur Marquinhos",
+          "source": "gnews"
+        }
+      ],
+      "member_count": 2,
+      "prediction_score": 24.0
+    },
+    {
+      "topic": "Dua Lipa se marie et bouscule les codes en troquant la robe blanche pour un tailleur jupe élégant",
+      "sources": [
+        "gnews",
+        "msn"
+      ],
+      "members": [
+        {
+          "title": "Dua Lipa se marie et bouscule les codes en troquant la robe blanche pour un tailleur jupe élégant",
+          "source": "msn"
+        },
+        {
+          "title": "Les photos du mariage de Dua Lipa et Callum Turner diffusées par les médias britanniques",
+          "source": "gnews"
+        }
+      ],
+      "member_count": 2,
+      "prediction_score": 24.0
+    },
+    {
+      "topic": "Luis Enrique",
+      "sources": [
+        "wiki",
+        "x"
+      ],
+      "members": [
+        {
+          "title": "Luis Enrique",
+          "source": "wiki"
+        },
+        {
+          "title": "Luis Enrique",
           "source": "x"
         }
       ],
       "member_count": 2,
-      "prediction_score": 23.77
+      "prediction_score": 23.7
+    },
+    {
+      "topic": "Edgar Morin",
+      "sources": [
+        "wiki",
+        "x"
+      ],
+      "members": [
+        {
+          "title": "Edgar Morin",
+          "source": "wiki"
+        },
+        {
+          "title": "Edgar Morin",
+          "source": "x"
+        }
+      ],
+      "member_count": 2,
+      "prediction_score": 23.7
+    },
+    {
+      "topic": "Marquinhos",
+      "sources": [
+        "wiki",
+        "x"
+      ],
+      "members": [
+        {
+          "title": "Marquinhos",
+          "source": "wiki"
+        },
+        {
+          "title": "Marquinhos",
+          "source": "x"
+        }
+      ],
+      "member_count": 2,
+      "prediction_score": 23.7
     }
   ]
 }
