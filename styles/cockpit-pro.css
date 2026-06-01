@@ -925,6 +925,132 @@ body::before {
   vertical-align: 2px;
 }
 
+/* Discover prediction — badge row + bloc detail */
+.discover-proba {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 2px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 2px 7px;
+  border-radius: var(--r-full);
+  border: 1px solid;
+}
+.discover-proba.high {
+  color: var(--hot);
+  background: var(--hot-soft);
+  border-color: color-mix(in srgb, var(--hot) 30%, var(--line-2));
+}
+.discover-proba.medium {
+  color: var(--warm);
+  background: var(--warm-soft);
+  border-color: color-mix(in srgb, var(--warm) 30%, var(--line-2));
+}
+.discover-proba.low {
+  color: var(--fg-subtle);
+  background: var(--ink-3);
+  border-color: var(--line-2);
+}
+.discover-proba-lbl {
+  font-weight: 500;
+  font-size: 9px;
+  opacity: 0.75;
+  letter-spacing: 0.04em;
+}
+
+/* Bloc prediction Discover en detail panel */
+.discover-pred-block {
+  background: var(--ink-3);
+  border: 1px solid var(--line-2);
+  border-left: 3px solid;
+  border-radius: var(--r-md);
+  padding: 12px 14px;
+  margin-bottom: 14px;
+}
+.discover-pred-block.high {
+  border-left-color: var(--hot);
+  background: color-mix(in srgb, var(--hot) 6%, var(--ink-3));
+}
+.discover-pred-block.medium {
+  border-left-color: var(--warm);
+  background: color-mix(in srgb, var(--warm) 5%, var(--ink-3));
+}
+.discover-pred-block.low {
+  border-left-color: var(--fg-subtle);
+}
+.discover-pred-head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.discover-pred-pct {
+  font-family: var(--font-mono);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+}
+.discover-pred-block.high .discover-pred-pct {
+  color: var(--hot);
+}
+.discover-pred-block.medium .discover-pred-pct {
+  color: var(--warm);
+}
+.discover-pred-block.low .discover-pred-pct {
+  color: var(--fg-subtle);
+}
+.discover-pred-lbl {
+  font-size: 11.5px;
+  color: var(--fg-muted);
+  letter-spacing: 0.02em;
+}
+.discover-pred-conf {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 2px 7px;
+  border-radius: var(--r-full);
+  color: var(--fg-subtle);
+  background: var(--ink-4);
+}
+.discover-pred-conf.high {
+  color: var(--up);
+  background: var(--up-soft);
+}
+.discover-pred-conf.medium {
+  color: var(--warm);
+  background: var(--warm-soft);
+}
+.discover-pred-factors {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.discover-pred-factors li {
+  font-size: 11.5px;
+  color: var(--fg-muted);
+  padding-left: 14px;
+  position: relative;
+  line-height: 1.4;
+}
+.discover-pred-factors li::before {
+  content: "·";
+  position: absolute;
+  left: 4px;
+  top: -2px;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--fg-subtle);
+}
+
 /* Liste des titres alternatifs fusionnes (panneau detail) */
 .alt-titles {
   margin-top: 14px;

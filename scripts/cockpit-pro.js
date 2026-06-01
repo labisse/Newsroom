@@ -197,6 +197,8 @@ const adaptSujet = (raw) => {
     // Deduplication semantique cross-source (Voyage clustering, A1)
     cluster_size: Number(raw.cluster_size || 1),
     cluster_members_titles: raw.cluster_members_titles || [],
+    // Heuristique predictive Discover (B1 etape 1)
+    discover_prediction: raw.discover_prediction || null,
   };
 };
 
@@ -615,6 +617,26 @@ const renderToolbar = () => {
 
 /* ---------- List rows ---------- */
 
+const DiscoverProbaBadge = (pred) => {
+  if (!pred || pred.proba == null) return null;
+  const pct = Math.round(pred.proba * 100);
+  // Couleur selon le niveau (haut/moyen/bas), pas selon "confidence"
+  // pour rester lisible (red/orange/cool).
+  let cls = "low";
+  if (pct >= 70) cls = "high";
+  else if (pct >= 50) cls = "medium";
+  const title = (pred.factors || []).join(" · ");
+  return h(
+    "span",
+    {
+      class: "discover-proba " + cls,
+      title: `Probabilité estimée que ce sujet performe sur Discover dans les 24 h.\n${title}`,
+    },
+    `${pct}%`,
+    h("span", { class: "discover-proba-lbl" }, " disc."),
+  );
+};
+
 const TrendBadge = (trend, velocity6h) => {
   // trend : "rising" / "stable" / "falling" / "new"
   if (!trend || trend === "new") return null;
@@ -688,6 +710,7 @@ const renderRow = (t) => {
         "div",
         { class: "row-meta" },
         CatChip(t.cat),
+        DiscoverProbaBadge(t.discover_prediction),
         h("div", { class: "bar" }, h("i", { style: { width: t.score + "%", background: tier.color } })),
       ),
     ),
@@ -758,10 +781,52 @@ const renderDetail = (t) => {
       )
     : null;
 
+  // Bloc prediction Discover (heuristique B1)
+  const predBlock = t.discover_prediction
+    ? (() => {
+        const p = t.discover_prediction;
+        const pct = Math.round((p.proba || 0) * 100);
+        let cls = "low";
+        if (pct >= 70) cls = "high";
+        else if (pct >= 50) cls = "medium";
+        return h(
+          "div",
+          { class: "discover-pred-block " + cls },
+          h(
+            "div",
+            { class: "discover-pred-head" },
+            h("span", { class: "discover-pred-pct" }, `${pct}%`),
+            h(
+              "span",
+              { class: "discover-pred-lbl" },
+              "probabilité Discover (24 h)",
+            ),
+            h(
+              "span",
+              { class: "discover-pred-conf " + (p.confidence || "low") },
+              p.confidence === "high"
+                ? "confiance haute"
+                : p.confidence === "medium"
+                  ? "confiance moyenne"
+                  : "confiance faible",
+            ),
+          ),
+          (p.factors && p.factors.length)
+            ? h(
+                "ul",
+                { class: "discover-pred-factors" },
+                ...p.factors.map((f) => h("li", {}, f)),
+              )
+            : null,
+        );
+      })()
+    : null;
+
   const left = h(
     "div",
     {},
     llmBadges,
+    predBlock,
     h("h6", {}, "Pourquoi ce sujet"),
     h("p", { class: "snip" }, t.snippet),
     h("h6", {}, "Entités liées"),

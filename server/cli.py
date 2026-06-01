@@ -244,6 +244,17 @@ def cmd_enrich() -> int:
         print(f"[velocity] erreur ({type(exc).__name__}: {exc}) — skip")
     print(f"Velocity   : {time.perf_counter() - started:.2f}s")
 
+    # 3. Discover predictor (heuristique B1 etape 1) : ajoute
+    # discover_prediction = {proba, confidence, factors} a chaque sujet.
+    # Sera remplace par un vrai modele ML quand on aura 30-60j de data.
+    from server.scoring import discover_predictor
+    started = time.perf_counter()
+    try:
+        discover_predictor.annotate(payload)
+    except Exception as exc:  # noqa: BLE001
+        print(f"[predictor] erreur ({type(exc).__name__}: {exc}) — skip")
+    print(f"Predictor  : {time.perf_counter() - started:.2f}s")
+
     # Sauvegarde
     latest_path.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2),

@@ -181,7 +181,33 @@
       "cluster_size": 2,
       "cluster_members_titles": [
         "« La France à feu et à sang pour la victoire du PSG » : Sarah Knafo prône un sursaut sécuritaire"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Débordements suite sacre PSG Ligue champions",
+        "entities": [
+          "PSG",
+          "Ligue des champions"
+        ],
+        "categories": [
+          "sport",
+          "societe"
+        ],
+        "sentiment": "negative",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.811,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "×2 articles fusionnes (+8%)",
+          "ton factuel (+5%)",
+          "score solide 77 (+10%)"
+        ]
+      }
     },
     {
       "id": "s02",
@@ -293,7 +319,32 @@
         "Edgar Morin"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Mort d'Edgar Morin",
+        "entities": [
+          "Edgar Morin",
+          "Sabah Abouessalam"
+        ],
+        "categories": [
+          "people",
+          "societe"
+        ],
+        "sentiment": "negative",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.751,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton factuel (+5%)",
+          "score solide 75 (+10%)"
+        ]
+      }
     },
     {
       "id": "s03",
@@ -420,7 +471,34 @@
       "cluster_size": 2,
       "cluster_members_titles": [
         "« C’est la meilleure équipe du monde » : l’entraîneur d’Arsenal Mikel Arteta admiratif du PSG après la finale"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "PSG remporte Ligue des champions",
+        "entities": [
+          "PSG",
+          "Arsenal",
+          "Ligue des champions"
+        ],
+        "categories": [
+          "sport",
+          "economie"
+        ],
+        "sentiment": "positive",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.811,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "×2 articles fusionnes (+8%)",
+          "ton factuel (+5%)",
+          "score solide 62 (+10%)"
+        ]
+      }
     },
     {
       "id": "s04",
@@ -554,7 +632,33 @@
       "cluster_members_titles": [
         "« Clairement un pénalty à mes yeux » : Arsenal furieux après l’arbitre de la finale de la Ligue des champions",
         "PSG/Arsenal – Marquinhos ne mâche pas ses mots après le sacre"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Luis Enrique sur Zaire-Emery",
+        "entities": [
+          "Luis Enrique",
+          "Zaire-Emery",
+          "PSG"
+        ],
+        "categories": [
+          "sport"
+        ],
+        "sentiment": "neutral",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.863,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "×3 articles fusionnes (+15%)",
+          "ton factuel (+5%)",
+          "score solide 60 (+10%)"
+        ]
+      }
     },
     {
       "id": "s05",
@@ -684,7 +788,31 @@
         "Sport"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Karl Olive vidéo capot voiture PSG",
+        "entities": [
+          "Karl Olive",
+          "PSG"
+        ],
+        "categories": [
+          "people",
+          "sport"
+        ],
+        "sentiment": "neutral",
+        "ton": "people"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.702,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "people/celebrites (+8%)"
+        ]
+      }
     },
     {
       "id": "s06",
@@ -808,7 +936,31 @@
         "Patrick Bruel"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Benjamin Castaldi sur Patrick Bruel",
+        "entities": [
+          "Benjamin Castaldi",
+          "Flavie Flament",
+          "Patrick Bruel"
+        ],
+        "categories": [
+          "people"
+        ],
+        "sentiment": "neutral",
+        "ton": "people"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.702,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "people/celebrites (+8%)"
+        ]
+      }
     },
     {
       "id": "s07",
@@ -932,7 +1084,30 @@
         "Patrick Bruel"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Patrick Bruel insulté théâtre Paris",
+        "entities": [
+          "Patrick Bruel",
+          "Théâtre Édouard VII"
+        ],
+        "categories": [
+          "people"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.715,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton polemique (+10%)"
+        ]
+      }
     },
     {
       "id": "s08",
@@ -1058,7 +1233,31 @@
       "cluster_size": 2,
       "cluster_members_titles": [
         "« Force à toutes » : le message d’Anouchka Delon après les accusations contre Patrick Bruel fait réagir"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Mouvement soutien Patrick Bruel scandale",
+        "entities": [
+          "Patrick Bruel"
+        ],
+        "categories": [
+          "people",
+          "societe"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.772,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "×2 articles fusionnes (+8%)",
+          "ton polemique (+10%)"
+        ]
+      }
     },
     {
       "id": "s09",
@@ -1184,7 +1383,31 @@
       "cluster_size": 2,
       "cluster_members_titles": [
         "« Non catégorique » : Aurore Bergé refuse de lâcher Patrick Bruel et surprend tout le monde"
-      ]
+      ],
+      "llm_enrich": {
+        "main_topic": "Flavie Flament sur Patrick Bruel",
+        "entities": [
+          "Flavie Flament",
+          "Patrick Bruel"
+        ],
+        "categories": [
+          "people"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.772,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "×2 articles fusionnes (+8%)",
+          "ton polemique (+10%)"
+        ]
+      }
     },
     {
       "id": "s10",
@@ -1312,7 +1535,29 @@
         "Sport"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Favori Macron présidentielle 2027",
+        "entities": [
+          "Emmanuel Macron"
+        ],
+        "categories": [
+          "politique"
+        ],
+        "sentiment": "neutral",
+        "ton": "opinion"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.598,
+        "confidence": "medium",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton opinion (-8%)"
+        ]
+      }
     },
     {
       "id": "s11",
@@ -1405,7 +1650,31 @@
         "Billet de banque"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Tortues Sahara reforestation réussite",
+        "entities": [
+          "Sahara"
+        ],
+        "categories": [
+          "science",
+          "societe"
+        ],
+        "sentiment": "positive",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.614,
+        "confidence": "medium",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton factuel (+5%)",
+          "score faible 39 (-10%)"
+        ]
+      }
     },
     {
       "id": "s12",
@@ -1532,7 +1801,31 @@
         "Tennis"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Aryna Sabalenka décision Roland-Garros",
+        "entities": [
+          "Aryna Sabalenka",
+          "Roland-Garros"
+        ],
+        "categories": [
+          "sport"
+        ],
+        "sentiment": "neutral",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.614,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton factuel (+5%)",
+          "score faible 38 (-10%)"
+        ]
+      }
     },
     {
       "id": "s13",
@@ -1656,7 +1949,33 @@
         "Patrick Bruel"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Patrick Bruel accusations témoignages",
+        "entities": [
+          "Patrick Bruel",
+          "Andréa Bescond",
+          "Alexandra Lamy"
+        ],
+        "categories": [
+          "people",
+          "societe"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.644,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton polemique (+10%)",
+          "score faible 36 (-10%)"
+        ]
+      }
     },
     {
       "id": "s14",
@@ -1780,7 +2099,31 @@
         "Patrick Bruel"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Anny Duperey soutien Patrick Bruel polémique",
+        "entities": [
+          "Anny Duperey",
+          "Patrick Bruel"
+        ],
+        "categories": [
+          "people"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.644,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton polemique (+10%)",
+          "score faible 36 (-10%)"
+        ]
+      }
     },
     {
       "id": "s15",
@@ -1899,7 +2242,31 @@
         "Sport"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Mère Macron réponse invités critiques",
+        "entities": [
+          "Emmanuel Macron"
+        ],
+        "categories": [
+          "politique",
+          "people"
+        ],
+        "sentiment": "neutral",
+        "ton": "people"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.632,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "people/celebrites (+8%)",
+          "score faible 33 (-10%)"
+        ]
+      }
     },
     {
       "id": "s16",
@@ -2026,7 +2393,30 @@
         "Sport"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Tableau 8es finale Roland-Garros",
+        "entities": [
+          "Roland-Garros"
+        ],
+        "categories": [
+          "sport"
+        ],
+        "sentiment": "neutral",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.614,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton factuel (+5%)",
+          "score faible 32 (-10%)"
+        ]
+      }
     },
     {
       "id": "s17",
@@ -2138,7 +2528,30 @@
         "Pastoralisme"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Vinyle Johnny Hallyday 1966 valeur",
+        "entities": [
+          "Johnny Hallyday"
+        ],
+        "categories": [
+          "people",
+          "lifestyle"
+        ],
+        "sentiment": "positive",
+        "ton": "divers"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.585,
+        "confidence": "medium",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "score faible 31 (-10%)"
+        ]
+      }
     },
     {
       "id": "s18",
@@ -2259,7 +2672,31 @@
         "Russie"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Frappes Ukraine nuit raffinerie russe",
+        "entities": [
+          "Ukraine",
+          "Russie"
+        ],
+        "categories": [
+          "international"
+        ],
+        "sentiment": "negative",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.614,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton factuel (+5%)",
+          "score faible 30 (-10%)"
+        ]
+      }
     },
     {
       "id": "s19",
@@ -2352,7 +2789,32 @@
         "Edgar Morin"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Nathalie Simon mariage 43 ans Tanguy Dadon",
+        "entities": [
+          "Nathalie Simon",
+          "Tanguy Dadon"
+        ],
+        "categories": [
+          "people",
+          "lifestyle"
+        ],
+        "sentiment": "positive",
+        "ton": "people"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.632,
+        "confidence": "medium",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "people/celebrites (+8%)",
+          "score faible 30 (-10%)"
+        ]
+      }
     },
     {
       "id": "s20",
@@ -2464,7 +2926,33 @@
         "Russie"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Drone russe Roumanie Ukraine Bucarest",
+        "entities": [
+          "Ukraine",
+          "Russie",
+          "Roumanie",
+          "Bucarest"
+        ],
+        "categories": [
+          "international"
+        ],
+        "sentiment": "negative",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.614,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton factuel (+5%)",
+          "score faible 28 (-10%)"
+        ]
+      }
     },
     {
       "id": "s21",
@@ -2579,7 +3067,31 @@
         "Centre de données"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "SoftBank investissement 75 milliards IA",
+        "entities": [
+          "SoftBank"
+        ],
+        "categories": [
+          "tech",
+          "economie"
+        ],
+        "sentiment": "positive",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.614,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton factuel (+5%)",
+          "score faible 27 (-10%)"
+        ]
+      }
     },
     {
       "id": "s22",
@@ -2675,7 +3187,31 @@
       "discover_category": null,
       "discover_entities": [],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Virginie Efira alcool conscience interview",
+        "entities": [
+          "Virginie Efira"
+        ],
+        "categories": [
+          "people",
+          "lifestyle"
+        ],
+        "sentiment": "neutral",
+        "ton": "people"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.486,
+        "confidence": "medium",
+        "factors": [
+          "convergence editoriale forte (MSN+GNews+Wiki/Trends)",
+          "people/celebrites (+8%)",
+          "score faible 27 (-10%)"
+        ]
+      }
     },
     {
       "id": "s23",
@@ -2783,7 +3319,29 @@
         "Sport"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Budget retraités vie digne France 2026",
+        "entities": [],
+        "categories": [
+          "societe",
+          "economie"
+        ],
+        "sentiment": "negative",
+        "ton": "opinion"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.538,
+        "confidence": "medium",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton opinion (-8%)",
+          "score faible 27 (-10%)"
+        ]
+      }
     },
     {
       "id": "s24",
@@ -2898,7 +3456,33 @@
         "Sport"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Maëva Coucke opération urgente PSG-Arsenal",
+        "entities": [
+          "Maëva Coucke",
+          "PSG",
+          "Arsenal"
+        ],
+        "categories": [
+          "people",
+          "sport"
+        ],
+        "sentiment": "negative",
+        "ton": "people"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.632,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "people/celebrites (+8%)",
+          "score faible 26 (-10%)"
+        ]
+      }
     },
     {
       "id": "s25",
@@ -3015,7 +3599,32 @@
         "Marine Le Pen"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Maria Carolina accusations Bardella",
+        "entities": [
+          "Maria Carolina",
+          "Jordan Bardella"
+        ],
+        "categories": [
+          "people",
+          "politique"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.644,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton polemique (+10%)",
+          "score faible 26 (-10%)"
+        ]
+      }
     },
     {
       "id": "s26",
@@ -3140,7 +3749,31 @@
         "Vincent Bolloré"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Xenia Fedorova agente russe",
+        "entities": [
+          "Xenia Fedorova",
+          "Raphaël Glucksmann"
+        ],
+        "categories": [
+          "politique"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.644,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton polemique (+10%)",
+          "score faible 25 (-10%)"
+        ]
+      }
     },
     {
       "id": "s27",
@@ -3235,7 +3868,32 @@
       "discover_category": null,
       "discover_entities": [],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Ukraine drone FPV record",
+        "entities": [
+          "Ukraine",
+          "Russie"
+        ],
+        "categories": [
+          "international",
+          "societe"
+        ],
+        "sentiment": "positive",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.331,
+        "confidence": "medium",
+        "factors": [
+          "duo editorial (MSN+GNews)",
+          "ton factuel (+5%)",
+          "score faible 25 (-10%)"
+        ]
+      }
     },
     {
       "id": "s28",
@@ -3359,7 +4017,34 @@
         "Patrick Bruel"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Affaire Patrick Bruel stars",
+        "entities": [
+          "Patrick Bruel",
+          "Zazie",
+          "Nagui",
+          "Lio"
+        ],
+        "categories": [
+          "people",
+          "societe"
+        ],
+        "sentiment": "negative",
+        "ton": "people"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.632,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "people/celebrites (+8%)",
+          "score faible 25 (-10%)"
+        ]
+      }
     },
     {
       "id": "s29",
@@ -3481,7 +4166,32 @@
         "Raphaël Glucksmann"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Léa Salamé interview Lavrov",
+        "entities": [
+          "Léa Salamé",
+          "Sergueï Lavrov"
+        ],
+        "categories": [
+          "politique",
+          "international"
+        ],
+        "sentiment": "negative",
+        "ton": "polemique"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.644,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton polemique (+10%)",
+          "score faible 23 (-10%)"
+        ]
+      }
     },
     {
       "id": "s30",
@@ -3584,7 +4294,32 @@
         "École polytechnique"
       ],
       "cluster_size": 1,
-      "cluster_members_titles": []
+      "cluster_members_titles": [],
+      "llm_enrich": {
+        "main_topic": "Polytechnique rejette Microsoft",
+        "entities": [
+          "Polytechnique",
+          "Microsoft"
+        ],
+        "categories": [
+          "tech",
+          "societe"
+        ],
+        "sentiment": "positive",
+        "ton": "factuel"
+      },
+      "velocity_6h": null,
+      "velocity_24h": null,
+      "trend": "new",
+      "discover_prediction": {
+        "proba": 0.614,
+        "confidence": "high",
+        "factors": [
+          "deja indexe par Discover (global)",
+          "ton factuel (+5%)",
+          "score faible 23 (-10%)"
+        ]
+      }
     }
   ],
   "categories_trending": [
