@@ -429,6 +429,25 @@ def cmd_gsc_fetch(project_slug: str, site_url: str | None, days: int) -> int:
     print(f"  {len(rows)} URLs récupérées en {elapsed:.1f}s")
     print(f"  Période : {payload['start_date']} → {payload['end_date']}")
 
+    # Fail loud sur 0 rows : symptome typique d'un refresh_token expire
+    # ou de scopes manquants. Sans ce garde-fou, le pipeline tourne vert
+    # silencieusement (cf RCA workflow whjca2msf : 4 runs CI verts sans
+    # aucun commit sur le JSONL entre le 28 et le 31/05).
+    if len(rows) == 0:
+        print(
+            f"  ✗ ERREUR : la GSC API a retourne 0 lignes pour {project_slug}.\n"
+            f"    Causes probables :\n"
+            f"      - GSC_REFRESH_TOKEN_{project_slug.upper().replace('-', '_')} "
+            f"expire ou revoque cote Google\n"
+            f"      - Scope OAuth manquant (webmasters.readonly requis)\n"
+            f"      - Le site n'a pas de donnees Discover (search_type='discover')\n"
+            f"      - sc-domain: vs https:// mismatch dans la config projet\n"
+            f"    Re-exporter le token avec : "
+            f"python -m server.cli gsc-export-secret --project={project_slug}",
+            file=sys.stderr,
+        )
+        return 2
+
     upsert = gsc_storage.upsert_discover_rows(project_slug, rows)
     print(
         f"  Upsert : +{upsert['inserted']} nouvelles · "
@@ -855,6 +874,19 @@ def cmd_gsc_sync_all(
             print(
                 f"  Fetch : {len(payload['rows'])} URLs en {elapsed:.1f}s"
             )
+
+            # Fail loud sur 0 rows : cf RCA workflow whjca2msf — sans
+            # ca, le CI tourne vert sans rien committer, on perd la
+            # donnee de labelling pendant des jours.
+            if not payload["rows"]:
+                env_var = gsc_mod.env_var_name_for(slug)
+                raise RuntimeError(
+                    f"GSC API a retourne 0 lignes pour {slug} (site={site_url}).\n"
+                    f"      Causes typiques : refresh_token expire/revoque "
+                    f"({env_var}), scopes manquants, ou site sans donnees "
+                    f"Discover. Re-exporter le token : "
+                    f"python -m server.cli gsc-export-secret --project={slug}"
+                )
 
             up = gsc_storage.upsert_discover_rows(slug, payload["rows"])
             print(
