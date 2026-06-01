@@ -24,9 +24,9 @@ on:
   workflow_dispatch:
     inputs:
       days:
-        description: "Fenêtre de jours (défaut 365)"
+        description: "Fenêtre de jours (14 par défaut, 365 pour rattrapage)"
         required: false
-        default: "365"
+        default: "14"
       scrape_limit:
         description: "Nb max de titres à scraper par projet (défaut 500)"
         required: false
@@ -69,13 +69,42 @@ jobs:
       - name: Detect mode
         id: mode
         run: |
-          DAYS="${{ github.event.inputs.days || '365' }}"
+          # Default reduit a 14 jours pour les runs quotidiens : GSC met
+          # parfois 2-3j a stabiliser ses chiffres donc 14j capte les
+          # derniers ajustements sans surcharger l'API. Pour un rattrapage
+          # full 365j, lancer manuellement via workflow_dispatch.
+          DAYS="${{ github.event.inputs.days || '14' }}"
           SCRAPE_LIMIT="${{ github.event.inputs.scrape_limit || '500' }}"
           SKIP_SCRAPE="${{ github.event.inputs.skip_scrape || 'false' }}"
           echo "days=$DAYS" >> "$GITHUB_OUTPUT"
           echo "scrape_limit=$SCRAPE_LIMIT" >> "$GITHUB_OUTPUT"
           echo "skip_scrape=$SKIP_SCRAPE" >> "$GITHUB_OUTPUT"
           echo "Mode : days=$DAYS scrape_limit=$SCRAPE_LIMIT skip_scrape=$SKIP_SCRAPE"
+
+      - name: Verify secrets (diagnostic)
+        run: |
+          # Diagnostic rapide : quels secrets sont configures ?
+          # Sans afficher leur valeur. Pour debug les "0 URLs retournees".
+          if [ -n "${{ secrets.GSC_CLIENT_ID }}" ]; then
+            echo "✓ GSC_CLIENT_ID present"
+          else
+            echo "✗ GSC_CLIENT_ID MANQUANT — la sync va echouer"
+          fi
+          if [ -n "${{ secrets.GSC_CLIENT_SECRET }}" ]; then
+            echo "✓ GSC_CLIENT_SECRET present"
+          else
+            echo "✗ GSC_CLIENT_SECRET MANQUANT"
+          fi
+          if [ -n "${{ secrets.GSC_REFRESH_TOKEN_PARISMATCH }}" ]; then
+            echo "✓ GSC_REFRESH_TOKEN_PARISMATCH present"
+          else
+            echo "✗ GSC_REFRESH_TOKEN_PARISMATCH MANQUANT"
+          fi
+          if [ -n "${{ secrets.GSC_REFRESH_TOKEN_FUTURA_SCIENCES }}" ]; then
+            echo "✓ GSC_REFRESH_TOKEN_FUTURA_SCIENCES present"
+          else
+            echo "✗ GSC_REFRESH_TOKEN_FUTURA_SCIENCES MANQUANT"
+          fi
 
       - name: Sync GSC projects (fetch + scrape)
         if: steps.mode.outputs.skip_scrape != 'true'
