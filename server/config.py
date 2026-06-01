@@ -85,6 +85,11 @@ class Settings:
         "EditorialSignal/1.0 by /u/editorial_signal_bot",
     )
 
+    # TikTok via RapidAPI (tiktok-api23.p.rapidapi.com) — proxy a l'app
+    # publique TikTok. Necessaire car le Research API officiel est
+    # academique-only (UE+Bresil, not-for-profit).
+    rapidapi_tiktok_key: str = _get("RAPIDAPI_TIKTOK_KEY")
+
     # PostgreSQL time-series storage (DigitalOcean Managed Postgres)
     # Vide = storage désactivé (le pipeline continue sans logger en DB)
     database_url: str = _get("DATABASE_URL")

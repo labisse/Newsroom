@@ -52,6 +52,7 @@ from server.sources import (
     google_trends,
     msn,
     reddit,
+    tiktok,
     wikimedia,
     x_trends,
     youtube_trending,
@@ -73,6 +74,7 @@ SOURCES: dict[str, Callable[[], dict[str, Any]]] = {
     "discoversnoop": discoversnoop.run,
     "google_news": google_news.run,
     "youtube_trending": youtube_trending.run,
+    "tiktok": tiktok.run,
 }
 
 # Sources dispo a la demande uniquement (non incluses dans fetch-all).

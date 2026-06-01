@@ -112,6 +112,13 @@ def _collect_source_items(payloads: dict[str, dict]) -> list[dict[str, Any]]:
             weight = 1.5 if v.get("is_editorial") else 0.9
             items.append({"title": title, "source": "youtube", "weight": weight})
 
+    # TikTok : items[].title (description) — signal "viralite jeune"
+    # 12-24h en amont de Discover.
+    for v in (payloads.get("tiktok") or {}).get("items", [])[:MAX_ITEMS_PER_SOURCE]:
+        title = (v.get("title") or "").strip()
+        if title:
+            items.append({"title": title, "source": "tiktok", "weight": 1.0})
+
     return items
 
 

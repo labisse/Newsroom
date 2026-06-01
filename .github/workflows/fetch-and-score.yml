@@ -71,6 +71,10 @@ jobs:
           DISCOVERSNOOP_HOURS: 12
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YOUTUBE_REGION: FR
+          # TikTok via RapidAPI (tiktok-api23). Si absent, fetch tiktok
+          # retourne 0 items + 1 failure missing_api_key, le pipeline
+          # continue avec 7/8 sources.
+          RAPIDAPI_TIKTOK_KEY: ${{ secrets.RAPIDAPI_TIKTOK_KEY }}
           # Reddit retire de fetch-all : reCAPTCHA bloque la creation
           # d'une script app OAuth, et le RSS public est blackliste sur
           # les IPs GitHub Actions. Code conserve dans server/sources/reddit.py

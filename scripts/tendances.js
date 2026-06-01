@@ -72,6 +72,11 @@ const SRC_GLYPH = {
     18,
     18,
   ),
+  tiktok: () => svgEl(
+    '<path d="M14 4v9.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 4c.5 2.5 2 4 4.5 4.5"/>',
+    18,
+    18,
+  ),
 };
 
 const HUE = {
@@ -92,6 +97,7 @@ const PLATFORMS = [
   { key: "discover", file: "discoversnoop", label: "Discover", glyph: "discover", hue: "indigo" },
   { key: "gnews", file: "google_news", label: "Google News", glyph: "gnews", hue: "blue" },
   { key: "youtube", file: "youtube_trending", label: "YouTube", glyph: "youtube", hue: "red" },
+  { key: "tiktok", file: "tiktok", label: "TikTok", glyph: "tiktok", hue: "pink" },
   { key: "trends", file: "google_trends", label: "Google Trends", glyph: "trends", hue: "emerald" },
   { key: "wiki", file: "wikimedia", label: "Wikipédia", glyph: "wiki", hue: "purple" },
   { key: "x", file: "x_trends", label: "X (Twitter)", glyph: "x", hue: "blue" },
@@ -202,6 +208,24 @@ const adaptYoutube = (data) => {
   }));
 };
 
+const adaptTiktok = (data) => {
+  const vids = [...(data.items || [])].sort(
+    (a, b) => (b.velocity_views_per_hour || 0) - (a.velocity_views_per_hour || 0),
+  );
+  return vids.map((v, i) => ({
+    score: normalizeScore(null, i, vids.length),
+    title: v.title || v.description || "(sans description)",
+    pub: v.author ? `@${v.author}` : "TikTok",
+    tags: v.matched_keywords ? v.matched_keywords.slice(0, 2) : [],
+    metric: v.velocity_views_per_hour
+      ? `${fmtVol(v.velocity_views_per_hour)} vues/h`
+      : v.views
+        ? `${fmtVol(v.views)} vues`
+        : null,
+    url: v.url,
+  }));
+};
+
 const adaptTrends = (data) => {
   const trends = ((data.windows && data.windows.current) || {}).trends || [];
   return trends.map((t, i) => ({
@@ -274,6 +298,7 @@ const ADAPTERS = {
   gnews: adaptGnews,
   reddit: adaptReddit,
   youtube: adaptYoutube,
+  tiktok: adaptTiktok,
   trends: adaptTrends,
   wiki: adaptWiki,
   x: adaptX,

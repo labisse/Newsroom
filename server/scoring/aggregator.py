@@ -739,6 +739,7 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
     # ces fetchers ne doit pas casser le pipeline)
     reddit = _load_optional("reddit")
     youtube = _load_optional("youtube_trending")
+    tiktok = _load_optional("tiktok")
 
     gt_candidates, x_candidates = _prepare_trends(gt, x)
     wiki_candidates = _prepare_wiki(wikimedia)
@@ -825,6 +826,10 @@ def aggregate(top_n: int = TOP_N) -> dict[str, Any]:
                 "fetched_at": youtube.get("fetched_at") if youtube else None,
                 "count": youtube.get("count") if youtube else 0,
             },
+            "tiktok": {
+                "fetched_at": tiktok.get("fetched_at") if tiktok else None,
+                "count": tiktok.get("count") if tiktok else 0,
+            },
         },
         "weights": scoring.WEIGHTS,
         "totals": {
@@ -865,6 +870,7 @@ def _compute_and_write_weak_signals() -> None:
         "wiki": _load("wikimedia"),
         "x": _load("x_trends"),
         "youtube": _load_optional("youtube_trending"),
+        "tiktok": _load_optional("tiktok"),
         "discover": _load("discoversnoop"),
     }
 

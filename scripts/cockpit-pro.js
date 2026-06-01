@@ -481,8 +481,8 @@ const renderKpiRow = () => {
     },
     {
       label: "Sources actives",
-      val: `${nActive}/${nSources || 7}`,
-      sub: `sur ${nSources || 7} surveillées`,
+      val: `${nActive}/${nSources || 8}`,
+      sub: `sur ${nSources || 8} surveillées`,
       accent: "var(--brand)",
       right: Spark(sourcesSpark, "var(--brand)"),
     },
