@@ -1,11 +1,11 @@
 {
   "project": "futura-sciences",
-  "generated_at": "2026-05-31T23:50:35Z",
+  "generated_at": "2026-06-01T04:14:31Z",
   "stats": {
-    "total_urls": 11102,
+    "total_urls": 11380,
     "with_title": 1961,
-    "without_title": 9141,
-    "total_clicks": 114892720,
+    "without_title": 9419,
+    "total_clicks": 116931861,
     "top_urls": [
       {
         "url": "https://www.futura-sciences.com/en/american-high-school-student-stuns-scientists-by-mapping-1-5-million-previously-unknown-space-objects_23177/",
@@ -98,6 +98,12 @@
         "impressions": 8117856
       },
       {
+        "url": "https://www.futura-sciences.com/en/say-goodbye-to-spiders-the-plant-scent-that-keeps-them-out-for-good_31996/",
+        "title": null,
+        "clicks": 627208,
+        "impressions": 7824907
+      },
+      {
         "url": "https://www.futura-sciences.com/planete/actualites/terre-3-770-morts-plus-5-000-blesses-birmanie-frappee-rupture-sismique-rare-dangereuse-123493/",
         "title": "Un séisme « boomerang » : une rupture rare observée en Birmanie",
         "clicks": 576919,
@@ -120,18 +126,12 @@
         "title": "37 Million Tons: This Brown Tide Invading the Atlantic Is Raising Alarm",
         "clicks": 520086,
         "impressions": 3828342
-      },
-      {
-        "url": "https://www.futura-sciences.com/planete/actualites/requin-premiere-fois-histoire-requin-ete-filme-eaux-antarctique-131504/",
-        "title": "Pour la première fois dans l’histoire, un requin a été filmé dans les eaux de l’Antarctique",
-        "clicks": 501902,
-        "impressions": 6467439
       }
     ]
   },
   "sujets_source": {
     "available": true,
-    "generated_at": "2026-05-31T21:33:13Z",
+    "generated_at": "2026-06-01T00:17:14Z",
     "sujets_count": 30,
     "categories_count": 8,
     "entity_clusters_count": 8,
@@ -139,7 +139,7 @@
   },
   "scored_sujets": [
     {
-      "id": "d_55993764",
+      "id": "d_22670846",
       "title": "Tiques en Occitanie : une nouvelle étude précise le taux d'infection à la maladie de Lyme",
       "theme": "Health",
       "global_score": 32,
@@ -162,7 +162,7 @@
         "score": 70,
         "match_count": 10,
         "max_similarity": 0.727,
-        "avg_similarity": 0.706,
+        "avg_similarity": 0.705,
         "total_clicks": 491874,
         "top_matches": [
           {
@@ -186,7 +186,7 @@
         ]
       },
       "project_score": 57,
-      "proposed_title": "Maladie de Lyme en Occitanie : une étude révèle le vrai taux d'infection des tiques",
+      "proposed_title": "Maladie de Lyme en Occitanie : une étude révèle le vrai taux d'infection aux tiques",
       "external_sources": [
         {
           "source": "discover",
@@ -203,7 +203,7 @@
           "url": "https://www.sudouest.fr/vienne/moustique-tigre-la-nouvelle-aquitaine-sous-surveillance-renforcee-29183270.php",
           "publisher": "Sud Ouest",
           "published_at": "Sun, 31 May 2026 04:00:00 GMT",
-          "similarity": 0.763
+          "similarity": 0.764
         },
         {
           "source": "gnews",
@@ -211,7 +211,7 @@
           "url": "https://www.sudouest.fr/environnement/moustiques/amateurs-de-bieres-femmes-enceintes-pourquoi-certaines-personnes-attirent-immanquablement-les-moustiques-29259352.php",
           "publisher": "Sud Ouest",
           "published_at": "Sun, 31 May 2026 04:45:00 GMT",
-          "similarity": 0.736
+          "similarity": 0.737
         }
       ],
       "topical_match": true,
@@ -220,7 +220,7 @@
       "project_rank": 1
     },
     {
-      "id": "d_31305846",
+      "id": "d_79461879",
       "title": "\"On touche du doigt quelque chose qui a un vrai potentiel\" : l’espoir de ces chercheurs de Tours contre la grippe",
       "theme": "Health",
       "global_score": 31,
@@ -243,7 +243,7 @@
       "affinity": {
         "score": 70,
         "match_count": 10,
-        "max_similarity": 0.755,
+        "max_similarity": 0.754,
         "avg_similarity": 0.726,
         "total_clicks": 432579,
         "top_matches": [
@@ -251,7 +251,7 @@
             "url": "https://www.futura-sciences.com/sante/actualites/medecine-virus-singe-pourrait-faire-ce-medecine-na-pas-encore-reussi-cancer-122944/",
             "title": "Un virus de singe pourrait faire ce que la médecine n’a pas encore réussi contre le cancer",
             "clicks": 9624,
-            "similarity": 0.755
+            "similarity": 0.754
           },
           {
             "url": "https://www.futura-sciences.com/sante/actualites/cancer-chercheurs-revelent-puissants-effets-anticancer-bacterie-intestinale-grenouille-129357/",
@@ -268,7 +268,7 @@
         ]
       },
       "project_score": 57,
-      "proposed_title": "« On touche du doigt quelque chose de prometteur » : des chercheurs de Tours progressent contre la grippe !",
+      "proposed_title": "« On touche du doigt quelque chose qui a un vrai potentiel » : des chercheurs de Tours trouvent une arme contre la grippe !",
       "external_sources": [
         {
           "source": "discover",
@@ -286,7 +286,179 @@
       "project_rank": 2
     },
     {
-      "id": "g_9443168",
+      "id": "g_82915027",
+      "title": "Autisme : une stimulation magnétique du cerveau sur cinq jours pourrait améliorer la communication des enfants, selon une étude",
+      "theme": "actualité",
+      "global_score": 25,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "Futura, le média qui explore le monde"
+        }
+      ],
+      "rationale": "Repéré dans Google Actualités (Futura, le média qui explore le monde) sur un mot-clé du territoire éditorial (étude).",
+      "msn_url": "https://www.futura-sciences.com/sante/actualites/autisme-autisme-stimulation-magnetique-cerveau-cinq-jours-pourrait-ameliorer-communication-enfants-selon-etude-134868/",
+      "msn_source_name": "Futura, le média qui explore le monde",
+      "discover_category": null,
+      "discover_entities": [],
+      "affinity": {
+        "score": 75,
+        "match_count": 10,
+        "max_similarity": 0.902,
+        "avg_similarity": 0.778,
+        "total_clicks": 253611,
+        "top_matches": [
+          {
+            "url": "https://www.futura-sciences.com/sante/actualites/autisme-autisme-stimulation-magnetique-cerveau-cinq-jours-pourrait-ameliorer-communication-enfants-selon-etude-134868/",
+            "title": null,
+            "clicks": 5207,
+            "similarity": 0.902
+          },
+          {
+            "url": "https://www.futura-sciences.com/sante/actualites/autisme-autisme-si-filles-etaient-protegees-leur-chromosome-x-etude-relance-debat-133414/",
+            "title": "Autisme : et si les filles étaient « protégées » par leur chromosome X ? Une étude relance le débat",
+            "clicks": 10368,
+            "similarity": 0.809
+          },
+          {
+            "url": "https://www.futura-sciences.com/sante/actualites/autisme-autisme-cette-decouverte-genetique-pointe-directement-role-pere-w2t8-131221/",
+            "title": "Autisme : cette découverte génétique pointe directement le rôle du père",
+            "clicks": 8396,
+            "similarity": 0.803
+          }
+        ]
+      },
+      "project_score": 56,
+      "proposed_title": "Autisme : une stimulation magnétique du cerveau améliore la communication des enfants, selon une étude",
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "Autisme : une stimulation magnétique du cerveau sur cinq jours pourrait améliorer la communication des enfants, selon une étude",
+          "url": "https://www.futura-sciences.com/sante/actualites/autisme-autisme-stimulation-magnetique-cerveau-cinq-jours-pourrait-ameliorer-communication-enfants-selon-etude-134868/",
+          "publisher": "Futura, le média qui explore le monde",
+          "published_at": "",
+          "similarity": 1.0,
+          "is_source_origin": true
+        },
+        {
+          "source": "gnews",
+          "title": "Une étude révèle les bienfaits du café et du thé sur votre cerveau",
+          "url": "https://www.lalibre.be/planete/2026/05/31/une-etude-revele-les-bienfaits-du-cafe-et-du-the-sur-votre-cerveau-2RD4YLO7RFEYRP53LYXSUOG47U/",
+          "publisher": "La Libre.be",
+          "published_at": "Sun, 31 May 2026 13:59:00 GMT",
+          "similarity": 0.756
+        }
+      ],
+      "topical_match": true,
+      "topical_reason": "theme:sciences(étude)",
+      "source_origin": "gnews",
+      "project_rank": 3
+    },
+    {
+      "id": "s23",
+      "title": "« Ce n’est pas un luxe, c’est vital » : voici le budget que les retraités doivent toucher pour vivre dignement en France en mai 2026",
+      "theme": "lifestyle",
+      "global_score": 27,
+      "global_tier": "low",
+      "global_signals": [
+        {
+          "source": "discover",
+          "label": "discover",
+          "value": "1.1/65"
+        },
+        {
+          "source": "gnews",
+          "label": "gnews",
+          "value": "2 médias"
+        },
+        {
+          "source": "msn",
+          "label": "msn",
+          "value": "1742+ react."
+        }
+      ],
+      "rationale": "Couvert par 2 médias · engagement MSN élevé.",
+      "msn_url": "https://www.msn.com/fr-fr/lifestyle/shopping/ce-n-est-pas-un-luxe-c-est-vital-voici-le-budget-que-les-retraités-doivent-toucher-pour-vivre-dignement-en-france-en-mai-2026/ar-AA1S4370?ocid=00000000",
+      "msn_source_name": "Marie France",
+      "discover_category": "/Sports/Individual Sports/Racquet Sports",
+      "discover_entities": [
+        "Diane Parry",
+        "Roland-Garros",
+        "Sport"
+      ],
+      "affinity": {
+        "score": 72,
+        "match_count": 10,
+        "max_similarity": 0.78,
+        "avg_similarity": 0.739,
+        "total_clicks": 529899,
+        "top_matches": [
+          {
+            "url": "https://www.futura-sciences.com/sciences/actualites/sciences-devenir-centenaire-va-rester-reve-inaccessible-ces-generations-voici-125163/",
+            "title": "Devenir centenaire va rester un rêve inaccessible pour ces générations : voici pourquoi",
+            "clicks": 48724,
+            "similarity": 0.78
+          },
+          {
+            "url": "https://www.futura-sciences.com/formation/questions-reponses/emploi-reforme-2026-quest-ce-va-vraiment-changer-infirmieres-24741/",
+            "title": "Réforme 2026 : qu’est-ce qui va vraiment changer pour les infirmières ?",
+            "clicks": 21994,
+            "similarity": 0.765
+          },
+          {
+            "url": "https://www.futura-sciences.com/planete/actualites/meteorologie-40-c-jeudi-voici-regions-vont-etre-plus-frappees-vague-chaleur-arrive-124364/",
+            "title": "40 °C dès jeudi : voici les régions qui vont être le plus frappées par la vague de chaleur qui arrive",
+            "clicks": 280298,
+            "similarity": 0.743
+          }
+        ]
+      },
+      "project_score": 55,
+      "proposed_title": "« C'est vital, pas un luxe » : voici le budget minimum que les retraités doivent toucher en 2026",
+      "external_sources": [
+        {
+          "source": "msn",
+          "title": "« Ce n’est pas un luxe, c’est vital » : voici le budget que les retraités doivent toucher pour vivre dignement en France en mai 2026",
+          "url": "https://www.msn.com/fr-fr/lifestyle/shopping/ce-n-est-pas-un-luxe-c-est-vital-voici-le-budget-que-les-retraités-doivent-toucher-pour-vivre-dignement-en-france-en-mai-2026/ar-AA1S4370?ocid=00000000",
+          "publisher": "Marie France",
+          "published_at": "",
+          "similarity": 1.0,
+          "is_source_origin": true
+        },
+        {
+          "source": "gnews",
+          "title": "Recherche, apprentissage, Plan France 2030... Quels sont les secteurs touchés par les prochaines coupes budgétaires ?",
+          "url": "https://www.sudouest.fr/sciences-et-technologie/recherche-apprentissage-plan-france-2030-quels-sont-les-secteurs-touches-par-les-prochaines-coupes-budgetaires-29299911.php",
+          "publisher": "Sud Ouest",
+          "published_at": "Sun, 31 May 2026 16:33:50 GMT",
+          "similarity": 0.787
+        },
+        {
+          "source": "gnews",
+          "title": "Propriétaire après la retraite: un facteur d’insécurité?",
+          "url": "https://www.letemps.ch/immobilier/proprietaire-apres-la-retraite-un-facteur-d-insecurite",
+          "publisher": "Le Temps",
+          "published_at": "Sun, 31 May 2026 09:46:03 GMT",
+          "similarity": 0.756
+        },
+        {
+          "source": "gnews",
+          "title": "Le prix de l'électricité va chuter à une heure précise ce 31 mai 2026",
+          "url": "https://selectra.info/energie/actualites/marche/prix-electricite/2026-05-31",
+          "publisher": "selectra.info",
+          "published_at": "Sun, 31 May 2026 14:22:51 GMT",
+          "similarity": 0.747
+        }
+      ],
+      "topical_match": false,
+      "topical_reason": "",
+      "source_origin": "msn",
+      "project_rank": 4
+    },
+    {
+      "id": "g_36536196",
       "title": "Des grêlons de 20 centimètres ? Les scientifiques alertent sur un basculement inquiétant",
       "theme": "actualité",
       "global_score": 25,
@@ -306,9 +478,9 @@
       "affinity": {
         "score": 74,
         "match_count": 10,
-        "max_similarity": 0.827,
-        "avg_similarity": 0.796,
-        "total_clicks": 474462,
+        "max_similarity": 0.843,
+        "avg_similarity": 0.803,
+        "total_clicks": 461284,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/planete/actualites/climatologie-jamais-vu-depuis-175-ans-climat-mondial-bascule-dangereusement-w2t8-130098/",
@@ -331,7 +503,7 @@
         ]
       },
       "project_score": 55,
-      "proposed_title": "Des grêlons géants de 20 centimètres : les climatologues alertent sur un dérèglement sans précédent",
+      "proposed_title": "Des grêlons de 20 centimètres : les scientifiques alertent sur un phénomène météorologique extrême",
       "external_sources": [
         {
           "source": "gnews",
@@ -348,7 +520,7 @@
           "url": "https://www.lesoir.be/749927/article/2026-05-31/intemperies-30-personnes-blessees-par-une-violente-averse-de-grele",
           "publisher": "Le Soir",
           "published_at": "Sun, 31 May 2026 08:17:05 GMT",
-          "similarity": 0.748
+          "similarity": 0.746
         },
         {
           "source": "gnews",
@@ -362,7 +534,7 @@
       "topical_match": true,
       "topical_reason": "theme:sciences(scientifiques)",
       "source_origin": "gnews",
-      "project_rank": 3
+      "project_rank": 5
     },
     {
       "id": "s27",
@@ -415,7 +587,7 @@
         ]
       },
       "project_score": 54,
-      "proposed_title": "« 100 km derrière les lignes ! » : ce drone FPV ukrainien pulvérise tous les records de portée en combat réel",
+      "proposed_title": "« Plus loin, plus profond ! » : ce drone FPV ukrainien pulvérise tous les records à 100 km derrière les lignes russes !",
       "external_sources": [
         {
           "source": "msn",
@@ -432,7 +604,7 @@
           "url": "https://www.lindependant.fr/2026/05/30/guerre-en-ukraine-pour-repondre-a-ses-besoins-operationnels-larmee-ukrainienne-teste-des-drones-a-pattes-capables-de-tendre-des-embuscades-13393817.php",
           "publisher": "L'Indépendant",
           "published_at": "Sat, 30 May 2026 04:02:00 GMT",
-          "similarity": 0.826
+          "similarity": 0.827
         },
         {
           "source": "gnews",
@@ -448,16 +620,16 @@
           "url": "https://www.lemonde.fr/international/live/2026/05/31/en-direct-guerre-en-ukraine-la-russie-a-attaque-l-ukraine-avec-229-drones-dans-la-nuit_6695365_3210.html",
           "publisher": "Le Monde.fr",
           "published_at": "Sun, 31 May 2026 11:15:55 GMT",
-          "similarity": 0.785
+          "similarity": 0.786
         }
       ],
       "topical_match": false,
       "topical_reason": "",
       "source_origin": "msn",
-      "project_rank": 4
+      "project_rank": 6
     },
     {
-      "id": "g_72870658",
+      "id": "g_58641970",
       "title": "Obésité : le remboursement sous condition des médicaments Wegovy et Mounjaro, dès la mi-juin, salué par patients et soignants",
       "theme": "actualité",
       "global_score": 25,
@@ -491,7 +663,7 @@
             "url": "https://www.futura-sciences.com/sante/actualites/cadmium-cadmium-depistage-va-etre-rembourse-mais-pas-tous-francais-exposes-medecins-sont-colere-134090/",
             "title": "Cadmium : le dépistage va être remboursé, mais pas pour tous les Français exposés. Les médecins sont en colère",
             "clicks": 10755,
-            "similarity": 0.732
+            "similarity": 0.733
           },
           {
             "url": "https://www.futura-sciences.com/sante/questions-reponses/nutrition-index-glycemique-il-plus-important-sante-perte-poids-simple-comptage-calories-24691/",
@@ -502,7 +674,7 @@
         ]
       },
       "project_score": 54,
-      "proposed_title": "Wegovy et Mounjaro : ces médicaments contre l'obésité enfin remboursés, une victoire pour les patients",
+      "proposed_title": "Obésité : Wegovy et Mounjaro enfin remboursés – ce que cela change vraiment pour les patients",
       "external_sources": [
         {
           "source": "gnews",
@@ -519,16 +691,16 @@
           "url": "https://www.franceinfo.fr/sante/cancer/les-medicaments-anti-obesite-ont-aussi-un-effet-contre-le-cancer-selon-des-chercheurs-americains_8038076.html",
           "publisher": "franceinfo",
           "published_at": "Sun, 31 May 2026 09:45:11 GMT",
-          "similarity": 0.745
+          "similarity": 0.747
         }
       ],
       "topical_match": true,
       "topical_reason": "theme:santé(obésité)",
       "source_origin": "gnews",
-      "project_rank": 5
+      "project_rank": 7
     },
     {
-      "id": "g_78521291",
+      "id": "g_36045851",
       "title": "En images | Les hippopotames de Pablo Escobar, une attraction touristique devenue une véritable menace pour les habitants et la biodiversité colombienne",
       "theme": "actualité",
       "global_score": 25,
@@ -548,32 +720,32 @@
       "affinity": {
         "score": 71,
         "match_count": 10,
-        "max_similarity": 0.714,
-        "avg_similarity": 0.675,
-        "total_clicks": 901685,
+        "max_similarity": 0.713,
+        "avg_similarity": 0.674,
+        "total_clicks": 894810,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/planete/actualites/nature-photo-semaine-image-suffit-raconter-tout-drame-ecologique-130973/",
             "title": "Photo de la semaine : quand une image suffit à raconter tout un drame écologique",
             "clicks": 30068,
-            "similarity": 0.714
+            "similarity": 0.713
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/ocean-signal-alerte-mondial-ce-passe-large-panama-inquiete-toute-planete-c7g3-127203/",
             "title": "« Un signal d’alerte mondial » : ce qui se passe au large du Panama inquiète toute la Planète",
             "clicks": 650363,
-            "similarity": 0.699
+            "similarity": 0.7
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/fossile-crocodile-pas-comme-autres-decouvert-egypte-ce-quil-revele-trouble-paleontologues-126813/",
             "title": "Un crocodile pas comme les autres découvert en Égypte : ce qu’il révèle trouble les paléontologues",
             "clicks": 25178,
-            "similarity": 0.692
+            "similarity": 0.693
           }
         ]
       },
       "project_score": 54,
-      "proposed_title": "Les hippopotames d'Escobar deviennent incontrôlables : la Colombie face à une catastrophe écologique",
+      "proposed_title": "Les hippopotames d'Escobar deviennent incontrôlables : la Colombie face à une crise écologique",
       "external_sources": [
         {
           "source": "gnews",
@@ -588,81 +760,10 @@
       "topical_match": true,
       "topical_reason": "theme:environnement(biodiversité)",
       "source_origin": "gnews",
-      "project_rank": 6
+      "project_rank": 8
     },
     {
-      "id": "g_34167716",
-      "title": "Autisme : une stimulation magnétique du cerveau sur cinq jours pourrait améliorer la communication des enfants, selon une étude",
-      "theme": "actualité",
-      "global_score": 25,
-      "global_tier": "medium",
-      "global_signals": [
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "Futura, le média qui explore le monde"
-        }
-      ],
-      "rationale": "Repéré dans Google Actualités (Futura, le média qui explore le monde) sur un mot-clé du territoire éditorial (étude).",
-      "msn_url": "https://www.futura-sciences.com/sante/actualites/autisme-autisme-stimulation-magnetique-cerveau-cinq-jours-pourrait-ameliorer-communication-enfants-selon-etude-134868/",
-      "msn_source_name": "Futura, le média qui explore le monde",
-      "discover_category": null,
-      "discover_entities": [],
-      "affinity": {
-        "score": 71,
-        "match_count": 10,
-        "max_similarity": 0.808,
-        "avg_similarity": 0.762,
-        "total_clicks": 248406,
-        "top_matches": [
-          {
-            "url": "https://www.futura-sciences.com/sante/actualites/autisme-autisme-si-filles-etaient-protegees-leur-chromosome-x-etude-relance-debat-133414/",
-            "title": "Autisme : et si les filles étaient « protégées » par leur chromosome X ? Une étude relance le débat",
-            "clicks": 10368,
-            "similarity": 0.808
-          },
-          {
-            "url": "https://www.futura-sciences.com/sante/actualites/autisme-autisme-cette-decouverte-genetique-pointe-directement-role-pere-w2t8-131221/",
-            "title": "Autisme : cette découverte génétique pointe directement le rôle du père",
-            "clicks": 8396,
-            "similarity": 0.803
-          },
-          {
-            "url": "https://www.futura-sciences.com/sante/actualites/autisme-chercheurs-scrutent-echanges-personnes-autistes-forums-appellent-changer-notre-regard-ce-trouble-122839/",
-            "title": "Des chercheurs scrutent les échanges entre personnes autistes sur les forums et appellent à changer notre regard sur ce trouble",
-            "clicks": 27283,
-            "similarity": 0.771
-          }
-        ]
-      },
-      "project_score": 54,
-      "proposed_title": "Autisme : une stimulation magnétique du cerveau améliore la communication des enfants en seulement cinq jours !",
-      "external_sources": [
-        {
-          "source": "gnews",
-          "title": "Autisme : une stimulation magnétique du cerveau sur cinq jours pourrait améliorer la communication des enfants, selon une étude",
-          "url": "https://www.futura-sciences.com/sante/actualites/autisme-autisme-stimulation-magnetique-cerveau-cinq-jours-pourrait-ameliorer-communication-enfants-selon-etude-134868/",
-          "publisher": "Futura, le média qui explore le monde",
-          "published_at": "",
-          "similarity": 1.0,
-          "is_source_origin": true
-        },
-        {
-          "source": "gnews",
-          "title": "Une étude révèle les bienfaits du café et du thé sur votre cerveau",
-          "url": "https://www.lalibre.be/planete/2026/05/31/une-etude-revele-les-bienfaits-du-cafe-et-du-the-sur-votre-cerveau-2RD4YLO7RFEYRP53LYXSUOG47U/",
-          "publisher": "La Libre.be",
-          "published_at": "Sun, 31 May 2026 13:59:00 GMT",
-          "similarity": 0.757
-        }
-      ],
-      "topical_match": true,
-      "topical_reason": "theme:sciences(étude)",
-      "source_origin": "gnews",
-      "project_rank": 7
-    },
-    {
-      "id": "g_99457903",
+      "id": "g_51233058",
       "title": "Diesel : cette découverte incroyable va sauver des millions de voitures thermiques - Presse-citron",
       "theme": "actualité",
       "global_score": 25,
@@ -707,7 +808,7 @@
         ]
       },
       "project_score": 54,
-      "proposed_title": "« Les diesels vont survivre » : cette découverte scientifique pourrait tout changer pour l'automobile",
+      "proposed_title": "« Les moteurs diesel sauvés ? » Cette découverte pourrait changer la donne pour des millions de voitures",
       "external_sources": [
         {
           "source": "gnews",
@@ -738,10 +839,10 @@
       "topical_match": true,
       "topical_reason": "theme:sciences(découverte)",
       "source_origin": "gnews",
-      "project_rank": 8
+      "project_rank": 9
     },
     {
-      "id": "g_23983168",
+      "id": "g_91801126",
       "title": "Vous ne réalisez pas à quel point la fusée Starship de SpaceX est une catastrophe pour l’environnement - Presse-citron",
       "theme": "actualité",
       "global_score": 25,
@@ -761,15 +862,15 @@
       "affinity": {
         "score": 70,
         "match_count": 10,
-        "max_similarity": 0.834,
+        "max_similarity": 0.832,
         "avg_similarity": 0.774,
-        "total_clicks": 149570,
+        "total_clicks": 141963,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/starship-video-tout-monde-attendait-spacex-devoile-images-spectaculaires-vol-reussi-starship-126076/",
             "title": "La vidéo que tout le monde attendait : SpaceX dévoile des images spectaculaires du vol réussi de Starship",
             "clicks": 26177,
-            "similarity": 0.834
+            "similarity": 0.832
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/vols-habites-spacex-prochain-vol-essai-starship-pourrait-tout-changer-plus-puissante-fusee-monde-124348/",
@@ -781,7 +882,7 @@
             "url": "https://www.futura-sciences.com/sciences/actualites/astronautique-elon-musk-promet-voyage-vers-mars-2026-mais-son-starship-il-vraiment-pret-129787/",
             "title": "Elon Musk promet un voyage vers Mars en 2026… mais son Starship est-il vraiment prêt ?",
             "clicks": 17382,
-            "similarity": 0.811
+            "similarity": 0.809
           }
         ]
       },
@@ -809,10 +910,10 @@
       "topical_match": true,
       "topical_reason": "theme:espace(spacex)",
       "source_origin": "gnews",
-      "project_rank": 9
+      "project_rank": 10
     },
     {
-      "id": "g_41743933",
+      "id": "g_76717242",
       "title": "Vague de chaleur : les mini ventilateurs reviennent à la mode, au grand dam de la planète",
       "theme": "actualité",
       "global_score": 25,
@@ -834,7 +935,7 @@
         "match_count": 10,
         "max_similarity": 0.833,
         "avg_similarity": 0.771,
-        "total_clicks": 154692,
+        "total_clicks": 163989,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/conso/bons-plans/guides-chauffage-ventilation-canicule-ce-ventilateur-colonne-connecte-promo-rafraichit-mieux-quun-climatiseur-7433/",
@@ -857,7 +958,7 @@
         ]
       },
       "project_score": 53,
-      "proposed_title": "Vague de chaleur : ces mini ventilateurs reviennent à la mode mais coûtent cher à la planète !",
+      "proposed_title": "Vague de chaleur : pourquoi les mini ventilateurs font du mal à la planète !",
       "external_sources": [
         {
           "source": "gnews",
@@ -888,10 +989,10 @@
       "topical_match": true,
       "topical_reason": "theme:espace(planète)",
       "source_origin": "gnews",
-      "project_rank": 10
+      "project_rank": 11
     },
     {
-      "id": "g_38643730",
+      "id": "g_40857332",
       "title": "La Chine signe une prouesse technologie et un record personnel avec cette nouvelle plateforme pétrolière qui sera capable d'extraire 20 500 barils par jour",
       "theme": "actualité",
       "global_score": 25,
@@ -912,7 +1013,7 @@
         "score": 70,
         "match_count": 10,
         "max_similarity": 0.75,
-        "avg_similarity": 0.712,
+        "avg_similarity": 0.711,
         "total_clicks": 440391,
         "top_matches": [
           {
@@ -931,12 +1032,12 @@
             "url": "https://www.futura-sciences.com/tech/actualites/technologie-co2-peut-produire-energie-chine-vient-prouver-suite-pourrait-tout-changer-127974/",
             "title": "Le CO2 peut produire de l’énergie ? La Chine vient de le prouver, et la suite pourrait tout changer",
             "clicks": 18813,
-            "similarity": 0.71
+            "similarity": 0.709
           }
         ]
       },
       "project_score": 53,
-      "proposed_title": "La Chine établit un record avec cette plateforme pétrolière capable d'extraire 20 500 barils par jour !",
+      "proposed_title": "La Chine établit un record avec sa nouvelle plateforme pétrolière : 20 500 barils par jour, du jamais-vu !",
       "external_sources": [
         {
           "source": "gnews",
@@ -951,10 +1052,10 @@
       "topical_match": true,
       "topical_reason": "theme:tech(technologie)",
       "source_origin": "gnews",
-      "project_rank": 11
+      "project_rank": 12
     },
     {
-      "id": "d_45333049",
+      "id": "d_53098439",
       "title": "\"300 tonnes de TNT\": un météore explose au-dessus du nord-est des États-Unis et se fait entendre dans toute la région",
       "theme": "Science",
       "global_score": 39,
@@ -992,7 +1093,7 @@
             "url": "https://www.futura-sciences.com/en/the-most-anticipated-meteor-shower-has-begun-the-best-time-to-see-100-shooting-stars-per-hour_19048/",
             "title": "The most anticipated meteor shower has begun: the best time to see 100 shooting stars per hour!",
             "clicks": 57362,
-            "similarity": 0.705
+            "similarity": 0.704
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/systeme-solaire-astronomes-stupefaits-tempete-geante-jupiter-oscille-comme-bol-gelatine-c7g3-128692/",
@@ -1034,10 +1135,10 @@
       "topical_match": true,
       "topical_reason": "category:/Science",
       "source_origin": "discover",
-      "project_rank": 12
+      "project_rank": 13
     },
     {
-      "id": "d_42566343",
+      "id": "d_27428762",
       "title": "Quels sont les effets de la canicule sur notre santé ?",
       "theme": "Health",
       "global_score": 15,
@@ -1060,7 +1161,7 @@
         "score": 74,
         "match_count": 10,
         "max_similarity": 0.85,
-        "avg_similarity": 0.804,
+        "avg_similarity": 0.803,
         "total_clicks": 380773,
         "top_matches": [
           {
@@ -1101,7 +1202,7 @@
           "url": "https://www.20minutes.fr/sante/4225912-20260530-canicule-antidepresseurs-anxiolytiques-psychotropes-moins-efficaces-cause-chaleur",
           "publisher": "20 Minutes",
           "published_at": "Sat, 30 May 2026 05:32:00 GMT",
-          "similarity": 0.793
+          "similarity": 0.792
         },
         {
           "source": "gnews",
@@ -1109,7 +1210,7 @@
           "url": "https://www.leprogres.fr/magazine-sante/2026/05/30/vitamine-d-quelle-est-la-dose-de-soleil-necessaire-a-notre-corps",
           "publisher": "Le Progrès",
           "published_at": "Sat, 30 May 2026 15:01:36 GMT",
-          "similarity": 0.784
+          "similarity": 0.783
         },
         {
           "source": "gnews",
@@ -1117,16 +1218,16 @@
           "url": "https://www.huffingtonpost.fr/environnement/article/plus-de-vigilance-orange-canicule-en-france-mais-d-autres-menaces-meteo-planent_264261.html",
           "publisher": "Le HuffPost",
           "published_at": "Sat, 30 May 2026 20:02:53 GMT",
-          "similarity": 0.732
+          "similarity": 0.733
         }
       ],
       "topical_match": true,
       "topical_reason": "category:/Health",
       "source_origin": "discover",
-      "project_rank": 13
+      "project_rank": 14
     },
     {
-      "id": "d_14495817",
+      "id": "d_53731844",
       "title": "Cyberguerre: dans l'ombre du cyberespace, comment les \"groupes APT\" sont devenus les soldats invisibles des affrontements géopolitiques contemporains",
       "theme": "Computers & Electronics",
       "global_score": 15,
@@ -1148,7 +1249,7 @@
       "affinity": {
         "score": 70,
         "match_count": 10,
-        "max_similarity": 0.796,
+        "max_similarity": 0.794,
         "avg_similarity": 0.751,
         "total_clicks": 264699,
         "top_matches": [
@@ -1156,7 +1257,7 @@
             "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-cest-inedit-ia-planifie-execute-documente-cyberattaque-experts-parlent-tournant-127595/",
             "title": "C’est inédit : une IA a planifié, exécuté et documenté une cyberattaque, les experts parlent d’un tournant",
             "clicks": 34720,
-            "similarity": 0.769
+            "similarity": 0.77
           },
           {
             "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-guerre-demain-deja-commence-france-prepare-conflit-beaucoup-plus-invisible-133755/",
@@ -1173,7 +1274,7 @@
         ]
       },
       "project_score": 48,
-      "proposed_title": "Les groupes APT : comment les hackers d'État sont devenus les armes secrètes de la cyberguerre",
+      "proposed_title": "Les groupes APT, ces armées numériques invisibles qui redessinent les guerres géopolitiques",
       "external_sources": [
         {
           "source": "discover",
@@ -1196,10 +1297,10 @@
       "topical_match": true,
       "topical_reason": "category:/Computers & Electronics",
       "source_origin": "discover",
-      "project_rank": 14
+      "project_rank": 15
     },
     {
-      "id": "d_29274529",
+      "id": "d_20214666",
       "title": "L'Agora de Vernouillet va passer un week-end au cœur des minerais",
       "theme": "Science",
       "global_score": 31,
@@ -1235,7 +1336,7 @@
             "url": "https://www.futura-sciences.com/planete/actualites/geologie-eboulement-cirque-fer-cheval-evenement-rare-dit-long-etat-montagne-125342/",
             "title": "Éboulement au cirque du Fer-à-Cheval : un événement rare qui en dit long sur l’état de la montagne",
             "clicks": 18275,
-            "similarity": 0.671
+            "similarity": 0.673
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/escales-plus-1-million-visiteurs-an-ce-village-accroche-falaise-fascine-dordogne-124003/",
@@ -1246,7 +1347,7 @@
         ]
       },
       "project_score": 47,
-      "proposed_title": "Les minerais à l'honneur : l'Agora de Vernouillet se transforme en musée géologique !",
+      "proposed_title": "Des minerais à ciel ouvert : l'Agora de Vernouillet se transforme en musée géologique !",
       "external_sources": [
         {
           "source": "discover",
@@ -1261,10 +1362,10 @@
       "topical_match": true,
       "topical_reason": "category:/Science",
       "source_origin": "discover",
-      "project_rank": 15
+      "project_rank": 16
     },
     {
-      "id": "d_46705483",
+      "id": "d_460711",
       "title": "Hackathon ONEA 2026 : Yamkom IA s’impose avec son projet d’optimisation des charges et de l’énergie",
       "theme": "Science",
       "global_score": 31,
@@ -1289,16 +1390,16 @@
         "total_clicks": 250261,
         "top_matches": [
           {
+            "url": "https://www.futura-sciences.com/tech/actualites/technologie-entreprise-dirigee-ia-conclusions-disent-tres-long-notre-avenir-travail-c7g3-129495/",
+            "title": "Une entreprise dirigée par IA : les conclusions en disent très long sur notre avenir au travail",
+            "clicks": 36564,
+            "similarity": 0.68
+          },
+          {
             "url": "https://www.futura-sciences.com/tech/actualites/technologie-percee-energetique-francaise-pourrait-rebattre-toutes-cartes-mondiales-c7g3-128582/",
             "title": "La percée énergétique française qui pourrait rebattre toutes les cartes mondiales",
             "clicks": 69937,
             "similarity": 0.68
-          },
-          {
-            "url": "https://www.futura-sciences.com/tech/actualites/technologie-entreprise-dirigee-ia-conclusions-disent-tres-long-notre-avenir-travail-c7g3-129495/",
-            "title": "Une entreprise dirigée par IA : les conclusions en disent très long sur notre avenir au travail",
-            "clicks": 36564,
-            "similarity": 0.679
           },
           {
             "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-google-va-alimenter-ia-avec-enorme-batterie-gonflee-co%E2%82%82-ce-nest-pas-paradoxe-129655/",
@@ -1309,7 +1410,7 @@
         ]
       },
       "project_score": 47,
-      "proposed_title": "L'IA qui économise l'eau et l'énergie : le coup de génie du hackathon ONEA 2026",
+      "proposed_title": "Yamkom IA remporte le hackathon ONEA 2026 : la révolution de l'optimisation énergétique commence ici",
       "external_sources": [
         {
           "source": "discover",
@@ -1324,10 +1425,76 @@
       "topical_match": true,
       "topical_reason": "category:/Science",
       "source_origin": "discover",
-      "project_rank": 16
+      "project_rank": 17
     },
     {
-      "id": "d_23581982",
+      "id": "d_26693374",
+      "title": "Mistral AI rebaptise « Le Chat » en « Vibe », transformant son chatbot grand public en un agent de travail IA capable de gérer les e-mails, les rapports, le codage et les tâches professionnelles récurrentes",
+      "theme": "Science",
+      "global_score": 30,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "gsc",
+          "label": "discover",
+          "value": "présent"
+        }
+      ],
+      "rationale": "Repéré dans Google Discover (Developpez.com) sur le territoire éditorial du projet (/Science).",
+      "msn_url": "https://intelligence-artificielle.developpez.com/actu/383675/Mistral-AI-rebaptise-Le-Chat-en-Vibe-transformant-son-chatbot-grand-public-en-un-agent-de-travail-IA-capable-de-gerer-les-e-mails-les-rapports-le-codage-et-les-taches-professionnelles-recurrentes/",
+      "msn_source_name": "Developpez.com",
+      "discover_category": "/Science/Computer Science",
+      "discover_entities": [
+        "Chatbot",
+        "Intelligence artificielle"
+      ],
+      "affinity": {
+        "score": 68,
+        "match_count": 10,
+        "max_similarity": 0.703,
+        "avg_similarity": 0.681,
+        "total_clicks": 419056,
+        "top_matches": [
+          {
+            "url": "https://www.futura-sciences.com/tech/actualites/chatgpt-chatgpt-lance-agent-outil-fait-travail-votre-place-vous-interveniez-123943/",
+            "title": null,
+            "clicks": 5204,
+            "similarity": 0.698
+          },
+          {
+            "url": "https://www.futura-sciences.com/tech/actualites/chatgpt-elle-confie-son-emploi-temps-chatgpt-pendant-semaine-constat-cest-cela-na-rien-voir-productivite-k2m6-134646/",
+            "title": null,
+            "clicks": 357756,
+            "similarity": 0.679
+          },
+          {
+            "url": "https://www.futura-sciences.com/tech/questions-reponses/intelligence-artificielle-decouvrez-chatgpt-5-requetes-incroyables-vous-pouvez-tester-immediatement-23006/",
+            "title": "Découvrez ChatGPT 5 : des requêtes incroyables que vous pouvez tester immédiatement",
+            "clicks": 10127,
+            "similarity": 0.678
+          }
+        ]
+      },
+      "project_score": 47,
+      "proposed_title": "Vibe : comment Mistral AI transforme son chatbot en véritable assistant de travail !",
+      "external_sources": [
+        {
+          "source": "discover",
+          "title": "Mistral AI rebaptise « Le Chat » en « Vibe », transformant son chatbot grand public en un agent de travail IA capable de gérer les e-mails, les rapports, le codage et les tâches professionnelles récurrentes",
+          "url": "https://intelligence-artificielle.developpez.com/actu/383675/Mistral-AI-rebaptise-Le-Chat-en-Vibe-transformant-son-chatbot-grand-public-en-un-agent-de-travail-IA-capable-de-gerer-les-e-mails-les-rapports-le-codage-et-les-taches-professionnelles-recurrentes/",
+          "publisher": "Developpez.com",
+          "published_at": "",
+          "similarity": 1.0,
+          "is_source_origin": true
+        }
+      ],
+      "topical_match": true,
+      "topical_reason": "category:/Science",
+      "source_origin": "discover",
+      "project_rank": 18
+    },
+    {
+      "id": "d_80843283",
       "title": "Depuis Rennes, père et fils créent le \"Waze\" pour les deux roues : un mois après sa sortie, l'appli cartonne",
       "theme": "Computers & Electronics",
       "global_score": 37,
@@ -1351,7 +1518,7 @@
       "affinity": {
         "score": 56,
         "match_count": 5,
-        "max_similarity": 0.741,
+        "max_similarity": 0.74,
         "avg_similarity": 0.689,
         "total_clicks": 32634,
         "top_matches": [
@@ -1359,13 +1526,13 @@
             "url": "https://www.futura-sciences.com/tech/actualites/realite-augmentee-casque-moto-realite-augmentee-grace-tech-francaise-motards-decouvrent-nouvelle-facon-voir-route-127870/",
             "title": "Un casque moto avec réalité augmentée grâce à une tech française : les motards découvrent une nouvelle façon de voir la route",
             "clicks": 14905,
-            "similarity": 0.741
+            "similarity": 0.74
           },
           {
             "url": "https://www.futura-sciences.com/automobile/actualites/automobile-cette-moto-electrique-bien-concue-performante-coute-moins-cher-quun-iphone-124056/",
             "title": "Cette moto électrique bien conçue et performante coûte moins cher qu'un iPhone !",
             "clicks": 9833,
-            "similarity": 0.69
+            "similarity": 0.689
           },
           {
             "url": "https://www.futura-sciences.com/tech/actualites/jeunes-pousses-ils-veulent-remettre-cyclistes-securite-leur-solution-ressemble-casque-science-fiction-124964/",
@@ -1376,7 +1543,7 @@
         ]
       },
       "project_score": 46,
-      "proposed_title": "Depuis Rennes, un père et son fils créent le Waze des deux roues : l'appli cartonne !",
+      "proposed_title": "Un père et son fils créent le Waze des deux roues : l'appli explose déjà un mois après son lancement !",
       "external_sources": [
         {
           "source": "discover",
@@ -1391,10 +1558,10 @@
       "topical_match": true,
       "topical_reason": "category:/Computers & Electronics",
       "source_origin": "discover",
-      "project_rank": 17
+      "project_rank": 19
     },
     {
-      "id": "d_94580372",
+      "id": "d_37917501",
       "title": "Les urgences en phase \"tension\" à l’hôpital de Châteauroux : de l’attente et des ouvertures de lits",
       "theme": "Health",
       "global_score": 30,
@@ -1417,7 +1584,7 @@
       "affinity": {
         "score": 65,
         "match_count": 5,
-        "max_similarity": 0.726,
+        "max_similarity": 0.727,
         "avg_similarity": 0.678,
         "total_clicks": 484565,
         "top_matches": [
@@ -1425,24 +1592,24 @@
             "url": "https://www.futura-sciences.com/sante/questions-reponses/maladies-cardiovasculaires-traitement-hypertension-matin-soir-meilleur-moment-selon-science-w2t8-25135/",
             "title": "Traitement de l’hypertension : matin ou soir, quel est le meilleur moment selon la science ?",
             "clicks": 119920,
-            "similarity": 0.726
+            "similarity": 0.727
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/meteorologie-alerte-rouge-alpes-pluies-exceptionnelles-font-craindre-pire-prochaines-heures-125040/",
             "title": "Alerte rouge dans les Alpes : des pluies exceptionnelles font craindre le pire dans les prochaines heures",
             "clicks": 35756,
-            "similarity": 0.68
+            "similarity": 0.681
           },
           {
             "url": "https://www.futura-sciences.com/formation/questions-reponses/emploi-reforme-2026-quest-ce-va-vraiment-changer-infirmieres-24741/",
             "title": "Réforme 2026 : qu’est-ce qui va vraiment changer pour les infirmières ?",
             "clicks": 21994,
-            "similarity": 0.669
+            "similarity": 0.667
           }
         ]
       },
       "project_score": 46,
-      "proposed_title": "Urgences saturées à Châteauroux : pourquoi les hôpitaux français crient au secours !",
+      "proposed_title": "Urgences saturées à Châteauroux : comment les hôpitaux gèrent la crise en ouverture de lits",
       "external_sources": [
         {
           "source": "discover",
@@ -1465,76 +1632,10 @@
       "topical_match": true,
       "topical_reason": "category:/Health",
       "source_origin": "discover",
-      "project_rank": 18
+      "project_rank": 20
     },
     {
-      "id": "d_17830671",
-      "title": "Mistral AI rebaptise « Le Chat » en « Vibe », transformant son chatbot grand public en un agent de travail IA capable de gérer les e-mails, les rapports, le codage et les tâches professionnelles récurrentes",
-      "theme": "Science",
-      "global_score": 30,
-      "global_tier": "medium",
-      "global_signals": [
-        {
-          "source": "gsc",
-          "label": "discover",
-          "value": "présent"
-        }
-      ],
-      "rationale": "Repéré dans Google Discover (Developpez.com) sur le territoire éditorial du projet (/Science).",
-      "msn_url": "https://intelligence-artificielle.developpez.com/actu/383675/Mistral-AI-rebaptise-Le-Chat-en-Vibe-transformant-son-chatbot-grand-public-en-un-agent-de-travail-IA-capable-de-gerer-les-e-mails-les-rapports-le-codage-et-les-taches-professionnelles-recurrentes/",
-      "msn_source_name": "Developpez.com",
-      "discover_category": "/Science/Computer Science",
-      "discover_entities": [
-        "Chatbot",
-        "Intelligence artificielle"
-      ],
-      "affinity": {
-        "score": 63,
-        "match_count": 10,
-        "max_similarity": 0.703,
-        "avg_similarity": 0.68,
-        "total_clicks": 81016,
-        "top_matches": [
-          {
-            "url": "https://www.futura-sciences.com/tech/actualites/chatgpt-chatgpt-lance-agent-outil-fait-travail-votre-place-vous-interveniez-123943/",
-            "title": null,
-            "clicks": 5204,
-            "similarity": 0.699
-          },
-          {
-            "url": "https://www.futura-sciences.com/tech/questions-reponses/intelligence-artificielle-decouvrez-chatgpt-5-requetes-incroyables-vous-pouvez-tester-immediatement-23006/",
-            "title": "Découvrez ChatGPT 5 : des requêtes incroyables que vous pouvez tester immédiatement",
-            "clicks": 10127,
-            "similarity": 0.677
-          },
-          {
-            "url": "https://www.futura-sciences.com/tech/actualites/technologie-entreprise-dirigee-ia-conclusions-disent-tres-long-notre-avenir-travail-c7g3-129495/",
-            "title": "Une entreprise dirigée par IA : les conclusions en disent très long sur notre avenir au travail",
-            "clicks": 36564,
-            "similarity": 0.672
-          }
-        ]
-      },
-      "project_score": 45,
-      "proposed_title": "Vibe, le nouvel agent IA de Mistral : le chatbot qui transforme votre travail !",
-      "external_sources": [
-        {
-          "source": "discover",
-          "title": "Mistral AI rebaptise « Le Chat » en « Vibe », transformant son chatbot grand public en un agent de travail IA capable de gérer les e-mails, les rapports, le codage et les tâches professionnelles récurrentes",
-          "url": "https://intelligence-artificielle.developpez.com/actu/383675/Mistral-AI-rebaptise-Le-Chat-en-Vibe-transformant-son-chatbot-grand-public-en-un-agent-de-travail-IA-capable-de-gerer-les-e-mails-les-rapports-le-codage-et-les-taches-professionnelles-recurrentes/",
-          "publisher": "Developpez.com",
-          "published_at": "",
-          "similarity": 1.0,
-          "is_source_origin": true
-        }
-      ],
-      "topical_match": true,
-      "topical_reason": "category:/Science",
-      "source_origin": "discover",
-      "project_rank": 19
-    },
-    {
-      "id": "g_23137955",
+      "id": "g_13864182",
       "title": "Ce petit oiseau possède un langage que les scientifiques croyaient réservé aux primates",
       "theme": "actualité",
       "global_score": 25,
@@ -1562,7 +1663,7 @@
             "url": "https://www.futura-sciences.com/planete/actualites/oiseaux-cet-oiseau-ne-devrait-pas-exister-chercheurs-nen-croyaient-pas-leurs-yeux-125823/",
             "title": "Cet oiseau ne devrait pas exister : les chercheurs n’en croyaient pas leurs yeux",
             "clicks": 46396,
-            "similarity": 0.824
+            "similarity": 0.825
           },
           {
             "url": "https://www.futura-sciences.com/nl/geelpoothoornaar-leert-verrassend-snel_17684/",
@@ -1579,7 +1680,7 @@
         ]
       },
       "project_score": 45,
-      "proposed_title": "Cet oiseau possède un langage que seuls les primates maîtrisaient : les chercheurs sont stupéfaits",
+      "proposed_title": "Cet oiseau possède un langage que seuls les primates maîtrisaient : les scientifiques sont stupéfaits",
       "external_sources": [
         {
           "source": "gnews",
@@ -1594,10 +1695,10 @@
       "topical_match": true,
       "topical_reason": "theme:sciences(scientifiques)",
       "source_origin": "gnews",
-      "project_rank": 20
+      "project_rank": 21
     },
     {
-      "id": "g_66890903",
+      "id": "g_19044993",
       "title": "« J’ai un bras droit en permanence dans ma vie » : quand les agents IA débarquent dans la vie quotidienne des Français",
       "theme": "actualité",
       "global_score": 25,
@@ -1618,8 +1719,8 @@
         "score": 69,
         "match_count": 10,
         "max_similarity": 0.828,
-        "avg_similarity": 0.781,
-        "total_clicks": 117958,
+        "avg_similarity": 0.782,
+        "total_clicks": 117554,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/tech/actualites/technologie-voici-ce-ia-font-reellement-lorsquon-leur-confie-entreprise-c7g3-127843/",
@@ -1631,7 +1732,7 @@
             "url": "https://www.futura-sciences.com/tech/actualites/technologie-entreprise-dirigee-ia-conclusions-disent-tres-long-notre-avenir-travail-c7g3-129495/",
             "title": "Une entreprise dirigée par IA : les conclusions en disent très long sur notre avenir au travail",
             "clicks": 36564,
-            "similarity": 0.812
+            "similarity": 0.813
           },
           {
             "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-risque-vertigineux-vos-conversations-ia-pourraient-devenir-outil-profilage-134320/",
@@ -1642,7 +1743,7 @@
         ]
       },
       "project_score": 45,
-      "proposed_title": "« J'ai un bras droit en permanence » : quand l'IA devient votre assistant personnel au quotidien",
+      "proposed_title": "« Mon assistant IA ne me quitte plus » : comment les agents intelligents envahissent le quotidien des Français",
       "external_sources": [
         {
           "source": "gnews",
@@ -1673,10 +1774,10 @@
       "topical_match": true,
       "topical_reason": "theme:tech(ia)",
       "source_origin": "gnews",
-      "project_rank": 21
+      "project_rank": 22
     },
     {
-      "id": "g_5171053",
+      "id": "g_91613743",
       "title": "\"Je n'abandonnerai jamais\" : Musk contraint de défendre son projet IA",
       "theme": "actualité",
       "global_score": 25,
@@ -1696,16 +1797,10 @@
       "affinity": {
         "score": 69,
         "match_count": 10,
-        "max_similarity": 0.77,
-        "avg_similarity": 0.758,
+        "max_similarity": 0.768,
+        "avg_similarity": 0.757,
         "total_clicks": 228369,
         "top_matches": [
-          {
-            "url": "https://www.futura-sciences.com/tech/actualites/technologie-technologies-actuelles-ne-sont-pas-fiables-specialiste-ia-modeles-langage-atteignent-leurs-limites-122845/",
-            "title": "« Les technologies actuelles ne sont pas fiables » : pour un spécialiste de l’IA, les modèles de langage atteignent leurs limites",
-            "clicks": 9100,
-            "similarity": 0.77
-          },
           {
             "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-plus-grands-patrons-tech-affirme-ia-ne-va-pas-reduire-travail-humains-mais-nous-surcharger-128121/",
             "title": "Un des plus grands patrons de la tech affirme que l’IA ne va pas réduire le travail pour les humains, mais nous surcharger !",
@@ -1713,15 +1808,21 @@
             "similarity": 0.768
           },
           {
-            "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-ecart-reduit-dangereusement-chine-silicon-valley-ia-panorama-dernieres-avancees-131544/",
-            "title": "L’écart se réduit dangereusement entre la Chine et la Silicon Valley sur l’IA : panorama des dernières avancées",
-            "clicks": 27614,
+            "url": "https://www.futura-sciences.com/tech/actualites/technologie-technologies-actuelles-ne-sont-pas-fiables-specialiste-ia-modeles-langage-atteignent-leurs-limites-122845/",
+            "title": "« Les technologies actuelles ne sont pas fiables » : pour un spécialiste de l’IA, les modèles de langage atteignent leurs limites",
+            "clicks": 9100,
+            "similarity": 0.768
+          },
+          {
+            "url": "https://www.futura-sciences.com/tech/actualites/technologie-elon-musk-veut-usine-lune-catapulte-electromagnetique-lancer-satellites-ia-131270/",
+            "title": "Elon Musk veut une usine sur la Lune… avec une catapulte électromagnétique pour lancer ses satellites IA !",
+            "clicks": 12336,
             "similarity": 0.76
           }
         ]
       },
       "project_score": 45,
-      "proposed_title": "« Je n'abandonnerai jamais » : Musk défend farouchement son ambitieux projet d'IA face aux critiques !",
+      "proposed_title": "« Je n'abandonnerai jamais » : Elon Musk campe sur ses positions pour défendre son projet IA !",
       "external_sources": [
         {
           "source": "gnews",
@@ -1746,16 +1847,16 @@
           "url": "https://www.lefigaro.fr/vox/societe/samuel-fitoussi-si-dieu-discutait-de-la-creation-de-l-homme-comme-on-debat-de-l-ia-20260531",
           "publisher": "Le Figaro",
           "published_at": "Sun, 31 May 2026 09:00:00 GMT",
-          "similarity": 0.748
+          "similarity": 0.746
         }
       ],
       "topical_match": true,
       "topical_reason": "theme:tech(ia)",
       "source_origin": "gnews",
-      "project_rank": 22
+      "project_rank": 23
     },
     {
-      "id": "g_80277326",
+      "id": "g_74291214",
       "title": "Cet iPhone Pro passe de 1159 à 369 €, et les stocks sont encore pleins ce dimanche - Ouest-France",
       "theme": "actualité",
       "global_score": 25,
@@ -1777,7 +1878,7 @@
         "match_count": 10,
         "max_similarity": 0.85,
         "avg_similarity": 0.752,
-        "total_clicks": 90834,
+        "total_clicks": 88866,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/conso/bons-plans/guides-smartphones-soldes-iphone-17-pro-max-voit-enfin-son-prix-chuter-9016/",
@@ -1789,18 +1890,18 @@
             "url": "https://www.futura-sciences.com/conso/bons-plans/guides-smartphones-samsung-galaxy-s25-ultra-970-ce-smartphone-dernier-cri-na-jamais-ete-aussi-accessible-7972/",
             "title": "Samsung Galaxy S25 Ultra : -970 € sur ce smartphone dernier cri qui n'a jamais été aussi accessible",
             "clicks": 10547,
-            "similarity": 0.753
+            "similarity": 0.754
           },
           {
             "url": "https://www.futura-sciences.com/conso/bons-plans/guides-gaming-offre-tout-gamer-attendait-ps5-pro-50-chez-ce-e-commercant-8087/",
             "title": "PlayStation 5 Pro : la console est officiellement disponible ! Prix, nouveautés et caractéristiques",
             "clicks": 48514,
-            "similarity": 0.752
+            "similarity": 0.753
           }
         ]
       },
       "project_score": 45,
-      "proposed_title": "iPhone Pro chute à 369 € : une réduction spectaculaire à ne pas manquer ce dimanche",
+      "proposed_title": "iPhone Pro : chute vertigineuse de 1159 à 369 € ce dimanche, les stocks s'écoulent !",
       "external_sources": [
         {
           "source": "gnews",
@@ -1831,10 +1932,10 @@
       "topical_match": true,
       "topical_reason": "theme:tech(iphone)",
       "source_origin": "gnews",
-      "project_rank": 23
+      "project_rank": 24
     },
     {
-      "id": "d_16369496",
+      "id": "d_18621630",
       "title": "Fin de stock Apple Watch : ce modèle à moins de 80 € fait un carton ce jeudi",
       "theme": "Computers & Electronics",
       "global_score": 30,
@@ -1857,14 +1958,14 @@
         "score": 61,
         "match_count": 10,
         "max_similarity": 0.761,
-        "avg_similarity": 0.736,
+        "avg_similarity": 0.735,
         "total_clicks": 27029,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/conso/bons-plans/guides-smartphones-soldes-iphone-17-pro-max-voit-enfin-son-prix-chuter-9016/",
             "title": "Soldes : l’iPhone 17 Pro Max voit enfin son prix chuter",
             "clicks": 16813,
-            "similarity": 0.748
+            "similarity": 0.747
           },
           {
             "url": "https://www.futura-sciences.com/conso/bons-plans/guides-objets-connectes-apple-watch-promo-durant-soldes-cette-montre-connectee-fait-craquer-internautes-7521/",
@@ -1873,15 +1974,15 @@
             "similarity": 0.761
           },
           {
-            "url": "https://www.futura-sciences.com/tech/actualites/montre-connectee-smartwatch-or-veritable-jusquou-huawei-pret-aller-luxe-130399/",
+            "url": "http://www.futura-sciences.com/tech/actualites/montre-connectee-smartwatch-or-veritable-jusquou-huawei-pret-aller-luxe-130399/",
             "title": null,
-            "clicks": 1363,
-            "similarity": 0.758
+            "clicks": 10,
+            "similarity": 0.757
           }
         ]
       },
       "project_score": 44,
-      "proposed_title": "Apple Watch à moins de 80 € : le modèle qui fait un carton ce jeudi !",
+      "proposed_title": "Apple Watch à moins de 80 € : le modèle qui fait le buzz ce jeudi",
       "external_sources": [
         {
           "source": "discover",
@@ -1912,10 +2013,10 @@
       "topical_match": true,
       "topical_reason": "category:/Computers & Electronics",
       "source_origin": "discover",
-      "project_rank": 24
+      "project_rank": 25
     },
     {
-      "id": "g_84701877",
+      "id": "g_38515516",
       "title": "Épidémie d’Ebola : déjà près de 250 morts, l’OMS publie ses recommandations sur les traitements et les vaccins",
       "theme": "actualité",
       "global_score": 25,
@@ -1935,7 +2036,7 @@
       "affinity": {
         "score": 67,
         "match_count": 10,
-        "max_similarity": 0.723,
+        "max_similarity": 0.724,
         "avg_similarity": 0.686,
         "total_clicks": 210628,
         "top_matches": [
@@ -1943,7 +2044,7 @@
             "url": "https://www.futura-sciences.com/sante/actualites/maladie-traitement-preventif-revolutionnaire-deux-injections-an-bientot-fin-vih-123144/",
             "title": "Un traitement préventif révolutionnaire en deux injections par an : bientôt la fin du VIH ?",
             "clicks": 56588,
-            "similarity": 0.723
+            "similarity": 0.724
           },
           {
             "url": "https://www.futura-sciences.com/sante/actualites/maladie-deux-injections-an-999-efficacite-ce-traitement-peut-il-enfin-mettre-fin-vih-w2t8-134379/",
@@ -1955,12 +2056,12 @@
             "url": "https://www.futura-sciences.com/sante/actualites/medecine-virus-singe-pourrait-faire-ce-medecine-na-pas-encore-reussi-cancer-122944/",
             "title": "Un virus de singe pourrait faire ce que la médecine n’a pas encore réussi contre le cancer",
             "clicks": 9624,
-            "similarity": 0.684
+            "similarity": 0.683
           }
         ]
       },
       "project_score": 44,
-      "proposed_title": "Épidémie d'Ebola : 250 morts et des vaccins prometteurs, l'OMS livre ses solutions",
+      "proposed_title": "Ebola : l'OMS dévoile ses armes contre l'épidémie qui a déjà tué près de 250 personnes",
       "external_sources": [
         {
           "source": "gnews",
@@ -1991,10 +2092,10 @@
       "topical_match": true,
       "topical_reason": "theme:santé(épidémie)",
       "source_origin": "gnews",
-      "project_rank": 25
+      "project_rank": 26
     },
     {
-      "id": "g_31316823",
+      "id": "g_31914285",
       "title": "« Une nouvelle ère pour le PC » : comment Nvidia et Microsoft comptent briser 40 ans de monopole d'Intel",
       "theme": "actualité",
       "global_score": 25,
@@ -2039,7 +2140,7 @@
         ]
       },
       "project_score": 44,
-      "proposed_title": "« Intel sur le déclin » : comment Nvidia et Microsoft préparent la fin d'un monopole de 40 ans",
+      "proposed_title": "Intel face à ses rivaux : comment Nvidia et Microsoft préparent la plus grande révolution informatique des 40 dernières années",
       "external_sources": [
         {
           "source": "gnews",
@@ -2056,7 +2157,7 @@
           "url": "https://www.frandroid.com/marques/nvidia/3119543_nvidia-vera-on-sait-enfin-ce-que-vaut-ce-processeur-arm-surpuissant-face-a-intel-et-amd",
           "publisher": "Frandroid",
           "published_at": "Sat, 30 May 2026 08:13:57 GMT",
-          "similarity": 0.817
+          "similarity": 0.818
         },
         {
           "source": "gnews",
@@ -2070,10 +2171,10 @@
       "topical_match": true,
       "topical_reason": "theme:tech(microsoft)",
       "source_origin": "gnews",
-      "project_rank": 26
+      "project_rank": 27
     },
     {
-      "id": "g_44083292",
+      "id": "g_73637947",
       "title": "New Glenn, la fusée géante de Blue Origin, explose sur la rampe de lancement",
       "theme": "actualité",
       "global_score": 25,
@@ -2093,9 +2194,9 @@
       "affinity": {
         "score": 68,
         "match_count": 10,
-        "max_similarity": 0.728,
-        "avg_similarity": 0.702,
-        "total_clicks": 283963,
+        "max_similarity": 0.748,
+        "avg_similarity": 0.709,
+        "total_clicks": 257133,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/starship-video-tout-monde-attendait-spacex-devoile-images-spectaculaires-vol-reussi-starship-126076/",
@@ -2118,7 +2219,7 @@
         ]
       },
       "project_score": 44,
-      "proposed_title": "Blue Origin subit un revers spectaculaire : New Glenn explose au décollage",
+      "proposed_title": "Blue Origin : l'explosion spectaculaire de New Glenn sur la rampe fait trembler l'industrie spatiale",
       "external_sources": [
         {
           "source": "gnews",
@@ -2133,89 +2234,10 @@
       "topical_match": true,
       "topical_reason": "theme:espace(fusée)",
       "source_origin": "gnews",
-      "project_rank": 27
-    },
-    {
-      "id": "g_87320463",
-      "title": "\"Trop dangereux\" : en France, XPeng dévoile une voiture volante pilotée par IA qui laisse sceptique",
-      "theme": "actualité",
-      "global_score": 25,
-      "global_tier": "medium",
-      "global_signals": [
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "Les Numériques"
-        }
-      ],
-      "rationale": "Repéré dans Google Actualités (Les Numériques) sur un mot-clé du territoire éditorial (ia).",
-      "msn_url": "https://www.lesnumeriques.com/voiture-electrique/trop-dangereux-en-france-xpeng-devoile-une-voiture-volante-pilotee-par-ia-qui-laisse-sceptique-n256798.html",
-      "msn_source_name": "Les Numériques",
-      "discover_category": null,
-      "discover_entities": [],
-      "affinity": {
-        "score": 67,
-        "match_count": 10,
-        "max_similarity": 0.74,
-        "avg_similarity": 0.726,
-        "total_clicks": 165039,
-        "top_matches": [
-          {
-            "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-ce-nest-plus-drone-ce-petit-avion-chasse-pilote-ia-incarne-rupture-technologique-pentagone-131682/",
-            "title": "Ce n’est plus un drone : ce « petit avion de chasse » piloté par IA incarne une rupture technologique pour le Pentagone",
-            "clicks": 11328,
-            "similarity": 0.74
-          },
-          {
-            "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-images-cet-avion-futuriste-chinois-intriguent-monde-prouesse-technologique-illusion-bien-orchestree-126048/",
-            "title": "Les images de cet avion futuriste chinois intriguent le monde : prouesse technologique ou illusion bien orchestrée ?",
-            "clicks": 7544,
-            "similarity": 0.738
-          },
-          {
-            "url": "https://www.futura-sciences.com/sciences/actualites/acces-espace-start-up-francaise-prepare-avion-spatial-mach-5-ce-cache-projet-envol-interview-131084/",
-            "title": "Une start-up française prépare un avion spatial à Mach 5 : ce que cache le projet Envol (interview)",
-            "clicks": 11206,
-            "similarity": 0.736
-          }
-        ]
-      },
-      "project_score": 44,
-      "proposed_title": "\"Trop dangereux\" : la voiture volante de XPeng pilotée par IA divise la France",
-      "external_sources": [
-        {
-          "source": "gnews",
-          "title": "\"Trop dangereux\" : en France, XPeng dévoile une voiture volante pilotée par IA qui laisse sceptique",
-          "url": "https://www.lesnumeriques.com/voiture-electrique/trop-dangereux-en-france-xpeng-devoile-une-voiture-volante-pilotee-par-ia-qui-laisse-sceptique-n256798.html",
-          "publisher": "Les Numériques",
-          "published_at": "",
-          "similarity": 1.0,
-          "is_source_origin": true
-        },
-        {
-          "source": "gnews",
-          "title": "« Volante », « sans volant »... Les réponses complètement folles d'automobilistes sur la voiture du futur (Vidéo)",
-          "url": "https://media.roole.fr/quotidien/au-volant/volante-sans-volant-les-reponses-completement-folles-dautomobilistes-sur-la-voiture-du-futur-video",
-          "publisher": "Roole Média",
-          "published_at": "Sat, 30 May 2026 01:30:00 GMT",
-          "similarity": 0.745
-        },
-        {
-          "source": "gnews",
-          "title": "Ce rapport français tire la sonnette d’alarme sur les voitures autonomes : \"l'Europe va devenir une colonie numérique\"",
-          "url": "https://www.touchmobile.fr/23145-ce-rapport-francais-tire-la-sonnette-dalarme-sur-les-voitures-autonomes-leurope-devenir-une-colonie-numerique.html",
-          "publisher": "touchmobile.fr",
-          "published_at": "Sun, 31 May 2026 16:06:15 GMT",
-          "similarity": 0.743
-        }
-      ],
-      "topical_match": true,
-      "topical_reason": "theme:tech(ia)",
-      "source_origin": "gnews",
       "project_rank": 28
     },
     {
-      "id": "g_74328820",
+      "id": "g_20687878",
       "title": "2crsi : Son action a pris plus de 3.000% en trois ans avec l'IA...Qui est 2CRSi, ce fabricant strasbourgeois de serveurs haute performance et économes en énergie pour les data centers?",
       "theme": "actualité",
       "global_score": 25,
@@ -2278,7 +2300,7 @@
       "project_rank": 29
     },
     {
-      "id": "g_49293166",
+      "id": "g_59529783",
       "title": "Malware Android : voici la liste des 455 applications à désinstaller d'urgence",
       "theme": "actualité",
       "global_score": 25,
@@ -2323,7 +2345,7 @@
         ]
       },
       "project_score": 44,
-      "proposed_title": "455 applications Android infectées : désinstallez-les immédiatement avant qu'il ne soit trop tard",
+      "proposed_title": "Android : 455 applications malveillantes détectées, désinstallez-les d'urgence dès maintenant",
       "external_sources": [
         {
           "source": "gnews",
@@ -2341,7 +2363,7 @@
       "project_rank": 30
     },
     {
-      "id": "d_82653058",
+      "id": "d_54198243",
       "title": "Cette plateforme de santé interroge à Flers : l’hôpital entend « combattre le désert médical »",
       "theme": "Health",
       "global_score": 31,
@@ -2379,7 +2401,7 @@
             "url": "https://www.futura-sciences.com/formation/questions-reponses/emploi-reforme-2026-quest-ce-va-vraiment-changer-infirmieres-24741/",
             "title": "Réforme 2026 : qu’est-ce qui va vraiment changer pour les infirmières ?",
             "clicks": 21994,
-            "similarity": 0.68
+            "similarity": 0.679
           },
           {
             "url": "https://www.futura-sciences.com/sante/actualites/medecine-festicomsante-2025-communication-devient-levier-sante-publique-127334/",
@@ -2390,7 +2412,7 @@
         ]
       },
       "project_score": 43,
-      "proposed_title": "Désert médical : cette plateforme de santé va-t-elle vraiment changer la donne à Flers ?",
+      "proposed_title": "Désert médical : « Cette plateforme de santé va changer la donne » affirme l'hôpital de Flers",
       "external_sources": [
         {
           "source": "discover",
@@ -2408,7 +2430,86 @@
       "project_rank": 31
     },
     {
-      "id": "g_768651",
+      "id": "g_48542490",
+      "title": "\"Trop dangereux\" : en France, XPeng dévoile une voiture volante pilotée par IA qui laisse sceptique",
+      "theme": "actualité",
+      "global_score": 25,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "Les Numériques"
+        }
+      ],
+      "rationale": "Repéré dans Google Actualités (Les Numériques) sur un mot-clé du territoire éditorial (ia).",
+      "msn_url": "https://www.lesnumeriques.com/voiture-electrique/trop-dangereux-en-france-xpeng-devoile-une-voiture-volante-pilotee-par-ia-qui-laisse-sceptique-n256798.html",
+      "msn_source_name": "Les Numériques",
+      "discover_category": null,
+      "discover_entities": [],
+      "affinity": {
+        "score": 66,
+        "match_count": 10,
+        "max_similarity": 0.741,
+        "avg_similarity": 0.727,
+        "total_clicks": 128845,
+        "top_matches": [
+          {
+            "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-ce-nest-plus-drone-ce-petit-avion-chasse-pilote-ia-incarne-rupture-technologique-pentagone-131682/",
+            "title": "Ce n’est plus un drone : ce « petit avion de chasse » piloté par IA incarne une rupture technologique pour le Pentagone",
+            "clicks": 11328,
+            "similarity": 0.741
+          },
+          {
+            "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-images-cet-avion-futuriste-chinois-intriguent-monde-prouesse-technologique-illusion-bien-orchestree-126048/",
+            "title": "Les images de cet avion futuriste chinois intriguent le monde : prouesse technologique ou illusion bien orchestrée ?",
+            "clicks": 7544,
+            "similarity": 0.738
+          },
+          {
+            "url": "https://www.futura-sciences.com/sciences/actualites/acces-espace-start-up-francaise-prepare-avion-spatial-mach-5-ce-cache-projet-envol-interview-131084/",
+            "title": "Une start-up française prépare un avion spatial à Mach 5 : ce que cache le projet Envol (interview)",
+            "clicks": 11206,
+            "similarity": 0.737
+          }
+        ]
+      },
+      "project_score": 43,
+      "proposed_title": "\"Trop dangereux\" : la voiture volante pilotée par IA de XPeng suscite le doute en France",
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "\"Trop dangereux\" : en France, XPeng dévoile une voiture volante pilotée par IA qui laisse sceptique",
+          "url": "https://www.lesnumeriques.com/voiture-electrique/trop-dangereux-en-france-xpeng-devoile-une-voiture-volante-pilotee-par-ia-qui-laisse-sceptique-n256798.html",
+          "publisher": "Les Numériques",
+          "published_at": "",
+          "similarity": 1.0,
+          "is_source_origin": true
+        },
+        {
+          "source": "gnews",
+          "title": "« Volante », « sans volant »... Les réponses complètement folles d'automobilistes sur la voiture du futur (Vidéo)",
+          "url": "https://media.roole.fr/quotidien/au-volant/volante-sans-volant-les-reponses-completement-folles-dautomobilistes-sur-la-voiture-du-futur-video",
+          "publisher": "Roole Média",
+          "published_at": "Sat, 30 May 2026 01:30:00 GMT",
+          "similarity": 0.745
+        },
+        {
+          "source": "gnews",
+          "title": "Ce rapport français tire la sonnette d’alarme sur les voitures autonomes : \"l'Europe va devenir une colonie numérique\"",
+          "url": "https://www.touchmobile.fr/23145-ce-rapport-francais-tire-la-sonnette-dalarme-sur-les-voitures-autonomes-leurope-devenir-une-colonie-numerique.html",
+          "publisher": "touchmobile.fr",
+          "published_at": "Sun, 31 May 2026 16:06:15 GMT",
+          "similarity": 0.743
+        }
+      ],
+      "topical_match": true,
+      "topical_reason": "theme:tech(ia)",
+      "source_origin": "gnews",
+      "project_rank": 32
+    },
+    {
+      "id": "g_12600988",
       "title": "Coupe du monde 2026 : deux outils à configurer d’urgence sur votre smartphone pour ne manquer aucun résultat",
       "theme": "actualité",
       "global_score": 25,
@@ -2428,7 +2529,7 @@
       "affinity": {
         "score": 64,
         "match_count": 10,
-        "max_similarity": 0.74,
+        "max_similarity": 0.738,
         "avg_similarity": 0.7,
         "total_clicks": 81313,
         "top_matches": [
@@ -2436,7 +2537,7 @@
             "url": "https://www.futura-sciences.com/conso/guides-achat/guides-smartphones-sont-meilleurs-smartphones-5g-1081/",
             "title": "Quels sont les meilleurs smartphones 5G ?",
             "clicks": 24433,
-            "similarity": 0.74
+            "similarity": 0.738
           },
           {
             "url": "https://www.futura-sciences.com/tech/questions-reponses/cybersecurite-faites-ce-soir-5-minutes-peuvent-tout-changer-votre-smartphone-c7g3-23373/",
@@ -2453,7 +2554,7 @@
         ]
       },
       "project_score": 43,
-      "proposed_title": "Coupe du monde 2026 : 2 réglages essentiels à faire sur votre smartphone !",
+      "proposed_title": "Coupe du monde 2026 : 2 réglages à faire sur votre smartphone pour ne rien rater !",
       "external_sources": [
         {
           "source": "gnews",
@@ -2468,10 +2569,10 @@
       "topical_match": true,
       "topical_reason": "theme:tech(smartphone)",
       "source_origin": "gnews",
-      "project_rank": 32
+      "project_rank": 33
     },
     {
-      "id": "g_39045111",
+      "id": "g_69873402",
       "title": "Auto : pourquoi CarPlay et Android Auto se déconnectent au péage",
       "theme": "actualité",
       "global_score": 25,
@@ -2489,17 +2590,17 @@
       "discover_category": null,
       "discover_entities": [],
       "affinity": {
-        "score": 65,
+        "score": 66,
         "match_count": 10,
         "max_similarity": 0.699,
         "avg_similarity": 0.682,
-        "total_clicks": 182027,
+        "total_clicks": 205131,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/tech/actualites/voiture-fini-pneus-neige-cette-innovation-pourrait-tout-changer-automobilistes-k2m6-132657/",
             "title": "Fini les pneus neige ? Cette innovation pourrait tout changer pour les automobilistes",
             "clicks": 28392,
-            "similarity": 0.689
+            "similarity": 0.69
           },
           {
             "url": "https://www.futura-sciences.com/automobile/actualites/categories-voiture-plaques-roses-obligatoires-certaines-voitures-2026-concerne-127178/",
@@ -2516,7 +2617,7 @@
         ]
       },
       "project_score": 43,
-      "proposed_title": "CarPlay et Android Auto déconnectés au péage : voici pourquoi et comment y remédier",
+      "proposed_title": "CarPlay et Android Auto se déconnectent aux péages : voici pourquoi et comment y remédier",
       "external_sources": [
         {
           "source": "gnews",
@@ -2533,16 +2634,16 @@
           "url": "https://www.touchmobile.fr/23145-ce-rapport-francais-tire-la-sonnette-dalarme-sur-les-voitures-autonomes-leurope-devenir-une-colonie-numerique.html",
           "publisher": "touchmobile.fr",
           "published_at": "Sun, 31 May 2026 16:06:15 GMT",
-          "similarity": 0.728
+          "similarity": 0.727
         }
       ],
       "topical_match": true,
       "topical_reason": "theme:tech(android)",
       "source_origin": "gnews",
-      "project_rank": 33
+      "project_rank": 34
     },
     {
-      "id": "g_46244050",
+      "id": "g_3640846",
       "title": "Un météore explose au-dessus des États-Unis, générant une énergie équivalente à \"300 tonnes de TNT\" selon la Nasa",
       "theme": "actualité",
       "global_score": 25,
@@ -2554,7 +2655,7 @@
           "value": "TF1 Info"
         }
       ],
-      "rationale": "Repéré dans Google Actualités (TF1 Info) sur un mot-clé du territoire éditorial (énergie).",
+      "rationale": "Repéré dans Google Actualités (TF1 Info) sur un mot-clé du territoire éditorial (nasa).",
       "msn_url": "https://www.tf1info.fr/sciences-et-innovation/un-meteore-explose-au-dessus-des-etats-unis-generant-une-energie-equivalente-a-20-fois-la-bombe-d-hiroshima-nasa-2444487.html",
       "msn_source_name": "TF1 Info",
       "discover_category": null,
@@ -2564,7 +2665,7 @@
         "match_count": 10,
         "max_similarity": 0.754,
         "avg_similarity": 0.723,
-        "total_clicks": 106500,
+        "total_clicks": 116546,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/astronomie-grace-simulation-scientifiques-retracent-passage-eclair-pres-terre-objet-venu-ailleurs-129367/",
@@ -2576,18 +2677,18 @@
             "url": "https://www.futura-sciences.com/sciences/actualites/systeme-solaire-astronomes-stupefaits-tempete-geante-jupiter-oscille-comme-bol-gelatine-c7g3-128692/",
             "title": "Les astronomes stupéfaits : la tempête géante de Jupiter oscille comme un bol de gélatine",
             "clicks": 37640,
-            "similarity": 0.707
+            "similarity": 0.706
           },
           {
-            "url": "https://blogs.futura-sciences.com/feldmann/2026/02/18/les-astronomes-traquent-detonnants-flashs-lunaires/",
-            "title": "Les astronomes traquent d'étonnants flashs lunaires",
-            "clicks": 7543,
-            "similarity": 0.705
+            "url": "https://www.futura-sciences.com/sciences/actualites/astronomie-astronomes-ont-observe-etoile-proche-liberer-eruption-capable-arracher-atmosphere-planete-entiere-127434/",
+            "title": "Des astronomes ont observé une étoile proche libérer une éruption capable d’arracher l’atmosphère d’une planète entière !",
+            "clicks": 17589,
+            "similarity": 0.704
           }
         ]
       },
       "project_score": 43,
-      "proposed_title": "Une explosion météorique spectaculaire illumine le ciel américain : l'énergie d'une bombe nucléaire miniature",
+      "proposed_title": "Un météore explose au-dessus des États-Unis avec la puissance de 300 tonnes de TNT !",
       "external_sources": [
         {
           "source": "gnews",
@@ -2612,16 +2713,16 @@
           "url": "https://www.letribunaldunet.fr/science/meteorite-volcan-mayon-philippines-video.html",
           "publisher": "Le Tribunal du Net",
           "published_at": "Sun, 31 May 2026 08:30:00 GMT",
-          "similarity": 0.74
+          "similarity": 0.741
         }
       ],
       "topical_match": true,
       "topical_reason": "theme:espace(nasa)",
       "source_origin": "gnews",
-      "project_rank": 34
+      "project_rank": 35
     },
     {
-      "id": "g_5856929",
+      "id": "g_78046995",
       "title": "Un enfant sur six utilisant Internet a subi des abus sexuels en ligne — et la moitié n'en a jamais parlé",
       "theme": "actualité",
       "global_score": 25,
@@ -2639,11 +2740,11 @@
       "discover_category": null,
       "discover_entities": [],
       "affinity": {
-        "score": 65,
+        "score": 66,
         "match_count": 10,
-        "max_similarity": 0.722,
-        "avg_similarity": 0.69,
-        "total_clicks": 144140,
+        "max_similarity": 0.745,
+        "avg_similarity": 0.697,
+        "total_clicks": 127171,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/sante/actualites/adolescent-13-ans-cerveau-ados-cesse-ecouter-leurs-parents-science-explique-c7g3-126294/",
@@ -2655,7 +2756,7 @@
             "url": "https://www.futura-sciences.com/tech/actualites/cybersecurite-cybersecurite-astuce-beaucoup-ignorent-eviter-leur-boite-mail-devienne-cible-131341/",
             "title": "Cybersécurité : l’astuce que beaucoup ignorent pour éviter que leur boîte mail devienne une cible",
             "clicks": 7868,
-            "similarity": 0.692
+            "similarity": 0.691
           },
           {
             "url": "https://www.futura-sciences.com/en/at-age-13-teens-brains-stop-listening-to-their-parents-science-explains-why_20858/",
@@ -2666,7 +2767,7 @@
         ]
       },
       "project_score": 43,
-      "proposed_title": "Un enfant sur six victime d'abus en ligne : pourquoi la moitié garde le silence",
+      "proposed_title": "Un enfant sur six victime d'abus en ligne : pourquoi la moitié du silence persiste",
       "external_sources": [
         {
           "source": "gnews",
@@ -2681,10 +2782,10 @@
       "topical_match": true,
       "topical_reason": "theme:tech(internet)",
       "source_origin": "gnews",
-      "project_rank": 35
+      "project_rank": 36
     },
     {
-      "id": "g_75732990",
+      "id": "g_21147547",
       "title": "Un chercheur trouve des failles Windows pour prévenir Microsoft du danger, l'entreprise l'attaque en justice",
       "theme": "actualité",
       "global_score": 25,
@@ -2705,14 +2806,14 @@
         "score": 64,
         "match_count": 10,
         "max_similarity": 0.809,
-        "avg_similarity": 0.733,
-        "total_clicks": 35563,
+        "avg_similarity": 0.737,
+        "total_clicks": 39799,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/tech/actualites/cybersecurite-france-prepare-remplacant-windows-derriere-securix-peur-devenue-tres-concrete-133770/",
             "title": "La France prépare un remplaçant à Windows : derrière Sécurix, une peur devenue très concrète",
             "clicks": 10366,
-            "similarity": 0.766
+            "similarity": 0.768
           },
           {
             "url": "https://www.futura-sciences.com/en/russian-hackers-hit-france-with-zero-click-attack-using-critical-windows-flaws_22384/",
@@ -2729,7 +2830,7 @@
         ]
       },
       "project_score": 43,
-      "proposed_title": "Microsoft attaque en justice le chercheur qui révèle ses failles Windows",
+      "proposed_title": "Microsoft attaque en justice un chercheur qui révélait ses failles Windows",
       "external_sources": [
         {
           "source": "gnews",
@@ -2752,10 +2853,10 @@
       "topical_match": true,
       "topical_reason": "theme:tech(microsoft)",
       "source_origin": "gnews",
-      "project_rank": 36
+      "project_rank": 37
     },
     {
-      "id": "g_29972335",
+      "id": "g_85954649",
       "title": "Le projet lunaire sous IA d'Hideo Kojima et Nicolas Winding Refn, présenté au Festival de Cannes",
       "theme": "actualité",
       "global_score": 25,
@@ -2775,7 +2876,7 @@
       "affinity": {
         "score": 65,
         "match_count": 10,
-        "max_similarity": 0.711,
+        "max_similarity": 0.712,
         "avg_similarity": 0.674,
         "total_clicks": 165237,
         "top_matches": [
@@ -2783,24 +2884,24 @@
             "url": "https://www.futura-sciences.com/tech/actualites/robotique-robot-humanoide-elon-musk-fait-demonstration-kung-fu-devant-jared-leto-126315/",
             "title": "Quand le robot humanoïde d'Elon Musk fait une démonstration de Kung Fu devant Jared Leto !",
             "clicks": 13824,
-            "similarity": 0.711
+            "similarity": 0.712
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/lune-ce-nasa-vient-decouvrir-sous-surface-lune-intrigue-scientifiques-monde-entier-c7g3-126801/",
             "title": "Ce que la Nasa vient de découvrir sous la surface de la Lune intrigue les scientifiques du monde entier",
             "clicks": 56713,
-            "similarity": 0.684
+            "similarity": 0.683
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/artemis-ii-notre-entretien-kirsten-siebach-lune-prepare-deja-humains-mars-132919/",
             "title": "Notre entretien avec Kirsten Siebach : comment la Lune prépare déjà les humains à Mars",
             "clicks": 9579,
-            "similarity": 0.684
+            "similarity": 0.683
           }
         ]
       },
       "project_score": 43,
-      "proposed_title": "Hideo Kojima et Nicolas Winding Refn créent un projet lunaire révolutionnaire piloté par l'IA !",
+      "proposed_title": "Hideo Kojima et Nicolas Winding Refn imaginent un projet lunaire révolutionnaire piloté par l'IA !",
       "external_sources": [
         {
           "source": "gnews",
@@ -2817,16 +2918,16 @@
           "url": "https://www.journaldugeek.com/2026/05/31/le-film-ia-qui-voulait-concurrencer-pixar-se-prend-les-pieds-dans-le-tapis/",
           "publisher": "Journal du Geek",
           "published_at": "Sun, 31 May 2026 07:03:19 GMT",
-          "similarity": 0.738
+          "similarity": 0.736
         }
       ],
       "topical_match": true,
       "topical_reason": "theme:tech(ia)",
       "source_origin": "gnews",
-      "project_rank": 37
+      "project_rank": 38
     },
     {
-      "id": "g_43547236",
+      "id": "g_93423314",
       "title": "Google Search, c’est terminé : 5 moteurs de recherche européens pour le remplacer",
       "theme": "actualité",
       "global_score": 25,
@@ -2844,11 +2945,11 @@
       "discover_category": null,
       "discover_entities": [],
       "affinity": {
-        "score": 65,
+        "score": 64,
         "match_count": 10,
         "max_similarity": 0.792,
-        "avg_similarity": 0.747,
-        "total_clicks": 54473,
+        "avg_similarity": 0.752,
+        "total_clicks": 44479,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/tech/actualites/internet-google-vous-utilisez-tous-jours-condamne-129724/",
@@ -2866,12 +2967,12 @@
             "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-google-t-il-deja-gagne-guerre-ia-devons-nous-nous-inquieter-127719/",
             "title": null,
             "clicks": 5338,
-            "similarity": 0.721
+            "similarity": 0.719
           }
         ]
       },
       "project_score": 43,
-      "proposed_title": "Google Search bientôt remplacé : 5 moteurs de recherche européens à découvrir maintenant",
+      "proposed_title": "Google Search, c'est fini : 5 moteurs de recherche européens qui le détrônent !",
       "external_sources": [
         {
           "source": "gnews",
@@ -2886,10 +2987,10 @@
       "topical_match": true,
       "topical_reason": "theme:sciences(recherche)",
       "source_origin": "gnews",
-      "project_rank": 38
+      "project_rank": 39
     },
     {
-      "id": "d_49258583",
+      "id": "d_80932158",
       "title": "Santé : à Pontivy, le Groupe hospitalier centre Bretagne certifié Qualité des soins confirmée",
       "theme": "Health",
       "global_score": 31,
@@ -2913,7 +3014,7 @@
         "score": 55,
         "match_count": 3,
         "max_similarity": 0.666,
-        "avg_similarity": 0.659,
+        "avg_similarity": 0.658,
         "total_clicks": 141938,
         "top_matches": [
           {
@@ -2926,7 +3027,7 @@
             "url": "https://www.futura-sciences.com/formation/questions-reponses/emploi-reforme-2026-quest-ce-va-vraiment-changer-infirmieres-24741/",
             "title": "Réforme 2026 : qu’est-ce qui va vraiment changer pour les infirmières ?",
             "clicks": 21994,
-            "similarity": 0.657
+            "similarity": 0.656
           },
           {
             "url": "https://www.futura-sciences.com/sante/actualites/medecine-coeur-greffe-foie-bouclier-ete-ajoute-office-w2t8-129807/",
@@ -2937,7 +3038,7 @@
         ]
       },
       "project_score": 42,
-      "proposed_title": "Hôpital de Pontivy : certification qualité confirmée — qu'est-ce que cela change vraiment pour les patients ?",
+      "proposed_title": "Hôpital de Pontivy : qu'est-ce que la certification Qualité des soins change vraiment pour les patients ?",
       "external_sources": [
         {
           "source": "discover",
@@ -2952,10 +3053,10 @@
       "topical_match": true,
       "topical_reason": "category:/Health",
       "source_origin": "discover",
-      "project_rank": 39
+      "project_rank": 40
     },
     {
-      "id": "g_22332893",
+      "id": "g_87638108",
       "title": "La CNIL s’alarme des lunettes connectées, Meta en rajoute avec un collier IA",
       "theme": "actualité",
       "global_score": 25,
@@ -3000,7 +3101,7 @@
         ]
       },
       "project_score": 42,
-      "proposed_title": "Lunettes connectées et colliers IA : la CNIL tire la sonnette d'alarme !",
+      "proposed_title": "Lunettes connectées et collier IA : pourquoi la CNIL tire la sonnette d'alarme !",
       "external_sources": [
         {
           "source": "gnews",
@@ -3017,7 +3118,7 @@
           "url": "https://www.frandroid.com/test/3090801_jai-teste-une-alternative-vraiment-pas-chere-aux-ray-ban-meta-ca-vaut-le-coup-ou-pas",
           "publisher": "Frandroid",
           "published_at": "Sat, 30 May 2026 20:18:39 GMT",
-          "similarity": 0.768
+          "similarity": 0.767
         },
         {
           "source": "gnews",
@@ -3031,10 +3132,10 @@
       "topical_match": true,
       "topical_reason": "theme:tech(ia)",
       "source_origin": "gnews",
-      "project_rank": 40
+      "project_rank": 41
     },
     {
-      "id": "g_86166593",
+      "id": "g_2819514",
       "title": "Votre ancien iPhone a peut-être pris de la valeur ce mois-ci : voici la surprise d'Apple",
       "theme": "actualité",
       "global_score": 25,
@@ -3055,8 +3156,8 @@
         "score": 63,
         "match_count": 10,
         "max_similarity": 0.764,
-        "avg_similarity": 0.73,
-        "total_clicks": 40621,
+        "avg_similarity": 0.731,
+        "total_clicks": 39255,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/tech/questions-reponses/cybersecurite-faites-ce-soir-5-minutes-peuvent-tout-changer-votre-smartphone-c7g3-23373/",
@@ -3068,18 +3169,18 @@
             "url": "https://www.futura-sciences.com/conso/bons-plans/guides-smartphones-soldes-iphone-17-pro-max-voit-enfin-son-prix-chuter-9016/",
             "title": "Soldes : l’iPhone 17 Pro Max voit enfin son prix chuter",
             "clicks": 16813,
-            "similarity": 0.745
+            "similarity": 0.746
           },
           {
             "url": "https://www.futura-sciences.com/tech/actualites/apple-apple-preparerait-6-nouveaux-produits-2-appareils-personne-nattendait-vraiment-134015/",
             "title": "Apple préparerait 6 nouveaux produits, dont 2 appareils que personne n’attendait vraiment",
             "clicks": 8808,
-            "similarity": 0.744
+            "similarity": 0.745
           }
         ]
       },
       "project_score": 42,
-      "proposed_title": "Votre vieil iPhone pourrait vous rapporter gros : Apple vient de changer la donne",
+      "proposed_title": "Votre vieil iPhone vient de devenir précieux : Apple révèle une surprise",
       "external_sources": [
         {
           "source": "gnews",
@@ -3104,16 +3205,16 @@
           "url": "https://www.ouest-france.fr/shopping/high-tech/smartphone/cet-iphone-pro-passe-de-1159-a-369-euros-et-les-stocks-sont-encore-pleins-ce-dimanche-fe017af8-5a71-11f1-b3f0-aacb0ffa8bfb",
           "publisher": "Ouest-France",
           "published_at": "Sun, 31 May 2026 05:42:00 GMT",
-          "similarity": 0.729
+          "similarity": 0.73
         }
       ],
       "topical_match": true,
       "topical_reason": "theme:tech(iphone)",
       "source_origin": "gnews",
-      "project_rank": 41
+      "project_rank": 42
     },
     {
-      "id": "g_87653597",
+      "id": "g_93215251",
       "title": "French Tech 2025 : les fondateurs partent à San Francisco, les fonds français décrochent",
       "theme": "actualité",
       "global_score": 25,
@@ -3134,14 +3235,14 @@
         "score": 63,
         "match_count": 10,
         "max_similarity": 0.742,
-        "avg_similarity": 0.722,
+        "avg_similarity": 0.721,
         "total_clicks": 52543,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/acces-espace-start-up-francaise-prepare-avion-spatial-mach-5-ce-cache-projet-envol-interview-131084/",
             "title": "Une start-up française prépare un avion spatial à Mach 5 : ce que cache le projet Envol (interview)",
             "clicks": 11206,
-            "similarity": 0.72
+            "similarity": 0.721
           },
           {
             "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-ils-ont-invente-intelligence-artificielle-yann-lecun-francais-revolutionne-ia-129601/",
@@ -3158,7 +3259,7 @@
         ]
       },
       "project_score": 42,
-      "proposed_title": "French Tech 2025 : pourquoi les fondateurs français désertent la Silicon Valley",
+      "proposed_title": "French Tech 2025 : pourquoi les start-ups françaises désertent pour la Silicon Valley",
       "external_sources": [
         {
           "source": "gnews",
@@ -3175,13 +3276,13 @@
           "url": "https://www.ici.fr/hauts-de-france/nord-59/45-milliards-d-euros-investis-dans-les-hauts-de-france-dans-la-creation-de-nouveaux-data-centers-7478858",
           "publisher": "France Bleu",
           "published_at": "2026-05-31 20:31:07",
-          "similarity": 0.73
+          "similarity": 0.732
         }
       ],
       "topical_match": true,
       "topical_reason": "theme:tech(tech)",
       "source_origin": "gnews",
-      "project_rank": 42
+      "project_rank": 43
     },
     {
       "id": "s30",
@@ -3217,21 +3318,21 @@
       "affinity": {
         "score": 63,
         "match_count": 8,
-        "max_similarity": 0.701,
+        "max_similarity": 0.702,
         "avg_similarity": 0.668,
-        "total_clicks": 128536,
+        "total_clicks": 129970,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/tech/actualites/informatique-ils-ne-savent-meme-pas-faire-copier-coller-professeurs-tirent-sonnette-alarme-nouvelles-generations-c7g3-127005/",
             "title": "« Ils ne savent même pas faire un copier-coller » : les professeurs tirent la sonnette d'alarme sur les nouvelles générations",
             "clicks": 48101,
-            "similarity": 0.701
+            "similarity": 0.702
           },
           {
             "url": "https://www.futura-sciences.com/tech/actualites/cybersecurite-france-prepare-remplacant-windows-derriere-securix-peur-devenue-tres-concrete-133770/",
             "title": "La France prépare un remplaçant à Windows : derrière Sécurix, une peur devenue très concrète",
             "clicks": 10366,
-            "similarity": 0.691
+            "similarity": 0.693
           },
           {
             "url": "https://www.futura-sciences.com/tech/actualites/internet-google-vous-utilisez-tous-jours-condamne-129724/",
@@ -3242,7 +3343,7 @@
         ]
       },
       "project_score": 41,
-      "proposed_title": "« Polytechnique dit non à Microsoft » : quand les universités françaises basculent au logiciel libre",
+      "proposed_title": "« Microsoft dehors » : Polytechnique allume la révolte du logiciel libre dans les universités",
       "external_sources": [
         {
           "source": "msn",
@@ -3265,10 +3366,10 @@
       "topical_match": true,
       "topical_reason": "theme:tech(microsoft)",
       "source_origin": "msn",
-      "project_rank": 43
+      "project_rank": 44
     },
     {
-      "id": "d_87285329",
+      "id": "d_69610955",
       "title": "« La PMA reste un parcours de l’ombre » : une nouvelle association à Valenciennes pour briser les tabous et la solitude",
       "theme": "Health",
       "global_score": 30,
@@ -3310,12 +3411,12 @@
             "url": "https://www.futura-sciences.com/sante/actualites/sante-mentale-si-etre-seul-etait-bon-vous-etude-remet-question-idees-recues-123099/",
             "title": "Et si être seul était bon pour vous ? Une étude remet en question les idées reçues",
             "clicks": 47952,
-            "similarity": 0.66
+            "similarity": 0.661
           }
         ]
       },
       "project_score": 41,
-      "proposed_title": "« La PMA, un parcours caché » : comment briser la solitude et les tabous autour de la procréation",
+      "proposed_title": "« La PMA reste un parcours de l'ombre » : une nouvelle association pour briser la solitude",
       "external_sources": [
         {
           "source": "discover",
@@ -3346,10 +3447,10 @@
       "topical_match": true,
       "topical_reason": "category:/Health",
       "source_origin": "discover",
-      "project_rank": 44
+      "project_rank": 45
     },
     {
-      "id": "d_24824913",
+      "id": "d_58225295",
       "title": "Après avoir perdu son emploi, il créé son entreprise d'impression 3D dans une petite commune de l'Aveyron",
       "theme": "Computers & Electronics",
       "global_score": 30,
@@ -3370,11 +3471,11 @@
         "Impression 3D"
       ],
       "affinity": {
-        "score": 51,
-        "match_count": 3,
+        "score": 52,
+        "match_count": 4,
         "max_similarity": 0.677,
-        "avg_similarity": 0.664,
-        "total_clicks": 34760,
+        "avg_similarity": 0.661,
+        "total_clicks": 34975,
         "top_matches": [
           {
             "url": "https://www.futura-sciences.com/maison/actualites/consommation-energie-il-construit-seul-centrale-solaire-divise-facture-electricite-deux-c7g3-126854/",
@@ -3392,12 +3493,12 @@
             "url": "https://www.futura-sciences.com/tech/questions-reponses/informatique-impression-3d-serie-elle-solution-viable-production-industrielle-24081/",
             "title": null,
             "clicks": 241,
-            "similarity": 0.657
+            "similarity": 0.658
           }
         ]
       },
-      "project_score": 39,
-      "proposed_title": "Il perd son emploi et crée son usine d'impression 3D en Aveyron : le pari fou d'un entrepreneur",
+      "project_score": 40,
+      "proposed_title": "Il perd son emploi et lance sa fabrique d'impression 3D en Aveyron : un pari gagnant",
       "external_sources": [
         {
           "source": "discover",
@@ -3420,10 +3521,10 @@
       "topical_match": true,
       "topical_reason": "category:/Computers & Electronics",
       "source_origin": "discover",
-      "project_rank": 45
+      "project_rank": 46
     },
     {
-      "id": "d_34594683",
+      "id": "d_23809264",
       "title": "Un nuage pèse en moyenne 500 tonnes : c'est plus lourd qu'un avion de ligne, et pourtant il ne tombe pas",
       "theme": "Science",
       "global_score": 15,
@@ -3465,12 +3566,12 @@
             "url": "https://www.futura-sciences.com/planete/actualites/rechauffement-climatique-ce-passe-atmosphere-antarctique-na-rien-habituel-cela-inquiete-chercheurs-125539/",
             "title": "Ce qui se passe dans l’atmosphère antarctique n’a rien d’habituel, et cela inquiète les chercheurs",
             "clicks": 10656,
-            "similarity": 0.673
+            "similarity": 0.674
           }
         ]
       },
       "project_score": 38,
-      "proposed_title": "Un nuage pèse 500 tonnes : voici pourquoi il ne tombe pas du ciel !",
+      "proposed_title": "Un nuage pèse 500 tonnes : comment quelque chose de plus lourd qu'un avion peut-il rester suspendu dans le ciel ?",
       "external_sources": [
         {
           "source": "discover",
@@ -3485,10 +3586,73 @@
       "topical_match": true,
       "topical_reason": "category:/Science",
       "source_origin": "discover",
-      "project_rank": 46
+      "project_rank": 47
     },
     {
-      "id": "d_9036497",
+      "id": "g_9277977",
+      "title": "Test : J'ai porté le Fitbit Air de Google pendant une semaine, et il donne du fil à retordre au Whoop",
+      "theme": "actualité",
+      "global_score": 25,
+      "global_tier": "medium",
+      "global_signals": [
+        {
+          "source": "news",
+          "label": "gnews",
+          "value": "ZDNET"
+        }
+      ],
+      "rationale": "Repéré dans Google Actualités (ZDNET) sur un mot-clé du territoire éditorial (google).",
+      "msn_url": "https://www.zdnet.fr/guide-achat/test-jai-porte-le-fitbit-air-de-google-pendant-une-semaine-et-il-donne-du-fil-a-retordre-au-whoop-495854.htm",
+      "msn_source_name": "ZDNET",
+      "discover_category": null,
+      "discover_entities": [],
+      "affinity": {
+        "score": 54,
+        "match_count": 9,
+        "max_similarity": 0.676,
+        "avg_similarity": 0.657,
+        "total_clicks": 11501,
+        "top_matches": [
+          {
+            "url": "https://www.futura-sciences.com/conso/bons-plans/guides-objets-connectes-cette-montre-connectee-garmin-tres-appreciee-sportifs-voit-son-prix-degringoler-8061/",
+            "title": null,
+            "clicks": 1,
+            "similarity": 0.676
+          },
+          {
+            "url": "https://www.futura-sciences.com/tech/actualites/huawei-huawei-watch-gt-6-va-t-elle-devenir-montre-preferee-cyclistes-125809/",
+            "title": null,
+            "clicks": 9,
+            "similarity": 0.658
+          },
+          {
+            "url": "http://www.futura-sciences.com/tech/actualites/montre-connectee-smartwatch-or-veritable-jusquou-huawei-pret-aller-luxe-130399/",
+            "title": null,
+            "clicks": 10,
+            "similarity": 0.657
+          }
+        ]
+      },
+      "project_score": 38,
+      "proposed_title": "Fitbit Air de Google : la montre connectée qui rivalise enfin avec Whoop",
+      "external_sources": [
+        {
+          "source": "gnews",
+          "title": "Test : J'ai porté le Fitbit Air de Google pendant une semaine, et il donne du fil à retordre au Whoop",
+          "url": "https://www.zdnet.fr/guide-achat/test-jai-porte-le-fitbit-air-de-google-pendant-une-semaine-et-il-donne-du-fil-a-retordre-au-whoop-495854.htm",
+          "publisher": "ZDNET",
+          "published_at": "",
+          "similarity": 1.0,
+          "is_source_origin": true
+        }
+      ],
+      "topical_match": true,
+      "topical_reason": "theme:tech(google)",
+      "source_origin": "gnews",
+      "project_rank": 48
+    },
+    {
+      "id": "d_13747292",
       "title": "Près du Havre, ce village accueille pour la première fois un médecin généraliste",
       "theme": "Health",
       "global_score": 30,
@@ -3529,7 +3693,7 @@
         ]
       },
       "project_score": 37,
-      "proposed_title": "Désert médical : ce village normand retrouve espoir avec l'arrivée de son premier généraliste !",
+      "proposed_title": "Désert médical : ce village du Havre accueille enfin son premier médecin généraliste !",
       "external_sources": [
         {
           "source": "discover",
@@ -3544,73 +3708,10 @@
       "topical_match": true,
       "topical_reason": "category:/Health",
       "source_origin": "discover",
-      "project_rank": 47
+      "project_rank": 49
     },
     {
-      "id": "g_73549944",
-      "title": "Test : J'ai porté le Fitbit Air de Google pendant une semaine, et il donne du fil à retordre au Whoop",
-      "theme": "actualité",
-      "global_score": 25,
-      "global_tier": "medium",
-      "global_signals": [
-        {
-          "source": "news",
-          "label": "gnews",
-          "value": "ZDNET"
-        }
-      ],
-      "rationale": "Repéré dans Google Actualités (ZDNET) sur un mot-clé du territoire éditorial (google).",
-      "msn_url": "https://www.zdnet.fr/guide-achat/test-jai-porte-le-fitbit-air-de-google-pendant-une-semaine-et-il-donne-du-fil-a-retordre-au-whoop-495854.htm",
-      "msn_source_name": "ZDNET",
-      "discover_category": null,
-      "discover_entities": [],
-      "affinity": {
-        "score": 52,
-        "match_count": 8,
-        "max_similarity": 0.676,
-        "avg_similarity": 0.658,
-        "total_clicks": 7119,
-        "top_matches": [
-          {
-            "url": "https://www.futura-sciences.com/conso/bons-plans/guides-objets-connectes-cette-montre-connectee-garmin-tres-appreciee-sportifs-voit-son-prix-degringoler-8061/",
-            "title": null,
-            "clicks": 1,
-            "similarity": 0.676
-          },
-          {
-            "url": "https://www.futura-sciences.com/tech/actualites/montre-connectee-smartwatch-or-veritable-jusquou-huawei-pret-aller-luxe-130399/",
-            "title": null,
-            "clicks": 1363,
-            "similarity": 0.658
-          },
-          {
-            "url": "http://www.futura-sciences.com/tech/actualites/montre-connectee-smartwatch-or-veritable-jusquou-huawei-pret-aller-luxe-130399/",
-            "title": null,
-            "clicks": 10,
-            "similarity": 0.658
-          }
-        ]
-      },
-      "project_score": 37,
-      "proposed_title": "Fitbit Air de Google : la montre connectée qui rivalise avec Whoop",
-      "external_sources": [
-        {
-          "source": "gnews",
-          "title": "Test : J'ai porté le Fitbit Air de Google pendant une semaine, et il donne du fil à retordre au Whoop",
-          "url": "https://www.zdnet.fr/guide-achat/test-jai-porte-le-fitbit-air-de-google-pendant-une-semaine-et-il-donne-du-fil-a-retordre-au-whoop-495854.htm",
-          "publisher": "ZDNET",
-          "published_at": "",
-          "similarity": 1.0,
-          "is_source_origin": true
-        }
-      ],
-      "topical_match": true,
-      "topical_reason": "theme:tech(google)",
-      "source_origin": "gnews",
-      "project_rank": 48
-    },
-    {
-      "id": "d_13540938",
+      "id": "d_34124396",
       "title": "ENTRETIEN. Jacques Soignon, botaniste : « Les plantes de Noirmoutier sont déjà adaptées au vent, à la sécheresse »",
       "theme": "Science",
       "global_score": 15,
@@ -3647,18 +3748,18 @@
             "url": "https://www.futura-sciences.com/planete/actualites/escales-bisons-cerfs-daims-chevaux-przewalski-ce-lieu-unique-france-offre-spectacle-sauvage-fascinant-122464/",
             "title": "On se croirait en pleine savane… et pourtant ce lieu se trouve en France",
             "clicks": 31235,
-            "similarity": 0.67
+            "similarity": 0.671
           },
           {
             "url": "https://blogs.futura-sciences.com/maison-jardin/agapanthes-peu-floriferes-3-gestes-a-faire-maintenant-pour-relancer-la-floraison_22588/",
             "title": "Agapanthes peu florifères : 3 gestes à faire maintenant pour relancer la floraison - Futura-Sciences",
             "clicks": 31410,
-            "similarity": 0.659
+            "similarity": 0.661
           }
         ]
       },
       "project_score": 35,
-      "proposed_title": "Jacques Soignon, botaniste : « Les plantes de Noirmoutier sont déjà adaptées au vent et à la sécheresse »",
+      "proposed_title": "« Les plantes de Noirmoutier sont déjà adaptées au vent et à la sécheresse » : ce que révèle le botaniste Jacques Soignon",
       "external_sources": [
         {
           "source": "discover",
@@ -3673,10 +3774,10 @@
       "topical_match": true,
       "topical_reason": "category:/Science",
       "source_origin": "discover",
-      "project_rank": 49
+      "project_rank": 50
     },
     {
-      "id": "d_73183056",
+      "id": "d_40586452",
       "title": "Après avoir perdu son emploi à l'âge de 46 ans, en Aveyron, la belle reconversion de Serge Ladent qui bâtit désormais son avenir professionnel en 3D",
       "theme": "Computers & Electronics",
       "global_score": 32,
@@ -3698,13 +3799,13 @@
       "affinity": {
         "score": 10,
         "match_count": 0,
-        "max_similarity": 0.6050284504890442,
+        "max_similarity": 0.6049426794052124,
         "avg_similarity": 0.0,
         "total_clicks": 0,
         "top_matches": []
       },
       "project_score": 22,
-      "proposed_title": "À 46 ans, il se reconvertit à la modélisation 3D et relance sa carrière en Aveyron",
+      "proposed_title": "À 46 ans, il se réinvente dans l'impression 3D et relance sa carrière en Aveyron",
       "external_sources": [
         {
           "source": "discover",
@@ -3727,10 +3828,10 @@
       "topical_match": true,
       "topical_reason": "category:/Computers & Electronics",
       "source_origin": "discover",
-      "project_rank": 50
+      "project_rank": 51
     },
     {
-      "id": "d_46684006",
+      "id": "d_74541907",
       "title": "La France de Descartes, de Pasteur, de tous les médaillés Fields est dernière en mathématiques.",
       "theme": "Science",
       "global_score": 30,
@@ -3752,13 +3853,13 @@
       "affinity": {
         "score": 10,
         "match_count": 0,
-        "max_similarity": 0.6481138467788696,
+        "max_similarity": 0.6480627059936523,
         "avg_similarity": 0.0,
         "total_clicks": 0,
         "top_matches": []
       },
       "project_score": 21,
-      "proposed_title": "La France, patrie de Descartes et Pasteur, dernière en mathématiques : comment c'est possible !",
+      "proposed_title": "La France, patrie de Descartes et Pasteur, dégringole en mathématiques !",
       "external_sources": [
         {
           "source": "discover",
@@ -3773,10 +3874,10 @@
       "topical_match": true,
       "topical_reason": "category:/Science",
       "source_origin": "discover",
-      "project_rank": 51
+      "project_rank": 52
     },
     {
-      "id": "g_71627316",
+      "id": "g_57873241",
       "title": "Le célèbre jeu de course en monde ouvert avec une physique des collisions arrive enfin sur PS5 après 11 ans d'attente. Il a déjà conquis près de 400.000 joueurs sur Steam avec 97 % d'avis positifs",
       "theme": "actualité",
       "global_score": 25,
@@ -3796,13 +3897,13 @@
       "affinity": {
         "score": 10,
         "match_count": 0,
-        "max_similarity": 0.6316421031951904,
+        "max_similarity": 0.6316420435905457,
         "avg_similarity": 0.0,
         "total_clicks": 0,
         "top_matches": []
       },
       "project_score": 18,
-      "proposed_title": "Après 11 ans d'attente, ce jeu de course culte débarque enfin sur PS5 avec une physique révolutionnaire !",
+      "proposed_title": "« 11 ans d'attente récompensée ! » Ce jeu de course culte arrive enfin sur PS5 avec une physique impressionnante",
       "external_sources": [
         {
           "source": "gnews",
@@ -3817,18 +3918,18 @@
       "topical_match": true,
       "topical_reason": "theme:sciences(physique)",
       "source_origin": "gnews",
-      "project_rank": 52
+      "project_rank": 53
     }
   ],
   "project_tier_counts": {
-    "high": 13,
+    "high": 14,
     "medium": 36,
     "low": 3
   },
   "topical_filter": {
     "total_candidates": 80,
-    "kept": 52,
-    "excluded_off_topic": 28,
+    "kept": 53,
+    "excluded_off_topic": 27,
     "strict_topical": true,
     "extra_candidates": {
       "discover": 20,
@@ -3848,36 +3949,36 @@
             "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-ils-ont-mis-10-ans-ia-trouve-48-heures-ce-quils-cherchaient-c7g3-127847/",
             "title": "Ils ont mis 10 ans… l’IA a trouvé en 48 heures ce qu’ils cherchaient",
             "clicks": 50796,
-            "similarity": 0.6525761485099792,
-            "score": 1.1576510964049247
+            "similarity": 0.653141975402832,
+            "score": 1.1586548568463415
           },
           {
             "url": "https://www.futura-sciences.com/sante/actualites/amour-verite-amour-ce-philosophes-savent-et-personne-ne-dit-122143/",
             "title": "La vérité sur l’amour : ce que les philosophes savent (et que personne ne dit)",
             "clicks": 16255,
-            "similarity": 0.6824674010276794,
-            "score": 1.155135419235687
+            "similarity": 0.682607889175415,
+            "score": 1.1553732076416796
           },
           {
             "url": "https://www.futura-sciences.com/sante/actualites/cerveau-avons-nous-parfois-trou-memoire-science-trouve-explication-122417/",
             "title": "Pourquoi avons-nous parfois un trou de mémoire ? La science a trouvé l'explication",
             "clicks": 37886,
-            "similarity": 0.6486791968345642,
-            "score": 1.1371514664027325
+            "similarity": 0.649489164352417,
+            "score": 1.1385713604815921
           },
           {
             "url": "https://www.futura-sciences.com/sciences/ephemerides/univers-passage-heure-ete-9958/",
             "title": "Passage à l'heure d'été",
             "clicks": 20617,
-            "similarity": 0.6526418328285217,
-            "score": 1.1157340899080628
+            "similarity": 0.6531754732131958,
+            "score": 1.1166463832042985
           },
           {
             "url": "https://www.futura-sciences.com/sante/actualites/maladie-auto-immune-patient-guerit-syndrome-guillain-barre-son-recit-tout-change-mauvaises-raisons-130795/",
             "title": "Le récit d'un patient atteint du syndrome de Guillain-Barré",
             "clicks": 12292,
-            "similarity": 0.656093180179596,
-            "score": 1.0973995085559383
+            "similarity": 0.6551621556282043,
+            "score": 1.0958422512699062
           }
         ]
       },
@@ -3892,8 +3993,8 @@
             "url": "https://www.futura-sciences.com/nl/werd-het-geheim-van-de-egyptische-piramides-eindelijk-onthuld-met-waterkracht_19193/",
             "title": "Contributors",
             "clicks": 11058,
-            "similarity": 0.6562800407409668,
-            "score": 1.0927531381858235
+            "similarity": 0.6560720205307007,
+            "score": 1.0924067696792974
           },
           {
             "url": "https://www.futura-sciences.com/en/its-not-the-great-wall-heres-the-most-visible-human-made-structure-from-space_24815/",
@@ -3913,15 +4014,15 @@
             "url": "https://www.futura-sciences.com/en/no-its-not-the-great-wall-heres-the-most-visible-human-made-structure-from-space_24815/",
             "title": "Forget the Great Wall: the human landmark astronauts actually see from space",
             "clicks": 10522,
-            "similarity": 0.5409043431282043,
-            "score": 0.8987248761917186
+            "similarity": 0.5412082076072693,
+            "score": 0.8992297539391356
           },
           {
             "url": "https://www.futura-sciences.com/planete/",
             "title": null,
             "clicks": 130,
-            "similarity": 0.6663286685943604,
-            "score": 0.8983632215588898
+            "similarity": 0.666823148727417,
+            "score": 0.899029893707736
           }
         ]
       },
@@ -3936,36 +4037,36 @@
             "url": "https://www.futura-sciences.com/sante/actualites/demence-science-alerte-certains-sports-populaires-augmenteraient-risque-maladies-neurodegeneratives-125349/",
             "title": "La science alerte : certains sports populaires augmenteraient le risque de maladies neurodégénératives",
             "clicks": 80263,
-            "similarity": 0.5852158665657043,
-            "score": 1.0572792621935823
+            "similarity": 0.5844874978065491,
+            "score": 1.0559633559984825
           },
           {
             "url": "https://www.futura-sciences.com/sciences/",
             "title": null,
             "clicks": 55,
-            "similarity": 0.6468834280967712,
-            "score": 0.8328786638823347
+            "similarity": 0.6460849642753601,
+            "score": 0.8318506216542444
           },
           {
             "url": "https://www.futura-sciences.com/planete/",
             "title": null,
             "clicks": 130,
-            "similarity": 0.6174270510673523,
-            "score": 0.8324326729698907
+            "similarity": 0.6160556674003601,
+            "score": 0.8305837345898697
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/",
             "title": null,
             "clicks": 103,
-            "similarity": 0.6210148930549622,
-            "score": 0.8270317443075135
+            "similarity": 0.6184110045433044,
+            "score": 0.8235640360740042
           },
           {
-            "url": "https://www.futura-sciences.com/tech/",
+            "url": "https://www.futura-sciences.com/en/why-do-some-get-headaches-after-exercise-the-shocking-reason-experts-reveal_31654/",
             "title": null,
-            "clicks": 8,
-            "similarity": 0.6385314464569092,
-            "score": 0.7387455169967068
+            "clicks": 134,
+            "similarity": 0.5625695586204529,
+            "score": 0.7596808634074633
           }
         ]
       },
@@ -3980,29 +4081,29 @@
             "url": "https://www.futura-sciences.com/sante/actualites/tabac-alternatives-cigarette-ce-disent-experts-123459/",
             "title": "Alternatives à la cigarette : ce que disent les experts",
             "clicks": 16254,
-            "similarity": 0.7289542555809021,
-            "score": 1.2338152596558989
+            "similarity": 0.7289541959762573,
+            "score": 1.2338151587701165
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/developpement-durable-votre-marc-cafe-cache-potentiel-insoupconne-et-valide-science-125203/",
             "title": null,
             "clicks": 11410,
-            "similarity": 0.7151740789413452,
-            "score": 1.1924165401326527
+            "similarity": 0.7147692441940308,
+            "score": 1.1917415553101705
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/agriculture-si-solution-rechauffement-climatique-trouvait-sous-nos-pieds-122706/",
             "title": null,
             "clicks": 1628,
-            "similarity": 0.7156144380569458,
-            "score": 1.0936490925544717
+            "similarity": 0.7186011672019958,
+            "score": 1.0982136086478853
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/environnement-5-avancees-environnement-ont-lieu-ce-moment-france-126291/",
             "title": null,
             "clicks": 889,
-            "similarity": 0.722284734249115,
-            "score": 1.072655847779977
+            "similarity": 0.7224658131599426,
+            "score": 1.0729247657612089
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/environnement-imparfaite-mais-engagee-jour-jai-sauve-chauves-souris-mort-certaine-124765/",
@@ -4024,22 +4125,22 @@
             "url": "https://www.futura-sciences.com/sciences/actualites/",
             "title": null,
             "clicks": 103,
-            "similarity": 0.6990469694137573,
-            "score": 0.9309503539007296
+            "similarity": 0.6977428793907166,
+            "score": 0.9292136421752123
           },
           {
             "url": "https://www.futura-sciences.com/sciences/espace/aeronautique/diaporamas/",
             "title": null,
             "clicks": 1671,
-            "similarity": 0.5920801162719727,
-            "score": 0.9059576787609466
+            "similarity": 0.5938636064529419,
+            "score": 0.9086866449600102
           },
           {
             "url": "https://www.futura-sciences.com/sciences/",
             "title": null,
             "clicks": 55,
-            "similarity": 0.6756126880645752,
-            "score": 0.8698683077919221
+            "similarity": 0.6744857430458069,
+            "score": 0.8684173377705349
           },
           {
             "url": "https://www.futura-sciences.com/tech/actualites/technologie-ce-sera-croisement-theatre-cinema-hologramme-jan-kounen-teste-nouveau-genre-128452/",
@@ -4052,8 +4153,8 @@
             "url": "https://www.futura-sciences.com/planete/",
             "title": null,
             "clicks": 130,
-            "similarity": 0.6023020148277283,
-            "score": 0.8120406698596426
+            "similarity": 0.6017947793006897,
+            "score": 0.811356800526629
           }
         ]
       },
@@ -4068,36 +4169,36 @@
             "url": "https://www.futura-sciences.com/nl/werd-het-geheim-van-de-egyptische-piramides-eindelijk-onthuld-met-waterkracht_19193/",
             "title": "Contributors",
             "clicks": 11058,
-            "similarity": 0.5411261916160583,
-            "score": 0.9010137553099584
+            "similarity": 0.5407977104187012,
+            "score": 0.9004668106568164
           },
           {
             "url": "https://www.futura-sciences.com/planete/",
             "title": null,
             "clicks": 130,
-            "similarity": 0.644335925579071,
-            "score": 0.8687119812666013
+            "similarity": 0.6448906660079956,
+            "score": 0.8694598980565376
           },
           {
             "url": "https://www.futura-sciences.com/sciences/ephemerides/univers-passage-heure-ete-9958/",
             "title": "Passage à l'heure d'été",
             "clicks": 20617,
-            "similarity": 0.4907572269439697,
-            "score": 0.8389817207963159
+            "similarity": 0.4907572865486145,
+            "score": 0.838981822694372
           },
           {
             "url": "https://www.futura-sciences.com/sciences/",
             "title": null,
             "clicks": 55,
-            "similarity": 0.5880524516105652,
-            "score": 0.7571323037771036
+            "similarity": 0.5880998969078064,
+            "score": 0.7571933907891639
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/",
             "title": null,
             "clicks": 103,
-            "similarity": 0.5228003263473511,
-            "score": 0.6962352604727637
+            "similarity": 0.5214009284973145,
+            "score": 0.6943716232913708
           }
         ]
       },
@@ -4112,36 +4213,36 @@
             "url": "https://www.futura-sciences.com/sciences/actualites/",
             "title": null,
             "clicks": 103,
-            "similarity": 0.6965740323066711,
-            "score": 0.9276570391797648
+            "similarity": 0.6954693794250488,
+            "score": 0.9261859263131341
           },
           {
             "url": "https://www.futura-sciences.com/sciences/",
             "title": null,
             "clicks": 55,
-            "similarity": 0.6972763538360596,
-            "score": 0.897760821680604
+            "similarity": 0.6957624554634094,
+            "score": 0.895811639495529
           },
           {
             "url": "https://www.futura-sciences.com/planete/",
             "title": null,
             "clicks": 130,
-            "similarity": 0.660108208656311,
-            "score": 0.8899766209323363
+            "similarity": 0.6605284810066223,
+            "score": 0.8905432440424514
           },
           {
             "url": "https://www.futura-sciences.com/tech/",
             "title": null,
             "clicks": 8,
-            "similarity": 0.6692374348640442,
-            "score": 0.7742706448609531
+            "similarity": 0.6712849736213684,
+            "score": 0.776639533795466
           },
           {
             "url": "https://www.futura-sciences.com/sciences/histoire/archeologie/pyramide-kheops/actualites/",
             "title": null,
-            "clicks": 2,
-            "similarity": 0.6228922605514526,
-            "score": 0.671772052834173
+            "clicks": 4,
+            "similarity": 0.622826874256134,
+            "score": 0.6944269588497517
           }
         ]
       },
@@ -4153,11 +4254,18 @@
         "query": "Météo",
         "matches": [
           {
+            "url": "https://www.futura-sciences.com/planete/actualites/meteorologie-apres-temperatures-extremes-mai-prevoit-meteo-juin-134850/",
+            "title": null,
+            "clicks": 15134,
+            "similarity": 0.6588895916938782,
+            "score": 1.1118651364734826
+          },
+          {
             "url": "https://www.futura-sciences.com/planete/actualites/meteorologie-moitie-donnees-meteo-mondiale-disparu-surveillance-devient-floue-avec-consequences-128063/",
             "title": null,
             "clicks": 1658,
-            "similarity": 0.6576455235481262,
-            "score": 1.0059144073383084
+            "similarity": 0.6564534902572632,
+            "score": 1.004091109804347
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/meteorologie-ce-passe-10-km-dessus-nos-tetes-pourrait-bouleverser-tout-climat-mondial-c7g3-128513/",
@@ -4165,13 +4273,6 @@
             "clicks": 1494,
             "similarity": 0.6580007076263428,
             "score": 1.001565506936158
-          },
-          {
-            "url": "https://www.futura-sciences.com/planete/actualites/meteorologie-jamais-debut-ete-navait-ete-aussi-extreme-2025-nouvelle-dimension-123819/",
-            "title": null,
-            "clicks": 1252,
-            "similarity": 0.64931321144104,
-            "score": 0.9801520189148218
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/elon-musk-si-elon-musk-jouait-meteo-depuis-espace-w2t8-131002/",
@@ -4184,8 +4285,8 @@
             "url": "https://www.futura-sciences.com/planete/",
             "title": null,
             "clicks": 130,
-            "similarity": 0.6796759963035583,
-            "score": 0.9163584675766429
+            "similarity": 0.6802845001220703,
+            "score": 0.9171788696942382
           }
         ]
       }
@@ -4205,36 +4306,36 @@
             "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-ce-rafale-fait-sensation-bourget-et-ce-nest-pas-quune-question-allure-122969/",
             "title": "Pourquoi ce Rafale fait sensation au Bourget (et ce n’est pas qu’une question d’allure)",
             "clicks": 111298,
-            "similarity": 0.5838655829429626,
-            "score": 1.0684729972102351
+            "similarity": 0.5838657021522522,
+            "score": 1.0684732153630268
           },
           {
             "url": "https://www.futura-sciences.com/planete/breves/meteorologie-neige-rose-filmee-normandie-10853/",
             "title": "De la neige rose filmée en Normandie !",
             "clicks": 45581,
-            "similarity": 0.5890765190124512,
-            "score": 1.0404466474708947
-          },
-          {
-            "url": "https://www.futura-sciences.com/conso/guides-achat/guides-smartphones-sont-meilleurs-smartphones-5g-1081/",
-            "title": "Quels sont les meilleurs smartphones 5G ?",
-            "clicks": 24433,
-            "similarity": 0.5739012956619263,
-            "score": 0.9880830274709521
+            "similarity": 0.5874780416488647,
+            "score": 1.0376233632958782
           },
           {
             "url": "https://www.futura-sciences.com/maison/actualites/architecture-tout-savoir-link-immeuble-record-va-redessiner-ciel-paris-2025-123008/",
             "title": "Tout savoir sur The Link : l’immeuble record qui va redessiner le ciel de Paris en 2025",
             "clicks": 22692,
-            "similarity": 0.5747030973434448,
-            "score": 0.986429090137092
+            "similarity": 0.5747031569480896,
+            "score": 0.986429192443406
+          },
+          {
+            "url": "https://www.futura-sciences.com/planete/breves/oiseaux-photo-semaine-derriere-cette-image-splendide-an-preparation-course-montre-10812/",
+            "title": "Photo de la semaine : derrière cette image splendide, un an de préparation et une course contre la montre",
+            "clicks": 20846,
+            "similarity": 0.5733264684677124,
+            "score": 0.9805916008119496
           },
           {
             "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-ils-ont-invente-intelligence-artificielle-yann-lecun-francais-revolutionne-ia-129601/",
             "title": "Ils ont inventé l’intelligence artificielle : Yann LeCun, le Français qui révolutionne l'IA",
             "clicks": 10047,
-            "similarity": 0.5752701163291931,
-            "score": 0.9539264211717323
+            "similarity": 0.5744621753692627,
+            "score": 0.9525866744917858
           }
         ]
       },
@@ -4252,8 +4353,8 @@
             "url": "https://www.futura-sciences.com/planete/actualites/rechauffement-climatique-ce-changement-invisible-pluie-augmente-fortement-risque-inondations-w2t8-130130/",
             "title": "Ce changement invisible dans la pluie augmente fortement le risque d’inondations",
             "clicks": 48696,
-            "similarity": 0.686217188835144,
-            "score": 1.2152598942665098
+            "similarity": 0.6857143640518188,
+            "score": 1.2143694141051842
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/meteorologie-episode-mediterraneen-pluies-record-cette-nuit-mais-pire-pourrait-produire-ce-lundi-apres-midi-125112/",
@@ -4263,25 +4364,25 @@
             "score": 1.202290361879474
           },
           {
+            "url": "https://www.futura-sciences.com/planete/actualites/meteorologie-alerte-rouge-alpes-pluies-exceptionnelles-font-craindre-pire-prochaines-heures-125040/",
+            "title": "Alerte rouge dans les Alpes : des pluies exceptionnelles font craindre le pire dans les prochaines heures",
+            "clicks": 35756,
+            "similarity": 0.6661990880966187,
+            "score": 1.1651108900461087
+          },
+          {
             "url": "https://www.futura-sciences.com/planete/actualites/meteorologie-jour-orage-geant-change-histoire-meteo-var-122611/",
             "title": "Le jour où un orage géant a changé l’histoire de la météo du Var",
             "clicks": 17688,
-            "similarity": 0.6734702587127686,
-            "score": 1.1439709290812352
+            "similarity": 0.6744345426559448,
+            "score": 1.1456088823302502
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/meteorologie-pluie-vent-temperatures-ex-ouragan-melissa-faut-il-attendre-novembre-126918/",
             "title": null,
             "clicks": 5015,
-            "similarity": 0.6804379820823669,
-            "score": 1.0945519587457628
-          },
-          {
-            "url": "https://www.futura-sciences.com/planete/actualites/meteorologie-jour-gigantesque-tornade-devenue-invisible-122411/",
-            "title": null,
-            "clicks": 6421,
-            "similarity": 0.6697523593902588,
-            "score": 1.0891840508698933
+            "similarity": 0.6804333329200745,
+            "score": 1.0945444801072568
           }
         ]
       },
@@ -4300,15 +4401,8 @@
             "url": "https://www.futura-sciences.com/sciences/actualites/homme-cette-rencontre-sapiens-neandertal-eu-lieu-il-y-60-000-ans-ces-montagnes-moyen-orient-k2m6-133546/",
             "title": "Cette rencontre entre Sapiens et Néandertal a eu lieu il y a 60 000 ans dans ces montagnes du Moyen-Orient",
             "clicks": 12140,
-            "similarity": 0.5377463102340698,
-            "score": 0.8989713803456609
-          },
-          {
-            "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-attaque-massive-installations-nucleaires-iran-quest-ce-quisrael-cible-tout-na-pas-ete-detruit-122844/",
-            "title": null,
-            "clicks": 4328,
-            "similarity": 0.5471269488334656,
-            "score": 0.8743515341758439
+            "similarity": 0.537746250629425,
+            "score": 0.8989712807022626
           },
           {
             "url": "https://www.futura-sciences.com/en/top-10-diamond-producing-countries_17822/",
@@ -4318,18 +4412,25 @@
             "score": 0.8741427550300174
           },
           {
+            "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-attaque-massive-installations-nucleaires-iran-quest-ce-quisrael-cible-tout-na-pas-ete-detruit-122844/",
+            "title": null,
+            "clicks": 4328,
+            "similarity": 0.5448797941207886,
+            "score": 0.8707604056914057
+          },
+          {
             "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-entree-guerre-etats-unis-3-scenarios-pourraient-bouleverser-moyen-orient-124875/",
             "title": null,
             "clicks": 122,
-            "similarity": 0.5655108690261841,
-            "score": 0.7598924802205315
+            "similarity": 0.5664612650871277,
+            "score": 0.7611695534997522
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/orque-on-etait-completement-paniques-orques-sement-nouveau-terreur-mediterranee-125473/",
             "title": null,
             "clicks": 589,
-            "similarity": 0.5099135637283325,
-            "score": 0.7422929222864759
+            "similarity": 0.5099135041236877,
+            "score": 0.7422928355186214
           }
         ]
       },
@@ -4347,8 +4448,8 @@
             "url": "https://www.futura-sciences.com/sante/questions-reponses/maladies-cardiovasculaires-traitement-hypertension-matin-soir-meilleur-moment-selon-science-w2t8-25135/",
             "title": "Traitement de l’hypertension : matin ou soir, quel est le meilleur moment selon la science ?",
             "clicks": 119920,
-            "similarity": 0.6049039363861084,
-            "score": 1.1101969793080508
+            "similarity": 0.6049038767814636,
+            "score": 1.1101968699139924
           },
           {
             "url": "https://www.futura-sciences.com/sante/actualites/alimentation-meilleur-cafe-supermarche-cache-ce-nest-pas-grande-marque-w2t8-130058/",
@@ -4361,8 +4462,8 @@
             "url": "https://www.futura-sciences.com/tech/actualites/technologie-2026-bouygues-invente-hopital-connecte-futur-131118/",
             "title": null,
             "clicks": 544,
-            "similarity": 0.6345754861831665,
-            "score": 0.9201700725391964
+            "similarity": 0.6345754265785217,
+            "score": 0.9201699861091159
           },
           {
             "url": "https://www.futura-sciences.com/sante/actualites/medecine-ia-nest-plus-simple-outil-medical-quelque-chose-train-changer-130040/",
@@ -4375,8 +4476,8 @@
             "url": "https://www.futura-sciences.com/sante/questions-reponses/medecine-teleconsultation-vers-medecine-frontieres-physiques-25038/",
             "title": null,
             "clicks": 132,
-            "similarity": 0.6011530756950378,
-            "score": 0.8111422485273989
+            "similarity": 0.6029841899871826,
+            "score": 0.8136129905468482
           }
         ]
       },
@@ -4394,36 +4495,36 @@
             "url": "https://www.futura-sciences.com/sante/actualites/sport-course-pied-nest-peut-etre-pas-meilleur-sport-controler-votre-glycemie-voici-k2m6-133565/",
             "title": "La course à pied n'est peut-être pas le meilleur sport pour contrôler votre glycémie et voici pourquoi",
             "clicks": 21037,
-            "similarity": 0.6427518129348755,
-            "score": 1.0997522821430912
+            "similarity": 0.6416113376617432,
+            "score": 1.0978009219771385
+          },
+          {
+            "url": "https://www.futura-sciences.com/en/what-is-the-ideal-distance-to-walk-every-day-to-get-back-in-shape_33084/",
+            "title": null,
+            "clicks": 53544,
+            "similarity": 0.5985738039016724,
+            "score": 1.0641050754249972
           },
           {
             "url": "https://www.futura-sciences.com/en/what-is-the-ideal-distance-to-walk-every-day-to-get-back-in-shape_22730/",
             "title": "What Is The Ideal Distance To Walk Every Day To Get Back In Shape?",
             "clicks": 61921,
-            "similarity": 0.5921233296394348,
-            "score": 1.0587854876208225
+            "similarity": 0.5896668434143066,
+            "score": 1.0543930041034275
           },
           {
             "url": "https://www.futura-sciences.com/sante/actualites/sport-science-revele-distance-ideale-parcourir-tous-jours-forme-optimale-123710/",
             "title": "La science révèle la distance idéale à parcourir tous les jours pour une forme optimale",
             "clicks": 7549,
-            "similarity": 0.6293883323669434,
-            "score": 1.0308168341582844
+            "similarity": 0.6284470558166504,
+            "score": 1.029275204509715
           },
           {
             "url": "https://www.futura-sciences.com/sante/actualites/sport-vous-faites-sport-mais-ne-perdez-pas-poids-science-pense-avoir-trouve-131327/",
             "title": "Vous faites du sport mais ne perdez pas de poids ? La science pense avoir trouvé pourquoi",
             "clicks": 26341,
-            "similarity": 0.5826135277748108,
-            "score": 1.0062118444438912
-          },
-          {
-            "url": "https://www.futura-sciences.com/sciences/actualites/physique-medailles-france-olympiades-internationales-physique-2025-124410/",
-            "title": null,
-            "clicks": 1913,
-            "similarity": 0.625593364238739,
-            "score": 0.9632775165052686
+            "similarity": 0.5827178955078125,
+            "score": 1.00639209437651
           }
         ]
       },
@@ -4441,22 +4542,15 @@
             "url": "https://www.futura-sciences.com/tech/actualites/realite-augmentee-casque-moto-realite-augmentee-grace-tech-francaise-motards-decouvrent-nouvelle-facon-voir-route-127870/",
             "title": "Un casque moto avec réalité augmentée grâce à une tech française : les motards découvrent une nouvelle façon de voir la route",
             "clicks": 14905,
-            "similarity": 0.6447017788887024,
-            "score": 1.0872213542527152
-          },
-          {
-            "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-ce-rafale-fait-sensation-bourget-et-ce-nest-pas-quune-question-allure-122969/",
-            "title": "Pourquoi ce Rafale fait sensation au Bourget (et ce n’est pas qu’une question d’allure)",
-            "clicks": 111298,
-            "similarity": 0.5768414735794067,
-            "score": 1.05561888934078
+            "similarity": 0.6447018384933472,
+            "score": 1.0872214547696437
           },
           {
             "url": "https://www.futura-sciences.com/automobile/actualites/automobile-cette-moto-electrique-bien-concue-performante-coute-moins-cher-quun-iphone-124056/",
             "title": "Cette moto électrique bien conçue et performante coûte moins cher qu'un iPhone !",
             "clicks": 9833,
-            "similarity": 0.6100332140922546,
-            "score": 1.0106333566905554
+            "similarity": 0.6100333333015442,
+            "score": 1.0106335541828912
           },
           {
             "url": "https://www.futura-sciences.com/tech/actualites/tech-voici-plus-petit-moteur-velo-electrique-monde-123295/",
@@ -4471,6 +4565,13 @@
             "clicks": 15265,
             "similarity": 0.5904112458229065,
             "score": 0.9966725245357817
+          },
+          {
+            "url": "https://www.futura-sciences.com/planete/breves/oiseaux-photo-semaine-derriere-cette-image-splendide-an-preparation-course-montre-10812/",
+            "title": "Photo de la semaine : derrière cette image splendide, un an de préparation et une course contre la montre",
+            "clicks": 20846,
+            "similarity": 0.5810567140579224,
+            "score": 0.9938130624308988
           }
         ]
       },
@@ -4488,8 +4589,8 @@
             "url": "https://www.futura-sciences.com/en/before-and-after-the-astonishing-transformation-of-billionaire-bryan-johnson_20872/",
             "title": "Before and after: the astonishing transformation of billionaire Bryan Johnson",
             "clicks": 9282,
-            "similarity": 0.563332200050354,
-            "score": 0.9309442863043971
+            "similarity": 0.5625097751617432,
+            "score": 0.9295851739531089
           },
           {
             "url": "https://www.futura-sciences.com/sante/actualites/tabac-alternatives-cigarette-ce-disent-experts-123459/",
@@ -4499,25 +4600,25 @@
             "score": 0.9231222595843075
           },
           {
-            "url": "https://www.futura-sciences.com/conso/guides-achat/guides-smartphones-sont-meilleurs-smartphones-5g-1081/",
-            "title": "Quels sont les meilleurs smartphones 5G ?",
-            "clicks": 24433,
-            "similarity": 0.5338156223297119,
-            "score": 0.9190677215922245
-          },
-          {
             "url": "https://www.futura-sciences.com/en/steve-jobs-a-visionary-genius-of-the-21st-century_18214/",
             "title": null,
             "clicks": 323,
-            "similarity": 0.5612049698829651,
-            "score": 0.792932254931635
+            "similarity": 0.5612013936042786,
+            "score": 0.7929272019708179
           },
           {
             "url": "https://www.futura-sciences.com/en/only-15-and-already-a-phd-this-belgian-genius-is-stunning-the-scientific-world_24811/",
             "title": null,
             "clicks": 309,
-            "similarity": 0.5371752977371216,
-            "score": 0.7572856500149009
+            "similarity": 0.5379604697227478,
+            "score": 0.7583925502763484
+          },
+          {
+            "url": "https://www.futura-sciences.com/sciences/actualites/",
+            "title": null,
+            "clicks": 103,
+            "similarity": 0.5320375561714172,
+            "score": 0.7085368693059848
           }
         ]
       },
@@ -4549,22 +4650,22 @@
             "url": "https://www.futura-sciences.com/tech/actualites/jeux-video-playstation-6-date-sortie-innovations-majeures-tout-ce-quon-sait-deja-126576/",
             "title": "PlayStation 6 : date de sortie et innovations majeures, tout ce qu’on sait déjà",
             "clicks": 70402,
-            "similarity": 0.6222105026245117,
-            "score": 1.1182896545362873
+            "similarity": 0.623714804649353,
+            "score": 1.1209933141250954
           },
           {
             "url": "https://www.futura-sciences.com/conso/guides-achat/guides-smartphones-sont-meilleurs-smartphones-5g-1081/",
             "title": "Quels sont les meilleurs smartphones 5G ?",
             "clicks": 24433,
-            "similarity": 0.6421767473220825,
-            "score": 1.1056325355279164
+            "similarity": 0.6407909989356995,
+            "score": 1.103246699372326
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/meteorologie-alerte-rouge-alpes-pluies-exceptionnelles-font-craindre-pire-prochaines-heures-125040/",
             "title": "Alerte rouge dans les Alpes : des pluies exceptionnelles font craindre le pire dans les prochaines heures",
             "clicks": 35756,
-            "similarity": 0.6269651651382446,
-            "score": 1.0964949586904624
+            "similarity": 0.6276810765266418,
+            "score": 1.0977470110721503
           }
         ]
       }
@@ -4580,36 +4681,36 @@
             "url": "https://www.futura-sciences.com/nl/werd-het-geheim-van-de-egyptische-piramides-eindelijk-onthuld-met-waterkracht_19193/",
             "title": "Contributors",
             "clicks": 11058,
-            "similarity": 0.5286085605621338,
-            "score": 0.8801710056182497
+            "similarity": 0.5274761319160461,
+            "score": 0.8782854310464759
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/",
             "title": null,
             "clicks": 103,
-            "similarity": 0.5571686625480652,
-            "score": 0.7420050243784226
+            "similarity": 0.5563569068908691,
+            "score": 0.7409239751078974
           },
           {
             "url": "https://www.futura-sciences.com/planete/",
             "title": null,
             "clicks": 130,
-            "similarity": 0.5423683524131775,
-            "score": 0.7312364052613018
+            "similarity": 0.5426056385040283,
+            "score": 0.7315563211032204
           },
           {
             "url": "https://www.futura-sciences.com/sciences/",
             "title": null,
             "clicks": 55,
-            "similarity": 0.5539640784263611,
-            "score": 0.7132426669763676
+            "similarity": 0.5543539524078369,
+            "score": 0.7137446395214511
           },
           {
             "url": "https://www.futura-sciences.com/sciences/paris-saclay-summit/",
             "title": null,
             "clicks": 7,
-            "similarity": 0.576985776424408,
-            "score": 0.6626863615997871
+            "similarity": 0.5763381123542786,
+            "score": 0.6619424989887662
           }
         ]
       },
@@ -4623,36 +4724,36 @@
             "url": "https://www.futura-sciences.com/sante/actualites/demence-science-alerte-certains-sports-populaires-augmenteraient-risque-maladies-neurodegeneratives-125349/",
             "title": "La science alerte : certains sports populaires augmenteraient le risque de maladies neurodégénératives",
             "clicks": 80263,
-            "similarity": 0.5844874382019043,
-            "score": 1.055963248313851
+            "similarity": 0.5844874978065491,
+            "score": 1.0559633559984825
           },
           {
             "url": "https://www.futura-sciences.com/sciences/",
             "title": null,
             "clicks": 55,
-            "similarity": 0.645790159702301,
-            "score": 0.8314710533607138
+            "similarity": 0.6460849642753601,
+            "score": 0.8318506216542444
           },
           {
             "url": "https://www.futura-sciences.com/planete/",
             "title": null,
             "clicks": 130,
-            "similarity": 0.6163563132286072,
-            "score": 0.8309890738279098
+            "similarity": 0.6160556674003601,
+            "score": 0.8305837345898697
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/",
             "title": null,
             "clicks": 103,
-            "similarity": 0.619536817073822,
-            "score": 0.8250633281381557
+            "similarity": 0.6184110045433044,
+            "score": 0.8235640360740042
           },
           {
-            "url": "https://www.futura-sciences.com/tech/",
+            "url": "https://www.futura-sciences.com/en/why-do-some-get-headaches-after-exercise-the-shocking-reason-experts-reveal_31654/",
             "title": null,
-            "clicks": 8,
-            "similarity": 0.63653165102005,
-            "score": 0.7364318644395969
+            "clicks": 134,
+            "similarity": 0.5625695586204529,
+            "score": 0.7596808634074633
           }
         ]
       },
@@ -4666,36 +4767,36 @@
             "url": "https://www.futura-sciences.com/sciences/ephemerides/univers-passage-heure-ete-9958/",
             "title": "Passage à l'heure d'été",
             "clicks": 20617,
-            "similarity": 0.6290217041969299,
-            "score": 1.0753539282379714
+            "similarity": 0.6290218234062195,
+            "score": 1.0753541320340836
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/",
             "title": null,
             "clicks": 103,
-            "similarity": 0.6912751793861389,
-            "score": 0.9206003330963748
+            "similarity": 0.6898979544639587,
+            "score": 0.9187662245388629
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/parole-futur-ce-ia-revele-notre-rapport-science-innovation-130313/",
             "title": null,
             "clicks": 338,
-            "similarity": 0.6053707599639893,
-            "score": 0.8572914822893597
+            "similarity": 0.6049785017967224,
+            "score": 0.8567359886846202
           },
           {
             "url": "https://www.futura-sciences.com/sciences/",
             "title": null,
             "clicks": 55,
-            "similarity": 0.6060614585876465,
-            "score": 0.7803193526601603
+            "similarity": 0.6075772047042847,
+            "score": 0.7822709138620367
           },
           {
             "url": "https://www.futura-sciences.com/sciences/paris-saclay-summit/",
             "title": null,
             "clicks": 7,
-            "similarity": 0.6685689687728882,
-            "score": 0.7678725464260591
+            "similarity": 0.6669824123382568,
+            "score": 0.7660503363229711
           }
         ]
       },
@@ -4709,36 +4810,36 @@
             "url": "https://www.futura-sciences.com/nl/werd-het-geheim-van-de-egyptische-piramides-eindelijk-onthuld-met-waterkracht_19193/",
             "title": "Contributors",
             "clicks": 11058,
-            "similarity": 0.5412998199462891,
-            "score": 0.9013028588800188
+            "similarity": 0.5400192737579346,
+            "score": 0.8991706580220796
           },
           {
             "url": "https://www.futura-sciences.com/planete/",
             "title": null,
             "clicks": 130,
-            "similarity": 0.5225876569747925,
-            "score": 0.7045675102906117
+            "similarity": 0.5224232077598572,
+            "score": 0.7043457951919296
           },
           {
             "url": "https://blogs.futura-sciences.com/frankel/2025/10/07/femmes-sur-la-lune-et-sur-mars/",
             "title": null,
             "clicks": 191,
-            "similarity": 0.4973759651184082,
-            "score": 0.6841582390303997
+            "similarity": 0.498790979385376,
+            "score": 0.6861046412230772
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/",
             "title": null,
             "clicks": 103,
-            "similarity": 0.5009114742279053,
-            "score": 0.6670849522407318
+            "similarity": 0.5002274513244629,
+            "score": 0.6661740100696071
           },
           {
             "url": "https://www.futura-sciences.com/tech/personnalites/technologie-frederic-vacher-2609/",
             "title": null,
             "clicks": 6,
-            "similarity": 0.49653899669647217,
-            "score": 0.5655547304874299
+            "similarity": 0.4960327744483948,
+            "score": 0.564978146595766
           }
         ]
       },
@@ -4752,36 +4853,36 @@
             "url": "https://www.futura-sciences.com/sciences/actualites/gratte-ciel-chine-ces-gratte-ciels-sont-si-hauts-quun-nouveau-metier-improbable-vu-jour-k2m6-130505/",
             "title": "En Chine, ces gratte-ciels sont si hauts qu’un nouveau métier (improbable) a vu le jour",
             "clicks": 141369,
-            "similarity": 0.5685843229293823,
-            "score": 1.0502213747469886
+            "similarity": 0.5685842633247375,
+            "score": 1.0502212646523739
           },
           {
             "url": "https://www.futura-sciences.com/nl/in-china-zijn-deze-wolkenkrabbers-zo-hoog-dat-er-een-onwaarschijnlijk-beroep-is-ontstaan_20599/",
             "title": "In China: deze extreme wolkenkrabbers hebben een onwaarschijnlijk beroep doen ontstaan",
             "clicks": 36557,
-            "similarity": 0.5701723098754883,
-            "score": 0.9980725907734547
+            "similarity": 0.571057915687561,
+            "score": 0.9996228219438398
           },
           {
             "url": "https://www.futura-sciences.com/en/these-skyscrapers-are-so-tall-a-wild-new-job-had-to-be-invented_30568/",
             "title": null,
             "clicks": 4831,
-            "similarity": 0.6028408408164978,
-            "score": 0.9681200080399893
-          },
-          {
-            "url": "https://www.futura-sciences.com/formation/questions-reponses/emploi-reforme-2026-quest-ce-va-vraiment-changer-infirmieres-24741/",
-            "title": "Réforme 2026 : qu’est-ce qui va vraiment changer pour les infirmières ?",
-            "clicks": 21994,
-            "similarity": 0.5266616344451904,
-            "score": 0.9027947377860059
+            "similarity": 0.6030486226081848,
+            "score": 0.9684536909894825
           },
           {
             "url": "https://www.futura-sciences.com/sante/questions-reponses/corps-humain-passerait-il-combinaison-espace-science-repond-23128/",
             "title": "Que se passerait-il sans combinaison dans l’espace ? La science répond",
             "clicks": 11248,
-            "similarity": 0.5315213799476624,
-            "score": 0.8856677926263842
+            "similarity": 0.5317975878715515,
+            "score": 0.8861280346250803
+          },
+          {
+            "url": "https://www.futura-sciences.com/tech/questions-reponses/intelligence-artificielle-10-metiers-ia-ne-pourra-pas-remplacer-ici-2030-24805/",
+            "title": "10 métiers que l'IA ne pourra pas remplacer d'ici 2030",
+            "clicks": 8366,
+            "similarity": 0.5369599461555481,
+            "score": 0.8833777636425386
           }
         ]
       },
@@ -4795,36 +4896,36 @@
             "url": "https://www.futura-sciences.com/sciences/actualites/histoire-chercheurs-decouvrent-incroyable-sophistication-mathematique-calendrier-maya-126826/",
             "title": "Ce que les scientifiques découvrent aujourd’hui dans le calendrier maya dépasse toutes les attentes",
             "clicks": 283908,
-            "similarity": 0.6347918510437012,
-            "score": 1.2041280038318487
+            "similarity": 0.6363093256950378,
+            "score": 1.2070064807999685
           },
           {
             "url": "https://www.futura-sciences.com/sciences/ephemerides/univers-passage-heure-ete-9958/",
             "title": "Passage à l'heure d'été",
             "clicks": 20617,
-            "similarity": 0.6683034300804138,
-            "score": 1.14250861933198
+            "similarity": 0.6695859432220459,
+            "score": 1.1447011598050176
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/pi-day-nombre-pi-vient-franchir-cap-vertigineux-quete-decimales-132831/",
             "title": "Pi Day : le nombre π vient de franchir un cap vertigineux dans sa quête de décimales",
             "clicks": 64622,
-            "similarity": 0.6362791061401367,
-            "score": 1.139681577034751
+            "similarity": 0.6343885064125061,
+            "score": 1.1362951988583585
           },
           {
             "url": "https://www.futura-sciences.com/planete/questions-reponses/evolution-arrive-premier-oeuf-poule-science-repond-enfin-k2m6-25065/",
             "title": "Qui est arrivé en premier, l’œuf ou la poule ? La science répond enfin",
             "clicks": 69866,
-            "similarity": 0.6292511224746704,
-            "score": 1.1306001545172408
+            "similarity": 0.630461573600769,
+            "score": 1.1327750194977284
           },
           {
             "url": "https://www.futura-sciences.com/sante/actualites/tabac-alternatives-cigarette-ce-disent-experts-123459/",
             "title": "Alternatives à la cigarette : ce que disent les experts",
             "clicks": 16254,
-            "similarity": 0.6274271011352539,
-            "score": 1.0619721687274317
+            "similarity": 0.6280543804168701,
+            "score": 1.0630338906994192
           }
         ]
       },
@@ -4838,8 +4939,8 @@
             "url": "https://www.futura-sciences.com/en/mars-data-from-this-nasa-rover-leave-only-one-possible-explanation-2_25563/",
             "title": "Mars: Data from this NASA rover leave only one possible explanation",
             "clicks": 149022,
-            "similarity": 0.5138235092163086,
-            "score": 0.9510086247893298
+            "similarity": 0.5136597752571106,
+            "score": 0.9507055783062958
           },
           {
             "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-ce-rafale-fait-sensation-bourget-et-ce-nest-pas-quune-question-allure-122969/",
@@ -4859,15 +4960,15 @@
             "url": "https://www.futura-sciences.com/sciences/actualites/espace-mars-ce-quun-rover-nasa-vient-decouvrir-pourrait-tout-changer-recherche-vie-122883/",
             "title": "Mars : ce qu’un rover de la Nasa vient de découvrir pourrait tout changer sur la recherche de vie",
             "clicks": 32923,
-            "similarity": 0.49840474128723145,
-            "score": 0.8687179387348284
+            "similarity": 0.4986593425273895,
+            "score": 0.8691617079172367
           },
           {
             "url": "https://www.futura-sciences.com/nl/werd-het-geheim-van-de-egyptische-piramides-eindelijk-onthuld-met-waterkracht_19193/",
             "title": "Contributors",
             "clicks": 11058,
-            "similarity": 0.5205258727073669,
-            "score": 0.8667127530888862
+            "similarity": 0.5194260478019714,
+            "score": 0.864881466073866
           }
         ]
       },
@@ -4881,36 +4982,36 @@
             "url": "https://www.futura-sciences.com/nl/werd-het-geheim-van-de-egyptische-piramides-eindelijk-onthuld-met-waterkracht_19193/",
             "title": "Contributors",
             "clicks": 11058,
-            "similarity": 0.5819588303565979,
-            "score": 0.96900301500732
+            "similarity": 0.5816932916641235,
+            "score": 0.9685608741200495
           },
           {
             "url": "https://www.futura-sciences.com/conso/guides-achat/guides-smartphones-sont-meilleurs-smartphones-5g-1081/",
             "title": "Quels sont les meilleurs smartphones 5G ?",
             "clicks": 24433,
-            "similarity": 0.5419739484786987,
-            "score": 0.9331138714464233
+            "similarity": 0.540593147277832,
+            "score": 0.930736552835713
           },
           {
             "url": "https://www.futura-sciences.com/planete/",
             "title": null,
             "clicks": 130,
-            "similarity": 0.6485587358474731,
-            "score": 0.874405293914782
+            "similarity": 0.6492626667022705,
+            "score": 0.8753543534709384
           },
           {
             "url": "https://www.futura-sciences.com/sciences/",
             "title": null,
             "clicks": 55,
-            "similarity": 0.5987416505813599,
-            "score": 0.7708949159728764
+            "similarity": 0.5982692241668701,
+            "score": 0.7702866550965071
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/",
             "title": null,
             "clicks": 103,
-            "similarity": 0.5713953375816345,
-            "score": 0.7609512879870599
+            "similarity": 0.5705065727233887,
+            "score": 0.759767682313163
           }
         ]
       },
@@ -4924,36 +5025,36 @@
             "url": "https://www.futura-sciences.com/tech/actualites/technologie-satoshi-nakamoto-identite-createur-bitcoin-enfin-revelee-133763/",
             "title": null,
             "clicks": 4946,
-            "similarity": 0.5478568077087402,
-            "score": 0.8807399500290786
+            "similarity": 0.5478013157844543,
+            "score": 0.8806507406701095
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/homme-grains-riz-racontent-plus-vieux-extraordinaires-voyages-monde-123291/",
             "title": null,
             "clicks": 684,
-            "similarity": 0.5434969067573547,
-            "score": 0.796976831151549
+            "similarity": 0.5442323684692383,
+            "score": 0.7980553026888892
           },
           {
             "url": "https://www.futura-sciences.com/sciences/actualites/",
             "title": null,
             "clicks": 103,
-            "similarity": 0.5417551398277283,
-            "score": 0.7214781856119399
+            "similarity": 0.5416532158851624,
+            "score": 0.7213424491957127
           },
           {
             "url": "https://www.futura-sciences.com/en/antoine-de-saint-exupery-a-pioneer-of-aviation_18115/",
             "title": null,
             "clicks": 18,
-            "similarity": 0.5686151385307312,
-            "score": 0.6882046083903033
+            "similarity": 0.5686150193214417,
+            "score": 0.6882044641092653
           },
           {
             "url": "https://www.futura-sciences.com/nl/deze-franse-genie-verandert-wereldwijd-ons-begrip-van-kunstmatige-intelligentie_19778/",
             "title": null,
             "clicks": 6,
-            "similarity": 0.5617820024490356,
-            "score": 0.6398660953149068
+            "similarity": 0.5604022145271301,
+            "score": 0.6382945257272312
           }
         ]
       },
@@ -4967,36 +5068,36 @@
             "url": "https://www.futura-sciences.com/planete/questions-reponses/animaux-savez-vous-appelle-reellement-petit-tortue-24864/",
             "title": "Savez-vous comment s'appelle réellement le petit de la tortue ?",
             "clicks": 132335,
-            "similarity": 0.592499315738678,
-            "score": 1.091599554162444
+            "similarity": 0.5928402543067932,
+            "score": 1.0922276871898844
           },
           {
             "url": "https://www.futura-sciences.com/planete/actualites/meteorologie-supercellules-grelons-geants-5-images-plus-folles-orages-derniers-jours-122874/",
             "title": "Supercellules et grêlons géants : les 5 images les plus folles des orages des derniers jours",
             "clicks": 37405,
-            "similarity": 0.5806284546852112,
-            "score": 1.0173268460383742
+            "similarity": 0.5811785459518433,
+            "score": 1.0182906682706474
+          },
+          {
+            "url": "https://www.futura-sciences.com/en/why-is-a-baby-hedgehog-called-that-heres-the-answer_24860/",
+            "title": "What do you call a baby hedgehog? The centuries-old name explained",
+            "clicks": 25406,
+            "similarity": 0.5767363905906677,
+            "score": 0.9945728428034535
           },
           {
             "url": "https://www.futura-sciences.com/nl/werd-het-geheim-van-de-egyptische-piramides-eindelijk-onthuld-met-waterkracht_19193/",
             "title": "Contributors",
             "clicks": 11058,
-            "similarity": 0.5775349140167236,
-            "score": 0.9616368783532004
+            "similarity": 0.577440619468689,
+            "score": 0.9614798711963739
           },
           {
             "url": "https://www.futura-sciences.com/planete/",
             "title": null,
             "clicks": 130,
-            "similarity": 0.6772520542144775,
-            "score": 0.9130904400601134
-          },
-          {
-            "url": "https://www.futura-sciences.com/en/the-yellow-legged-hornet-learns-fast_19351/",
-            "title": null,
-            "clicks": 642,
-            "similarity": 0.5788774490356445,
-            "score": 0.8462421178257848
+            "similarity": 0.678014874458313,
+            "score": 0.9141188959618652
           }
         ]
       }

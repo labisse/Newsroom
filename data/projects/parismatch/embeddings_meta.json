@@ -2,8 +2,8 @@
   "project": "parismatch",
   "backend": "voyage",
   "dim": 1024,
-  "count": 12894,
+  "count": 13138,
   "used_titles": 2047,
-  "used_slugs": 10847,
+  "used_slugs": 11091,
   "index_file": "data/projects/parismatch/embeddings.npz"
 }
