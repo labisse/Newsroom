@@ -265,6 +265,31 @@ def cmd_enrich() -> int:
     return 0
 
 
+def cmd_predict_label(backfill: bool = False) -> int:
+    """Labellise les sujets historiques contre GSC discover_history.
+
+    Accumule du training data pour le futur modele predictif Discover.
+    Cf server/scoring/discover_labeler.py.
+    """
+    from server.scoring import discover_labeler
+
+    print(f"Editorial Signal — predict-label (backfill={backfill})\n")
+    stats = discover_labeler.label(backfill=backfill)
+
+    print("\n" + "─" * 60)
+    print(f"Projets         : {', '.join(stats['projects']) or '(aucun)'}")
+    print(f"Snapshots traités: {stats['snapshots_processed']}")
+    print(f"Labels écrits   : {stats['labels_written']}")
+    if stats.get("label_counts"):
+        c = stats["label_counts"]
+        print(f"  label=1 (hit) : {c.get(1, 0)}")
+        print(f"  label=0 (no)  : {c.get(0, 0)}")
+    if stats.get("hit_rate") is not None:
+        print(f"Hit rate        : {stats['hit_rate']:.1%}")
+    print(f"Fichier sortie  : data/training/labeled_sujets.jsonl")
+    return 0
+
+
 def cmd_all(top_n: int) -> int:
     """Fetch toutes les sources puis lance le scoring."""
     code = cmd_fetch_all()
@@ -961,6 +986,19 @@ def main(argv: list[str] | None = None) -> int:
         help="Enrichit data/sujets/latest.json avec llm_enrich + velocity",
     )
 
+    p_label = sub.add_parser(
+        "predict-label",
+        help=(
+            "Labellise les sujets contre GSC discover_history pour le "
+            "futur modele predictif Discover (B1 etape 2)"
+        ),
+    )
+    p_label.add_argument(
+        "--backfill",
+        action="store_true",
+        help="Re-traite tous les snapshots historiques (sinon : seulement latest)",
+    )
+
     # ── Commandes GSC ──
     p_gsc_conn = sub.add_parser(
         "gsc-connect", help="OAuth Google + persiste les tokens pour un projet"
@@ -1099,6 +1137,8 @@ def main(argv: list[str] | None = None) -> int:
         return cmd_all(args.top)
     if args.cmd == "enrich":
         return cmd_enrich()
+    if args.cmd == "predict-label":
+        return cmd_predict_label(backfill=args.backfill)
     if args.cmd == "gsc-connect":
         return cmd_gsc_connect(args.project)
     if args.cmd == "gsc-status":
